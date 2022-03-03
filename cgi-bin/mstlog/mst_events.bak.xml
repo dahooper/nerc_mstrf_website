@@ -1,0 +1,602 @@
+<?xml version="1.0" ?>
+<eventlog>
+<event added="2002-07-30 00:00" start="2002-07-30 00:00" 
+end="2002-07-30 00:00" author="SJP" number="9">A routine test of the MST Radar relays was conducted.</event>
+<event added="2002-08-27 00:00" start="2002-08-27 00:00" 
+end="2002-08-27 00:00" author="SJP" number="10">The hard-drive on the Master-PC, which controls the MST Radar, failed on 27th August. It was replaced almost immediately by the nominally identical Backup-PC
+ and normal operations were resumed with only a minor loss of coverage. The working hard-drive on the Backup-PC has been cloned so that the PC can be repaired quickly in the event of another hard-drive failure. Tests have shown 
+that the Backup-PC works with the cloned hard-drive. Although the Master and Backup PCs were supposed to be identical, there are slight differences between
+them which means that the Master-PC does not function correctly with the cloned hard-drive.
+Efforts to restore the Master-PC to working order are on-going. It is thought that the interface
+and network drivers will need to be reinstalled.</event>
+<event added="2002-10-01 00:00" start="2002-10-01 00:00" 
+end="2002-10-02 00:00" author="ZKO" number="12">
+Communications with the radar site were briefly interrupted on 1st October when a hedge trimmer
+accidentally cut through telephone lines approximately 1 km away. Although telephone
+and computer connections were restored later the same day, the Met Office's ISDN line remained
+inoperative for approximately 24 hours.</event>
+<event added="2002-10-31 00:00" start="2002-10-31 00:00" 
+end="2002-10-31 00:00" author="ZKO" number="13">
+On 31st October maintenance work was carried out on the site PC, which logs surface data, in
+order to replace a failed fan unit.</event>
+<event added="2002-11-04 00:00" start="2002-11-04 00:00" 
+end="2002-11-04 00:00" author="ZKO" number="14">A routine test and replacement of faulty relays.</event>
+<event added="2002-11-15 00:00" start="2002-11-15 00:01" 
+end="2002-12-11 00:00" author="ZKO" number="15">The Met Office is currently phasing-in a new data acquisition system. During late November
+it was necessary to make changes to the programs which write the MST Radar data to BUFR
+files so that the header and footer codes were acceptable by the new system.</event>
+<event added="2002-11-18 00:00" start="2002-11-18 00:00" 
+end="2002-11-18 00:00" author="ZKO" number="16">
+The new UFAM mobile lidar system arrived at the MST Radar site on 18th November, approximately
+a month later than originally expected. The instrument will be operated at the site
+in-between field campaigns.</event>
+<event added="2002-12-11 00:00" start="2002-12-11 00:00" 
+end="2002-12-11 00:00" author="ZKO" number="17">
+A successful switch-over of BUFR file transmission to the new system was carried out on 11th December.</event>
+<event added="2002-12-17 00:00" start="2002-12-17 00:00" 
+end="2002-12-17 00:00" author="ZKO" number="18">
+The local electricity supplier shut down power to the Capel Dewi area on 17th December so
+that they could carry out scheduled maintenance work on their systems. The radar remained
+out of action for 7 hours. </event>
+<event added="2002-12-28 00:00" start="2002-12-28 00:00" 
+end="2002-12-28 00:00" author="ZKO" number="19">
+A brief power failure in the early morning of Saturday 28th December
+caused the radar system to crash. The problem was not noticed until the following day when
+Dave Wareing rebooted the radar control computer; ZAKO was on holiday at the time.</event>
+<event added="2003-01-12 00:00" start="2003-01-12 16:30" 
+end="2003-01-13 09:30" author="ZKO" number="20">
+The transmitter to which the others are phase-locked developed a fault around 1630 GMT on
+12th January 2003, a Sunday. The problem wasn't noticed until first thing the following morning
+when the faulty transmitter was repaired, around 0930 GMT. The data for this period are
+unreliable.</event>
+<event added="2003-01-13 00:00" start="2003-01-13 00:00" 
+end="2003-01-13 00:00" author="ZKO" number="21">
+The radar remained out of action for approximately another 2 hours on the morning of 13th
+January to allow students from the Geography Department, University of Wales Aberystwyth,
+to measure the orientation of the MST Radar antenna array. This is the 3rd time that students
+have practised their surveying skills on the antenna array.</event>
+<event added="2005-08-01 16:23" start="2003-04-01 00:00" 
+end="2003-10-16 00:00" author="ZKO" number="27">The most significant problems experienced during the last six months have been caused by
+computer worms (MS-Blaster and subsequently Nachi-A) infecting theWindows2000 PC which
+controls the climate data logger; the Met Office had similar problems with their PC which collects
+GPS water vapour receiver data at the radar site. It should be noted that the data logger PC
+was running up to date anti-virus software, which was initially unable to remove the worms.</event>
+<event added="2005-08-01 16:19" start="2003-04-03 00:00" 
+end="2003-04-14 00:00" author="ZKO" number="26">A problem with the wind measuring equipment at Frongoch farm lead to a loss of surface wind
+data between 3rd and 14th April. At first it was thought that the anemometer had developed a
+fault and that it would need to be sent back to Campbell Scientific for repairs. A hand winch
+was purchased to enable the tower to be lowered to ground level for inspection. ZAKO traced
+the source of the problem to corrosion of an electrical connector between the wind measuring
+equipment and the data logging unit. He cleaned and then thoroughly resealed the connector in
+order to avoid a repetition of the problem.</event>
+<event added="2005-08-01 16:35" start="2003-06-16 00:00" 
+end="2003-06-16 00:00" author="ZKO" number="29">The JANET connection to the radar site suffered a temporary disruption on 16th June. The
+problem was found to be caused by a tree rubbing against the telephone cables approximately
+1 km away. The JANET connection was restored later the same day.</event>
+<event added="2005-08-01 16:08" start="2003-07-09 00:00" 
+end="2003-07-09 00:00" author="ZKO" number="22">The programme of reconditioning the transmitter cooling blower motors has enabled the transmitters
+to be run at higher power than has been possible for some time. An increase of approximately
+20% was introduced on 9th July and there are plans to gradually step this up in the near
+future.</event>
+<event added="2005-08-01 16:10" start="2003-07-19 06:00" 
+end="2003-07-21 09:00" author="ZKO" number="23">A problem developed on the radar receiver interface board at approximately 0600 UT on 19th
+July, i.e. on a Saturday morning. Consequently it was not noticed, and rectied, until the
+Monday morning leading to a loss of approximately 48 hours worth of data. The problem was
+thought to be caused by a static build-up associated with a thunder storm. There was a series of
+brief electricity supply interruptions around the same time which caused damage to pin diodes
+in 3 transmitters.</event>
+<event added="2005-08-01 16:34" start="2003-07-25 00:00" 
+end="2003-07-25 00:00" author="ZKO" number="28">ZAKO cleaned the tipping bucket raingauge on 25th July in order to remove a build-up of fungus
+which was obstructing the flow of rainwater through a narrow tube. The in-line filters are
+regularly cleaned as recommended by Campbell Scientific.</event>
+<event added="2005-08-01 16:17" start="2003-07-26 00:00" 
+end="2003-07-28 09:00" author="ZKO" number="24">a short circuit on one of the relay cables
+caused the radar beam steering unit to lock in one direction. The fact that this problem also developed
+on a Saturday morning meant that it was again almost 48 hours before it was rectified.</event>
+<event added="2005-08-01 16:17" start="2003-08-27 00:00" 
+end="2003-08-27 00:00" author="ZKO" number="25">The radar was down for approximately 10 minutes on 27th August after a minor disruption of
+the mains electricity supply to the site.</event>
+<event added="2005-08-01 16:52" start="2003-10-20 00:00" 
+end="2003-10-20 00:00" author="ZKO" number="38">Dr Prabhakaran Nayar, from the University of Kerala, India visited the radar site on 20th October 2003.</event>
+<event added="2005-08-01 16:46" start="2003-10-21 10:30" 
+end="2003-10-21 12:40" author="ZKO" number="32">A relay control unit, located within the antenna array, failed at around 1030 UT on 21st October 2003.
+The problem was fixed by 1240 UT on the same day.</event>
+<event added="2005-08-01 16:38" start="2003-10-30 00:00" 
+end="2003-10-30 00:00" author="ZKO" number="30">On 30th October 2003 changes were made to the standard mode observation specification. The main
+objective was to remove a 10 minute break in observations, which occurred approximately every 10
+hours when the radar control software switched from one schedule to the next. The schedule length
+was also increased to approximately 27 hours in order to simplify the specification for continuous operations.
+The existing radar control and acquisition software is still optimised for making fixed duration
+observations and there are plans to upgrade it in the near future.</event>
+<event added="2005-08-01 16:49" start="2003-11-06 00:00" 
+end="2003-11-06 00:00" author="ZKO" number="36">MSc students from the Institute of Geography and Earth Sciences, UWA, visited the site on 6th November
+2003. They measured the orientation of the MST radar antenna array as part of a surveying practical.</event>
+<event added="2005-08-01 16:47" start="2003-11-06 00:00" 
+end="2003-11-06 00:00" author="ZKO" number="33">The side panels of the power distribution box,
+which is also located within the antenna array, were replaced on 6th November 2003. The old panels
+had become rotten.</event>
+<event added="2005-08-01 16:48" start="2003-11-06 00:00" 
+end="2003-11-06 00:00" author="ZKO" number="34">NERC Site survey.</event>
+<event added="2005-08-01 16:40" start="2003-11-07 13:00" 
+end="2003-11-11 13:00" author="ZKO" number="31">The MST radar was operated in a user-specified mode for 
+approximately 72 hours starting at 1300 UT
+on 7th November 2003. The main objective was to collect IQ data, which are not normally recorded.</event>
+<event added="2005-08-01 16:52" start="2003-11-19 00:00" 
+end="2003-12-02 00:00" author="ZKO" number="37">Between 19th November and 2nd December 2003, the UFAM (Universities Facility for Atmospheric
+Measurement) boundary-layer wind-profiler was away from the radar site. It was taken to Southampton
+to test whether it was likely to suffer interference from the proposed Galileo global positioning system. The latter will operate in the same frequency band as many wind-profilers.</event>
+<event added="2005-08-01 16:48" start="2003-11-20 00:00" 
+end="2003-11-20 00:00" author="ZKO" number="35">NERC asbestos check.</event>
+<event added="2005-08-01 16:54" start="2003-11-26 00:00" 
+end="2003-11-28 00:00" author="ZKO" number="40">Site manager away visiting the MO's new VHF wind-profiler at South Uist (Outer Hebrides) from
+26th to 28th November 2003.</event>
+<event added="2005-08-01 16:53" start="2003-12-12 00:00" 
+end="2003-12-12 00:00" author="ZKO" number="39">Dr Adrian McDonald, from the University of Canterbury, New Zealand, visited the site on 12th December 2003.</event>
+<event added="2005-08-01 16:56" start="2004-01-28 00:00" 
+end="2004-01-28 00:00" author="ZKO" number="41">Members of the Health and Safety Committee of the RAL Space Science and Technology Department
+visited the radar site on 28th January 2004. They found no significant problems and made only minor
+recommendations for improvements. </event>
+<event added="2005-08-01 16:59" start="2004-02-05 00:00" 
+end="2004-02-09 00:00" author="ZKO" number="44">The MO's ISDN line to the radar site developed an intermittent fault on 5th February 2004. ZAKO
+identified and reported the problem to BT on the same day. Nevertheless the problem became persistent
+and the line was not restored to full working order until the 9th. </event>
+<event added="2005-08-01 17:01" start="2004-02-15 00:00" 
+end="2004-02-15 00:00" author="ZKO" number="45">The MO's ISDN line to the radar site developed an intermittent fault similar to the one reported on the 5th February 2004. recurred on 15th (once
+again ZAKO reported it to BT on the same day) and was fixed on the following day. BT confirmed that
+it had been caused by a battery failure at one of their exchanges.</event>
+<event added="2005-08-01 16:57" start="2004-02-16 00:00" 
+end="2004-02-16 00:00" author="ZKO" number="42">Fire officers from the UWA visited the site on 16th February 2004
+to check the fire extinguishers. All were found to be in working order. </event>
+<event added="2005-08-01 17:02" start="2004-02-16 00:00" 
+end="2004-02-16 00:00" author="ZKO" number="46">The new UFAM mobile laboratory arrived at the radar site on 16th February 2004. It will be stored there
+in-between campaigns.</event>
+<event added="2005-08-01 16:57" start="2004-02-17 00:00" 
+end="2004-02-18 00:00" author="ZKO" number="43">ZAKO attended a NERC Safety
+Responsibility and Risk Management course in Swindon on 17th and 18th February 2004.</event>
+<event added="2005-08-01 17:02" start="2004-03-16 00:00" 
+end="2004-03-16 00:00" author="ZKO" number="47">On 16th March 2004, DAH, SJP and SJW visited the radar site to identify any outstanding Health and
+Safety issues and to format a Safety Document.</event>
+<event added="2005-08-01 17:03" start="2004-03-20 00:00" 
+end="2004-03-22 00:00" author="ZKO" number="48">Over the weekend of 20th March 2004, very high winds coincided with a relay fault in the high voltage
+section of the antenna array. Owing to the dangerous conditions, the relay could not replaced until the
+morning of 22nd.</event>
+<event added="2005-08-01 17:04" start="2004-04-08 00:00" 
+end="2004-04-08 00:00" author="ZKO" number="49">On 8th April 2004, a MANWEB (electricity company) employee failed to secure the handbrake on his
+van when posting a letter into the mail-box located just within the site gate. The van rolled forward and
+demolished a gatepost. MANWEB subsequently completely replaced the post.</event>
+<event added="2005-08-01 17:05" start="2004-04-20 00:00" 
+end="2004-04-20 00:00" author="ZKO" number="50">On 20th April 2004 the UFAM boundary-layer wind-profiler was taken to Weybourne to participate in
+the TORCH campaign.</event>
+<event added="2005-08-01 17:05" start="2004-04-29 00:00" 
+end="2004-04-29 00:00" author="ZKO" number="51">On 29th April 2004 Jonathan Jones (from the MO) replaced the computer for the GPS water vapour
+receiver.</event>
+<event added="2005-08-01 17:06" start="2004-05-20 00:00" 
+end="2004-05-20 00:00" author="ZKO" number="52">On 20th May 2004, the MST radar was stopped for several hours in order to allow ZAKO carry
+out a complete relay check and subsequent repairs.</event>
+<event added="2005-08-01 17:07" start="2004-05-25 00:00" 
+end="2004-05-25 00:00" author="ZKO" number="53">On 25th May 2004, the MST radar was stopped for several hours in order to allow ZAKO carry
+out a complete relay check and subsequent repairs.</event>
+<event added="2005-08-01 17:09" start="2004-06-01 13:30" 
+end="2004-06-03 10:30" author="ZKO" number="54">The MO's ISDN line developed a fault at 1330 UT on 1st June 2004. It was not rectified by BT until
+1030 UT on the 3rd. The fault was found to be 3 miles away from the site. </event>
+<event added="2005-08-02 13:07" start="2004-06-21 00:00" 
+end="2004-06-21 00:00" author="ZKO" number="55">A new radar observation schedule was introduced on 21st June. Vertical beam observations are now
+made every other dwell. These high time resolution observations will be needed for convection, precipitation
+and Brunt-Vaisala period determination studies.</event>
+<event added="2005-08-02 13:07" start="2004-06-28 00:00" 
+end="2004-06-28 00:00" author="ZKO" number="56">A technical problem with the site security system resulted in a Police Rapid Response team being called
+to the site twice within a month - the second time on 28th June. The site was temporarily blacklisted by
+the Police, until Dyfed alarms retested the system and resolved the problem.</event>
+<event added="2005-08-02 13:17" start="2004-07-02 00:00" 
+end="2004-07-02 00:00" author="ZKO" number="60">ZAKO carried out work on the antenna array.</event>
+<event added="2005-08-02 13:17" start="2004-07-03 00:00" 
+end="2004-07-03 00:00" author="ZKO" number="61">ZAKO carried out work on the antenna array</event>
+<event added="2005-08-02 13:09" start="2004-07-04 08:05" 
+end="2004-07-05 08:00" author="ZKO" number="57">The locking transmitter went down at 0805 UT on (Sunday) 4th July. This caused the data to be unreliable
+until 0800 UT on (Monday) 5th, when ZAKO spotted and fixed the problem.</event>
+<event added="2005-08-02 13:17" start="2004-07-10 00:00" 
+end="2004-07-10 00:00" author="ZKO" number="62">ZAKO carried out work on the antenna array</event>
+<event added="2005-08-02 13:10" start="2004-07-12 00:00" 
+end="2004-07-12 00:00" author="ZKO" number="58">The MST radar was down for about 30 minutes on the afternoon of 12th July. This was to allow MANWEB
+to install a new electricity meter for the lidar hut.</event>
+<event added="2005-08-02 13:18" start="2004-07-13 00:00" 
+end="2004-07-13 00:00" author="ZKO" number="63">ZAKO carried out work on the antenna array</event>
+<event added="2005-08-02 13:11" start="2004-07-19 00:00" 
+end="2004-07-19 00:00" author="ZKO" number="59">The tipping bucket raingauge was cleaned on 19th July 
+to clear fungus which was preventing the device
+from registering rain.</event>
+<event added="2005-08-02 13:19" start="2004-08-16 23:30" 
+end="2004-08-17 08:35" author="ZKO" number="64">The locking transmitter failed at around 2330 UT on 16th August causing the wind profile data to be
+unreliable. ZAKO fixed the problem by 0835 UT on the 17th.</event>
+<event added="2005-08-02 13:20" start="2004-08-18 12:35" 
+end="2004-08-18 14:05" author="ZKO" number="65">The radar was shut down at around 1235 UT on 18th August because of a fear of a lightning strike. The
+thunderstorms, which had persisted for much of the morning, soon cleared and normal operations were
+resumed at 1405 UT.</event>
+<event added="2005-08-02 13:21" start="2004-08-19 00:00" 
+end="2004-08-19 00:00" author="ZKO" number="67">Dyfed Alarms carried out a 6-monthly check on the site alarms, including the panic alarm, on 19th August.</event>
+<event added="2005-08-02 13:21" start="2004-08-19 00:00" 
+end="2004-08-19 14:00" author="ZKO" number="66">The high voltage unit on one of the transmitters failed on 19th August. The spare transmitted was substituted,
+so there was no loss of operations. The unit was fixed and returned to working order by 1400
+UT.</event>
+<event added="2005-08-02 13:22" start="2004-08-24 00:00" 
+end="2004-08-25 00:00" author="ZKO" number="68">A buildings survey was carried out by NERC personnel on 24th August. NERC Health and Safety inspectors
+also visited the site on 25th. No serious problems were found.</event>
+<event added="2005-08-02 13:23" start="2004-08-25 00:00" 
+end="2004-08-25 00:00" author="ZKO" number="69">The tipping bucket raingauge had to be cleaned again on 25th August because of blockage by fungus.</event>
+<event added="2005-08-02 13:26" start="2004-09-07 22:00" 
+end="2004-09-08 12:00" author="ZKO" number="70">The locking transmitter failed at around 2200 UT on 7th September. This caused corrupt data to be sent
+to the Met Office for approximately 8 hours. The problem was spotted first thing on the morning of 8th
+by DAH and he was able to block the transmission of data to the Met Office. However, this was during a
+week when ZAKO was away on holiday and so it was not until 1200 UT that DaveWareing could switch
+the locking transmitter and normal operations were resumed. DAH restarted the transmission of data
+to the Met Office later in the afternoon, once he was satisfied that the radar was functioning correctly.
+ZAKO repaired the failed transmitter on 12th September, when he had returned from his holiday. DAH
+noted that although he had relevant pictures for the procedure of changing the locking transmitter, no
+documentation existed.</event>
+<event added="2005-08-02 13:27" start="2004-09-14 15:00" 
+end="2004-09-14 15:20" author="ZKO" number="71">ZAKO shut down the radar for approximately 20 minutes just after 1500 UT on 14th September. This
+was to allow him to check whether a problem with a relay unit had caused the failure of the locking
+transmitter on 7th. It wasn't.</event>
+<event added="2005-08-02 13:27" start="2004-09-21 00:00" 
+end="2004-09-21 00:00" author="ZKO" number="72">On 21st September ZAKO had to take action to remove a virus infection from the Logger PC.</event>
+<event added="2005-08-02 13:28" start="2004-10-01 00:00" 
+end="2004-10-01 00:00" author="ZKO" number="73">Jonathan Jones, from the Met Office, visited the site on 1st October in order to change the PC on the
+GPS water vapour receiver.</event>
+<event added="2005-08-02 13:29" start="2004-10-04 07:26" 
+end="2004-10-04 07:55" author="ZKO" number="74">An brief power outage caused the radar to stop at around 0726 UT on 4th October. ZAKO restarted the
+system immediately on arrival at site at 0755 UT. He also restarted the Met Office's GPS water vapour
+receiver PC.</event>
+<event added="2005-08-02 13:29" start="2004-10-07 00:00" 
+end="2004-10-07 00:00" author="ZKO" number="75">ZAKO cleaned out the tipping bucket raingauge on 7th October.</event>
+<event added="2005-08-02 13:30" start="2004-10-14 00:00" 
+end="2004-10-14 00:00" author="ZKO" number="76">A NERC audit officer visited the site on 14th October to check on matters relating to access and maintenance.
+She found that everything was in order and therefore considered her visit to have been a waste
+of time.</event>
+<event added="2005-08-02 13:31" start="2004-10-19 08:45" 
+end="2004-10-19 15:15" author="ZKO" number="77">At around 0845 UT on 19th October, a jumper failure on MANWEB's high voltage transmission system
+caused a power outage in the Capel Dewi area. Power did not return until 1505 UT. The radar was up
+and running again by 1515 UT.</event>
+<event added="2005-08-02 13:32" start="2004-10-21 16:00" 
+end="2004-10-22 07:15" author="ZKO" number="78">The radar was shut down around 1600 UT on 21st October because of fears of a lightning strike. There
+had already been power fluctuations which were causing problems for the radar. Thunder continued to
+be audible until midnight. The radar was restarted at 0715 UT on 22nd.</event>
+<event added="2005-08-02 13:33" start="2004-10-28 00:00" 
+end="2004-10-29 00:00" author="ZKO" number="79">ZAKO carried out winter preparations in the field (e.g. securing boxes and cables) on 28th and 29th
+October. This did not require the radar to be powered down.</event>
+<event added="2005-08-02 13:34" start="2004-11-11 18:30" 
+end="2004-11-11 21:30" author="ZKO" number="80">Approximately 10 people from the Ceredigion Amateur Radio Club visited the site from 6:30 - 9:30 pm
+on 11th November. They were very interested in the transmitters. A mention of their visit appeared in
+the Cambrian News.</event>
+<event added="2005-08-02 13:35" start="2004-11-13 13:00" 
+end="2004-11-13 13:00" author="ZKO" number="81">A Hercules aircraft flew very low over the radar site, from west to east, at around 1300 UT on 13th
+November.</event>
+<event added="2005-08-02 13:37" start="2004-11-15 13:45" 
+end="2004-11-15 17:15" author="ZKO" number="82">Two engineers from Anritsu visited the radar site on 15th November to demonstrate their hand-held
+cable and antenna analyser. The MST radar was shut down from approximately 1345 - 1715 UT in
+order to allow them to demonstrate the instrument's capabilities on various parts of the antenna system.
+However, the instrument was found to be not working properly.</event>
+<event added="2005-08-02 13:38" start="2004-11-17 14:45" 
+end="2004-11-18 12:30" author="ZKO" number="83">One of the transmitters went down at around 1445 UT on 17th November after its blower motor seized
+up. It was not possible to repair the transmitter, and return it to working order, until around 1230 UT the
+following day.</event>
+<event added="2005-08-02 13:38" start="2004-11-18 00:00" 
+end="2004-11-18 12:00" author="ZKO" number="84">A NERC buildings surveyor visited the site on 18th November in order to inspect the site bungalow and
+fence. He finished the survey around 1200 UT the following day.</event>
+<event added="2005-08-02 13:39" start="2004-11-18 15:50" 
+end="2004-11-18 16:05" author="ZKO" number="85">The radar was down from 1550 - 1605 on 18th November in order to allow ZAKO to carry out an inspection
+of the field boxes.</event>
+<event added="2005-08-02 13:41" start="2004-11-23 11:00" 
+end="2004-11-23 14:00" author="ZKO" number="86">ZAKO received a working cable and antenna analyser from Anritsu on 22nd November. The radar was
+down from 1100 - 1400 UT on the 23rd in order to allow him to test 30 of the 100 quads with the unit.
+</event>
+<event added="2005-08-02 13:45" start="2004-11-24 00:00" 
+end="2004-11-30 00:00" author="ZKO" number="87">
+Dave Wareing and EGN tried out the antenna analyser from Anritsu on the UFAM equipment on 24th. It was found to
+be useful in both cases. The Logger PC was used to download the field test data from the instrument.
+The use of the Logger PC in this way appears to have disrupted the normal collection of data from the
+Campbell Scientific instruments. This was not noticed, and rectified, until 30th November. Although
+this led to the loss of several day's worth of surface wind data, the surface met data appear to be complete.</event>
+<event added="2005-08-02 13:46" start="2004-11-30 12:45" 
+end="2004-11-30 15:45" author="ZKO" number="88">Students from the UWA Institute of Geography and Earth Sciences visited the site on 30th November in
+order to carry out their surveying practical. This required the radar to be shut down from approximately
+1245 - 1545 UT.</event>
+<event added="2005-08-02 13:45" start="2004-12-15 00:00" 
+end="2004-12-15 00:00" author="ZKO" number="89">
+NERC carried out an electrical survey of the site bungalow on 15th
+December 2004. Recommendations for changes included replacing the
+existing storage heaters with gas or oil on-demand units, and possibly
+even recycling heat from the transmitters. </event>
+<event added="2005-08-02 13:45" start="2004-12-17 00:00" 
+end="2004-12-17 00:00" author="ZKO" number="90">
+The MO's GPS water
+vapour receiver PC was rebooted on 17th December.</event>
+<event added="2005-08-02 13:45" start="2004-12-24 07:00" 
+end="2004-12-24 07:00" author="ZKO" number="92">
+A fault caused the site alarm to go off at 07 UT on 24th
+December. Dyfed alarms changed a sensor in the lounge area.</event>
+<event added="2005-08-02 13:45" start="2004-12-29 00:00" 
+end="2004-12-29 00:00" author="ZKO" number="91">
+The MO's GPS water
+vapour receiver PC was rebooted on 29th
+December.</event>
+<event added="2005-08-02 13:45" start="2005-01-03 20:00" 
+end="2005-01-04 09:00" author="ZKO" number="93">
+A non-locking transmitter went down during the night of 3rd/4th
+January 2005. This was fixed by 09 UT on 4th January. </event>
+<event added="2005-08-02 13:45" start="2005-01-06 00:00" 
+end="2005-01-11 00:00" author="ZKO" number="94">
+The timber next
+to the smaller of the two site sheds was collected for disposal on 6th
+and 11th January. </event>
+<event added="2005-08-02 13:45" start="2005-01-12 00:00" 
+end="2005-01-12 00:00" author="ZKO" number="95">
+The new Anritsu cable testing unit arrived at the
+site on 12th January.</event>
+<event added="2005-08-02 13:45" start="2005-01-14 12:00" 
+end="2005-01-15 19:30" author="ZKO" number="96">
+TX1, the locking transmitter, failed at around
+1200 UT on Friday 14th January. The problem was not spotted until the
+following evening (Saturday 15th). All transmitters were locked and
+working again by 1930 UT on 15th.</event>
+<event added="2005-08-02 13:45" start="2005-01-22 08:00" 
+end="2005-01-23 10:00" author="ZKO" number="97">
+A problem with the radar control PC
+caused observations to stop at around 08 UT on 22nd January (a
+Saturday). The problem was spotted by DAH first thing on the following
+Monday morning and normal operations resumed at around 10 UT. </event>
+<event added="2005-08-02 13:45" start="2005-01-26 00:00" 
+end="2005-01-26 00:00" author="ZKO" number="98">
+Some
+work was carried out in the field on 26th January. This did not
+require the radar to be shut down. </event>
+<event added="2005-08-02 13:45" start="2005-01-27 07:30" 
+end="2005-01-27 09:45" author="ZKO" number="99">
+A control cable to relay unit 21
+developed a short circuit at around 0730 UT on 27th January. This
+caused the radar to malfunction until the cable was by-passed at
+around 0945 UT. </event>
+<event added="2005-08-02 13:45" start="2005-02-07 00:00" 
+end="2005-02-15 00:00" author="ZKO" number="100">
+TX2 was repaired on 15th February. It had been out of action since 7th
+February, when Dave Wareing received a burn from it whilst ZAKO was on
+leave. </event>
+<event added="2005-08-02 13:45" start="2005-02-15 00:00" 
+end="2005-02-15 00:00" author="ZKO" number="101">
+15th February. The PC controlling the MO's GPS water vapour receiver also required
+reboot. </event>
+<event added="2005-08-02 13:45" start="2005-02-16 00:00" 
+end="2005-02-16 00:00" author="ZKO" number="102">
+DAH and ZAKO attempted to remove worm infections from the
+Logger PC on 16th February. It appears that these infections were
+preventing the Sophos anti-virus software from updating. However, the
+infections proved hard to remove and so further action was delayed
+until the PC could be returned to RAL for a more thorough
+investigation. </event>
+<event added="2005-08-02 13:45" start="2005-02-22 00:00" 
+end="2005-02-22 00:00" author="ZKO" number="103">
+Katie Abbott, from NERC, visited the site on 22nd
+February in order to carry out a site survey.</event>
+<event added="2005-08-02 13:45" start="2005-02-23 00:00" 
+end="2005-02-24 00:00" author="ZKO" number="104">
+Field work was carried
+out on 23rd and 24th February. This did not require the radar to be
+powered down. </event>
+<event added="2005-08-02 13:45" start="2005-02-28 00:00" 
+end="2005-02-28 00:00" author="ZKO" number="105">
+UofWA fire officer visited the site on 28th February in
+order to carry out checks on the fire extinguishers. No problems were
+found. </event>
+<event added="2005-08-02 13:45" start="2005-03-01 11:45" 
+end="2005-03-01 12:45" author="ZKO" number="106">
+One of the non-locking transmitters was out of action between 11:45
+and 12:45 UT on 1st March to allow work be carried out on it. </event>
+<event added="2005-08-02 13:45" start="2005-03-02 00:00" 
+end="2005-03-03 00:00" author="ZKO" number="107">
+Work on
+the relays was carried out on 2nd and 3rd March. This did not require
+any down time. </event>
+<event added="2005-08-02 13:45" start="2005-03-04 08:50" 
+end="2005-03-04 11:45" author="ZKO" number="108">
+The extractor fan seized on one of the transmitters at
+08:50 UT on 4th March. It was switched off between 10:45 and 11:45 UT
+to allow a replacement be fitted. </event>
+<event added="2005-08-02 13:45" start="2005-03-09 12:45" 
+end="2005-03-09 18:15" author="ZKO" number="109">
+The MST radar was down 12:45 - 18:15
+UT on 9th March to allow work to
+be carried out on the field relays. </event>
+<event added="2005-08-02 13:45" start="2005-03-10 13:00" 
+end="2005-03-10 15:45" author="ZKO" number="110">
+The MST radar was down 13:00 - 15:45 UT on 10th March to allow work to
+be carried out on the field relays. </event>
+<event added="2005-08-02 13:45" start="2005-03-11 00:00" 
+end="2005-03-11 00:00" author="ZKO" number="111">
+The surface met data logging unit,
+tipping bucket rain gauge and (faulty) humidity sensor were sent back
+to Campbell Scientific for recalibration and repairs on 11th
+March. The fact that the pressure sensor could not be found gave the
+first indication that it may have been stolen. At first it was thought
+that it had simply developed a fault. </event>
+<event added="2005-08-02 13:45" start="2005-03-14 15:30" 
+end="2005-03-14 15:30" author="ZKO" number="112">
+The MST radar was down 11:30 -
+15:30 on 14th March to allow the replacement of some relays. </event>
+<event added="2005-08-02 13:45" start="2005-03-16 00:00" 
+end="2005-03-16 00:00" author="ZKO" number="113">
+The RAL
+cloud radar arrived at the MST site, direct from its recent field
+campaign in Mauritius, on 16th March. </event>
+<event added="2005-08-02 13:45" start="2005-03-17 11:30" 
+end="2005-03-17 15:30" author="ZKO" number="114">
+The MST radar was down for two
+brief periods, around 11:30 UT and around 15:30 UT, on 17th March to
+allow work to be carried out on the relays. </event>
+<event added="2005-08-02 13:45" start="2005-03-18 09:00" 
+end="2005-03-18 16:00" author="ZKO" number="115">
+There were a number of
+mains fluctuations during 18th March which caused problems for the
+MST radar: at around 09 UT, between 12:30 and
+14:30 UT, and at around 15:20 UT. The radar was shut down again, just
+after 16 UT, to allow repairs be carried out in the field. </event>
+<event added="2005-08-02 13:45" start="2005-03-31 00:00" 
+end="2005-03-31 00:00" author="ZKO" number="117">
+31st March - The surface met data logger, and sensors,
+arrived back from Campbell Scientific. </event>
+<event added="2005-08-02 13:45" start="2005-03-31 08:30" 
+end="2005-03-31 09:15" author="ZKO" number="116">
+One of the
+MST radar transmitters went down at around 08:30 UT on 31st March, but
+was repaired by 09:15 UT. </event>
+<event added="2005-08-02 13:45" start="2005-04-05 00:00" 
+end="2005-04-05 00:00" author="ZKO" number="118">
+The data logger and met sensors (apart from the replacement pressure
+sensor) were reinstalled on 5th April. </event>
+<event added="2005-08-02 13:45" start="2005-04-06 00:00" 
+end="2005-04-07 00:00" author="ZKO" number="119">
+A new MST radar observation
+format was introduced on 6th April to allow a single vertical beam
+mesospheric observation to be made during each ST-mode cycle. At first
+an 8 mus pulse, with no pulse coding, was used. However, for some
+reason this caused the radar to operate in an unstable manner and so 2
+mus coding was introduced on 7th. This solved the problem. </event>
+<event added="2005-08-02 13:45" start="2005-04-13 00:00" 
+end="2005-04-13 00:00" author="ZKO" number="120">
+DAH
+installed "Nero", the new WindowsXP data logging PC, on 13th
+April. The old PC was taken back to RAL for disinfection.</event>
+<event added="2005-08-02 13:45" start="2005-04-14 00:00" 
+end="2005-04-14 00:00" author="ZKO" number="121">
+The cut
+wires from the stolen original pressure sensor were discovered whilst
+DAH and ZAKO were replacing the new pressure sensor in the data
+logging box on 14th April. </event>
+<event added="2005-08-02 13:45" start="2005-04-14 00:00" 
+end="2005-04-14 00:00" author="ZKO" number="122">
+Peter Huggard and Tim Nightingale, from
+RAL, arrived on site on the afternoon of 14th April to set up the
+cloud radar. The instrument was in operation by the end of the
+day. </event>
+<event added="2005-08-02 13:45" start="2005-04-16 11:00" 
+end="2005-04-16 12:45" author="ZKO" number="123">
+The blower motor on one of the MST radar transmitters had
+disintegrated at some time on 16th April (a Saturday). This was
+discovered at 11:00 UT on 16th and the blower motor was replaced
+by 12:45 UT. </event>
+<event added="2005-08-02 13:45" start="2005-04-18 14:30" 
+end="2005-04-18 14:30" author="ZKO" number="124">
+The tipping bucket raingauge was cleaned out at 14:30 UT
+on 18th April. </event>
+<event added="2005-08-02 13:45" start="2005-04-22 00:00" 
+end="2005-05-04 08:00" author="ZKO" number="126">
+On 4th May ZAKO returned from holiday and by 08 UT the two MST radar
+transmitters which had been down since the 22nd April power
+disruptions were restarted. </event>
+<event added="2005-08-02 13:45" start="2005-04-22 14:00" 
+end="2005-04-25 08:00" author="ZKO" number="125">
+Mains interruptions caused the MST radar to stop
+working at around 14:00 UT on Friday 22nd April, whilst ZAKO was away
+on holiday. The problem was not spotted until first thing on Monday
+25th April by DAH. Since the radar had come back up cleanly, DAH was
+able to restart data acquisition remotely at just after 08 UT. </event>
+<event added="2005-08-02 13:45" start="2005-05-05 00:00" 
+end="2005-05-10 00:00" author="ZKO" number="127">
+On 5th May ZAKO discovered that the new
+pressure sensor had been stolen. This was reported to the Police
+who came out immediately. Dave Wareing discovered a hole in the
+security fence (on the stretch running parallel to the road) on 9th
+May. The Police re-visited the site on 10th May.</event>
+<event added="2005-08-02 13:45" start="2005-05-12 00:00" 
+end="2005-05-12 00:00" author="ZKO" number="128">
+The grass was cut on
+12th May. </event>
+<event added="2005-08-02 13:45" start="2005-05-20 12:00" 
+end="2005-05-20 19:00" author="ZKO" number="129">
+A mains disruption at around 12 UT on 20th May caused an
+exceptional amount of damage. Two of the transmitters were out of
+action and a chip blew on the antenna control board.  The system was
+restored to working order and normal operations resumed at 19
+UT. </event>
+<event added="2005-08-02 13:45" start="2005-05-22 00:00" 
+end="2005-05-22 08:00" author="ZKO" number="130">
+Failure of the UPS unit which powered the radar acquisition
+systems at around 00 UT on Sunday 22nd May caused the radar to be out
+of action until just after 08 UT on the following morning. </event>
+<event added="2005-08-02 13:45" start="2005-06-01 00:00" 
+end="2005-06-01 00:00" author="ZKO" number="131">
+One of the MST radar transmitters (a non-locking one) went down
+overnight on 1st June and was restarted in the morning. </event>
+<event added="2005-08-02 13:45" start="2005-06-01 00:00" 
+end="2005-06-06 00:00" author="ZKO" number="132">
+The UFAM
+boundary-layer wind-profiler was taken from the MST site on 1st June
+to be used in the CSIP campaign. The mobile lidar was taken on 6th
+June. </event>
+<event added="2005-08-02 13:45" start="2005-06-08 12:30" 
+end="2005-06-08 16:45" author="ZKO" number="133">
+The cloud radar was switched off at around 12:30 UT on 8th June
+because the temperature of the antenna unit rose too high. It was
+switched back on around 16:45 UT. </event>
+<event added="2005-08-02 13:45" start="2005-06-10 00:00" 
+end="2005-06-14 00:00" author="ZKO" number="134">
+ZAKO carried out work in the field on
+10th and 14th June. There was no need to power down the MST radar. </event>
+<event added="2005-08-02 13:45" start="2005-06-16 00:00" 
+end="2005-06-16 00:00" author="ZKO" number="135">
+PC
+Pat Jalloal, a Community Safety Officer from Dyfed-Powys Police,
+visited the site on 16th June. He gave recommendations on how to
+improve site security.</event>
+<event added="2005-08-02 13:45" start="2005-06-17 00:00" 
+end="2005-06-17 00:00" author="ZKO" number="136">
+The cloud radar was stopped on 17th June and
+moved from where it had been in operation (immediately to the north of the
+bungalow). This was to allow the ground to be excavated for the new
+instrument platform. </event>
+<event added="2005-08-02 13:45" start="2005-06-18 00:00" 
+end="2005-06-18 00:00" author="ZKO" number="137">
+A digger was on site on Saturday 18th. It also
+excavated the ground where one of the old sheds had been. This area
+will have a car port built on it. </event>
+<event added="2005-08-02 13:45" start="2005-06-19 19:00" 
+end="2005-06-20 08:00" author="ZKO" number="138">
+A failure of a UPS unit at around 19
+UT on Sunday 19th June caused MST radar data to stop being
+acquired. The problem was fixed at around 08 UT the following
+morning. </event>
+<event added="2005-08-02 13:45" start="2005-06-23 00:00" 
+end="2005-06-23 00:00" author="ZKO" number="139">
+ZAKO carried out work on the MST antennas on 23rd June. This did not
+require the radar to be powered down.</event>
+<event added="2005-08-02 13:45" start="2005-06-28 17:15" 
+end="2005-06-29 07:30" author="ZKO" number="140">
+ The MST radar was shut down at
+around 17:15 UT on 28th June because of thunderstorms in the area. The
+thunderstorms caused extensive damage to equipment at the UofWA. The
+radar was switched back on at 07:30 UT the following morning.</event>
+<event added="2005-08-02 13:45" start="2005-07-01 00:00" 
+end="2005-07-01 00:00" author="ZKO" number="141">
+The concrete for the new instrument platform was poured and levelled on
+1st July. The concreting for the car port will be done at a later
+date. </event>
+<event added="2005-08-02 13:45" start="2005-07-04 15:45" 
+end="2005-07-04 15:45" author="ZKO" number="142">
+The cloud radar was placed on the new instrument platform and
+restarted around 15:45 UT on 4th July. </event>
+<event added="2005-08-02 13:45" start="2005-07-05 00:00" 
+end="2005-07-05 00:00" author="ZKO" number="143">
+The grass was cut on 5th
+July. </event>
+<event added="2005-08-02 13:45" start="2005-07-08 09:00" 
+end="2005-07-08 10:15" author="ZKO" number="144">
+The MST radar was stopped between 09:00 and 10:15 UT on 8th July
+to allow ZAKO to carry out work on the relays.</event>
+<event added="2005-08-02 13:45" start="2005-07-09 00:00" 
+end="2005-07-09 00:00" author="ZKO" number="145">
+Weed spraying was
+carried out on 9th July. </event>
+<event added="2005-08-02 13:45" start="2005-07-15 00:00" 
+end="2005-07-15 00:00" author="ZKO" number="146">
+The cloud radar was shut down at 11 UT
+because the temperature of the antenna unit was rising too high. It
+was switched back on on 15th July. </event>
+</eventlog>

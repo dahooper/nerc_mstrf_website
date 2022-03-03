@@ -1,0 +1,343 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF: sky-camera image animation</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="6" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL
+      LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="4" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">SKY-CAMERA IMAGE ANIMATION</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+This page describes a simple piece of software for creating animations
+of sky-camera images, which can be viewed using a standard
+web-browser. 
+
+<UL>Page contents:
+  <LI><A href="#requirements">System requirements</A> 
+  <LI><A href="#install_linux">Installing the software on a Linux/Unix
+    machine</A> 
+  <LI><A href="#install_windows">Installing the software on a Windows
+    machine</A>
+  <LI><A href="#create">Creating animations</A>
+  <LI><A href="#sample">Downloading a ready-made sample animation</A>
+</UL><BR>
+
+
+<A name="requirements">
+<B>System requirements:</B>
+<UL>
+
+  <LI>The software requires you to have an interpreter for the
+    <B>Python</B> programming language installed on your
+    computer. This is almost certain to be the case on a Linux/Unix
+    machine. It can be <A
+    href="http://www.python.org/">freely-downloaded</A> for a number
+    of platforms, including Linux/Unix, Windows and Mac OS X. You do
+    not need know anything about Python to run the program.
+
+  <BR><BR>
+  <LI><B>Windows</B> users will need a program such as <A
+  href="http://www.winzip.com">WinZip</A> for unpacking Linux/Unix tar
+    files.
+
+  <BR><BR>
+  <LI>The software creates a <B>JavaScript</B> HTML page -
+    based on the <A
+    href="http://www.hbgraphics.com/tutorials/var_animation/index.html">following
+    tutorial</A> - which can be viewed on any web-browser (with
+    JavaScript support enabled).
+
+</UL><BR>
+
+<A name="install_linux">
+<B>Installing the software on a Linux/Unix machine:</B>
+<OL>
+
+  <LI>Download <A
+  href="DOWNLOADS/tools-for-animating-sky-camera-images.tar">tools-for-animating-sky-camera-images.tar</A> 
+  to the directory where you want the software, e.g <FONT
+  class="code_green">/home/mst/python-programs</FONT> (this example
+  directory name will be used below for the purposes of illustrating
+  how to run the program). 
+
+  <BR><BR>
+  <LI>From the directory where you have downloaded the tar file,
+  unpack the contents using the command:<BR><FONT class="code_red">tar xvf
+  tools-for-animating-sky-camera-images.tar</FONT><BR><BR>
+  
+  This will generate two new files:<FONT class="code_green"><BR>
+  create_sky_camera_animation_attachments.tar<BR>
+  create_sky_camera_animation.py</FONT><BR><BR>
+
+  These files have been write-protected to prevent you from
+  accidentally changing them. The file with the ".py" extension has
+  been made executable, i.e. the command <FONT class="code_red">ls
+  -l </FONT> will show their permissions as: <FONT
+  class="code_green"><BR>
+  -r--r--r-- create_sky_camera_animation_attachments.tar<BR>
+  -r-xr-xr-x create_sky_camera_animation.py</FONT>
+
+  <BR><BR> 
+  <LI>You may now delete the original tar file, <FONT
+  class="code_green">tools-for-animating-sky-camera-images.tar</FONT>,
+  although this is not essential. Do <B>NOT</B> unpack or delete the
+  new tar file, <FONT
+  class="code_green">create_sky_camera_animation_attachments.tar</FONT>. 
+</OL>
+
+<BR>
+<A name="install_windows">
+<B>Installing the software on a Windows machine:</B>
+<OL>
+
+  <LI>Click on the following link: <A
+  href="DOWNLOADS/tools-for-animating-sky-camera-images.tar">tools-for-animating-sky-camera-images.tar</A>
+
+  <BR><BR>
+  <LI>This should launch a <B>File Download</B> pop-up window which
+  will ask you something along the lines of, <B>Would you like to open the
+  file or save it to your computer?</B>. Choose the <B>Open</B>
+  option. If you have WinZip installed, this will launch a pop-up
+  window which shows the contents of the tar file: <FONT
+  class="code_green"><BR>
+  create_sky_camera_animation.py<BR>
+  create_sky_camera_animation_attachments.tar</FONT><BR><BR>
+  Choose the <B>Extract</B> option, directing the output to a suitable
+  directory, e.g. <FONT
+  class="code_green">d:\python-programs</FONT> (this example
+  directory name will be used below for the purposes of illustrating
+  how to run the program).
+</OL>
+
+<BR>
+<A name="create">
+<B>Creating animations</B> 
+<OL> 
+
+  <LI>Download the required tarred image file(s) <A
+    href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/sky-camera">from
+    the BADC</A>. You will need to be <A
+    href="data_access.html">registered for access to the NERC MST
+    Radar Facility dataset</A> to be able to do this.
+    
+  <BR><BR>
+  <LI>Unpack the individual jpg image files from the tar file(s) as
+    described <A href="file_format_sky_camera.html">here</A>. You can
+    delete the tar image files after this step, although this is not
+    essential.
+
+  <BR><BR>
+
+  <LI>The Python program will animate all jpg image files that it
+    finds in a given source directory, <FONT
+    class="code_green">source_dir_name</FONT> (e.g. <FONT
+    class="code_green">/home/mst/sky-camera-images</FONT> on a
+    Linux/Unix machine or <FONT
+    class="code_green">d:\sky-camera-images</FONT> on a Windows
+    machine). Therefore ensure that all files in the source directory
+    are for contiguous time steps. Create a separate directory for
+    each group of images to be animated. The program will ignore all
+    files which do not conform to the <A
+    href="file_format_sky_camera.html">standard (jpg)
+    sky-camera image naming convention</A> - including the tar files.
+
+  <BR><BR> 
+  <LI>The Python program will generate the following files in the
+    source directory:<BR><FONT class="code_green">animation.html<BR>
+    logo_mst.png<BR> logo_nerc.png<BR> page-style.css</FONT><BR>
+    Direct your web-browser to the <FONT
+    class="code_green">animation.html</FONT> file and click on
+    <B>PLAY</B>.
+
+  <BR><BR> 
+
+  <LI>Irrespective of the platform on which the Python code is being
+    run, it is invoked with the following general syntax: <FONT
+    class="code_red"><BR> python program_file_path
+    source_dir_name</FONT><BR><BR>
+    where <FONT class="code_green">program_file_path</FONT> is the
+    (absolute or relative) path name of the <FONT
+    class="code_green">create_sky_camera_animation.py</FONT> file, and
+    <FONT class="code_green">source_dir_name</FONT> is the (absolute
+    or relative) name of the source image directory. The three
+    examples below demonstrate how to
+    the run the program given the following scenarios:
+
+  <OL type="a">
+    <LI>the Python program is run from an arbitrary directory, using
+      absolute paths for both <FONT
+      class="code_green">program_file_path</FONT> and <FONT
+      class="code_green">source_dir_name</FONT> 
+
+    <LI>the Python program is run from its own directory and using a
+      relative path for <FONT
+      class="code_green">source_dir_name</FONT>
+
+    <LI>the Python program is run from <FONT
+      class="code_green">source_dir_name</FONT> and using a relative path
+      for <FONT class="code_green">program_file_path</FONT>. Note, in
+      this case, the final '<FONT class="code_red">.</FONT>' in the
+      commands, which denotes the current directory location.
+  </OL><BR>
+   
+   On a <B>Linux/Unix</B> machine, assuming that the Python program is
+   stored in a directory <FONT
+   class="code_green">/home/mst/python-programs</FONT> and that the
+   sky-camera image files are stored in a directory <FONT
+   class="code_green">/home/mst/sky-camera-images</FONT>, enter:
+  <OL type="a">
+
+    <LI><FONT class="code_red">python
+     /home/mst/python-programs/create_sky_camera_animation.py
+     /home/mst/sky-camera-images</FONT>
+
+    <LI><FONT class="code_red">python create_sky_camera_animation.py
+    ../sky-camera-images</FONT>
+
+    <LI><FONT class="code_red">python
+    ../python-programs/create_sky_camera_animation.py .</FONT>
+
+  </OL><BR>
+
+   On a <B>Windows</B> machine you will need to open a <B>Command
+   Prompt</B> window, through <B>Start - Programs -
+   Accessories</B>. Assuming that the Python program is stored in a
+   directory <FONT class="code_green">d:\python-programs</FONT> and
+   that the sky-camera image files are stored in a directory <FONT
+   class="code_green">d:\sky-camera-images</FONT>, enter: 
+
+   <OL type="a">
+
+    <LI><FONT class="code_red">python
+     d:\python-programs\create_sky_camera_animation.py
+     d:\sky-camera-images</FONT>
+
+    <LI><FONT class="code_red">python create_sky_camera_animation.py
+    ..\sky-camera-images</FONT>
+
+    <LI><FONT class="code_red">python
+    ..\python-programs\create_sky_camera_animation.py .</FONT>
+
+  </OL>
+</OL>
+
+<BR><BR>
+<A name="sample">
+<B>Downloading a ready-made sample animation</B>
+<OL>
+
+  <LI>Download <A
+  href="DOWNLOADS/sample-sky-camera-animation.tar">sample-sky-camera-animation.tar</A>,
+  following the instructions above for unpacking a tar file on a <A
+  href="#install_linux">Linux/Unix</A> or <A
+  href="#install_windows">Windows</A> system.
+
+  <BR><BR>
+  <LI>This will automatically generate a sub-directory <FONT
+  class="code_green">SAMPLE-SKY-CAMERA-ANIMATION</FONT>, which will
+  contain all of the files that you need.
+
+  <BR><BR> 
+  <LI>Direct your web-browser to the <FONT
+  class="code_green">SAMPLE-SKY-CAMERA-ANIMATION/animation.html</FONT>
+  file and click on <B>PLAY</B>.
+
+<BR><BR>
+</OL>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Registering for access to NERC MST
+  Radar Facility data</A>
+  <DD><A href="file_format_sky_camera.html">Archiving convention for
+  sky-camera images</A>
+  <DD><A href="sky-camera_event-log.html">A sky-camera event log</A>
+  <DD><A href="DOWNLOADS/tools-for-animating-sky-camera-images.tar">Software
+  for creating sky-camera animations</A>
+  <DD><A href="DOWNLOADS/sample-sky-camera-animation.tar">A sample
+  sample-sky animation</A>.
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="http://www.python.org/">The Python programming
+  language</A>
+  <DD><A
+  href="http://www.winzip.com">WinZip: an archiving/compression tool
+  for Windows</A>
+  <DD><A
+  href="http://www.hbgraphics.com/tutorials/var_animation/index.html">A
+  JavaScript animation tutorial</A>.
+</DL>
+
+  </TD></TR>
+<!*** Close page ***>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="4" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 28th November 2007</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

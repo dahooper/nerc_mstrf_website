@@ -1,0 +1,179 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2006-04-02</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2007-04-02</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>Changes to the MST radar data acquisition system</B><BR>
+
+A new MST Radar control and data acquisition system began operations
+at 13:44 UT on 6th February 2007. The system is essentially a
+recreation of the previous one, which was designed around a WindowsNT
+PC and had been in operation since 1999. However, it does allow the
+radar to be operated in a more flexible and reliable way. The switch
+over to the new system has implications for the following:
+
+<UL>
+  <LI>The format of Doppler spectra files
+  <LI>The availability of different versions of MST Radar data products
+  <LI>Changes in signal and noise powers
+</UL>
+
+as described <A href="mstr_new_acquisition_system.html">on this
+page</A>.<BR><BR>
+
+<B>A switch of data weighting window in derivation of the  radar return Doppler spectra</B><BR>
+Wind-profile statistics, provided the Met Office, for the first month
+of operation (February 2007) indicate a slight (but noticeable)
+reduction in data quality. It is suspected that the cause of this
+change is the use of the Hanning data weighting window in deriving the
+radar return Doppler spectra. Consequently a switch to use of the
+Rectangular window (as used by the old data acquisition system) was
+made at 07:32 UT on 2007/04/02.<BR><BR>
+
+A discussion of the effects of different data weighting windows on
+radar return signal parameters can be found in the following
+publication:
+
+<DL> 
+  <DD>Hooper, D. A., Signal and noise level estimation for
+    narrow spectral width returns observed by the Indian MST radar. 
+   <I>Radio Sci., 34</I>, pp 859-870, 1999. 
+</Dl>
+
+The plots below show radar return Doppler spectra (in linear units in
+the top panels and in logarithmic units in the bottom panels) for
+spectra derived using the Hanning window (at 07:31:45 on 2007/04/02)
+and for spectra derived using a Rectangular window (at 07:32:34 on
+2007/04/02). <BR><BR>
+
+As expected, the <A href="#Rectangular">Rectangular window spectra</A>
+show signs of spectral leakage - apparent as horizontal banding in the
+Power Spectra Densities (PSDs) in dB units (i.e. bottom panel) at
+ranges of around around 2.5, 5.5, 10.5 and 12.0 km. This causes the
+noise level to be overestimated for spectra with the largest peak
+PSDs. It is for this reason that the Cartesian data files record only
+the median noise power over all range gates, thereby avoiding
+contamination from individual overestimates. However, by way of
+compensation, the effects of dc contamination in Rectangular window
+spectra can be corrected by replacing the PSD of only the central
+velocity bin. By contrast, it is necessary to replace the PSDs of the
+three central velocity bin to remove dc contamination from <A
+href="#Hanning">Hanning window spectra</A>. This is apparent as a
+blocky-ness of the central PSDs in linear units (i.e. the top
+panel). <BR><BR>
+
+It was thought that the effects of dc correction for the Hanning
+window spectra would lead only to a slight degradation of the quality
+of vertical velocities which are close to zero. It should be noted
+that vertical velocities are more often than not close to zero, which
+is the reason that this effect is now thought to be the cause of the
+reduction in horizontal wind data quality. It should also be noted
+that the version 3 signal processing software was developed to take
+into account the effects of spectral leakage in Rectangular window
+spectra. This change from the use of the Hanning window back to use of
+the Rectangular window should not consequently lead to a further
+reduction in data quality. It will be necessary to wait until the Met
+Office release wind profile statistics for April 2007 (expected in
+mid-May) before it is possible to say whether or not the choice of
+data weighting window really has been the cause of the change in data
+quality.
+
+<BR><BR>
+<A name="Hanning">
+<B>Hanning window spectra</B><BR>
+<CENTER>
+  <IMG src="FIGS/radar-mst_capel-dewi_20070402_073145_spectra.png"><BR>
+</CENTER>
+
+<BR><BR>
+<A name="Rectangular">
+<B>Rectangular window spectra</B><BR>
+<CENTER>
+  <IMG src="FIGS/radar-mst_capel-dewi_20070402_073234_spectra.png"><BR>
+</CENTER>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="mstr_new_acquisition_system.html">The consequences of
+  the implementation of the new data acquisition system. 
+  <DD><A href="file_format_v3_cartesian.html">Format for v3
+  Cartesian data files</A>
+  <DD><A href="file_format_v3_radial.html">Format for v3 radial data files</A>
+  <DD><A href="v3_signal_processing_overview.html">An introduction to
+  v3 signal processing</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 2nd April 2007</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

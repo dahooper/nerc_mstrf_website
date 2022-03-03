@@ -1,0 +1,473 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for MST Radar spectral data</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR MST RADAR SPECTRAL DATA - NETCDF
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR> These files contain MST Radar return Doppler
+spectra, for a single dwell, with Power Spectral Densities (PSDs)
+given in dB units. The latter are equal to 10.0 *
+log10(PSD_linear_units). <A
+href="signal-processing_spectral.html">Click here</A> to find out more
+about the spectral level processing. Each dwell may contain data for
+ST-mode observations (which cover the approximate altitude range 2 -
+20 km) or for M-mode observations (which cover the approximate
+altitude range 58 - 94 km) or for both together. The spectra require
+dc correction. For spectra derived using a Rectangular data weighting
+window, this requires the PSD of the zero-Doppler-velocity velocity
+bin to be replaced with a value linearly interpolated between the PSDs
+at adjacent velocity bins. This correction must be extended to cover
+the central three velocity bins in the case of spectra derived using a
+Hanning window. An overview of the radar measurement technique and of
+the meanings of the data products is given <A
+href="v3_signal_processing_overview.html">here</A>.<BR><BR>
+
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>Availability</B><BR> MST radar spectral data are currently only
+available in this format starting on<B>6th February 2007</B>. Data
+from earlier dates are available in <A
+href="file_format_v0_ds_dah.html">a legacy format</A>.<BR><BR>
+
+
+<B>File naming convention: </B><BR>
+Files containing spectra for a single dwell are named with the format:<BR><BR>
+
+<CENTER><FONT class="FileName">
+radar-mst_capel-dewi_YYYYMMDDhhmmss_YYYYMMDDhhmmss_spectra.nc</FONT>
+</CENTER><BR>
+
+where <FONT class="FileName">YYYYMMDDhhmmss</FONT> is a string of 14
+(numerical) characters representing a start date-time
+(i.e. year-month-day-hour-minute-second). The first of these strings
+represents the start date-time of the relevant cycle of observation
+and the second represents the start date-time of the dwell.<BR><BR>
+
+All spectral files with cycle start date-times within a 30 minute
+block (starting at 00 and 30 minutes past each hour) are combined into
+a single tar file with the naming convention:<BR><BR> 
+
+<CENTER><FONT class="FileName">
+radar-mst_capel-dewi_YYYYMMDD_hhmm_spectra.tar</FONT>
+</CENTER><BR>
+
+where <FONT class="FileName">YYYYMMDD_hhmm</FONT> represents the
+start date-time of the block. These are the files available through
+the BADC. The individual spectral files can be extracted on a Linux/Unix
+platform using the command:<BR><BR>
+
+<CENTER><FONT class="CommandLine">
+tar xvf radar-mst_capel-dewi_YYYYMMDD_hhmm_spectra.tar</FONT>
+</CENTER><BR>
+
+A tool such as WinZip must be used to extract the files on a MS
+Windows platform. <BR><BR><BR>
+
+
+<B>File location: </B>
+<A class="FileName" href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-raw/spectra">/badc/mst/data/mst-raw/spectra</A></CENTER>
+<BR><BR>
+
+<B>Archiving convention: </B><FONT class="FileName">YYYY/MM/DD</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further
+explanation. <BR><BR>
+
+<B>netCDF File Structure</B> using the file for 2007/02/06 14:05:10 as
+an example- <A href="file_format_netcdf.html">click
+here</A> for an explanation<BR>
+
+<DL>List of <B>Global attributes</B> - Click on the name to view the value
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga0">dwell_id</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga1">cycle_id</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga2">dwell_format_file_path</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga3">history</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga4">version</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga5">institution</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga6">source</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga7">references</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga8">comments</A>
+</DL>
+<DL>List of <B>Dimensions</B>
+ - Click on the name to view the corresponding coordinate variable
+  <DD><A class="ncDimension" href="#v0">range</A>
+  <DD><A class="ncDimension" href="#v1">doppler_velocity</A>
+</DL>
+<DL>List of <B>Variables</B> - Click on a name to view the corresponding attributes
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v0">range</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">range</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v1">doppler_velocity</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v1">doppler_velocity</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v2">power_spectral_density</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">range</A>, <A class="ncDimension" href="#v1">doppler_velocity</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v3">length_of_transmitter_pulse</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v4">sub_length_of_transmitter_pulse</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v5">receiver_bandwidth</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v6">bottom_range_gate_number_for_ST_mode</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v7">top_range_gate_number_for_ST_mode</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v8">bottom_range_gate_number_for_M_mode</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v9">top_range_gate_number_for_M_mode</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v10">number_of_coherent_integrations</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v11">number_of_incoherent_integrations</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v12">inter_pulse_period</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v13">number_of_complex_samples_in_discrete_fourier_transform</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v14">data_weighting_window_index</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v15">year</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v16">month</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v17">day</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v18">time</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v19">beam_pointing_direction_number</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v20">beam_pointing_azimuth_angle</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v21">beam_pointing_zenith_angle</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">integer</FONT> <A class="ncVariable" href="#v22">range_resolution</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v23">range_resolution_number</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+</DL>
+List of <B>Global Attribute</B> values<BR>
+<A name="ga0">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">dwell_id</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">20070206140510</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga1">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">cycle_id</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">20070206140510</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga2">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">dwell_format_file_path</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">/home/mst/acquire_mst_dwell_formats/dwell-format_st_standard.txt</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga3">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">history</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>Tue Feb  6 14:05:10 2007 - /usr/local/bin/acquire_mst_dwell -cycle_id 20070206140510 -dwell_format_filename dwell-format_st_standard.txt -beam_pointing_direction_number 11 </FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga4">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">version</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">0.1</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga5">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">institution</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  Data recorded by the Natural Environment Research Council (NERC)<BR>
+Mesosphere-Stratosphere-Troposphere (MST) Radar Facility at Aberystwyth<BR>
+- http://mst.nerc.ac.uk<BR>&nbsp;
+  Data processed by the Rutherford Appleton Laboratory, Space Science and<BR>
+Technology Department - http://www.sstd.rl.ac.uk<BR>&nbsp;
+  Data held at the British Atmospheric Data Centre<BR>
+http://badc.nerc.ac.uk/data/mst</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga6">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">source</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  The Natural Environment Research Council (NERC) Mesosphere-Stratosphere-<BR>
+Troposphere (MST) Radar at Aberystwyth</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga7">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">references</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  Basic information about the data is available at <BR>
+http://badc.nerc.ac.uk/data/mst<BR>&nbsp;
+  More detailed information about the data is available at <BR>
+http://mst.nerc.ac.uk</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga8">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">comments</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The Natural Environment Research Council (NERC) Mesosphere-Stratosphere-<BR>
+Troposphere (MST) Radar at Aberystwyth (UK) is a 46.5 MHz<BR>
+wind-profiling instrument. It transmits short pulses of radio waves
+which are scattered back to it from atmospheric targets. The distance<BR>
+of a target from the instrument is determined by the time delay<BR>
+between the transmission and reception of a pulse. The main targets<BR>
+are metre-scale refractive index irregularities, which are referred to<BR>
+as clear-air targets (the term does not necessarily imply clear-sky<BR>
+conditions as the radar is able to see through clouds). Hydrometeors,<BR>
+aircraft, and ground-based objects can also give rise to radar<BR>
+returns. The receiver signal is occasionally contaminated by<BR>
+interference. The refractive index irregularities are caused by<BR>
+variations in atmospheric humidity (within the lowest 10 km of the<BR>
+atmosphere), in atmospheric density (within the lowest few 10s of km)<BR>
+and in free electron density (above 50 km). The radar return signal<BR>
+power is typically proportional to the square of the mean vertical<BR>
+gradient of the (potential) refractive index and inversely<BR>
+proportional to the square of the range of the clear-air targets from<BR>
+the radar. The refractive index irregularities are assumed to be<BR>
+advected with the wind. Consequently the radial velocity, i.e. the<BR>
+component of the wind vector along the radar beam pointing direction,<BR>
+can be inferred from the Doppler shift of the radar return<BR>
+signal. Atmospheric turbulence gives rise to variability in the radial<BR>
+velocity when observed over a time scale of a few tens of<BR>
+seconds. However, as a result of the radar\'s finite beam width, the<BR>
+observed spread tends to be dominated by a beam-broadening component,<BR>
+which is proportional to the horizontal wind speed. Consequently it<BR>
+becomes increasingly difficult to infer turbulence intensities as the<BR>
+wind speed increases.<BR>&nbsp;
+  The radar receiver signal is sampled at 1.0 us intervals following<BR>
+the transmission of a pulse. This corresponds to sampling at 150.0 m<BR>
+intervals in range from the radar. It is necessary to sample both the<BR>
+in-phase (I) and quadrature (Q) components of the receiver signal<BR>
+(i.e. complex values) in order to allow both the magnitude and the<BR>
+sign of the Doppler shift to be inferred. In the m-mode samples are<BR>
+recorded between ranges of approximately 60 and 90 km. In the st-mode<BR>
+samples are recorded between ranges of approximately 2and 20 km. It<BR>
+is possible to operate the radar in mst-mode so that both altitude<BR>
+ranges are sampled simultaneously. The range resolution of the radar<BR>
+returns is determined by the length of the transmitter pulse (not by<BR>
+the sampling interval), to which the receiver bandwidth must be<BR>
+matched. The range resolution can be increased by using complementary<BR>
+coding. This requires the phase of sub-lengths of the transmitter<BR>
+pulse to be offset by either 0 or 180 degrees according to a set<BR>
+coding pattern. The range resolution is then determined by the<BR>
+sub-length of the transmitter pulse (to which the receiver bandwidth<BR>
+is matched).<BR>&nbsp;
+  No attempt is made to derive radar return signal parameters until<BR>
+samples have been acquired for a large, pre-determined number of<BR>
+pulses - typically covering a few tens of seconds. The term dwell is<BR>
+used to refer to this collection interval or to range profiles of any<BR>
+of the data products associated with it. A dwell initially consists of<BR>
+a complex time series, for each range gate, of I and Q samples which<BR>
+are separated in time by the inter pulse period (of the order of a<BR>
+millisecond). The nature of the samples changes only slowly from pulse<BR>
+to pulse and so coherent integration is applied - for each range gate,<BR>
+groups of consecutive samples are summed together. The number of<BR>
+complex samples in the resulting time series is thus reduced, and the<BR>
+time interval between them is increased, by a factor equal to the<BR>
+number of coherent integrations (typically of the order of a few<BR>
+hundred). The time interval between the new samples (typically of the<BR>
+order of 0.1 s) determines the Nyquist velocity (typically of the<BR>
+order of 10 m/s), the maximum radial velocity that can be<BR>
+unambiguously determined. Decoding must be applied to the coherently<BR>
+integrated samples if a complementary transmitter code has been<BR>
+used. For each range gate, a complex Doppler frequency spectrum is<BR>
+derived by applying a weighting window to the complex time series data<BR>
+followed by a discrete Fourier transform. This spectrum is multiplied<BR>
+by its complex conjugate to give a power spectrum. Doppler frequencies<BR>
+are converted into Doppler velocities by multiplying by half the radar<BR>
+wavelength. The sign must be changed so that movement away from the<BR>
+radar (which gives rise to a negative frequency shift) is represented<BR>
+by a positive velocity. If desired, consecutively-observed Doppler<BR>
+velocity power spectra may be incoherently integrated by adding them<BR>
+together. This increases the detectability of signals. In general a<BR>
+Doppler velocity power spectrum contains one or more signal components<BR>
+superimposed on a background of nominally white noise. The power<BR>
+spectral densities (PSDs) of the velocity bins around zero velocity<BR>
+(the number depends on the data weighting window used) are typically<BR>
+contaminated by dc biases in the time-series samples. The values must<BR>
+be replaced by linearly interpolating between the PSDs of adjacent<BR>
+velocity bins. The noise power is dominated by broad-band lower-VHF<BR>
+cosmic radiation, which undergoes a diurnal variation by a factor of<BR>
+approximately 2.</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<BR>
+List of <B>Variable attribute</B> values
+<A name="v0">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">range</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">range</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Range from the radar</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Z</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The range is the distance from the radar's antenna array to the<BR>
+centre of each range gate. The radar is located 50 m above mean sea<BR>
+level and so the altitude of a range gate in metres above mean sea<BR>
+level is given by<BR>&nbsp;
+  50.0 + <BR>&nbsp;
+  (range[range_index] * <BR>&nbsp;
+   cos(beam_pointing_zenith_angle[time_index] * pi/180.0))</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v1">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">doppler_velocity</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v1">doppler_velocity</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Doppler velocity</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comments</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Positive values imply motion away from the radar along the beam pointing direction.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v2">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">power_spectral_density</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">range</A>, <A class="ncDimension" href="#v1">doppler_velocity</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Power spectral density</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comments</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  Power spectral densities (PSDs) have dimensions of W m-1 s+1. The<BR>
+values are uncalibrated and stored in dB units, where<BR>
+  PSD_dB = 10.0 * log10(PSD_linear_units)  </FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v3">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">length_of_transmitter_pulse</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Length of transmitter pulse</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1e-6 s</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v4">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">sub_length_of_transmitter_pulse</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Sub length of transmitter pulse</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1e-6 s</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v5">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">receiver_bandwidth</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Receiver bandwidth</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1e6 Hz</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v6">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">bottom_range_gate_number_for_ST_mode</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Bottom range gate number for ST mode</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v7">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">top_range_gate_number_for_ST_mode</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Top range gate number for ST mode</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v8">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">bottom_range_gate_number_for_M_mode</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Bottom range gate number for M mode</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v9">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">top_range_gate_number_for_M_mode</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Top range gate number for M mode</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v10">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">number_of_coherent_integrations</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Number of coherent integrations</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v11">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">number_of_incoherent_integrations</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Number of incoherent integrations</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v12">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">inter_pulse_period</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Inter pulse period</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1e-6 s</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v13">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">number_of_complex_samples_in_discrete_fourier_transform</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Number of complex samples in discrete Fourier transform</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comments</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">This number also refers to the number of velocity bins in the resulting Doppler power spectrum. Possible values are 64, 128, 256, and 512.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v14">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">data_weighting_window_index</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Data weighting window index</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1 2
+<FONT class="ncDataType">s</FONT>  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">rectangular Hanning other</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v15">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">year</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Year of start of dwell</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v16">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">month</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Month of start of dwell</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v17">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">day</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Day of start of dwell</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v18">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">time</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Time of start of dwell</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">seconds since 2007-02-06 00:00:00 +00:00</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comments</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Time refers to the start of a dwell.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v19">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">beam_pointing_direction_number</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar beam pointing direction number</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comments</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  The radar beam can be steered to point in one of 17 possible<BR>
+directions, represented by an integer between 0 and 16. The variables<BR>
+beam_pointing_azimuth_angle and beam_pointing_zenith_angle give the<BR>
+corresponding beam pointing azimuth and zenith angles.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v20">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">beam_pointing_azimuth_angle</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar beam pointing azimuth angle</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v21">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">beam_pointing_zenith_angle</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Beam pointing zenith angle</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v22">
+<DL><FONT class="ncDataType">integer</FONT> <FONT class="ncVariable">range_resolution</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Range resolution</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v23">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">range_resolution_number</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Range resolution number</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"
+</FONT></DL>
+
+
+<BR>
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="file_format_netcdf.html">A general description of netCDF file
+  structure</A>.
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 25th February 2016</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

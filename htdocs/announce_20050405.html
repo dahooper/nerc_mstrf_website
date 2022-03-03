@@ -1,0 +1,225 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2005-04-05</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2005-04-05</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>Putting the M back into MST</B><BR>
+Mesospheric-mode observations, covering the approximate altitude range
+56 - 94 km, will be reintroduced from Wednesday 6th April 2005 - the
+first time since November 1999. This will not have a large impact on
+the ST-mode (2 - 20 km) observations, since only two extra dwells are
+being added to the current observation cycle. One will be a vertical
+beam dwell for the M-mode and the second will be a vertical beam dwell
+for the ST-mode. This will ensure that ST-mode vertical velocity
+profiles are still available at regular 46 s intervals (as they have
+been since June 2004). Users will need to access the radial data files
+in order to retrieve the high resolution information. The interval
+between horizontal velocity profiles (given in the Cartesian data
+files) will increase from 3 minutes 50 seconds to 4 minutes 36
+seconds. Full details of these changes can be found <A
+href="#full">below</A>.<BR><BR>
+
+<B>A warning for users of version-0 radial data products.</B><BR> 
+
+Version-2 signal processing automatically separates M and ST mode data
+into different files (as well as separating data by range
+resolution). However, version-0 radial data products are all written
+together in the same files. Depending on how they have written their
+reading routines, users may need to make slight changes if they want
+to ensure that only single mode data are considered. An indication
+that M-mode data are included for a particular dwell is given in line
+type 6 - <A href="file_format_v0_rw.html">see here</A> for further
+details. It appears that only ST mode data are written in the
+version-0 wind files.<BR><BR>
+
+Users wishing to test their software are directed to the data for 12th
+June 1997, for which both M and ST mode observations are
+available. The situation for this date is a little different to that
+which is planned for the future - in that the M and ST mode
+observations are not interlaced within the same cycle - but this will
+give an indication of how the modes can be identified from the header
+lines.
+
+<DL>
+  <DD><A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/plots/1997/06/radar-mst_capel-dewi_19970612_m1200.png">Click
+here</A> to see the quick-look plot of the M mode observations.<BR>
+  <DD><A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/plots/1997/06/radar-mst_capel-dewi_19970612_st300.png">Click
+here</A> to see the quick-look plot of the ST mode observations<BR>
+  <DD><A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/data/mst-products-v0/rw/1997/rw970612.tgz">Click
+here</A> to download the data.<BR>
+</DL><BR>
+
+<A name="full">
+<B>Further details about the new observation format</B><BR>
+
+The ST mode observation format used from 21st June 2004 - 5th April
+2005 is as follows:<BR>
+
+
+<PRE>
+ Dwell number    :    1    2    3    4    5    6    7    8    9   10
+ Beam direction  :  NE6 Vert  SW6 Vert  SE6 Vert  NW6 Vert W4.2 Vert
+ Range Resolution:  300  300  300  300  300  300  300  300  300  300
+ Mode            :   ST   ST   ST   ST   ST   ST   ST   ST   ST   ST
+</PRE>
+
+Each dwell has a duration of approximately 23 s and so the total cycle
+time is 3 minutes 50 seconds. Although only one horizontal wind
+profile is available per cycle, vertical velocity profiles are
+available every other dwell, i.e. at intervals of 46 s, from the
+radial data files. 
+
+The new format, to be introduced on 6th April 2005, is identical
+except that it has two extra dwells per cycle:<BR> 
+
+<PRE>
+ Dwell number    :    1    2    3    4    5    6    7    8    9   10   11   12
+ Beam direction  :  NE6 Vert  SW6 Vert  SE6 Vert  NW6 Vert W4.2 Vert Vert Vert
+ Range Resolution:  300  300  300  300  300  300  300  300  300  300 1200  300
+ Mode            :   ST   ST   ST   ST   ST   ST   ST   ST   ST   ST    M   ST
+</PRE>
+
+<B>Note (added 11th April 2005):</B> Owing to technical problems
+encountered when trying to observe the mesosphere at 1200 m range
+resolution, observations are now being made at 300 m resolution
+instead.<BR><BR>
+
+Since the duration of the M mode dwell is identical to that of ST mode
+dwells (23 s), vertical velocity profiles will still be available at
+regular 46 s intervals. The separation between horizontal wind
+profiles will increase slightly to 4 minutes 36 seconds.<BR><BR>
+
+<B>Why bother making M mode observations at all?</B><BR>
+
+Clearly with only vertical beam observations available for the M mode,
+it will not be possible to derive horizontal winds. Nevertheless the
+new observations will be invaluable for establishing when, and from
+which altitudes, mesospheric radar returns are observed. As can be seen
+from the <A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/plots/1997/06/radar-mst_capel-dewi_19970612_m1200.png">quick-look
+plot</A> for the 12th June 1997 case, referred to above, detectable
+radar returns are from discrete layers of narrow vertical
+extent. Moreover, they tend to occur only sporadically. However, M
+mode observations have never been made in a systematic way with the
+Aberystwyth radar. Although observations lasting several hours (albeit
+on arbitrary days) were made in the early 1990s, as can also be seen
+from the quick-look plot for the 12th June 1997 case, much shorter
+(and less frequent) observations were made thereafter.<BR><BR>
+
+Attention tended to be focused on the unusually strong and persistent
+echoes observed around 85 km during June and July (as seen for the
+12th June 1997 case). These are analogous to the Polar Mesosphere
+Summer Echoes (PMSEs), observed at higher latitudes, which are known
+to be associated with the extra-ordinarily low temperature of the
+summer mesopause level. The low temperature is also responsible for
+the occurrence of noctilucent clouds (NLC), which can sometimes be seen
+from Aberystwyth during mid-summer nights. If you would like more
+details about mesospheric radar observations, please <A
+href="contacting_facility_staff.html">contact the NERC MST Radar Facility Project
+Scientist</A> or refer to the <A
+href="publications_by_year.html">early papers making use of data from
+the radar</A>.<BR><BR>
+
+ 
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="contacting_facility_staff.html">Contacting the NERC MST Radar
+  Facility Project Scientist</A>
+  <DD><A href="sig_proc_version_nrs.html">Data product version
+  numbers</A>
+  <DD><A href="file_format_v0_rw.html">File format page for unaveraged
+  version-0 radial data</A>
+  <DD><A href="plots_access.html">Access to the quick-look MST radar plots</A>
+  <DD><A href="publications_by_year.html">List of publications making
+  use of data from the Facility</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/plots/1997/06/radar-mst_capel-dewi_19970612_m1200.png">Quick-look
+  plot of the M mode observations for 12th June 1997 (through BADC)</A><BR>
+  <DD><A
+href="http://badc.nerc.ac.uk/cgi-bin/data_browser/data_browser/badc/mst/data/mst-products-v0/rw/1997/rw970612.tgz">Location
+  of version-0 unaveraged radial data file for 12th June 1997 (through
+  BADC)</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 11th April 2005</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

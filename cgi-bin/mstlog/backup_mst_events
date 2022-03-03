@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Make dated backup of mst_events.xml file
+#
+outfile="/var/www/mst_site/cgi-bin/mstlog_backups/mst_events.xml-$(date +"%Y%m%d")"
+cp -p /var/www/mst_site/cgi-bin/mstlog/mst_events.xml $outfile
+gzip -f $outfile

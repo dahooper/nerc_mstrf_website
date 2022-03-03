@@ -1,0 +1,163 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Climate data logger</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="6" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="4" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">SURFACE METEOROLOGICAL SENSORS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+Surface meteorological parameters (i.e. air temperature, pressure and
+relative humidity, and rainfall and downwelling shortwave radiation)
+are recorded at 10 minute intervals at the NERC MST radar site
+(52.42&deg;N, -4.01&deg;E, 50 m above mean sea level; British National
+Grid Reference: SN637826). Data are available from 25th July 2000 to
+the present. There are a number of gaps in the dataset owing to
+instrument problems and down-time for maintenance.  <BR><BR>
+
+<CENTER><IMG alt="Surface met data instruments at Capel Dewi"
+           border="0" src="IMAGES/capd_surf_equip.jpg"></CENTER><BR>
+
+Data are recorded with a (Met Office approved) CR10 "Climate Data
+Logger" from Campbell Scientific using the following sensors:
+
+<DL>
+  <DT><B>Temperature</B> 
+  <DD>Campbell Scientific 107 thermistor temperature probe mounted
+  inside a URS1 unaspirated radiation shield. Accuracy: +/- 0.4
+  &deg;C.
+
+  <DT><B>Pressure</B> 
+  <DD>Vaisala PTB101B barometric pressure sensor. Accuracy: +/- 2.0
+  hPa.
+  
+  <DT><B>Relative humidity</B> 
+  <DD>(Vaisala) HMP45C temperature and relative humidity probe (from
+  which only the humidity measurements are used) mounted inside a URS1
+  unaspirated radiation shield. Accuracy: +/- 0.3%.
+
+  <DT><B>Rainfall</B> 
+  <DD>(Environmental Measurements) ARG100 tipping bucket
+  raingauge. Note that occasional build-up of fungus within the inlet
+  tube can impede or even completely inhibit the flow of rain into the
+  instrument. This makes the rain data the least reliable of the
+  surface meteorological measurements.
+
+  <DT><B>Downwelling shortwave radiation</B>
+  <DD>(Kipp and Zonen) CM3 thermopile pyranometer (WMO second
+  class). Accuracy: +/- 0.5%.
+
+</DL>
+
+The raingauge is located on the ground. All other sensors are mounted
+on a post approximately 1 m above the ground.<BR><BR>
+
+The data logger initially samples the atmospheric temperature,
+pressure and humidity sensors at 5 s intervals. Mean values are
+calculated over each 60 s and the outputs from the logger represent
+minima, means and maxima of these 60 s means over each 10 minute
+sample period.<BR><BR>
+
+The data logger initially samples the tipping bucket raingauge every 1
+s and records a tip for each 0.20 mm accumulation of rain. The output
+from the logger represents the total accumulation of rain over the
+each 10 minute sample period.<BR><BR>
+
+The data logger initially samples the pyranometer every 5 s and
+records the downwelling radiation (within a hemispheric field of view)
+with a flat response in the spectral range 305 - 2800 nm. The output
+from the logger represents the accumulation of energy per unit area
+within each 10 minute sample period. The measured radiation is
+compared with that predicted for the logger's latitude and longitude,
+and for the time of year and the time of day (assuming clear sky
+conditions). A sunshine priod is defined as one in which the ratio
+excedes 0.4 and the output from the logger represents the accumulated
+sunshine duration within each 10 minute sample period.  Note that this
+is an estimated product, which is not derived according to the WMO
+definition of sunshine duration.<BR><BR>
+
+The data logger records the instantaneous battery voltage and internal
+temperature at the end of each 10 minute sample period for performance
+checking purposes.<BR><BR>
+
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="file_format_surface-met_campbell-sci.html">File format</A>
+  <DD><A href="plots_access.html">Access to the quick-look plots</A>
+  <DD><A href="surf_wind_obs.html">Surface wind measurements</A>
+</DL>
+
+
+  </TD></TR>
+<!*** Close page ***>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="4" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 1st February 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

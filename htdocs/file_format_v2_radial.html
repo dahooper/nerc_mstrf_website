@@ -1,0 +1,474 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>MST radar v2 radial file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html"1>DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR VERSION-2 MST RADAR RADIAL DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>WARNING: Version-2 MST radar data products are DEPRECATED</B><BR>
+Users are encouraged to make use of <A
+href="file_format_v3_radial.html">version-3 radial files</A>.<BR>
+<A href="sig_proc_version_nrs.html">Click here</A> to find out about
+earlier versions of the signal processing.<BR><BR>
+
+<B>File contents</B><BR>
+These files contain radial (i.e. along-beam) profiles of the radar
+return parameters (noise power, signal power, Doppler shift and
+spectral width) for different beam pointing directions. 
+Data are recorded at 150 m intervals in range and
+cover the approximate range 2 - 20 (for the ST mode) or 58 - 96 km
+(for the M mode). For most purposes the Cartesian data will suffice
+and it should only be necessary to examine the radial data for
+specialist studies. <BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.
+
+<BR><BR>
+
+<B>File naming convention: </B><BR>
+
+<CENTER><FONT
+class="code_black">radar-mst_capel-dewi_YYYYMMDD_AARRR_radial_v2.na</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">AA</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the altitude mode [<FONT
+class="code_black">'st'</FONT>: approximately 2 - 20 km | <FONT
+class="code_black">'m'</FONT>: approximately 58 - 96 km]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RRR</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the range resolution (m) [150 | 300 | 600 |
+    1200 | 2400 | 4800]</TD>
+  </TR>
+</TABLE><BR>
+
+i.e. <FONT class="code_black">radar-mst_capel-dewi_20050101_st300_radial_v2.na
+</FONT> contains 300 m resolution radial data over the ST altitude
+    range for 1st January 2005.<BR>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v2/radial"><FONT
+  class="code_black">/badc/mst/data/mst-products-v2/radial/</FONT></A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+
+<B>Archiving convention: </B><FONT class="code_black">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further explanation.<BR><BR>
+
+<B>Data availability:</B> refer to <A
+href="cgi-bin/mstlog_public/mst_event_search.py">Instrument
+performance weblog</A><BR><BR>
+
+<B>File format</B><BR>
+(ASCII) NASA-Ames files, with a File Format Index of 2110, are used, i.e. the
+same as for <A href="file_format_v1_radial.html">Version-1 data
+products</A>. However, there are some small differences in the file
+contents. Users will therefore need to make a few modifications to any
+software designed for dealing with Version-1 products. <BR><BR> 
+
+Only those aspects of the file format which are essential for reading
+the data will be described. For a full description of the NASA-Ames
+formats, consult the <A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Gaines
+and Hipskind [1998]</A> document.<BR><BR>
+
+The radial file for 1st January 2005 will be used as an example. Text
+in green represents actual file contents. Text in red is for
+explanatory purposes only.<BR>
+
+<DL><B>Header Lines</B>
+  <DD><B>Line 1: </B><FONT class="code_green">88 2110</FONT><BR>
+    Integer 1 corresponds to the total number of header lines,
+    <FONT class="code_red">nr_header_lines</FONT><BR>
+    Integer 2 corresponds to the File Format Index<BR><BR>
+
+  <DD><B>Line 7: </B><FONT class="code_green">2005 01 01 2005 01 10</FONT><BR>
+    Integers 1 - 3 correspond to the year, month and day on which the observations were made.<BR>
+    Integers 4 - 6 correspond to the year, month and day on which the
+    file was created.<BR><BR>
+
+  <DD><B>Line 11: </B><FONT class="code_green">6</FONT><BR>
+    The number of primary variables, <FONT
+    class="code_red">nr_primary_vars</FONT>.<BR><BR>
+
+  <DD><B>Line 13: </B><FONT class="code_green">999.99 999.99 999.999
+    99.999 999 99999</FONT><BR>
+    Missing data values, in order, for the <FONT
+    class="code_red">nr_primary_vars</FONT> primary variables <A
+    href="#primary_vars">listed below</A>. Greater use is made of missing
+    data values than in the Version-1 files and so users should make
+    sure that they make the appropriate substitutions when they read
+    in the data.</A><BR><BR>
+
+  <DD><B>Lines 14 - 19:</B><BR>
+    The names of the primary variables (<A
+    href="#primary_vars">listed below</A>).<BR><BR>
+
+  <DD><B>Line 20: </B><FONT class="code_green">16</FONT><BR>
+    The number of auxilliary variables, <FONT
+    class="code_red">nr_aux_vars</FONT>).<BR><BR>
+
+  <DD><B>Lines 23 - 38: </B><BR>
+    The names of the <FONT
+    class="code_red">nr_aux_vars</FONT> auxilliary variables (<A
+    href="#aux_vars">listed below</A>).<BR><BR>
+
+  <DD><B>Line 45: </B><FONT class="code_green">130 3660 1</FONT><BR>
+    Integer 1 corresponds to the number of range gates per dwell, <FONT
+    class="code_red">nr_range_gates</FONT>, <BR>
+    Integer 2 corresponds to the total number of dwells, <FONT
+    class="code_red">total_nr_dwells</FONT>, and<BR>
+    Integer 3 corresponds to the number of different cycle formats,
+    which is typically (but not always) equal to 1.<BR><BR>
+
+  <DD><B>Lines 58 - 86: </B><BR>
+    Global data attributes following the netCDF CF 1.0
+    convention. This includes a processing history. It is not
+    necessary to know this information in order to read the file.
+</DL><BR>
+
+<B>Data reading loop</B><BR>
+
+After reading the above mentioned lines, wind forward to line <FONT
+class="code_red">(nr_header_lines + 1)</FONT> where the data
+begin. Associated with each dwell of observation there is a single
+line of auxiliary variables followed by <FONT
+class="code_red">nr_gates</FONT> lines of primary variables. The data
+can therefore be read with a simple loop structure of the form (shown
+here in Fortran syntax):<BR>
+
+<PRE>
+<FONT class="code_red">do total_dwell_nr = 1,total_nr_dwells
+  read_auxiliary_variables
+  do gate_nr = 1,nr_gates
+    read_primary_variables
+  end do
+end do</FONT></PRE>
+
+<A name="aux_vars">
+<B>Reading auxiliary variables</B><BR>
+Each auxiliary variables line contains the second independent variable
+(dwell time) followed by the 16 auxilliary variables (a mixture of floating
+point, <FONT class="code_red">F</FONT>, and integer, <FONT
+class="code_red">I</FONT> values), shown here for the
+first dwell in the file:
+<FONT class="code_green">116 130 1 1 1 11 27.7 6.0 8 2 2 320 18
+147 512 128 1</FONT>
+
+<DL>
+  <DD><B>Value 1: Cycle time (s) </B><FONT class="code_red">I</FONT><BR>
+    Technically speaking this is the second independent variable
+    rather than an auxiliary variable. The time is given in seconds
+    since 00:00:00 UTC for the day in question.<BR><BR>
+
+  <DD><B>Value 2: Number of range gates </B><FONT class="code_red">I</FONT>
+   <BR>This is the same as <FONT class="code_red">nr_gates</FONT> given in
+    line 45 of the header and so can be ignored.<BR><BR>
+
+  <DD><B>Value 3: Cycle number </B><FONT class="code_red">I</FONT><BR><BR>
+
+  <DD><B>Value 4: Cycle format number </B><FONT
+  class="code_red">I</FONT><BR><BR>
+
+  <DD><B>Value 5: Dwell number (within current cycle) </B>
+    <FONT class="code_red">I</FONT><BR>
+    which is different from <FONT class="code_red">total_dwell_nr</FONT>
+    (except for the first cycle).<BR><BR>
+
+  <DD><B>Value 6: Beam pointing number </B><FONT class="code_red">I</FONT><BR>
+    which ranges between 0 and 16. The same information is contained within
+    the next 2 auxilliary variables. Follow <a href="nerc_mstr_beam_dirs.html">
+    this link</A> to see the relationship between beam number and beam
+    pointing direction.<BR><BR>
+
+  <DD><B>Value 7: Beam pointing azimuth (degrees clockwise from North) </B>
+    <FONT class="code_red">F</FONT><BR>
+    which can have values of 0.0&deg; (for a vertically directed beam only),
+    27.5&deg;, 72.5&deg;, 117.5&deg;, 162.5&deg;, 207.5&deg;, 252.5&deg;,
+    297.5&deg; or 342.5&deg;.<BR><BR>
+
+  <DD><B>Value 8: Beam pointing zenith angle (degrees from vertical) </B>
+     <FONT class="code_red">F</FONT><BR>
+     which can have values of 0.0&deg;, 4.2&deg;, 6.0&deg;, 8.5&deg; or
+     12.0&deg;. <BR><BR>
+
+  <DD><B>Value 9: Transmitter pulse length (&mu;s) </B>
+     <FONT class="code_red">I</FONT><BR>
+     which can have values of 1, 2, 4, 8, 16 or 32 &mu;s.<BR><BR>
+
+  <DD><B>Value 10: Transmitter sub-pulse length (&mu;s) </B> <FONT
+     class="code_red">I</FONT><BR> which can have values of 1, 2, or 4
+     &mu;s, for pulse lengths of 4 &mu;s and longer for which pulse
+     coding has been used. If the sub-pulse length is equal to the
+     pulse length, then no pulse coding has been used. <BR><BR>
+
+  <DD><B>Value 11: Receiver bandwidth (&mu;s) </B> <FONT
+     class="code_red">I</FONT><BR> this is equal to the transmitter sub-pulse
+     length, or to the pulse length if no pulse coding has been used, and
+     determines the range resolution (values shown in brackets). Possible
+     values are 1 &mu;s (150 m), 2 &mu;s (300 m), 4 &mu;s (600 m), 8 &mu;s 
+     (1200 m), 16 &mu;s (2400 m) and 32 &mu;s (4800 m). This value is the
+     same for all dwells within a single file.<BR><BR>
+
+  <DD><B>Value 12: Inter-pulse period (&mu;s) </B>
+    <FONT class="code_red">I</FONT><BR>
+    This determines the maximum unambiguous range from which radar returns
+    can be received (values in brackets). It can have values of 80 &mu;s 
+    (12 km), 160 &mu;s (24 km), 320 &mu;s (48 km) and 640 &mu;s (96 km).
+    <BR><BR>
+
+  <DD><B>Value 13: Bottom range gate number </B> <FONT
+    class="code_red">I</FONT><BR> The bottom and top (next value)
+    range gate numbers are given for reference only. The total number
+    number of range gates was already given in value 2 and the range
+    of each gate from the radar is shown in the first column of data
+    for each dwell. <BR><BR>
+
+  <DD><B>Value 14: Top range gate number </B> <FONT
+    class="code_red">I</FONT><BR>See value 13.<BR><BR>
+
+  <DD><B>Value 15: Number of coherent integrations </B> <FONT
+    class="code_red">I</FONT><BR>
+    This is the number of raw radar samples averaged.<BR><BR>
+
+  <DD><B>Value 16: Discrete Fourier transform length </B> <FONT
+    class="code_red">I</FONT><BR>
+    This is the number of (averaged) samples from which a Doppler power
+     spectrum is derived.<BR><BR>
+
+  <DD><B>Value 17: Number of incoherent integrations </B> <FONT
+    class="code_red">I</FONT><BR>
+    This is the number of Doppler power spectra averaged together before
+    the principal spectral parameters are evaluated.<BR><BR>
+    
+</DL>
+
+<A name="primary_vars"
+<B>Reading primary variables</B><BR>
+
+These lines contain 7 values: the first independent variable (range
+from the radar) followed by the 6 primary variables, as shown below
+for the first line of the first cycle. These are a mixture of floating
+point, <FONT class="code_red">F</FONT>, and integer, <FONT
+class="code_red">I</FONT> values. <BR>
+
+<FONT class="code_green"> 1645.0  41.98  59.23   0.176  0.510  32 32799</FONT>
+<BR>
+
+<DL>
+  <DD><B>Value 1: Range from the radar (m) </B>
+    <FONT class="code_red">F</FONT><BR>
+    Technically speaking this is the first independent variable rather
+    than a primary variable. The same range gate grid is used for all
+    dwells within the file and so only needs to be saved once. The
+    range is given in metres away from the radar, which is at 50 m
+    above mean sea level.<BR><BR>
+
+  <DD><B>Value 2: Spectral noise power (dB) </B>
+    <FONT class="code_red">F</FONT><BR>
+    The noise power is included for reference and is not typically used
+    as a parameter in its own right.<BR><BR>
+
+  <DD><B>Value 3: Radar return signal power (dB) </B>
+    <FONT class="code_red">F</FONT><BR>
+     P_dB = 10 &times; log10[P_linear]<BR><BR>
+
+  <DD><B>Value 4: Radial air velocity (m/s) </B>
+    <FONT class="code_red">F</FONT><BR>
+    Positive values imply motion AWAY from the radar.<BR><BR>
+
+  <DD><B>Value 5: Radar return spectral width (m/s) </B>
+    <FONT class="code_red">F</FONT><BR>
+    This corresponds to an e-1/2 half-width. Follow
+    <A href="beam_broad.html">this link</A> for further information.<BR><BR>
+
+  <DD><B>Value 6: Peak power spectral density (PSD) relative to the mean noise PSD (dB) </B> <FONT class="code_red">I</FONT><BR>
+    This is used for reliability flagging. Signals with a value of greater
+    than 10 dB are typically clearly distinguishable above the background
+    noise. Signals with values of less than 10 dB might still be reliable
+    but should be treated with caution.<BR><BR>
+
+  <DD><B>Value 7: Reliability flag </B>
+    <FONT class="code_red">I</FONT><BR>
+ 
+    Note that this uses a different convention to that used for the
+    reliability flags in the <A
+    href="file_format_v1_cart.html">Version-1 files.</A> A larger
+    range of information is now stored bit-wise in a 16-bit integer,
+    with the 15th bit being used as an overall indicator of data
+    reliability. Therefore data may be regarded as reliable
+    if:<BR><BR>
+
+<CENTER><FONT class="code_black">flag value &gt;=
+32768</FONT></CENTER><BR>
+
+The convention has been adopted so that more pieces of information can
+be added to the flag value at a later date, without changing the
+acceptance condition. At present, only 6 of the available 16 bits are
+used:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Bit number</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Information</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">0</TD>
+    <TD></TD>
+    <TD valign="top">peak signal PSD to noise PSD &gt;= threshold value</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">1</TD>
+    <TD></TD>
+    <TD valign="top">time continuity threshold exceded</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">2</TD>
+    <TD></TD>
+    <TD valign="top">complementary beams are available</B>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">3</TD>
+    <TD></TD>
+    <TD valign="top">complementary beam factor &gt;= threshold value</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">4</TD>
+    <TD></TD>
+    <TD valign="top">complementary beam factor is significant</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD align="center">15</TD>
+    <TD></TD>
+    <TD valign="top">overall reliability flag</TD>
+  </TR>
+</TABLE>
+The threshold values used for a particular file are quoted in header
+lines 52 - 56.
+<BR><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="sig_proc_version_nrs.html">The differences between
+  signal processing versions</A>
+  <DD><A href="file_contents.html">The contents of other data files</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Full
+       description of the NASA-Ames formats: Gaines and Hipskind [1998]</A>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 9th November 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

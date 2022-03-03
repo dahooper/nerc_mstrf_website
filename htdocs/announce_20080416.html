@@ -1,0 +1,342 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2008-04-16</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2008-04-16</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>Error in MST Radar altitudes (and ranges) for the period 6th
+February 2007 - 8th April 2008</B><BR>
+
+Owing to a bug in the <A href="mstr_new_acquisition_system.html">new
+MST radar control and data acquisition system</A>, there have been
+errors in the reported ranges and altitudes of all MST radar data
+products for the period from 13:44:03 UT on 6th February 2007 until
+14:37:00 UT on 8th April 2008, inclusive. <BR><BR>
+
+A compensation for this problem was introduced into the signal
+processing software starting with the cycle/dwell beginning at
+12:48:15 UT on 7th February 2008. <A
+href="announce_20080208.html">Click here for more
+details</A>. However, it turns out that this over-corrected the
+problem. Moreover, this meant that the data at the lowest three range
+gates were unreliable. <BR><BR>
+
+The problem has now been fully understood (for the ST-mode) and
+solved. Appropriate changes were introduced to both the data
+acquisition software and the signal processing software for
+cycles/dwells starting at, or after, 14:50:03 UT on 8th April
+2008. <BR><BR>
+
+Cartesian and radial files for the period 6th February 2007 - 8th
+April 2008 (inclusive) will eventually be recreated with the
+corrections incorporated, However, until then, data users should apply
+the compensations shown below. If you have any doubt as to whether or
+not your files are affected, or as to how to carry out the
+compensation, please <A href="contacting_facility_staff.html">contact the NERC
+MST Radar Facility Project Scientist</A> directly.<BR><BR>
+
+This page covers the following topics:
+<UL>
+  <LI><A href="#affected">How to tell if your files are affected
+  <LI><A href="#st">How to compensate for this error in
+  affected ST-mode data</A>
+  <LI><A href="#m">How to compensate for this error in
+  affected M-mode data</A>
+  <LI><A href="#evidence">Evidence for the problem
+</UL>
+
+<BR><BR>
+<A name="affected">
+<B>How to tell if your files are affected</B><BR>
+For the time being, all files containing data for the period 6th
+February 2007 - 8th April 2008 should be considered to be
+affected. However, when the data are eventually reprocessed, the
+compensated <href="file_format_v3_cartesian.html">Cartesian</A> and
+<href="file_format_v3_radial.html">radial</A> data files will be
+identifiable from the fact that their creation dates, contained in
+the netCDF global attribute <FONT class="code_red">history</FONT>:<BR><BR>
+
+<CENTER>
+<FONT class="code_red">"File created YYYY-MM-DD HH:MM:SS +00:00 on
+machine claudius"</FONT></CENTER><BR><BR>
+
+are after 9th April 2008 (2008-04-09). Files are typically created a
+few hours after the 24 hour period which they cover. It is likely that
+the spectral files will be left as they are and users will need to
+apply the corrections themselves.
+
+<BR><BR><BR>
+<A name="st">
+<B>How to compensate for this error in affected ST-mode data</B><BR>
+Dates and times below are given in the format YYYY-MM-DD HH:MM:SS. The
+bottom and top range gate numbers are recorded in the Cartesian and
+radial files by the global attributes <FONT
+class="code_red">data_bottom_range_gate_number</FONT> and <FONT
+class="code_red">data_top_range_gate_number</FONT>,
+respectively. Spectral files can store ST-mode and M-mode data
+simultaneously and so have variables (rather than global attributes)
+named <FONT class="code_red">bottom_range_gate_number_for_ST_mode,
+top_range_gate_number_for_ST_mode,
+bottom_range_gate_number_for_M_mode,
+top_range_gate_number_for_M_mode</FONT>.
+
+<UL>
+  <LI>for <B>Cartesian</B> cycles starting between <B>2007-02-06
+  13:44:03 UT</B> and <B>2008-02-07 11:50:27 UT</B><BR>
+  <UL>
+    <LI>actual range gate number = recorded range gate number + 4
+    <LI>actual altitude (of range gates above mean sea level) = recorded
+       altitude + 596.7 m
+  </UL><BR>
+
+  <LI>for <B>Cartesian</B> cycles starting between <B>2008-02-07
+  12:48:15 UT</B> and <B>2008-04-08 14:31:56 UT</B>
+  <UL>
+    <LI>actual range gate number = recorded range gate number - 3
+    <LI>actual altitude (of range gates above mean sea level) = recorded
+        altitude - 447.5 m
+    <LI>Data from the lowest three range gates should be ignored as they are
+        unreliable.
+  </UL><BR>
+
+  <LI>For <B>Radial</B> dwells starting between <B>2007-02-06
+  13:44:03 UT</B> and <B>2008-02-07 11:54:57 UT</B>
+  <UL>
+    <LI>actual range gate number = recorded range gate number + 4
+    <LI>actual range (of range gates from the radar) = recorded
+        range + 600.0 m
+  </UL><BR>
+
+  <LI>For <B>Radial</B> dwells starting between <B>2008-02-07
+  12:48:15 UT</B> and <B>2008-04-08 14:37:00 UT</B>
+  <UL>
+    <LI>actual range gate number = recorded range gate number - 3
+    <LI>actual range (of range gates from the radar) = recorded
+        range - 450.0 m
+    <LI>Data from the lowest three range gates should be ignored as they are
+        unreliable.
+  </UL><BR> 
+
+  <LI>For <B>Spectral</B> dwells starting between <B>2007-02-06
+  13:44:03 UT</B> and <B>2008-02-07 11:54:57 UT</B>
+  <UL>
+    <LI>actual range gate number = recorded range gate number + 4<BR>
+    <LI>actual range (of range gates from the radar) = recorded
+        range + 600.0 m
+  </UL><BR>
+
+  <LI>For <B>Spectral</B> dwells starting between <B>2008-02-07
+  12:48:15 UT</B> and <B>2008-04-08 14:37:00 UT</B>
+  <UL>
+    <LI>actual range gate number = recorded range gate number + 4<BR>
+    <LI>actual range (of range gates from the radar) = recorded
+        range + 600.0 m
+    <LI>Note that the first two compensations are the same as those
+        for the period 2007-02-06 13:44:03 UT - 2008-02-07 11:54:57 UT. This
+	is not the case for the Cartesian and radial data.
+    <LI>Data from the lowest three range gates should be ignored as they are
+        unreliable.
+  </UL>
+</UL>
+
+<BR><BR>
+<A name="m">
+<B>How to compensate for this error in affected M-mode data</B><BR>
+
+If you are making use of M-mode data, even for periods unaffected by
+the range problem, please <A href="contacting_facility_staff.html">contact the
+NERC MST Radar Facility Project Scientist</A>. <BR><BR>
+
+The legacy documentation is incomplete, and sometimes ambiguous, in
+regard to the M-mode range gates. Moreover, there is reason to believe
+that there are (slight) bugs in the original data acquisition
+software. Consequently a solution to the ranging problem has been
+based on second-guessing what was intended rather than what was
+implemented in the original software. It is anticipated that any
+errors in range are less than 1 km. Unfortunately there is no
+independent method of verifying the altitudes of M-mode range
+gates.<BR><BR>
+
+It is known that a hardware pre-processing unit prevents data from the
+middle range gates, nominally numbers 192 - 385 (i.e. a gap of 192
+gates), from being passed to the data acquisition computer (since no
+useful radar returns are expected from this altitude region). It is
+also known that the number of the lowest recorded ST-mode range gate
+is determined by half the transmitted pulse length, i.e. range gate
+number 4 for standard 8 us observations, and is not 0 (as was
+expected). It seems likely that the same offset would apply to the
+M-mode so that the two altitude ranges are still separated by 192
+range gates. The hardware range gate number is therefore related to
+apparent range gate number through the relationship: <BR><BR> 2 <FONT
+class="code_red">hardware_range_gate_number =
+apparent_range_gate_number - m_mode_range_gate_offset</FONT><BR><BR>
+
+For dwells/cycles starting before 2007-02-06 13:44:03 UT (i.e. using
+the original data acquisition system), the following was assumed:<BR>
+<FONT class="code_red">m_mode_range_gate_offset = 190</FONT><BR><BR>
+
+For dwells/cycles starting between 2007-02-06 13:44:03 UT and
+2008-02-07 11:54:57 UT, the following was assumed:<BR>
+<FONT class="code_red">m_mode_range_gate_offset = 194</FONT><BR><BR>
+
+For dwells/cycles starting after 2008-02-07 14:37:00 UT, the following
+has been assumed:<BR>
+<FONT class="code_red">m_mode_range_gate_offset = 192 +
+int(length_of_transmitted_pulse_length_in_us/2)</FONT><BR><BR>
+
+i.e. <FONT class="code_red">m_mode_range_gate_offset = 196</FONT> for
+standard observations with a pulse length of 8 us. The range gate
+translation is carried out by a PROM, which will need to be
+investigated before any progress can be made on this. Owing to the
+lack of correlative data, there is no easy way to verify this any more
+at the present time. 
+
+
+<BR><BR><BR>
+<A name="evidence">
+<B>Evidence for the problem</B><BR> 
+The fact that there was a problem became apparent almost as soon as
+the new radar control and data acquisition system began operations in
+February 2007. The monthly comparison statistics of wind-profile data
+against the Met Office model fields showed:<BR>
+
+<UL>
+  <LI>there was an increased bias in the differences between radar and
+  model wind (northward and eastward) components
+  <LI>the magnitude of this bias had a maximum value around the tropopause
+  level, i.e. where there is typically a sharp reduction in wind speed
+  with increasing altitude
+  <LI>the wind direction was largely unaffected
+  <LI>there was a decrease in radar altitude coverage
+</UL>
+
+Nevertheless, the cause for this was not immediately apparent, since
+the internal consistency of the radar observations remained
+high. However, once it was decided that the problems lay in the range
+gating, comparisons against <A
+href="announce_20080208_c.html">Aberporth radiosonde wind-profile
+data</A> demonstrated that shifting the range gates upwards lead to a
+better agreement. The initial offset of +7 range gates (used between
+2007-02-06 13:44:03 UT and 2008-02-07 11:54:57 UT) was based on the
+presumption that the error lay in the decoding routine. This implied
+an offset determined by the length of the transmitted pulse in us
+(typically 8 us) less 1. However, after an exhaustive comparison of
+the old and new data acquisition codes, justification could only be
+found for an offset of +4 range gates. This arises owing to the fact
+that the number of the lowest ST-mode range gate for which data are
+recorded is not 0. It is determined by half the transmitted pulse
+length, i.e. range gate number 4 for standard 8 us observations. This
+fact is not recorded anywhere in the legacy documentation but is
+inferred from the original data acquisition code. 
+
+The first of the plots below shows the correlation coefficients
+between radiosonde-derived and radar-derived wind speeds for various
+radar range gate offsets. Thus uses 147 radiosondes launched from
+Aberporth, approximately 45 km to the SW of the MST radar site,
+between June and December 2007. The radiosonde sample closest to each
+radar range gate was used. Radar winds are averages over 1 hour
+starting from the time of the radiosonde launch. A radar range gate
+offset of 0 implies that no attempt has been made to compensate for
+the altitude error. The peak correlation coefficient would apparently
+be associated with an offset of between +4 and +5 range gates. This
+provides a high degree of confidence in the value of +4 chosen.
+
+<A name="first">
+<CENTER><IMG src="FIGS/correlation_coefficients_by_range_gate_offsets.png">
+</CENTER>
+<BR>
+
+The second plot shows the relationship between radiosonde-derived and
+radar-derived wind speeds assuming an offset of +4 range gates.
+
+<A name="second">
+<CENTER><IMG src="FIGS/radar-radiosonde-correlation_range-gate-offset-4.png">
+</CENTER>
+<BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="mstr_new_acquisition_system.html">The new MST radar
+    control and data acquisition system</A>
+  <DD><A href="file_format_v3_radial.html">File format for v3 MST
+  Radar radial files</A>
+  <DD><A href="file_format_v3_cartesian.html">File format for v3 MST
+  Radar Cartesian files</A>
+  <DD><A href="contacting_facility_staff.html">Contact the NERC MST Radar
+      Facility Project Scientist</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 16th April 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

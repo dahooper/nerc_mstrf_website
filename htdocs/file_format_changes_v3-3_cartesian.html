@@ -1,0 +1,509 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Proposed changes to v3 Cartesian files</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">PROPOSED CHANGES TO V3 CARTESIAN FILES</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<A name="top">
+<!*** Page contents to go here ***> 
+
+In preparation for the re-processing of the entire MST radar
+observation archive, a few small changes have been made to upgrade the
+current version 3.2 signal processing scheme to a version 3.3 scheme:
+
+<UL>
+  <LI>A correction has been made to the (time-continuity) reliability
+  flagging scheme, which used to cause problems when the radar cycle
+  format was changed (i.e. infrequently).<BR><BR>
+
+  <LI>The assumed value for the speed of light, which is used to
+  calculate the range and altitude of radar range gates, has been
+  changed from 3.0e8 to 299,792,458.0 m/s. This will be relatively
+  insignificant for the ST-mode observations, leading to a maximum
+  difference in the calculated ranges and altitudes of 15 m. However,
+  it leads to differences of up to 65 m, i.e. almost half a range
+  gate, in the M-mode.<BR><BR>
+
+  <LI>A change will be made to the bit-encoding of the reliability
+  details variables in order to remove a redundant piece of
+  information. However, there will still be an additional binary flag which
+  simply indicates whether or not a parameter value is judged to be
+  reliable.<BR><BR>
+
+  <LI>The Variable and Global Variable names in the netCDF files will
+  be changed slightly in order to reduce ambiguities and to better
+  reflect the relationships between parameters. This logic is most
+  apparent when the new names are viewed as a group. Tables are also
+  provided which interlace the current and new names. The new names may be
+  changed slightly compared to those proposed here. Final details will
+  be included in a separate page once the reprocessing begins. 
+</UL>
+
+Tables are available for the following:
+<UL>
+  <LI><A href="#v3-2-variable">Version 3.2 Variable names</A>
+  <LI><A href="#v3-3-variable">Version 3.3 Variable names</A>
+  <LI><A href="#interlaced-variable">Interlaced version 3.2 and version 3.3 Variable names</A><BR><BR>
+
+  <LI><A href="#v3-2-global">Version 3.2 Global variable names</A>
+  <LI><A href="#v3-3-global">Version 3.3 Global variable names</A>
+  <LI><A href="#interlaced-global">Interlaced version 3.2 and version 3.3
+       Global variable names</A>
+</UL><BR>
+
+<A name="v3-2-variable">
+<FONT class="code_green">
+<OL>Current (version 3.2) <FONT class="code_black">Variable names</FONT>
+<LI>time
+<LI>altitude
+<LI>latitude
+<LI>longitude<BR><BR>
+
+<LI>horizontal_wind_components_are_reliable
+<LI>horizontal_wind_components_reliability_details
+<LI>eastward_wind
+<LI>northward_wind
+<LI>horizontal_wind_complementary_beam_variability
+<LI>horizontal_wind_theta_s_compensation_factor<BR><BR>
+
+<LI>vertical_beam_data_are_reliable
+<LI>vertical_beam_data_reliability_details
+<LI>vertical_beam_signal_power
+<LI>vertical_beam_radial_velocity
+<LI>vertical_beam_spectral_width<BR><BR>
+
+<LI>vertical_beam_median_noise_power<BR><BR>
+
+<LI>beam_broadening_corrected_spectral_width_is_reliable
+<LI>beam_broadening_corrected_spectral_width_reliability_details
+<LI>beam_broadening_corrected_spectral_width<BR><BR>
+
+<LI>aspect_sensitivity_is_reliable
+<LI>aspect_sensitivity_reliability_details
+<LI>aspect_sensitivity<BR><BR>
+
+<LI>tropopause_altitude
+<LI>tropopause_sharpness_factor
+</OL>
+</FONT>
+<BR>
+
+<A name="v3-3-variable">
+<FONT class="code_red">
+<OL>Proposed new (version 3.3) <FONT class="code_black">Variable names</FONT>
+<LI>time
+<LI>altitude
+<LI>latitude
+<LI>longitude<BR><BR>
+
+<LI>horizontal_wind_reliability_flag
+<LI>horizontal_wind_reliability_details
+<LI>horizontal_wind_eastward_component
+<LI>horizontal_wind_northward_component
+<LI>horizontal_wind_full_complementary_beam_continuity_factor
+<LI>horizontal_wind_effective_zenith_angle_compensation_factor<BR><BR>
+
+<LI>vertical_beam_signal_component_reliability_flag
+<LI>vertical_beam_signal_component_reliability_details
+<LI>vertical_beam_signal_component_power
+<LI>vertical_beam_signal_component_radial_velocity
+<LI>vertical_beam_signal_component_spectral_width<BR><BR>
+
+<LI>vertical_beam_median_spectrum_noise_power<BR><BR>
+
+<LI>beam_broadening_corrected_spectral_width_reliability_flag
+<LI>beam_broadening_corrected_spectral_width_reliability_details
+<LI>beam_broadening_corrected_spectral_width<BR><BR>
+
+<LI>radar_scatter_zenith_angle_dependence_reliability_flag
+<LI>radar_scatter_zenith_angle_dependence_reliability_details
+<LI>radar_scatter_zenith_angle_dependence<BR><BR>
+
+<LI>tropopause_altitude
+<LI>tropopause_sharpness_index
+<LI>tropopause_sharpness_factor
+</OL>
+</FONT><BR>
+
+
+<A name="interlaced-variable">
+<OL><FONT class="code_black">Interlaced </FONT>
+    <FONT class="code_green">current (version 3.2)</FONT> 
+    <FONT class="code_black">and</FONT>
+    <FONT class="code_red">proposed new (version 3.3)</FONT>
+    <FONT class="code_black">Variable names</FONT>
+    <FONT class="code_green">
+<LI><FONT class="code_green">time</FONT><BR>
+    <FONT class="code_red">time</FONT>
+
+<LI><FONT class="code_green">altitude</FONT><BR>
+    <FONT class="code_red">altitude</FONT>
+
+<LI><FONT class="code_green">latitude</FONT><BR>
+    <FONT class="code_red">latitude</FONT>
+
+<LI><FONT class="code_green">longitude</FONT><BR>
+    <FONT class="code_red">longitude</FONT><BR><BR>
+
+
+<LI><FONT class="code_green">horizontal_wind_components_are_reliable</FONT><BR>
+    <FONT class="code_red">horizontal_wind_reliability_flag</FONT>
+
+<LI><FONT class="code_green">horizontal_wind_components_reliability_details</FONT><BR>
+    <FONT class="code_red">horizontal_wind_reliability_details</FONT>
+
+<LI><FONT class="code_green">eastward_wind</FONT><BR>
+    <FONT class="code_red">horizontal_wind_eastward_component</FONT>
+
+<LI><FONT class="code_green">northward_wind</FONT><BR>
+    <FONT class="code_red">horizontal_wind_northward_component</FONT>
+
+<LI><FONT class="code_green">horizontal_wind_complementary_beam_variability</FONT><BR>
+    <FONT class="code_red">horizontal_wind_full_complementary_beam_continuity_factor</FONT>
+
+
+<LI><FONT class="code_green">horizontal_wind_theta_s_compensation_factor</FONT><BR>
+    <FONT class="code_red">horizontal_wind_effective_zenith_angle_compensation_factor</FONT><BR><BR>
+
+
+<LI><FONT class="code_green">vertical_beam_data_are_reliable</FONT><BR>
+    <FONT class="code_red">vertical_beam_signal_component_reliability_flag</FONT>
+
+<LI><FONT class="code_green">vertical_beam_data_reliability_details</FONT><BR>
+    <FONT class="code_red">vertical_beam_signal_component_reliability_details</FONT>
+
+<LI><FONT class="code_green">vertical_beam_signal_power</FONT><BR>
+    <FONT class="code_red">vertical_beam_signal_component_power</FONT>
+
+<LI><FONT class="code_green">vertical_beam_radial_velocity</FONT><BR>
+    <FONT class="code_red">vertical_beam_signal_component_radial_velocity</FONT>
+
+<LI><FONT class="code_green">vertical_beam_spectral_width</FONT><BR>
+    <FONT class="code_red">vertical_beam_signal_component_spectral_width</FONT><BR><BR>
+
+
+<LI><FONT class="code_green">vertical_beam_median_noise_power</FONT><BR>
+    <FONT class="code_red">vertical_beam_median_spectrum_noise_power<BR><BR>
+
+
+<LI><FONT class="code_green">beam_broadening_corrected_spectral_width_is_reliable</FONT><BR>
+    <FONT class="code_red">beam_broadening_corrected_spectral_width_reliability_flag</FONT>
+
+<LI><FONT class="code_green">beam_broadening_corrected_spectral_width_reliability_details</FONT><BR>
+    <FONT class="code_red">beam_broadening_corrected_spectral_width_reliability_details</FONT>
+
+<LI><FONT class="code_green">beam_broadening_corrected_spectral_width</FONT><BR>
+    <FONT class="code_red">beam_broadening_corrected_spectral_width</FONT><BR><BR>
+
+<LI><FONT class="code_green">aspect_sensitivity_is_reliable</FONT><BR>
+    <FONT class="code_red">radar_scatter_zenith_angle_dependence_reliability_flag</FONT>
+
+<LI><FONT class="code_green">aspect_sensitivity_reliability_details</FONT><BR>
+    <FONT class="code_red">radar_scatter_zenith_angle_dependence_reliability_details</FONT>
+
+<LI><FONT class="code_green">aspect_sensitivity</FONT><BR>
+    <FONT class="code_red">radar_scatter_zenith_angle_dependence</FONT><BR><BR>
+
+<LI><FONT class="code_green">tropopause_altitude</FONT><BR>
+    <FONT class="code_red">tropopause_altitude</FONT>
+
+<LI><FONT class="code_green">tropopause_sharpness_factor</FONT><BR>
+    <FONT class="code_red">tropopause_sharpness_index</FONT>
+
+<LI><FONT class="code_black">no corresponding variable</FONT><BR>
+    <FONT class="code_red">tropopause_sharpness_factor</FONT>
+
+</OL>
+</FONT><BR><BR>
+
+
+<A name="v3-2-global">
+<FONT class="code_green">
+<OL>Current (version 3.2) <FONT class="code_black">Global Variable names</FONT>
+  <LI>Conventions
+  <LI>title
+  <LI>institution
+  <LI>source
+  <LI>history
+  <LI>references
+  <LI>comment<BR><BR>
+
+  <LI>data_year
+  <LI>data_month
+  <LI>data_day
+  <LI>data_altitude_mode
+  <LI>data_range_resolution_m
+  <LI>data_range_resolution_number
+  <LI>data_bottom_range_gate_number
+  <LI>data_top_range_gate_number<BR><BR>
+
+  <LI>radar_location_name
+  <LI>radar_british_national_grid_reference 
+  <LI>radar_latitude_degrees_north
+  <LI>radar_longitude_degrees_east
+  <LI>radar_altitude_above_mean_sea_level_m<BR><BR>
+
+  <LI>radar_frequency_MHz 
+  <LI>radar_wavelength_m
+  <LI>radar_transmitters
+  <LI>radar_peak_transmitted_power_kW
+  <LI>radar_antenna_type
+  <LI>radar_antenna_side_length_m
+  <LI>radar_beam_one_way_half_power_half_width_degrees<BR><BR>
+
+  <LI>signal_processing_version_number 
+  <LI>signal_processing_sub_version_number<BR><BR>
+ 
+  <LI>sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag<BR><BR>
+ 
+  <LI>cart_horiz_wind_zen_angle_deg
+  <LI>cart_horiz_wind_primary_azi_angle_deg
+  <LI>cart_apply_theta_s_corr_to_horiz_wind
+  <LI>cart_max_compl_beam_horiz_vel_diff_mps
+  <LI>cart_max_theta_s_horiz_wind_corr_fact
+  <LI>cart_theta_s_high_zen_angle_deg
+  <LI>cart_theta_s_low_zen_angle_deg<BR><BR>
+
+  <LI>cart_asp_sens_high_zen_angle_deg<BR><BR>
+
+  <LI>cart_tpause_grad_intvl_m
+</OL>
+</FONT><BR><BR>
+
+<A name="v3-3-global">
+<FONT class="code_red">
+<OL>Proposed new (version 3.3) <FONT class="code_black">Global Variable names</FONT>
+  <LI>Conventions
+  <LI>title
+  <LI>institution
+  <LI>source
+  <LI>history
+  <LI>references
+  <LI>comment<BR><BR>
+
+  <LI>data_year
+  <LI>data_month
+  <LI>data_day
+  <LI>data_altitude_mode
+  <LI>data_range_resolution_m
+  <LI>data_range_resolution_number
+  <LI>data_bottom_range_gate_number
+  <LI>data_top_range_gate_number<BR><BR>
+
+  <LI>instrument_location_name
+  <LI>instrument_location_british_national_grid_reference 
+  <LI>instrument_location_latitude_degrees_north
+  <LI>instrument_location_longitude_degrees_east
+  <LI>instrument_location_altitude_above_mean_sea_level_m<BR><BR>
+
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT>
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT><BR><BR>
+
+  <LI>signal_processing_version_number 
+  <LI>signal_processing_sub_version_number<BR><BR>
+ 
+  <LI><FONT class="code_black">no corresponding Global Variable</FONT><BR><BR>
+ 
+  <LI>horizontal_wind_primary_zenith_angle_degrees
+  <LI>horizontal_wind_primary_azimuth_angle_degrees
+  <LI>horizontal_wind_effective_zenith_angle_compensation_is_applied_where_possible
+  <LI>horizontal_wind_maximum_complementary_beam_continuity_factor
+  <LI>horizontal_wind_maximum_effective_zenith_angle_compensation_factor
+  <LI>horizontal_wind_effective_zenith_angle_higher_zenith_angle_degrees
+  <LI>horizontal_wind_effective_zenith_angle_lower_zenith_angle_degrees<BR><BR>
+
+  <LI>radar_scatter_zenith_angle_dependence_higher_zenith_angle_degrees<BR><BR>
+
+  <LI>tropopause_vertical_gradient_interval_m
+</OL>
+</FONT><BR><BR>
+
+
+<A name="interlaced-global">
+<FONT class="code_green">
+<OL><FONT class="code_black">Interlaced </FONT>
+    <FONT class="code_green">current (version 3.2)</FONT> 
+    <FONT class="code_black">and</FONT>
+    <FONT class="code_red">proposed new (version 3.3)</FONT>
+    <FONT class="code_black">Global Variable names</FONT>
+    <FONT class="code_green">
+  <LI>Conventions<BR><FONT class="code_red">
+      Conventions</FONT>
+  <LI>title<BR><FONT class="code_red">
+      title</FONT>
+  <LI>institution<BR><FONT class="code_red">
+      institution</FONT>
+  <LI>source<BR><FONT class="code_red">
+      source</FONT>
+  <LI>history<BR><FONT class="code_red">
+      history</FONT>
+  <LI>references<BR><FONT class="code_red">
+      references</FONT>
+  <LI>comment<BR><FONT class="code_red">
+      comment</FONT><BR><BR>
+
+  <LI>data_year<BR><FONT class="code_red">
+      data_year</FONT>
+  <LI>data_month<BR><FONT class="code_red">
+      data_month</FONT>
+  <LI>data_day<BR><FONT class="code_red">
+      data_day</FONT>
+  <LI>data_altitude_mode<BR><FONT class="code_red">
+      data_altitude_mode</FONT>
+  <LI>data_range_resolution_m<BR><FONT class="code_red">
+      data_range_resolution_m</FONT>
+  <LI>data_range_resolution_number<BR><FONT class="code_red">
+      data_range_resolution_number</FONT>
+  <LI>data_bottom_range_gate_number<BR><FONT class="code_red">
+      data_bottom_range_gate_number</FONT>
+  <LI>data_top_range_gate_number<BR><FONT class="code_red">
+      data_top_range_gate_number</FONT><BR><BR>
+
+  <LI>radar_location_name<BR><FONT class="code_red">
+      instrument_location_name</FONT>
+  <LI>radar_british_national_grid_reference<BR><FONT class="code_red">
+      instrument_location_british_national_grid_reference</FONT>
+  <LI>radar_latitude_degrees_north<BR><FONT class="code_red">
+      instrument_location_latitude_degrees_north</FONT>
+  <LI>radar_longitude_degrees_east<BR><FONT class="code_red">
+      instrument_location_longitude_degrees_east</FONT>
+  <LI>radar_altitude_above_mean_sea_level_m<BR><FONT class="code_red">
+      instrument_location_altitude_above_mean_sea_level_m</FONT><BR><BR>
+
+  <LI>radar_frequency_MHz<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_wavelength_m<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_transmitters<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_peak_transmitted_power_kW<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_antenna_type<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_antenna_side_length_m<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT>
+  <LI>radar_beam_one_way_half_power_half_width_degrees<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT><BR><BR>
+
+  <LI>signal_processing_version_number<BR><FONT class="code_red">
+      signal_processing_version_number</FONT>
+  <LI>signal_processing_sub_version_number<BR><FONT class="code_red">
+      signal_processing_sub_version_number</FONT><BR><BR>
+
+  <LI>sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag<BR><FONT class="code_black">
+      no corresponding Global Variable</FONT><BR><BR>
+
+  <LI>cart_horiz_wind_zen_angle_deg<BR><FONT class="code_red">
+      horizontal_wind_primary_zenith_angle_degrees
+  <LI>cart_horiz_wind_primary_azi_angle_deg<BR><FONT class="code_red">
+      horizontal_wind_primary_azimuth_angle_degrees
+  <LI>cart_apply_theta_s_corr_to_horiz_wind<BR><FONT class="code_red">
+      horizontal_wind_effective_zenith_angle_compensation_is_applied_where_possible
+  <LI>cart_max_compl_beam_horiz_vel_diff_mps<BR><FONT class="code_red">
+      horizontal_wind_maximum_complementary_beam_continuity_factor
+  <LI>cart_max_theta_s_horiz_wind_corr_fact<BR><FONT class="code_red">
+      horizontal_wind_maximum_effective_zenith_angle_compensation_factor
+  <LI>cart_theta_s_high_zen_angle_deg<BR><FONT class="code_red">
+      horizontal_wind_effective_zenith_angle_higher_zenith_angle_degrees
+  <LI>cart_theta_s_low_zen_angle_deg<BR><FONT class="code_red">
+      horizontal_wind_effective_zenith_angle_lower_zenith_angle_degrees</FONT><BR><BR>
+
+  <LI>cart_asp_sens_high_zen_angle_deg<BR><FONT class="code_red">
+      radar_scatter_zenith_angle_dependence_higher_zenith_angle_degrees</FONT><BR><BR>
+
+  <LI>cart_tpause_grad_intvl_m<BR><FONT class="code_red">
+      tropopause_vertical_gradient_interval_m</FONT>
+</OL>
+</FONT><BR><BR>
+
+
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to top of page</A>
+  <DD><A href="file_format_v3_cartesian.html">File format for v3.2
+  Cartesian data files</A>
+  <DD><A href="file_format_changes_v3-3_radial.html">Proposed parameter names
+  for v3.3 radial data files
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 6th November 2009</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

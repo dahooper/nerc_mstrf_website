@@ -1,0 +1,412 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>V3 signal processing overview</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR VERSION-3 MST RADAR RADIAL DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+The following overview of version-3 MST radar signal processing is
+included in the global attribute 'comment' in netCDF files. The
+sections are arranged into three groups:<BR>
+
+<DL>Group 1: appears in spectral, radial and Cartesian data files
+    <DD><A href="#introduction">Introduction</A>
+    <DD><A href="#sampling">Sampling Procedure</A>
+    <DD><A href="#spectra">From Samples to Spectra</A>
+</DL>
+<DL>Group 2: appears in radial and Cartesian data files
+    <DD><A href="#spectral_processing">Spectral Processing</A>
+    <DD><A href="#time_continuity">Time Continuity Testing</A>
+</DL>
+<DL>Group 3: appears in Cartesian data files
+    <DD><A href="#horizontal_winds">Deriving Cartesian Wind Components</A>
+    <DD><A href="#horizontal_wind_accuracy">The Accuracy 
+      of Horizontal Wind Components</A>
+    <DD><A href="#vertical_beam_products">Vertical Beam Data Products</A>
+    <DD><A href="#beam_broadening_corrected">Beam Broadening Corrected
+      Spectral Width</A> 
+    <DD><A href="#aspect_sensitivity">Aspect Sensitivity</A>
+</DL>
+
+<A name="introduction">
+<B>Introduction</B><BR>
+The Natural Environment Research Council (NERC) Mesosphere-Stratosphere- 
+Troposphere (MST) Radar at Aberystwyth (UK) is a 46.5 MHz
+wind-profiling instrument. It transmits short pulses of radio waves
+which are scattered back to it from atmospheric targets. The distance
+of a target from the instrument is determined by the time delay
+between the transmission and reception of a pulse. The main targets
+are metre-scale refractive index irregularities, which are referred to
+as clear-air targets (the term does not necessarily imply clear-sky
+conditions as the radar is able to see through clouds). Hydrometeors,
+aircraft, and ground-based objects can also give rise to radar
+returns. The receiver signal is occasionally contaminated by
+interference. The refractive index irregularities are caused by
+variations in atmospheric humidity (within the lowest 10 km of the
+atmosphere), in atmospheric density (within the lowest few 10s of km)
+and in free electron density (above 50 km). The radar return signal
+power is typically proportional to the square of the mean vertical
+gradient of the (potential) refractive index and inversely
+proportional to the square of the range of the clear-air targets from
+the radar. The refractive index irregularities are assumed to be
+advected with the wind. Consequently the radial velocity, i.e. the
+component of the wind vector along the radar beam pointing direction,
+can be inferred from the Doppler shift of the radar return
+signal. Atmospheric turbulence gives rise to variability in the radial
+velocity when observed over a time scale of a few tens of
+seconds. However, as a result of the radar's finite beam width, the
+observed spread tends to be dominated by a beam-broadening component,
+which is proportional to the horizontal wind speed. Consequently it
+becomes increasingly difficult to infer turbulence intensities as the
+wind speed increases.<BR><BR>
+
+<A name="sampling">
+<B>Sampling Procedure</B><BR>
+  The radar receiver signal is sampled at 1.0 us intervals following
+the transmission of a pulse. This corresponds to sampling at 150.0 m
+intervals in range from the radar. It is necessary to sample both the
+in-phase (I) and quadrature (Q) components of the receiver signal
+(i.e. complex values) in order to allow both the magnitude and the
+sign of the Doppler shift to be inferred. In the m-mode samples are
+recorded between ranges of approximately 60 and 90 km. In the st-mode
+samples are recorded between ranges of approximately 2 and 20 km. It
+is possible to operate the radar in mst-mode so that both altitude
+ranges are sampled simultaneously. The range resolution of the radar
+returns is determined by the length of the transmitter pulse (not by
+the sampling interval), to which the receiver bandwidth must be
+matched. The range resolution can be increased by using complementary
+coding. This requires the phase of sub-lengths of the transmitter
+pulse to be offset by either 0 or 180 degrees according to a set
+coding pattern. The range resolution is then determined by the
+sub-length of the transmitter pulse (to which the receiver bandwidth
+is matched).<BR><BR>
+
+<A name="spectra">
+<B>From Samples to Spectra</B><BR>
+  No attempt is made to derive radar return signal parameters until
+samples have been acquired for a large, pre-determined number of
+pulses - typically covering a few tens of seconds. The term dwell is
+used to refer to this collection interval or to range profiles of any
+of the data products associated with it. A dwell initially consists of
+a complex time series, for each range gate, of I and Q samples which
+are separated in time by the inter pulse period (of the order of a
+millisecond). The nature of the samples changes only slowly from pulse
+to pulse and so coherent integration is applied - for each range gate,
+groups of consecutive samples are summed together. The number of
+complex samples in the resulting time series is thus reduced, and the
+time interval between them is increased, by a factor equal to the
+number of coherent integrations (typically of the order of a few
+hundred). The time interval between the new samples determines the
+Nyquist velocity, the maximum radial velocity that can be
+unambiguously determined. Decoding must be applied to the coherently
+integrated samples if a complementary transmitter code has been
+used. For each range gate, a complex Doppler frequency spectrum is
+derived by applying a weighting window to the complex time series data
+followed by a discrete Fourier transform. This spectrum is multiplied
+by its complex conjugate to give a power spectrum. Doppler frequencies
+are converted into Doppler velocities by multiplying by half the radar
+wavelength. The sign must be changed so that movement away from the
+radar (which gives rise to a negative frequency shift) is represented
+by a positive velocity. If desired, consecutively-observed Doppler
+velocity power spectra may be incoherently integrated by adding them
+together. This increases the detectability of signals. In general a
+Doppler velocity power spectrum contains one or more signal components
+superimposed on a background of nominally white noise. The noise power
+is dominated by broad-band lower-VHF cosmic radiation, which undergoes
+a diurnal variation by a factor of approximately 2.<BR><BR>
+
+<A name="spectral_processing">
+<B>Spectral Processing</B> - <A
+  href="signal-processing_spectral.html">click here</A> for more details<BR>
+  For each Doppler velocity power spectrum, the noise power spectral
+density (PSD) is determined by the method of Hildebrand and Sekhon
+(1974). The noise power is equal to the noise PSD summed across the
+width of the spectrum. The velocity bin limits of the strongest signal
+component are determined by first locating the peak value of the of
+the running-mean-smoothed PSD. The smoothed PSD is then followed to
+either side until one of the following conditions is encountered: the
+smoothed PSD has dropped below the noise PSD, the smoothed PSD has
+dropped below a set fraction of the peak value, or a local minimum is
+encountered (and the smoothed PSD is below a set fraction of the peak
+value). The final criterion is particularly important under stratiform
+precipitation conditions in order to separate partially-overlapping
+clear-air and hydrometeor signal components. The zeroth (m0), first
+(m1) and second (m2) order moments are calculated within these limits
+in order to derive the signal power (m0), the radial velocity (m1/m0)
+and the spectral width (sqrt[(m2/m0) - (m1/m0)**2]). For st-mode
+observations it is desirable to identify more than one signal
+component per spectrum (typically two). A radial continuity algorithm
+is then used to identify the primary signal component for each range
+gate, i.e. that which leads to the most likely overall clear-air radar
+return profile. A second attempt may be made to identify the primary
+signal components if the first profile is deemed to be contaminated by
+interference. A final attempt is made to improve the selection of
+primary signal components for the lowest range gates in case of
+contamination by hydrometeor returns. Subsequently attention is
+confined to the primary signal components. Nevertheless, the radar
+return parameters for the non-primary signal components are saved in
+the radial data files as they may contain scientifically useful
+information, e.g. concerning precipitation.<BR><BR>
+
+<A name="time_continuity">
+<B>Time Continuity Testing</B><BR>
+  For wind-profiling purposes, MST radar observations are cycled
+through a sequence of dwells with different beam pointing
+directions. The radial velocity observed by a vertical beam (i.e. a
+dwell with a beam pointing zenith angle of zero) is assumed to
+represent the vertical component of the wind velocity. The radial
+velocity observed by an off-vertical beam (i.e. a dwell with a small,
+non-zero beam pointing zenith angle) is assumed to represent the
+vector addition of the vertical component of the wind velocity
+multiplied by the cosine of the zenith angle, and the component of the
+horizontal wind velocity along the the radar beam pointing azimuth
+multiplied by the sine of the zenith angle. Consequently a component
+of the horizontal wind can be derived for each vertical/off-vertical
+beam pair. When more than one vertical beam observation is made per
+cycle, that closest in time to the off-vertical beam observation is
+used for deriving the horizontal wind components. When combining
+vertical and off-vertical beam radial velocity components, vertical
+beam data are taken from those range gates which are most closely
+matched in altitude to the off-vertical beam range gates. A time
+continuity algorithm is applied to the horizontal wind components for
+the off-vertical beams, and to the vertical wind components for the
+vertical beams, as a further test for reliability. Time continuity is
+first established uni-directionally, i.e. by comparing the
+observations to be flagged only with those made at earlier times. This
+allows wind-profile data to be made available with only a short time
+delay. However, the process is repeated as soon as there are
+sufficient subsequent observations to allow bi-directional flagging to
+be applied. The overall reliability of signal components requires them
+to have passed both radial continuity (when the tests have been made)
+and time continuity tests.<BR><BR>
+
+<A name="horizontal_winds">
+<B>Deriving Cartesian Wind Components</B><BR>
+  In order to derive Cartesian components of the wind vector,
+observations must be made in the vertical direction and at an
+off-vertical angle in two orthogonal azimuths. A typical cycle of
+observation includes many more beam pointing directions. The
+availability of additional information allows improved wind component
+estimates to be made. Attention is confined to the horizontal wind
+components (derived from vertical/off-vertical beam pairs, as
+described above) arising from off-vertical beam observations made with
+a single, pre-determined zenith angle (indicated by the global
+attribute <FONT class="code_red">cart_horiz_wind_zen_angle_deg</FONT>;
+this is typically 6.0 degrees). If observations are made more than
+once per cycle with the same off-vertical beam, only those from the
+first instance are considered. If observations have been made with the
+complementary off-vertical beam (i.e. that with the same zenith angle
+but with an azimuth angle which differs by 180 degrees), the
+horizontal wind components are averaged (if they are both flagged as
+being reliable). The difference between them gives a measure of
+reliability of the averaged value. It gives an indication of the
+degree to which a fundamental assumption of the wind-profiling
+technique is valid: that the wind field is stationary over the time
+taken to complete a full cycle of observation (typically a few
+minutes) and over the horizontal distance separating the radar
+observation volumes for the different beam pointing directions (of the
+order of 2 km at 10 km altitude). If the difference exceeds a
+predefined value (given by the global attribute <FONT
+class="code_red">cart_max_compl_beam_horiz_vel_diff_mps</FONT>), the
+averaged horizontal wind component is flagged as being unreliable. The
+horizontal wind complementary beam variability values stored in the
+Cartesian files represent the root of the sum of the squares of the
+values for the primary and secondary (i.e. orthogonal) radar
+azimuths. The primary radar azimuth is given by the global attribute
+<FONT class="code_red">cart_horiz_wind_primary_azi_angle_deg</FONT>. Owing
+to the aspect sensitivity of radar returns (i.e. to the fact that the
+radar return signal power often decreases with increasing zenith
+angle) and to the finite radar beam width, the effective pointing
+angle for an off-vertical beam is typically slightly closer to the
+vertical than the nominal zenith angle. This leads to slight
+underestimates of the magnitudes of the horizontal wind
+components. The amount can quantified, and the horizontal wind
+components are compensated, through consideration of the theta_s
+parameter, which is derived from the ratio of the radar return signal
+powers at two non-zero zenith angles (Hooper and Thomas, 1995). If
+observations are made more than once per cycle at these zenith angles
+(given by the global attributes <FONT
+class="code_red">cart_theta_s_low_zen_angle_deg</FONT> and <FONT
+class="code_red">cart_theta_s_high_zen_angle_deg</FONT>) the radar
+signal powers are first averaged. Finally the horizontal wind
+components are rotated from their native azimuths (i.e. from <FONT
+class="code_red">cart_horiz_wind_primary_azi_angle_deg</FONT> and an
+orthogonal direction) to give northward and eastward components. A
+single flag indicates the reliability of both horizontal wind
+components.<BR><BR>
+
+<A name="horizontal_wind_accuracy">
+<B>The Accuracy of Horizontal Wind Components</B><BR>
+  The characteristics of thirty-minute-average wind-profile data
+derived from this (version 3) processing scheme have been evaluated by
+the Met Office. The random errors, evaluated over 7 days, are
+typically in the range 1.0 - 3.0 m/s for altitudes between 2 and 15 km
+and in the range 3.0 - 4.0 m/s between 15 and 20 km. The number of
+reported winds begins to decrease with increasing altitude in the
+upper altitude range. Winds are reported at least 80% of the time up
+to 18 km but no more than 30% of the time at 20 km. Comparisons have
+also been made against the winds from the Met Office's numerical
+weather prediction model. The magnitudes of the component biases are
+less than 0.5 m/s at all altitudes. The root mean square component
+differences are in the range 2.0 - 3.0 m/s. The directional bias is
+approximately 1.0 degree and the magnitude of the speed bias is less
+than 1.0 m/s. These values are comparable to those for radiosonde
+data.<BR><BR>
+
+<A name="vertical_beam_products">
+<B>Vertical Beam Data Products</B><BR>
+  The vertical wind component (for which the standard name is <FONT
+class="code_red">upward_air_velocity</FONT>) is given by the radial
+velocity of the vertical beam observation. The accuracy of these
+estimates is difficult to estimate owing to the lack of comparable
+measurements. The value of 0.2 m/s represents the typical magnitude of
+fluctuations (about zero) under quiet conditions. Mountain wave
+conditions give rise to peak values of the order of 1.0 m/s and
+convective conditions to peak values of the order of 10.0 m/s. When
+more than one vertical beam observation is made per cycle, only the
+first instance is considered. The vertical beam radar return signal
+power and spectral width also relate to this instance. A single flag
+indicates the reliability of all three vertical beam
+products. Vertical beam data products are taken from those range gates
+which are most closely matched in altitude to the range gates for the
+the off-vertical angle (<FONT 
+class="code_red">cart_horiz_wind_zen_angle_deg</FONT>) used for the
+horizontal wind estimation. This is true of all data products stored
+in the Cartesian files. Changes in the vertical beam radar return
+signal power from the upper-troposphere/lower-stratosphere region
+tends to be closely related to those in the vertical temperature
+gradient. This allows both the altitude and the sharpness of the
+tropopause to be determined by the method of Hooper and Arvelius
+(2000).<BR><BR>
+
+<A name="beam_broadening_corrected">
+<B>Beam Broadening Corrected Spectral Width</B><BR>
+  The spectral width of vertical beam radar returns tends to be
+dominated by the beam-broadening component, which is equal to the
+product of the horizontal wind speed and of the radar beam two-way
+half-power half-width. The beam broadening corrected spectral width
+values represent the the root of the difference between the squares of
+the observed widths and of the beam-broadening components. It has its
+own reliability flag. The accuracy of 0.1 m/s is estimated from the
+typical spread of those beam-broadening component values which exceed
+the observed values. No beam broadening corrected values can be
+calculated under such conditions.<BR><BR>
+
+
+<A name="aspect_sensitivity">
+<B>Aspect Sensitivity</B><BR>
+  In addition to quantifying the aspect sensitivity of radar returns
+through the theta_s parameter, a simpler measure is given by the ratio
+of the signal power observed by the vertical beam to that observed at
+an off-vertical angle (given by the global attribute <FONT
+class="code_red">cart_asp_sens_high_zen_angle_deg</FONT>, which is
+typically 6.0 degrees). Signal powers are first averaged when there is
+more than one observation per cycle for each of the required zenith
+angles. Small values of aspect sensitivity (&lt; 5 dB) imply
+backscatter from quasi-isotropic refractive index irregularities,
+which suggests that the atmosphere is well mixed. Large values (&gt;
+10 dB) imply that the coherence length of the refractive index
+irregularities is far greater in the horizontal than in the
+vertical. Such structures are consistent with the atmosphere being not
+well mixed. The aspect sensitivity tends to be low in the troposphere
+and high in the stratosphere although this is not always the case. The
+aspect sensitivity has its own reliability flag.
+
+
+<BR>
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="sig_proc_version_nrs.html">The differences between
+  signal processing versions</A>
+  <DD><A href="file_contents.html">The contents of other data
+  files</A>
+  <DD><A href="v3_signal_processing_overview.html">An overview of v3
+  signal processing</A>
+  <DD><A href="file_format_netcdf.html">A general description of netCDF file
+  structure</A>.
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="http://www.unidata.ucar.edu/software/netcdf/">The Unidata
+   netCDF website</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 11th November 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

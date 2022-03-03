@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>File format for MST Radar Cartesian files, version 3</title>
+    <link rel="stylesheet" type="text/css" href="style_201312.css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <a href="http://www.nerc.ac.uk"><img src="LOGOS/logo_nerc_2013_long.png"
+                                           alt="" /></a>
+      <img src="LOGOS/mst_button.png" alt="" />
+      THE NERC MST RADAR FACILITY AT ABERYSTWYTH
+      <h1>File format for MST Radar Cartesian files, version 3</h1>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="announcements.html">Announcements</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="instruments.html">Instruments</a></li>
+        <li><a href="plots.html">Plots</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="site.html">Radar Site</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="principles.html">Wind-Profiler Principles</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+
+<!*** Page contents to go here ***>
+<p>The <a href="mst_v4_signal_processing.html">version 4 MST Radar data
+    processing scheme</a> is the latest
+  version. <a href="file_format_mst_cardinal_v4-0.html">V4.0 Cardinal data
+    files</a> should be used in preference to the v3 Cartesian data files
+  described on this page. </p>
+
+
+<B>File contents</B><BR>
+An overview of the radar measurement technique and of the meanings of
+the data products are given <A
+href="v3_signal_processing_overview.html">here</A>. The files contain
+altitude profiles (from approximately 2 - 20 km for the ST mode, and
+from approximately 58 - 96 km for the M mode, both at 150 m intervals)
+of the eastward, northward and upward components of the wind velocity
+and the following radar return parameters: vertical beam signal power,
+vertical beam spectral width, vertical beam beam-broadening corrected
+spectral width, and aspect sensitivity. The time separation between
+the profiles is typically a few minutes. A radar-derived tropopause
+altitude and sharpness is given for each set of profiles. <BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>Availability</B>
+Data processed by version-3 software are currently available from 20th
+June 2006 until the present. The entire archive will eventually be
+reprocessed. Please <A href="contacting_facility_staff.html">contact the NERC MST
+Radar Facility Project Scientist</A> if you would like v3 data for
+earlier dates.<BR><BR>
+
+<B>File naming convention: </B><BR>
+<CENTER><FONT
+class="FileName">radar-mst_capel-dewi_YYYYMMDD_AARRR_cartesian_v3.nc</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="FileName">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">AA</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the altitude mode [<FONT
+class="FileName">'st'</FONT>: approximately 2 - 20 km | <FONT
+class="FileName">'m'</FONT>: approximately 58 - 96 km]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">RRR</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the range resolution (m) [150 | 300 | 600 |
+    1200 | 2400 | 4800]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">.nc</FONT></TD>
+    <TD></TD>
+    <TD valign="top">represents that this is a netCDF file</TD>
+  </TR>
+</TABLE><BR>
+
+i.e. <FONT
+    class="FileName">radar-mst_capel-dewi_20060620_st300_cartesian_v3.nc</FONT>
+    contains 300 m resolution Cartesian data over the ST altitude
+    range for 20th June 2006.<BR>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B><BR>
+ST-mode: <A class="FileName"
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/st-mode/cartesian">/badc/mst/data/mst-products-v3/st-mode/cartesian/</A><BR>
+M-mode: <A class="FileName"
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/m-mode/cartesian">/badc/mst/data/mst-products-v3/m-mode/cartesian/</A><BR>
+
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+<B>Archiving convention: </B><FONT class="FileName">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further explanation.<BR><BR>
+
+<B>netCDF File Structure</B> using the st300 file for 20th June 2006
+as an example - <A href="file_format_netcdf.html">click
+here</A> for an explanation<BR>
+
+<DL>List of <B>Global attributes</B> - Click on the name to view the value
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga0">Conventions</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga1">title</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga2">institution</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga3">source</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga4">history</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga5">references</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga6">comment</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga7">data_year</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga8">data_month</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga9">data_day</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga10">data_altitude_mode</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga11">data_range_resolution_m</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga12">data_range_resolution_number</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga13">data_bottom_range_gate_number</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga14">data_top_range_gate_number</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga15">radar_frequency_MHz</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga16">radar_wavelength_m</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga17">radar_transmitters</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga18">radar_peak_transmitted_power_kW</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga19">radar_antenna_type</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga20">radar_antenna_side_length_m</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga21">radar_beam_one_way_half_power_half_width_degrees</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga22">radar_location_name</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga23">radar_latitude_degrees_north</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga24">radar_longitude_degrees_east</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga25">radar_altitude_above_mean_sea_level_m</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga26">radar_british_national_grid_reference</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga27">signal_processing_version_number</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga28">signal_processing_sub_version_number</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga29">sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga30">cart_horiz_wind_zen_angle_deg</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga31">cart_horiz_wind_primary_azi_angle_deg</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga32">cart_apply_theta_s_corr_to_horiz_wind</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga33">cart_max_compl_beam_horiz_vel_diff_mps</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga34">cart_max_theta_s_horiz_wind_corr_fact</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga35">cart_theta_s_high_zen_angle_deg</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga36">cart_theta_s_low_zen_angle_deg</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga37">cart_tpause_grad_intvl_m</A>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncAttribute" href="#ga38">cart_asp_sens_high_zen_angle_deg</A>
+</DL>
+<DL>List of <B>Dimensions</B>
+ - Click on the name to view the corresponding coordinate variable
+  <DD><A class="ncDimension" href="#v0">time</A>
+  <DD><A class="ncDimension" href="#v1">altitude</A>
+</DL>
+<DL>List of <B>Variables</B> - Click on a name to view the corresponding attributes
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v0">time</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v1">altitude</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v2">latitude</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v3">longitude</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v4">horizontal_wind_components_are_reliable</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v5">horizontal_wind_components_reliability_details</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v6">eastward_wind</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v7">northward_wind</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v8">horizontal_wind_complementary_beam_variability</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v9">horizontal_wind_theta_s_compensation_factor</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v10">vertical_beam_data_are_reliable</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v11">vertical_beam_data_reliability_details</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v12">vertical_beam_signal_power</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v13">vertical_beam_radial_velocity</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v14">vertical_beam_spectral_width</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v15">beam_broadening_corrected_spectral_width_is_reliable</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v16">beam_broadening_corrected_spectral_width_reliability_details</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v17">beam_broadening_corrected_spectral_width</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v18">aspect_sensitivity_is_reliable</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncVariable" href="#v19">aspect_sensitivity_reliability_details</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v20">aspect_sensitivity</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v21">vertical_beam_median_noise_power</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v22">tropopause_altitude</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">byte</FONT> <A class="ncVariable" href="#v23">tropopause_sharpness_factor</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+</DL>
+List of <B>Global Attribute</B> values<BR>
+<A name="ga0">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">Conventions</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">CF-1.0</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga1">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">title</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">46.5 MHz wind-profiling radar Cartesian data - st300 mode</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga2">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">institution</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  Data recorded by the Natural Environment Research Council (NERC)<BR>
+Mesosphere-Stratosphere-Troposphere (MST) Radar Facility at Aberystwyth<BR>
+- http://mst.nerc.ac.uk<BR>&nbsp;
+  Data processed by the Rutherford Appleton Laboratory, Space Science and<BR>
+Technology Department - http://www.sstd.rl.ac.uk<BR>&nbsp;
+  Data held at the British Atmospheric Data Centre<BR>
+http://badc.nerc.ac.uk/data/mst</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga3">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">source</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
+  The Natural Environment Research Council (NERC) Mesosphere-Stratosphere-<BR>
+Troposphere (MST) Radar at Aberystwyth
+</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga4">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">history</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">File created 2006-11-20 11:39:29 +00:00 on machine claudius</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga5">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">references</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  Basic information about the data is available at <BR>
+http://badc.nerc.ac.uk/data/mst<BR>&nbsp;
+  More detailed information about the data is available at <BR>
+http://mst.nerc.ac.uk</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga6">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">comment</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The Natural Environment Research Council (NERC) Mesosphere-Stratosphere- <BR>
+Troposphere (MST) Radar at Aberystwyth (UK) is a 46.5 MHz<BR>
+wind-profiling instrument. It transmits short pulses of radio waves<BR>
+which are scattered back to it from atmospheric targets. The distance<BR>
+of a target from the instrument is determined by the time delay<BR>
+between the transmission and reception of a pulse. The main targets<BR>
+are metre-scale refractive index irregularities, which are referred to<BR>
+as clear-air targets (the term does not necessarily imply clear-sky<BR>
+conditions as the radar is able to see through clouds). Hydrometeors,<BR>
+aircraft, and ground-based objects can also give rise to radar<BR>
+returns. The receiver signal is occasionally contaminated by<BR>
+interference. The refractive index irregularities are caused by<BR>
+variations in atmospheric humidity (within the lowest 10 km of the<BR>
+atmosphere), in atmospheric density (within the lowest few 10s of km)<BR>
+and in free electron density (above 50 km). The radar return signal<BR>
+power is typically proportional to the square of the mean vertical<BR>
+gradient of the (potential) refractive index and inversely<BR>
+proportional to the square of the range of the clear-air targets from<BR>
+the radar. The refractive index irregularities are assumed to be<BR>
+advected with the wind. Consequently the radial velocity, i.e. the<BR>
+component of the wind vector along the radar beam pointing direction,<BR>
+can be inferred from the Doppler shift of the radar return<BR>
+signal. Atmospheric turbulence gives rise to variability in the radial<BR>
+velocity when observed over a time scale of a few tens of<BR>
+seconds. However, as a result of the radar\'s finite beam width, the<BR>
+observed spread tends to be dominated by a beam-broadening component,<BR>
+which is proportional to the horizontal wind speed. Consequently it<BR>
+becomes increasingly difficult to infer turbulence intensities as the<BR>
+wind speed increases.<BR>&nbsp;
+  The radar receiver signal is sampled at 1.0 us intervals following<BR>
+the transmission of a pulse. This corresponds to sampling at 150.0 m<BR>
+intervals in range from the radar. It is necessary to sample both the<BR>
+in-phase (I) and quadrature (Q) components of the receiver signal<BR>
+(i.e. complex values) in order to allow both the magnitude and the<BR>
+sign of the Doppler shift to be inferred. In the m-mode samples are<BR>
+recorded between ranges of approximately 60 and 90 km. In the st-mode<BR>
+samples are recorded between ranges of approximately 2 and 20 km. It<BR>
+is possible to operate the radar in mst-mode so that both altitude<BR>
+ranges are sampled simultaneously. The range resolution of the radar<BR>
+returns is determined by the length of the transmitter pulse (not by<BR>
+the sampling interval), to which the receiver bandwidth must be<BR>
+matched. The range resolution can be increased by using complementary<BR>
+coding. This requires the phase of sub-lengths of the transmitter<BR>
+pulse to be offset by either 0 or 180 degrees according to a set<BR>
+coding pattern. The range resolution is then determined by the<BR>
+sub-length of the transmitter pulse (to which the receiver bandwidth<BR>
+is matched).<BR>&nbsp;
+  No attempt is made to derive radar return signal parameters until<BR>
+samples have been acquired for a large, pre-determined number of<BR>
+pulses - typically covering a few tens of seconds. The term dwell is<BR>
+used to refer to this collection interval or to range profiles of any<BR>
+of the data products associated with it. A dwell initially consists of<BR>
+a complex time series, for each range gate, of I and Q samples which<BR>
+are separated in time by the inter pulse period (of the order of a<BR>
+millisecond). The nature of the samples changes only slowly from pulse<BR>
+to pulse and so coherent integration is applied - for each range gate,<BR>
+groups of consecutive samples are summed together. The number of<BR>
+complex samples in the resulting time series is thus reduced, and the<BR>
+time interval between them is increased, by a factor equal to the<BR>
+number of coherent integrations (typically of the order of a few<BR>
+hundred). The time interval between the new samples (typically of the<BR>
+order of 0.1 s) determines the Nyquist velocity (typically of the<BR>
+order of 10 m/s), the maximum radial velocity that can be<BR>
+unambiguously determined. Decoding must be applied to the coherently<BR>
+integrated samples if a complementary transmitter code has been<BR>
+used. For each range gate, a complex Doppler frequency spectrum is<BR>
+derived by applying a weighting window to the complex time series data<BR>
+followed by a discrete Fourier transform. This spectrum is multiplied<BR>
+by its complex conjugate to give a power spectrum. Doppler frequencies<BR>
+are converted into Doppler velocities by multiplying by half the radar<BR>
+wavelength. The sign must be changed so that movement away from the<BR>
+radar (which gives rise to a negative frequency shift) is represented<BR>
+by a positive velocity. If desired, consecutively-observed Doppler<BR>
+velocity power spectra may be incoherently integrated by adding them<BR>
+together. This increases the detectability of signals. In general a<BR>
+Doppler velocity power spectrum contains one or more signal components<BR>
+superimposed on a background of nominally white noise. The power<BR>
+spectral densities (PSDs) of the velocity bins around zero velocity<BR>
+(the number depends on the data weighting window used) are typically<BR>
+contaminated by dc biases in the time-series samples. The values must<BR>
+be replaced by linearly interpolating between the PSDs of adjacent<BR>
+velocity bins. The noise power is dominated by broad-band lower-VHF<BR>
+cosmic radiation, which undergoes a diurnal variation by a factor of<BR>
+approximately 2.<BR>&nbsp;
+  For each Doppler velocity power spectrum, the noise power spectral<BR>
+density (PSD) is determined by the statistical method of Hildebrand<BR>
+and Sekhon (1974). The noise power is equal to the noise PSD summed<BR>
+across the width of the spectrum. The velocity bin limits of the<BR>
+strongest signal component are determined by first locating the peak<BR>
+value of the running-mean-smoothed PSD. The smoothed PSD is then<BR>
+followed to either side until one of the following conditions is<BR>
+encountered: the smoothed PSD has dropped below the noise PSD, the<BR>
+smoothed PSD has dropped below a set fraction of the peak value, or a<BR>
+local minimum is encountered (and the smoothed PSD is below a set<BR>
+fraction of the peak value). The final criterion is particularly<BR>
+important under stratiform precipitation conditions in order to<BR>
+separate partially-overlapping clear-air and hydrometeor signal<BR>
+components. The PSDs within the signal limits first have the noise PSD<BR>
+subtracted and are then compensated for the low-pass-filtering effect<BR>
+of coherent integration. The zeroth (m0), first (m1) and second (m2)<BR>
+order moments (of the corrected PSDs within the signal limits) are<BR>
+calculated in order to derive the signal power (m0), the radial<BR>
+velocity (m1/m0) and the spectral width (sqrt[(m2/m0) -<BR>
+(m1/m0)**2]). For st-mode observations it is desirable to identify<BR>
+more than one signal component per spectrum (typically two). A radial<BR>
+continuity algorithm is then used to identify the primary signal<BR>
+component for each range gate, i.e. that which leads to the most<BR>
+likely overall clear-air radar return profile. A second attempt may be<BR>
+made to identify the primary signal components if the first profile is<BR>
+deemed to be contaminated by interference. A final attempt is made to<BR>
+improve the selection of primary signal components for the lowest<BR>
+range gates in case of contamination by hydrometeor<BR>
+returns. Subsequently attention is confined to the primary signal<BR>
+components. Nevertheless, the radar return parameters for the<BR>
+non-primary signal components are saved in the radial data files as<BR>
+they may contain scientifically useful information, e.g. concerning<BR>
+precipitation.<BR>&nbsp;
+  For wind-profiling purposes, MST radar observations are cycled<BR>
+through a sequence of dwells with different beam pointing<BR>
+directions. The radial velocity for each dwell is assumed to represent<BR>
+the the dot product of the three-dimensional wind vector and a unit<BR>
+vector along the beam pointing direction. The radial velocity observed<BR>
+by a vertical beam (i.e. a dwell with a beam pointing zenith angle of<BR>
+zero) is therefore assumed to be equal to the vertical component of<BR>
+the wind. The radial velocity observed by an off-vertical beam (i.e. a<BR>
+dwell with a small, non-zero beam pointing zenith angle) is assumed to<BR>
+represent the vector sum of the vertical component of the wind<BR>
+multiplied by the cosine of the zenith angle, and the component of the<BR>
+horizontal wind along the the radar beam pointing azimuth multiplied<BR>
+by the sine of the zenith angle. Consequently a component of the<BR>
+horizontal wind can be derived for each vertical/off-vertical beam<BR>
+pair. When more than one vertical beam observation is made per cycle,<BR>
+that closest in time to the off-vertical beam observation is used for<BR>
+deriving the horizontal wind components. When combining vertical and<BR>
+off-vertical beam radial velocity components, vertical beam data are<BR>
+taken from those range gates which are most closely matched in<BR>
+altitude to the off-vertical beam range gates. A time continuity<BR>
+algorithm is applied to the horizontal wind components for the<BR>
+off-vertical beams, and to the vertical wind components for the<BR>
+vertical beams, as a further test for reliability. Time continuity is<BR>
+first established uni-directionally, i.e. by comparing the<BR>
+observations to be flagged only with those made at earlier times. This<BR>
+allows wind-profile data to be made available with only a short time<BR>
+delay. However, the process is repeated as soon as there are<BR>
+sufficient subsequent observations to allow bi-directional flagging to<BR>
+be applied. The overall reliability of signal components requires them<BR>
+to have passed both radial continuity (when the tests have been made)<BR>
+and time continuity tests.<BR>&nbsp;
+  In order to derive Cartesian components of the wind vector,<BR>
+observations must be made in the vertical direction and at an<BR>
+off-vertical angle in two orthogonal azimuths. A typical cycle of<BR>
+observation includes many more beam pointing directions. The<BR>
+availability of additional information allows improved wind component<BR>
+estimates to be made. Attention is confined to the horizontal wind<BR>
+components (derived from vertical/off-vertical beam pairs, as<BR>
+described above) arising from off-vertical beam observations made with<BR>
+a single, pre-determined zenith angle (indicated by the global<BR>
+attribute cart_horiz_wind_zen_angle_deg; this is typically 6.0<BR>
+degrees). If observations are made more than once per cycle with the<BR>
+same off-vertical beam, only those from the first instance are<BR>
+considered. If observations have been made with the complementary<BR>
+off-vertical beam (i.e. that with the same zenith angle but with an<BR>
+azimuth angle which differs by 180 degrees), the horizontal wind<BR>
+components are averaged (if they are both flagged as being<BR>
+reliable). The difference between them gives a measure of reliability<BR>
+of the averaged value. It gives an indication of the degree to which a<BR>
+fundamental assumption of the wind-profiling technique is valid: that<BR>
+the wind field is stationary over the time taken to complete a full<BR>
+cycle of observation (typically a few minutes) and over the horizontal<BR>
+distance separating the radar observation volumes for the different<BR>
+beam pointing directions (of the order of 2 km at 10 km altitude). If<BR>
+the difference exceeds a predefined value (given by the global<BR>
+attribute cart_max_compl_beam_horiz_vel_diff_mps), the averaged<BR>
+horizontal wind component is flagged as being unreliable. The<BR>
+horizontal wind complementary beam variability values stored in the<BR>
+Cartesian files represent the root of the sum of the squares of the<BR>
+values for the primary and secondary (i.e. orthogonal) radar<BR>
+azimuths. The primary radar azimuth is given by the global attribute<BR>
+cart_horiz_wind_primary_azi_angle_deg. <BR>&nbsp;
+  Owing to the aspect sensitivity of radar returns (i.e. to the fact<BR>
+that the radar return signal power often decreases with increasing<BR>
+zenith angle) and to the finite radar beam width, the effective<BR>
+pointing angle for an off-vertical beam is typically slightly closer<BR>
+to the vertical than the nominal zenith angle. This leads to slight<BR>
+underestimates of the magnitudes of the horizontal wind<BR>
+components. The amount can quantified, and the horizontal wind<BR>
+components are compensated, through consideration of the theta_s<BR>
+parameter, which is derived from the ratio of the radar return signal<BR>
+powers at two non-zero zenith angles (Hooper and Thomas, 1995). If<BR>
+observations are made more than once per cycle at these zenith angles<BR>
+(given by the global attributes cart_theta_s_low_zen_angle_deg and<BR>
+cart_theta_s_high_zen_angle_deg) the radar signal powers are first<BR>
+averaged. Finally the horizontal wind components are rotated from<BR>
+their native azimuths (i.e. from cart_horiz_wind_primary_azi_angle_deg<BR>
+and an orthogonal direction) to give northward and eastward<BR>
+components. A single flag indicates the reliability of both horizontal<BR>
+wind components.<BR>&nbsp;
+  The characteristics of thirty-minute-average wind-profile data<BR>
+derived from this (version 3) processing scheme have been evaluated by<BR>
+the Met Office. The random errors, evaluated over 7 days, are<BR>
+typically in the range 1.0 - 3.0 m/s for altitudes between 2 and 15 km<BR>
+and in the range 3.0 - 4.0 m/s between 15 and 20 km. The number of<BR>
+reported winds begins to decrease with increasing altitude in the<BR>
+upper altitude range. Winds are reported at least 80% of the time up<BR>
+to 18 km but no more than 30% of the time at 20 km. Comparisons have<BR>
+also been made against the winds from the Met Office's numerical<BR>
+weather prediction model. The magnitudes of the component biases are<BR>
+less than 0.5 m/s at all altitudes. The root mean square component<BR>
+differences are in the range 2.0 - 3.0 m/s. The directional bias is<BR>
+approximately 1.0 degree and the magnitude of the speed bias is less<BR>
+than 1.0 m/s. These values are comparable to those for radiosonde<BR>
+data.<BR>&nbsp;
+  The vertical wind component (for which the standard name is<BR>
+upward_air_velocity) is given by the radial velocity of the vertical<BR>
+beam observation. The accuracy of these estimates is difficult to<BR>
+estimate owing to the lack of comparable measurements. The value of<BR>
+0.2 m/s represents the typical magnitude of fluctuations (about zero)<BR>
+under quiet conditions. Mountain wave conditions give rise to peak<BR>
+values of the order of 1.0 m/s and convective conditions to peak<BR>
+values of the order of 10.0 m/s. When more than one vertical beam<BR>
+observation is made per cycle, only the first instance is<BR>
+considered. The vertical beam radar return signal power and spectral<BR>
+width also relate to this instance. A single flag indicates the<BR>
+reliability of all three vertical beam products. Vertical beam data<BR>
+products are taken from those range gates which are most closely<BR>
+matched in altitude to the range gates for the the off-vertical angle<BR>
+(cart_horiz_wind_zen_angle_deg) used for the horizontal wind<BR>
+estimation. This is true of all data products stored in the Cartesian<BR>
+files. Changes in the vertical beam radar return signal power from the<BR>
+upper-troposphere/lower-stratosphere region tends to be closely<BR>
+related to those in the vertical temperature gradient. This allows<BR>
+both the altitude and the sharpness of the tropopause to be determined<BR>
+by the method of Hooper and Arvelius (2000).<BR>&nbsp;
+  The spectral width of vertical beam radar returns tends to be<BR>
+dominated by the beam-broadening component, which is equal to the<BR>
+product of the horizontal wind speed and of the radar beam two-way<BR>
+half-power half-width. The beam broadening corrected spectral width<BR>
+values represent the the root of the difference between the squares of<BR>
+the observed widths and of the beam-broadening components. It has its<BR>
+own reliability flag. The accuracy of 0.1 m/s is estimated from the<BR>
+typical spread of those beam-broadening component values which exceed<BR>
+the observed values. No beam broadening corrected values can be<BR>
+calculated under such conditions.<BR>&nbsp;
+  In addition to quantifying the aspect sensitivity of radar returns<BR>
+through the theta_s parameter, a second, simpler measure is given by<BR>
+the ratio of the signal power observed by the vertical beam to that<BR>
+observed at an off-vertical angle (given by the global attribute<BR>
+cart_asp_sens_high_zen_angle_deg, which is typically 6.0<BR>
+degrees). Signal powers are first averaged when there is more than one<BR>
+observation per cycle for each of the required zenith angles. Small<BR>
+values of aspect sensitivity (< 5 dB) imply backscatter from<BR>
+quasi-isotropic refractive index irregularities, which suggests that<BR>
+the atmosphere is well mixed. Large values (> 10 dB) imply that the<BR>
+coherence length of the refractive index irregularities is far greater<BR>
+in the horizontal than in the vertical. Such structures are consistent<BR>
+with the atmosphere being not well mixed. The aspect sensitivity tends<BR>
+to be low in the troposphere and high in the stratosphere although<BR>
+this is not always the case. The aspect sensitivity has its own<BR>
+reliability flag.</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga7">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_year</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">2006</FONT><BR><BR>
+<A name="ga8">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_month</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">6</FONT><BR><BR>
+<A name="ga9">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_day</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">20</FONT><BR><BR>
+<A name="ga10">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">data_altitude_mode</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">st</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga11">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">data_range_resolution_m</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">300.0</FONT><BR><BR>
+<A name="ga12">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_range_resolution_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">2</FONT><BR><BR>
+<A name="ga13">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_bottom_range_gate_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">18</FONT><BR><BR>
+<A name="ga14">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_top_range_gate_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">147</FONT><BR><BR>
+<A name="ga15">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_frequency_MHz</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">46.5</FONT><BR><BR>
+<A name="ga16">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_wavelength_m</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">6.45</FONT><BR><BR>
+<A name="ga17">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">radar_transmitters</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">5 Tycho Technology WPT-50s</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga18">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_peak_transmitted_power_kW</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">160.0</FONT><BR><BR>
+<A name="ga19">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">radar_antenna_type</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">20 by 20 array of 4-element Yagi aerials with 0.85 wavelength spacing</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga20">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_antenna_side_length_m</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">104.12</FONT><BR><BR>
+<A name="ga21">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_beam_one_way_half_power_half_width_degrees</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">1.5</FONT><BR><BR>
+<A name="ga22">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">radar_location_name</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Capel Dewi (near Aberystwyth, UK)</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga23">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_latitude_degrees_north</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">52.42</FONT><BR><BR>
+<A name="ga24">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_longitude_degrees_east</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">-4.01</FONT><BR><BR>
+<A name="ga25">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">radar_altitude_above_mean_sea_level_m</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">50.0</FONT><BR><BR>
+<A name="ga26">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">radar_british_national_grid_reference</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">SN637826</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga27">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">signal_processing_version_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">3</FONT><BR><BR>
+<A name="ga28">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">signal_processing_sub_version_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">2</FONT><BR><BR>
+<A name="ga29">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">10.0</FONT><BR><BR>
+<A name="ga30">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_horiz_wind_zen_angle_deg</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">6.0</FONT><BR><BR>
+<A name="ga31">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_horiz_wind_primary_azi_angle_deg</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">27.5</FONT><BR><BR>
+<A name="ga32">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">cart_apply_theta_s_corr_to_horiz_wind</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">1</FONT><BR><BR>
+<A name="ga33">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_max_compl_beam_horiz_vel_diff_mps</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">10.0</FONT><BR><BR>
+<A name="ga34">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_max_theta_s_horiz_wind_corr_fact</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">1.5</FONT><BR><BR>
+<A name="ga35">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_theta_s_high_zen_angle_deg</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">6.0</FONT><BR><BR>
+<A name="ga36">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_theta_s_low_zen_angle_deg</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">4.2</FONT><BR><BR>
+<A name="ga37">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_tpause_grad_intvl_m</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">1800.0</FONT><BR><BR>
+<A name="ga38">
+<FONT class="ncDataType">float</FONT> <FONT class="ncAttribute">cart_asp_sens_high_zen_angle_deg</FONT><FONT class="code_black">
+  = </FONT><FONT class="ncFileContents">6.0</FONT><BR><BR>
+<BR>
+List of <B>Variable attribute</B> values
+<A name="v0">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">time</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension"
+														    href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">time</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">UTC</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">seconds since 2006-06-20 00:00:00 +00:00</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">T</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  Times refer to the start of the first dwell (for the observation<BR>
+mode) within the cycle.</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v1">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">altitude</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">altitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Altitude above mean sea level</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Z</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents">
+The altitude of the centre of a range gate above mean sea level.</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v2">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">latitude</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar latitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees_north</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Y</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v3">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">longitude</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees_east</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">X</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v4">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">horizontal_wind_components_are_reliable</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Horizontal wind data reliability flag</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1</font>
+<FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">data_are_not_reliable data_are_reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variables<BR>
+eastward_wind, northward_wind, horizontal_wind_theta_s_compensation_factor <BR>
+and horizontal_wind_complementary_beam_variability.<BR>&nbsp;
+  It is important to use the reliability flag to select useful data<BR>
+points as, in most cases, unreliable values are not replaced with<BR>
+missing datum values.</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v5">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">horizontal_wind_components_reliability_details</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Horizontal wind data reliability details</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variables<BR>
+eastward_wind, northward_wind, horizontal_wind_theta_s_compensation_factor <BR>
+and horizontal_wind_complementary_beam_variability.<BR>&nbsp;
+  The details by means of which the reliability of a data product is<BR>
+determined are coded bitwise into a 14-bit unsigned integer (albeit<BR>
+stored as a 16-bit signed integer) for which bit 00 is the least<BR>
+significant bit. Not all bits are used by every data product.<BR>&nbsp;
+  bit 00: 1 if the signal component is available<BR>&nbsp;
+  bit 01: 1 if the peak smoothed power spectral density (PSD) is  greater<BR>&nbsp;&nbsp;
+     than sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag (a<BR>&nbsp;&nbsp;
+     global attribute) above the noise PSD<BR>&nbsp;
+  bit 02: 1 if the signal component belongs to a radial chain<BR>&nbsp;
+  bit 03: 1 if the signal component fits overall radial continuity<BR>&nbsp;
+  bit 04: 1 if a secondary signal component belongs to a radial chain<BR>&nbsp;
+  bit 05: 1 if the signal component has passed a uni-directional
+    time<BR>&nbsp;&nbsp; continuity test<BR>&nbsp;
+  bit 06: 1 if the signal component has passed a bi-directional
+    time<BR>&nbsp;&nbsp;  continuity test<BR>&nbsp;
+  bit 07: 1 if a complementary beam exists<BR>&nbsp;
+  bit 08: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests<BR>&nbsp;
+  bit 09: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests for the
+    orthogonal azimuth<BR>&nbsp;      
+  bit 10: 1 if the complementary horizontal wind components differ
+    by<BR>&nbsp;&nbsp; less than cart_max_compl_beam_horiz_vel_diff_mps 
+    (a global  attribute)<BR>&nbsp;
+  bit 11: 1 if the theta_s compensation factor can be applied
+    for<BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 12: 1 if the theta_s compensation factor has been applied to the
+    <BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 13: 1 if the beam-broadening correction of spectral width
+    results<BR>&nbsp;&nbsp; in a usable value</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v6">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">eastward_wind</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">eastward_wind</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Eastward wind component</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">2.5</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v7">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">northward_wind</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">northward_wind</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Northward wind component</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">2.5</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude
+	      longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v8">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">horizontal_wind_complementary_beam_variability</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Complementary beam horizontal velocity variability</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-99</font><FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-99</font><FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  These values are for diagnostic purposes only. Refer to the global<BR>
+attribute comment for an explanation.</FONT><FONT class="ncDataType">"</FONT>
+</DL>
+<A name="v9">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">horizontal_wind_theta_s_compensation_factor</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Scale factor applied to horizontal wind components to compensate for the effects of aspect sensitivity</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  These values are for diagnostic purposes only. They represent the<BR>
+scale factors by which the magnitudes of horizontal wind components<BR>
+have been compensated for the effects of aspect sensitivity.
+</FONT><FONT class="ncDataType">"</FONT>
+</DL>
+<A name="v10">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">vertical_beam_data_are_reliable</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam data reliability flag</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1</font>
+<FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">data_are_not_reliable data_are_reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+          class="code_black">= </FONT><FONT
+          class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variables<BR>
+vertical_beam_signal_power, vertical_beam_radial_velocity and<BR>
+vertical_beam_spectral_width. <BR>&nbsp;
+  It is important to use the reliability flag to select useful data<BR>
+points as, in most cases, unreliable values are not replaced with<BR>
+missing datum values.</FONT><FONT class="ncDataType">"</FONT>
+</DL>
+<A name="v11">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">vertical_beam_data_reliability_details</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam data reliability details</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variables<BR>
+vertical_beam_signal_power, vertical_beam_radial_velocity and<BR>
+vertical_beam_spectral_width. <BR>&nbsp;
+  The details by means of which the reliability of a data product is<BR>
+determined are coded bitwise into a 14-bit unsigned integer (albeit<BR>
+stored as a 16-bit signed integer) for which bit 00 is the least<BR>
+significant bit. Not all bits are used by every data product.<BR>&nbsp;
+  bit 00: 1 if the signal component is available<BR>&nbsp;
+  bit 01: 1 if the peak smoothed power spectral density (PSD) is  greater<BR>&nbsp;&nbsp;
+     than sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag (a<BR>&nbsp;&nbsp;
+     global attribute) above the noise PSD<BR>&nbsp;
+  bit 02: 1 if the signal component belongs to a radial chain<BR>&nbsp;
+  bit 03: 1 if the signal component fits overall radial continuity<BR>&nbsp;
+  bit 04: 1 if a secondary signal component belongs to a radial chain<BR>&nbsp;
+  bit 05: 1 if the signal component has passed a uni-directional
+    time<BR>&nbsp;&nbsp; continuity test<BR>&nbsp;
+  bit 06: 1 if the signal component has passed a bi-directional
+    time<BR>&nbsp;&nbsp;  continuity test<BR>&nbsp;
+  bit 07: 1 if a complementary beam exists<BR>&nbsp;
+  bit 08: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests<BR>&nbsp;
+  bit 09: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests for the
+    orthogonal azimuth<BR>&nbsp;      
+  bit 10: 1 if the complementary horizontal wind components differ
+    by<BR>&nbsp;&nbsp; less than cart_max_compl_beam_horiz_vel_diff_mps 
+    (a global  attribute)<BR>&nbsp;
+  bit 11: 1 if the theta_s compensation factor can be applied
+    for<BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 12: 1 if the theta_s compensation factor has been applied to the
+    <BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 13: 1 if the beam-broadening correction of spectral width
+    results<BR>&nbsp;&nbsp; in a usable value</FONT><FONT class="ncDataType">"
+</FONT>
+</DL>
+<A name="v12">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">vertical_beam_signal_power</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radar return signal power</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">dB</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">2.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
+  Powers have dimensions of W. The values are uncalibrated and are<BR>
+stored in dB units, where P_dB = 10.0 * log10(P_linear_units)
+</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v13">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">vertical_beam_radial_velocity</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">upward_wind</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radial velocity</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.2</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v14">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">vertical_beam_spectral_width</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radar return spectral width</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.1</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude
+		  longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v15">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">beam_broadening_corrected_spectral_width_is_reliable</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radar return spectral width corrected for beam-broadening is reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1</font>
+<FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">datum_is_not_reliable datum_is_reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variable<BR>
+beam_broadening_corrected_spectral_width.<BR>
+  It is important to use the reliability flag to select useful data<BR>
+points as, in most cases, unreliable values are not replaced with<BR>
+missing datum values.</FONT><FONT class="ncDataType">"</FONT>
+</DL>
+<A name="v16">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">beam_broadening_corrected_spectral_width_reliability_details</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radar return spectral width corrected for beam-broadening reliability details</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The reliability flag and reliability details apply to variable<BR>
+beam_broadening_corrected_spectral_width.<BR>&nbsp;
+  The details by means of which the reliability of a data product is<BR>
+determined are coded bitwise into a 14-bit unsigned integer (albeit<BR>
+stored as a 16-bit signed integer) for which bit 00 isthe least<BR>
+significant bit. Not all bits are used by every data product.<BR>&nbsp;
+  bit 00: 1 if the signal component is available<BR>&nbsp;
+  bit 01: 1 if the peak smoothed power spectral density (PSD) is  greater<BR>&nbsp;&nbsp;
+     than sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag (a<BR>&nbsp;&nbsp;
+     global attribute) above the noise PSD<BR>&nbsp;
+  bit 02: 1 if the signal component belongs to a radial chain<BR>&nbsp;
+  bit 03: 1 if the signal component fits overall radial continuity<BR>&nbsp;
+  bit 04: 1 if a secondary signal component belongs to a radial chain<BR>&nbsp;
+  bit 05: 1 if the signal component has passed a uni-directional
+    time<BR>&nbsp;&nbsp; continuity test<BR>&nbsp;
+  bit 06: 1 if the signal component has passed a bi-directional
+    time<BR>&nbsp;&nbsp;  continuity test<BR>&nbsp;
+  bit 07: 1 if a complementary beam exists<BR>&nbsp;
+  bit 08: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests<BR>&nbsp;
+  bit 09: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests for the
+    orthogonal azimuth<BR>&nbsp;      
+  bit 10: 1 if the complementary horizontal wind components differ
+    by<BR>&nbsp;&nbsp; less than cart_max_compl_beam_horiz_vel_diff_mps 
+    (a global  attribute)<BR>&nbsp;
+  bit 11: 1 if the theta_s compensation factor can be applied
+    for<BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 12: 1 if the theta_s compensation factor has been applied to the
+    <BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 13: 1 if the beam-broadening correction of spectral width
+    results<BR>&nbsp;&nbsp; in a usable value</FONT><FONT class="ncDataType">"
+</FONT>
+</DL>
+<A name="v17">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">beam_broadening_corrected_spectral_width</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vertical beam radar return spectral width corrected for beam-broadening</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m s-1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.1</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</FONT></DL>
+<A name="v18">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">aspect_sensitivity_is_reliable</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar return aspect sensitivity is reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1</font>
+<FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">datum_is_not_reliable datum_is_reliable</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
+  The reliability flag and reliability details apply to variable<BR>
+aspect_sensitivity.<BR>
+  It is important to use the reliability flag to select useful data<BR>
+points as, in most cases, unreliable values are not replaced with<BR>
+missing datum values.</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v19">
+<DL><FONT class="ncDataType">short</FONT> <FONT class="ncVariable">aspect_sensitivity_reliability_details</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar return aspect sensitivity reliability details</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The details by means of which the reliability of a data product is<BR>
+determined are coded bitwise into a 14-bit unsigned integer (albeit<BR>
+stored as a 16-bit signed integer) for which bit 00 is the least<BR>
+significant bit. Not all bits are used by every data product.<BR>&nbsp;
+  bit 00: 1 if the signal component is available<BR>&nbsp;
+  bit 01: 1 if the peak smoothed power spectral density (PSD) is  greater<BR>&nbsp;&nbsp;
+     than sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag (a<BR>&nbsp;&nbsp;
+     global attribute) above the noise PSD<BR>&nbsp;
+  bit 02: 1 if the signal component belongs to a radial chain<BR>&nbsp;
+  bit 03: 1 if the signal component fits overall radial continuity<BR>&nbsp;
+  bit 04: 1 if a secondary signal component belongs to a radial chain<BR>&nbsp;
+  bit 05: 1 if the signal component has passed a uni-directional
+    time<BR>&nbsp;&nbsp; continuity test<BR>&nbsp;
+  bit 06: 1 if the signal component has passed a bi-directional
+    time<BR>&nbsp;&nbsp;  continuity test<BR>&nbsp;
+  bit 07: 1 if a complementary beam exists<BR>&nbsp;
+  bit 08: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests<BR>&nbsp;
+  bit 09: 1 if the complementary horizontal wind components have both
+    passed<BR>&nbsp;&nbsp; lower order reliability tests for the
+    orthogonal azimuth<BR>&nbsp;      
+  bit 10: 1 if the complementary horizontal wind components differ
+    by<BR>&nbsp;&nbsp; less than cart_max_compl_beam_horiz_vel_diff_mps 
+    (a global  attribute)<BR>&nbsp;
+  bit 11: 1 if the theta_s compensation factor can be applied
+    for<BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 12: 1 if the theta_s compensation factor has been applied to the
+    <BR>&nbsp;&nbsp; horizontal wind components<BR>&nbsp;
+  bit 13: 1 if the beam-broadening correction of spectral width
+    results<BR>&nbsp;&nbsp; in a usable value</FONT><FONT class="ncDataType">"
+</FONT>
+</DL>
+<A name="v20">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">aspect_sensitivity</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A>, <A class="ncDimension" href="#v1">altitude</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar return aspect sensitivity</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">dB</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">2.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v21">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">vertical_beam_median_noise_power</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Median spectral noise power for vertical beam profile</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">dB</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">2.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
+  Powers have dimensions of W. The values are uncalibrated and are<BR>
+stored in dB units, where P_dB = 10.0 * log10(P_linear_units)
+</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v22">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">tropopause_altitude</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">tropopause_altitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar-derived tropopause altitude</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">estimated_accuracy</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">300.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-9999.0</font><FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+<A name="v23">
+<DL><FONT class="ncDataType">byte</FONT> <FONT class="ncVariable">tropopause_sharpness_factor</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v0">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Radar-derived tropopause sharpness factor</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">1</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-99</font><FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-99</font><FONT class="ncDataType">b</FONT>  <DD><FONT class="ncAttribute">flag_values</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0 1 2 3</font><FONT class="ncDataType">b</FONT>
+  <DD><FONT class="ncAttribute">flag_meanings</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">indefinite lower_intermediate upper_intermediate definite</FONT><FONT class="ncDataType">"</font>
+  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude</FONT><FONT class="ncDataType">"</font>
+</DL>
+
+ 
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="v3_signal_processing_overview.html">An overview of v3
+  signal processing</A>
+  <DD><A href="file_format_netcdf.html">A general description of netCDF file
+  structure</A>.
+</DL>
+
+<!*** Close page ***>
+    </div>
+
+    <div class="footer">
+      <hr />
+      <a href="contacting_facility_staff.html">Page maintained by David
+        Hooper</a>. Last updated 12th May 2017.
+    </div>
+  </body>
+</html>

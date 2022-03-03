@@ -1,0 +1,154 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>MST Radar return signal power</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">DESCRIPTION OF MST RADAR RETURN SIGNAL POWER</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<A name="top">
+<!*** Page contents to go here ***>
+
+<CENTER>
+  <IMG alt="Plot of MST Radar return signal power" border="0"
+       src="FIGS/010212_sp.png">
+</CENTER>
+
+<P>Lower VHF radar signals are either backscattered or parially
+reflected from small magnitude (&lt; 10<SUP>-6</SUP>) metre-scale
+irregularities of radio refractive index; the radar return signal
+power is related to the vertical gradient of refractive index. Below
+approximately 8 km this depends largely on the "humidity field",
+i.e. the specific humidity and its vertical gradient, which can give
+rise to characteristic signatures in the radar return signal
+power. Rain fall can also give rise to a characteristic signature in
+the radar return signal power at these altitudes. Above approximately
+8 km, however, variations of radar return signal power depend
+primarily on the static stability of the atmosphere. It is thus
+possible to infer the tropopause altitude, indicated by the crosses,
+and sharpness, indicated by the value of tp<SUB>sh</SUB>, from an
+objective algorithm.</P>
+
+
+<P><B>Tropopause altitude/sharpness determination algorithm:</B><BR>
+The vertical beam signal power, in dB units, is smoothed in altitude
+by an 1800 m running mean and then the vertical gradient is calculated
+over the same interval. The tropopause altitude is that at which the
+gradient has its maximum value and tp<SUB>sh</SUB> is equal to this
+value.</P>
+
+<DL>
+  <DD>tp<SUB>sh</SUB> &gt; 5 dB km<SUP>-1</SUP> corresponds to a
+      definite tropopause
+  <DD>tp<SUB>sh</SUB> &lt; 2 dB km<SUP>-1</SUP> corresponds to an
+      indefinite tropopause
+  <DD>2 dB km<SUP>-1</SUP> &lt; tp<SUB>sh</SUB> &lt; 5 dB km<SUP>-1</SUP>
+      corresponds to a tropopause of intermediate sharpness
+</DL>
+
+<P>For the data shown above this algorithm has been applied to 1 hour
+median profiles of radar return signal power. The radar is effectively
+detecting a 'static stability tropopause', i.e. where the
+Brunt-V&auml;is&auml;l&auml; frequency changes most rapidly with
+altitude between (low) tropospheric and (high) stratospheric
+values. In the case of an indefinite tropopause, i,e between 0800 and
+1400 UT, there is only a very gradual increase in static stability
+with increasing altitude and so the tropopause altitude inferred from
+the algorithm does not necessarily have any significance; between 1200
+and 1500 UT the algorithm is merely picking out the feature which
+causes the most rapid increase of signal strength/static stability
+with altitude.  The reason for smoothing and taking gradients over
+1800 m is to reject any small (vertical) scale features which are
+characterised by sharp increases in signal strength. Even so the
+algorithm does sometimes pick out such features, particularly in the
+case of frontal zones, which can also be characterised by an
+enhancement of static stability, when they are close to the actual
+tropopause level; such errors can typically be easily identified "by
+eye".</P><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to top of page</A>
+  <DD><A href="nerc_mst_radar.html">The NERC MST Radar</A>
+  <DD><A href="refract_index.html">The radio refractive index of the
+      atmosphere</A>
+  <DD><A href="clear_air_returns.html">Radar return mechanisms</A>
+  <DD><A href="humidity_sig.html">The signature of humidity on MST Radar
+      return signals</A>
+  <DD><A href="precip_sig.html">The signature of precipitation on MST Radar
+      return signals</A>
+  <DD><A href="descr_horiz_wind.html">Horizontal wind</A>
+  <DD><A href="descr_vert_vel.html">Vertical_velocity</A>
+  <DD><A href="descr_asp_sens.html">Aspect sensitivity</A>
+  <DD><A href="descr_spec_width.html">Spectral width</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 16th August 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

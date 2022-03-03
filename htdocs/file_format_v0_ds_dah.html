@@ -1,0 +1,858 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Format of legacy MST Radar Doppler spectra files</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR LEGACY MST RADAR DOPPLER SPECTRA
+      (VERBOSE DESCRIPTION)</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR> 
+These files contain MST Radar return Doppler spectra, for several
+cycles of observation. Each dwell may contain data for ST-mode
+observations (which cover the approximate altitude range 2 - 20 km) or
+for M-mode observations (which cover the approximate altitude range 58
+- 94 km) or for both together. An overview of the radar measurement
+technique and of the meanings of the data products is given <A
+href="v3_signal_processing_overview.html">here</A>.<BR><BR>
+
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR><BR>
+
+<B>Availability</B><BR>
+MST radar spectral data are only available in this format up to <B>6th
+February 2007</B>. Data for later dates are available in <A
+href="file_format_mstr_spectra_netcdf.html">netCDF files</A>.<BR><BR><BR>
+
+<B>File naming convention: </B><BR>
+<CENTER><FONT
+class="code_black">dsYYMMDD_hhmm.dd</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 2-digit year [00 - 99]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">hh</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit hour [00 - 23]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit minute [00 - 59]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">dd</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the integer number of minutes covered by the file</TD>
+  </TR>
+</TABLE>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-raw/spectra"><FONT
+  class="code_black">/badc/mst/data/mst-raw/spectra</FONT></A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+<B>Archiving convention: </B><FONT class="code_black">YYYY/mon</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further 
+explanation.<BR><BR>
+
+<B>File availability</B><BR>
+Doppler spectra data are available from 1990 onwards.<BR><BR>
+
+<B>File format</B><BR>
+The data are stored in non-standard format binary files, as described
+below. The following is a verbose description. <A
+href="file_format_v0_ds_ks.html">Click here</A> to see the
+original file format description. Note that some terms and
+abbreviations differ between the two descriptions.<BR><BR>
+
+Owing to the relatively limited file storage capacity available when
+the radar began operations in 1990, the data were stored in a
+compressed format (which is still being used today). Although this
+format is not particularly difficult to decode, it will be necessary
+for users to write a special reading routine. The description below
+should make more sense once you start to read a file.<BR><BR>
+
+The files contain 4 different data block types:<BR>
+
+<DL>
+  <DL>File Contents Block (FCB) - 64 bytes
+    <DD>This gives the number of bytes required to store
+    the data for each dwell, the number of dwells within each
+    cycle, and the number of cycles within the file.<BR>
+  </DL>
+  <DL>Empty Block (EB) - 64 bytes
+    <DD>The file contents information is associated with only the first
+    dwell of a file. An EB, which contains no information, is
+    therefore substituted for the FCB for subsequent dwells. 
+  </DL>
+  <DL>Parameter Block (PB) - 64 bytes
+    <DD>This gives the values of the radar parameters used
+    to make the observations for the dwell. It is necessary to know
+    some of these values in order to read in the spectral data correctly.
+  </DL>
+  <DL>Spectral Data Block (SDB) - variable number of bytes
+    <DD>This contains the range-gated spectra for the dwell.
+  </DL>
+</DL>
+
+Each file consists of a block sequence as follows:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">PB</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">(Cycle 1, Dwell 1)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">FCB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Dwell 1)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Dwell 1)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">PB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Dwell 2)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">EB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Dwell 2)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Dwell 2)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">PB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Last dwell in cycle)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">EB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Last dwell in cycle)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 1, Last dwell in cycle)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">PB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 1)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">EB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 1)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 1)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">PB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 2)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">EB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 2)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Cycle 2, Dwell 2)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">PB</TD>
+    <TD></TD>
+    <TD valign="top">(Last cycle in file, last dwell in cycle)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">EB</TD>
+    <TD></TD>
+    <TD valign="top">(Last cycle in file, last dwell in cycle)</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">SDB</TD>
+    <TD></TD>
+    <TD valign="top">(Last cycle in file, last dwell in cycle)</TD>
+  </TR>
+</TABLE><BR>
+
+The following abbreviations will be used to describe data types:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">int8</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Signed 1 byte (8 bit) integer</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint8</TD>
+    <TD></TD>
+    <TD valign="top">Unsigned 1 byte (8 bit) integer</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top">Unsigned 2 byte (16 bit) integer</TD>
+  </TR>
+</TABLE><BR>
+
+
+<B>File Contents Block (FCB) Structure</B><BR>
+The FCB is located within bytes 64 - 127 of the file (where the first
+byte in the file is byte 0). The number of bytes used (of the
+available 64) depends on the the number of dwells per cycle (<FONT
+class="code_black">nr_dwells</FONT>).<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">uint16</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">nr_dwells</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Number of dwells per cycle </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">nr_recs(1)</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of records (of 64 bytes) from the
+    beginning of the PB for the first dwell to the end of the SDP for
+    the first dwell in a cycle.</TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">nr_recs(2)</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of records (of 64 bytes) from the
+    beginning of the PB for the first dwell to the end of the SDP for
+    the second dwell in a cycle.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+    <TD></TD>
+    <TD valign="top">.</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">nr_recs(nr_dwells)</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of records (of 64 bytes) from the
+    beginning of the PB for the first dwell to the end of the SDP for
+    the last dwell in a cycle.</TD>
+  </TR>
+</TABLE><BR>
+
+The beginning of a PB for a given dwell (<FONT
+class="code_black">dwell_nr</FONT>) of a given cycle (<FONT
+class="code_black">cycle_nr</FONT>) within the file is therefore given
+by:<BR><BR>
+
+<CENTER><FONT class="code_black">(cycle_nr - 1)*nr_recs(nr_dwells)*64
++ nr_recs(dwell_nr - 1)*64</FONT></CENTER><BR>
+
+where <FONT class="code_black">nr_recs(0) = 0</FONT>, and the number
+of cycles within the file is given by:<BR><BR>
+
+<CENTER><FONT class="code_black">total_nr_bytes / nr_recs(nr_dwells)*64</FONT></CENTER><BR>
+
+where <FONT class="code_black">total_nr_bytes</FONT> is the total
+number of bytes in the file.<BR><BR>
+
+<B>Parameter Block (PB) Structure</B><BR> 
+This uses 44 of the 64 available bytes.<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">uint8</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">LTP</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Length of transmitter pulse (&mu;s) [1 | 2 | 4 |
+    8 | 16 | 32]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint8</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">PCT</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Pulse coding type [0: uncoded | 1: 8 &mu;s sub-pulse
+    length | 2: 4 &mu;s sub-pulse length | 3: 2 &mu;s  sub-pulse length | 4:
+    1 &mu;s sub-pulse length]
+    </TD>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">IPP</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Inter pulse period (&mu;s) [80 | 160 | 320 | 640]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">NCI</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of coherent integrations </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DFT</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of points in discrete Fourier transform
+    [64, 128, 256 or 512]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">NII</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Number of incoherent integrations</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RG1</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Lowest range gate number for ST mode</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RG2</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Highest range gate number for ST mode</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">BDN</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Beam direction number [0: Vertical | 1: N4.2&deg;
+    | 2: N8.5&deg; | 3: S4.2&deg; | 4: S8.5&deg; | 5: E4.2&deg;
+    | 6: E8.5&deg; | 7: W4.2&deg; | 8: W8.5&deg; | 9: NW6.0&deg;
+    | 10: NW12.0&deg; | 11: NE6.0&deg; | 12: NE12.0&deg; | 13:
+    SE6.0&deg; | 14: SE12.0&deg; | 15: SW6.0&deg; | 16: SW12.0&deg;,
+    where the actual azimuths are offset 17.5 &deg; anticlockwise
+    from the nominal directions]
+    </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Year of start of dwell minus 1900, i.e. 99 corresponds to 1999
+    and 101 to 2001 
+    </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Month of start of dwell [1 - 12]</TD>
+    </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Day of start of dwell [1 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Hour of start of dwell [0 - 23]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Minute of start of dwell [0 - 59]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Second of start of dwell [0 - 59]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RG3</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Lowest range gate number for M mode</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RG4</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Highest range gate number for M mode</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Range interval [integer multiples of 150 m]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint8</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RFL</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Receiver filter length (1/Bandwidth) [1, 2, 4, 8,
+    16, 32]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">int8</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Raw data collection flag [-ve if raw data collected]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">dwell_nr</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Dwell number within cycle [0 - <FONT
+    class="code_black">nr_dwells</FONT></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">cycle_nr</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Cycle number within file [0 - <FONT
+    class="code_black">nr_cycles</FONT></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Run/file number (since start of year)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">uint16</TD>
+    <TD></TD>
+    <TD valign="top"></TD>
+    <TD></TD>
+    <TD valign="top">Number of right shifts incorporated in input data</TD>
+  </TR>
+</TABLE><BR>
+
+<B>Spectral Data Block (SDB) Structure</B><BR> 
+
+The start of a SDB is 128 bytes on from the start of the corresponding
+PB. For each range gate, <FONT class="code_black">DFT</FONT> Power
+spectral densities (PSDs) are stored in a coded format (in 8 bit
+signed integers) starting at the most negative Doppler frequency. They
+should be read with a routine of the form:
+
+<FONT class="code_red">
+<PRE>do range_gate_nr = RG1,RG2
+  do dft_pnt_nr = (-DFT/2),(DFT/2 - 1)
+    value(range_gate_nr,dft_pnt_nr) = int8
+  end do
+end do
+
+if (RG3 > 0) & (RG4 > 0)
+  do range_gate_nr = RG3,RG4
+    do dft_pnt_nr = (-DFT/2),(DFT/2 - 1)
+      value(range_gate_nr,dft_pnt_nr) = int8
+    end do
+  end do
+end if
+</PRE></FONT>
+
+where the Doppler frequencies are given by:<BR><BR>
+<CENTER><FONT class="code_black">dft_pnt_nr/(IPP * NCI *
+DFT)</FONT></CENTER><BR>
+
+These must be multiplied by a factor of [-&lambda;/2], where &lambda;
+is the radar wavelength (6.45 m), in order to convert from Doppler
+frequency to Doppler velocity. Note that this implies reversing the
+order of spectral points. A positive Doppler velocity implies movemnet
+away from the radar. <BR><BR>
+
+The PSDs are normalised to the peak PSD (within each spectrum) and
+stored at 0.2 dB intervals [PSD_dB = 10 * log10(PSD_linear)] in an 8 bit
+signed integer, i.e. :<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">(value == 127)</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"> corresponds to 0.0 dB</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">(value == 0)</TD>
+    <TD></TD>
+    <TD valign="top"> corresponds to -25.4 dB</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">(value == -128)</TD>
+    <TD></TD>
+    <TD valign="top"> corresponds to -51.0 dB</TD>
+  </TR>
+</TABLE><BR>
+
+This conversion applies to all but the zero Doppler frequency
+position, i.e. to the <FONT class="code_black">(DFT/2 + 1)</FONT>th
+spectral point. This frequency bin contains the coded scaling factor
+(CSF) for the spectrum, which is coded at 0.5 dB intervals:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">(value == 127)</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"> corresponds to 95.5 dB</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">(value == 0)</TD>
+    <TD></TD>
+    <TD valign="top"> corresponds to 32.0 dB</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">(value == -128)</TD>
+    <TD></TD>
+    <TD valign="top"> corresponds to -32.0 dB</TD>
+  </TR>
+</TABLE><BR>
+
+In summary, the actual PSD (dB) is given by:<BR><BR> <CENTER><FONT
+class="code_black">((Value - 127) * 0.2) + ((CSF + 64) *
+0.5)</FONT></CENTER><BR>
+
+The PSD of the zero Doppler frequency bin is typically contaminated by
+ground clutter, and so little information is lost by removing it. Once
+the above decoding operations have been performed, the zero Doppler
+frequency PSD should be estimated as the mean of the PSDs for the two
+adjacent Doppler frequency bins.<BR><BR>
+
+The range of the centre of a range gate from the radar (m) is given
+by:<BR><BR>
+
+<CENTER><FONT class="code_black">(range_gate_nr - range_gate_0) *
+&delta;z</FONT></CENTER><BR>
+
+where <FONT class="code_black">range_gate_0</FONT> is the sea-level
+range gate, which is given by:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">5.2</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">if (LTP == 1 &mu;s)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">5.7</TD>
+    <TD></TD>
+    <TD valign="top">if (RFL == 1 &mu;s) & (LTP > 1 &mu;s)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">6.7</TD>
+    <TD></TD>
+    <TD valign="top">if (RFL == 2 &mu;s)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">8.7</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">if (RFL == 4 &mu;s)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">12.7</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">if (RFL == 8 &mu;s)</TD>
+  </TR>
+</TABLE><BR>
+
+and <FONT class="code_black">&delta;z</FONT> is the range interval
+between gates: 150 m. Note that this must be multiplied by the cosine
+of the off-vertical beam pointing angle in order to calculate the
+altitude above the radar, i.e.:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">149.6 m</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">if (BDN == 1) | (BDN == 3) | (BDN == 5) or (BDN ==
+    7), i.e. for an off-vertical angle of 4.2&deg;</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">149.2 m</TD>
+    <TD></TD>
+    <TD valign="top">if (BDN == 9) | (BDN == 11) | (BDN == 13) or (BDN ==
+    15), i.e. for an off-vertical angle of 6.0&deg;</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">148.4 m</TD>
+    <TD></TD>
+    <TD valign="top">if (BDN == 2) | (BDN == 4) | (BDN == 6) or (BDN ==
+    8), i.e. for an off-vertical angle of 8.5&deg;</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">146.7 m</TD>
+    <TD></TD>
+    <TD valign="top">if (BDN == 10) | (BDN == 12) | (BDN == 14) or (BDN ==
+    16), i.e. for an off-vertical angle of 12.0&deg;</TD>
+  </TR>
+</TABLE><BR><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="sig_proc_version_nrs.html">The differences between
+  signal processing versions</A>
+  <DD><A href="file_contents.html">The contents of other data files</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 28th August 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

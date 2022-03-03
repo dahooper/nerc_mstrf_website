@@ -1,0 +1,178 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>The LD40 Laser Ceilometer Satus Flag</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">THE LD40 LASER CEILOMETER STATUS FLAG</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="5" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+The LD40 laser ceilometer performs a number of self-check and
+self-adjustment routines for each 15 s measurement cycle. Error and
+warning messages are coded within an 8 digit instrument status
+integer. A value of 99999999 implies that no observations were
+made. Zeros in the first seven digits imply that the instrument was
+functioning correctly. The interpretation of individual digits is as
+follows:
+
+<DL><B>Status Digit 1 (most significant digit): Power supply</B>
+  <DD>0: Power supply OK.
+  <DD>1: +/-5 V or +/- 12 V supply failure.
+  <DD>2: Not used.
+  <DD>3: Avalanche photodiode voltage regulator failure.
+  <DD>4: Test laser voltage regulator failure.
+  <DD>5: Original laser voltage regulator failure.
+  <DD>6: No response from AD/DA converter.
+</DL>
+     
+<DL><B>Status Digit 2: Window backscatter and solar shutter</B>
+  <DD>0: Window backscatter and solar radiation measurements within allowed range.
+  <DD>1: Window scatter > 50%. Window requires cleaning.
+  <DD>2: Solar radiation too strong. Shutter is closed.
+</DL>
+    
+<DL><B>Status Digit 3: Receiver</B>  
+  <DD>0: Receiver OK.
+  <DD>1: Offset too low.
+  <DD>2: Offset too high.
+  <DD>3: Not used.
+  <DD>4: Receiver sensitivity too low. Error. No more measurements possible.
+  <DD>5: Receiver sensitivity too low and offset too low.
+  <DD>6: Receiver sensitivity too low and offset too high.
+</DL>
+      
+<DL><B>Status Digit 4: Original laser and test laser</B>
+  <DD>0: Transmitter module OK.
+  <DD>1: Laser power low. Warning only. Measurements continue.
+  <DD>2: Laser power too low. Error. No more measurements possible.
+  <DD>3: Not used.
+  <DD>4: Not used.
+  <DD>5: Test laser failure. Error. No more measurements possible.
+  <DD>6: Original laser switched off.
+</DL>
+      
+<DL><B>Status Digit 5: Flash-ADC</B>
+  <DD>0: Flash-ADC OK.
+  <DD>1: One flash-ADC error during regulation of the bias voltage of the avalanche photodiode.
+  <DD>2: Several flash-ADC errors during regulation of the bias
+  voltage of the avalanche photodiode.
+  <DD>3: Flash-ADC failure.
+  <DD>4: Flash-ADC too slow during normal measurements. No reply.
+</DL>
+     
+<DL><B>Status Digit 6: Temperature regulation</B>
+  <DD>0: Temperature regulation OK.
+  <DD>1: Temperature controller defect.
+</DL>  
+    
+<DL><B>Status Digit 7: Reset and data reception</B>   
+  <DD>0: Data transmission OK.
+  <DD>1: Sensor will perform a reset.
+  <DD>2: Not used.
+  <DD>3: Not used.
+  <DD>4: Not used.
+  <DD>5: Not used.
+  <DD>6: Not used.
+  <DD>7: Received and calculated checksum differ.
+  <DD>8: Received command message is too long.
+</DL>
+
+<DL><B>Status Digit 8 (least significant digit): Setup information</B>
+        
+  <DD>0: Current setup is the setup stored in the EEPROM.
+  <DD>1: EEPROM failure. Current setup if the default setup.
+  <DD>2: Setup has been changed by the user and is different from
+	   the EEPROM and default setups.
+  <DD>3: Not used.
+  <DD>4: In case of failures, the message contains dashes instead of
+	   data.
+  <DD>5: EEPROM is defective. Current setup is the default setup and
+           the message contains dashes instead of data.
+  <DD>6: Setup has been changed by the user and is different to the
+           EEPROM and default setups. The message contains dashes
+           instead of data.
+</DL><BR><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="laser_ceilometer.html">Description of the instrument,
+  of the measurement procedure and of the meaning of the data
+  products.</A>
+  <DD><A href="file_format_ceilometer_cloud_base.html">File format
+  description</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 5th September 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

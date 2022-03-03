@@ -1,0 +1,247 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Surface wind file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR SURFACE WIND DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>Introduction</B><BR>
+
+NASA-Ames files are designed to be self-descriptive. Once the 'File
+Format Index' is known - 1001 in the case of the surface wind data
+files - it is possible to read and understand the data without the need to
+refer to external sources. Any amount of metadata can be included in
+the header section of the file. The information included in these
+files has been chosen to match the Global Attributes used by the
+Climate and Forecasts metadata convention for NetCDF files; this is
+the preferred format for British Atmospheric Data Centre
+datasets.<BR><BR>
+
+For the time being, only those aspects of the file format which are
+essential for reading the data will be described. For a full
+description of the NASA-Ames formats, consult the <A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Gaines
+and Hipskind [1998]</A> document.<BR><BR>
+
+The following description only refers to data from 19th December 2001
+onwards. <A href="#old">Click here</A> to find out about the file
+format used for data between 9th November 1995 and 28th November
+2001.<BR><BR>
+
+The surface wind file for 1st June 2003 (<FONT
+class="code_black">wind-sensors_frongoch_20030601.na</FONT>) will be
+used as an example. Text in green represents actual file
+contents. Text in red is for explanatory purposes only.<BR>
+
+
+<DL><B>Header Lines</B>
+  <DD><B>Line 1: </B><FONT class="code_green">55 1001</FONT><BR>
+    Integer 1 corresponds to the total number of header lines,
+    <FONT class="code_red">nr_header_lines</FONT><BR>
+    Integer 2 corresponds to the File Format Index<BR><BR>
+
+  <DD><B>Line 7: </B><FONT class="code_green">2003 06 01 2004 05 13</FONT><BR>
+    Integers 1 - 3 correspond to the year, month and day on which the observations were made.<BR>
+    Integers 4 - 6 correspond to the year, month and day on which the file was created.<BR><BR>
+  <DD><B>Line 12: </B><FONT class="code_green">999.99 999.99 99.99 99.99</FONT><BR>
+    These are the numbers which represent missing data values for the
+    'primary variables' (see below)<BR><BR>
+  <DD><B>Line 21: </B><FONT class="code_green">1440</FONT><BR>
+    Corresponds to the number of data lines in the file,
+     <FONT class="code_red">nr_data_lines</FONT><BR>
+</DL>
+
+<B>Data reading loop</B><BR>
+
+After reading the above mentioned lines, wind forward to line <FONT
+class="code_red">(nr_header_lines + 1)</FONT> where the data
+begin. The data can be read with a simple loop structure of the form (shown
+here in Fortran syntax):<BR>
+
+<PRE><FONT class="code_red">do data_line_nr = 1,nr_data_lines
+  read_data_line
+end do
+</FONT></PRE><BR>
+
+<B>Reading data line</B><BR>
+
+Each data line contains 5 floating point numbers, shown here for the
+first 4 lines:<BR>
+
+<PRE>
+<FONT class="code_green">    0.0  -0.18   3.27  0.76  1.40
+   60.0  -0.14   3.14  0.79  1.19
+  120.0  -0.38   3.21  0.77  1.16
+  180.0  -0.60   3.51  0.58  1.29</FONT>
+</PRE>
+
+<DL>
+  <DD><B>Value 1: Time (s) since 00:00:00 UT on the day in question</B><BR>
+    Technically speaking this is the first independent variable rather
+    than a primary variable.<BR><BR>
+
+  <DD><B>Value 2: Mean eastward wind (m s-1)</B><BR>
+    or mean zonal velocity over 60 s sample time<BR><BR>
+
+  <DD><B>Value 3: Mean northward wind (m s-1)</B> <BR>
+    or mean meridional velocity over 60 s sample time<BR><BR>
+
+  <DD><B>Values 4 and 5: Miniumum/maximum gust wind speed relative to mean speed</B><BR>
+
+    For data recorded before 15th April 2003, the basic wind
+    information was sampled at 10 s intervals, and at 1 s intervals
+    for dates thereafter. The eastward and northward components of the
+    wind represent 60 s means of these samples. The gust winds
+    represent unaveraged 10 s values for data recorded before 15th
+    April 2003, and 3 s means (of 1 s samples) therefafter. Values 4
+    and 5 represent, respectively, the ratios of the minimum and
+    maximum gust speeds (occuring within each 60 s interval) to the
+    mean speed. <BR><BR>
+
+</DL>
+
+<a name="old">
+<B>File format for data between 9th November 1995 and 28th November
+2001</B><BR>
+
+These files have no header lines and just consist of a sequence of
+wind speed and direction values. The data are recorded at 1 minute
+intervals, starting at 00:00:00 UTC on the day in question, with time
+increasing in steps of 1 minute from left to right. This gives 240
+lines of 6 speed/direction pairs each as shown below, in green, for
+the first 3 lines of the file for 1st June 2000 (<FONT
+class="code_black">sw000601</FONT>). Text in red is for explanatory
+purposes only and does not appear in the files.<BR><BR>
+
+<PRE><FONT class="code_green">   4.94 171.8   4.73 167.0   4.25 163.4   3.92 171.9   5.02 169.8   5.08 169.6</FONT><FONT class="code_red">
+   S(1)  D(1)   S(2)  D(2)   S(3)  D(3)   S(4)  D(4)   S(5)  D(5)   S(6)  D(6)</FONT><FONT class="code_green">
+
+   5.04 165.0   3.88 165.3   4.44 173.0   4.52 172.4   3.83 172.3   5.31 174.0</FONT><FONT class="code_red">
+   S(7)  D(7)   S(8)  D(8)   S(9)  D(9)  S(10) D(10)  S(11) D(11)  S(12) D(12)</FONT><FONT class="code_green">
+
+   4.81 179.3   4.60 171.2   5.44 169.6   4.83 176.6   5.15 165.0   5.27 174.4</FONT><FONT class="code_red">
+  S(13) D(13)  S(14) D(14)  S(15) D(15)  S(16) D(16)  S(17) D(17)  S(18) D(18)</FONT><FONT class="code_green"></FONT></PRE><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD valign="top">S(i)</TD> 
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">wind speed (m/s)</TD>
+  </TR>
+  <TR>
+    <TD valign="top">D(i)</TD> 
+    <TD></TD>
+    <TD valign="top">This nominally gives the meteorological
+    convention wind direction (&deg; clockwise from North), i.e. FROM
+    which the wind is blowing. However, <B>NOTE</B> that there is an
+    error in the way in which the data have been written and the
+    actual meteorological convention direction is given by:<BR><BR>
+
+    <CENTER><FONT class="code_black">met-dir = 0&deg; - D(i)</FONT>
+      </CENTER></TD>
+  </TR>
+  <TR>
+    <TD valign="top">i</TD> 
+    <TD></TD>
+    <TD valign="top">The index is shown here in the range [1 - 1440],
+      which means that the corresponding time (seconds after 00:00:00
+      UTC) is given by:<BR><BR>
+
+    <CENTER><FONT class="code_black">time = [i - 1] *
+      60</FONT></CENTER></TD>
+  </TR>
+</TABLE>
+
+
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="contacts.html">Contact the NERC MST Radar Facility Project
+      Scientist</A>
+  <DD><A href="file_name_conv.html">File naming convention</A>
+  <DD><A href="wind_vect_convs.html">Wind vector notation conventions</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Full
+       description of the NASA-Ames formats: Gaines and Hipskind [1998]</A>
+    <DD><A href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/surface-wind/">Location of surface wind files at the BADC</A>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 28th June 2004</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

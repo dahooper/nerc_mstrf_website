@@ -1,0 +1,72 @@
+BODY
+  {
+    Background-Color: white;
+    Color: #000000;
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    Font-Size: x-small;
+    Font-Variant: Normal;
+    Font-Weight: normal;
+  }
+
+P, FONT, TH, TD, H1, H2, H3, H4, H5
+  {
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    Font-Variant: Normal;
+    Font-Weight: normal;
+  }
+
+A.menu_avail
+  {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+A.menu_current
+  {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+DIV.current
+  {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+  }
+
+FONT.code_blue
+  {
+    color: #0000ff; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_black
+  {
+    color: #000000; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_green
+  {
+    color: #00ff00; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_red
+  {
+    color: #ff0000; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+TABLE.menu
+  {
+    background-color: #ffd000;
+    padding: 0;
+  }

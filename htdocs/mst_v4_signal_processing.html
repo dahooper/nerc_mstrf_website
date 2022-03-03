@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>NERC MSTRF: Version 4 signal processing for MST radar</title>
+    <link rel="stylesheet" type="text/css" href="style_201312.css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <a href="http://www.nerc.ac.uk"><img src="LOGOS/logo_nerc_2013_long.png"
+					   alt="" /></a>
+      <img src="LOGOS/mst_button.png" alt="" />
+      THE NERC MST RADAR FACILITY AT ABERYSTWYTH
+      <h1>Version 4 signal processing scheme for MST radar</h1>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="announcements.html">Announcements</a></li>
+	<li><a href="contacts.html">Contacts</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="instruments.html">Instruments</a></li>
+        <li><a href="plots.html">Plots</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="site.html">Radar Site</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="principles.html">Wind-Profiler Principles</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+<!*** Beginning of page content ***>
+
+<p>An improved - version 4 (v4) - MST Radar data processing scheme was 
+introduced in early 2017. Compared with data from the
+older <a href="file_format_v3_cartesian.html">v3 Cartesian files</a>,
+data from the new <a href="file_format_mst_cardinal_v4-0.html">v4 Cardinal
+    files</a> have the following advantages:</p>
+
+<ul>
+  <li>the horizontal wind components have a significant lower random
+    measurement error
+  <li>the horizontal wind components have a slightly better time-altitude
+    coverage 
+  <li>the beam-broadening-corrected (vertical beam) spectral widths have a
+    slightly better time-altitude coverage
+</ul>
+
+<p>Further details of these improvements are given below.</p>
+
+<p>Users of MST Radar data are encouraged to switch to the v4 Cardinal data
+  files. Please <a href="contacting_facility_staff.html">contact the 
+    NERC MST Radar Facility</a> if v4 files are not available for the
+  dates that you are interested in.</p> 
+</p>
+
+<p>The v4 data processing scheme currently uses v3 Cartesian data as
+  input. It is consequently possible to generate v4.0 files for (almost) any
+  date for which v3 files already exist. The v4 scheme will
+  eventually be extended so that it can process data from the spectral level
+  upwards. </p>
+
+
+<h2>Random Measurement Errors</h2>
+<p>The v3 data processing scheme - described
+by <a href="publications_by_year.html#2008">Hooper et al. (2008)</a> - was
+designed to produce the best possible estimates of winds based on
+measurements made during a single cycle of observation (which typically lasts
+for just over 5 minutes). As can be seen from the figure below, the
+  representativeness of these estimates can be improved by smoothing the data
+  in time. A statistical analysis has shown that the optimal level of smoothing
+  is approximately 6 cycles (31.4 minutes) for tropospheric altitudes (further
+  smoothing can reduce the random error slightly for stratospheric
+  altitudes). Consequently the v4 Cardinal files contain wind components that
+  have been smoothed over a nominal interval of 33 minutes (which allows for
+  small variations in cycle duration). </p>
+
+<center>
+  <img src="FIGS/mst_effects-of-smoothing-winds-in-time.png" 
+       alt="Figure showing the effects of smoothing MST Radar winds in time."/>
+</center>
+ 
+<h2>Improved time-altitude coverage</h2>
+<p>A side effect of smoothing the wind data in time is that it fills in short
+  data gaps. This also applies to the beam-broadening corrected (vertical
+  beam) spectral widths, since they rely on the wind speed as well as on the raw
+  vertical beam spectral widths. However, the numerical difference between
+  using smoothed (v4) or unsmoothed (v3) wind speeds to correct the spectral
+  widths is only apparent where the raw spectral width is marginally greater
+  than the beam broadening contribution. Where the raw spectral width is
+  significantly greater, the difference is negligible.</p> 
+
+<h2>Compensation for the effects of aspect sensitivity</h2>
+<p>The term aspect sensitivity refers to the decrease in radar return
+  signal power that is often seen with increasing beam pointing zenith
+  angle. This causes an off-vertical beam to be weighted more heavily on its
+  lower zenith angle side than on its higher zenith angle side. The beam's
+  effective zenith angle will consequently be slightly smaller than the nominal
+  value and the magnitude of the horizontal wind component will be
+  correspondingly underestimated. A compensation factor for this effect can be
+  derived from the ratio of the signal powers observed at two zenith
+  angles. This factor has already been applied to the wind components in
+  the v3 and v4 data files and its values are included simply for reference
+  purposes.</p>
+
+<center>
+  <img src="FIGS/mst_signal-power-ratio-and-wind-speed-compensation-factor.png" 
+       alt="Figure showing the effects of smoothing MST Radar winds in time."/>
+</center>
+
+<p>The v3 processing scheme uses signal powers at zenith angles of 4.2&deg;
+  (from a single beam - orange line in figure above) and 6.0&deg; (from the
+  mean of four beams in orthogonal azimuths - blue line). Owing to the small
+  difference between these angles, the compensation factor (orange line) is
+  highly sensitive to small variations in the signal power ratio. Moreover, the
+  use of only a single beam pointing direction at 4.2&deg; off-vertical
+  neglects any variations in signal power as a function of azimuth. Values
+  based on the mean signal power from four beams at 4.2&deg; off-vertical in
+  orthogonal azimuths are shown (green line) for reference. This figure
+  uses data from a special campaign period when observations were made in
+  all <a href="nerc_mstr_beam_dirs.html">17 available beam pointing
+    directions</a>. The 3 additional beam pointing directions at 4.2&deg;
+  off-vertical are not available during standard observations. The v4
+  processing scheme reduces the significance of these limitations by using the
+  ratio of signal powers observed at zenith angles of 0.0&deg; (red line) and
+  6.0&deg;. Users should therefore expect slight differences between the
+  horizontal wind speeds derived from time-smoothed v3 data and v4 data. </p>
+
+  <p>More details about aspect sensitivity and the wind speed compensation
+    factor can be found in the following
+    publications: <a href="publications_by_year.html#1995">Hooper and Thomas
+      (1995)</a>,  <a href="publications_by_year.html#1997">Thomas et
+      al. (1997), and <a href="publications_by_year.html#2014">Lee et
+	al. (2014)</a>.</p>  
+
+<!*** End of page content ***>
+    </div>
+
+    <div class="footer">
+      <hr />
+      <a href="contacting_facility_staff.html">Page maintained by David
+	Hooper</a>. Last updated 15th May 2017.
+    </div>
+  </body>
+</html>

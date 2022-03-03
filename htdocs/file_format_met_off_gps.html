@@ -1,0 +1,187 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF: GPS-IWV file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR MET OFFICE GPS INTEGRATED
+      WATER VAPOUR DATA</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***> These files contain data products
+derived from measurements made by the Met Office's GPS water vapour
+receiver located at the NERC MST Radar site. The files are written in
+a non-standard ASCII format. They contain no header information - just
+a series of data lines which contain one hour average data
+products. The times given refer to the middle of that hour. Each file
+contains All the data prodcuts for a given month. The first 5 lines
+from the file for August 2001 (<FONT
+class="code_black">gps-iwv_capel-dewi_200108.txt</FONT>) are shown
+below in green. The text in red is for explanatory purposes only and
+does not appear in the files. <BR>
+
+<PRE><FONT class="code_green">ABYW    2001    08      03      15      30      2429.0  137.0   21.8
+ABYW    2001    08      03      16      30      2426.9  133.5   21.2
+ABYW    2001    08      03      17      30      2424.6  130.7   20.7
+ABYW    2001    08      03      18      30      2427.8  133.3   21.1
+ABYW    2001    08      03      19      30      2435.7  141.2   22.4</FONT>
+<FONT class="code_red">SITE    YYYY    MM      DD      hh      mm        ERRC   WETD    IWV</FONT></PRE><BR>
+
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD align="center" valign="top">Column</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Parameter</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Description</TD>
+  </TR>
+  <TR>
+    <TD align="center">1</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">SITE</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Site code</TD>
+  </TR>
+  <TR>
+    <TD align="center">2</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">YYYY</FONT></TD>
+    <TD></TD>
+    <TD valign="top">4-digit year</TD>
+  </TR>
+  <TR>
+    <TD align="center">3</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD align="center">4</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">2-digit day [1 - 31]</TD>
+  </TR>
+  <TR>
+    <TD align="center">5</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">hh</FONT></TD>
+    <TD></TD>
+    <TD valign="top">2-digit hour [0 - 23]</TD>
+  </TR>
+  <TR>
+    <TD align="center">6</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">mm</FONT></TD>
+    <TD></TD>
+    <TD valign="top">2-digit minute [0 - 59]</TD>
+  </TR>
+  <TR>
+    <TD align="center">7</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">ERRC</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Error correction (kg/m^2)</TD>
+  </TR>
+  <TR>
+    <TD align="center">8</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">WETD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Wet delay (kg/m^2)</TD>
+  </TR>
+  <TR>
+    <TD align="center">9</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">IWV</FONT></TD>
+    <TD></TD>
+    <TD valign="top">Integrated water vapour (kg/m^2)</TD>
+  </TR>
+</TABLE>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/gps-iwv/formatted_data">Location of the data on the BADC</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 28th June 2004</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

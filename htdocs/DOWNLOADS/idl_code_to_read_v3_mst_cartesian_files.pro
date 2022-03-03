@@ -1,0 +1,67 @@
+;*************************************************************************************
+;Routine to read MST radar NetCDF files in IDL.
+; G Vaughan January 2010
+; Designed to be called from a program which will use the data.
+; Variable names should be self-explanatory
+pro read_mst_data,dir,yr,mon,day,date,ntime,nalt,time,height,U,V,W,speed,power,width,aspect
+;
+; Choose file to read from directory dir (supplied through call to routine)
+;
+file=dialog_pickfile(path=dir,filter='*.nc')
+;
+; NetCDF calls to read data
+;
+netid=NCDF_OPEN(file)
+ncdf_attget,netid,'data_year',yr,/global
+ncdf_attget,netid,'data_month',mon,/global
+ncdf_attget,netid,'data_day',day,/global
+ncdf_diminq,netid,ncdf_dimid(netid,'time'),chart,ntime
+ncdf_diminq,netid,ncdf_dimid(netid,'altitude'),charh,nalt
+ncdf_varget,netid,ncdf_varid(netid,'time'),time
+ncdf_varget,netid,ncdf_varid(netid,'altitude'),height
+ncdf_varget,netid,ncdf_varid(netid,'eastward_wind'),U
+ncdf_varget,netid,ncdf_varid(netid,'northward_wind'),V
+ncdf_varget,netid,ncdf_varid(netid,'horizontal_wind_components_are_reliable'),uflag
+ncdf_varget,netid,ncdf_varid(netid,'horizontal_wind_components_reliability_details'),urel
+ncdf_varget,netid,ncdf_varid(netid,'vertical_beam_signal_power'),power
+ncdf_varget,netid,ncdf_varid(netid,'vertical_beam_radial_velocity'),W
+ncdf_varget,netid,ncdf_varid(netid,'vertical_beam_data_are_reliable'),wflag
+ncdf_varget,netid,ncdf_varid(netid,'vertical_beam_data_reliability_details'),wrel
+ncdf_varget,netid,ncdf_varid(netid,'beam_broadening_corrected_spectral_width'),width
+ncdf_varget,netid,ncdf_varid(netid,'beam_broadening_corrected_spectral_width_is_reliable'),xflag
+ncdf_varget,netid,ncdf_varid(netid,'beam_broadening_corrected_spectral_width_reliability_details'),xrel
+ncdf_varget,netid,ncdf_varid(netid,'aspect_sensitivity'),aspect
+ncdf_varget,netid,ncdf_varid(netid,'aspect_sensitivity_is_reliable'),aflag
+ncdf_varget,netid,ncdf_varid(netid,'aspect_sensitivity_reliability_details'),arel
+ncdf_close,netid
+
+; Create date string and convert time and height to hours and km
+date=string(yr,format='(i5)')+string(mon,format='(i3)')+string(day,format='(i3)')
+height=height/1000  & time=time/3600
+
+; Arrays transposed so that IDL contour routine plots time and height correctly
+power=transpose(power)
+
+; Set w values flagged as unreliable to missing data, and transpose
+; If you don't want to use the flags, comment out the first line
+W(where(wflag eq 0,count))=!VALUES.F_NAN
+W = transpose(W)
+
+; for horizontal winds, you can choose to use the overall reliable flag or one or more
+; of the individual bits in the reliability detail variabls. Here wind speed is selected using
+; bit 8 of the reliablility detail variable while U and V are selected using the overall flag
+U=transpose(U) & V=transpose(V) & uflag=transpose(uflag) & urel=transpose(urel)
+speed = sqrt(U*U + V*V)
+cflag = 8 ;complementary beam components both reliable
+ind = 2^cflag
+urel = urel AND ind                 ; Bitwise AND - see IDL documentation
+speed(where(urel eq 0,count))=!VALUES.F_NAN
+U(where(uflag eq 0,count))=!VALUES.F_NAN
+V(where(uflag eq 0,count))=!VALUES.F_NAN
+
+width(where(xflag eq 0,count))=!VALUES.F_NAN
+width=transpose(width)
+
+aspect(where(aflag eq 0,count))=!VALUES.F_NAN
+aspect=transpose(aspect)
+end

@@ -1,0 +1,147 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF: Data standards</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top"></A>
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">THE NEED FOR COMMON DATA STORAGE STANDARDS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***> 
+<B>Introduction</B><BR>
+
+Where the use of a dataset is restricted to a small group of
+individuals, the choice of file format can be arbitrary. As long as
+the structure of the file and the nature of the contents are known to
+everyone concerned, a simple sequence of numbers (without any header
+information) can be perfectly acceptable. However, the adoption of a
+commonly-used, self-describing file format will greatly increase the
+ease with which the data can be accessed by a wider community. This is
+also essential for the long term preservation of the data. Files whose
+formats are not adequately-documented (or self-evident) will become
+useless as soon as there is a break in the continuity of people using
+them. However, even if the files can be read, the contents might not
+be scientifically valuable unless something is known about the
+characteristics of the data products. Consequently it is important
+that files contain an appropriate amount of metadata, i.e. information
+necessary to interpret, understand and use the data.
+
+<BR><BR><BR>
+<B>File formats recommended by the British Atmospheric Data Centre (BADC)</B>
+<BR>
+
+The BADC hold a large number of datasets which encompass a variety of
+file formats. The two formats most recommended for new datasets are:
+
+<UL>
+  <LI>NASA-Ames - a family of ASCII-based formats 
+  <LI>netCDF - a binary for which access routines are freely available 
+</UL>
+ 
+NASA-Ames formats have been used for some of the NERC MST Radar
+Facility datasets. However, the newest file types are in netCDF
+
+
+Other pices of information which may aid in establishing the
+usefulness of a resurrected dataset include details of:
+
+<UL>
+  <LI>the person or organisation responsible for collecting and
+  recording the data. 
+  <LI>a list (and, ideally, copies) of the publications relevant to
+  the data. This can extend beyond refereed papers to include, for example,
+  internal technical reports, minutes of meetings,  
+  made use of the data 
+  <LI>
+</UL>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>  
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="http://www.unidata.ucar.edu/software/netcdf/">The
+  netCDF homepage on the Unidata website</A>  
+  <DD><A href="http://www.unidata.ucar.edu/software/netcdf/conventions.html">
+  Metadata conventions for netCDF</A>
+  <DD><A href="http://cf-pcmdi.llnl.gov/">The Climate and Forecast
+    (CF) Metadata Convention</A>
+  <DD><A href="http://www.unidata.ucar.edu/software/udunits/">The UNIDATA
+   Udunits package</A>
+</DL>
+
+</DL>
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 11th September 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

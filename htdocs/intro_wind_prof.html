@@ -1,0 +1,190 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Introduction to wind-profilers</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">AN INTRODUCTION TO WIND-PROFILERS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<P>Wind-profiling radar systems can be designed to operate at
+frequencies anywhere between 40 and 1400 MHz. In practice, however,
+they are restricted to frequencies around 50, 400 and 1000 MHz; the
+principles of operation are similar in all three cases. The most
+common technique is known as Doppler Beam Swinging (DBS) which
+involves making observations in a cyclic sequence of vertical and
+near-vertical beam pointing directions. The 'targets', from which
+small fractions of the pulsed radar signals are returned, are
+irregularities of atmospheric refractive index, which cause
+back-scattering (so-called 'clear-air' returns), and hydrometeors,
+which give rise to Rayleigh scaterring. The scattered signal is
+Doppler-shifted according to the radial component of the target's
+velocity, i.e. that along the radar beam pointing direction. In order
+to derive the full three-dimensional wind vector, observations must
+therefore be made in a minimum of 3 non-coplanar beam pointing
+directions; a typical sequence includes observations made in the
+vertical direction and at an off-vertical angle of between 5&deg; and
+20&deg; in two orthogonal azimuths. Profiling is achieved by sampling
+the radar return signals as a function of delay from the time of the
+transmitted pulse; the transmitted pulse length determines the range
+resolution.</P>
+
+<P>The choice of radar operating frequency has a number of important
+consequences:</P>
+
+<DL>
+  <DD><B>Significance of the vertical velocity: </B>at frequencies
+  around 50 MHz, although strong precipitation is detectable,
+  clear-air returns always dominate over hydrometeor returns; at
+  around 400 MHz hydrometeor returns dominate for anything more than
+  light rain; at around 1000 MHz hydrometeor returns dominate whenever
+  precipitation is present. Since hydrometeors only share the
+  horizontal components of velocity with the wind, it is not always
+  possible to determine the vertical velocity of the atmosphere from
+  observations made at frequencies around 400 and 1000 MHz; the
+  vertical velocities derived from the radar observations represent
+  the fall-speeds of the hydrometeors.<BR><BR>
+
+  <B>Antenna dimensions: </B>in order to restrict the horizontal
+  extent from which radar signals are returned, wind-profiling systems
+  require narrow angular beam widths; 1&deg; corresponds to 175 m at a
+  range of 10 km. The beam width is related (inversely proportional)
+  to both the horizontal dimensions of the antenna and the frequency
+  of operation. For 50 MHz radars, typical antenna dimensions and
+  (one-way half-power half-) beam-widths are of the order of 100 m and
+  1.5&deg;, respectively; for 400 MHz radars they are 10 m and 3&deg;,
+  respectively; for 1000 MHz radars they are 2 m and 5&deg;,
+  respectively. Largely for reasons of cost, antenna arrays (composed
+  of a large number of individual aerials) are used rather than
+  steerable parabolic dishes; beam steering is achieved electronically
+  by altering the phase of the signals fed to and from different parts
+  of the array.<BR><BR>
+
+  <B>The maximum observable altitude: </B>this decreases with
+  increasing frequency and is typically 20 km at 50 MHz, 10 km at 400
+  MHz and 3 km at 1000 MHz. It is determined in part by the nature of
+  the scattering mechanisms and in part by a combination of the
+  transmitter power and antenna dimensions. The minimum observable
+  altitude also decreases with increasing frequency and is typically 2
+  km at 50 MHz, 0.5 km at 400 MHz and 0.1 km at 1000 MHz; this is
+  determined largely by the differences in hardware design at the
+  different frequencies. For the above reasons, profilers operating
+  around 50 and 400 MHz are called Stratosphere-Troposphere (ST)
+  radars (or MST radars in the case of 50 MHz radars which are
+  sufficiently powerful to detect the sporadic and weak returns from
+  the Mesosphere), whereas those operating around 1000 MHz are called
+  boundary-layer wind-profilers.<BR><BR>
+
+  <B>The variability of altitude coverage as a function of
+  time:</B> owing to the fact that hydrometeor returns become
+  increasingly significant with increasing radar frequency, the
+  maximum observable altitude at 1000 MHz can increase suddenly from 3
+  to 8 km with the onset of precipitation. Moreover, the wind-profiles
+  can be discontinuous even below 3 km owing to the fact that radar
+  return signals at these frequencies can contain contributions from a
+  number of unwanted targets such as insects, birds, aircraft, trees
+  and power lines; the latter two are detected through the beam's
+  sidelobes and so do not need to be located along the main lobe's
+  pointing direction. At 50 MHz the only unwanted targets are aircraft
+  and the changes in altitude coverage at are far less dramatic. The
+  radar return power typically decreases with increasing altitude and
+  the signals are often close to the point of detectability within the
+  15 - 20 km altitude region leading to discontinuities in the
+  wind-profiles. The radar return power typically shows a step
+  increase at the tropopause level and the signals can also be on the
+  point of detectability just below this, especially when the
+  tropopause is above 11 km.
+
+</DL>
+<P>Wind profiler radar returns are parameterised by their signal
+powers and spectral widths (i.e. the variance of scatterer velocities
+about the mean) in addition to their Doppler shifts. This information can
+be used, under certain circumstances, to provide additional
+information about the atmospheric static stability (thus allowing
+monitoring of the altitude and sharpness of the tropopause), humidity
+fields and turbulence (of at least moderate intensity).</P>
+<BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="beam_form.html">Beam formation</A>
+  <DD><A href="beam_steer.html">Beam steering</A>
+  <DD><A href="dbs_wind_deriv.html">Derivation of the
+        three-dimensional wind vector by Doppler Beam Swinging</A>
+  <DD><A href="clear_air_returns.html">Radar return mechanisms</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 24th January 2003</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

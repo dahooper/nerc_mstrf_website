@@ -1,0 +1,270 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for the Met Office boundary-layer wind-profiler data</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR THE 915 MHz MET OFFICE
+        BOUNDARY-LAYER WIND-PROFILER DATA</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<P>The principal data products from the 915 MHz Met Office
+boundary-layer wind-profiler are the wind speed and (meteorological
+convention) direction, as functions of time and altitude; radial
+velocities and signal-to-noise ratios (S/Ns) for individual beam
+directions are also given. Observations are made in both a "low" mode,
+covering the approximate altitude range 0.1 - 2.0 km at 0.1 km
+intervals, and a "high" mode, covering the approximate altitude range
+0.2 - 8.0 km at 0.2 km intervals; the useful coverage varies with
+atmospheric conditions.</P>
+
+<P>Each file begins with a blank line and is then followed by a
+sequence of 96 records; 48 for the low mode and 48 for the high
+mode. <B>NOTE</B> that the order of low and high mode records is not
+necessarily the same for each 30 minute period; it is therefore
+necessary to determine the mode from the inter-pulse-period, <FONT
+class="code_red">IPP</FONT>, in header line 7 described below. The
+first 15 lines of the first record in <B>la010903</B> are shown as
+follows exactly as they appear in the file:</P>
+
+    <PRE><FONT class="code_green"> Aberystwyth LAP3000
+ WINDS    rev 4.1 
+  52.40   -4.00     50 
+  01 09 03 00 00 18   0
+  29  3  20 
+ 08:11 (2.5) 08:10 (2.5) 08:10 (2.5)  
+  204 204 73 73 700 700 23 23 
+  17.5  17.5  1  2000 2000 20 20 700 700
+  295 90.0   115 66.4   205 66.4  
+   HT   SPD DIR  Radials...
+ 0.158 9999 999   3.0  -1.0  -0.4  7  7  6  36  13  12
+ 0.254 9999 999   3.6  -0.5  -0.0  7  7  8  26  30  24
+ 0.351 9999 999   4.1  -0.3  -0.2  6  5  8  25  18  23
+ 0.447 9999 999   4.0  -2.0   0.1  6  6  7  24  15  13
+ 0.543  4.1 302   4.1  -1.6  -0.2  6  9  8  23  12  11</FONT></PRE>
+
+<P>For most purposes the only header information that is actually
+required consists of the date and time of observation from line 4, the
+number of altitude gates, <FONT class="code_red">NAG</FONT>, from line
+5 (each record consists of <FONT class="code_red">NAG</FONT>+11
+lines), and the pulse length from line 7.  In the explanations of the
+line contents below, some of the horizontal spacings have been altered
+for the sake of clarity. The text shown in red is for descriptive
+purposes only and does not appear in the files.</P>
+
+<P>Lines 1 - 3 give the station name, the file format and station
+position, respectively; they are the same in all records.</P>
+
+<PRE><FONT class="code_green"> Aberystwyth LAP3000
+ WINDS    rev 4.1 
+  52.40   -4.00     50</FONT><FONT class="code_red">
+    LAT    LONG   ELEV</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">LAT</FONT> - Latitude North (&deg;)
+  <DD><FONT class="code_red">LONG</FONT> - Longitude East (&deg;)
+  <DD><FONT class="code_red">ELEV</FONT> - Elevation above mean sea level (m)
+</DL>
+
+<P>Line 4 gives the date and time at the start of the consensus period.</P>
+
+<PRE><FONT class="code_green"> 01 09 03 00 00 18     0</FONT>
+<FONT class="code_red"> YY MM DD hh mm ss UTOFF</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">YY</FONT> - Year (00 - 99)
+  <DD><FONT class="code_red">MM</FONT> - Month (01 - 12)
+  <DD><FONT class="code_red">DD</FONT> - Day (01 - 31)
+  <DD><FONT class="code_red">hh</FONT> - Hour (00 - 23)
+  <DD><FONT class="code_red">mm</FONT> - Minute (00 - 59)
+  <DD><FONT class="code_red">ss</FONT> - Second (00 - 59)
+  <DD><FONT class="code_red">UTOFF</FONT> - Offset required to convert to
+      UT (mins)
+</DL>
+
+<P>Line 5 gives observational format details.</P>
+
+<PRE><FONT class="code_green">  29   3  20</FONT>
+<FONT class="code_red"> CAP NBD NAG</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">CAP</FONT> - Consensus averaging period (mins)
+  <DD><FONT class="code_red">NBD</FONT> - Number of beam directions used to
+      derive the wind information
+  <DD><FONT class="code_red">NAG</FONT> - Number of altitude gates, i.e.
+      number of data lines in each record
+</DL>
+
+<P>Line 6 gives consensus details for each beam direction used; the
+beam directions are given in line 9.</P>
+
+<PRE><FONT class="code_green">   08:11  (2.5)    08:10  (2.5)    08:10  (2.5)</FONT>
+<FONT class="code_red"> NCRC:NCT  CWS   NCRC:NCT  CWS   NCRC:NCT  CWS</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">NCRC</FONT> - Number of cycles required to make
+      consensus
+  <DD><FONT class="code_red">NCT</FONT> - Number of cycles in total (for
+      each consensus period)
+  <DD><FONT class="code_red">CWS</FONT> - Consensus window size
+      (m s<SUP>-1</SUP>)
+</DL>
+
+<P>Line 7 gives observation format details. Two values are given for
+each parameter; the first relates to the off-vertical beam
+observations and the second to vertical beam observations.</P>
+
+<PRE><FONT class="code_green">  204 204  73  73  700  700  23  23</FONT>
+<FONT class="code_red">  NCC NCC NSP NSP PLEN PLEN IPP IPP</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">NCC</FONT> - Number of coded cells
+  <DD><FONT class="code_red">NSP</FONT> - Number of spectra
+  <DD><FONT class="code_red">PLEN</FONT> - Pulse length (ns)
+  <DD><FONT class="code_red">IPP</FONT> - Inter-pulse period (us);
+      <FONT class="code_red">IPP</FONT> < 40 corresponds to low mode
+      observations and <FONT class="code_red">IPP</FONT> > 40 to high
+      mode observations
+</DL>
+
+<P>Line 8 gives more observation format details; again the first of
+each value corresponds to off-vertical beam observations and the
+second to vertical beam observations.</P>
+
+<PRE><FONT class="code_green">  17.5  17.5  1  2000 2000  20  20 700 700</FONT>
+<FONT class="code_red">   MDV   MDV VC  TDFG TDFG NRG NRG RGI RGI</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">MDV</FONT> - Maximum Doppler velocity, i.e.
+      that corresponding to the Nyquist frequency of the spectra
+  <DD><FONT class="code_red">VC</FONT> - Vertical correction applied to
+      oblque beams? (0 = no, 1 = yes)
+  <DD><FONT class="code_red">TDFG</FONT> - Time delay to first range gate (ns)
+  <DD><FONT class="code_red">NRG</FONT> - Number of range gates
+  <DD><FONT class="code_red">RGI</FONT> - Range gate interval (ns)
+</DL>
+
+<P>Line 9 gives the beam pointing directions.</P>
+
+<PRE><FONT class="code_green">  295 90.0   115 66.4   205 66.4</FONT>
+<FONT class="code_red"> AZIA ELEA  AZIA ELEA  AZIA ELEA</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">AZIA</FONT> - Azimuth angle, from North = 0&deg;
+  <DD><FONT class="code_red">ELEA</FONT> - Elevation angle, from horizontal =
+      0&deg;
+</DL>
+
+<P>Line 10 gives labels for the columns that follow</P>
+
+<PRE><FONT class="code_green">   HT   SPD DIR  Radials...</FONT></PRE>
+
+<P>Lines 11 to (10 + <FONT class="code_red">NAG</FONT>), of which only
+the first 5 are shown, give the actual data. Radial data (columns 4 to
+12) are given in the beam order defined in line 9.</P>
+
+<PRE><FONT class="code_green"> 0.158 9999 999   3.0  -1.0  -0.4    7    7    6  36  13  12
+ 0.254 9999 999   3.6  -0.5  -0.0    7    7    8  26  30  24
+ 0.351 9999 999   4.1  -0.3  -0.2    6    5    8  25  18  23
+ 0.447 9999 999   4.0  -2.0   0.1    6    6    7  24  15  13
+ 0.543  4.1 302   4.1  -1.6  -0.2    6    9    8  23  12  11</FONT>
+<FONT class="code_red">     Z  SPD DIR  VRAD  VRAD  VRAD NCMC NCMC NCMC S/N S/N S/N</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">Z</FONT> - Altitude above ground (km)
+  <DD><FONT class="code_red">SPD</FONT> - Horizontal wind speed
+      (m s<SUP>-1</SUP>); a value of 9999 indicates that no consensus was
+      reached
+  <DD><FONT class="code_red">DIR</FONT> - Meteorological convention
+      horizontal wind direction, i.e. FROM which the wind is blowing (&deg;);
+      a value of 999 indicates that no consensus was reached.
+  <DD><FONT class="code_red">VRAD</FONT> - Radial component of wind
+      velocity, +ve indicating towards the radar (m s<SUP>-1</SUP>)
+  <DD><FONT class="code_red">NCMC</FONT> - Number of cycles making consensus
+  <DD><FONT class="code_red">S/N</FONT> - Average signal-to-noise ratio
+      of cycles in consensus
+</DL>
+
+<P>Line (11 + <FONT class="code_red">NAG</FONT>) contains a single
+<FONT class="code_green">$</FONT> character.</P><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="met_off_blwp.html">The 915 MHz Met Office boundary-layer
+      wind-profiler</A>
+  <DD><A href="wind_vect_convs.html">Wind vector (direction) notation
+      conventions</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 15th August 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

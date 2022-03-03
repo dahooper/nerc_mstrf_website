@@ -1,0 +1,174 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2008-02-08</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2008-02-08</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>Error in MST Radar altitudes (and ranges) for the period 2007-02-06
+- 2008-02-07</B><BR><BR>
+
+<B>NOTE: the contents of this page have now be superseded by those of
+<A href="announce_20080416.html">announcement for
+2008-04-16</A>.</B><BR><BR>
+
+Owing to a bug in the <A href="mstr_new_acquisition_system.html">new
+MST radar control and data acquisition system</A>, which began
+operations at 13:44 UT on 6th February 2007, there has been an error
+of approximately 1 km in the reported ranges and altitudes of data
+products. The quality of the data appears to be otherwise
+unaffected. A compensation for this error was introduced to the signal
+processing software, starting at 12:48 UT on 7th February 2008. A fix
+for the radar control and data acquisition software will need to be
+applied in the near future.
+
+<BR><BR>
+<B>Which files are affected?</B>
+<UL>
+  <LI><B>spectral</B> data from 2007-02-06 13:44 UT onwards
+  <LI><B>radial</B> data from 2007-02-06 13:44 UT until 2008-02-07 12:48 UT
+  <LI><B>Cartesian</B> data from 2007-02-06 13:44 UT until 2008-02-07 12:48 UT
+  <LI><B>Met Office</B> data from 2007-02-06 13:30 UT until 2008-02-07 11:00 UT
+</UL>
+
+<BR>
+<B>How to compensate for this error in affected data</B>
+<UL>
+  <LI>For <B>spectral</B> and <B>radial</B> data:<BR>
+  actual range gate number = recorded range gate number + 7<BR>
+  actual range (of range gates from radar) = recorded range + 1050.0 m
+  <LI>for <B>Cartesian</B> data: <BR>
+  actual range gate number = recorded range gate number + 7<BR>
+  actual altitude (of range gates above mean sea level) = recorded altitude + 1044.2 m
+</UL>
+
+<BR>
+<B>Evidence for the problem</B><BR> 
+
+As can be seen from the <A href="#first">first of the two plots
+below</A>, the problem is not necessarily immediately obvious in
+comparisons with wind-profile data from radiosondes (black lines)
+launched at Aberport, which is located 45 km to the SW of the radar
+site. This is why it took so long to identify the problem. It is
+typically only when there are sharp changes in wind vector with
+altitude, e.g. around the jet in the <A href="#second">second plot
+below</A>, that the altitude mismatch is clear. <BR><BR>
+
+The radar data correspond to 1 hour averages, starting at the time of
+the radiosonde launch. Wind directions are according to the
+meteorological convention, i.e. from which the wind is blowing. The red
+and yellow crosses show, respectively, the radar data without and with
+altitude compensation.  <BR><BR>
+
+It was known, from monthly comparison statistics against the Met
+Office model, that the switch to the new radar control and data
+acquisition system had lead to the following changes: 
+
+<UL>
+  <LI>there was an increased bias in the differences between radar and
+  model wind (northward and eastward) components
+  <LI>the magnitude of this bias was a maximum around the tropopause
+  level, i.e. where there is typically a sharp reduction in wind speed
+  with increasing altitude
+  <LI>the wind direction was largely unaffected
+  <LI>there was a decrease in radar altitude coverage
+</UL>
+
+Please contact the <A href="contacting_facility_staff.html">NERC MST Radar
+Facility Project Scientist</A> if you have any further queries about
+this problem.<BR><BR>
+
+
+<A name="first">
+<CENTER><IMG src="FIGS/radar-radiosonde-comparison_first.png"></CENTER>
+<BR>
+
+<A name="second">
+<CENTER><IMG src="FIGS/radar-radiosonde-comparison_second.png"></CENTER>
+<BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="mstr_new_acquisition_system.html">The new MST radar
+    control and data acquisition system</A>
+  <DD><A href="file_format_v3_radial.html">File format for v3 MST
+  Radar radial files</A>
+  <DD><A href="file_format_v3_cartesian.html">File format for v3 MST
+  Radar Cartesian files</A>
+  <DD><A href="contacting_facility_staff.html">Contact the NERC MST Radar
+      Facility Project Scientist</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 8th February 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,13 @@
+AuthUserFile /var/www/mst_site/.htpasswd
+AuthGroupFile /dev/null
+AuthName "MST team"
+AuthType Basic
+
+require valid-user
+order deny,allow
+allow from all
+allow from 130.246.190.80
+allow from 82.153.49.121
+allow from .rl.ac.uk
+
+satisfy all

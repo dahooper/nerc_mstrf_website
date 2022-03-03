@@ -1,0 +1,205 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Wind-profiler beam formation</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="6" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="4" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">WIND-PROFILER BEAM FORMATION</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" colspan="4" valign="top">
+    <IMG height="5" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+<A name="top">
+  <TR>
+    <TD align="left" rowspan="2"  width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+      <IMG border="0" src="FIGS/mst_beam_form.png">
+    </TD>
+
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+
+      The polar diagram of the main-lobe for a wind-profiler radar
+      beam typically has a Gaussian form. The beam width is inversely
+      proportional to both the frequency of operation and the
+      horizontal dimensions of the antenna; for a width of the order
+      of a few degrees, dimensions of the order of 100 m are required
+      for lower-VHF radars and of the order of a few metres for UHF
+      radars. The different conventions for describing the beam width
+      are described <A href="#eqns">below</A>. In order to reduce the
+      side-lobe levels, it is common to use an antenna array which
+      allows the transmitted and received power to be tapered off away
+      from the centre. This is illustrated for the case of the NERC
+      MST Radar's antenna array which is composed of a 10 &times; 10
+      grid of 'quads' (each quad being composed of a 2 &times; 2
+      sub-grid of 4-element Yagi aerials); the division of the antenna
+      array into quads has an additional significance in terms of beam
+      steering. Equal power weighting is given to the central section
+      of 4 quads (green), the two middle sections of 16 quads each
+      (red and blue), and the two outer sections of 32 quads each
+      (yellow and magenta). In the transmit mode, each of the five
+      sections is connected to a separate 32 kW peak-power
+      transmitter.<BR>
+
+    </TD>
+  </TR>
+
+  <A name="eqns">
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+  
+    <P>It is common to see the (two-way) polar diagram of the
+    main-lobe for a (vertically directed) radar beam described as:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_2W_theta0.jpg">
+    </CENTER>
+
+   <P>where &theta; is the angle from zenith and &theta;<SUB>0</SUB>
+   is the e<SUP>-1</SUP> half-width, i.e. the half-width of the beam
+   at which P<SUB>2W</SUB> drops to 0.368 of its peak value; the term
+   two-way refers to the fact that the same antenna is used for
+   transmission and reception. The beam width can alternatively be
+   described in terms of the (two-way) half-power half-width,
+   &theta;<SUB>2WHPHW</SUB>, i.e. the half-width of the beam at which
+   P<SUB>2W</SUB> drops to 0.5 of its peak value; the relationship
+   between &theta<SUB>0</SUB> and &theta;<SUB>2WHPHW</SUB> can be
+   derived from the ratio of P<SUB>2W</SUB>(&theta;<SUB>2WHPHW</SUB>)
+   to P<SUB>2W</SUB>(0) through the following steps:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_2WHPHW.jpg">
+    </CENTER>
+
+  <P>However, the beam width is often described in terms of the
+  ONE-WAY half-power half-width, &theta;<SUB>1WHPHW</SUB>, i.e. for
+  the antenna used only for transmission OR reception. The one-way
+  polar diagram of the main-lobe is simply the square root of the
+  two-way case, i.e:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_1W_theta0.jpg">
+    </CENTER>
+
+  <P>and it can be shown, using the same steps as above for the
+  two-way case, that &theta<SUB>0</SUB> and &theta;<SUB>1WHPHW</SUB>
+  are related through the expression:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_1WHPHW.jpg">
+    </CENTER>
+
+  <P>Finally, it is useful to define the two-way polar diagram in
+  terms of standard Gaussian notation:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_2W_sigma0.jpg">
+    </CENTER>
+
+  <P>i.e. with a factor of 2 in the denominator of the exponent so
+  that the measure of beam width, &sigma;<SUB>0</SUB>, is the standard
+  deviation, i.e. the e<SUP>-1/2</SUP> half-width or the half-width of
+  the beam at which P<SUB>2W</SUB> drops to 0.607 of its peak value;
+  &sigma<SUB>0</SUB> and &theta;<SUB>0</SUB> are related through the
+  expression:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_sigma0_1.jpg">
+    </CENTER>
+
+  <P>so that:</P>
+
+    <CENTER>
+      <IMG border="0" src="EQNS/eqn_beam_sigma0_2.jpg">
+    </CENTER>
+
+  <P>This description of beam width is required for correcting
+  (standard deviation) radar return spectral widths for the effects of
+  beam broadening. Note, however, that the spectral widths in the
+  existing files of NERC MST Radar data are defined in a non-standard
+  way; the values must therefore be multiplied by a scaling factor of
+  1.25 (explained in the file format page). The NERC MST Radar has a
+  one-way half-power half-width of 1.5&deg;,
+  i.e. sin<SUP>2</SUP>&sigma;<SUB>0</SUB> = 2.47 &times;
+  10<SUP>-4</SUP>. Boundary-layer wind-profilers tend to have one-way
+  half-power half-widths of the order of 5&deg;.
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to top of page</A>
+  <DD><A href="beam_steer.html">Wind-profiler beam steering</A>
+  <DD><A href="beam_broad.html">Correction of spectral widths for the
+      effects of beam broadening</A>
+  <DD><A href="fmt_ks_radial.html">File format for existing MST Radar
+      radial data
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="4" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 17th December 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

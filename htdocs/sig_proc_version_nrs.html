@@ -1,0 +1,422 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>MST products version numbers</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">MST RADAR DATA PRODUCTS VERSION NUMBERS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>The latest MST radar products are version-3</B><BR>
+
+These were introduced in November 2006. Since it will take some time
+to generate version-3 files for the entire observation archive, please
+<A href="contacting_facility_staff.html">contact the Facility Project
+Scientist</A> if you cannot find files for the days you
+require.<BR><BR>
+
+Only limited support can be provided for MST radar data products
+derived from earlier versions of the signal processing (see
+below). Users are therefore strongly encouraged to make use of <A
+href="#v3">version-3 processed data</A> wherever possible. This does
+not apply to the raw radar data (IQ and Doppler spectra), for which
+only version 0 data are available. Please <a
+href="contacting_facility_staff.html">contact the NERC MST Radar Facility Project
+Scientist</a> if you are having difficulties finding the data products
+you need. <BR>
+
+<DL>Use the following links to find out more about:
+  <DD><A href="archiving_convention.html">Data archiving conventions</A>
+  <DD><A href="file_naming_convention.html">File naming conventions</A>
+  <DD><A href="file_contents.html">File contents</A>
+</DL>
+
+<A name="v0">
+<B>DEPRECATED: Version-0</B><BR>
+Although gradual changes have been made to the MST radar signal
+processing since the radar began operations in 1990, these changes
+have not been documented and the people responsible for them have now
+retired. Therefore all data stored in the original file formats have
+been retrospectively classified as version-0 products.<BR><BR>
+
+The signal processing makes use of a number of non-standard product
+definitions and simplifying assumptions, which were largely necessary
+in order to allow real-time processing using 1990-vintage computer
+technology. No explicit reliability flagging is used in these files,
+although the processing is robust and the data are typically good
+under suitable signal-to-noise conditions. The data products are
+spread across a number of different files, all of which use
+non-standard formats (both ASCII and binary) and for which only
+limited documentation exists. Follow the file format pages for further information.<BR><BR>
+
+The averaged data products represent 12 minute time averages
+(typically 3 - 5 cycles of observation). This can obscure small scale
+features such as turbulence and gravity waves. The ASCII versions of
+the 12 minute averaged files have not been produced since May
+2004.<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Data product</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">BADC location</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center">File prefix</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD><IMG src="FIGS/pixel_white.png"></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Unaveraged wind data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/vw"><FONT class="code_black">/badc/mst/data/mst-products-v0/vw</FONT></A></TD>
+    <TD></TD>
+    <TD align="center"><FONT class="code_black">vh</FONT></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v0_vh.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Unaveraged radial data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/rw"><FONT class="code_black">/badc/mst/data/mst-products-v0/rw/</FONT></A></TD>
+    <TD></TD>
+    <TD align="center"><FONT class="code_black">rw</FONT></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v0_rw.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Averaged wind data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/vector"><FONT class="code_black">/badc/mst/data/mst-products-v0/vector/</FONT></A></TD>
+    <TD></TD>
+    <TD align="center"><FONT class="code_black">vcf, vec</FONT></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v0_vcf.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Averaged power data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/power"><FONT class="code_black">/badc/mst/data/mst-products-v0/power/</FONT></A></TD>
+    <TD></TD>
+    <TD align="center"><FONT class="code_black">pwf, pwr</FONT></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v0_pwf.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Averaged radial data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/radial"><FONT class="code_black">/badc/mst/data/mst-products-v0/radial/</FONT></A></TD>
+    <TD></TD>
+    <TD align="center"><FONT class="code_black">rad, rdf</FONT></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v0_rdf.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+</TABLE><BR><BR>
+
+<A name="v1">
+<B>DEPRECATED: Version-1</B><BR>
+
+Version-1 data products are primarily available for the period June
+2003 - December 2004. A key feature of the new products is the use of
+standard (NASA-Ames) format (ASCII) files. These make the data much
+easier to read and to understand. There are only 2 types of version-1
+data products, both of which represent unaveraged data. The radial
+files are very similar to those from the version-0 (unaveraged)
+processing. The Cartesian files contain wind data, tropopause altitude
+and sharpness information and a number of radar return parameters
+(signal power,aspect, spectral width and beam-broadening corrected
+spectral width) on a regular grid. It is not necessary to know much
+about the way in which the radar operates in order to make use of the
+data from these files and they are recommended for most
+purposes. Follow the file format links for full details of the file
+contents. <BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Data product</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">BADC location</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD><IMG src="FIGS/pixel_white.png"></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Radial data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v1/radial"><FONT class="code_black">/badc/mst/data/mst-products-v1/radial/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v1_radial.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Cartesian data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v1/cartesian"><FONT class="code_black">/badc/mst/data/mst-products-v1/cartesian/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v1_cart.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+</TABLE><BR>
+
+The version-1 signal processing makes use of a time-continuity
+algorithm for reliability flagging. Initially the strongest signal
+within each Doppler spectrum is assumed to be the desired one, and the
+reliability flagging subsequently removes outlying data points. For
+the most part this has proved to be very effective, particularly in
+regions of low signal-to-noise ratio. This means that the maximum
+useful altitude for wind-profiling purposes (in the ST mode) is
+typically between 17 and 20 km, as opposed to between 15 and 17 km for
+the version-0 (unaveraged) processing. However, there are 3 known
+problems with the data:<BR>
+
+<OL>
+  <LI>Under conditions of fast low-level winds, the strength of ground
+  clutter signals can exceed that of the atmospheric returns at
+  certain altitudes - notably at around 2.5, 3.0 and 7.0 km. Since
+  these ground clutter signals tend to persist over many hours, they
+  are accepted by the time-continuity algorithm as desired
+  signal. They give rise to narrow horizontal bands of low-wind-speed
+  in the quick-look plots. This problem does not affect version-0 data
+  products<BR>
+  <A href="known_problems_ground_clutter.html">Click here </A> for an
+  example of this problem.<BR><BR>
+
+  <LI>There are sporadic periods of what appears to be radio frequency
+  interference. The strength of these signals is approximately
+  constant as a function of altitude and typically exceeds that of the
+  atmospheric signals at altitudes above 10 km. Since these signals
+  persist for the order of a few hours, they are again accepted by the
+  time-continuity algorithm as desired signal. They give rise to
+  narrow vertical bands of clearly anomalous wind data in the
+  quick-look plots. This problem also affects version-0 data
+  products.<BR>
+  <A href="known_problems_interference.html">Click here </A> for an example of
+  this problem.<BR><BR>
+
+  <LI>Under relatively rare conditions of heavy precipitation, the
+  strength of hydrometeor returns can exceed that of the (desired)
+  clear-air returns at low altitudes. Sometimes the downward
+  velocities of the hydrometeors are so large, and persist for such a
+  short time, that the signals are rejected by the time-continuity
+  algorithm. However, in the altitude regions where the hydrometeors
+  are just beginning to accelerate downwards, the signals can be
+  accepted. Sometimes both the hydrometeor and clear-air returns are
+  identified as belonging to a single, broad signal. Either way this
+  sort of contamination tends to give rise to large downward vertical
+  velocities and enhanced spectral widths in the quick-look
+  plots. This problem also affects version-0 data products.<BR>
+  <A href="known_problems_precipitation.html">Click here</A> for an example of
+  this problem. </OL>
+
+<A name="v2">
+<B>DEPRECATED: Version-2</B><BR> Version-2 processing is essentially the
+same as that used for version-1. The only difference is that it makes
+use of the complementary beam horizontal velocity variability
+information (also available in version-1 files) to provide additional
+reliability flagging. This has proved to effective at removing data
+contaminated by the 3 problems noted above. This leads to more gaps in
+the data. Since Version-2 data products are also written in NASA-Ames
+format files, they can be read by routines written for version-1
+products after making a few very small modifications. Version 2 data
+products are available for the entire observation archive until the
+end of 2006. New files will cease to be available when a new data
+acquisition system is installed in early 2007. 
+
+<BR><BR>
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Data product</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">BADC location</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD><IMG src="FIGS/pixel_white.png"></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Radial data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v2/radial"><FONT class="code_black">/badc/mst/data/mst-products-v2/radial/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v2_radial.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Cartesian data</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v2/cartesian"><FONT class="code_black">/badc/mst/data/mst-products-v2/cartesian/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v2_cart.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+</TABLE><BR>
+
+<A name="v3">
+<B>CURRENT: Version-3</B><BR>
+An improved, multiple-signal-component processing scheme has been
+under test, in collaboration with the Met Office, since January
+2006. The quality of the thirty-minute-average wind-profile data is
+measurably better than that of v0 data and the Met Office switched
+over to v3 data for operational assimilation in September 2006. More
+details about the processing scheme, together with statistical
+measures of the wind-profile data quality, are available <A
+href="v3_signal_processing_overview.html">here</A>. 
+
+<BR><BR>
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Data product</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">BADC location</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD><IMG src="FIGS/pixel_white.png"></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Radial data - ST-mode</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/st-mode/radial"><FONT class="code_black">/badc/mst/data/mst-products-v3/st-mode/radial/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v3_radial.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Radial data - M-mode</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/m-mode/radial"><FONT class="code_black">/badc/mst/data/mst-products-v3/m-mode/radial/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v3_radial.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Cartesian data - ST-mode</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/st-mode/cartesian"><FONT class="code_black">/badc/mst/data/mst-products-v3/st-mode/cartesian/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v3_cartesian.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">Cartesian data - M-mode</TD>
+    <TD></TD>
+    <TD><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/m-mode/cartesian"><FONT class="code_black">/badc/mst/data/mst-products-v3/m-mode/cartesian/</FONT></A></TD>
+    <TD></TD>
+    <TD valign="top"><A href="file_format_v3_cartesian.html">File format</A></TD>
+    <TD></TD>
+  </TR>
+</TABLE>
+
+
+<BR><BR>
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="known_problems_ground_clutter.html">Known problems with
+  MST radar products: ground clutter</A>
+  <DD><A href="known_problems_interference.html">Known problems with MST radar
+  products: interference</A>
+  <DD><A href="known_problems_precipitation.html">Known problems with MST radar
+  products: precipitation</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 9th November 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

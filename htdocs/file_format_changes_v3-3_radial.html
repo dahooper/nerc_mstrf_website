@@ -1,0 +1,568 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Proposed changes to v3 Radial files</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+      <A class="menu_avail" href="#external">REFERENCES</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">PROPOSED CHANGES TO V3 RADIAL FILES</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<A name="top">
+<!*** Page contents to go here ***>
+
+In preparation for the re-processing of the entire MST radar
+observation archive, a few small changes have been made to upgrade the
+current version 3.2 signal processing scheme to a version 3.3 scheme:
+
+<UL>
+  <LI>A correction has been made to the (time-continuity) reliability
+  flagging scheme, which used to cause problems when the radar cycle
+  format was changed (i.e. infrequently).<BR><BR>
+
+  <LI>The assumed value for the speed of light, which is used to
+  calculate the range and altitude of radar range gates, has been
+  changed from 3.0e8 to 299,792,458.0 m/s. This will be relatively
+  insignificant for the ST-mode observations, leading to a maximum
+  difference in the calculated ranges and altitudes of 15 m. However,
+  it leads to differences of up to 65 m, i.e. almost half a range
+  gate, in the M-mode.<BR><BR>
+
+  <LI>A change will be made to the bit-encoding of the reliability
+  details variables in order to remove a redundant piece of
+  information. However, there will still be an additional binary flag which
+  simply indicates whether or not a parameter value is judged to be
+  reliable.<BR><BR>
+
+  <LI>The Variable and Global Variable names in the netCDF files will
+  be changed slightly in order to reduce ambiguities and to better
+  reflect the relationships between parameters. This logic is most
+  apparent when the new names are viewed as a group. Tables are also
+  provided which interlace the current and new names. The new names may be
+  changed slightly compared to those proposed here. Final details will
+  be included in a separate page once the reprocessing begins. 
+</UL>
+
+Tables are available for the following:
+<UL>
+  <LI><A href="#v3-2-variable">Version 3.2 Variable names</A>
+  <LI><A href="#v3-3-variable">Version 3.3 Variable names</A>
+  <LI><A href="#interlaced-variable">Interlaced version 3.2 and version 3.3 Variable names</A><BR><BR>
+
+  <LI><A href="#v3-2-global">Version 3.2 Global Variable names</A>
+  <LI><A href="#v3-3-global">Version 3.3 Global Variable names</A>
+  <LI><A href="#interlaced-global">Interlaced version 3.2 and version 3.3
+       Global Variable names</A>
+</UL><BR>
+
+<A name="v3-2-variable">
+<FONT class="code_green">
+<OL>Current (version 3.2) <FONT class="code_black">Variable names</FONT>
+<LI>time
+<LI>range
+<LI>latitude
+<LI>longitude
+<LI>signal_component_number<BR><BR>
+
+<LI>beam_pointing_direction_number
+<LI>beam_pointing_azimuth_angle
+<LI>beam_pointing_zenith_angle
+<LI>length_of_transmitter_pulse
+<LI>sub_length_of_transmitter_pulse
+<LI>inter_pulse_period
+<LI>number_of_coherent_integrations
+<LI>number_of_complex_samples_in_discrete_fourier_transform
+<LI>data_weighting_window_index
+<LI>number_of_incoherent_integrations
+<LI>spectral_velocity_bin_spacing
+<LI>dwell_number
+<LI>time_index_of_first_dwell_in_cycle
+<LI>alternative_profile_details<BR><BR>
+
+<LI>noise_power<BR><BR>
+
+<LI>signal_component_is_reliable
+<LI>signal_component_reliability_details
+<LI>signal_power
+<LI>radial_velocity
+<LI>spectral_width
+
+<LI>first_velocity_bin_number
+<LI>final_velocity_bin_number
+<LI>peak_smooth_psd_to_noise
+</OL>
+</FONT>
+<BR>
+
+
+<A name="v3-3-variable">
+<FONT class="code_red">
+<OL>Proposed new (version 3.3) <FONT class="code_black">Variable names</FONT>
+<LI><FONT class="code_red">time
+<LI><FONT class="code_red">range
+<LI><FONT class="code_red">latitude
+<LI><FONT class="code_red">longitude
+<LI><FONT class="code_red">signal_component_index<BR><BR>
+
+<LI><FONT class="code_red">dwell_beam_pointing_direction_number
+
+<LI><FONT class="code_red">dwell_beam_pointing_direction_azimuth_angle
+<LI><FONT class="code_red">dwell_beam_pointing_direction_zenith_angle
+<LI><FONT class="code_red">dwell_length_of_transmitter_pulse
+<LI><FONT class="code_red">dwell_sub_length_of_transmitter_pulse
+<LI><FONT class="code_red">dwell_inter_pulse_period
+<LI><FONT class="code_red">dwell_number_of_coherent_integrations
+<LI><FONT class="code_red">dwell_number_of_complex_samples_in_discrete_fourier_transform
+
+<LI><FONT class="code_red">dwell_data_weighting_window_index
+<LI><FONT class="code_red">dwell_number_of_incoherent_integrations
+<LI><FONT class="code_red">dwell_velocity_bin_spacing
+<LI><FONT class="code_red">dwell_index_within_cycle
+<LI><FONT class="code_red">dwell_time_of_first_dwell_within_cycle
+<LI><FONT class="code_red">dwell_alternative_profile_details<BR><BR>
+
+<LI><FONT class="code_red">spectrum_noise_power<BR><BR>
+
+<LI><FONT class="code_red">signal_component_reliability_flag
+<LI><FONT class="code_red">signal_component_reliability_details
+<LI><FONT class="code_red">signal_component_power
+<LI><FONT class="code_red">signal_component_radial_velocity
+<LI><FONT class="code_red">signal_component_spectral_width
+
+<LI><FONT class="code_red">signal_component_first_velocity_bin_number
+<LI><FONT class="code_red">signal_component_final_velocity_bin_number
+<LI><FONT class="code_red">signal_component_peak_smoothed_psd_to_spectrum_noise_psd
+
+</OL>
+</FONT>
+<BR>
+
+
+<A name="interlaced-variable">
+<FONT class="code_green">    
+<OL><FONT class="code_black">Interlaced </FONT>
+    current (version 3.2)</FONT> 
+    <FONT class="code_black">and</FONT>
+    <FONT class="code_red">proposed new (version 3.3)</FONT>
+    <FONT class="code_black">Variable names</FONT>
+    <FONT class="code_green">    
+<LI>time<BR><FONT class="code_red">
+    time
+<LI>range<BR><FONT class="code_red">
+    range
+<LI>latitude<BR><FONT class="code_red">
+    latitude
+<LI>longitude<BR><FONT class="code_red">
+    longitude
+<LI>signal_component_number<BR><FONT class="code_red">
+    signal_component_index<BR><BR>
+
+<LI>beam_pointing_direction_number<BR><FONT class="code_red">
+    dwell_beam_pointing_direction_number
+<LI>beam_pointing_azimuth_angle<BR><FONT class="code_red">
+    dwell_beam_pointing_direction_azimuth_angle
+<LI>beam_pointing_zenith_angle<BR><FONT class="code_red">
+    dwell_beam_pointing_direction_zenith_angle
+<LI>length_of_transmitter_pulse<BR><FONT class="code_red">
+    dwell_length_of_transmitter_pulse
+<LI>sub_length_of_transmitter_pulse<BR><FONT class="code_red">
+    dwell_sub_length_of_transmitter_pulse
+<LI>inter_pulse_period<BR><FONT class="code_red">
+    dwell_inter_pulse_period
+<LI>number_of_coherent_integrations<BR><FONT class="code_red">
+    dwell_number_of_coherent_integrations
+<LI>number_of_complex_samples_in_discrete_fourier_transform<BR><FONT class="code_red">
+    dwell_number_of_complex_samples_in_discrete_fourier_transform
+<LI>data_weighting_window_index<BR><FONT class="code_red">
+    dwell_data_weighting_window_index
+<LI>number_of_incoherent_integrations<BR><FONT class="code_red">
+    dwell_number_of_incoherent_integrations
+<LI>spectral_velocity_bin_spacing<BR><FONT class="code_red">
+    dwell_velocity_bin_spacing
+<LI>dwell_number<BR><FONT class="code_red">
+    dwell_index_within_cycle
+<LI>time_index_of_first_dwell_in_cycle<BR><FONT class="code_red">
+    dwell_time_of_first_dwell_within_cycle
+<LI>alternative_profile_details<BR><FONT class="code_red">
+    dwell_alternative_profile_details<BR><BR>
+
+<LI>noise_power<BR><FONT class="code_red">
+    spectrum_noise_power<BR><BR>
+
+<LI>signal_component_is_reliable<BR><FONT class="code_red">
+    signal_component_reliability_flag
+<LI>signal_component_reliability_details<BR><FONT class="code_red">
+    signal_component_reliability_details
+<LI>signal_power<BR><FONT class="code_red">
+    signal_component_power
+<LI>radial_velocity<BR><FONT class="code_red">
+    signal_component_radial_velocity
+<LI>spectral_width<BR><FONT class="code_red">
+    signal_component_spectral_width
+<LI>first_velocity_bin_number<BR><FONT class="code_red">
+    signal_component_first_velocity_bin_number
+<LI>final_velocity_bin_number<BR><FONT class="code_red">
+    signal_component_final_velocity_bin_number
+<LI>peak_smooth_psd_to_noise<BR><FONT class="code_red">
+    signal_component_peak_smoothed_psd_to_spectrum_noise_psd
+</OL>
+</FONT>
+<BR>
+
+
+<A name="v3-2-global">
+<FONT class="code_green">
+<OL>Current (version 3.2)<FONT class="code_black">Global Variable names</FONT>
+<LI>Conventions
+<LI>title
+<LI>institution
+<LI>source
+<LI>history
+<LI>references
+<LI>comment<BR><BR>
+
+<LI>data_year
+<LI>data_month
+<LI>data_day
+<LI>data_altitude_mode
+<LI>data_range_resolution_m
+<LI>data_range_resolution_number
+<LI>data_bottom_range_gate_number
+<LI>data_top_range_gate_number<BR><BR>
+
+<LI>radar_location_name
+<LI>radar_british_national_grid_reference
+<LI>radar_latitude_degrees_north
+<LI>radar_longitude_degrees_east
+<LI>radar_altitude_above_mean_sea_level_m<BR><BR>
+
+<LI>radar_frequency_MHz
+<LI>radar_wavelength_m
+<LI>radar_transmitters
+<LI>radar_peak_transmitted_power_kW
+<LI>radar_antenna_type
+<LI>radar_antenna_side_length_m
+<LI>radar_beam_one_way_half_power_half_width_degrees<BR><BR>
+
+<LI>signal_processing_version_number
+<LI>signal_processing_sub_version_number<BR><BR>
+
+<LI>sig_lims_nr_vel_bins_smoothing
+<LI>sig_lims_min_norm_psd
+<LI>sig_lims_max_norm_psd_at_local_min
+<LI>sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag<BR><BR>
+
+<LI>radial_cont_checks_have_been_applied
+<LI>radial_cont_min_sig_width_ratio
+<LI>radial_cont_max_sig_width_ratio
+<LI>radial_cont_min_sig_overlap_ratio
+<LI>radial_cont_link_std_dev_radial_vel_mps
+<LI>radial_cont_link_std_dev_range_m
+<LI>radial_cont_min_unambiguous_link_weight
+<LI>radial_cont_min_ratio_of_max_link_weight_for_search
+<LI>radial_cont_max_std_dev_sig_power_dB_for_intf
+<LI>radial_cont_min_fraction_of_range_gates_for_alternative_path
+<LI>radial_cont_apply_lower_path_correction
+<LI>radial_cont_max_altitude_amsl_m_for_lower_path_correction
+<LI>radial_cont_max_link_radial_vel_sep_mps
+<LI>radial_cont_chain_fill_max_radial_vel_sep_mps<BR><BR>
+
+<LI>time_cont_uni_dirn_time_radius_mins
+<LI>time_cont_bi_dirn_time_radius_mins
+<LI>time_cont_max_vert_vel_comp_diff_mps
+<LI>time_cont_max_horiz_vel_comp_diff_mps
+<LI>time_cont_min_nr_buddies_fixed_coeff
+<LI>time_cont_min_nr_buddies_scale_coeff
+<LI>time_cont_min_nr_dwells_to_apply
+</OL>
+</FONT><BR><BR>
+
+
+<A name="v3-3-global">
+<FONT class="code_red">
+<OL>Proposed new (version 3.3)<FONT class="code_black">
+    Global Variable names</FONT>
+<LI>Conventions
+<LI>title
+<LI>institution
+<LI>source
+<LI>history
+<LI>references
+<LI>comment<BR><BR>
+
+<LI>data_year
+<LI>data_month
+<LI>data_day
+<LI>data_altitude_mode
+<LI>data_range_resolution_m
+<LI>data_range_resolution_number
+<LI>data_bottom_range_gate_number
+<LI>data_top_range_gate_number<BR><BR>
+
+<LI>instrument_location_name
+<LI>instrument_location_british_national_grid_reference
+<LI>instrument_location_latitude_degrees_north
+<LI>instrument_location_longitude_degrees_east
+<LI>instrument_location_altitude_above_mean_sea_level_m<BR><BR>
+
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable
+<LI><FONT class="code_black">no corresponding Global Variable<BR><BR>
+
+<LI>signal_processing_version_number
+<LI>signal_processing_sub_version_number<BR><BR>
+
+<LI>signal_component_limits_number_of_velocity_bins_smoothing
+<LI>signal_component_limits_minimum_self_normalised_smoothed_psd
+<LI>signal_component_limits_maximum_self_normalised_smoothed_psd_for_local_minumum
+<LI><FONT class="code_black">no corresponding Global Variable<BR><BR>
+
+<LI>radial_continuity_chain_checks_have_been_applied
+<LI>radial_continuity_chain_minimum_signal_component_width_ratio
+<LI>radial_continuity_chain_maximum_signal_component_width_ratio
+<LI>radial_continuity_chain_minimum_signal_component_width_overlap_ratio
+<LI>radial_continuity_chain_link_radial_velocity_standard_deviation_mps
+<LI>radial_continuity_chain_link_range_standard_deviation_m
+<LI>radial_continuity_chain_link_minimum_unambiguous_weight
+<LI>radial_continuity_chain_link_minimum_weight_ratio_for_alternative_search
+<LI>radial_continuity_interference_maximum_signal_power_standard_deviation_dB
+<LI>radial_continuity_interference_minimum_pc_of_range_gates_for_alternative_profile
+<LI>radial_continuity_alternative_profile_lower_correction_applied
+<LI>radial_continuity_alternative_profile_lower_correction_maximum_altitude_m
+<LI>radial_continuity_chain_link_maximum_radial_velocity_difference_mps
+<LI>radial_continuity_inter_chain_maximum_radial_velocity_difference_mps<BR><BR>
+
+<LI>time_continuity_maximum_uni_directional_time_difference_minutes
+<LI>time_continuity_maximum_bi_directional_time_difference_minutes
+<LI>time_continuity_maximum_vertical_beam_radial_velocity_difference_mps
+<LI>time_continuity_maximum_off_vertical_beam_horizontal_velocity_difference_mps
+<LI>time_continuity_minimum_number_of_buddies_fixed_coefficient
+<LI>time_continuity_minimum_number_of_buddies_scale_coefficient
+<LI>time_continuity_minimum_number_of_dwells_in_order_to_apply
+</OL>
+</FONT><BR><BR>
+
+
+<A name="interlaced-global">
+<FONT class="code_green">
+<OL><FONT class="code_black">Interlaced </FONT>
+    current (version 3.2)</FONT>
+    <FONT class="code_black">and</FONT>
+    <FONT class="code_red">proposed new (version 3.3)</FONT>
+    <FONT class="code_black">Global variable names</FONT>
+    <FONT class="code_green">
+<LI>Conventions<BR><FONT class="code_red">
+    Conventions
+<LI>title<BR><FONT class="code_red">
+    title
+<LI>institution<BR><FONT class="code_red">
+    institution
+<LI>source<BR><FONT class="code_red">
+    source
+<LI>history<BR><FONT class="code_red">
+    history
+<LI>references<BR><FONT class="code_red">
+    references
+<LI>comment<BR><FONT class="code_red">
+    comment
+<BR><BR>
+
+<LI>data_year<BR><FONT class="code_red">
+    data_year
+<LI>data_month<BR><FONT class="code_red">
+    data_month
+<LI>data_day<BR><FONT class="code_red">
+    data_day
+<LI>data_altitude_mode<BR><FONT class="code_red">
+    data_altitude_mode
+<LI>data_range_resolution_m<BR><FONT class="code_red">
+    data_range_resolution_m
+<LI>data_range_resolution_number<BR><FONT class="code_red">
+    data_range_resolution_number
+<LI>data_bottom_range_gate_number<BR><FONT class="code_red">
+    data_bottom_range_gate_number
+<LI>data_top_range_gate_number<BR><FONT class="code_red">
+    data_top_range_gate_number
+<BR><BR>
+
+<LI>radar_location_name<BR><FONT class="code_red">
+    instrument_location_name
+<LI>radar_british_national_grid_reference<BR><FONT class="code_red">
+    instrument_british_national_grid_reference
+<LI>radar_latitude_degrees_north<BR><FONT class="code_red">
+    instrument_latitude_degrees_north
+<LI>radar_longitude_degrees_east<BR><FONT class="code_red">
+    instrument_longitude_degrees_east
+<LI>radar_altitude_above_mean_sea_level_m<BR><FONT class="code_red">
+    instrument_altitude_above_mean_sea_level_m
+<BR><BR>
+
+<LI>radar_frequency_MHz<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_wavelength_m<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_transmitters<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_peak_transmitted_power_kW<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_antenna_type<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_antenna_side_length_m<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<LI>radar_beam_one_way_half_power_half_width_degrees<BR><FONT class="code_black">
+    no corresponding Global variable</FONT>
+<BR><BR>
+
+<LI>signal_processing_version_number<BR><FONT class="code_red">
+    signal_processing_version_number
+<LI>signal_processing_sub_version_number<BR><FONT class="code_red">
+    signal_processing_sub_version_number
+<BR><BR>
+
+<LI>sig_lims_nr_vel_bins_smoothing<BR><FONT class="code_red">
+    signal_component_limits_number_of_velocity_bins_smoothing
+<LI>sig_lims_min_norm_psd<BR><FONT class="code_red">
+    signal_component_limits_minimum_self_normalised_smoothed_psd
+<LI>sig_lims_max_norm_psd_at_local_min<BR><FONT class="code_red">
+    signal_component_limits_maximum_self_normalised_smoothed_psd_for_local_minumum
+<LI>sig_lims_min_peak_smooth_psd_to_noise_dB_to_flag<BR><FONT class="code_black">
+    no corresponding Global Variable</FONT>
+<BR><BR>
+
+
+<LI>radial_cont_checks_have_been_applied<BR><FONT class="code_red">
+    radial_continuity_chain_checks_have_been_applied
+<LI>radial_cont_min_sig_width_ratio<BR><FONT class="code_red">
+    radial_continuity_chain_minimum_signal_component_width_ratio
+<LI>radial_cont_max_sig_width_ratio<BR><FONT class="code_red">
+    radial_continuity_chain_maximum_signal_component_width_ratio
+<LI>radial_cont_min_sig_overlap_ratio<BR><FONT class="code_red">
+    radial_continuity_chain_minimum_signal_component_width_overlap_ratio
+<LI>radial_cont_link_std_dev_radial_vel_mps<BR><FONT class="code_red">
+    radial_continuity_chain_link_radial_velocity_standard_deviation_mps
+<LI>radial_cont_link_std_dev_range_m<BR><FONT class="code_red">
+    radial_continuity_chain_link_range_standard_deviation_m
+<LI>radial_cont_min_unambiguous_link_weight<BR><FONT class="code_red">
+    radial_continuity_chain_link_minimum_unambiguous_weight
+<LI>radial_cont_min_ratio_of_max_link_weight_for_search<BR><FONT class="code_red">
+    radial_continuity_chain_link_minimum_weight_ratio_for_alternative_search
+<LI>radial_cont_max_std_dev_sig_power_dB_for_intf<BR><FONT class="code_red">
+    radial_continuity_interference_maximum_signal_power_standard_deviation_dB
+<LI>radial_cont_min_fraction_of_range_gates_for_alternative_path<BR><FONT class="code_red">
+    radial_continuity_interference_minimum_pc_of_range_gates_for_alternative_profile
+<LI>radial_cont_apply_lower_path_correction<BR><FONT class="code_red">
+    radial_continuity_alternative_profile_lower_correction_applied
+<LI>radial_cont_max_altitude_amsl_m_for_lower_path_correction<BR><FONT class="code_red">
+    radial_continuity_alternative_profile_lower_correction_maximum_altitude_m
+<LI>radial_cont_max_link_radial_vel_sep_mps<BR><FONT class="code_red">
+    radial_continuity_chain_link_maximum_radial_velocity_difference_mps
+<LI>radial_cont_chain_fill_max_radial_vel_sep_mps<BR><FONT class="code_red">
+    radial_continuity_inter_chain_maximum_radial_velocity_difference_mps</FONT>
+<BR><BR>
+
+<LI>time_cont_uni_dirn_time_radius_mins<BR><FONT class="code_red">
+    time_continuity_maximum_uni_directional_time_difference_minutes
+<LI>time_cont_bi_dirn_time_radius_mins<BR><FONT class="code_red">
+    time_continuity_maximum_bi_directional_time_difference_minutes
+<LI>time_cont_max_vert_vel_comp_diff_mps<BR><FONT class="code_red">
+    time_continuity_maximum_vertical_beam_radial_velocity_difference_mps
+<LI>time_cont_max_horiz_vel_comp_diff_mps<BR><FONT class="code_red">
+    time_continuity_maximum_off_vertical_beam_horizontal_velocity_difference_mps
+<LI>time_cont_min_nr_buddies_fixed_coeff<BR><FONT class="code_red">
+    time_continuity_minimum_number_of_buddies_fixed_coefficient
+<LI>time_cont_min_nr_buddies_scale_coeff<BR><FONT class="code_red">
+    time_continuity_minimum_number_of_buddies_scale_coefficient
+<LI>time_cont_min_nr_dwells_to_apply<BR><FONT class="code_red">
+    time_continuity_minimum_number_of_dwells_in_order_to_apply
+</OL>
+</FONT><BR><BR>
+
+
+
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to top of page</A>
+  <DD><A href="file_format_v3_radial.html">File format for v3.2
+  radial data files</A>
+  <DD><A href="file_format_changes_v3-3_cartesian.html">Proposed
+  parameter names for v3.3 Cartesian data files
+
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 6th November 2009</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

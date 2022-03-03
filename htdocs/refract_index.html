@@ -1,0 +1,152 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>The radion refractive index structure of the atmosphere</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">THE RADIO REFRACTIVE INDEX STRUCTURE OF THE
+        ATMOSPHERE</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<A name="top">
+<!*** Page contents to go here ***>
+
+The refractive index of the atmosphere, n, at radio frequencies
+between HF and UHF is given by:<BR><BR>
+
+<CENTER>
+  <IMG alt="Equation for refractive index" border="0"
+       src="EQNS/eqn_refract_index.jpg">
+</CENTER>
+
+<DL>where:
+  <DD>e - partial pressure of water vapour (hPa)
+  <DD>T - absolute temperature (K)
+  <DD>p - atmospheric pressure (hPa)
+  <DD>N<SUB>e</SUB> - number density of free electrons (m<SUP>-3</SUP>)
+  <DD>f - radio frequency (MHz)
+</DL>
+
+<P>Since the magnitudes of the deviations from 1.0 are very small, it
+is useful to define the refractivity, N, where:</P>
+
+<CENTER>
+  <IMG alt="Equation for refractivity" border="0"
+       src="EQNS/eqn_refractivity.jpg">
+</CENTER>
+
+<P>The first term, in the top equation, represents the 'humidity'
+contribution. Water molecules have a dipole moment which varies with
+the frequency of the incident electromagnetic radiation. At visible
+light frequencies only the polarised electric field of the water
+molecules contributes. For the range HF to UHF, however, the water
+molecules can additionally reorient themselves rapidly enough to
+follow the changes of the incident electric field. The second term
+represents the 'density' contribution. The third term only begins to
+become signficant at altitudes above 50 km. The figure below shows the
+relative contributions of the humidity and density terms to the
+refractivity based on the U.S. Standard Atmosphere 1976 (temperature
+profile shown in the left panel) for altitudes up to 20 km.</P>
+
+<CENTER>
+  <IMG alt="Diagram showing relative contributions to refractivity"
+       border="0" src="FIGS/cont_to_refract.png">
+</CENTER>
+
+<P>The profile of partial pressure of water vapour is assumed to
+follow the saturation vapour pressure, e<SUB>s</SUB>, for the given
+temperature profile, i.e. for 100% relative humidity at all altitudes,
+where:</P>
+
+<CENTER>
+  <IMG alt="Equation for saturation vapour pressure"
+       border="0" src="EQNS/eqn_sat_vap_press.jpg">
+</CENTER>
+
+<P>and T<SUB>C</SUB> is the temperature in &deg;C, which is related to the absolute temperature by</P>
+
+<CENTER>
+  <IMG alt="Equation relative abolute and Celcius temperatures"
+       border="0" src="EQNS/eqn_K_to_degC.jpg">
+</CENTER>
+
+<P>Despite the fact that the (maximum possible) humidity contribution
+is smaller than the density contribution at all altitudes, the radar
+return signal power for clear air returns is related to the vertical
+gradient of the refractive index; the humidity contribution can
+dominate for altitudes up to the (almost) the tropopause level.</P>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to top of page</A>
+  <DD><A href="clear_air_returns.html">Clear-air radar return mechanisms</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 14th October 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,267 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>v3 reliability details</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">MST RADAR VERSION-3 RELIABILITY DETAILS
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+MST radar radial and Cartesian data products produced from version-3
+processing typically have an associated reliability flag variable and a
+reliability details variable.<BR><BR> 
+
+
+
+<B>The reliability flag variable</B><BR>
+A flag value of 0 implies that the associated data products are NOT 
+reliable.<BR>
+A flag value of 1 implies that the associated data products ARE
+reliable.<BR><BR>
+
+The reliability flag has the same dimensions (<A
+href="file_format_netcdf.html">click here for an explanation of netCDF
+nomenclature</A>) as the data product(s) it represents. For the <A
+href="file_format_v3_radial.html">radial files</A>, there is only one
+reliability flag (<FONT
+class="code_red">signal_component_is_reliable</FONT>) which covers the
+variables <FONT class="code_red">signal_power, radial_velocity,
+spectral_width, first_velocity_bin_number,
+final_velocity_bin_number,</FONT> and <FONT
+class="code_red">peak_smooth_psd_to_noise</FONT>. The netCDF
+attributes are as follows:
+
+
+<DL><FONT class="code_red">signal_component_is_reliable</FONT>
+      <FONT class="code_black"> (time, range, signal_component_number) BYTE</FONT>
+   <DD>long_name = "Signal component reliability flag"
+   <DD>units = "1"
+   <DD>flag_values = 0b, 1b
+   <DD>flag_meanings = "signal_component_is_not_reliable signal_component_is_reliable"
+   <DD>coordinates = "latitude longitude"
+</DL>
+
+For the <A href="file_format_v3_cartesian.html">Cartesian files</A>
+there are a number of reliability flags, each one representing a
+separate group of data products. The template below shows the netCDF
+attributes for reliability flag covering data product (group) ****:
+ 
+<DL><FONT class="code_red">****_data_are_reliable</FONT>
+      <FONT class="code_black"> (altitude, time) BYTE</FONT>
+   <DD>long_name = "**** reliability flag"
+   <DD>units = "1"
+   <DD>flag_values = 0b, 1b
+   <DD>flag_meanings = "data_are_not_reliable data_are_reliable"
+   <DD>coordinates = "latitude longitude"
+</DL>
+
+<B>The reliability details variable</B><BR> 
+
+The reliability flag values are determined from the results of a
+number of tests which are coded bitwise into a 16-bit signed
+integer. Typically these individual tests can be ignored. However,
+under extreme atmospheric conditions, e.g. associated with convective
+activity, data products may fail individual tests causing them to be
+flagged as being unreliable overall. The availability of results from
+the individual tests can be used to consider data points which would
+otherwise be ignored. Not all data products use all tests.<BR><BR>
+
+
+Treating the reliability details value as a 14-bit unsigned integer
+(it only ever contains positive values, including zero), bit 00 is the
+least significant bit. Consequently the result (either a 0 or a 1) of
+a particular test can be determined from an operation of the
+form:<BR><BR>
+
+<CENTER><FONT class="code_green">reliability_details_value &
+2**(bit_number) == 2**(bit_number)</FONT></CENTER><BR>
+
+The contents of individual bits are as follows:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR valign="top">
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Bit number</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Information</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">00</TD>
+    <TD></TD>
+    <TD valign="top">1 if a datum is available.</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">01</TD>
+    <TD></TD>
+    <TD valign="top">1 if the peak smoothed power spectral density
+    (PSD) is greater than a set threshold</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">02</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component belongs to a radial chain</B>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">03</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component fits overall radial 
+      continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">04</TD>
+    <TD></TD>
+    <TD valign="top">1 if a secondary signal component belongs to a
+    radial chain</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">05</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component is consistent with
+    uni-directional time continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">06</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component is consistent with
+    bi-directional time continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">07</TD>
+    <TD></TD>
+    <TD valign="top">1 if a complementary beam exists</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">08</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    have both passed lower order reliability checks</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">09</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    have both passed lower order reliability checks for the orthogonal
+    azimuth</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">10</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    differ by a set amount</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">11</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    differ by a set amount</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">12</TD>
+    <TD></TD>
+    <TD valign="top">1 if theta_s correction has been applied to the
+    horizontal winds</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">13</TD>
+    <TD></TD>
+    <TD valign="top">1 if the beam-broadening correction of spectral
+    width results in a usable value</TD>
+  </TR>
+</TABLE>
+<BR><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="file_format_netcdf.html">Explanation of netCDF
+  terminology</A>
+  <DD><A href="file_format_v3_radial.html">File format for v3 radial
+  data</A>
+  <DD><A href="file_format_v3_cartesian.html">File format for v3
+  Cartesian data</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 8th November 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

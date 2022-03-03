@@ -1,0 +1,233 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for MST Radar Met Office messages</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR VERSION-3 MST RADAR CARTESIAN DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR>
+
+Thirty minute averages of the st300 v3 Cartesian data products
+(i.e. those covering the approximate altitude range 2 - 20 km at 300 m
+resolution) are sent to the Met Office for assimilation into their
+operational numerical weather prediction model. Each message contains
+altitude profiles of the following: horizontal wind speed and
+direction, vertical wind velocity, and vertical beam radar return
+signal power. The accuracy of the time-averaged horizontal wind data
+is thought to be higher than that of the single cycle data. This
+accuracy is quantified by monthly model-comparison statistics produced
+by the Met Office. <BR><BR>
+
+<B>Availability</B> They are currently available from 2006/03/16.<BR><BR>
+
+<B>File naming convention: </B><BR>
+<CENTER>
+<FONT class="FileName">ABWWP_YYYYMMDD_HHMM.txt</FONT> for files with
+date-time stamps starting from 2006/08/16 10:00<BR>
+
+<FONT class="FileName">ABYWP_YYYYMMDD_HHMM.txt</FONT> for files with
+date-time stamps starting before 2006/08/16 09:30</CENTER><BR>
+
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="FileName">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">HH</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit hour [00 - 23]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit minute [00 | 30]</TD>
+  </TR>
+</TABLE><BR>
+
+For messages with date-time stamps for <B>2009/01/15 12:30 and later</B>, the
+date-time information represents the <B>END</B> of the 30 minute
+averaging period. For messages with earlier date-time stamps, the
+date-time information represents the beginning of the averaging
+period. <BR><BR>
+
+
+<B>File location: </B><BR>
+Met Office messages are not available through the BADC but can be
+provided to data users <A href="contacting_facility_staff.html">on request</A>.<BR><BR>
+
+
+<B>File format</B>: These files adopt a simple ASCII format defined by
+the Met Office. The first 8 lines of the file <FONT
+class="FileName">ABWWP_20100114_0000.txt</FONT> are shown as follows:<BR>
+
+
+<FONT class ="ncFileContents"><PRE>
+10 01 14 00 00
+130
+ 1685  0  260   3.1  0  -0.04  109  109  109
+ 1835  0  259   3.1  0  -0.11  110  110  110
+ 1984  0  250   2.6  0  -0.05  114  114  114
+ 2133  0  264   2.6  0  -0.06  118  118  118
+ 2282  0  256   2.9  0  -0.08  116  116  116
+ 2431  0  248   2.6  0  -0.02  120  120  120
+</PRE></FONT>
+
+The first two lines contain header information and all subsequent
+lines contain profile data:
+
+<DL>
+  <DD><B>Line 1</B> contains the date-time stamp as <FONT class
+  ="ncFileContents">YY MM DD HH MM</FONT>. Note that the year
+  information (<FONT class ="ncFileContents">YY</FONT>) is only given
+  in 2 digit format. For messages with date-time stamps for
+  <B>2009/01/15 12:30 and later</B>, the date-time information
+  represents the <B>END</B> of the 30 minute averaging period. For
+  messages with earlier date-time stamps, the date-time information
+  represents the beginning of the averaging period.<BR><BR>
+
+  <DD><B>Line 2</B> contains a single integer which defines the number
+  of profile data lines which follow.<BR><BR>
+
+  <DD><B>Lines 3 onwards</B> contain profile data in the following
+  order:
+  <DL>
+    <DD><B>Value 1</B> - <FONT class="ncDataType">integer</FONT> -
+  altitude of the (middle of the) range gate above mean sea level
+  (m)<BR><BR>
+
+    <DD><B>Value 2</B> - <FONT class="ncDataType">integer</FONT> -
+    reliability flag for values 3 and 4. A flag value of "0" implies
+    that the associated values are reliable and a value of "1" implies
+    that they are not. Note that this is the opposite of what is
+    commonly found in other files. This value is set to "1",
+    i.e. suggesting unreliable data, irrespective of actual data
+    quality for all range gates with
+    altitudes above 15 km starting from 2009/01/30 12:00.<BR><BR> 
+
+    <DD><B>Value 3</B> - <FONT class="ncDataType">integer</FONT> -
+    horizontal wind (from) direction (&deg;), i.e. following the
+    meteorological convention.<BR><BR>
+
+    <DD><B>Value 4</B> - <FONT class="ncDataType">float</FONT> -
+    horizontal wind speed (m s-1).<BR><BR>
+
+    <DD><B>Value 5</B> - <FONT class="ncDataType">integer</FONT> -
+    reliability flag for values 6 - 9. A flag value of "0" implies
+    that the associated values are reliable and a value of "1" implies
+    that they are not. Note that this is the opposite of what is
+    commonly found in other files.<BR><BR>
+
+    <DD><B>Value 6</B> - <FONT class="ncDataType">float</FONT> -
+    upward component of wind velocity (m s-1).<BR><BR>
+
+    <DD><B>Value 7</B> - <FONT class="ncDataType">integer</FONT> -
+    vertical beam radar return signal power (dB).<BR><BR>
+
+    <DD><B>Values 8 and 9</B> are repeats of value 7 and so can be
+    ignored.<BR><BR>
+
+  </DL> 
+
+</DL>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="v3_signal_processing_overview.html">An overview of v3
+  signal processing</A>
+  <DD><A href="file_format_v3_cartesian.html">File format for
+  unaveraged v3 Cartesian data products</A>.
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 14th January 2010</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

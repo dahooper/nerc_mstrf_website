@@ -1,0 +1,117 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2006-05-17</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2007-05-17</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>Problem with reliability flag values for v3 MST Radar radial data
+files produced prior to 10th May 2007</B><BR> 
+
+Owing to a bug in the file-writing software, v3 MST Radar radial data
+files produced prior to 10th May 2007 do not not contain correct
+reliability flag information, i.e. the variables:
+
+<UL>
+  <LI><FONT class="code_red">signal_component_is_reliable</FONT>
+  <LI><FONT class="code_red">signal_component_reliability_details</FONT>
+</UL>
+
+only contain values of 0. The software was fixed on 10th May 2007 and
+so files for data dates including and after 10th May 2007 are free
+from this problem. Files for data dates prior to 10th May 2007 will
+gradually be re-created. If you are uncertain as to whether or not you
+have a corrected file, check the creation date which is recorded in
+the netcdf global attribute <FONT
+class="code_red">history</FONT>.<BR><BR>
+
+
+<B>This problem does not affect v3 MST Radar Cartesian data files</B><BR> 
+Since the reliability flags in the Cartesian files are used to
+determine which data should be included in the quick-look plots, it is
+known that they are not affected by the same problem.<BR><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="file_format_v3_radial.html">File format for v3 MST
+  Radar radial files</A>
+  <DD><A href="v3_reliability_details.html">Description of v3
+  reliability flags and relibaility flag details</A>
+  <DD><A href="plots_access.html">Access to the quick-look data plots</A>
+  <DD><A href="contacting_facility_staff.html">Contact the NERC MST Radar
+      Facility Project Scientist</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 17th May 2007</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

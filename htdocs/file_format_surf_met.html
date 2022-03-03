@@ -1,0 +1,376 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Surface met data file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR SURFACE METEOROLOGICAL DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR> 
+The files contain time series of surface meterological parameters (i.e. of
+air temperature, pressure and relative humidity, and of rainfall and
+downwelling shortwave radiation) recorded at 10 minute intervals at
+the NERC MST radar site.<BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>Data availability:</B><BR>
+Data are available from 25th July 2000 to the present. There are a
+number of gaps in the dataset owing to instrument problems and
+down-time for maintenance. Refer to <A
+href="cgi-bin/mstlog_public/mst_event_search.py">Instrument
+performance weblog</A>.<BR><BR>
+
+
+<B>File naming convention: </B><BR>
+For data up to, and including, 12th April 2005:<BR>
+<CENTER><FONT
+class="code_black">sdYYMMDD.gz</FONT></CENTER><BR>
+
+For data after 12th April 2005:<BR>
+<CENTER><FONT
+class="code_black">met-sensors_capel-dewi_YYYYMMDD.na</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">YY</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit year [00 - 99]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">gz</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicates that the file is compressed with the GNU <FONT class="code_black">gzip</FONT> algorithm</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">na</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicates that the data are written in a
+    NASA-Ames (ASCII) file format</TD>
+  </TR>
+</TABLE><BR>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/surface-met"><FONT
+  class="code_black">/badc/mst/data/surface-met/</FONT></A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+
+<B>Archiving convention:</B><BR>
+For data up to, and including, 12th April 2005:
+<FONT class="code_black">YYYY</FONT><BR>
+For data after 12th April 2005:
+<FONT class="code_black">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further explanation.<BR><BR>
+
+<B>File formats</B><BR>
+<A href="file_formats.html">Click here</A> for an overview of the
+different file formats used with the NERC MST Radar Facility
+dataset.<BR><BR>
+
+Data for dates up to, and including, 12th April 2005 are written in
+non-standard format ASCII files. Since the structure of these files is
+broadly similar to that used for data after 12th April 2005 (NASA-Ames
+files with a File Format Index of 1001), the earlier file format is
+described <A href="#old">below</A> with reference to the newer
+one. Eventually the data from the older files will be rewritten in the
+new format. For a complete description of the NASA-Ames file formats,
+consult the <A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Gaines
+and Hipskind [1998]</A> document. Only those aspects of the file which
+are essential for reading the data are described below. <BR><BR>
+
+The surface meteorological data file for 1st June 2005 will be used as
+an example. Text in green represents actual file contents. Text in red
+is for explanatory purposes only.<BR>
+
+
+<DL><B>Header Lines</B>
+  <A name="line1">
+  <DD><B>Line 1: </B><FONT class="code_green">93 1001</FONT><BR>
+    Integer 1 corresponds to the total number of header lines,
+    <FONT class="code_red">nr_header_lines</FONT><BR>
+    Integer 2 corresponds to the File Format Index<BR><BR>
+
+  <DD><B>Line 7: </B><FONT class="code_green">2005 06 01 2006 02 01</FONT><BR>
+    Integers 1 - 3 correspond to the year, month and day on which the
+    observations were made.<BR>
+    Integers 4 - 6 correspond to the year, month and day on which the
+    file was created.<BR><BR>
+
+  <DD><B>Line 10: </B><FONT class="code_green">10</FONT><BR>
+    The number of primary variables (<FONT
+    class="code_red">nr_primary_vars</FONT>).<BR><BR>
+
+   <A name="line12">
+  <DD><B>Line 13: </B><FONT class="code_green">999.99 999.99 999.99 9999.9 9.9999 999.9 9999.9 9.999 99.99 999.99</FONT><BR>
+    Missing data values, in order, for the <FONT
+    class="code_red">nr_primary_vars</FONT> primary variables - <A
+    href="#primary">see below</A>.<BR><BR>
+
+  <DD><B>Lines 13 - 22</B><BR>
+    The names of the primary variables - <A
+    href="#primary">see below</A><BR><BR>
+
+  <DD><B>Line 27: </B><FONT class="code_green">144</FONT><BR> The
+    number of data lines (<FONT class="code_red">nr_data_lines
+    </FONT>) within the file.<BR><BR>
+
+  <DD><B>Lines 28 - <FONT class="code_red">nr_header_lines</FONT>: </B><BR>
+    These lines contain optional header information describing the
+    instruments and the data product definitions. Some of this information is
+    repeated below in association with the relevant data products but
+    refer also to the <A href="surf_met_obs.html">surface
+    meteorological instruments page</A>.
+  </DL><BR>
+
+<B>Data reading loop</B><BR>
+
+After reading the above mentioned lines, wind forward to line <FONT
+class="code_red">(nr_header_lines + 1)</FONT> where the data
+begin. Since the number of header lines may change from file to file,
+it is important to read <FONT class="code_red">nr_header_lines</FONT>
+from <A href="#line1">line 1</A> rather than assuming that it is
+always 93. The data can be read with a simple loop structure of the
+form (shown here in Fortran syntax):<BR>
+
+<PRE><FONT class="code_red">do data_line_nr = 1,nr_data_lines
+  read_data_line
+end do</FONT></PRE>
+
+<A name="primary">
+<B>Reading the data line</B><BR>
+The data lines contain 11 values: the first independent variable
+(time) followed by the 10 primary variables (all floating point
+numbers). The first 3 data lines from the file for 1st June 2005 are
+shown by way of example:<BR> 
+<PRE><FONT class="code_green">    0.0  11.41  11.41  11.89 9999.9 0.8310   0.0   -1.4 0.000 14.15  12.65
+  600.0  11.23  11.23  11.34 9999.9 0.8470   0.0   -0.7 0.000 14.16  12.50
+ 1200.0  11.24  11.25  11.30 9999.9 0.8560   0.0   -0.3 0.000 14.16  12.42</FONT></PRE>
+
+<DL>
+  <DD><B>Value 1: Seconds since 00:00:00 UTC (for the day in question)
+    at the start of the 10 minute sample period (s)</B><BR><BR>
+
+  <A name="value2">
+  <DD><B>Value 2: Minimum air temperature within the 10 minute sample
+  period (&deg;C)</B><BR> The data logger initially samples the
+  atmospheric temperature, pressure and humidity sensors at 5 s
+  intervals. Mean values are calculated over each 60 s and the outputs
+  from the logger represent minima, means and maxima of these 60 s
+  means over each 10 minute sample period. Air temperature is measured
+  with a Campbell Scientific 107 thermistor temperature probe mounted
+  inside an URS1 unaspirated radiation shield. Accuracy: +/- 0.4
+  &deg;C.<BR><BR>
+
+  <DD><B>Value 3: Mean air temperature within the 10 minute sample period
+  (&deg;C)</B><BR>
+  <A href="#value2">Refer to explanation for value 2, above</A>.<BR><BR>
+
+  <DD><B>Value 4: Maximum air temperature within the 10 minute sample period (&deg;C)</B><BR>
+  <A href="#value2">Refer to explanation for value 2, above</A>.<BR><BR>
+
+  <DD><B>Value 5: Mean air pressure within the 10 minute sample period
+  (hPa)</B><BR>Pressure is measured with a Vaisala PTB101B barometric
+  pressure sensor. Accuracy: +/- 2.0 hPa. <A href="#value2">Refer also
+  to explanation for value 2, above</A>.<BR><BR>
+
+  <DD><B>Value 6: Mean air relative humidity within the 10 minute
+  sample period</B><BR>Note that these values are in the range 0.000 -
+  1.000; they are not given as percentages. Humidity is measured by a
+  Vaisala HMP45C temperature and relative humidity probe (from which
+  only the humidity measurements are used) mounted inside an URS1
+  unaspirated radiation shield. Accuracy: +/- 0.3%. <A
+  href="#value2">Refer also to explanation for value 2,
+  above</A>.<BR><BR>
+
+  <DD><B>Value 7: Accumulated rainfall within the 10 minute sample
+    period (mm)</B><BR> The data logger initially samples the
+    Environmental Measurements ARG100 tipping bucket raingauge every 1
+    s and records a tip for each 0.20 mm accumulation of rain. The
+    output from the logger represents the total accumulation of rain
+    over each 10 minute sample period. Note that occasional build-up of
+    fungus within the inlet tube can impede or even completely inhibit
+    the flow of rain into the instrument. This makes the rain data the
+    least reliable of the surface meteorological measurements. <BR><BR>
+
+  <DD><B>Value 8: Accumulated downwelling shortwave energy per unit
+    area within the 10 minute sample period (kJ m-2)</B><BR>The data
+    logger initially samples the Kipp and Zonen CM3 thermopile
+    pyranometer (WMO second class) every 5 s and records the
+    downwelling radiation (within a hemispheric field of view) with a
+    flat response in the spectral range 305 - 2800 nm. The output from
+    the logger represents the accumulation of energy per unit area
+    within each 10 minute sample period. Accuracy: +/- 0.5%.<BR><BR>
+
+  <DD><B>Value 9: Estimated duration of sunshine within the 10 minute
+    sample period (hours)</B><BR> The measured radiation is compared
+    with that predicted for the logger's latitude and longitude, and
+    for the time of year and the time of day (assuming clear sky
+    conditions). A sunshine priod is defined as one in which the ratio
+    excedes 0.4 and the output from the logger represents the
+    accumulated sunshine duration within each 10 minute sample period.
+    Note that this is an estimated product, which is not derived
+    according to the WMO definition of sunshine duration.<BR><BR>
+
+  <A name="value10">
+  <DD><B>Value 10: Data logger battery voltage at the end of the 10 minute
+    sample period (V)</B><BR>The data logger records the instantaneous
+    battery voltage and internal temperature at the end of each 10
+    minute sample period for performance checking purposes.<BR><BR>
+
+  <DD><B>Value 11: Data logger internal temperature at the end of the 10
+  minute sample period (&deg;C)</B><BR><A href="#value10">Refer to
+  explanation for value 10, above</A>.
+</DL><BR>
+
+<A name="old">
+<B>Non-standard file format for dates up to, and including, 12th April
+2005</B><BR>The older files contain a subset of the information
+contained within the newer files. <A href="#primary">Refer to the
+product desriptions</A> given above for the for the newer files. The files
+contain considerably less header information - confined to the first 3
+lines. Note that the order of the data products differs to that used
+for the newer files. The first 6 lines of the file for 1st June 2003
+(<FONT class="code_black">sd030601</FONT>) are shown below in
+green. <BR>
+
+<PRE><FONT class="code_green"> Surface data for Capel Dewi  Lat. 52.40  Long. -4.00
+ Date 2003/06/01
+ Time(Z) Temp.  Rad(KJ)   Hum(%)    mB   Rain(mm)
+ 00:10   12.99     -0.2    80.9    1004     0.0
+ 00:20   12.97     -0.2    80.9    1004     0.0
+ 00:30   12.92     -0.2    80.8    1004     0.0</FONT></PRE>
+
+<DL>
+  <DD><B>Value 1: UTC Time (in hh:mm format) at the END of the the 10
+    minute sample period.</B><BR>Note that the newer files relate the data
+    the START of the 10 minute </B><BR><BR>
+
+  <DD><B>Value 2: Mean air temperature within the 10 minute sample period
+  (&deg;C)</B><BR><BR>
+
+  <DD><B>Value 3: Accumulated downwelling shortwave energy per unit
+    area within the 10 minute sample period (kJ m-2)</B><BR><BR>
+
+  <DD><B>Value 4: Mean air relative humidity within the 10 minute
+  sample period</B><BR>Note that these values are given as percentages
+  rather than in the range 0.000 - 1.000.<BR><BR>
+
+  <DD><B>Value 5: Mean air pressure within the 10 minute sample period
+  (hPa)</B><BR><BR>
+
+  <DD><B>Value 6: Accumulated rainfall within the 10 minute sample
+  period (mm)</B>
+</DL><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="file_name_conv.html">File naming convention</A>
+  <DD><A href="surf_met_obs.html">Surface meteorological instruments</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+    <DD><A
+    href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/surface-met">Location
+    of surface meteorological data files on the BADC</A>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 1st February 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

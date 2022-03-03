@@ -1,0 +1,510 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF: netCDF</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top"></A>
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">THE STRUCTURE OF A netCDF FILE</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***> 
+<B>Introduction</B><BR>
+
+The netCDF (network Common Data Form) file format is designed for the
+storage of array-oriented data, e.g. time series, altitude profiles,
+or time-altitude data. In order to read and write netCDF files, you
+will need to download and install the following freely-available
+software from the <A
+href="http://www.unidata.ucar.edu/software/netcdf/">Unidata
+website</A>:
+
+<UL>
+  <LI>a copy of the "netcdf" software package. This allows direct
+  access to the data through a C, C++ or Fortran program<BR><BR>
+  <LI>a suitable interface program, if you require access to the data
+  through a language other than C, C++ or Fortran. Interfaces are
+  available for a large number of languages including Matlab, IDL,
+  CDAT, Python and Perl.  
+</UL>
+
+Users of netCDF data do not need to know anything about the internal
+file structure, which is handled by the netcdf software. Instead, any
+file can be accessed using a standard set of routines. This makes
+adapting to new files very easy. However, it is netCDF's ability to
+store unlimited metadata (i.e. information about the data) which makes
+it particularly important from a data preservation point of view.  A
+number of user communities have defined their own <A
+href="http://www.unidata.ucar.edu/software/netcdf/conventions.html">"Conventions"</A>
+which define the metadata standards in a discipline-specific
+way. For the atmospheric sciences, this is the <A
+href="http://cf-pcmdi.llnl.gov/">Climate and Forecast (CF) Metadata
+Convention</A>. <BR><BR>
+
+Creators of netCDF files should read the official <A
+href="http://www.unidata.ucar.edu/software/netcdf/">netCDF</A> and <A
+href="http://cf-pcmdi.llnl.gov/">Climate and Forecast (CF) Metadata
+Convention</A> documents. The following page gives sufficient details
+to allow someone to read a file. <BR><BR>
+
+The contents of any netCDF file can be viewed by typing the following
+command (on a Unix/Linux system):<BR><BR>
+
+<CENTER><FONT class="code_black">ncdump -h netcdf_file_path</FONT>
+</CENTER><BR>
+
+Omitting the <FONT class="code_black">-h</FONT> option causes
+the data values, as well as the file structure, to be shown. 
+
+
+<BR><BR>
+<A name="data_types">
+<B>Data types</B><BR> All of the fields within a netCDF file are of
+one of the following data types (the characters shown in brackets
+indicate how the "ncdump" command indicates the data type of an
+attribute):<BR>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="10" width="100%">
+  <TR>
+    <TD align="right"><FONT class="code_green">BYTE (b)</FONT></TD>
+    <TD align="left">8-bit signed integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">CHAR ("")</FONT></TD>
+    <TD>8-bit unsigned integer (strings are techically arrays of type CHAR)</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">SHORT (s)</FONT></TD>
+    <TD>16-bit signed integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">INT (i)</FONT></TD>
+    <TD>32-bit signed integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">FLOAT (f)</FONT></TD>
+    <TD>32-bit floating point</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">DOUBLE (d)</FONT></TD>
+    <TD>64-bit floating point</TD>
+  </TR>
+</TABLE>
+
+<BR>
+
+The new netCDF-4 storage format files additionally allow
+the following data types:
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="10" width="100%">
+  <TR>
+    <TD align="right"><FONT class="code_green">USHORT</FONT></TD>
+    <TD align="left">16-bit unsigned integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">UINT</FONT></TD>
+    <TD>32-bit unsigned integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">INT64</FONT></TD>
+    <TD>64-bit signed integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">UINT64</FONT></TD>
+    <TD>64-bit unsigned integer</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">STRING</FONT></TD>
+    <TD>variable length character string</TD>
+  </TR>
+  <TR>
+    <TD align="right"><FONT class="code_green">BOOL</FONT></TD>
+    <TD>(8-bit) Boolean</TD>
+  </TR>
+</TABLE>
+
+
+<BR>
+<A name="global_attributes"> 
+<B>Global attributes</B><BR>
+Global attributes are metdata fields which describe the file/data as a
+whole. File creators may add any Global Attributes that they wish
+and these can be of any data type. The CF convention requires that the
+following <FONT class="code_green">CHAR</FONT> data type global
+attributes are included:
+
+<DL>
+  <DT><FONT class="code_orange">Conventions</FONT>
+  <DD>Describes the metadata conventions used, i.e. "CF-1.3" at the time
+  of writing
+
+  <DT><FONT class="code_orange">title</FONT>
+  <DD>A succinct description of the contents of the file
+
+  <DT><FONT class="code_orange">institution</FONT>
+  <DD>Details of the institution(s) responsible for acquiring, processing
+  and storing the data
+
+  <DT><FONT class="code_orange">source </FONT>
+  <DD>The instrument from which the data were recorded
+
+  <DT><FONT class="code_orange">history</FONT>
+  <DD>This provides an audit trail of how and when the data were
+  acquired, modified and recorded
+
+  <DT><FONT class="code_orange">references</FONT>
+  <DD>Sources of documentation concerning the instrument, measurement
+  technique and data processing
+
+  <DT><FONT class="code_orange">comment</FONT>
+  <DD>Miscellaneous information about the data, how they have been
+  processed, quality characteristics etc. 
+</DL>
+
+<BR>
+<A name="dimensions">
+<B>Dimensions</B><BR> 
+
+The netcdf software provides routines for determining the dimensions
+(e.g. <FONT class="code_red">time</FONT>, <FONT
+class="code_red">altitude</FONT>, <FONT
+class="code_red">latitude</FONT>, and <FONT
+class="code_red">longitude</FONT>) used by the variables, i.e. the
+data arrays. These are shown in red and within brackets
+below. Variables can be associated with one, several, or no dimensions
+at all. The purpose of variables with no dimensions will be clarified
+shortly. Each dimension has an associated one-dimensional
+coordinate variable, of the same name, which gives the
+permitted values along that dimension. <BR><BR>
+
+If any or all of the dimensions of a variable have the interpretations
+of "date or time" (T), "height or depth" (Z), "latitude" (Y), or
+"longitude" (X), the <B>CF Convention</B> recommends (but does not require)
+that they are used in the relative order: T, then Z, then Y, then X.
+All other dimensions should, whenever possible, be placed to the left
+of the spatio-temporal dimensions. <BR><BR>
+
+Refer to the <FONT class="code_orange">coordinates</FONT> variable
+attribute below for details of how to record latitude, longitude,
+and altitude for a single instrument. 
+
+<BR><BR><BR>
+<B>Variables and their attributes</B><BR> 
+
+There are a number of ways to represent values of <B>time</B>. For
+files which store all the data for a given instrument and for given
+day, it is common to quote time in seconds since midnight
+(i.e. 00:00:00 UTC) of the day in question. <BR><BR>
+
+In addition to being associated with a data type and none, one or
+several dimensions, a variable can (and should) have a number of
+attributes associated with it. These tend to be of type <FONT
+class="code_green">CHAR</FONT> but can be of any other data type. As
+in the case of Global Attributes, a file creator can add as many
+attributes to a variable as they wish. The <B>CF Convention</B>
+specifies that the following should be included wherever possible:
+
+<DL>
+  <DT><FONT class="code_orange">standard_name</FONT> 
+
+  <DD>The file creator is free to choose any name they wish for a
+  variable. Where the variable relates to a commonly-used physical (or
+  model) parameter, which has an unambiguous definition, the variable
+  should have a <FONT class="code_green">CHAR</FONT> type attribute
+  <FONT class="code_orange">standard_name</FONT>, which contains a
+  name from the <A href="http://cf-pcmdi.llnl.gov/">standard name
+  table</A>. Standard names are only added to this table after a
+  period of consultation within the discipline-specific and wider CF
+  community. Consequently, not all parameters have a standard
+  name. This attribute should only be added where a standard
+  name exists. Technically dB values are dimensionless as they relate
+  to the log of a ratio.
+
+  <DT><FONT class="code_orange">long_name</FONT> <DD>This is a
+  <FONT class="code_green">CHAR</FONT> type attribute which gives a
+  description of variable in a format which might be used, for
+  example, as a label on a plot. It is not necessary to include one
+  where a <FONT class="code_orange">standard_name</FONT> attribute
+  exists, but is essential otherwise.
+
+  <DT><FONT class="code_orange">units</FONT>
+  <DD>Where possible, the value of this <FONT
+  class="code_green">CHAR</FONT> type attribute should be a string
+  which can be recognised by <A
+  href="http://www.unidata.ucar.edu/software/udunits/">UNIDATA's
+  Udunits package</A>, i.e. it is found in the <FONT
+  class="code_black">udunits.dat</FONT> file. Although standard names
+  have canonical units associated with them, it is permissble to use
+  alternatives. For example, the canonical units associated with <FONT
+  class="code_orange">standard_name</FONT> <FONT
+  class="code_black">"relative_humidity"</FONT> are "1", indicating that
+  this is a dimensionless quantity whose values range between 0.0 and
+  1.0. However, it is more common to refer to relative humidities as
+  percentages between 0.0 and 100.0, in which case the value of <FONT
+  class="code_orange">units</FONT> should be <FONT
+  class="code_black">"%"</FONT>. Note that <FONT
+  class="code_black">"dB"</FONT> units are used for many radar data
+  products, although this string does not appear in the <FONT
+  class="code_black">udunits.dat</FONT> file. 
+
+  <DT><FONT class="code_orange">missing_value</FONT> <DD>This is the
+  value which indicates a missing datum. It shares the same data type
+  as the variable itself. This attribute is not used for variables
+  such as reliability flags.
+
+  <DT><FONT class="code_orange">_FillValue</FONT>
+  <DD>This attribute was previously used instead of <FONT
+  class="code_orange">missing_value</FONT>. For NERC MST Radar
+  Facility files, both attributes are given for backwards
+  compatability. They share the same value.  
+</DL><BR>
+
+The following variable attributes are common but optional:
+<DL>
+  <DT><FONT class="code_orange">valid_range</FONT>
+  <DD>This is an array, of the same data type as the variable, of
+  length 2. It contains values of <FONT
+  class="code_orange">valid_min</FONT> and <FONT
+  class="code_orange">valid_max</FONT>, repectively, which define the
+  permissible range of data values. The value of <FONT
+  class="code_orange">missing_value</FONT> should be outside of this
+  range. The values of <FONT
+  class="code_orange">valid_min</FONT> and <FONT
+  class="code_orange">valid_max</FONT> can alternatively be set as
+  two separate variable attributes. 
+
+  <DT><FONT class="code_orange">flag_values</FONT> 
+  <DD>If an intereger-type variable is a flag, this attribute contains
+  an array (of the same data type as the variable) of possible flag
+  values. The corresponding meanings of these values are described by
+  space-separated strings in the <FONT class="code_green">CHAR</FONT>
+  data type <FONT class="code_orange">flag_meanings</FONT> attribute.
+
+  <DT><FONT class="code_orange">axis</FONT>
+
+  <DD>If a dimension has the interpretation of "date or time" (T),
+  "height or depth" (Z), "latitude" (Y), or "longitude" (X), the <B>CF
+  Convention</B> recommends that a <FONT
+  class="code_green">CHAR</FONT> data type <FONT
+  class="code_orange">axis</FONT> attribute be given to the
+  corresponding coordinate variable. This can hold values of <FONT
+  class="cod_black">"T"</FONT> <FONT class="cod_black">"Z"</FONT>,
+  <FONT class="cod_black">"Y"</FONT> or <FONT
+  class="cod_black">"X"</FONT>.
+
+  <DT><FONT class="code_orange">coordinates</FONT> <DD>In the case of
+  data for a fixed location and/or time, some or all of the "date or
+  time" (T), "height or depth" (Z), "latitude" (Y), or "longitude"
+  coordinates can be defined by a dimensionless variable which holds a
+  single value. Parameter values are associated with this
+  location/time information through the <FONT
+  class="code_orange">coordinates</FONT> attribute of that parameter's
+  variable. This a <FONT class="code_green">CHAR</FONT> data type
+  value which contains the names of appropriate coordinate variables
+  separated by spaces, e.g.  <FONT class="code_black">"latitude
+  longitude altitude"</FONT> or <FONT
+  class="code_black">"time"</FONT>.
+
+  <DT><FONT class="code_orange">comment</FONT> 
+  <DD>This non-standard variable attribute is used widely for NERC MST
+  Radar Facility data files as an aid to self-description. It is
+  modelled on the global attribute of the same name <A
+  href="#global_attributes">described above</A>.
+</DL>
+
+<BR>
+The following non-standard variable attributes are used in some of
+uthe NERC MST Radar Facility data files:
+<DL>
+  <DT><FONT class="code_orange">estimated_accuracy</FONT>
+  <DD>An attribute of the same data type as the variable which gives
+  an estimate of the data accuracy
+
+  <DT><FONT class="code_orange">accuracy_details</FONT>
+  <DD>A <FONT class="code_green">CHAR</FONT> data type attribute which
+  gives details of the data accuracy
+
+  <DT><FONT class="code_orange">resolution</FONT>
+  <DD>An attribute of the same data type as the variable which
+  indicates the resolution of the recorded data
+
+  <DT><FONT class="code_orange">comment</FONT>
+  <DD>A <FONT class="code_green">CHAR</FONT> data type attribute which
+  is analagous to the <B>CF Convention</B> global attribute of the same
+  name. It is used for storing general information about a variable.   
+</DL>
+
+
+
+
+<BR><BR>
+<B>A quick-look at the contents of a netCDF file</B><BR>
+The output produced by the command:<BR>
+
+<CENTER><FONT class="code_black">ncdump -h netcdf_file_path</FONT>
+</CENTER><BR>
+
+(for an imaginary netCDF file) looks like the following:
+
+<FONT class="code_black"><PRE>dimensions:
+        time = length_of_time_dimension ;
+	altitude = length_of_altitude_dimension ;
+variables:
+        float time(time) ;
+                time:standard_name = "time" ;
+                time:long_name = "UTC" ;
+                time:units = "seconds since YYYY-MM-DD 00:00:00 +00:00" ;
+                time:axis = "T" ;
+                time:comment = "No comment" ;
+        float altitude(altitude) ;
+                altitude:standard_name = "altitude" ;
+                altitude:long_name = "Altitude above mean sea level" ;
+                altitude:units = "m" ;
+                altitude:axis = "Z" ;
+                altitude:comment = "No comment" ;
+        float latitude ;
+                latitude:standard_name = "latitude" ;
+                latitude:long_name = "Instrument latitude" ;
+                latitude:units = "degrees_north" ;
+                latitude:axis = "Y" ;
+        float longitude ;
+                longitude:standard_name = "longitude" ;
+                longitude:long_name = "Instrument longitude" ;
+                longitude:units = "degrees_east" ;
+                longitude:axis = "X" ;
+        float variable_1(time, altitude) ;
+                variable_1:standard_name = "?" ;
+                variable_1:long_name = "Long name for variable 1" ;
+                variable_1:units = "m s-1" ;
+                variable_1:estimated_accuracy = 2.5f ;
+                variable_1:missing_value = -9999.f ;
+                variable_1:_FillValue = -9999.f ;
+                variable_1:coordinates = "latitude longitude" ;
+		variable_1:comment = "Blah blah blah"
+        float variable_2(time, altitude) ;
+                variable_2:standard_name = "?" ;
+                variable_2:long_name = "Long name for variable 2" ;
+                variable_2:units = "hPa" ;
+                variable_2:estimated_accuracy = 1.0f ;
+                variable_2:missing_value = -9999.f ;
+                variable_2:_FillValue = -9999.f ;
+                variable_2:coordinates = "latitude longitude" ;
+		variable_2:comment = "Blah blah blah"
+
+// global attributes:
+                :Conventions = "CF-1.3" ;
+                :title = "Data from an imaginmary profiling instrument" ;
+                :institution = "Data recorded by the NERC MST Radar Facility" ;
+                :source = "The imaginary instrument" ;
+		:history = "File created YYYY-MM-DD hh:mm:ss +00:00 on machine fair" ;
+                :references = "http://mst.nerc.ac.uk" ;
+                :comment = "Blah blah blah" ;
+                :data_year = 2008s ;
+                :data_month = 9s ;
+                :data_day = 3s ;</PRE></FONT>
+
+
+<DL>NERC MST Radar Facility files which are currently in netCDF format are:
+  <DD><A href="file_format_v3_cartesian.html">MST Radar Cartesian data - v3</A>
+  <DD><A href="file_format_v3_radial.html">MST Radar radial data - v3</A>
+  <DD><A href="file_format_mstr_spectra_netcdf.html">MST Radar
+  spectral data - since February 2007</A>
+  <DD><A href="file_format_wxt510_ptu.html">Vaisala WXT510 surface met
+  (ptu) data</A>
+  <DD><A href="file_format_wxt510_precip.html">Vaisala WXT510 surface met
+  (precip) data</A>
+  <DD><A href="file_format_wxt510_wind.html">Vaisala WXT510 surface wind
+  data</A>
+</DL>
+<BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>  
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="http://www.unidata.ucar.edu/software/netcdf/">The
+  netCDF homepage on the Unidata website</A>  
+  <DD><A href="http://www.unidata.ucar.edu/software/netcdf/conventions.html">
+  Metadata conventions for netCDF</A>
+  <DD><A href="http://cf-pcmdi.llnl.gov/">The Climate and Forecast
+    (CF) Metadata Convention</A>
+  <DD><A href="http://www.unidata.ucar.edu/software/udunits/">The UNIDATA
+   Udunits package</A>
+</DL>
+
+</DL>
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 3rd September 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

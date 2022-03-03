@@ -1,0 +1,198 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>The Doppler beam swinging technique</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="8" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="4" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">WIND VECTOR DETERMINATION BY THE DOPPLER BEAM
+        SWINGING TECHNIQUE</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" rowspan="4" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+      <IMG alt="radial velocity geometry - fig 1" border="0"
+           src="FIGS/rad_vel_geom_ZNE.png">
+    </TD>
+
+    <TD align="left" rowspan="4" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+
+In the diagram to the left, <B>i</B>, <B>j</B>, <B>k</B> and <B>r</B>
+represent unit vectors in the East, North, vertical and radial
+directions, respectively. For a wind-profiler radar beam directed at a
+zenith angle of <FONT class="green">&theta;</FONT> and at an azimuth
+angle of <FONT class="green">&phi;</FONT>, the radial component of the
+wind vector, <FONT class="green">v<SUB>R</SUB></FONT>, i.e. that along
+the beam pointing direction, is related to the zonal, <FONT
+class="red">u</FONT> (i.e. towards East), meriodonal, <FONT
+class="red">v</FONT> (i.e. towards North), and vertical, <FONT
+class="red">w</FONT>, components through the following
+expression:<BR><BR>
+
+<CENTER>
+  <IMG alt="equation for radial velocity" border="0"
+       src="EQNS/eqn_uvw_to_rad.jpg">
+</CENTER><BR>
+
+<P>In order to determine the full three dimensional wind vector,
+observations must be made in a minimum of 3 non-coplanar beam
+directions.</P>
+
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="left" valign="top">
+      <IMG alt="radial velocity geometry - fig 2" border="0"
+           src="FIGS/rad_vel_geom_NE.png">
+    </TD>
+    <TD>
+
+<P>A typical sequence includes observations made in the vertical
+direction and at an off-vertical angle (of around 17&deg; for
+boundary-layer wind-profilers, or at 6&deg; in the case of the NERC
+MST Radar) in two orthogonal azimuths; this is known as the Doppler
+Beam Swinging (DBS) technique. Since the the azimuths of the
+off-vertical beams are not, in general, aligned with the cardinal
+directions, it is useful to consider the problem in the frame of
+reference of a vertical plane along &phi;; the component of the horizontal wind
+vector in this plane, v<SUB>H</SUB>(&phi;), is given by:</P>
+
+<CENTER>
+  <IMG alt="equation for horizontal velocity in azimuth phi" border="0"
+       src="EQNS/eqn_uv_to_h.jpg">
+</CENTER>
+
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="left" valign="top">
+      <IMG alt="radial velocity geometry - fig 3" border="0"
+           src="FIGS/rad_vel_geom_Zphi.png">
+    </TD>
+    <TD align="left" valign="top">
+
+
+<P>The equation for the radial component of velocity simplifies to:</P>
+
+<CENTER>
+  <IMG alt="equation for radial velocity in Z-phi plane" border="0"
+       src="EQNS/eqn_hw_to_rad.jpg">
+</CENTER>
+
+<P>In the case of boundary-layer wind-profilers, which typically make
+observations in only three beam pointing directions, the vertical
+velocity is determined from the Doppler shift of the vertically
+directed beam, and the horizontal component, in each azimuth, is
+determined through the relationship</P>
+
+<CENTER>
+  <IMG alt="equation for radial velocity in Z-phi plane" border="0"
+       src="EQNS/eqn_radw_to_h.jpg">
+</CENTER>
+
+    </TD>
+  </TR>
+
+  <TR>
+    <TD colspan="3">
+
+
+<P>The NERC MST Radar typically makes observations at in the
+vertical direction and at 6&deg; off-vertical in four different
+azimuths, each one separated by 90&deg; from the next; this allows
+each component of velocity to be derived from three different
+combinations of the radial velocities. In addition to the combination
+described above for 3-beam observations, the radial velocities for
+off-vertical beams with opposite azimuths can either be added or
+subtracted to derive the vertical or horizontal components of
+velocity, respectively:</P>
+
+<CENTER>
+  <IMG alt="equation for radial velocity in Z-phi plane" border="0"
+       src="EQNS/eqn_all_opp_offv.jpg">
+</CENTER><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="intro_wind_prof.html">An introduction to wind-profilers</A>
+  <DD><A href="wind_vect_convs.html">Wind vector (direction) notation
+      conventions</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="4" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="4" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 15th August 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+
+

@@ -1,0 +1,494 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for v3 Cartesian data</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR VERSION-3 MST RADAR CARTESIAN DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>Version-3 MST radar data products are currently being trialled</B><BR>
+<A href="sig_proc_version_nrs.html">Click here</A> to find out about
+earlier versions of the signal processing.<BR><BR>
+
+<B>File contents</B><BR>
+The files contain altitude profiles (from approximately 2 - 20 km for
+the ST mode, and from approximately 58 - 96 km for the M mode, both at
+150 m intervals) of the eastward, northward and upward components of
+the wind velocity and the following radar return parameters: vertical
+beam signal power, aspect sensitivity, spectral width and
+beam-broadening corrected spectral width. The time separation between
+the profiles is typically a few minutes. A radar-derived tropopause
+altitude and sharpness is given for each set of profiles. <BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>File naming convention: </B><BR>
+
+<CENTER><FONT
+class="code_black">radar-mst_capel-dewi_YYYYMMDD_AARRR_cart_v3.na</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">AA</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the altitude mode [<FONT
+class="code_black">'st'</FONT>: approximately 2 - 20 km | <FONT
+class="code_black">'m'</FONT>: approximately 58 - 96 km]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">RRR</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the range resolution (m) [150 | 300 | 600 |
+    1200 | 2400 | 4800]</TD>
+  </TR>
+</TABLE>
+i.e. <FONT class="code_black">radar-mst_capel-dewi_20050101_st300_cart_v2.na
+</FONT> contains 300 m resolution Cartesian data over the ST altitude
+    range for 1st January 2005.<BR>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v3/cartesian"><FONT
+  class="code_black">/badc/mst/data/mst-products-v3/cartesian/</FONT></A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+
+<B>Archiving convention: </B><FONT class="code_black">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further explanation.<BR><BR>
+
+<B>File format</B><BR>
+
+NASA-Ames files, with a File Format Index of 2110, are used, i.e. the
+same as for <A href="file_format_v1_cart.html">Version-1</A> and <A
+href="file_format_v2_cart.html">Version-2</A> data products. However,
+there are some small differences in the file contents. Users will
+therefore need to make a few modifications to any software designed
+for dealing with Version-1 or Version-2 products. <BR><BR>
+
+Only those aspects of the file format which are essential for reading
+the data will be described. For a full description of the NASA-Ames
+formats, consult the <A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Gaines
+and Hipskind [1998]</A> document.<BR><BR>
+
+The Cartesian file for 23rd October 2000 will be used as an
+example. Text in green represents actual file contents. Text in red is
+for explanatory purposes only.
+
+<DL><B>Header Lines</B>
+  <DD><B>Line 1: </B><FONT class="code_green">40 2110</FONT><BR>
+    Integer 1 corresponds to the total number of header lines, 
+    <FONT class="code_red">nr_header_lines</FONT>. Note that this may
+    vary from file to file (depending on the amount of optional
+    information  included) and so it is important to read in this number.<BR> 
+    Integer 2 corresponds to the File Format Index.  <BR><BR>
+
+  <DD><B>Line 7: </B><FONT class="code_green">2000 10 23 2006 02 17</FONT><BR>
+    Integers 1 - 3 correspond to the year, month and day on which the
+    observations were made.<BR>
+    Integers 4 - 6 correspond to the year, month and day on which the
+    file was created.<BR><BR>
+
+  <DD><B>Line 11: </B><FONT class="code_green">12</FONT><BR>
+    The number of primary variables (<FONT
+    class="code_red">nr_primary_vars</FONT>).<BR><BR>
+
+   <A name="line13">
+  <DD><B>Line 13: </B><FONT class="code_green">9999.99 9999.99 999.9 99999  999.99 999.99 99.99 99999  99.99 99999  999.99 99999</FONT><BR>
+    Missing data values, in order, for the <FONT
+    class="code_red">nr_primary_vars</FONT> primary variables <A
+    href="#primary">listed below</A>. Greater use is made
+    of missing data values than in the Version-1 files and so users should make
+    sure that they make the appropriate substitutions when they read
+    in the data.<BR><BR>
+
+  <DD><B>Lines 14 - 25</B><BR>
+    The names of the primary variables (<A
+    href="#primary">listed below</A>)<BR><BR>
+
+  <DD><B>Line 26</B><BR>
+    The number of auxiliary variables (<FONT
+    class="code_red">nr_aux_vars</FONT>)<BR><BR>
+
+  <DD><B>Lines 29 - 32</B><BR>
+    Missing data values, in order, for the <FONT
+    class="code_red">nr_aux_vars</FONT> auxiliary variables <A
+    href="#aux">listed below</A>.<BR><BR>
+
+  <DD><B>Lines 29 - 32</B><BR>
+    The names of the auxiliary variables (<A href="#aux">listed
+    below</A>).<BR><BR>
+
+  <DD><B>Line 38: </B><FONT class="code_green">454 130</FONT><BR>
+    Integer 1 corresponds to the number of cycles in the file,
+     <FONT class="code_red">nr_cycles</FONT><BR>
+    Integer 2 corresponds to the number of altitude gates per cycle,
+    <FONT class="code_red">nr_altitude_gates</FONT><BR><BR> 
+</DL>
+
+
+
+<B>Data reading loop</B><BR> 
+After reading the above mentioned lines, wind forward to line <FONT
+class="code_red">(nr_header_lines + 1)</FONT> where the data
+begin. Associated with each cycle of observation there is a single
+line of auxiliary variables followed by <FONT
+class="code_red">nr_altitude_gates</FONT> lines of primary
+variables. The data can therefore be read with a simple loop structure
+of the form (shown here in Fortran syntax):<BR>
+
+<PRE><FONT class="code_red">do cycle_nr = 1,nr_cycles
+  read_auxiliary_variables
+  do gate_nr = 1,nr_altitude_gates
+    read_primary_variables
+  end do
+end do</FONT></PRE>
+
+<A name="aux">
+<B>Reading auxiliary variables</B><BR>
+
+Each auxiliary variable line contains 5 values: the second
+independent variable followed by the 4 auxilliary variables:
+
+<DL>
+  <DD><B>Value 1 (Float): Seconds since 00:00:00 UTC at the start of the
+    cycle (s)</B><BR>
+    Technically speaking this is the second independent variable
+    rather than an auxiliary variable.<BR><BR>
+
+  <DD><B>Value 2 (Integer): Number of altitude gates</B><BR>
+    This is the same as <FONT
+    class="code_red">nr_altitude_gates</FONT> defined before the start
+    of the data and so can be ignored.<BR><BR>
+
+
+  <DD><B>Value 3 (Float): Radar-derived tropopause altitude above mean sea
+    level (m)</B><BR><BR>
+
+  <DD><B>Value 4 (Integer): Radar-derived tropopause sharpness (0 - 3)</B><BR>
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR valign="top">
+    <TD>0</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">corresponds to an indefinite tropopause</TD>
+  </TR>
+  <TR valign="top">
+    <TD>1</TD>
+    <TD></TD>
+    <TD valign="top">corresponds to lower-intermediate sharpness</TD>
+  </TR>
+  <TR valign="top">
+    <TD>2</TD>
+    <TD></TD>
+    <TD valign="top">corresponds to upper-intermediate sharpness</TD>
+  </TR>
+  <TR valign="top">
+    <TD>3</TD>
+    <TD></TD>
+    <TD valign="top">corresponds to a definite tropopause</TD>
+  </TR>
+</TABLE>
+It should be noted that the altitude can have little significance for
+a poorly defined tropoapuse, i.e. for low values of the sharpness
+factor.<BR><BR>
+
+  <DD><B>Value 5 (Float): Median noise power (dB)</B><BR>
+  over all altitude gates for the vertical beam observation.
+</DL><BR>
+
+
+<A name="primary">
+<B>Reading primary variables</B><BR> 
+These lines contain 13 values: the first independent variable (altitude)
+followed by the 12 primary variables. Note that the order is a little
+different to that used for Version-2 data products.<BR>
+
+<DL>
+  <DD><B>Value 1 (Float): Altitude above mean sea level (m)</B><BR>
+    of the centre of the altitude gate. Technically speaking this is
+    the first independent variable rather than a primary variable. <BR><BR>
+
+  <DD><B>Value 2 (Float): Eastward wind (m s-1)</B><BR>
+    or zonal wind velocity<BR><BR>
+
+  <DD><B>Value 3 (Float): Northward wind (m s-1)</B><BR>
+    or meridional wind velocity<BR><BR>
+
+  <DD><B>Value 4 (Float): Complementary-beam wind variability (m s-1)</B><BR><BR>
+
+  <DD><B>Value 5 (Integer): Horizontal wind reliability flag (0 -
+  65535)</B><BR>This covers values 2 - 4. <A href="#rel_flag">See
+  below </A> for an explanation.<BR><BR>
+
+  <DD><B>Value 6 (Float): Upward air velocity (m s-1)</B><BR><BR>
+
+  <DD><B>Value 7 (Float): Vertical beam radar return signal power (dB)</B><BR><BR>
+
+  <DD><B>Value 8 (Float): Vertical beam radar return spectral width (m s-1)</B><BR>
+     P_dB = 10 &times; log10[P_linear]<BR><BR>
+
+  <DD><B>Value 9 (Integer): Vertical beam reliability flag (0 -
+  65535)</B><BR>
+    This covers values 6 - 8. <A href="#rel_flag">See below</A> for an
+  explanation.<BR><BR>
+
+  <DD><B>Value 10 (Float): Beam-broadening corrected vertical beam radar return spectral width (m s-1)</B><BR><BR>
+
+  <DD><B>Value 11 (Float): Beam-broadening corrected vertical beam radar return spectral width reliability flag (0 - 65535)</B><BR>
+    This covers value 10. <A href="#rel_flag">See below</A> for an explanation.<BR><BR>
+
+  <DD><B>Value 12 (Float): Radar return aspect sensitivity (dB)</B><BR><BR>
+
+  <DD><B>Value 13 (Integer): Radar return aspect sensitivity
+  reliability flag (0 - 65535)</B><BR>
+    This covers value 12. <A href="#rel_flag">See below</A> for an
+  explanation.<BR><BR>
+</DL>
+
+<A name="rel_flag">
+<B>Data Reliability flags</B><BR>
+
+The same convention is used for all reliability flags in the Version-3
+files. This differs slightly to that used for Version-2 files. A
+larger range of information is now stored bit-wise in a 16-bit
+integer, with the most significant bit being used as an overall
+indicator of data reliability. Therefore data may be regarded as
+reliable if:<BR><BR>
+
+<CENTER><FONT class="code_black">flag value &gt;=
+32768</FONT></CENTER><BR>
+
+Not all bits are used for all data products.<BR><BR>
+
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR valign="top">
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD align="center" valign="top">Bit number</B></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Information</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">00</TD>
+    <TD></TD>
+    <TD valign="top">1 if a datum is available.</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">01</TD>
+    <TD></TD>
+    <TD valign="top">1 if the peak smoothed power spectral density
+    (PSD) is greater than a set threshold</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">02</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component belongs to a radial chain</B>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">03</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component fits overall radial 
+      continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">04</TD>
+    <TD></TD>
+    <TD valign="top">1 if a secondary signal component belongs to a
+    radial chain</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">05</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component is consistent with
+    uni-directional time continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">06</TD>
+    <TD></TD>
+    <TD valign="top">1 if the signal component is consistent with
+    bi-directional time continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">07</TD>
+    <TD></TD>
+    <TD valign="top">1 if a complementary beam exists</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">08</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    have both passed lower order reliability checks</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">09</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    have both passed lower order reliability checks for the orthogonal
+    azimuth</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">10</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    differ by a set amount</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">11</TD>
+    <TD></TD>
+    <TD valign="top">1 if the complementary horizontal wind components
+    differ by a set amount</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">12</TD>
+    <TD></TD>
+    <TD valign="top">1 if theta_s correction has been applied to the
+    horizontal winds</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">13</TD>
+    <TD></TD>
+    <TD valign="top">1 if the beam-broadening correction of spectral
+    width results in a usable value</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">14</TD>
+    <TD></TD>
+    <TD valign="top">1 if reliable overall, considering the
+    uni-directional time continuity</TD>
+  </TR>
+  <TR valign="top">
+    <TD></TD>
+    <TD align="center">15</TD>
+    <TD></TD>
+    <TD valign="top">1 if reliable overall, considering the
+    bi-directional time continuity</TD>
+  </TR>
+</TABLE>
+<BR><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="sig_proc_version_nrs.html">The differences between
+  signal processing versions</A>
+  <DD><A href="file_contents.html">The contents of other data files</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Full
+       description of the NASA-Ames formats: Gaines and Hipskind [1998]</A>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 17th February 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,299 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for RAL cloud radar data</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR THE RAL 78 GHZ CLOUD RADAR DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR> 
+
+The files contain altitude profiles (typically from 0 - 16 km) of the
+(Rayleigh scattered) radar return signal power. These have neither
+been range corrected nor converted into cloud products. Data are
+typically recorded at intervals of 30 m in altitude and 30 s in
+time.<BR> <A href="file_contents.html">Click here</A> to find out
+about the contents of other files.<BR><BR>
+
+<B>Data availability:</B><BR>
+Data are available from April 2005 until June 2006. There are a
+number of gaps in the dataset Refer to <A
+href="cgi-bin/mstlog_public/mst_event_search.py">Instrument
+performance weblog</A>.<BR><BR>
+
+<B>File naming convention: </B><BR>
+
+<CENTER><FONT
+class="code_black">YYYYMMDD-FN.crd</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a zero-padded 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a zero-padded 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">FN</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the zero-padded two-digit file number [01 -> ]. 
+    There is typically only a single file per day, but a new file
+    is created every time the radar is stopped. As described <A href =
+    "#format"> below</A>, all files for a single day can be
+    concatenated for easy reading.</TD>
+  </TR>
+</TABLE><BR>
+i.e. <FONT class="code_black">20050414-01.crd</FONT> is the first file
+for 14th April 2005 (there are 3 files for this day).<BR>
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention for other data sets.<BR><BR>
+
+<B>File location: </B><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/ral-cloud-radar/original-file-format"><FONT
+  class="code_black">/badc/mst/data/ral-cloud-radar/original-file-format/</FONT></A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+
+<B>Archiving convention: </B><FONT class="code_black">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further 
+explanation.<BR><BR>
+
+<B>Data availability</B><BR> 
+Data are available from 14th April 2005 onwards. However, because the
+instrument was not designed with an active cooling system, it must be
+switched off during hot weather to prevent overheating. Data are not
+therefore available on a continuous basis. The instrument is likely to
+remain at the MST radar site until at least September 2005.<BR><BR>
+
+<A name = "format">
+<B>File format</B><BR> 
+Although there are long-term plans to rewrite the data in
+standard-format files, at present they are only available in the
+original (non-standard format) files, which are nevertheless easy to
+read. Users should note that the data were acquired on an AppleMac,
+which uses a different end-of-line character to that used for
+Linux/Unix and Windows systems. Although this should not present a
+problem for reading the data into a program, some text editors will
+show the file contents on a single line. <A
+href="#eol_character">Click here</A> for more details on how to
+overcome this problem.<BR><BR>
+
+Each file contains 3 header lines beginning with a "#". These do not
+contain any information required for reading the data and so can
+simply be ignored. The spacings of the header lines for file <FONT
+class="code_black">20050414-01.crd</FONT>, shown below, have been
+modified for ease of viewing, and the third line has been shown split
+across two lines:
+
+<PRE><FONT class="code_green">
+#RCR - RAL Cloud Radar Data File, Version 4, (log scan data)
+#Location: MST Radar Site, Capel Dewi
+#Date   Time   Range (km)   Averaging   Sky Temp. (K)   Temp. Mon.
+   Status   <512 tab-separated Scan Data Points></FONT></PRE>
+
+Each subsequent line then contains a single profile of radar return
+signal powers together with the relevant observation parameters, all
+tab-separated ("\t"). The beginning of the first data line for file <FONT
+class="code_black">20050414-01.crd</FONT> is shown in green, with
+descriptors (which do not appear in the file) shown in red:
+
+<PRE><FONT class="code_green">14/4/05   16:15:15   8   1200   -11962.1    -261.7   1   -98.19    -97.79 . . .</FONT><FONT class="code_red">
+ D/M/YY   hh:mm:ss   MR  NAV     SKY         INT     ST   P1        P2
+</PRE>
+
+<DL>where
+  <DD><FONT class="code_red">D/M/YY</FONT> gives the UTC day [1 - 31],
+  month [1 - 12], and 2-digit zero-padded year [00 - 99] of the
+  profile. The day and month are not zero padded<BR><BR>
+
+  <DD><FONT class="code_red">hh:mm:ss</FONT> gives the UTC 2-digit
+    zero-padded hour [00 - 23], minute [00 - 59] and second [00 - 59]
+    of the profile.<BR><BR>
+
+  <DD><FONT class="code_red">MR</FONT> gives the maximum range (km)
+    from the radar [8, 16 or 32] for data recorded in this
+    profile. There are always 512 data points in a profile, so the
+    range (km) from the radar for a given data point number, <FONT
+    class="code_red">point_nr</FONT> [1 - 512], is given by
+    <BR><CENTER><FONT class="code_red">point_nr/512 *
+    MR</FONT></CENTER> Since the radar is located at 50 m above mean
+    sea level, 0.05 km must be added to the range values to give
+    altitude. Care should taken since not all profiles within a given
+    file necessarily share the same value of <FONT
+    class="code_red">MR</FONT>. When the radar shuts down
+    unexpectedly, its default mode on reboot is to interlace 16 and 32
+    km observations.<BR><BR>
+
+  <DD><FONT class="code_red">NAV</FONT> gives the number of chirps
+  averaged together to give this profile.<BR><BR>
+
+  <DD><FONT class="code_red">SKY</FONT> gives the sky temperature
+  measured by the receiver when the transmitter is off. However, it
+  should be ignored as it is completely uncalibrated.<BR><BR> 
+
+  <DD><FONT class="code_red">INT</FONT> gives the internal
+  temperature. However, the monitor is not working at the
+  moment.<BR><BR>
+
+  <DD><FONT class="code_red">ST</FONT> gives the instrument
+  status. This number can be ignored. <BR><BR>
+
+  <DD><FONT class="code_red">P1, P2 . . . P512</FONT> give the 512
+  range-sampled radar return signal powers (dB). Note that:<BR>
+  <CENTER>P_dB = 10 &times; log10[P_linear]</CENTER> The powers have
+  not been range-corrected although they have been scaled according to
+  some instrument parameters, such as output power, receiver
+  sensitivity and antenna gain.
+
+</DL>
+
+Where more than one file exists for a day, the files can be simply 
+concatenated and then read with a routine of the form: 
+<PRE><FONT class="code_red">while not EOF
+  read line
+  if line does not start with a "#"
+    extract observation parameters and power profile from line
+  end 
+end</FONT></PRE>
+
+The data volume of these files is rather large. Although this is not a
+problem for profiles separated at 30 s intervals, when the radar shuts
+down unexpectedly, its default mode on reboot is to record profiles at
+10 s intervals. If this causes memory problems for a file reading
+routine, the simplest solution is to only store data from every third
+profile.<BR><BR>
+
+<A name="eol_character">
+<B>End-Of-Line Character Issues</B><BR> 
+
+The end-of-line character is a carriage return ("\r" or decimal 13) on
+an AppleMac, a line feed ("\n" or decimal 10) on Linux/Unix, but a
+carriage return plus a line feed on Windows. A file reading program
+shouldn't have a problem with this issue and even some text editors,
+such as Emacs, are able to recognise that the file is of Mac origin and
+to display it appropriately. However, other text editors, such as vi,
+effectively display the file as one continuous line.<BR><BR>
+
+The following BASH script will automatically create new files with the
+appropriate EOL character on a Linux/Unix system. The new files have
+the extension "crdu" and the original files are left untouched.
+
+<PRE><FONT class="code_red">#!/bin/bash
+# Shell script to convert AppleMac EOL characters to Linux/Unix EOL
+# characters for RAL cloud radar data files. It leaves the original
+# files, with extensions "crd", as they are and creates new files
+# with extensions "crdu".
+#
+# Intructions for use:
+# 1) Cut and paste this script to file, e.g. "convert.bash", in
+#    the directory where the original files are found
+#
+# 2) Make the script executable, e.g. with the command: 
+#      chmod 750 convert.bash
+#
+# 3) Run the script with the command: 
+#      ./convert.bash
+#
+for orig_name in *.crd
+do
+  new_name=${orig_name}u
+  echo Converting $orig_name to $new_name
+  tr "\r" "\n" < $orig_name > $new_name
+done
+</FONT></PRE><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="ral_cloud_radar.html"> A description of the instrument</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="file_contents.html">The contents of other data files</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 9th August 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,192 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF file contents</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE CONTENTS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***> 
+
+This page only gives details about the latest data products. <A
+href="sig_proc_version_nrs.html">Click here</A> to find out more about
+earlier, deprecated versions of MST radar data products.<BR><BR>
+
+Follow the file format links for fuller details about the file
+contents.<BR> 
+<A href="data_locations.html">Click here</A> to find out about the
+data locations.<BR><BR>
+
+
+<B>PRIMARY DATA PRODUCTS</B><BR>
+<A name="v3_cartesian">
+<B>MST radar Cartesian data files - <A
+href="file_format_v3_cartesian.html">file format page</A>:</B><BR>
+These contain altitude profiles (from approximately 2 - 20 km at 150 m
+intervals) of the eastward, northward and upward components of the
+wind velocity and the following radar return parameters: vertical beam
+signal power, aspect sensitivity, spectral width and beam-broadening
+corrected spectral width. All data have been mapped onto a single
+altitude grid. The profiles are separated at intervals of
+approximately 3 minutes in time. A radar-derived tropopause altitude and
+sharpness is given for each set of profiles. These files are
+recommended for most purposes. <BR><BR>
+
+<A name="v3_radial">
+<B>MST radar radial data files - <A href="file_format_v3_radial.html">file
+format page</A>:</B><BR> 
+
+These contain the radar return parameters (noise power, signal power,
+Doppler shift and spectral width) from which the Cartesian data are
+derived. The data are recorded in the same sequence as the
+observations were made - as a series of observations in different beam
+pointing directions.<BR><BR>
+
+<B>AUXILLIARY DATA PRODUCTS</B><BR>
+<A name="smet">
+<B>Surface meteorological data files: - <A
+href="file_format_surface-met_campbell-sci.html">file format page</A></B><BR>
+These contain surface measurements of temperature, pressure, humidity,
+rainfall, and incoming solar radiation at 10 minute intervals.<BR><BR>
+
+<A name="swind">
+<B>Surface wind data files - <A href="file_format_surface-wind_campbell-sci.html">file
+format page</A>:</B><BR>
+These contain measurements of the eastward and northward components of
+the wind, and the minimum and maximum gust speed factors, measured
+from a 10 m tower. The data are recorded at 1 minute intervals.
+<BR><BR>
+
+<A name="ceilometer">
+<B>Laser ceilometer cloud base data files - <A
+href="file_format_ceilometer_cloud_base.html">file format
+page</A>:</B><BR> These contain measurements of the cloud base
+altitudes for up to three cloud layers. The data are recorded at 1
+minute intervals.<BR><BR>
+
+<A name="camera">
+<B>Sky-camera image files - <A
+href="file_format_sky_camera.html">file format
+page</A>:</B><BR> These contain individual jpg images of the sky
+conditions above the radar site recorded at 1 minute intervals.<BR><BR>
+
+<A name="cloud_radar">
+<B>FMCW cloud radar backscatter data files - <A
+href="file_format_ral_cloud_radar.html">file format
+page</A>:</B><BR> These contain altitude profiles of 78 GHz radar
+backscatter.<BR><BR>
+
+<A name="mo_blwp">
+<B>Met Office boundary-layer wind-profiler data files - <A
+href="file_format_met_off_blwp.html">file format page</A>:</B><BR>
+These contain measurements of horizontal wind speed and direction and
+the following radar return parameters: the radial velocities and
+signal-to-noise ratios along the 3 beam pointing
+directions. Observations are made in a low-mode, covering the
+approximate altitude range 0.1 - 2.0 km at 100 m intervals, and a
+high-mode, covering the approximate altitude range 0.2 - 8.0 km at 200
+m intervals. The data for both modes represent 30 minute consensus
+averages. <BR><BR>
+
+<A name="mo_gps">
+<B>Met Office GPS integrated water vapour data files - <A
+href="file_format_met_off_gps.html">file format page</A>:</B><BR>
+These contain 1 hour averages of the integrated water vapour.<BR><BR>
+
+
+<B>RAW MST RADAR DATA PRODUCTS</B><BR>
+<A name="spec">
+<B>MST radar Doppler spectra files - <A
+href="file_format_v0_ds_dah.html">file format page</A>:</B><BR>
+These contain the spectral data from which the radial data are derived.<BR><BR>
+
+<A name="iq">
+<B>MST radar I&Q files - <A
+href="file_format_v0_iq.html">file format page</A>:</B><BR>
+These contain the in-phase and quadrature components of the radar
+return signals (after coherent integration and pulse decoding have
+been applied) from which the Doppler spectra are derived. They are the
+lowest level MST radar data products and are only recorded upon
+request.<BR><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="instruments.html">Details of the instruments</A>
+</DL>
+
+<A name="external">
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 2nd May 2007</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

@@ -1,0 +1,271 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Announcement 2008-08-29 b</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#internal">EXTERNAL LINKS</A><BR>
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">ANNOUNCEMENT 2008-08-29 b</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>A slight change required for the NERC MSTRF file naming
+convention</B><BR>
+
+The recommended naming convention for files stored by the 
+British Atmospheric Data Centre (BADC) is:<BR><BR>
+
+<CENTER><FONT class="code_red">
+instrument_location_YYYYMMDD[hh][mm][ss][_extra].ext
+</FONT></CENTER>
+
+where
+<DL>
+  <DD><FONT class="code_red">instrument</FONT> is the name of the instrument
+  <DD><FONT class="code_red">location</FONT> is the name of the
+  place where the observations were made (not of the organisation
+  which made the observations)
+   <DD><FONT class="code_red">YYYYMMDD</FONT> is a string of 8
+  (numerical) characters representing the date (year-month-day) on
+  which the observations were made
+  <DD><FONT class="code_red">[hh][mm][ss]</FONT> up to three more strings
+  of 2 (numerical) characters each can optionally be used to represent
+  a time time of day (hours-minutes-seconds)
+  <DD><FONT class="code_red">extra</FONT> is an optional string of
+  characters representing additional information about the data stored
+  in the file, e.g. range resolution
+  <DD><FONT class="code_red">ext</FONT> is the file name extension, which
+  is typically <FONT class="code_red">nc</FONT> to represent a netCDF file
+  or <FONT class="code_red">na</FONT> to represent a NasaAmes file
+</DL>
+<A href="http://badc.nerc.ac.uk/help/file_naming.html">Click here</A>
+for more details on the BADC website.<BR><BR>
+
+Although this convention has been followed by all NERC MST Radar
+Facility files created in the past few years, the BADC have slightly
+modified their recommendation for the details included in the <FONT
+class="code_red">instrument</FONT> field. This should now begin with
+the institute name - which is <FONT class="code_red">nerc-mstrf</FONT>
+in the case of the NERC MST Radar Facility - in order to be able to
+differentiate between files of a similar type which are created by
+different groups as part of a field campaign. A list of accepted
+instrument and location names can be found <A
+href="http://badc.nerc.ac.uk/cgi-bin/filespec_doc?id=INSTRUMENTAL&hfile=1">
+here</A>.
+<BR><BR>
+
+A some point in the near future (probably after October 2008), we will
+switch over to using the enhanced <FONT
+class="code_red">instrument</FONT> names for all new files. The
+pre-existing files will retain their older-format names for the time
+being - although they too will eventually be converted. A list of old
+and probable new file names is given below.<BR><BR>
+
+<B>Please inform the facility as soon as possible if this slight change
+in file names will cause you any disruption</B>, e.g. because you have a
+script to automatically download or process files. We will, to some
+extent, be able to delay the date of witching. We will, of course,
+give further warning to all users when the change is imminent.<BR><BR>
+
+
+Click on the one of the links below to find out more about the file
+type and contents.<BR> 
+<FONT class="green">The text in green (second line) gives the
+pre-existing file naming convention.</FONT><BR>
+<FONT class="red">The text in red (third line) gives the
+proposed new file naming convention.</FONT><BR>
+Proposed file naming conventions which are preceded by a * may be
+further modified to meet the BADC's recommendation that there is at
+most a single <FONT class="code_black">extra</FONT> field in the file
+name. This may contain several components, each of which is separated
+by a minus (-) sign but not by an underscore (_). <BR>
+
+
+
+<TABLE align="center" border="0"
+       cellpadding="10" cellspacing="10" width="100%">
+
+  <TR><TD><A href="file_format_v3_cartesian.html">MST Radar Cartesian
+    data</A><BR>
+    <FONT class="code_green">
+    radar-mst_capel-dewi_YYYYMMDD_altitude-mode_cartesian_v3.nc</FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-radar-mst_capel-dewi_YYYYMMDD_altitude-mode_cartesian_v3.nc
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_v3_radial.html">MST Radar radial data</A><BR>
+    <FONT class="code_green">
+    radar-mst_capel-dewi_YYYYMMDD_altitude-mode_radial_v3.nc</FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-radar-mst_capel-dewi_YYYYMMDD_altitude-mode_radial_v3.nc</FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_mstr_spectra_netcdf.html">MST Radar
+    spectral data - tar files</A><BR>
+    <FONT class="code_green">
+    radar-mst_capel-dewi_YYYYMMDD_hhmm_spectra.tar</FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-radar-mst_capel-dewi_YYYYMMDD_hhmm.tar</FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_mstr_spectra_netcdf.html">MST Radar
+    spectral data - individual files</A><BR>
+    <FONT class="code_green">
+    radar-mst_capel-dewi_YYYYMMDDhhmmss_YYYYMMDDhhmmss_spectra.nc</FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-radar-mst_capel-dewi_YYYYMMDDhhmmss_YYYYMMDDhhmmss_spectra.nc
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_surface-met_campbell-sci.html">
+    Campbell-Scientific surface meteorological data</A><BR>
+    <FONT class="code_green">met-sensors_capel-dewi_YYYYMMDD.na
+    </FONT><BR>
+    <FONT class="code_red">
+     nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_campbell-sci.na
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_surface-wind_campbell-sci.html">
+    Campbell-Scientific surface wind data</A><BR>
+    <FONT class="code_green">wind-sensors_frongoch_YYYYMMDD.na</FONT><BR>
+    <FONT class="code_red">
+     nerc-mstrf-wind-sensors_frongoch_YYYYMMDD_campbell-sci.na
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_wxt510_ptu.html">
+    Vaisala WXT510 surface meteorological ptu data</A><BR>
+    <FONT class="code_green">no pre-existing file names</FONT><BR>
+    <FONT class="code_red">
+     nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_wxt510-ptu.nc
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_wxt510_precip.html">
+    Vaisala WXT510 surface meteorological ptu data</A><BR>
+    <FONT class="code_green">no pre-existing file names</FONT><BR>
+    <FONT class="code_red">
+     nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_wxt510-precip.nc
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_wxt510_wind.html">
+    Vaisala WXT510 surface wind data</A><BR>
+    <FONT class="code_green">no pre-existing file names</FONT><BR>
+    <FONT class="code_red">
+     nerc-mstrf-wind-sensors_capel-dewi_YYYYMMDD_wxt510.nc
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_ceilometer_cloud_base.html">
+    Vaisala LD40 Ceilometer cloud base data</A><BR>
+    <FONT class="code_green">lidar-ld40_capel-dewi_YYYYMMDD_cloud-base.na
+    </FONT><BR>
+    <FONT class="code_red">
+    nerc-mstrf-lidar-ld40_capel-dewi_YYYYMMDD_cloud-base.na</FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_sky_camera.html">Sky-camera images -
+    tar files</A><BR>
+    <FONT class="code_green">sky-camera_capel-dewi_YYYYMMDD_hhmm.tar
+    </FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-sky-camera_capel-dewi_YYYYMMDD_hhmm.tar
+    </FONT>
+  </TD></TR>
+
+  <TR><TD><A href="file_format_sky_camera.html">Sky-camera images -
+    individual files</A><BR>
+    <FONT class="code_green">sky-camera_capel-dewi_YYYYMMDD_hhmm.jpg
+    </FONT><BR>
+    <FONT class="code_back">*</FONT><FONT class="code_red">
+    nerc-mstrf-sky-camera_capel-dewi_YYYYMMDD_hhmm.jpg
+    </FONT>
+  </TD></TR>
+
+</TABLE>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A href="http://badc.nerc.ac.uk/help/file_naming.html">The BADC file
+  naming convention (BADC website)
+  <DD><A
+  href="http://badc.nerc.ac.uk/cgi-bin/filespec_doc?id=INSTRUMENTAL&hfile=1">
+  Accepted instrument and location names (BADC website)<BR><BR>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 29th August 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

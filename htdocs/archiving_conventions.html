@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>NERC MSTRF: Data archiving conventions</title>
+    <link rel="stylesheet" type="text/css" href="style_201312.css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <a href="http://www.nerc.ac.uk"><img src="LOGOS/logo_nerc_2013_long.png"
+					   alt="" /></a>
+      <img src="LOGOS/mst_button.png" alt="" />
+      The NERC MST Radar Facility at Aberystwyth
+      <h1>Data archiving conventions</h1>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="announcements.html">Announcements</a></li>
+	<li><a href="contacts.html">Contacts</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="instruments.html">Instruments</a></li>
+        <li><a href="plots.html">Plots</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="site.html">Radar Site</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="principles.html">Wind-Profiler Principles</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+<!*** Beginning of page content ***>
+
+<h2>Introduction</h2>
+<p>The preferred convention, for datasets stored on the British
+Atmospheric Data Centre (BADC), is to have a single file per day per
+data type. Each data type is stored within a separate directory, which
+has subdirectories by year and by month, and even sometimes by day,
+i.e. as:</p>
+
+<CENTER>
+<FONT class="code_black">/badc/dataset-name/data/data-type-name/YYYY/MM/DD/
+</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">dataset-name</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is the name of the BADC dataset ('<FONT
+    class="code_black">mst</FONT>' in this case)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">data-type-name</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the data type name</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 4-digit year [1900 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 31]</TD>
+  </TR>
+</TABLE><BR>
+
+<A name="standard">
+<h2>Implementation of this convention within the MST radar dataset</h2>
+
+<p>This convention has only been applied within the more recently created
+data areas of the MST radar dataset. Nevertheless, a similar
+convention (which only extends as far as having subdirectories by
+year) has been used for the older data areas. </p>
+
+<p><a href="http://badc.nerc.ac.uk/data/ufam/common_names.html">Full details of
+    BADC common instrument and location names can be found here.</a></p>
+
+
+<!*** End of page content ***>
+    </div>
+
+    <div class="footer">
+      <hr />
+      Page maintained by <a href="contacting_facility_staff.html">David
+	Hooper</a>. Last updated 13th December 2013.
+    </div>
+  </body>
+</html>

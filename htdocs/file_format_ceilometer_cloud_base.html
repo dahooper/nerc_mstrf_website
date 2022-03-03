@@ -1,0 +1,296 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Ceilometer cloud base data file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR LD40 LASER CEILOMETER CLOUD BASE DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+
+<B>File contents -</B> <A href="file_contents.html">Click here</A> to
+find out about the contents of other files.<BR>
+The files contain time series of cloud base altitudes (and of laser
+penetration depths) for up to three cloud layers. The data were
+recorded at 1 minute intervals from a Vaisala LD40 laser ceilometer
+operating at the NERC MST Radar site. <A
+href="laser_ceilometer.html">Refer to the instrument page</A> for full
+details of the the measurement procedure and a description of the data
+products.<BR><BR>
+
+<B>Data availability:</B><BR>
+Data are available from 8th August 2005 to the present. There are a
+few gaps in the dataset owing to problems with the instrument and with
+the data acquisition computer. Refer to <A
+href="cgi-bin/mstlog_public/mst_event_search.py">Instrument
+performance weblog</A> for further details.<BR><BR>
+
+<B>File naming convention: </B><A
+href="file_naming_conventions.html">Click here</A> to find out about
+the file naming convention used for other files.<BR><BR>
+
+<CENTER><FONT
+class="code_black">lidar-ld40_capel-dewi_YYYYMMDD_cloud-base.na</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [2005 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+</TABLE><BR>
+
+<B>File location - </B><A href="data_locations.html">Click here</A> to
+find out about the location of other files.<BR><BR>
+
+
+<CENTER><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/laser-ceilometer"><FONT
+  class="code_black">/badc/mst/data/laser-ceilometer/</FONT></A></CENTER><BR>
+
+
+<B>Archiving convention -</B><A href="archiving_conventions.html">Click
+here</A> to find out about the archiving conventions used for other
+files<BR><BR>
+
+<CENTER><FONT class="code_black">YYYY/MM</FONT><BR></CENTER><BR>
+
+
+<B>File format -</B><A href="file_formats.html">Click here</A> to find
+out about the formats used for other files.<BR>
+
+Data are written in NASA-Ames (ASCII) files with a File Format Index
+of 1001. For a complete description of the NASA-Ames file formats,
+consult the <A href="
+http://badc.nerc.ac.uk/help/formats/NASA-Ames/G-and-H-June-1998.html">Gaines
+and Hipskind [1998]</A> document. Only those aspects of the file which
+are essential for reading the data are described below. <BR><BR>
+
+The file for 1st January 2006 will be used as an example. Text in
+green represents actual file contents. Text in red is for explanatory
+purposes only.<BR>
+
+
+<DL><B>Header Lines</B>
+  <A name="line1">
+  <DD><B>Line 1: </B><FONT class="code_green">204 1001</FONT><BR>
+    Integer 1 corresponds to the total number of header lines,
+    <FONT class="code_red">nr_header_lines</FONT><BR>
+    Integer 2 corresponds to the File Format Index<BR><BR>
+
+  <DD><B>Line 7: </B><FONT class="code_green">2006 01 01 2006 09 05</FONT><BR>
+    Integers 1 - 3 correspond to the year, month and day on which the
+    observations were made.<BR>
+    Integers 4 - 6 correspond to the year, month and day on which the
+    file was created.<BR><BR>
+
+  <DD><B>Line 10: </B><FONT class="code_green">10</FONT><BR>
+    The number of primary variables (<FONT
+    class="code_red">nr_primary_vars</FONT>).<BR><BR>
+
+   <A name="line12">
+  <DD><B>Line 13: </B><FONT class="code_green">99999.9 99999.9 99999.9 99999.9 99999.9 99999.9 99999.9 99999.9 9 99999999</FONT><BR>
+    Missing datum values, in order, for the primary variables - <A
+    href="#primary">see below</A>. Missing datum values tend to imply
+    that no information could be derived for a particular cloud layer,
+    e.g. because the laser pulses could not penetrate a lower layer or
+    because no clouds existed. <A href="#status_flag">Refer to the
+    instrument status flag</A> description below for details on how to
+    identify a lack of observations.<BR><BR>
+
+  <DD><B>Lines 13 - 22</B><BR>
+    The names of the primary variables, in order, as <A
+    href="#primary">described below</A><BR><BR>
+
+  <DD><B>Line 27: </B><FONT class="code_green">1440</FONT><BR> The
+    number of data lines (<FONT class="code_red">nr_data_lines
+    </FONT>) within the file.<BR><BR>
+
+  <DD><B>Lines 28 - <FONT class="code_red">nr_header_lines</FONT>: </B><BR>
+    These lines contain optional header information describing the
+    instrument and the data product definitions. Some of this information is
+    repeated below in association with the relevant data products but
+    refer also to the <A href="laser_ceilometer.html">instrument page</A>.
+  </DL><BR>
+
+<B>Data reading loop</B><BR>
+
+After reading the above mentioned lines, wind forward to line <FONT
+class="code_red">(nr_header_lines + 1)</FONT> where the data
+begin. Since the number of header lines may change from file to file,
+it is important to read <FONT class="code_red">nr_header_lines</FONT>
+from <A href="#line1">line 1</A> rather than assuming that it is
+always equal to 204. The data can be read with a simple loop structure
+of the form (shown here in Fortran syntax):<BR>
+
+<PRE><FONT class="code_red">do data_line_nr = 1,nr_data_lines
+  read_data_line
+end do</FONT></PRE>
+
+<A name="primary">
+<B>Reading a data line</B><BR>
+The data lines contain 11 values: the first independent variable
+(time) followed by the 10 primary variables. The first 10 data lines
+from the file for 1st January 2006 are
+shown by way of example:<BR> 
+<PRE><FONT class="code_green">    0.0   800.0 99999.9 99999.9   170.0 99999.9 99999.9  1060.0   875.0 0 00000000
+   60.0   620.0   685.0 99999.9   235.0   170.0 99999.9   945.0   790.0 0 00000000
+  120.0   745.0 99999.9 99999.9   135.0 99999.9 99999.9   975.0   830.0 0 00000000
+  180.0   650.0 99999.9 99999.9   150.0 99999.9 99999.9   895.0   740.0 0 00000000
+  240.0   605.0 99999.9 99999.9   135.0 99999.9 99999.9   835.0   670.0 0 00000000
+  300.0   610.0 99999.9 99999.9   145.0 99999.9 99999.9   850.0   685.0 0 00000000
+  360.0   635.0 99999.9 99999.9   280.0 99999.9 99999.9  1005.0   785.0 0 00000000
+  420.0   535.0 99999.9 99999.9   200.0 99999.9 99999.9   825.0   625.0 0 00000000
+  480.0   745.0   865.0 99999.9   215.0    90.0 99999.9  1050.0   925.0 1 00000000
+  540.0   500.0   625.0  1415.0   230.0   100.0    90.0  1600.0  1495.0 0 00000000</FONT></PRE>
+
+<DL>
+  <DD><B>Value 1: Time (s) since 00:00:00 UTC for the day in question</B>.
+    Note that the time stamps for the data are derived from the
+    instrument's internal clock - not from that of the data
+    acquisition computer. They contain fields for hours and minutes
+    but not for seconds. Only one of the 4 messages for each minute is
+    saved. The instrument's internal clock can only be synchronised
+    manually. Since this requires a special connection to be made via
+    the serial service interface, it is only done on an infrequent
+    basis. The accuracy of the internal clock's time decreases with
+    increasing time.</B><BR><BR>
+
+  <A name="value2">
+  <DD><B>Value 2: Cloud base altitude of first cloud layer
+  (m)</B>. Altitude implies above mean sea level. Accuracy: +/- 5
+  m. <BR><BR>
+
+  <DD><B>Value 3: Cloud base altitude of second cloud layer
+  (m)</B>. Accuracy: +/- 5 m. <BR><BR>
+
+  <DD><B>Value 4: Cloud base altitude of third cloud layer
+  (m)</B>. Accuracy: +/- 5 m. <BR><BR>
+
+  <A name="value5">
+  <DD><B>Value 5: Laser penetration depth into first cloud layer
+  (m)</B>. Accuracy: +/- 5 m. <BR><BR>
+
+  <DD><B>Value 6: Laser penetration depth into second cloud layer
+  (m)</B>. Accuracy: +/- 5 m. <BR><BR>
+
+  <DD><B>Value 7: Laser penetration depth into third cloud layer
+  (m)</B>. Accuracy: +/- 5 m. <BR><BR>
+
+  <DD><B>Value 8: Maximum possible altitude of cloud detection
+  (m).</B> No information may be derived for any clouds which may
+  exist above this altitude. <BR><BR>
+
+  <DD><B>Value 9: Estimated visibility in air looking vertically
+ (m)</B><BR><BR>
+
+  <DD><B>Value 10: Estimated precipitation rate index (0 -
+  3)</B>, where 0 implies no precipitation and 3 implies heavy
+  precipitation. <BR><BR>
+
+  <A name="status_flag">
+  <DD><B>Value 11: Instrument status flag (00000000 - 99999999)</B>.
+   A value of 99999999, for this 8 digit number, implies that no
+  observations were made. See the <A
+  href="laser_ceilometer_status_flag.html">instrument status flag web
+  page</A> for an explanation of other values.<BR><BR> </DL><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="laser_ceilometer.html">Description of the instrument,
+  of the measurement procedure and of the meaning of the data products.</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+    <DD><A
+    href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/surface-met">Location
+    of surface meteorological data files on the BADC</A>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 5th September 2006</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

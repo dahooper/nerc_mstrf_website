@@ -1,0 +1,307 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF: spectral signal processing</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top"></A>
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">V3 MST RADAR SIGNAL PROCESSING: SPECTRA</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***> 
+<B>Introduction</B><BR>
+
+The figure below shows a typical Doppler spectrum observed by the NERC
+MST Radar. Power Spectral Densities (PSDs) are shown in both log
+(i.e. dB) and self-normalised linear units as each panel emphasises
+slightly different features. They are stored in dB units in the
+spectral files (<FONT class="code_red">PSD_dB</FONT>) but must be
+converted into linear units (<FONT
+class="code_red">PSD_linear_units</FONT>) before processing is carried
+out:<BR><BR>
+
+<CENTER><FONT class="code_red">
+PSD_dB = 10.0 * log10(PSD_linear_units)<BR><BR>
+PSD_linear_units = 10.0^(PSD_dB/10.0)</FONT></CENTER><BR>
+
+Positive values of Doppler velocity imply motion away from the
+radar. The number of velocity bins within a spectrum is given in the
+spectral and radial data files by by the variable <FONT
+class="code_blue">number_of_complex_samples_in_discrete_fourier_transform</FONT>,
+abbreviated here as <FONT class="code_red">N_DFT</FONT>. Velocity bin
+numbers (<FONT class="code_red">b</FONT>) run from <FONT
+class="code_red">(-N_DFT/2)</FONT> to <FONT class="code_red">(N_DFT/2
+- 1)</FONT>. The corresponding Doppler velocity values (<FONT
+class="code_red">v_Doppler</FONT>), which are stored by the spectral
+file variable <FONT class="code_blue">doppler_velocity</FONT>, are
+given by:<BR><BR>
+
+<CENTER><FONT class="code_red">v_Doppler(b) = b * delta_v_Doppler
+</FONT></CENTER><BR>
+
+where the spacing between velocity bins (<FONT
+class="code_red">delta_v_Doppler</FONT>) is stored by the radial file
+variable <FONT class="code_blue">spectral_velocity_bin_spacing</FONT>.
+Note that spectra are cyclic about the Nyquist velocity, i.e. about
+velocity bin <FONT class="code_red">(-N_DFT/2)</FONT>. <BR><BR>
+
+Observed spectra typically consist of a single (quasi-Gaussian) radar
+return signal component (although there are sometimes additional
+signal components) superimposed on a background of white
+noise. The latter implies quasi-constant PSD values at all velocity
+bins.
+
+<CENTER><IMG src="FIGS/illustration-of-principal-spectral-parameters_a.png">
+</CENTER><BR>
+
+
+<B>Removal of dc contamination</B><BR>
+
+DC biases in the raw radar samples lead to contamination of the PSD
+for the zero-Doppler-velocity velocity bin, i.e. at <FONT
+class="code_red">b = 0</FONT>. This must be removed from the recorded
+spectra before processing can begin. If a Hanning rather than a
+Rectangular window is used in deriving the spectra (this choice is
+recorded by the spectral and radial file variable <FONT
+class="code_blue">data_weighting_window_index</FONT>), the
+contamination is additionally spread to the velocity bins to either
+side, i.e. it affects velocity bins from <FONT class="code_red">(b =
+-1)</FONT> to <FONT class="code_red">(b = +1)</FONT>. The
+contamination is typically removed by replacing the PSDs with values
+linearly interpolated between those at the velocity bins to either
+side of affected region. The dc contamination has been removed from
+the spectrum shown above.
+
+
+<BR><BR><BR>
+<B>Determination of (mean) noise PSD</B><BR>
+
+The (mean) noise PSD (<FONT class="code_red">PSD_noise</FONT>) is
+determined by the method of <A href="#hildebrand74">Hildebrand and
+Sekhon (1974)</A>. It is shown by the magenta line in the figure
+above. It can typically only be seen in the log plots as it tends to
+be very small compared to the peak signal PSD. The noise power in
+linear units (<FONT class="code_red">P_noise_linear_units</FONT>) is
+simply the noise PSD integrated across the width of the
+spectrum:<BR><BR>
+
+<CENTER><FONT class="code_red">
+P_noise_linear_units = PSD_noise_linear_units * N_DFT</FONT></CENTER><BR>
+
+This is stored in dB units by the radial file variable <FONT
+class="code_blue">noise_power</FONT> (abbreviated here as <FONT
+class="code_red">P_noise_dB</FONT>). The noise PSD in dB units can
+therefore be derived from the recorded noise power as:<BR><BR>
+
+<CENTER><FONT class="code_red">
+PSD_noise_dB = P_noise_dB - 10.0*log10(N_DFT)</FONT></CENTER><BR>
+
+For spectra derived using a Rectangular window, leakage from strong
+signal components can affect all velocity bins - see e.g. <A
+  href="#hooper99">Hooper (1999)</A>. This leads to an
+overestimate of the noise level, which is otherwise expected to be
+constant at all range gates. A better estimate of noise level can
+therefore be obtained by taking the median value over all range
+gates. The noise power is dominated by broad-band lower-VHF
+galactic radiation, which undergoes a distinct quasi-diurnal variation
+of almost 4 dB amplitude. 
+
+<BR><BR><BR>
+<B>Determination of signal component velocity bin limits</B><BR> 
+
+A smoothed (linear) spectrum is derived by applying a 5-velocity-bin
+running-mean (cyclically) to the observed PSDs. The velocity bin
+limits of the signal component are determined by first locating the
+peak value of the smoothed PSD. The ratio of this value to the mean
+noise PSD, in dB units, is recorded by the radial file variable <FONT
+class="code_blue">peak_smooth_psd_to_noise</FONT>. Note that this is a
+measure of detectability and is not the same as the signal-to-noise
+ratio, which is typically defined as the ratio of the signal power to
+the noise power. The smoothed PSD envelope is followed out to either
+side of this peak location until:
+
+<UL> 
+  <LI>the value drops below the noise PSD<BR><BR>
+
+  <LI>the value drops below 0.01 of the peak smoothed PSD value, if
+  this is reached before dropping below the noise PSD. This condition
+  is particularly important where use of a Rectangular window has led
+  to spectral leakage. It prevents low PSD values at the edges of signal
+  components from having a disproportionately large effect on the
+  spectral width values. Such low values would have a negligible
+  contribution to the total signal power power - see e.g. <A
+  href="#hooper99">Hooper (1999)</A>.<BR><BR>
+
+  <LI>it encounters a local minimum for which the smoothed PSD value
+  is less than 0.1 of the peak smoothed PSD value. This condition is
+  important for resolving partially-overlapping clear-air
+  (i.e. desirable) and unwanted signal components.  
+</UL><BR>
+
+These (inclusive) limits - recorded by the radial file variables <FONT
+class="code_blue">first_velocity_bin_number</FONT> and <FONT
+class="code_blue">final_velocity_bin_number</FONT>, but abbreviated
+here as <FONT class="code_red">b1</FONT> and <FONT
+class="code_red">b2</FONT> - are shown by the blue lines in the figure
+above. 
+
+During the process of signal identification, the observed spectrum is
+first extended with a copy of itself being wrapped around the Nyquist
+velocity bin to either side, i.e. <FONT class="code_red">(b =
+-N_DFT/2)</FONT> and <FONT class="code_red">(b =
++N_DFT/2)</FONT>. A partially velocity-aliased signal component,
+i.e. one which is apparent at both Doppler velocity bin extremes of
+the original spectrum, is indicated in the radial files by having
+ones of its velocity bin limits being extended beyond the expected
+range of <FONT
+class="code_red">(-N_DFT/2)</FONT> to <FONT class="code_red">(N_DFT/2 -
+1)</FONT>.<BR><BR><BR>
+
+
+<B>Calculation of the principal parameters for the signal component</B><BR>
+
+The three lowest-order moments (<FONT class="code_red">m_0</FONT>,
+<FONT class="code_red">m_1</FONT>, and <FONT
+class="code_red">m_2</FONT>) of the signal component are calculated
+from the the PSDs (in linear units) within the velocity bin limits
+which have been:
+
+<UL> 
+  <LI>Corrected for noise, i.e. by subtracting the mean noise PSD
+  <LI>Compensated for the low-pass filtering effect of coherent
+  integration by multiplying them by a factor <FONT
+  class="code_red">CIC</FONT> - see. e.g. <A href="#rastogi83">Rastogi
+  (1983)</A>. This has a value of 1.0 at <FONT class="code_red">(b =
+  0)</FONT> and of up to a few dB at the edges of the spectrum.:
+</UL>
+
+<CENTER><IMG src="EQNS/eqn_coherent-integration-compensation-factor.png">
+</CENTER><BR>
+
+Following <A href="#woodman74">Woodman and Guillen (1974)</A> or <A
+href="#woodman85">Woodman (1985)</A>:<BR><BR>
+
+<CENTER><IMG src="EQNS/eqn_lowest-order-spectral-moments.png"></CENTER>
+<BR>
+
+The signal component power (<FONT class="code_red">P_signal</FONT>),
+radial velocity (<FONT class="code_red">v_R</FONT>) and spectral width
+(<FONT class="code_red">&sigma;_w</FONT>) are given by:<BR><BR>
+
+<CENTER><IMG src="EQNS/eqn_signal-component-parameters.png"></CENTER>
+<BR>
+
+They are stored by the radial file variables <FONT
+class="code_blue">signal_power</FONT>, <FONT
+class="code_blue">radial_velocity</FONT>, and <FONT
+class="code_blue">spectral_width</FONT>, respectively. These can be
+used to define the magnitude, the central location and the standard
+deviation, respectively, of an equivalent Gaussian signal component -
+shown by the orange feature in the figure below - which give rise to
+the same values of the three lowest-order moments.
+
+<CENTER><IMG src="FIGS/illustration-of-principal-spectral-parameters_b.png">
+</CENTER>
+<BR>
+
+<UL><B>References:</B>
+  <LI><A name="hildebrand74">P. H. Hildebrand and R. S. Sekhon, Objective
+    determination of the noise level in Doppler spectra Hildebrand,
+    <I>J. Applied. Met., 13,</I> 808-811, 1974
+  <LI><A name="hooper99">D. A. Hooper, Signal and noise level
+    estimation for narrow spectral width returns observed by the
+    Indian MST radar, <I>Radio Sci., 34</I>, 859-870, 1999
+  <LI><A name="rastogi83">P. K. Rastogi, A note on the use of coherent
+    integration in periodogram analysis of MST radar signals,
+    <I>Handbook for MAP, 9</I>, edited by B. Edwards,  Sci. Comm. on
+    Sol.-Terr. Phys. Secr., Boulder, Colorado, pp 509-512, 1983.
+  <LI><A name="woodman85">R. F. Woodman, Spectral moment estimation in
+    MST radars, <I>Radio Sci., 20</I>, 1185-1195, 1985
+  <LI><A name="woodman74">R. F. Woodman and A. Guillen, Radar
+    observations of winds and turbulence in the stratosphere and
+    mesosphere, <I>J. Atmos. Sci., 31</I>, 493-505, 1974
+</UL><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>  
+  <DD><A href="file_format_mstr_spectra_netcdf.html">Description of
+  spectral data files</A>
+  <DD><A href="file_format_v3_radial.html">Description of radial data
+  files</A>
+  <DD><A href="file_format_v3_cartesian.html">Description of Cartesian
+  data files</A>
+</DL>
+
+
+</DL>
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="top">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 12th September 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

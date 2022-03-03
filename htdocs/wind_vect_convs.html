@@ -1,0 +1,217 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>Wind vector notation conventions</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="11" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="3" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">WIND VECTOR NOTATION CONVENTIONS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD colspan="3" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" rowspan="8" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" colspan="2" valign="top">
+
+The horizontal wind vector, <B>v<SUB>H</SUB></B>, is represented by
+the bold black line in the diagram below; <B>i</B> and <B>j</B>
+represent unit vectors towards East and North, respectively. Equations
+for converting horizontal wind vector information between the
+different notation conventions are given <A href="#eqns">at the bottom
+of this page</A>.<BR>
+
+<CENTER><IMG alt="wind vector notation conventions diagram"
+             border="0" src="FIGS/wind_vect_convs.png">
+</CENTER>
+
+<P>The wind vector can be expressed either in terms of orthogonal
+veocity components, where:</P>
+
+<DL>
+  <DD><FONT class="red">u</FONT> is the <FONT class="red">ZONAL
+      VELOCITY</FONT>, i.e. the component of the horizontal wind <FONT
+      class="red">TOWARDS EAST</FONT>.
+  <DD><FONT class="red">v</FONT> is the <FONT
+      class="red">MERIDIONAL VELOCITY</FONT>, i.e. the component of
+      the horizontal wind <FONT class="red">TOWARDS NORTH</FONT>.<BR>
+  <DD>(the symbol <FONT class="red">w</FONT> is used for the <FONT
+      class="red">VERTICAL VELOCITY</FONT>, which is typically +ve for
+      an upward velocity).
+</DL>
+
+<P>or as a wind speed, i.e. <B>| v<SUB>H</SUB> |</B>, and
+direction. Particular care should be taken when dealing with the
+direction since two opposite conventions are commonly used:</P>
+
+<DL>
+  <DD><FONT class="blue">&phi;<SUB>VECT</SUB></FONT> is the <FONT
+      class="blue">WIND VECTOR AZIMUTH</FONT>, i.e. the <FONT
+      class="blue">direction TOWARDS which the wind is
+      blowing</FONT>. It increases clockwise from North when viewed
+      from above. Terms such as northward, eastward etc. imply wind
+      vector azimuths.<BR><BR>
+  <DD><FONT class="green">&phi;<SUB>MET</SUB></FONT> is the <FONT
+      class="green">METEOROLOGICAL WIND DIRECTION</FONT>, i.e. the
+      <FONT class="green">direction FROM which the wind is
+      blowing</FONT>. It also increases clockwise from North when
+      viewed from above. Terms such as northerly, easterly etc. imply
+      meteorological wind directions.
+</DL>
+
+<P>These directions are typically expressed in units of degrees,
+&phi;(deg), but can either be in the interval -180&deg; to +180&deg;
+or 0&deg; to 360&deg;. The wind vector azimuth and meteorological
+convention direction are related by:</P>
+
+<CENTER><IMG alt="equation" border="0" src="EQNS/eqn_phi_vect_to_met.jpg">
+</CENTER>
+
+<P>subtracting 360&deg; where appropriate in order to keep the values
+within the desired range. Note that when writing a computer program to
+convert between speed/direction and orthogonal component conventions,
+the use of trigonometric functions assumes that angles are expressed
+in units of radians, &phi;(rad), rather than degrees (pocket
+calculators can typically perform trigonometric functions on angles
+expressed in either units). Directions are converted from units of
+degrees to radians through the relationship:</P>
+
+<CENTER><IMG alt="equation" border="0" src="EQNS/eqn_deg_to_rad.jpg"></CENTER>
+
+<P>Moreover, the familiar expressions relating the x component of a
+vector to the cosine of its angle and the y component to its sine
+imply use of:<P>
+
+<DL>
+  <DD><FONT class="red">&phi;<SUB>POLAR</SUB></FONT> which is the <FONT
+      class="red">WIND VECTOR POLAR ANGLE</FONT> in two-dimensions. It
+      increases ANTICLOCKWISE FROM the +ve x-axis, i.e. from EAST;
+      this in the opposite sense to the wind vector azimuth and the
+      meteorological wind direction, and from a different
+      origin.
+</DL>
+
+<P>When converting back from orthogonal components to speed and
+direction, the <B>atan2(y,x)</B> function should be used in order to
+avoid ambiguity in the returned value of the wind vector polar
+angle. The expressions below can be used to convert horizontal wind
+vector information directly between the orthogonal component and
+speed/direction conventions without the need for first converting
+directions between wind the vector polar angle and the wind vector
+azimuth or meteorological wind direction.</P>
+
+<A name="eqns">
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="center" valign="top">
+      <FONT class="blue"><B>Wind Vector Azimuth</B></FONT>
+    </TD>
+
+    <TD align="center" valign="top">
+      <FONT class="green"><B>Meteorological Wind Direction</B></FONT>
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="center">
+      <IMG src="EQNS/eqn_phi_vect_to_uv.jpg">
+    </TD>
+    <TD align="center">
+      <IMG src="EQNS/eqn_phi_met_to_uv.jpg">
+    </TD>
+  </TR>
+
+  <TR><TD align="left" colspan="2" height="30" valign="top"></TD></TR>
+
+  <TR>
+    <TD align="center">
+      <IMG src="EQNS/eqn_uv_to_phi_vect.jpg">
+    </TD>
+    <TD align="center">
+      <IMG src="EQNS/eqn_uv_to_phi_met.jpg">
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="center" colspan="2">
+      <IMG src="EQNS/eqn_uv_to_speed.jpg">
+    </TD>
+  </TR>
+
+  <TR>
+    <TD align="left" colspan="2" valign="top">
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="intro_wind_prof.html">An introduction to wind-profilers</A>
+  <DD><A href="dbs_wind_deriv.html">Derivation of the three-dimensional wind
+         vector by Doppler Beam Swinging</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="3" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="3" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 24th September 2002</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+

@@ -1,0 +1,211 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 12pt;
+    margin: 0px;
+}
+
+h1 {
+    color: red;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 12pt;
+}
+
+img {
+    border: none;
+}
+
+
+div.header {
+    background-color: #ffd000;
+    font-size: 13pt;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+
+}
+
+div.header img {
+    padding-right: 8px;
+    float: left;
+    vertical-align: text-top;
+}
+
+div.sidebar {
+    background-color: #ffd000;
+    text-align: center;
+    font-size: 13pt;
+    width: 184px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+div.sidebar a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none
+}
+
+div.sidebar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.sidebar li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+div.main {
+    margin-left: 208px;
+    margin-top: 5px;
+}    
+
+div.main ul {
+    margin-top: 0px;
+}
+
+div.images {
+    text-align: center;
+}    
+
+div.images img {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+div.footer {
+    padding-left: 208px;
+    padding-top: 25px;
+    font-style: italic;
+}
+
+
+font.code_blue {
+    color: blue; 
+    font-family: Courier;
+}
+
+font.code_black {
+    color: black; 
+    font-family: Courier;
+}
+
+font.code_green {
+    color: #00a000; 
+    font-family: Courier;
+}
+
+font.code_red {
+    color: red;
+    font-family: Courier;
+}
+
+font.code_orange {
+    color: #e59900;
+    font-family: Courier;
+}
+
+font.blue {
+    color: blue;
+}
+
+font.green {
+    color: #00bf00; 
+}
+
+font.red {
+    color: red;
+}
+
+A.FileName {
+    color: #9a05da;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.CommandLine {
+    color: #22b6b0;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.ncAttribute {
+    color: #006600;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.ncDimension {
+    color: #d0360d;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.ncVariable {
+    color: #0000b2;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.ncDataType {
+    color: #ff9d00;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+A.ncFileContents {
+    color: #d68080;
+    font-family: Courier;
+    text-decoration: none;
+}
+
+font.FileName {
+    color: #9a05da;
+    font-family: Courier;
+}
+
+font.CommandLine {
+    color: #22b6b0;
+    font-family: Courier;
+}
+
+font.ncAttribute {
+    color: #006600;
+    font-family: Courier;
+}
+
+font.ncDimension {
+    color: #d0360d;
+    font-family: Courier;
+}
+
+font.ncVariable {
+    color: #0000b2;
+    font-family: Courier;
+}
+
+font.ncDataType {
+    color: #ff9d00;
+    font-family: Courier;
+}
+
+font.ncFileContents {
+    color: #d68080;
+    font-family: Courier;
+}

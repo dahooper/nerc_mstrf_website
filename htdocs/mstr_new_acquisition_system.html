@@ -1,0 +1,143 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTR acquisition system</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">MST RADAR DATA ACQUISITION SYSTEM</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="5" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+A new MST Radar control and data acquisition system began operations
+at 13:44 UT on 6th February 2007. The system is essentially a
+recreation of the previous one, which was designed around a WindowsNT
+PC and had been in operation since 1999. However, it does allow the
+radar to be operated in a more flexible and reliable way. The switch
+over to the new system has a number of implications for use of data
+collected after 6th February 2007:<BR><BR>
+
+<B>Doppler spectra files</B><BR> Owing to the relatively limited data
+storage capacity available when the MST radar was built in 1989, the
+<A href="file_format_v0_ds_dah.html">Doppler spectra files</A> were
+designed with volume minimisation in mind. Power spectral density
+values were pre-compressed so that they could be stored within just 8
+bits. However, the format of these files is non-standard and some
+effort is required to implement appropriate decompression routines. <A
+href="file_format_mstr_spectra_netcdf.html">Doppler spectra from the
+new acquisition system</A> are stored in standard netCDF files making
+them much easier to access.<BR><BR>
+
+
+<B>Availability of different versions of MST Radar data products</B><BR>
+Version-0 (v0) and version-2 (v2) signal processing programs were both
+designed specifically to operate on the old-style Doppler spectral
+files. Since version-3 (v3) processing (which was introduced in
+January 2006) has been demonstrated to be superior to both v0 and v2
+processing, it was the only one modified to operate on Doppler
+spectral files produced by the new acquisition system. Consequently no
+v0 or v2 data products are available for dates after 6th February
+2007.<BR><BR>
+
+<B>Changes in signal and noise powers for observations made after 6th February
+2007</B><BR>
+There is a step change of +61.7 dB in signal and noise powers for
+observations made after 6th February 2007. This is because the power
+spectral densities are no longer being re-scaled in order to aid data
+volume compression (as mentioned above). Noise and signal levels are
+affected equally. The plot below shows the diurnal variations in the
+median noise power (over vertical-beam ST-mode profiles) for 5th and
+7th February 2007. The time variations are primarily a result of
+changes in the (46.5 MHz) cosmic noise, which explains the extremely
+high degree of correlation between the two curves. The same pattern of
+variation is repeated at a slightly earlier time each day in a cycle
+over the course of a year.<BR><BR>
+
+<IMG src="FIGS/mstr_new-acquisition_noise-power-time-series.png"><BR>
+
+The magnitude of the offset was calculated by regression analysis as
+shown in the plot below. The best fit line was constrained to have a
+slope of 1.0, though a free fit results in a value slightly closer to
+1.1 (as is evident in the time series curves above).
+
+<BR><BR>
+<IMG src="FIGS/mstr_new-acquisition_noise-power-scatter.png"><BR>
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="contacting_facility_staff.html">Contacting the NERC MST Radar Facility Project
+Scientist</A>
+  <DD><A href="sig_proc_version_nrs.html">The different types of MST
+  Radar data products available</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="contacting_facility_staff.html">
+         David Hooper</A><BR>
+       Last updated 15th September 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+

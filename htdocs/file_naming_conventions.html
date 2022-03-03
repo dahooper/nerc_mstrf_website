@@ -1,0 +1,286 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>NERC MSTRF file naming convention</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR><BR>
+      <A class="menu_avail" href="#external">EXTERNAL LINKS</A>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">DATA FILE NAMING CONVENTIONS</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+The British Atmospheric Data Centre (BADC) make the following
+recommendations for data storage:
+
+<UL>
+  <LI>All data (from a given instrument or for a given data type) for a 24
+  hour period (00:00:00 - 23:59:59 UTC) should be stored in a single
+  file
+  <LI>the following file naming convention should be adopted so that
+  the contents of the file can be appreciated without having to read it:
+</UL>
+
+<CENTER>
+<FONT class="code_red">instrument-name_location-name_YYYYMMDD[hh][mm][ss][_extra].ext
+</FONT></CENTER><BR>
+
+
+where:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_red">instrument-name</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is the name of the instrument. In order to remove
+    ambiguities for field campaigns where several groups are recording
+    the same data type at the same location, the instrument name
+    should be prefixed with an institute name. The prefix "<FONT
+    class="code_red">nerc-mstrf-"</FONT> has only been added to the
+    most recent data types for the NERC MST Radar Facility. It will
+    gradually be added to all file types - <A
+    href="http://mst.nerc.ac.uk/announce_20080829_b.html">click
+    here</A> for more details. </TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">instrument-location</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is name of the place where the instrument was
+    located (not of the organisation which made the
+    observations). This is either <FONT
+    class="code_red">capel-dewi</FONT> or <FONT
+    class="code_red">frongoch</FONT> for data from the NERC MST Radar
+    Facility.</TD> 
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">YYYY</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the 4-digit year during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the 2-digit month [01 - 12] during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the 2-digit day [01 - 31] during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">hh</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit hour [00 - 23] during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">mm</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit minute [00 - 59] during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">ss</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit second [00 - 59] during which the data were collected</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">extra</FONT></TD>
+    <TD></TD>
+    <TD valign="top">contains any additional important information</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">ext</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicates the file format. This is typically
+    <FONT class="code_red">na</FONT> for Nasa Ames files or <FONT
+    class="code_red">nc</FONT> for <A
+    href="file_format_netcdf.html">netCDF</A> files.</TD>
+  </TR>
+</TABLE><BR>
+
+The fields shown in square brackets are optional. The BADC maintains a
+<A
+href="http://badc.nerc.ac.uk/cgi-bin/filespec_doc?id=INSTRUMENTAL&hfile=1">list
+of accepted instrument and location names</A>.<BR><BR>
+
+All of the files generated by the NERC MST Radar Facility since around
+2005 have followed the above naming convention (albeit without the use
+of an institution name in the instrument name field). A number of
+legacy files exist which follow a similar, but more restricted, file
+naming convention:<BR><BR>
+
+<CENTER>
+<FONT class="code_red">prefixYYMMDD[_hhmm].ext
+</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_red">prefix</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 2 or 3 (lower-case) character file type
+    indentifier</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">YY</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the 2-digit year [00 - 99] during which the
+    observations were made</TD>
+  </TR>
+</TABLE><BR><BR>
+
+The file name extensions are typically one of the following:<BR><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_red">dat</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">indicating a (non-standard)
+    binary format</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">gz</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicating a (non-standard)
+    ASCII format which has been compressed (see below)</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_red">tgz</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicates a number of consecutive (non-standard)
+    ASCII format files which have been archived into a single file
+    before being compressed (see below).
+  </TR>
+</TABLE><BR><BR>
+
+<A name="gzip">
+<B>Dealing with <FONT class="code_red">.gz</FONT> and <FONT
+class="code_red">.tgz</FONT> extension files</B><BR>
+
+These binary files have been compressed using the GNU <FONT
+class="code_red">gzip</FONT> function. On a Linux/Unix system they
+can be uncompressed with the command:<BR><BR>
+
+<CENTER>
+<FONT class="code_red">gunzip filename.gz</FONT><BR>
+<FONT class="code_red">gunzip filename.tgz</FONT><BR>
+</CENTER><BR>
+
+In the case of the <FONT class="code_red">.gz</FONT> extension
+files, this gives an ASCII file with the name <FONT
+class="code_red">filename</FONT>, which has no extension. In the
+case of the <FONT class="code_red">.tgz</FONT> extension files, this
+gives an archive file (which contains a number of separate files) with
+the name <FONT class="code_red">filename.tar</FONT>. The individual
+(ASCII) files are retrieved with the command:<BR><BR>
+
+<CENTER>
+<FONT class="code_red">tar xvf filename.tar</FONT><BR>
+</CENTER><BR>
+
+On a Windows machine, these functions can be achieved through a tool
+such as WinZip. <B>NOTE</B>, however, that this gives rise to an
+unexpected change in file name in the case of the <A
+href="file_format_v0_vh.html">unaveraged wind files</A>.<BR><BR>
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Access to the data</A>
+  <DD><A href="archiving_conventions.html">Directory naming convention</A>
+  <DD><A href="file_contents.html">File contents</A>
+  <DD><A href="file_formats.html">Overview of file formats</A>
+</DL>
+
+<A name="external">
+<DL><B>External Links:</B>
+  <DD><A
+  href="http://badc.nerc.ac.uk/help/file_naming.html">File-naming
+  conventions, on the BADC site</A>
+  <DD><A
+  href="http://badc.nerc.ac.uk/cgi-bin/filespec_doc?id=INSTRUMENTAL&hfile=1">The
+  current list of accepted instrument and location names</A>
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 9th September 2008</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

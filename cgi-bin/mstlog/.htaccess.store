@@ -1,0 +1,8 @@
+AuthUserFile /var/www/mst_site/.htpasswd
+AuthGroupFile /dev/null
+AuthName "MST team"
+AuthType Basic
+
+require valid-user
+order deny,allow
+satisfy all

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 EN"
+	  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>NERC MSTRF: file format for MST Radar Cardinal data files, version 4.0</title>
+    <link rel="stylesheet" type="text/css" href="style_201312.css" />
+  </head>
+
+  <body>
+
+    <div class="header">
+      <a href="http://www.nerc.ac.uk"><img src="LOGOS/logo_nerc_2013_long.png"
+					   alt="" /></a>
+      <img src="LOGOS/mst_button.png" alt="" />
+      THE NERC MST RADAR FACILITY AT ABERYSTWYTH
+      <h1>File format for MST Radar Cardinal data files, version 4.0</h1>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="announcements.html">Announcements</a></li>
+	<li><a href="contacts.html">Contacts</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="instruments.html">Instruments</a></li>
+        <li><a href="plots.html">Plots</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="site.html">Radar Site</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="principles.html">Wind-Profiler Principles</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+<!*** Beginning of page content ***>
+<p>The <a href="mst_v4_signal_processing.html">version 4 MST Radar data
+    processing scheme</a> is the latest version. The v4.0 Cardinal data files
+  described on this page should be used in preference to any data files
+  produced by earlier processing schemes. </p>
+
+<B>File contents</B><BR>
+The files contain
+altitude profiles (from approximately 2 - 20 km)
+of the eastward, northward and upward components of the wind velocity
+and of the following MST Radar data products: (vertical beam) signal power,
+(vertical beam) spectral width, (beam-broadening) corrected
+spectral width, and aspect sensitivity. The time separation between
+the profiles is typically a few minutes. A radar-derived tropopause
+altitude and sharpness is given for each set of profiles. <BR>
+
+<B>Availability</B>
+Data processed by version 4.0 software are being tested and can be created on
+request - <A href="contacting_facility_staff.html">contact the NERC MST
+Radar Facility Project Scientist</A>.<BR><BR>
+
+<B>File naming convention: </B><BR>
+<CENTER><FONT
+class="FileName">nerc-mstrf-radar-mst_capel-dewi_YYYYMMDD_stRRR_cardinal_SSmin-smoothing_v4-0.nc</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="FileName">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">RRR</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the range resolution (m) [150 | 300 | 600 |
+    1200 | 2400 | 4800]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">SS</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is the number of minutes smoothing in time</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">.nc</FONT></TD>
+    <TD></TD>
+    <TD valign="top">represents that this is a netCDF file</TD>
+  </TR>
+</TABLE><BR>
+
+i.e. <FONT
+    class="FileName">nerc-mstrf-radar-mst_capel-dewi_20170327_st300_cardinal_33min-smoothing_v4-0.nc</FONT>
+    contains Cardinal data for 27th March 2017, st altitude coverage at 300 m
+range resolution. <BR>
+<A href="file_naming_conventions.html">Click here for the background to the
+file naming convention</A>.<BR><BR>
+
+<B>File location: </B><BR>
+<A class="FileName"
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/nerc-mstrf-radar-mst/v4-0/st-mode/cardinal/">/badc/mst/data/nerc-mstrf-radar-mst/v4-0/st-mode/cardinal/</A><BR><BR>
+
+<B>Archiving convention: </B><FONT class="FileName">YYYY/MM</FONT><BR>
+<A href="archiving_conventions.html">Click here for a further explanation of
+  archiving conventions</A> .<BR><BR>
+
+<B>netCDF File Structure</B> using the st300 file for 27th March 2017 as an example - <A href="file_format_netcdf.html">click
+here for an explanation of netCDF file structure</A>.<BR>
+
+<DL>List of <B>Global attributes</B> - Click on the name to view the value
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga0">Conventions</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga1">title</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga2">source</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga3">institution</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga4">history</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga5">references</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga6">comment</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga7">license</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga8">featureType</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga9">data_product_level</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga10">creator_name</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga11">creator_email</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga12">platform_name</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga13">platform_type</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga14">platform_record_url</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga15">instrument_record_url</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga16">instrument_altitude_above_mean_sea_level_m</A>
+  <dd><font class="ncDataType">float</font> <A class="ncAttribute" href="#ga17">instrument_radio_frequency_Hz</A>
+  <dd><font class="ncDataType">float</font> <A class="ncAttribute" href="#ga18">instrument_beam_one_way_half_power_half_width_degrees</A>
+  <dd><font class="ncDataType">float</font> <A class="ncAttribute" href="#ga19">instrument_antenna_side_length_m</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga20">observation_year</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga21">observation_month</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga22">observation_day</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga23">observation_altitude_mode</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga24">observation_range_resolution_m</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga25">observation_range_resolution_number</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga26">observation_bottom_range_gate_number</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga27">observation_top_range_gate_number</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga28">processing_version_number</A>
+  <dd><font class="ncDataType">byte</font> <A class="ncAttribute" href="#ga29">processing_sub_version_number</A>
+  <dd><font class="ncDataType">short</font> <A class="ncAttribute" href="#ga30">processing_cardinal_nominal_smoothing_period_minutes</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga31">comment_processing_changes</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga32">comment_instrument_location</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga33">comment_instrument_technique</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga34">comment_horizontal_wind</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga35">comment_tropopause</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga36">comment_vertical_beam</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga37">comment_dB_units</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga38">comment_qc_flag</A>
+  <dd><font class="ncDataType">char</font> <A class="ncAttribute" href="#ga39">comment_qc_details</A>
+</dl>
+
+<DL>List of <B>Dimensions</B> - Click on the name to view the corresponding coordinate variable
+  <dd><A class="ncDimension" href="#v3">altitude</A>
+  <dd><A class="ncDimension" href="#v2">time</A>
+</dl>
+<DL>List of <B>Variables</B> - Click on a name to view the corresponding attributes
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v0"> latitude</A><font class="ncDimension">()</font>
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v1"> longitude</A><font class="ncDimension">()</font>
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v2"> time</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v3"> altitude</A><font class="ncDimension">(<A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v4"> eastward_wind</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v5"> northward_wind</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v6"> upward_wind</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v7"> signal_power</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v8"> aspect_sensitivity</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v9"> corrected_spectral_width</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v10"> tropopause_altitude</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v11"> tropopause_sharpness</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v12"> noise_power</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v13"> qc_flag_horizontal_wind</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v14"> qc_flag_vertical_beam</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">short</font><A class="ncVariable" href="#v15"> qc_details_vertical_beam</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v16"> qc_flag_aspect_sensitivity</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v17"> qc_flag_corrected_spectral_width</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v18"> horizontal_wind_compensation_factor</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+  <dd><font class="ncDataType">byte</font><A class="ncVariable" href="#v19"> number_of_cycles_in_smoothing_period</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+
+  <dd><font class="ncDataType">float</font><A class="ncVariable" href="#v20"> spectral_width</A><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+
+</dl>
+List of <B>Global Attribute</B> values<BR>
+<A name="ga0">
+<font class="ncDataType">char</font> <font class="ncAttribute">Conventions</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">CF-1.6</font><font class="ncDataType">"</font><br><br>
+<A name="ga1">
+<font class="ncDataType">char</font> <font class="ncAttribute">title</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Altitude profiles of wind components along the cardinal directions and<br>
+&nbsp;&nbsp;of other parameters derived from observations made by the NERC MST<br>
+&nbsp;&nbsp;Radar at Capel Dewi (near Aberystwyth), UK in st300 mode on<br>
+&nbsp;&nbsp;2017-03-27.</font><font class="ncDataType">"</font><br><br>
+<A name="ga2">
+<font class="ncDataType">char</font> <font class="ncAttribute">source</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The Natural Environment Research Council (NERC) <br>
+&nbsp;&nbsp;Mesosphere-Stratosphere-Troposphere (MST) Radar at Aberystwyth</font><font class="ncDataType">"</font><br><br>
+<A name="ga3">
+<font class="ncDataType">char</font> <font class="ncAttribute">institution</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The Natural Environment Research Council (NERC) <br>
+&nbsp;&nbsp;Mesosphere-Stratosphere-Troposphere (MST) Radar Facility at Aberystwyth,<br>
+&nbsp;&nbsp;http://mst.nerc.ac.uk, is funded by NERC through the National Centre for <br>
+&nbsp;&nbsp;Atmospheric Science (NCAS), https://www.ncas.ac.uk/. It is managed by<br>
+&nbsp;&nbsp;RAL Space at the Science and Technology Facilities Council's (STFC)<br>
+&nbsp;&nbsp;Rutherford Appleton Laboratory (RAL), https://www.ralspace.stfc.ac.uk/.<br>
+&nbsp;&nbsp;The data held by the Centre for Environmental Data Analysis (CEDA),<br>
+&nbsp;&nbsp;http://catalogue.ceda.ac.uk/uuid/bd095d86e4a9f0c706b08058dbad3b31.</font><font class="ncDataType">"</font><br><br>
+<A name="ga4">
+<font class="ncDataType">char</font> <font class="ncAttribute">history</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;2017-05-04T13:54:57 - netcdf file created on computer jasmin-sci2.ceda.ac.uk.<br>
+&nbsp;&nbsp;2017-05-04T14:01:22 - data passed visual quality control check and file delivered to CEDA for ingestion into archives.</font><font class="ncDataType">"</font><br><br>
+<A name="ga5">
+<font class="ncDataType">char</font> <font class="ncAttribute">references</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The following publications mostly relate to wind data quality and <br>
+&nbsp;&nbsp;representativeness. They are referred to in other global/variable<br>
+&nbsp;&nbsp;attributes.<br>
+&nbsp;&nbsp;  Thomas, L., I. Astin, and R. M. Worthington (1997). A statistical<br>
+&nbsp;&nbsp;study of underestimates of wind speeds by VHF radar. Ann. Geophys.,<br>
+&nbsp;&nbsp;15, 805-812. DOI: 10.1007/s00585-997-0805-8.<br>
+&nbsp;&nbsp;  Hooper, D. A., and J. Arvelius (2000). Monitoring of the Arctic winter<br>
+&nbsp;&nbsp;tropopause: A comparison of radiosonde, ozonesonde and MST radar<br>
+&nbsp;&nbsp;observations. Proceedings of the Ninth International Workshop on<br>
+&nbsp;&nbsp;Technical and Scientific Aspects of MST Radar, pages 385-388. Sci. Comm.<br>
+&nbsp;&nbsp;on Sol.-Terr. Phys. Secr., Boulder, Colorado, USA.<br>
+&nbsp;&nbsp;  Hooper, D. A., J. Nash, T. Oakley, and M. Turp (2008). Validation of a <br>
+&nbsp;&nbsp;new signal processing scheme for the MST radar at Aberystwyth. Ann. <br>
+&nbsp;&nbsp;Geophys., 26(11), 3253-3268. DOI: 10.5194/angeo-26-3253-2008 .<br>
+&nbsp;&nbsp;  Parton, Graham, Anthony Dore, and Geraint Vaughan (2010). A<br>
+&nbsp;&nbsp;climatology of mid-tropospheric mesoscale strong wind events as observed<br>
+&nbsp;&nbsp;by the MST radar, Aberystwyth. Meteorol. Apps., 17, 340-354, 2010. <br>
+&nbsp;&nbsp;DOI: 10.1002/met.203 .<br>
+&nbsp;&nbsp;  Hooper, David A., David M. Edwards, Gemma Holmes, Kevin Linklater, <br>
+&nbsp;&nbsp;Tim Oakley, Colin Parrett, and Myles Turp (2013). The usefulness of <br>
+&nbsp;&nbsp;model-comparison statistics for wind-profiling radar operators. In <br>
+&nbsp;&nbsp;R. Latteck and W. Singer, editors, Proceedings of the Thirteenth<br>
+&nbsp;&nbsp;International Workshop on Technical and Scientific Aspects of MST<br>
+&nbsp;&nbsp;Radar, pages 141-150. Leibniz-Institute of Atmospheric Physics at the<br>
+&nbsp;&nbsp;Rostock University, Kuhlungsborn, Germany. Available from <br>
+&nbsp;&nbsp;http://purl.org/net/epubs/work/11539671 .<br>
+&nbsp;&nbsp;  Lee, C. F., G. Vaughan, and D. A. Hooper (2014). Evaluation of wind<br>
+&nbsp;&nbsp;profiles from the NERC MST radar, Aberystwyth, UK. Atmos. Meas. Tech.,<br>
+&nbsp;&nbsp;7(9), 3113-3126. DOI: 10.5194/amt-7-3113-2014 .</font><font class="ncDataType">"</font><br><br>
+<A name="ga6">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attributes whose names begin with 'comment_' for more<br>
+&nbsp;&nbsp;information about the data.</font><font class="ncDataType">"</font><br><br>
+<A name="ga7">
+<font class="ncDataType">char</font> <font class="ncAttribute">license</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Use of the data is covered by the (UK) Open Government Licence,<br>
+&nbsp;&nbsp;http://www.nationalarchives.gov.uk/doc/open-government-licence/</font><font class="ncDataType">"</font><br><br>
+<A name="ga8">
+<font class="ncDataType">char</font> <font class="ncAttribute">featureType</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">timeSeriesProfile</font><font class="ncDataType">"</font><br><br>
+<A name="ga9">
+<font class="ncDataType">byte</font> <font class="ncAttribute">data_product_level</font><font class="code_black"> = </font><font class="ncFileContents">3</font><br><br>
+<A name="ga10">
+<font class="ncDataType">char</font> <font class="ncAttribute">creator_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">David A. Hooper</font><font class="ncDataType">"</font><br><br>
+<A name="ga11">
+<font class="ncDataType">char</font> <font class="ncAttribute">creator_email</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">david.hooper@ncas.ac.uk</font><font class="ncDataType">"</font><br><br>
+<A name="ga12">
+<font class="ncDataType">char</font> <font class="ncAttribute">platform_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The Natural Environment Research Council (NERC) <br>
+&nbsp;&nbsp;Mesosphere-Stratosphere-Troposphere Radar Facility (MSTRF), Capel Dewi<br>
+&nbsp;&nbsp;(near Aberystwyth), UK.</font><font class="ncDataType">"</font><br><br>
+<A name="ga13">
+<font class="ncDataType">char</font> <font class="ncAttribute">platform_type</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">stationary_platform</font><font class="ncDataType">"</font><br><br>
+<A name="ga14">
+<font class="ncDataType">char</font> <font class="ncAttribute">platform_record_url</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">http://catalogue.ceda.ac.uk/uuid/8b723580e0e5426d888b273e42f76c1b</font><font class="ncDataType">"</font><br><br>
+<A name="ga15">
+<font class="ncDataType">char</font> <font class="ncAttribute">instrument_record_url</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">http://catalogue.ceda.ac.uk/uuid/6fcd4e23841b4aa0af75b8bb783011ea</font><font class="ncDataType">"</font><br><br>
+<A name="ga16">
+<font class="ncDataType">byte</font> <font class="ncAttribute">instrument_altitude_above_mean_sea_level_m</font><font class="code_black"> = </font><font class="ncFileContents">50</font><br><br>
+<A name="ga17">
+<font class="ncDataType">float</font> <font class="ncAttribute">instrument_radio_frequency_Hz</font><font class="code_black"> = </font></font><font class="ncFileContents">46500000.0</font><br><br>
+<A name="ga18">
+<font class="ncDataType">float</font> <font class="ncAttribute">instrument_beam_one_way_half_power_half_width_degrees</font><font class="code_black"> = </font></font><font class="ncFileContents">1.5</font><br><br>
+<A name="ga19">
+<font class="ncDataType">float</font> <font class="ncAttribute">instrument_antenna_side_length_m</font><font class="code_black"> = </font></font><font class="ncFileContents">104.120003</font><br><br>
+<A name="ga20">
+<font class="ncDataType">short</font> <font class="ncAttribute">observation_year</font><font class="code_black"> = </font><font class="ncFileContents">2017</font><br><br>
+<A name="ga21">
+<font class="ncDataType">byte</font> <font class="ncAttribute">observation_month</font><font class="code_black"> = </font><font class="ncFileContents">3</font><br><br>
+<A name="ga22">
+<font class="ncDataType">byte</font> <font class="ncAttribute">observation_day</font><font class="code_black"> = </font><font class="ncFileContents">27</font><br><br>
+<A name="ga23">
+<font class="ncDataType">char</font> <font class="ncAttribute">observation_altitude_mode</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">st</font><font class="ncDataType">"</font><br><br>
+<A name="ga24">
+<font class="ncDataType">short</font> <font class="ncAttribute">observation_range_resolution_m</font><font class="code_black"> = </font><font class="ncFileContents">300</font><br><br>
+<A name="ga25">
+<font class="ncDataType">short</font> <font class="ncAttribute">observation_range_resolution_number</font><font class="code_black"> = </font><font class="ncFileContents">2</font><br><br>
+<A name="ga26">
+<font class="ncDataType">short</font> <font class="ncAttribute">observation_bottom_range_gate_number</font><font class="code_black"> = </font><font class="ncFileContents">18</font><br><br>
+<A name="ga27">
+<font class="ncDataType">short</font> <font class="ncAttribute">observation_top_range_gate_number</font><font class="code_black"> = </font><font class="ncFileContents">147</font><br><br>
+<A name="ga28">
+<font class="ncDataType">byte</font> <font class="ncAttribute">processing_version_number</font><font class="code_black"> = </font><font class="ncFileContents">4</font><br><br>
+<A name="ga29">
+<font class="ncDataType">byte</font> <font class="ncAttribute">processing_sub_version_number</font><font class="code_black"> = </font><font class="ncFileContents">0</font><br><br>
+<A name="ga30">
+<font class="ncDataType">short</font> <font class="ncAttribute">processing_cardinal_nominal_smoothing_period_minutes</font><font class="code_black"> = </font><font class="ncFileContents">33</font><br><br>
+<A name="ga31">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_processing_changes</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The version 4 (v4) processing scheme is closely related to the<br>
+&nbsp;&nbsp;version 3 (v3) scheme described by Hooper et al. (2008) - see global<br>
+&nbsp;&nbsp;attribute 'references'. The main difference is that the horizontal<br>
+&nbsp;&nbsp;wind components in the v4 Cardinal files represent time averages over<br>
+&nbsp;&nbsp;a nominal period given by the global attribute <br>
+&nbsp;&nbsp;'processing_cardinal_nominal_smoothing_period_minutes'. This reduces the<br>
+&nbsp;&nbsp;random measurement error of the single cycle estimates in the v3<br>
+&nbsp;&nbsp;Cartesian files. A second difference is in the calculation of the factor<br>
+&nbsp;&nbsp;used to compensate horizontal wind speeds for the effects of aspect<br>
+&nbsp;&nbsp;sensitivity - see Thomas et al. (1997), Hooper et al. (2008), and<br>
+&nbsp;&nbsp;Lee et al. (2014) in the global attribute 'references'. It was previously<br>
+&nbsp;&nbsp;based on the (single cycle) ratio of signal powers observed at zenith<br>
+&nbsp;&nbsp;angles of 4.2° and 6.0°. The v4 factor is based on the more-robust ratio<br>
+&nbsp;&nbsp;of signal powers observed at zenith angles of 0.0° and 6.0°. Moreover,<br>
+&nbsp;&nbsp;the signal powers are averaged over a nominal period given by the global<br>
+&nbsp;&nbsp;attribute 'processing_cardinal_nominal_smoothing_period_minutes'. These<br>
+&nbsp;&nbsp;improved estimates of horizontal wind are used to calculate values of the<br>
+&nbsp;&nbsp;variable 'corrected_spectral_width'.</font><font class="ncDataType">"</font><br><br>
+<A name="ga32">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_instrument_location</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The values of the variables 'latitude' and 'longitude' have been<br>
+&nbsp;&nbsp;taken from a Global Positioning System (GPS) receiver that was placed<br>
+&nbsp;&nbsp;close to the centre of the MST radar's antenna array. The coordinates<br>
+&nbsp;&nbsp;should be accurate to within +/- 5 m. The value of global attribute<br>
+&nbsp;&nbsp;'instrument_altitude_above_mean_sea_level_m' has been taken from<br>
+&nbsp;&nbsp;the Ordnance Survey Landranger 135 map for the area. It should be<br>
+&nbsp;&nbsp;accurate to within +/- 5 m. </font><font class="ncDataType">"</font><br><br>
+<A name="ga33">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_instrument_technique</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The NERC MST Radar is a 46.5 MHz pulsed Doppler radar that is used to<br>
+&nbsp;&nbsp;study the atmosphere. The radar returns are primarily from 'clear-air'<br>
+&nbsp;&nbsp;targets, i.e. structures in atmospheric refractive index that have scale<br>
+&nbsp;&nbsp;sizes of half the radar's wavelength (approximately 3 m) along the beam<br>
+&nbsp;&nbsp;pointing direction. The refractive index depends on humidity (within the<br>
+&nbsp;&nbsp;lowest 10 km of the atmosphere), on air density (within the lowest few<br>
+&nbsp;&nbsp;10s of km), and on free electron density (above 50 km). The radar return<br>
+&nbsp;&nbsp;signals are parameterised by their power, Doppler shift, and spectral<br>
+&nbsp;&nbsp;width. The signal power depends on the vertical gradient of (potential)<br>
+&nbsp;&nbsp;refractive index and so relates to atmospheric structure. The Doppler<br>
+&nbsp;&nbsp;shift depends on the radial component of the wind along the beam<br>
+&nbsp;&nbsp;pointing direction. Observations must be made in the vertical direction<br>
+&nbsp;&nbsp;and at an off-vertical angle in at least two orthogonal azimuths in<br>
+&nbsp;&nbsp;order for the three dimensional wind vector to be derived. The spectral<br>
+&nbsp;&nbsp;width depends on the intensity of any turbulence with the radar<br>
+&nbsp;&nbsp;observation volume. However, the values must be corrected for the<br>
+&nbsp;&nbsp;effects of beam-broadening, which depends on the horizontal wind speed<br>
+&nbsp;&nbsp;and on the radar's beam width.</font><font class="ncDataType">"</font><br><br>
+<A name="ga34">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_horizontal_wind</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The horizontal wind components, given by variables 'eastward_wind' (v_E)<br>
+&nbsp;&nbsp;and 'northward_wind' (v_N), have already been smoothed in time by a<br>
+&nbsp;&nbsp;nominal amount given by the global attribute <br>
+&nbsp;&nbsp;'processing_cardinal_nominal_smoothing_period_minutes'. If additional<br>
+&nbsp;&nbsp;smoothing is required, either in time or in altitude, this should be<br>
+&nbsp;&nbsp;applied to these components. Horizontal wind speeds (v_H) and directions<br>
+&nbsp;&nbsp;can then be derived using the following relationships:<br>
+&nbsp;&nbsp;        v_H = sqrt(v_E^2 + v_N^2)<br>
+&nbsp;&nbsp;    phi_met = 180/pi * atan2(-v_E,-v_N)<br>
+&nbsp;&nbsp;   phi_vect = 180/pi * atan2(v_E,v_N)<br>
+&nbsp;&nbsp;where sqrt indicates the square root, ^2 indicates squared, phi_met is<br>
+&nbsp;&nbsp;the meteorological convention wind direction (i.e. from which it is<br>
+&nbsp;&nbsp;blowing), phi_vect is the vector convention wind direction (i.e. towards<br>
+&nbsp;&nbsp;which it is blowing), 180/pi is the conversion factor between angles in<br>
+&nbsp;&nbsp;radians and in degrees, and atan2(y,x) is the four quadrant arctangent<br>
+&nbsp;&nbsp;function. Note that some computing environments, such as Microsoft Excel,<br>
+&nbsp;&nbsp;use an atan2(x,y) function for which the order of the arguments must be<br>
+&nbsp;&nbsp;reversed. </font><font class="ncDataType">"</font><br><br>
+<A name="ga35">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_tropopause</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The altitude and sharpness of the tropopause are derived from altitude<br>
+&nbsp;&nbsp;profiles of the vertical beam signal power following Hooper and Arvelius<br>
+&nbsp;&nbsp;(2000) - see global attribute 'references'. A tropopause sharpness value<br>
+&nbsp;&nbsp;of 0 corresponds to a signal power gradient of less than 2.0 dB/km, a<br>
+&nbsp;&nbsp;value of 1 to less than 3.5 dB/km, a value of 2 to less than 5.0 dB/km,<br>
+&nbsp;&nbsp;and a 3 to greater than 5.0 dB/km. Note that these gradients are twice<br>
+&nbsp;&nbsp;those used by Hooper and Arvelius (2000), which was based on signal<br>
+&nbsp;&nbsp;amplitudes rather than powers. The tropopause details contained in the<br>
+&nbsp;&nbsp;v3 Cartesian files are based on single cycle profiles of signal power.<br>
+&nbsp;&nbsp;The values in the v4.0 Cardinal files are the medians of the v3 values<br>
+&nbsp;&nbsp;taken over a nominal period given by global attribute<br>
+&nbsp;&nbsp;'processing_cardinal_nominal_smoothing_period_minutes'. </font><font class="ncDataType">"</font><br><br>
+<A name="ga36">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_vertical_beam</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The values of variables 'signal_power', 'upward_wind', and<br>
+&nbsp;&nbsp;'spectral_width' are taken from the first vertical beam dwell of each<br>
+&nbsp;&nbsp;observation cycle. They are taken from the range gates that are closest<br>
+&nbsp;&nbsp;in altitude to those at 6.0° off-vertical, which are used to derive<br>
+&nbsp;&nbsp;horizontal wind components. All three variables share the same quality<br>
+&nbsp;&nbsp;control flag variable, 'qc_flag_vertical_beam', and quality details<br>
+&nbsp;&nbsp;variable, 'qc_details_vertical_beam'.</font><font class="ncDataType">"</font><br><br>
+<A name="ga37">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_dB_units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Radar return signal powers have dimensions of watts. The values are<br>
+&nbsp;&nbsp;uncalibrated and are stored in dB units, where<br>
+&nbsp;&nbsp;P_dB = 10.0 * log10(P_linear-units). The ratio of signal powers in<br>
+&nbsp;&nbsp;linear units is equivalent to the difference in dB units.  </font><font class="ncDataType">"</font><br><br>
+<A name="ga38">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_qc_flag</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;For many of the variables in the v4 Cardinal files, an indication of<br>
+&nbsp;&nbsp;which values are considered to be reliable is given by an associated<br>
+&nbsp;&nbsp;quality control flag variable. The name of the latter is given by<br>
+&nbsp;&nbsp;the 'ancillary_variables' attribute of the main variable (and the<br>
+&nbsp;&nbsp;'associated_variables' attribute of a quality control flag variable<br>
+&nbsp;&nbsp;gives the names of the main variables associated with it). A quality<br>
+&nbsp;&nbsp;control flag value of 1 implies that the associated values are<br>
+&nbsp;&nbsp;reliable. A value of 0 is never used and any value higher than 1 implies<br>
+&nbsp;&nbsp;that the associated values are either unreliable or should only<br>
+&nbsp;&nbsp;be used with caution. Refer to the 'flag_values' and 'flag_meanings'<br>
+&nbsp;&nbsp;attributes of each quality control flag variable for specific details.<br>
+&nbsp;&nbsp;In some cases, additional quality control details are given by an<br>
+&nbsp;&nbsp;associated quality control details flag - see global attribute<br>
+&nbsp;&nbsp;'comment_qc_details'.</font><font class="ncDataType">"</font><br><br>
+<A name="ga39">
+<font class="ncDataType">char</font> <font class="ncAttribute">comment_qc_details</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;In most circumstances it is best to make use of the associated quality<br>
+&nbsp;&nbsp;control flag variable in order to determine which variable values are<br>
+&nbsp;&nbsp;are considered to be reliable. The 'qc_details_vertical_beam'<br>
+&nbsp;&nbsp;variable contains all of the information, encoded bitwise, used to<br>
+&nbsp;&nbsp;determine the overall reliability. The same technique is used in the<br>
+&nbsp;&nbsp;radial and Cartesian data files and so not all of the following bits<br>
+&nbsp;&nbsp;are used for the vertical beam signal here.  <br>
+&nbsp;&nbsp;  bit 00: 1 if the signal is available<br>
+&nbsp;&nbsp;  bit 01: 1 if the peak smoothed power spectral density (PSD) is greater<br>
+&nbsp;&nbsp;    than a set threshold above the noise Power Spectral Density.<br>
+&nbsp;&nbsp;  bit 02: 1 if the signal belongs to a radial chain<br>
+&nbsp;&nbsp;  bit 03: 1 if the signal fits overall radial continuity<br>
+&nbsp;&nbsp;  bit 04: 1 if a secondary signal belongs to a radial chain<br>
+&nbsp;&nbsp;  bit 05: 1 if the signal has passed a uni-directional time continuity<br>
+&nbsp;&nbsp;    test<br>
+&nbsp;&nbsp;  bit 06: 1 if the signal has passed a bi-directional time continuity<br>
+&nbsp;&nbsp;    test</font><font class="ncDataType">"</font><br><br>
+<br>
+List of <b>Variable attribute</b> values
+<A name="v0">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> latitude</font><font class="ncDimension">()</font>  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">latitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black">
+      = </font><font class="ncDataType">"</font><font class="ncFileContents">Instrument
+      latitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">degrees_north</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_instrument_location' for more<br>
+&nbsp;&nbsp;details about this variable.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v1">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> longitude</font><font class="ncDimension">()</font>  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">longitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Instrument longitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">degrees_east</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_instrument_location' for more<br>
+&nbsp;&nbsp;details about this variable.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v2">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> time</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">time</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Start time of observation cycle</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">seconds since 2017-03-27 00:00:00 +00:00</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">axis</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">T</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The values refer to the start of observation cycles. The data<br>
+&nbsp;&nbsp;acquisition computer synchronises its clock using Network Time<br>
+&nbsp;&nbsp;Protocol (NTP).</font><font class="ncDataType">"</font>
+</dl>
+<A name="v3">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> altitude</font><font class="ncDimension">(<A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">altitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Altitude of observation above mean sea level</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">axis</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Z</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">The values refer to the centres of the range gates.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v4">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> eastward_wind</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">eastward_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Eastward wind component</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m s-1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_horizontal_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_horizontal_wind' for more details<br>
+&nbsp;&nbsp;about this variable. </font><font class="ncDataType">"</font>
+</dl>
+<A name="v5">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> northward_wind</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">northward_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Northward wind component</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m s-1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_horizontal_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_horizontal_wind' for more details<br>
+&nbsp;&nbsp;about this variable. </font><font class="ncDataType">"</font>
+</dl>
+<A name="v6">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> upward_wind</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">upward_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Upward wind component</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m s-1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_vertical_beam</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">vertical_beam_radial_velocity</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_vertical_beam' for more<br>
+&nbsp;&nbsp;details about this variable. The values have an accuracy of the<br>
+&nbsp;&nbsp;order of 0.1 m s-1, which means that they cannot be used to identify<br>
+&nbsp;&nbsp;synoptic scale vertical velocities. However, they are well-suited<br>
+&nbsp;&nbsp;for identifying mountain/convectively-generated waves and convection.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v7">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> signal_power</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Vertical beam signal power</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">dB</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_vertical_beam</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">vertical_beam_signal_power</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_vertical_beam' for general<br>
+&nbsp;&nbsp;details about this variable. The tropopause altitude and sharpness<br>
+&nbsp;&nbsp;values are derived from this parameter.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v8">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> aspect_sensitivity</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Ratio of vertical to 6.0° off-vertical signal powers</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">dB</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_aspect_sensitivity</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_dB units' for general details about<br>
+&nbsp;&nbsp;dB units. Each value is given by the ratio of the average signal<br>
+&nbsp;&nbsp;powers for all vertical beam dwells and all 6.0° off-vertical dwells<br>
+&nbsp;&nbsp;within an observation cycle.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v9">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> corrected_spectral_width</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Beam broadening corrected vertical beam signal spectral width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m s-1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_corrected_spectral_width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">beam_broadening_corrected_spectral_width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_vertical_beam' for general<br>
+&nbsp;&nbsp;details about this variable.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v10">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> tropopause_altitude</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+  <dd><font class="ncAttribute">standard_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">tropopause_altitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Radar-derived tropopause altitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">m</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_tropopause' for general details about<br>
+&nbsp;&nbsp;this variable.</font><font class="ncDataType">"</font>
+</dl> 
+<A name="v11">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> tropopause_sharpness</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Radar-derived tropopause sharpness index</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">flag_values</font><font class="code_black"> = </font><font class="ncFileContents">[0, 1, 2, 3]</font>
+  <dd><font class="ncAttribute">flag_meanings</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">indefinite lower_intermediate upper_intermediate definite</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">tropopause_sharpness_factor</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_tropopause' for general details about<br>
+&nbsp;&nbsp;this variable.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v12">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> noise_power</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Vertical beam signal median noise power over altitude</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">dB</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">vertical_beam_median_noise_power</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_dB_units' for general details about<br>
+&nbsp;&nbsp;dB units.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v13">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> qc_flag_horizontal_wind</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Quality control/reliability flag for horizontal wind variables</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">flag_values</font><font class="code_black"> = </font><font class="ncFileContents">[1, 2]</font>
+  <dd><font class="ncAttribute">flag_meanings</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">reliable not_reliable</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">associated_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">eastward_wind northward_wind</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_qc_flag' for general details about<br>
+&nbsp;&nbsp;quality control flag variables.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v14">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> qc_flag_vertical_beam</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Quality control/reliability flag for vertical beam signal variables</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">flag_values</font><font class="code_black"> = </font><font class="ncFileContents">[1, 2]</font>
+  <dd><font class="ncAttribute">flag_meanings</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">reliable not_reliable</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">associated_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">signal_power upward_wind spectral_width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_qc_flag' for general details about<br>
+&nbsp;&nbsp;quality control flag variables.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v15">
+<dl><font class="ncDataType">short</font><font class="ncVariable"> qc_details_vertical_beam</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Quality control/reliability details for vertical beam signal variables</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_qc_details' for general details about<br>
+&nbsp;&nbsp;quality control details variables.</font><font class="ncDataType">"</font>
+</dl> 
+<A name="v16">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> qc_flag_aspect_sensitivity</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Quality control/reliability flag for aspect sensitivity values</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">flag_values</font><font class="code_black"> = </font><font class="ncFileContents">[1, 2]</font>
+  <dd><font class="ncAttribute">flag_meanings</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">reliable unreliable</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">associated_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">aspect_sensitivity</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_qc_flag' for general details about<br>
+&nbsp;&nbsp;quality control flag variables.  </font><font class="ncDataType">"</font>
+</dl>
+<A name="v17">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> qc_flag_corrected_spectral_width</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Quality control/reliability flag for corrected spectral width values</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">flag_values</font><font class="code_black"> = </font><font class="ncFileContents">[1, 2, 3]</font>
+  <dd><font class="ncAttribute">flag_meanings</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">reliable overcorrected unreliable</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">associated_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">corrected_spectral_width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_qc_flag' for general details about<br>
+&nbsp;&nbsp;quality control flag variables. A flag value of 2 indicates that<br>
+&nbsp;&nbsp;the beam broadening correction is larger than the observed spectral<br>
+&nbsp;&nbsp;width and so the corrected value is set to zero. The associated<br>
+&nbsp;&nbsp;corrected_spectral_width values are still worth plotting.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v18">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> horizontal_wind_compensation_factor</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Horizontal wind aspect sensitivity compensation factor</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">horizontal_wind_theta_s_compensation_factor</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The values of variable 'horizontal_wind_compensation_factor' are<br>
+&nbsp;&nbsp;included for reference purposes only. They have already been applied<br>
+&nbsp;&nbsp;to the values of variables 'eastward_wind' and 'northward_wind'. Refer<br>
+&nbsp;&nbsp;to global attribute 'comment_processing_changes' for more details.</font><font class="ncDataType">"</font>
+</dl>
+<A name="v19">
+<dl><font class="ncDataType">byte</font><font class="ncVariable"> number_of_cycles_in_smoothing_period</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;The number of cycles available in the smoothing period used to derive<br>
+&nbsp;&nbsp;the horizontal wind components.</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">1</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_horizontal_wind' for general details<br>
+&nbsp;&nbsp;about this variable. </font><font class="ncDataType">"</font>
+</dl>
+<A name="v20">
+<dl><font class="ncDataType">float</font><font class="ncVariable"> spectral_width</font><font class="ncDimension">(<A class="ncDimension" href="#v2">time</A>, <A class="ncDimension" href="#v3">altitude</A>)</font>
+  <dd><font class="ncAttribute">long_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">Vertical beam signal spectral width.</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">units</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">dB</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">ancillary_variables</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">qc_flag_vertical_beam</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">v3_cartesian_file_variable_name</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents">vertical_beam_spectral_width</font><font class="ncDataType">"</font>
+  <dd><font class="ncAttribute">comment</font><font class="code_black"> = </font><font class="ncDataType">"</font><font class="ncFileContents"><br>
+&nbsp;&nbsp;Refer to global attribute 'comment_vertical_beam' for general<br>
+&nbsp;&nbsp;details about this variable. This variable is included for reference<br>
+&nbsp;&nbsp;purposes only. Use should instead be made of variable<br>
+&nbsp;&nbsp;corrected_spectral_width for turbulence information.  </font><font class="ncDataType">"</font>
+</dl>
+
+<!*** End of page content ***>
+    </div>
+
+    <div class="footer">
+      <hr />
+      <a href="contacting_facility_staff.html">Page maintained by David
+	Hooper</a>. Last updated 12th May 2017.
+    </div>
+  </body>
+</html>

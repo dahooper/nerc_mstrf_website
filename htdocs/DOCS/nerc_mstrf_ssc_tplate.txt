@@ -1,0 +1,200 @@
+THE NERC MST RADAR FACILITY AT ABERYSTWYTH
+SUPPORTING SCIENTIFIC CASE FOR USE OF DATA PRODUCTS
+
+Return of the completed form indicates the applicant's agreement to
+abide by the attached Conditions of Data Use.
+
+Only those sections which are relevant to the category of data use
+need to be completed:
+
+  Section 1: mandatory for all data use categories and user types
+  Section 2: for students only; this includes research-based-
+             Masters and PhD students
+  Section 3: for Non-Core, Pilot, Specific and Experimental-Mode
+             categories
+  Section 4: Experimental-Mode applications only
+
+Please contact Dr David Hooper, mailto:D.A.Hooper@rl.ac.uk, the NERC
+MST Radar Facility Project Scientist, if you require any help
+completing the form.
+
+______________________________________________________________________
+SECTION 1 (mandatory for all data use categories and user types.
+           If more than one person is applying for access to the data
+           in connection with this project, include details for each
+	   applicant in the same format.)
+
+Date of submitting this application: day/month/year
+
+DETAILS OF THE APPLICANT
+Title and Full Name:
+Status: e.g. undergraduate, MSc student, PhD student, researcher . . 
+Name and address of academic department:
+E-mail address:
+Telephone number:
+
+DETAILS OF THE PROJECT
+Project title:
+Category of data use: i.e. Educational/Teaching/Non-Core/Pilot/Specific/
+	              Experimental-Mode
+Expected end date of project: month/year
+Description of the project: 
+i.e. course details for Teaching category or a description of the
+scientific background to the project, a statement of what the project
+aims to achieve and of how it is intended to do this, for all other
+categories. This should be a MINIMUM of 1 page in length for the
+Specific and Experimental-Mode categories.
+
+______________________________________________________________________
+SECTION 2 (required for students only; this includes research-based-
+           Masters and PhD students)
+
+DETAILS OF THE SUPERVISOR
+Title and Full Name:
+Name and address of academic department:
+E-mail address:
+Telephone number:
+
+
+DETAILS OF STUDENTSHIP
+Degree studying for: e.g. none/BSc/MSc/PhD
+Start date of study: month/year
+Expected end of study: month/year
+Funding body: e.g. none/NERC/PPARC
+Studentship reference number:
+
+______________________________________________________________________
+SECTION 3 (required for Non-Core, Pilot, Specific and Experimental-
+           Mode categories; not required for Educational and Teaching
+           categories or for research-based-Masters and PhD students.)
+           
+DETAILS OF FUNDING FOR THE PROJECT
+Funding body: e.g. EU/NERC/PPARC
+Grant reference number:
+If NERC funded, give funding mode: i.e. Non-thematic/Thematic/
+                                   Core-Strategic/Infrastructure
+
+______________________________________________________________________
+SECTION 4 (for Experimental-Mode category only)
+
+DETAILS OF EXPERIMENTAL-MODE REQUIREMENTS
+Period(s) for which experimental-mode is required:
+Observational requirements: e.g. beam directions, altitude coverage,
+                            range resolution and time resolution. 
+
+ADDITIONAL DETAILS 
+Include here any additional details which you think might support your
+application, e.g. relevant research experience or publication details.
+
+______________________________________________________________________
+______________________________________________________________________
+END OF SUPPORTING SCIENTIFIC CASE FOR USE OF DATA PRODUCTS
+
+Please return completed form to Dr David Hooper,
+mailto:D.A.Hooper@rl.ac.uk, the NERC MST Radar Facility Project
+Scientist.
+
+______________________________________________________________________
+______________________________________________________________________
+
+THE NERC MST RADAR FACILITY AT ABERYSTWYTH
+CONDITIONS OF DATA USE
+
+Data from the instruments at the NERC MST Radar Facility at Aberystwyth are
+freely available subject to the following conditions:
+
+DATA PROTECTION ACT
+For the purposes of tracking data usage and of improving the service,
+user and project details submitted to the NERC MST Radar Facility will
+be made available to the Natural Environment Research Council (NERC)
+and its delegated authorities. The latter include the staff of the
+British Atmospheric Data Centre (BADC) and members of the NERC
+Atmospheric Radar Facilities Steering Committee (NARFSC). The details
+of publications making use of data from the Facility will be made
+publicly available. As described below, current projects may be
+alluded to in the Facility's annual report to NERC, which is publicly
+available.
+
+PURPOSE OF USE
+The data are only to be used for bona fide academic research or
+educational purposes. People requiring the data for commercial
+purposes should contact the NERC MST Radar Facility Project Scientist
+directly.
+
+
+OWNERSHIP AND ACKNOWLEDGEMENTS
+The data remain the property of the appropriate funding body and may
+NOT be sold or otherwise passed on to a third party. Where the data
+are used in a presentation or publication, an acknowledgement MUST be
+given:
+
+In the case of data from the MST Radar, the surface meteorological
+sensors, the surface wind sensors, or the ceilometer, a sentence
+should be given along the lines of - "The MST Radar Facility at
+Aberystwyth is funded by the UK Natural Environment Research Council
+and the data are provided through the British Atmospheric Data
+Centre."
+
+In the case of data from the Met Office's boundary-layer wind-profiler
+or GPS water-vapour receiver, a sentence should be given along the
+lines of - "Data from the boundary-layer wind-profiler/GPS
+water-vapour receiver are provided courtesy of the Met Office through
+the British Atmospheric Data Centre."
+
+In the case of data from the RAL cloud radar, a sentence should be
+given along the lines of - "Data from the cloud radar are provided
+courtesy of the Rutherford Appleton Laboratory Millimetre-Wave
+Technology Group through the British Atmospheric Data
+Centre."
+
+NON-UK DATA USERS
+The remit of NERC is to fund and to manage scientific research and
+training within the UK. Although NERC is happy for non-UK users to
+make use of data from the MST Radar Facility, it only expects the
+Facility's staff to provide them with limited support. Moreover, in
+order for NERC to gain the appropriate credit for supporting science,
+it is necessary for publications making use of data from the Facility
+to include a UK-based author. Non-UK data users who do not have a
+direct collaboration with a UK-based scientist are therefore obliged
+to include the Facility's Project Scientist as a co-author on any
+publications.
+
+SUPPORTING SCIENTIFIC CASE (SSC)
+In order to ensure continued funding of the Facility, it is important
+to demonstrate to the NERC that there is a sufficient demand for the
+data products and that the scientific research, for which they are
+being used, is of a high quality. For this reason, as soon as a new
+user applies for access to the dataset through the BADC, they will be
+contacted by the NERC MST Radar Facility Project Scientist; they will
+be requested to submit a Supporting Scientific Case (SSC) which
+describes how they intend to make use of the data and full access will
+only be granted once this has been returned. The level of detail
+required in the SSC will depend on the intended use of the data.
+
+ANNUAL PROJECT UPDATES
+In addition to providing an SSC at the beginning of their projects,
+users are obliged to supply a project update at the end of each
+financial year. This description does not need to be very long (a
+paragraph might suffice) or very detailed. However, it should provide
+sufficient information to allow members of the NARFSC to appreciate
+how data from the Facility have been used over the preceding financial
+year (April - March). The emphasis here is on results and
+achievements, as opposed to the hopes and intentions outlined in the
+SSC. Text written for another purpose - e.g. the abstract of a recent
+paper or presentation - may be submitted if it fulfils the criteria
+outlined above. Projects may be alluded to in the "Science Highlights"
+section of the Facility's Annual Report to NERC, which is publicly
+available, although users will not be identified by name.  When the
+Facility's Project Scientist contacts users (at some point between
+January and March each year) to request this information, they will
+also be required to supply details of the following:
+
+  Publications: including those appearing in books, newspapers,
+    magazines, newsletters, websites, Masters and PhD theses,
+    conference proceedings, and refereed journals. These details will
+    be made publicly available through the Facility's website.
+
+  Presentations: including those given at conferences, seminars and
+    colloquia.
+
+End of conditions of data use.

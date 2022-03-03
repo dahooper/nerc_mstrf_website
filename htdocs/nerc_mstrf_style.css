@@ -1,0 +1,260 @@
+BODY
+  {
+    Background-Color: white;
+    Color: #000000;
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    Font-Size: x-small;
+    Font-Variant: Normal;
+    font-weight: normal;
+  }
+
+P, FONT, TH, TD, H3, H4, H5
+  {
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    Font-Size: medium;
+    font-weight: normal;
+    margin-top: 0px;
+  }
+
+
+H1
+  {
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    color: red;
+    font-weight: bold;
+    Font-Size: medium;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+
+  }
+
+H2
+  {
+    Font-Family: Helvetica, Arial, Sans-Serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    Font-Size: medium;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+A.menu_avail
+  {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+A.menu_current
+  {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+A.link_code_red
+  {
+    color: #ff0000;
+    font-family: Courier;
+    text-decoration: none;
+  }
+
+A.link_code_green
+  {
+    color: #00a000;
+    font-family: Courier;
+    text-decoration: none;
+  }
+
+A.link_code_blue
+  {
+    color: #0000ff;
+    font-family: Courier;
+    text-decoration: none;
+  }
+
+A.link_code_orange
+  {
+    color: #e59900;
+    font-family: Courier;
+    text-decoration: none;
+  }
+
+DIV.current
+  {
+    color: #ff0000;
+    font-weight: bold;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+  }
+
+FONT.code_blue
+  {
+    color: #0000ff; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_black
+  {
+    color: #000000; 
+    font-size: medium;
+    font-family: Courier;
+    font-weight: bold;
+  }
+
+FONT.code_green
+  {
+    color: #00a000; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_red
+  {
+    color: #ff0000; 
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.code_orange
+  {
+    color: #e59900;
+    font-size: medium;
+    font-family: Courier;
+  }
+
+FONT.blue
+  {
+    color: #0000ff;
+    font-size: medium;
+    Font-Family: Helvetica, Arial, Sans-Serif;
+  }
+
+FONT.green
+  {
+    color: #00bf00; 
+    Font-Family: Helvetica, Arial, Sans-Serif;
+  }
+
+FONT.red
+  {
+    color: #ff0000; 
+    Font-Family: Helvetica, Arial, Sans-Serif;
+  }
+
+A.FileName
+  {
+    color: #9a05da;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.CommandLine
+  {
+    color: #22b6b0;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.ncAttribute
+  {
+    color: #006600;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.ncDimension
+  {
+    color: #d0360d;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.ncVariable
+  {
+    color: #0000b2;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.ncDataType
+  {
+    color: #ff9d00;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+A.ncFileContents
+  {
+    color: #d68080;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+Font.FileName
+  {
+    color: #9a05da;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+Font.CommandLine
+  {
+    color: #22b6b0;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+FONT.ncAttribute
+  {
+    color: #006600;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+FONT.ncDimension
+  {
+    color: #d0360d;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+FONT.ncVariable
+  {
+    color: #0000b2;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+FONT.ncDataType
+  {
+    color: #ff9d00;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+FONT.ncFileContents
+  {
+    color: #d68080;
+    font-family: Courier;
+    font-size: medium;
+    text-decoration: none;
+  }

@@ -1,0 +1,429 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>File format for Vaisala WXT510 ptu data</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT FOR VAISALA WXT510 PTU DATA
+        </DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>File contents</B><BR>
+The files contain pressure, temperature and humidity (ptu) data from
+the Vaisala WXT510 weather transmitter - a surface met data logging
+instrument. For details about other data products from this
+instrument, click on one of the following links:<BR>
+<A href="file_format_wxt510_precip.html">precip</A><BR>
+<A href="file_format_wxt510_wind.html">wind</A><BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>Availability: </B> Data are available from 21st December 2007 until
+the present.<BR><BR>
+
+
+<B>File naming convention: </B><BR>
+
+<CENTER><FONT
+class="FileName">nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_wxt510-ptu.nc</FONT></CENTER><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="FileName">YYYY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 4-digit year [1990 - ]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="FileName">.nc</FONT></TD>
+    <TD></TD>
+    <TD valign="top">represents that this is a netCDF file</TD>
+  </TR>
+</TABLE><BR>
+
+<A href="file_naming_conventions.html">Click here</A> for the background to the
+file naming convention.<BR><BR>
+
+<B>File location: </B>
+<A class="FileName" href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/met-sensors-wxt510-ptu">/badc/mst/data/met-sensors-wxt510-ptu</A><BR>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+<B>Archiving convention: </B><FONT class="FileName">YYYY/MM</FONT><BR><BR>
+
+<B>netCDF File Structure</B> using the file for 21st December 2007 as
+an example - <A href="file_format_netcdf.html">click
+here</A> for an explanation<BR>
+
+<DL>List of <B>Global attributes</B> - Click on the name to view the value
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga0">file_version_number</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga1">data_year</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga2">data_month</A>
+  <DD><FONT class="ncDataType">short</FONT> <A class="ncAttribute" href="#ga3">data_day</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga4">Conventions</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga5">title</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga6">institution</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga7">source</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga8">history</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga9">references</A>
+  <DD><FONT class="ncDataType">char</FONT> <A class="ncAttribute" href="#ga10">comment</A>
+</DL>
+<DL>List of <B>Dimensions</B>
+ - Click on the name to view the corresponding coordinate variable
+  <DD><A class="ncDimension" href="#v4">time</A>
+</DL>
+<DL>List of <B>Variables</B> - Click on a name to view the corresponding attributes
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v0">longitude</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v1">latitude</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v2">altitude</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v3">height</A>  <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">integer</FONT> <A class="ncVariable" href="#v4">time</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v5">pressure</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v6">temperature</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncDataType">float</FONT> <A class="ncVariable" href="#v7">relative_humidity</A>  <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+</DL>
+List of <B>Global Attribute</B> values<BR>
+<A name="ga0">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">file_version_number</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">1</FONT><BR><BR>
+<A name="ga1">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_year</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">2007</FONT><BR><BR>
+<A name="ga2">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_month</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">12</FONT><BR><BR>
+<A name="ga3">
+<FONT class="ncDataType">short</FONT> <FONT class="ncAttribute">data_day</FONT><FONT class="code_black"> = </FONT><FONT class="ncFileContents">21</FONT><BR><BR>
+<A name="ga4">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">Conventions</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">CF-1.3</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga5">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">title</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp; 
+  Surface meteorological data (ptu) from the NERC MST Radar Facility at<BR>
+Aberystwyth</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga6">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">institution</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+Data recorded by the Natural Environment Research Council
+  (NERC)<BR>Mesosphere-Stratosphere-Troposphere (MST) Radar Facility
+  at Aberystwyth - <BR>
+http://mst.nerc.ac.uk<BR>
+&nbsp; Data processed by the Rutherford Appleton Laboratory, Space
+  Science and<BR>
+Technology Department - http://www.sstd.rl.ac.uk<BR>&nbsp;
+Data held at the British Atmospheric Data Centre - <BR>http://badc.nerc.ac.uk/data/mst</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga7">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">source</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Vaisala Weather Transmitter WXT510</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga8">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">history</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">File created 2008-08-28 11:04:47 +00:00 on machine claudius</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga9">
+<FONT class="ncDataType">char</FONT> <FONT class="ncAttribute">references</FONT><FONT class="code_black"> = </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  Basic information about the data is available at <BR>
+http://badc.nerc.ac.uk/data/mst<BR>&nbsp;
+  More detailed information about the data is available at<BR>
+http://mst.nerc.ac.uk<BR>&nbsp;
+  The manufacturer's details about the instrument can be found at<BR>
+http://www.vaisala.com</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<A name="ga10">
+<FONT class="ncDataType">char</FONT> <FONT
+  class="ncAttribute">comment</FONT><FONT class="code_black"> =
+  </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The Vaisala Weather Transmitter WXT510 is a single unit which<BR>
+measures a variety of surface meteorological parameters in three<BR>
+independent measurement cycles. Pressure, temperature and relative<BR>
+humidity (ptu) are measured in the first cycle, precipitation (precip)<BR>
+in the second, and wind speed and direction (wind) in the third. The<BR>
+data (for a given day) from each of these cycles are stored in<BR>
+separate files with respective names of the format:<BR>&nbsp;
+    nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_wxt510-ptu.nc<BR>&nbsp;
+    nerc-mstrf-met-sensors_capel-dewi_YYYYMMDD_wxt510-precip.nc<BR>&nbsp;
+    nerc-mstrf-wind-sensors_capel-dewi_YYYYMMDD_wxt510.nc<BR>
+where YYYYMMDD is an 8-character string representing the date. Missing<BR>
+data values are used to indicate gaps in data collection.<BR>&nbsp;
+  Pressure is measured by a silicon BAROCAP (R) sensor, temperature by<BR>
+a capacitive ceramic THERMOCAP (R) sensor, and relative humidity by a<BR>
+capacitive thin film polymer HUMICAP (R) 180 sensor. These are<BR>
+simultaneously sampled at 60 s intervals.<BR>&nbsp;
+  Precipitation is measured by a RAINCAP (R) piezoelectric sensor,<BR>
+which has an area of 60 cm2. The signal generated by the impact of a<BR>
+single raindrop is proportional to its volume. Internal signal<BR>
+processing is used to differentiate between the signals generated by<BR>
+rain, hail and undesired sources. Nevertheless, occasional small rain<BR>
+accumulations appear to be unrelated to precipitation. Data messages<BR>
+are only generated for the duration of a precipitation event, when<BR>
+they are available at 10 s intervals. The rainfall and hail<BR>
+accumulations represent the amounts since the last non-zero<BR>
+readings. The rates represents the mean values over the preceding 60<BR>
+s. Within the first 60 s of a precipitation event, the rates are<BR>
+evaluated only over the period since the start time of the event.<BR>&nbsp;
+  Wind speed and direction are measured by a WINDCAP (R) sensor. This<BR>
+consists of an array of three equally-spaced ultrasonic transducers<BR>
+(approximately 11 cm apart) in a horizontal plane. The time it takes<BR>
+for sound to travel between each pair of transducers depends on the<BR>
+temperature and the humidity of the air and on the component of wind<BR>
+vector along the direction joining the transducers. For a given pair<BR>
+of transducers, the effects of temperature and humidity are the same<BR>
+for the sound travelling in both the forward and the reverse<BR>
+directions. However, the effects of the wind vector are<BR>
+opposite. Measurements are required between at least two pairs of<BR>
+non-collinear transducers in order to derive the wind speed and<BR>
+direction. The use of measurements from all three pairs of transducers<BR>
+provides redundancy, which allows the wind information to be derived<BR>
+from the two pairs of transducers which provide the best quality<BR>
+signals. No attempt is made to calculate the wind direction when the<BR>
+speed drops below 0.05 m s-1. Instead, the last calculated direction<BR>
+is used until the wind speed rises back above 0.05 m s-1. Samples of<BR>
+wind speed and direction are taken 4 times a second over 3<BR>
+seconds. From these 12 samples, the minimum, mean, and maximum values<BR>
+of speed and direction are recorded.<BR>&nbsp;
+  The instrument at the NERC MST Radar site is mounted on a pole at<BR>
+approximately 1.9 m above ground level and at approximately 15 m to<BR>
+the north of the site bungalow. Messages are recorded by a Network<BR>
+Time Protocol enabled data logging computer together with the time (to<BR>
+the nearest second) at which they arrived. Measurements of pressure,<BR>
+temperature and relative humidity are generally in good agreement with<BR>
+those from the Campbell Scientific climate data logger, which is<BR>
+located approximately 50 m further north. Although the rain rates show<BR>
+similar patterns to those measured by a tipping bucket raingauge, the<BR>
+values from the WXT510 tend to have larger peak values and to be more<BR>
+variable as a function of time. This is consistent with the fact that<BR>
+the rates are evaluated over 1 rather than 10 minutes. The radar site<BR>
+is located within an approximately ENE-WSW aligned valley which leads<BR>
+to a strongly bimodal distribution of wind directions. Consequently<BR>
+the wind information cannot be interpreted to be representative of the<BR>
+larger-scale low-level flow. The wind data from the 10 m tower at<BR>
+Frongoch farm, which is located 3 km to the west, are recommended for<BR>
+this purpose.</FONT><FONT class="ncDataType">"</FONT><BR><BR>
+<BR>
+List of <B>Variable attribute</B> values
+<A name="v0">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">longitude</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">longitude</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">instrument longitude</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees_east</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">X</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The latitude and longitude of all instruments at the NERC MST Radar<BR>
+site, located at Capel Dewi near Aberystwyth in the UK, relate to<BR>
+British National Grid Reference SN637826. This is accurate to within<BR>
+100 m. The altitude of the base of the MST Radar antenna array is<BR>
+assumed (from the contours on an Ordnance Survey map) to be 50 m<BR>
+above mean sea level. This is accurate to within 10 m. The altitude of<BR>
+other instruments at the site are offset by their height above the<BR>
+base of the antenna array. The heights of the instruments above ground<BR>
+level refer to the local ground level, which is typically above the<BR>
+altitude of the base of the antenna array.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v1">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">latitude</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">instrument latitude</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degrees_north</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Y</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The latitude and longitude of all instruments at the NERC MST Radar<BR>
+site, located at Capel Dewi near Aberystwyth in the UK, relate to<BR>
+British National Grid Reference SN637826. This is accurate to within<BR>
+100 m. The altitude of the base of the MST Radar antenna array is<BR>
+assumed (from the contours on an Ordnance Survey map) to be 50 m<BR>
+above mean sea level. This is accurate to within 10 m. The altitude of<BR>
+other instruments at the site are offset by their height above the<BR>
+base of the antenna array. The heights of the instruments above ground<BR>
+level refer to the local ground level, which is typically above the<BR>
+altitude of the base of the antenna array.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v2">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">altitude</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">altitude</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">instrument altitude above mean sea level</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">Z</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The latitude and longitude of all instruments at the NERC MST Radar<BR>
+site, located at Capel Dewi near Aberystwyth in the UK, relate to<BR>
+British National Grid Reference SN637826. This is accurate to within<BR>
+100 m. The altitude of the base of the MST Radar antenna array is<BR>
+assumed (from the contours on an Ordnance Survey map) to be 50 m<BR>
+above mean sea level. This is accurate to within 10 m. The altitude of<BR>
+other instruments at the site are offset by their height above the<BR>
+base of the antenna array. The heights of the instruments above ground<BR>
+level refer to the local ground level, which is typically above the<BR>
+altitude of the base of the antenna array.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v3">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">height</FONT> <FONT class="ncDimension">(</FONT><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">height</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">instrument height above the ground</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">m</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">comment</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>&nbsp;
+  The latitude and longitude of all instruments at the NERC MST Radar<BR>
+site, located at Capel Dewi near Aberystwyth in the UK, relate to<BR>
+British National Grid Reference SN637826. This is accurate to within<BR>
+100 m. The altitude of the base of the MST Radar antenna array is<BR>
+assumed (from the contours on an Ordnance Survey map) to be 50 m<BR>
+above mean sea level. This is accurate to within 10 m. The altitude of<BR>
+other instruments at the site are offset by their height above the<BR>
+base of the antenna array. The heights of the instruments above ground<BR>
+level refer to the local ground level, which is typically above the<BR>
+altitude of the base of the antenna array.</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v4">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">time</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">time</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">UTC on 2007-12-21</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">seconds since 2007-12-21 00:00:00 +00:00</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">accuracy_details</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>&nbsp;
+  The data logging computer, which has Network Time Protocol enabled,<BR>
+checks for new messages from the instrument once every second. These<BR>
+messages are recorded together with the time of arrival to the nearest<BR>
+second. This can lead to an apparent variability, of +/- 1 s, in the<BR>
+intervals between regularly-spaced measurements.</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">resolution</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">1.0<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">axis</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">T</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v5">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">pressure</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">air_pressure</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">air pressure</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">hPa</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">9999.9<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">9999.9<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">accuracy_details</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
++/-0.5 hPa for temperature in the range 0 - 30 degree_Celsius<BR>
++/-1.0 hPa for temperature in the ranges -52 - 0, and 30 - 60 degree_Celsius</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">resolution</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.1<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">valid_range</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">600.0 1100.0
+<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude altitude</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v6">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">temperature</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">air_temperature</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">air temperature</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">degree_Celsius</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT
+  class="code_black">= </FONT><FONT
+  class="ncFileContents">99.9<FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT
+  class="code_black">= </FONT><FONT
+  class="ncFileContents">99.9<FONT class="ncDataType">f</FONT>
+  <DD><FONT class="ncAttribute">accuracy_details</FONT> <FONT
+  class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT
+  class="ncFileContents"><BR>Accuracy varies as a function of temperature:
++/-0.20 degree_Celsius at -40.0 degree_Celsius<BR>
++/-0.22 degree_Celsius at -20.0 degree_Celsius<BR>
++/-0.25 degree_Celsius at 0.0 degree_Celsius<BR>
++/-0.30 degree_Celsius at 20.0 degree_Celsius<BR>
++/-0.40 degree_Celsius at 40.0 degree_Celsius<BR>
++/-0.70 degree_Celsius at 60.0 degree_Celsius</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">resolution</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.1<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">valid_range</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">-52.0 60.0
+<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude altitude</FONT><FONT class="ncDataType">"
+</FONT></DL>
+<A name="v7">
+<DL><FONT class="ncDataType">float</FONT> <FONT class="ncVariable">relative_humidity</FONT> <FONT class="ncDimension">(</FONT><A class="ncDimension" href="#v4">time</A><FONT class="ncDimension">)</FONT>
+  <DD><FONT class="ncAttribute">standard_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">relative_humidity</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">long_name</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">relative humidity</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">units</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">%</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">missing_value</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">999.9<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">_FillValue</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">999.9<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">accuracy_details</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents"><BR>
++/-3% for relative humidity in the range 0 - 90 %<BR>
++/-5% for relative humidity in the range 90 - 100 %</FONT><FONT class="ncDataType">"
+  <DD><FONT class="ncAttribute">resolution</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.1<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">valid_range</FONT> <FONT class="code_black">= </FONT><FONT class="ncFileContents">0.0 100.0
+<FONT class="ncDataType">f</FONT>  <DD><FONT class="ncAttribute">coordinates</FONT> <FONT class="code_black">= </FONT><FONT class="ncDataType">"</FONT><FONT class="ncFileContents">latitude longitude altitude</FONT><FONT class="ncDataType">"
+</FONT></DL>
+
+
+<BR>
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_format_netcdf.html">A general description of netCDF file
+  structure</A>.
+</DL>
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 4th June 2009</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>

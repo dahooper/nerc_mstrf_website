@@ -1,0 +1,295 @@
+<HTML lang="en">
+<HEAD>
+<META name="keywords"
+      content="MST, VHF, Doppler, radar, wind, profiler, wave, turbulence">
+<META name="description"
+      content="NERC MST Radar Facility at Aberystwyth">
+<META name="author" Content="David Hooper">
+<META name="Generator" Content="emacs">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<LINK rel="stylesheet" type="text/css" href="nerc_mstrf_style.css">
+<TITLE>MST Radar wind data file format</TITLE>
+</HEAD>
+
+<BODY leftmargin="0" marginheight="0" topmargin="0">
+<A name="top">
+<TABLE align="center" border="0"
+       cellpadding="0" cellspacing="0" width="100%">
+  <TR><TD bgcolor="#ffd000">
+    <IMG height="5" src="FIGS/pixel_gold.png"></TD></TR>
+</TABLE>
+
+<TABLE align="center" bgcolor="#ffffff" border="0" cellpadding="0" 
+       cellspacing="0" width="100%">
+  <TR>
+    <TD align="center" bgcolor="#ffd000" rowspan="5" width="170" valign="top">
+      <IMG alt="NERC Logo" border="0" src="LOGOS/nerc_button.png">
+      <IMG alt="MSTRF Logo" border="0" src="LOGOS/mst_button.png"><BR><BR>
+      <A class="menu_avail" href="index.html">HOME</A><BR><BR>
+      <A class="menu_avail" href="announcements.html">ANNOUNCEMENTS</A><BR><BR>
+      <A class="menu_avail" href="contacts.html">CONTACTS</A><BR><BR>
+      <A class="menu_avail" href="data.html">DATA</A><BR><BR>
+      <A class="menu_avail" href="instruments.html">INSTRUMENTS</A><BR><BR>
+      <A class="menu_avail" href="main_menu.html">MAIN MENU</A><BR><BR>
+      <A class="menu_avail" href="miscellaneous.html">MISCELLANEOUS</A><BR><BR>
+      <A class="menu_avail" href="plots.html">PLOTS</A><BR><BR>
+      <A class="menu_avail" href="publications.html">PUBLICATIONS</A><BR><BR>
+      <A class="menu_avail" href="science.html">SCIENCE</A><BR><BR>
+      <A class="menu_avail" href="wind_prof_prin.html">
+        WIND-PROFILER<BR>PRINCIPLES</A><BR><BR><BR>
+      <B>For this page:</B><BR>
+      <A class="menu_avail" href="#internal">INTERNAL LINKS</A><BR>
+    </TD>
+
+    <TD align="left" bgcolor="#ffd000" colspan="2" height="41" valign="top">
+      <B>THE NERC MST RADAR FACILITY AT ABERYSTWYTH</B><BR>
+      <DIV class="current">FILE FORMAT (ASCII) FOR VERSION-0 MST RADAR
+      WIND DATA</DIV>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="3" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR>
+    <TD align="left" width="10" valign="top">
+      <IMG src="FIGS/pixel_white.png">
+    </TD>
+
+    <TD align="left" valign="top">
+<!*** Page contents to go here ***>
+<B>WARNING: Version-0 MST radar data products are DEPRECATED</B><BR>
+Users are encouraged to make use of <A
+href="file_format_v2_cart.html">Version-2 Cartesian files.</A><BR>
+<A href="sig_proc_version_nrs.html">Click here</A> to find out more about
+the different versions of the signal processing.<BR><BR>
+
+<B>File contents</B><BR> These files contain profiles of the eastward,
+northward and upward components of the wind. The same format is used
+for both unaveraged and 12 minute averaged data files.<BR>
+<A href="file_contents.html">Click here</A> to find out about the
+contents of other files.<BR><BR>
+
+<B>File naming convention: </B><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Unaveraged</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">vhYYMMDD.gz</FONT>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">12 minute averaged</TD>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">vecYYMMDD.gz</FONT>
+  </TR>
+</TABLE><BR>
+
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><FONT class="code_black">YY</FONT></TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">is a 2-digit year [00 - 99]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">MM</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit month [01 - 12]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">DD</FONT></TD>
+    <TD></TD>
+    <TD valign="top">is a 2-digit day [01 - 31]</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top"><FONT class="code_black">gz</FONT></TD>
+    <TD></TD>
+    <TD valign="top">indicates that the file is compressed with the GNU
+    <FONT class="code_black">gzip</FONT> algorithm</TD>
+  </TR>
+</TABLE><BR>
+
+<A href="file_naming_conventions.html">Click here</A> for the
+background to the file naming convention, and <A
+href="file_naming_conventions.html#gzip">here</A> for to find out how
+to deal with compressed files.<BR>
+
+<B>NOTE</B> for Windows-based users. WinZip gives rise to an
+unexpected change of name from <FONT
+class="code_black">vhYYMMDD.gz</FONT> to <FONT
+class="code_black">vecYYMMDD</FONT> when uncompressing (owing to the
+fact that the original file was first compressed, and then
+renamed). It is not, therefore, possible to distinguish between
+uncompressed files for unaveraged and 12 minute averaged wind data
+based on the name. This problem is not encountered on Linux/Unix
+systems. <BR><BR>
+
+<B>File location: </B><BR>
+<TABLE bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0">
+  <TR>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top">Unaveraged</TD>
+    <TD><IMG width="20" src="FIGS/pixel_white.png"></TD>
+    <TD valign="top"><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/vw"><FONT
+  class="code_black">/badc/mst/data/mst-products-v0/vw/</FONT>
+
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD valign="top">12 minute averaged</TD>
+    <TD></TD>
+    <TD valign="top"><A
+  href="http://badc.nerc.ac.uk/getdata/data_browser/badc/mst/data/mst-products-v0/vector"><FONT
+  class="code_black">/badc/mst/data/mst-products-v0/vector/</FONT>
+  </TR>
+</TABLE>
+<A href="data_locations.html">Click here</A> for the location of other files.<BR><BR>
+
+<B>Archiving convention: </B><FONT class="code_black">YYYY</FONT><BR>
+<A href="archiving_conventions.html">Click here</A> for a further explanation.<BR><BR>
+
+<B>File availability</B><BR> 1989 to the present.<BR><BR>
+
+<B>File format</B><BR>
+The data are recorded in non-standard ASCII format files. The first
+twelve lines of the (unaveraged data) file for
+3rd September 2001 are shown below by way of example below:</P>
+
+<PRE><FONT class="code_green">
+ 1  0.80  1  1  1  1    4.0
+  Lat.     Long.  Height  Freq_Mhz    Site
+ 52.400   -4.000   50.0    46.50    Capel Dewi.
+ Run  1265  vw010903_0020.22
+ Dw Beam      Date     Time      Bins     Bins   Tx Rx   Pri  Sum FFT Avg
+  1  NE6 D2001/09/03 Z00:20:50 L018:147 U000:000  8  2   320  512 128  1
+  3  VRT D2001/09/03 Z00:21:38 L017:147 U000:000  8  2   320 1024  64  1
+  4  SE6 D2001/09/03 Z00:22:01 L018:147 U000:000  8  2   320  512 128  1
+    Km    East  North  Vert.  m/s  Heights= 120
+   1.70  -2.93 -22.11   1.55
+   1.85  -4.39 -22.04   1.80
+   2.00   6.05 -11.82   1.13</FONT></PRE>
+
+In the explanations of the different file components below, some of
+the horizontal spacings have been altered for the sake of clarity. The
+text shown in red is for descriptive purposes only and does not appear
+in the files. The first 5 (header) lines, shown only once at the very
+beginning of each file, do not contain any information needed to
+extract or to interpret the data and so can be ignored.<BR>
+
+<PRE><FONT class="code_green">
+ 1  0.80  1  1  1  1    4.0
+  Lat.     Long.  Height  Freq_Mhz    Site
+ 52.400   -4.000   50.0    46.50    Capel Dewi.
+ Run  1265  vw010903_0020.22
+ Dw Beam      Date     Time      Bins     Bins   Tx Rx   Pri  Sum FFT Avg</FONT></PRE>
+
+Wind profiles are calculated by combining the information from
+observations made in the vertical direction and at an off-vertical
+angle in two orthogonal azimuths. The next three lines contain the
+radar observation information for the three beam pointing directions
+used. Only the observation times are actually required to make use of
+the data. Since these times are typically within a couple of minutes
+of each other, it is aribitrary whether the profile time is taken to
+correspond to the first of these, the average or the middle
+value. Since a radar observation cycle typically involves more than
+three beam pointing directions, a profile is calculated for each
+possible combination. This means that for 12 minute averaged data,
+there will typically be two or three profiles within a few minutes of
+each other and then a gap of almost 12 minutes before the next set of
+profiles. 
+
+<PRE><FONT class="code_green">
+1   NE6 D2001/09/03 Z00:20:50 L018:147 U000:000  8     2     320  512   128    1
+3   VRT D2001/09/03 Z00:21:38 L017:147 U000:000  8     2     320 1024    64    1
+4   SE6 D2001/09/03 Z00:22:01 L018:147 U000:000  8     2     320  512   128    1</FONT><FONT class="code_red">
+DWL BD   YYYY/MM/DD  hh:mm:ss  RG1:RG2  RG3:RG4  PLEN  RXBW  IPP  NCI  LDFT  NII</FONT></PRE>
+
+<DL>
+  <DD><FONT class="code_red">DWL</FONT> - Dwell number, i.e. the dwell
+      position in the sequence of observations made during each cycle
+  <DD><FONT class="code_red">BD</FONT> - Nominal beam pointing direction
+  <DD><FONT class="code_red">YYYY/MM/DD</FONT> - Observation date
+      (year/month/day)
+  <DD><FONT class="code_red">hh:mm:ss</FONT> - UT observation time
+      (hour:minute:second)
+  <DD><FONT class="code_red">RG1:RG2</FONT> - Bottom and top range gates
+      of the lower observation region
+  <DD><FONT class="code_red">RG3:RG4</FONT> - Bottom and top range gates
+      of the upper observation region (equal to zero for ST mode observations)
+  <DD><FONT class="code_red">PLEN</FONT> - Pulse length (us)
+  <DD><FONT class="code_red">RXBW</FONT> - Receiver bandwidth (us)
+  <DD><FONT class="code_red">IPP</FONT> - Inter-pulse period (us)
+  <DD><FONT class="code_red">NCI</FONT> - Number of coherent integrations
+  <DD><FONT class="code_red">LDFT</FONT> - Length of discrete Fourier
+      transform
+  <DD><FONT class="code_red">NII</FONT> - Number of incoherent integrations
+</DL>
+
+The next block of lines (of which only the first 4 are shown)
+contains the three components of the wind vector as a function of
+altitude. Although the radar return signal is sampled every 150 m in range,
+data are only given in this file at range gates for which the signal
+is sufficiently strong for the Doppler shift values to be considered
+reliable. The number of range gates for each cycle is given in the
+first line of the block - <FONT class="code_green">Heights= 120</FONT> -
+i.e. there are 120 lines of data for this particular cycle.<BR>
+
+<PRE><FONT class="code_green">
+    Km    East  North  Vert.  m/s  Heights= 120
+   1.70  -2.93 -22.11   1.55
+   1.85  -4.39 -22.04   1.80
+   2.00   6.05 -11.82   1.13</FONT><FONT class="code_red">
+   z      u     v       w</FONT>
+</PRE>
+
+<DL>
+  <DD><FONT class="code_red">z</FONT> - Altitude (km)
+  <DD><FONT class="code_red">u</FONT> - Zonal velocity (m s<SUP>-1</SUP>),
+      i.e. component of wind vector towards East (+ve)
+  <DD><FONT class="code_red">v</FONT> - Meridional velocity
+      (m s<SUP>-1</SUP>), i.e. component of wind vector towards North (+ve)
+  <DD><FONT class="code_red">w</FONT> - Vertical velocity (m s<SUP>-1</SUP>),
+      i.e. component of wind vector upwards (+ve)
+</DL>
+
+
+
+<!*** Links and references ***>
+<A name="internal">
+<DL><B>Internal Links:</B>
+  <DD><A href="#top">Return to the top of the page</A>
+  <DD><A href="data_access.html">Gaining access to the data</A>
+  <DD><A href="file_naming_conventions.html">File naming convention</A>
+  <DD><A href="archiving_conventions.html">Data archiving convention</A>
+  <DD><A href="data_locations.html">Data locations</A>
+  <DD><A href="sig_proc_version_nrs.html">The differences between
+  signal processing versions</A>
+  <DD><A href="file_contents.html">The contents of other data files</A>
+</DL>
+
+
+<!*** Close page ***>
+    </TD>
+  </TR>
+
+  <TR><TD align="centre" bgcolor="#ffffff" colspan="2" valign="top">
+    <IMG height="10" src="FIGS/pixel_white.png"></TD>
+  </TR>
+
+  <TR><TD align="left" bgcolor="#ffd000" colspan="2" valign="bottom">
+    <I>Page maintained by <A href="mailto:D.A.Hooper@rl.ac.uk">
+         David Hooper</A><BR>
+       Last updated 22nd March 2005</I>
+  </TD></TR>
+</TABLE>
+</BODY>
+</HTML>
