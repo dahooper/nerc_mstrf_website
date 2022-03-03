@@ -1,0 +1,1396 @@
+- added: 2014-01-06 11:46
+  author: DAH
+  end: 2014-01-03 19:32
+  number: '955'
+  start: 2014-01-03 19:32
+  text: 'Instrument: UPS units. The units switched to battery power for ~1 s i response
+    to an input power problem.'
+- added: 2014-01-09 14:53
+  author: DAH
+  end: 2014-01-05 05:21
+  number: '966'
+  start: 2014-01-05 05:21
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power was low of antenna sectors A, B, and C for one dwell.'
+- added: 2014-01-07 15:05
+  author: DAH
+  end: 2014-01-07 14:42
+  number: '958'
+  start: 2014-01-07 14:29
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 7: "Analogue Parameter Error at State 4". DAH was able to clear
+    the error and to restart the transmitter remotely.'
+- added: 2014-01-07 16:20
+  author: DAH
+  end: 2014-01-07 16:17
+  number: '959'
+  start: 2014-01-07 15:21
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 7: "Analogue Parameter Error at State 4". DAH was able to clear
+    the error and to restart the transmitter remotely at 15:26. However, the same
+    problem recurred 7 more times during this period, primarily within the first 20
+    minutes. The transmitter remained out of action between  2014-01-07 16:38 and
+    2014-01-09 13:22, when LD restarted it.'
+- added: 2014-01-13 15:02
+  author: DAH
+  end: 2014-01-09 14:36
+  number: '968'
+  start: 2014-01-09 14:25
+  text: 'Instrument: MST Radar. The beam steering controller indicated that units
+    41, 42, 51, and 52 were not responding during this period. '
+- added: 2014-01-13 15:07
+  author: DAH
+  end: 2014-01-12 22:53
+  number: '969'
+  start: 2014-01-12 18:05
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 95
+    alterated between not responding and responding on 9 occasions during this period.
+    The problem went away without any intervention being taken.'
+- added: 2014-01-14 08:43
+  author: DAH
+  end: 2014-01-14 23:59
+  number: '970'
+  start: 2014-01-13 00:00
+  text: 'Instrument: Vaisala WXT510. A known bug in the netCDF file creation software
+    prevented the file being created for 2014-01-13 and 2014-01-14 owing to short
+    gaps in the raw data.'
+- added: 2014-01-17 08:43
+  author: DAH
+  end: 2014-01-16 23:59
+  number: '971'
+  start: 2014-01-16 00:00
+  text: 'Instrument: Vaisala WXT510. A known bug in the netCDF file creation software
+    prevented the file being created for the day owing to a short gap in the raw data.'
+- added: 2014-01-20 08:53
+  author: DAH
+  end: 2014-01-19 23:59
+  number: '972'
+  start: 2014-01-17 00:00
+  text: 'Instrument: Vaisala WXT510. A known bug in the netCDF file creation software
+    prevented the file being created for 2014-01-17, 2014-01-18, and 2014-01-19 owing
+    to short gaps in the raw data.'
+- added: 2014-01-20 14:18
+  author: DAH
+  end: 2014-01-17 10:31
+  number: '973'
+  start: 2014-01-17 10:27
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector E was briefly
+    taken out of line to allow LD to investigate an outstanding raised noise floor
+    issue.'
+- added: 2014-01-23 08:42
+  author: DAH
+  end: 2014-01-22 23:59
+  number: '976'
+  start: 2014-01-21 00:00
+  text: 'Instrument: Vaisala WXT510. A known bug in the netCDF file creation software
+    prevented the file being created for 2014-01-21 and 2014-01-22 owing to short
+    gaps in the raw data.'
+- added: 2014-01-21 09:47
+  author: DAH
+  end: 2014-01-21 03:34
+  number: '974'
+  start: 2014-01-21 03:18
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 95
+    did not respond for this 15+ minute period. It began to respond again without
+    any intervention having been taken.'
+- added: 2014-01-21 16:08
+  author: DAH
+  end: 2014-01-21 10:23
+  number: '975'
+  start: 2014-01-21 10:06
+  text: 'Instrument: MST Radar. The radar was stopped for 15 minutes so that LD could
+    swap beamsteering unit 95, which had been unresponsive on a few recent occasions. '
+- added: 2014-01-28 13:52
+  author: DAH
+  end: 2014-01-24 23:59
+  number: '980'
+  start: 2014-01-24 00:00
+  text: 'Instrument: Vaisala WXT510. A known bug in the netCDF file creation software
+    prevented the file being created owing to gaps in the raw data.'
+- added: 2014-01-24 16:29
+  author: DAH
+  end: 2014-01-24 14:47
+  number: '977'
+  start: 2014-01-24 14:09
+  text: 'Instrument: MST Radar. The radar control PC (julius) became unresponsive
+    for a short while around 14:28 UT. LD spotted that all 5 transmitters were showing
+    low power and so phoned DAH, who suspected that they were seeing a similar problem
+    to that seen on 2013-12-30. Consequently DAH was able to remove the spectral files
+    for this period from the data stream and so prevented them from crashing the signl
+    processing software. The underlying cause of the problem is not known.'
+- added: 2014-01-28 11:35
+  author: DAH
+  end: 2014-01-24 16:39
+  number: '978'
+  start: 2014-01-24 16:39
+  text: 'Instrument: UPS units. The units switched to battery power for a relatively
+    long time (~ 18 s) in repsonse to an input power problem.  '
+- added: 2014-01-28 12:04
+  author: DAH
+  end: 2014-01-26 11:40
+  number: '979'
+  start: 2014-01-25 13:41
+  text: 'Instrument: Broadband Modem. The modem lost its internet connection at some
+    time shortly after (Saturday) 2014/01/25 13:41. DAH did not spot this until 17:40
+    and was unable to re-establish the connection by remotely power-cycling the modem.
+    LD visited the site on the following day and was only able to re-establish a connection
+    by switching to the backup modem. It seems likely that the original modem was
+    damaged in connection with a nearby lightning strike. A deep convective system
+    was passing over the radar site when the connection was first lost.     '
+- added: 2014-01-30 09:14
+  author: DAH
+  end: 2014-01-29 11:26
+  number: '981'
+  start: 2014-01-29 11:26
+  text: 'Instrument: UPS units. The UPS units switched to battery power in response
+    to a brief (~ 1 s) input power problem.'
+- added: 2014-01-30 10:32
+  author: DAH
+  end: 2014-01-29 11:50
+  number: '982'
+  start: 2014-01-29 11:50
+  text: 'Instrument: MST Radar. The beam steering controller gave a critical error
+    message at this time. However, it''s not clear what the message meant and the
+    operation of the radar does not appear to have been affected at this time. '
+- added: 2014-01-30 11:09
+  author: DAH
+  end: 2014-01-29 14:21
+  number: '983'
+  start: 2014-01-29 14:15
+  text: 'Instrument: MST Radar. There was an unaccountable gap of approximately 5
+    minutes between the final dwell of one observation cycle and the first dwell of
+    the subsequent cycle. '
+- added: 2014-02-10 15:30
+  author: DAH
+  end: 2014-02-05 13:21
+  number: '987'
+  start: 2014-02-05 13:21
+  text: 'Instrument: Beam Steering Controller. The controller indicated that a system
+    error had occurred, although it is not clear what this meant. The radar continued
+    to operate normally.'
+- added: 2014-02-06 10:23
+  author: DAH
+  end: 2014-02-06 02:11
+  number: '984'
+  start: 2014-02-06 02:11
+  text: 'Instrument: UPS units. The units switched tp battery power owing to a brief
+    (~ 1 s) input power problem.'
+- added: 2014-02-10 08:34
+  author: DAH
+  end: 2014-02-07 10:30
+  number: '985'
+  start: 2014-02-07 09:20
+  text: 'Instrument: MST Radar. There was a slightly raised noise level during this
+    period as LD investigated an on-going problem with the transmitter powering antenna
+    sector E. '
+- added: 2014-02-10 15:24
+  author: DAH
+  end: 2014-02-07 11:08
+  number: '986'
+  start: 2014-02-07 11:08
+  text: 'Instrument: UPS units. The UPS units switched to battery power in response
+    to a brief (~ 1 s) input power problem.'
+- added: 2014-02-10 15:33
+  author: DAH
+  end: 2014-02-07 13:00
+  number: '990'
+  start: 2014-02-07 12:16
+  text: 'Instrument: MST Radar. The beam steering controller indicated that units
+    41, 42, 51, and 52 did not respond during this period. They began to respond again
+    without any intervention being taken.'
+- added: 2014-02-13 08:20
+  author: DAH
+  end: 2014-02-11 10:30
+  number: '991'
+  start: 2014-02-10 06:58
+  text: 'Instrument: MST Radar. The transmitter powering antenna section B was out
+    of action during this period owing to a blown fuse.'
+- added: 2014-02-10 15:30
+  author: DAH
+  end: 2014-02-10 10:21
+  number: '988'
+  start: 2014-02-10 10:21
+  text: 'Instrument: Beam Steering Controller. The controller indicated that a system
+    error had occurred, although it is not clear what this meant. The radar continued
+    to operate normally.'
+- added: 2014-02-10 15:31
+  author: ZKO
+  end: 2014-02-10 14:21
+  number: '989'
+  start: 2014-02-10 14:21
+  text: 'Instrument: Beam Steering Controller. The controller indicated that a system
+    error had occurred, although it is not clear what this meant. The radar continued
+    to operate normally.'
+- added: 2014-02-13 08:51
+  author: DAH
+  end: 2014-02-11 12:49
+  number: '992'
+  start: 2014-02-11 11:57
+  text: 'Instrument: MST Radar. During this period, beam steering units 83, 93, 94
+    (which are fed from one power divider), 95,  and 41, 42, 51, and 52 (which are
+    fed from one power divider) all reported that they were not responding. '
+- added: 2014-02-13 09:15
+  author: DAH
+  end: 2014-02-11 16:49
+  number: '993'
+  start: 2014-02-11 16:49
+  text: 'Instrument: MST Radar. The beam steering controller gave a critical system
+    error message, although the radar continued to operate without a problem. '
+- added: 2014-02-26 09:59
+  author: DAH
+  end: 2014-02-12 13:48
+  number: '1010'
+  start: 2014-02-11 18:34
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A was out
+    of action with a blown fuse. '
+- added: 2014-02-13 09:16
+  author: DAH
+  end: 2014-02-12 11:32
+  number: '994'
+  start: 2014-02-12 11:32
+  text: 'Instrument: MST Radar. The beam steering controller gave a critical system
+    error message, although the radar continued to operate without a problem. '
+- added: 2014-02-13 09:50
+  author: ZKO
+  end: 2014-02-12 17:05
+  number: '995'
+  start: 2014-02-12 13:45
+  text: 'Instrument: UPS units. During this period of extremely strong surface winds,
+    the UPS units indicated that they had switched to battery power on several occasions:  at
+    13:44 for ~ 1 s, at 14:06 for ~ 1 s, at 14:12 twice for ~ 2 s, at 14:55 for ~
+    1 s, at 15:22 for ~ 1 s, at 15:24 twice for ~ 1 s, at 15:34 for ~ 1 s, at 16:16
+    for ~ 1 s, at 16:24 twice for ~ 1 s and once for ~ 3 s, at 16:25 twice for ~ 1
+    s, at 16:26 for ~ 1 s, and at 17:03 for ~ 1 s. No equipment appears to have gone
+    down during this period.'
+- added: 2014-02-13 10:08
+  author: DAH
+  end: 2014-02-13 04:48
+  number: '996'
+  start: 2014-02-13 04:48
+  text: 'Instrument: UPS units. The units switched to battery power for ~ 6 s in response
+    to an input power problem.'
+- added: 2014-02-14 08:26
+  author: DAH
+  end: 2014-02-13 20:23
+  number: '997'
+  start: 2014-02-13 20:23
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~1 s) input power problem.'
+- added: 2014-02-14 08:28
+  author: DAH
+  end: 2014-02-14 02:45
+  number: '998'
+  start: 2014-02-14 02:45
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~2 s) input power problem.'
+- added: 2014-02-14 08:32
+  author: DAH
+  end: 2014-02-14 03:06
+  number: '999'
+  start: 2014-02-14 03:06
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~1 s) input power problem.'
+- added: 2014-02-14 08:33
+  author: DAH
+  end: 2014-02-14 03:20
+  number: '1000'
+  start: 2014-02-14 03:20
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~1 s) input power problem.'
+- added: 2014-02-14 08:35
+  author: ZKO
+  end: 2014-02-14 05:09
+  number: '1001'
+  start: 2014-02-14 05:09
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~2 s) input power problem.'
+- added: 2014-02-17 08:30
+  author: DAH
+  end: 2014-02-14 11:00
+  number: '1003'
+  start: 2014-02-14 09:20
+  text: 'Instrument: MST Radar. The noise power was raised during this period owing
+    to LD carry out investigations on the transmitter powering antenna sector E.'
+- added: 2014-02-26 14:47
+  author: DAH
+  end: 2014-02-21 17:20
+  number: '1020'
+  start: 2014-02-14 18:00
+  text: 'Instrument: Frongoch Surface Wind Sensors. It appears that the data logger
+    malfunctioned during this period. The raw data log files are of the correct format,
+    but contain "0"s for all of the fields other than those relating to the date and
+    time. At first it was thought that the sensor connections might be loose. However,
+    LD checked them on 2014-02-18 and could see no problem. Consequently, DAH tried
+    re-uploading the acquisition program, on 2014-02-18 and 2014-02-19, thinking that
+    it may have been lost as a result of recent power disruptions.  However, this
+    did not appear to help (although there are some mysterious periods when actual
+    data appear to exist). Realistic-looking data started to be recorded again at
+    around 2014-02-21 17:20 without any further intervention having been taken. '
+- added: 2014-02-17 09:48
+  author: DAH
+  end: 2014-02-17 09:47
+  number: '1004'
+  start: 2014-02-15 00:47
+  text: null
+- added: 2014-02-17 08:27
+  author: DAH
+  end: 2014-02-15 19:29
+  number: '1002'
+  start: 2014-02-15 19:29
+  text: 'Instrument: MST Radar. The beam steering controller indicated that 3 of the
+    transmitters - those powering antenna sectors A, B, and D - had low forward power
+    levels for 1 dwell. There was no obvious effect on radar performance.'
+- added: 2014-02-17 10:25
+  author: DAH
+  end: 2014-02-15 21:52
+  number: '1005'
+  start: 2014-02-15 21:52
+  text: 'Instrument: UPS units. The units briefly switched to battery power in response
+    to an input power problem. This happened twice within the space of a few seconds
+    and lasting for ~ 1 s on each occasion. '
+- added: 2014-02-17 11:16
+  author: DAH
+  end: 2014-02-15 23:27
+  number: '1006'
+  start: 2014-02-15 23:26
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the transmitters
+    powering antenna sectors A and B had low forward power for 1 dwell. Within a minute,
+    the transmitters for sectors A, B, C, and D were also show to lave low forward
+    power for 1 dwell. '
+- added: 2014-02-26 10:03
+  author: DAH
+  end: 2014-02-17 12:01
+  number: '1011'
+  start: 2014-02-17 12:01
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-18 09:14
+  author: DAH
+  end: 2014-02-17 15:57
+  number: '1007'
+  start: 2014-02-17 15:57
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a relatively long (~ 10 s) input power problem.'
+- added: 2014-02-18 09:19
+  author: DAH
+  end: 2014-02-17 16:24
+  number: '1008'
+  start: 2014-02-17 16:24
+  text: 'Instrument: UPS units. The units switched to battery power for a relatively
+    long time (~ 20 s) in response to an input power problem. '
+- added: 2014-02-18 09:54
+  author: DAH
+  end: 2014-02-17 17:01
+  number: '1009'
+  start: 2014-02-17 17:01
+  text: 'Instrument: UPS units. The units switched to battery power for a relatively
+    long time (~ 12 s) in response to an input power problem.'
+- added: 2014-02-26 10:05
+  author: DAH
+  end: 2014-02-18 16:49
+  number: '1012'
+  start: 2014-02-18 16:49
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-26 10:19
+  author: DAH
+  end: 2014-02-19 05:12
+  number: '1019'
+  start: 2014-02-19 05:11
+  text: 'Instrument: MST Radar. The beam steering controller inidcated that the forward
+    power from all 5 transmitters was briefly low. '
+- added: 2014-02-26 10:06
+  author: DAH
+  end: 2014-02-19 12:43
+  number: '1013'
+  start: 2014-02-19 12:40
+  text: 'Instrument: MST Radar. The beam steering unit gave two unexplained "critical"
+    system errors - one at 12:40 and the second at 12:42 - although the performance
+    of the radar did not appear to be affected.'
+- added: 2014-02-26 10:08
+  author: DAH
+  end: 2014-02-19 15:40
+  number: '1014'
+  start: 2014-02-19 15:40
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-26 10:11
+  author: DAH
+  end: 2014-02-20 14:50
+  number: '1015'
+  start: 2014-02-20 14:50
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-26 10:14
+  author: DAH
+  end: 2014-02-21 16:52
+  number: '1016'
+  start: 2014-02-21 16:52
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-26 10:15
+  author: DAH
+  end: 2014-02-22 22:38
+  number: '1017'
+  start: 2014-02-22 22:38
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-02-26 10:16
+  author: DAH
+  end: 2014-02-22 23:31
+  number: '1018'
+  start: 2014-02-22 23:31
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-31 16:38
+  author: DAH
+  end: 2014-03-14 10:05
+  number: '1042'
+  start: 2014-02-27 01:12
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was out
+    of action for most of this period. Between 2014-02-27 01:12 and 2014-03-11 14:50
+    UT it had a blown fuse. It was then in operation for just over an hour (until
+    2014-03-11 15:59 UT) when it went down with error code 6 ("Analogue parameter
+    error st state 3") and was restarted the following day (at  2014-03-12 13:03 UT),
+    but only stayed in operation for 7 minutes (until 2014-03-12 13:10 UT), when it
+    went down with a blown fuse. It was repaired 2 days later, at  2014-03-14 10:05
+    UT.'
+- added: 2014-02-28 16:28
+  author: DAH
+  end: 2014-02-28 12:37
+  number: '1021'
+  start: 2014-02-28 00:34
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector E was out
+    of action during this period owing to a blown HV fuse. '
+- added: 2014-03-05 14:03
+  author: DAH
+  end: 2014-02-28 23:30
+  number: '1022'
+  start: 2014-02-28 23:30
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-28 09:42
+  author: DAH
+  end: 2014-03-01 06:50
+  number: '1038'
+  start: 2014-03-01 06:50
+  text: 'Instrument: MST Radar. The beam steering controller indicated a dip in forward
+    power. for antenna sector A, for 1 dwell.'
+- added: 2014-03-28 09:43
+  author: DAH
+  end: 2014-03-01 18:45
+  number: '1039'
+  start: 2014-03-01 18:45
+  text: 'Instrument: MST Radar. The beam steering controller indicated a dip in forward
+    power. for antenna sectors A and D, for 1 dwell.'
+- added: 2014-03-05 14:03
+  author: DAH
+  end: 2014-03-03 11:47
+  number: '1023'
+  start: 2014-03-03 11:47
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-05 14:04
+  author: DAH
+  end: 2014-03-03 12:49
+  number: '1024'
+  start: 2014-03-03 12:49
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-05 14:05
+  author: DAH
+  end: 2014-03-03 13:21
+  number: '1025'
+  start: 2014-03-03 13:21
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-05 14:05
+  author: ZKO
+  end: 2014-03-03 16:26
+  number: '1026'
+  start: 2014-03-03 16:26
+  text: 'Instrument: MST Radar. The beam steering unit gave an unexplained "critical"
+    system error, although the performance of the radar did not appear to be affected.'
+- added: 2014-03-28 09:29
+  author: DAH
+  end: 2014-03-12 09:25
+  number: '1029'
+  start: 2014-03-12 09:25
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-04-01 09:42
+  author: DAH
+  end: 2014-03-25 11:19
+  number: '1046'
+  start: 2014-03-14 14:27
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was out
+    of action for most of this time. Initially its fuse blew. This was fixed two days
+    later, at 2014-03-18 12:03 UT, but it was up and down again a few times during
+    the rest of the day. It was finally restored to working order at  2014-03-25 11:19
+    UT. '
+- added: 2014-03-28 09:30
+  author: DAH
+  end: 2014-03-14 15:14
+  number: '1030'
+  start: 2014-03-14 15:14
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:30
+  author: DAH
+  end: 2014-03-24 16:11
+  number: '1031'
+  start: 2014-03-14 16:11
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:31
+  author: DAH
+  end: 2014-03-14 16:56
+  number: '1032'
+  start: 2014-03-14 16:56
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:31
+  author: DAH
+  end: 2014-03-14 17:02
+  number: '1033'
+  start: 2014-03-14 17:02
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:32
+  author: DAH
+  end: 2014-03-19 11:23
+  number: '1034'
+  start: 2014-03-19 11:23
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:32
+  author: DAH
+  end: 2014-03-25 14:50
+  number: '1035'
+  start: 2014-03-25 14:50
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-04-01 10:12
+  author: DAH
+  end: 2014-03-27 11:56
+  number: '1047'
+  start: 2014-03-25 19:52
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was down
+    with an analogue error. '
+- added: 2014-03-28 09:20
+  author: DAH
+  end: 2014-03-26 23:59
+  number: '1028'
+  start: 2014-03-26 00:00
+  text: ' Instrument: Vaisala WXT510. No data were collected during the period 16:19
+    - 18:37 UT on 2014-03-26 owing to the data acquisition PC ("julius") being powered
+    down. The BADC file for the day could not be created for the day owing to a known
+    bug in the software, which is triggered by a gap in the data. '
+- added: 2014-03-28 09:34
+  author: DAH
+  end: 2014-03-26 10:04
+  number: '1036'
+  start: 2014-03-26 10:04
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 09:35
+  author: DAH
+  end: 2014-03-26 13:57
+  number: '1037'
+  start: 2014-03-26 13:57
+  text: 'Instrument: MST Radar. The beam steering controller gave a Critical error
+    message, although the operation of the radar does not appear to have been affected.'
+- added: 2014-03-28 08:28
+  author: DAH
+  end: 2014-03-26 18:45
+  number: '1027'
+  start: 2014-03-26 14:50
+  text: 'Instrument: MST Radar. The radar was out of action during this period to
+    allow AD to replace a failed disk on the radar control PC, "julius".'
+- added: 2014-03-28 09:53
+  author: DAH
+  end: 2014-03-27 06:33
+  number: '1040'
+  start: 2014-03-27 03:40
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 35
+    (antenna sector B) was not responding for over 15 minutes on two occasions durig
+    this period. '
+- added: 2014-04-01 10:14
+  author: DAH
+  end: 2014-03-28 09:52
+  number: '1048'
+  start: 2014-03-27 20:40
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was down
+    with an analogue error. '
+- added: 2014-03-28 09:55
+  author: DAH
+  end: 2014-03-28 01:54
+  number: '1041'
+  start: 2014-03-28 00:29
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 35
+    (antenna sector B) was not responding during this period.'
+- added: 2014-04-01 08:36
+  author: DAH
+  end: 2014-03-31 07:24
+  number: '1043'
+  start: 2014-03-29 19:28
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was down
+    with error code 7: "analogue parameter error at state 4". DAH restarted the transmitter
+    remotely. '
+- added: 2014-04-01 08:41
+  author: DAH
+  end: 2014-04-02 07:35
+  number: '1045'
+  start: 2014-03-30 15:49
+  text: 'Instrument: Vaisala LD40 Ceilometer. There are no observations for this period.
+    It turns out that the data acquisition software had simply stopped logging messages
+    (the problem was solved by restarting the software). However, DAH had orginally
+    assumed that he had accidentally loosened a connection when he was on site during
+    the previous week. Consequently he waited for LD to be on site to inspect the
+    cables and to power-cycle the instrument - though this failed to restart the acquisition.  '
+- added: 2014-04-01 08:36
+  author: DAH
+  end: 2014-04-01 07:07
+  number: '1044'
+  start: 2014-03-31 19:17
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was down
+    with error code 7: "analogue parameter error at state 4". DAH restarted the transmitter
+    remotely. '
+- added: 2014-04-01 16:28
+  author: DAH
+  end: 2014-04-01 10:55
+  number: '1049'
+  start: 2014-04-01 10:22
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-01 16:29
+  author: DAH
+  end: 2014-04-01 13:00
+  number: '1050'
+  start: 2014-04-01 11:51
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-02 08:20
+  author: DAH
+  end: 2014-04-02 07:05
+  number: '1051'
+  start: 2014-04-02 00:59
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-03 08:54
+  author: DAH
+  end: 2014-04-03 07:00
+  number: '1052'
+  start: 2014-04-02 16:41
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-03 14:49
+  author: DAH
+  end: 2014-04-03 13:46
+  number: '1053'
+  start: 2014-04-03 13:40
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-03 16:07
+  author: DAH
+  end: 2014-04-03 15:07
+  number: '1054'
+  start: 2014-04-03 15:00
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-04 08:52
+  author: DAH
+  end: 2014-04-03 17:58
+  number: '1056'
+  start: 2014-04-03 17:54
+  text: 'Instrument: UPS units. The units switched to battery power for a relatively
+    long - 4 minutes - input power problem.'
+- added: 2014-04-04 09:55
+  author: DAH
+  end: 2014-04-03 17:59
+  number: '1058'
+  start: 2014-04-03 17:55
+  text: 'Instrument: MST Radar. The socket between the radar control PC and beam steering
+    controller was broken unexpectedly. It seems likely that this was connected with
+    the simultaneous input power problem detected by the UPS units. There was a gap
+    of 200 s whilst the radar control PC made repeated efforts to reconnect.  The
+    operation of the radar does not appear to have been otherwise affected.'
+- added: 2014-04-04 09:19
+  author: DAH
+  end: 2014-04-03 18:47
+  number: '1057'
+  start: 2014-04-03 18:36
+  text: 'Instrument: UPS units. The units switched to battery power for 11 minutes
+    in response to an input power problem. The unit for TX1 sent a message at 18:44
+    indicating that the battery power was too low to continue to support the load
+    for much longer. However, it appears to have lasted out until the input power
+    returned to normal a few minutes later. Nevertheless, the MST radar beam steering
+    controller sent a number of alerts during this period.'
+- added: 2014-04-04 08:27
+  author: DAH
+  end: 2014-04-04 07:20
+  number: '1055'
+  start: 2014-04-03 19:24
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B shut down
+    with error code 7: "analogue parameter error at state 4". DAH restarted it remotely.'
+- added: 2014-04-11 13:29
+  author: DAH
+  end: 2014-04-09 11:14
+  number: '1060'
+  start: 2014-04-04 09:15
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    for this period. It had been giving repeated analogue errors and LD was having
+    difficulties getting it restarted. It was returned to operational status after
+    a new voltage reference component was installed.  '
+- added: 2014-04-08 12:17
+  author: DAH
+  end: 2014-04-08 11:00
+  number: '1059'
+  start: 2014-04-07 00:32
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    during this period owing to a blown fuse. The transmitter for antenna sector B
+    was simultaneously out of action.'
+- added: 2014-04-11 13:43
+  author: DAH
+  end: 2014-04-10 09:33
+  number: '1061'
+  start: 2014-04-10 09:33
+  text: 'Instrument: MST Radar. Beam steering unit 87 gave a brief (i.e. one dwell)
+    indication of low supply voltage before readings returned to normal.'
+- added: 2014-04-11 13:49
+  author: DAH
+  end: 2014-04-11 07:24
+  number: '1062'
+  start: 2014-04-11 07:24
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the transmitters
+    for antenna sectors A, B, and C briefly had low forward power.'
+- added: 2014-05-12 15:32
+  author: DAH
+  end: 2014-05-06 09:13
+  number: '1067'
+  start: 2014-04-15 14:39
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector C was out
+    of action with a blown fuse for much of this period. LD fixed it at 11:35 UT on
+    the following day (2014-04-16) but it proved unstable and was up and down several
+    times over the next few minutes. LD left it in a down state between 11:42 and
+    14:52 UT.  However, it was again up and down several times and LD left it in a
+    down state at 16:22 UT (on 2014-04-16). He then left it for a few days, until
+    2014-04-23, when he had it up between 14:00 and 14:07 UT. However, it was soon
+    down again with an analogue error (code 7). It was back in action at 09:21 UT
+    on 2014-04-29 but was down again within a minute. It was back up between 11:21
+    and 13:10 UT and then again at 14:30. It blew its fuse at 22:30 UT the following
+    evening (2014-04-30). It was back up at 08:57 UT on 2014-05-02. This time it lasted
+    2 days until 08:38 on 2014-05-04. Finally, it has been stable since being restored
+    at 09:13 on 2014-05-06.'
+- added: 2014-04-21 12:22
+  author: DAH
+  end: 2014-04-20 19:00
+  number: '1063'
+  start: 2014-04-20 19:00
+  text: 'Instrument: UPS units. The units switched to battery power twice within a
+    minute, for ~ 1 s each time, in response to an input power power problem. '
+- added: 2014-05-09 09:04
+  author: DAH
+  end: 2014-05-08 15:47
+  number: '1064'
+  start: 2014-05-08 06:35
+  text: 'Instrument: MST Radar. Beam steering unit 37 was indicating high VSWR values,
+    of around 2.5, for much of the day. This led to numerous e-mails being sent by
+    the beam steering controller. '
+- added: 2014-05-09 12:08
+  author: DAH
+  end: 2014-05-09 10:37
+  number: '1065'
+  start: 2014-05-09 10:24
+  text: 'Instrument: MST Radar. The radar was stopped briefly so that LD could change
+    beam steering unit 37, which had been seeing high VSWR values.'
+- added: 2014-05-12 09:20
+  author: DAH
+  end: 2014-05-10 23:59
+  number: '1066'
+  start: 2014-05-10 00:00
+  text: 'Instrument: Campbell Scientific Tipping Bucket Raingauge. The raingauge detected
+    only 3 widely-spaced tips (0.2 mm of rain each) during the course of the day,
+    whilst the Vaisala WXT510 sensor detected rain that was more-persistent and more-widespread.
+    It''s not clear if this is because the rain really did lead to small accumulations
+    of whether the tipping bucket raingauge is becoming blocked.  '
+- added: 2014-05-14 08:43
+  author: DAH
+  end: 2014-05-13 09:00
+  number: '1069'
+  start: 2014-05-13 00:00
+  text: 'Instrument: Campbell Scientific Tipping Bucket Raingauge. The instrument
+    failed to detect two rain events - at around 01:30 and 06:30 - 07:30 UT - seen
+    by the WXT510 sensor. LD cleaned out the raingauge at around 09:00 UT and found
+    that it had become blocked. '
+- added: 2014-05-13 12:02
+  author: DAH
+  end: 2014-05-13 10:27
+  number: '1068'
+  start: 2014-05-13 09:37
+  text: 'Instrument: MST Radar. The radar was stopped so that LD could reinstate the
+    beam steering unit that he had recently removed from quad 37. One of its coils
+    had been loose and he wanted to put it back into service after this was fixed.'
+- added: 2014-06-04 13:53
+  author: DAH
+  end: 2014-05-30 10:30
+  number: '1071'
+  start: 2014-05-23 00:00
+  text: 'Instrument: Campbell Scientific Tipping Bucket Raingauge. The raingauge failed
+    to detect rain events measured by the WXT510 on 23rd, 24th, and 25th May 2014.
+    It seems likely that the inlet had not been correctly aligned when LD last cleaned
+    it on 2014-05-13. LD adjusted it on 2014-05-30 and poured a litre of water into
+    it, at around 10:00 UT, in order to establish that it was working. The reading
+    at that time does not represent real rain.'
+- added: 2014-05-23 08:29
+  author: DAH
+  end: 2014-05-23 07:05
+  number: '1070'
+  start: 2014-05-23 07:05
+  text: 'Instrument: UPS units. The UPS units switched to battery power for ~ 1 s
+    in response to an input power problem.'
+- added: 2014-06-04 15:10
+  author: DAH
+  end: 2014-05-28 04:24
+  number: '1072'
+  start: 2014-05-26 20:29
+  text: 'Instrument: Campbell Scientific Wind Sensors. There were several instances
+    during this period when the raw data readings, including for wind direction, were
+    all zeros. These do not look realistic. Although at first it was assumed that
+    there had been a malfunction of the data logger, these are possibly artefacts
+    of very low wind speeds, e.g. of the wind speed dropping so low that it cannot
+    overcome the friction of the wind vane''s bearings. Although this does not (obviously)
+    explain why the direction readings should also be zero, all cases were associated
+    with low wind speeds. The problem was seen during the follwing, inclusive periods
+    (UT): on 2014-05-26, 20:29 - 20:31, 22:06 - 22:32, 23:27 - 23:33, 23:37 - 23:39,
+    23:48 - 23:56; on 2014-05-27, 00:00 - 00:12, 01:02 - 01:38, 01:54 - 02:01, 02:10
+    - 02:29, 02:47 - 03:15, 03:38 - 04:04, 04:12 - 04:31, 19:03 - 19:14, 22:34 - 22:41,
+    23:11 - 23:59; on 2014-05-28, 00:00 - 00:09, 00:39 - 01:41, 01:55 - 02:00, and
+    02:12 - 04:24. '
+- added: 2014-06-04 15:27
+  author: DAH
+  end: 2014-05-28 04:24
+  number: '1073'
+  start: 2014-05-26 20:29
+  text: 'Instrument: Campbell Scientific Wind Sensors. There were several instances
+    during this period when the raw data readings, including for wind direction, were
+    all zeros. These do not look realistic. Although at first it was assumed that
+    there had been a malfunction of the data logger, these are possibly artefacts
+    of very low wind speeds, e.g. of the wind speed dropping so low that it cannot
+    overcome the friction of the wind vane''s bearings. Although this does not (obviously)
+    explain why the direction readings should also be zero, all cases were associated
+    with low wind speeds. The problem was seen during the follwing, inclusive periods
+    (UT): on 2014-05-26, 20:29 - 20:31, 22:06 - 22:32, 23:27 - 23:33, 23:37 - 23:39,
+    23:48 - 23:56; on 2014-05-27, 00:00 - 00:12, 01:02 - 01:38, 01:54 - 02:01, 02:10
+    - 02:29, 02:47 - 03:15, 03:38 - 04:04, 04:12 - 04:31, 19:03 - 19:14, 22:34 - 22:41,
+    23:11 - 23:59; on 2014-05-28, 00:00 - 00:09, 00:39 - 01:41, 01:55 - 02:00, and
+    02:12 - 04:24. '
+- added: 2014-06-04 15:27
+  author: DAH
+  end: 2014-05-30 23:04
+  number: '1074'
+  start: 2014-05-30 02:50
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 02:50 - 02:58, 03:02 - 03:04, 03:08 - 03:09, 03:54 - 03:56, 04:06
+    - 04:07, 06:50 - 06:51, 20:37 - 21:07, and 22:14 - 23:04. '
+- added: 2014-06-04 16:20
+  author: DAH
+  end: 2014-06-01 19:02
+  number: '1075'
+  start: 2014-06-01 17:22
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 17:22 - 18:02, 18:26 - 18:27, 18:47 - 18:48, 18:58 - 19:02. '
+- added: 2014-06-04 16:24
+  author: DAH
+  end: 2014-06-03 22:02
+  number: '1076'
+  start: 2014-06-03 20:04
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 20:04 - 20:32, 20:42 - 20:47, 21:05 - 22:02.'
+- added: 2014-07-02 10:31
+  author: DAH
+  end: 2014-06-05 09:35
+  number: '1089'
+  start: 2014-06-04 17:39
+  text: 'Instrtument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown fuse.'
+- added: 2014-06-18 11:28
+  author: DAH
+  end: 2014-06-05 20:20
+  number: '1078'
+  start: 2014-06-05 19:37
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for this period. '
+- added: 2014-07-02 10:26
+  author: DAH
+  end: 2014-06-10 09:09
+  number: '1088'
+  start: 2014-06-06 07:31
+  text: 'Instrumehnt: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2014-06-18 11:34
+  author: DAH
+  end: 2014-06-07 10:41
+  number: '1079'
+  start: 2014-06-07 10:24
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for this period.'
+- added: 2014-06-18 11:44
+  author: DAH
+  end: 2014-06-09 20:27
+  number: '1080'
+  start: 2014-06-09 03:53
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 03:53 - 04:00, 05:36 - 05:41, 18:41 - 18:57, 19:06 - 19:09, 19:33
+    - 19:43, 19:49 - 19:56, and 20:14 - 20:27.'
+- added: 2014-06-18 11:47
+  author: ZKO
+  end: 2014-06-18 11:44
+  number: '1081'
+  start: 2014-06-11 22:04
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 22:04 - 22:30, 23:41 - 23:45, 23:52 - 23:59. '
+- added: 2014-06-18 11:52
+  author: DAH
+  end: 2014-06-12 22:55
+  number: '1082'
+  start: 2014-06-12 00:00
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 00:00 - 00:13, 00:18 - 00:46, 20:53 - 21:52, and 22:14 - 22:55. '
+- added: 2014-06-18 11:56
+  author: ZKO
+  end: 2014-06-13 11:52
+  number: '1083'
+  start: 2014-06-13 05:59
+  text: null
+- added: 2014-06-18 16:37
+  author: ZKO
+  end: 2014-06-13 11:56
+  number: '1084'
+  start: 2014-06-13 05:59
+  text: 'Instrument: Campbell Scientific Wind Sensors. The raw data files contain
+    zeros for all parameters (including wind direction) for the following, inclusive
+    periods (UT): 05:59 - 06:16, 06:25 - 06:30, 06:50 - 07:07, 07:17 - 07:24, 07:32
+    - 07:38. '
+- added: 2014-06-18 10:21
+  author: DAH
+  end: 2014-06-18 07:19
+  number: '1077'
+  start: 2014-06-17 16:12
+  text: 'Instrument: LD40 Laser Ceilometer. The acquisition program crashed for no
+    apparent reason leading to a data gap until DAH spotted this on the following
+    morning. '
+- added: 2014-07-02 10:15
+  author: DAH
+  end: 2014-06-20 09:49
+  number: '1087'
+  start: 2014-06-20 05:44
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown fuse.'
+- added: 2017-09-15 15:34
+  author: DAH
+  end: 2014-06-22 15:40
+  number: '1866'
+  start: 2014-06-22 14:50
+  text: 'Instrument: MST Radar. The radar appears to have experience interference
+    during this period. Although the v3 processing was largely successful at avoiding
+    it, some mild contamination of the v4 winds is apparent at altitudes above 14
+    km.'
+- added: 2014-07-02 10:10
+  author: DAH
+  end: 2014-06-25 15:58
+  number: '1086'
+  start: 2014-06-23 01:56
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2014-06-30 12:15
+  author: DAH
+  end: 2014-06-28 16:14
+  number: '1085'
+  start: 2014-06-28 16:14
+  text: 'Instrument: UPS units. The units switched to battery power for approximately
+    22 s in response to an input power problem.'
+- added: 2014-07-03 08:31
+  author: DAH
+  end: 2014-07-03 06:24
+  number: '1090'
+  start: 2014-07-03 06:24
+  text: 'Instrument: UPS units. The UPS units switched to battery power owing to two
+    input power problems in short succession. The first lasted 13 and the second 12
+    s. '
+- added: 2014-07-29 14:22
+  author: DAH
+  end: 2014-07-08 08:53
+  number: '1097'
+  start: 2014-07-04 14:38
+  text: 'INstrument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown fuse.'
+- added: 2014-07-04 16:12
+  author: DAH
+  end: 2014-07-04 14:43
+  number: '1091'
+  start: 2014-07-04 14:43
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a ~ 1 s input power problem. '
+- added: 2017-09-15 14:25
+  author: DAH
+  end: 2014-07-04 15:40
+  number: '1862'
+  start: 2014-07-04 15:00
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period within a narrow altitude region at around
+    9.5 km.'
+- added: 2014-07-11 08:43
+  author: DAH
+  end: 2014-07-11 07:37
+  number: '1092'
+  start: 2014-07-10 09:13
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action.
+    It shut down with error code 4: "Analogue Parameter Error at State 1". This meant
+    that even the main power was shut down. DAH restarted the transmitter remotely.'
+- added: 2014-07-21 12:54
+  author: DAH
+  end: 2014-07-19 02:11
+  number: '1093'
+  start: 2014-07-19 02:11
+  text: 'Instrument: UPS units. The units switched to battery power briefly (~ 1 s)
+    in response to an input power problem.'
+- added: 2014-07-22 10:27
+  author: DAH
+  end: 2014-07-22 08:47
+  number: '1094'
+  start: 2014-07-20 03:19
+  text: 'INstrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2014-07-24 08:52
+  author: DAH
+  end: 2014-07-24 07:00
+  number: '1095'
+  start: 2014-07-24 03:00
+  text: 'Instrument: Vaisala LD40 Ceilometer. The data acquisition program shut down
+    unexpectedly leading to a gap in the observations.'
+- added: 2014-08-01 10:02
+  author: DAH
+  end: 2014-08-01 00:00
+  number: '1099'
+  start: 2014-07-24 18:15
+  text: 'Instrument: Internet Connection. The internet connection on both the MST
+    and Manchester lines became slow/intermittent during this period. This didn''t
+    become apparent until the morning of 2014-07-28, when DAH noticed that file tranfers
+    to RAL were backing up. The time stamps of files at RAL suggest that there were
+    two periods of several hours (during the evenings of 2014-07-24 and 2014-07-26)
+    when no file transfers took place. It appears that the problem was caused by lightning
+    damage at the Capel Bangor exchange. Although Openreach have not yet closed the
+    case, the internet service provider indicated that transfer speeds had been stable
+    since around 2014-08-01 00:00 UT. '
+- added: 2014-07-29 14:15
+  author: DAH
+  end: 2014-07-29 09:33
+  number: '1096'
+  start: 2014-07-27 02:14
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector C was out
+    of action with a blown fuse. '
+- added: 2017-09-15 14:42
+  author: DAH
+  end: 2014-07-27 09:30
+  number: '1863'
+  start: 2014-07-27 08:40
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period within a narrow altitude region at around
+    9.0 km.'
+- added: 2014-07-29 15:29
+  author: DAH
+  end: 2014-07-29 09:00
+  number: '1098'
+  start: 2014-07-27 14:40
+  text: 'Instrument: Surface Met Sensors, Surface Wind Sensors, Vaisala LD40 Laser
+    Ceilometer. PC "Gaius", which logs data from these 3 sets of instruments, encountered
+    an error at around 2014-07-27 14:40 UT. This stopped raw data files from being
+    transferred up to RAL (and prevented DAH from remotely logging on to the PC) although
+    it does not appear to have stopped data from being acquired. DAH was able to access
+    the files once LD had cleared the error message.'
+- added: 2017-09-15 14:46
+  author: DAH
+  end: 2014-07-29 18:10
+  number: '1864'
+  start: 2014-07-29 17:20
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period within a narrow altitude region at around
+    9.5 km.'
+- added: 2017-09-15 14:51
+  author: DAH
+  end: 2014-07-30 18:20
+  number: '1865'
+  start: 2014-07-30 17:30
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period within a narrow altitude region at around
+    9.5 km.'
+- added: 2017-09-15 12:00
+  author: DAH
+  end: 2014-08-06 19:50
+  number: '1859'
+  start: 2014-08-06 18:45
+  text: 'Instrument: MST Radar. The radar suffered from interference during this period.
+    Although the v3 processing managed to filter most of this out, some contamination
+    of the v4 horizontal wind spees is apparent at altitudes above 15 km.'
+- added: 2017-09-15 12:07
+  author: DAH
+  end: 2014-08-07 18:10
+  number: '1860'
+  start: 2014-08-07 17:20
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period at just above 8km altitude. '
+- added: 2017-09-15 12:13
+  author: DAH
+  end: 2014-08-08 21:00
+  number: '1861'
+  start: 2014-08-08 20:20
+  text: 'Instrument: MST Radar. The horizontal wind speed from the v4 processing is
+    unrealistically large during this period at just above 8km altitude.'
+- added: 2014-08-14 14:06
+  author: DAH
+  end: 2014-08-14 12:59
+  number: '1100'
+  start: 2014-08-14 12:59
+  text: 'Instrument: UPS units. The units switched briefly (~ 1 s) to battery power
+    in response to an input power problem.'
+- added: 2014-08-21 08:35
+  author: DAH
+  end: 2014-08-19 10:45
+  number: '1101'
+  start: 2014-08-19 09:50
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This appears to have omnly affected the m-mode observations.'
+- added: 2014-08-26 09:41
+  author: DAH
+  end: 2014-08-22 16:47
+  number: '1102'
+  start: 2014-08-22 16:47
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    1 s in response to an input power problem.'
+- added: 2014-08-26 11:13
+  author: DAH
+  end: 2014-08-26 09:20
+  number: '1103'
+  start: 2014-08-22 22:44
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2014-09-15 09:36
+  author: DAH
+  end: 2014-09-13 12:49
+  number: '1104'
+  start: 2014-09-13 12:49
+  text: 'Instrument: UPS Units. The units switched to battery power for ~ 1 s in response
+    to an input power problem. '
+- added: 2014-09-16 08:59
+  author: DAH
+  end: 2014-09-15 16:23
+  number: '1105'
+  start: 2014-09-15 16:23
+  text: 'Instrument: UPS Units. The units switched to battery power for ~ 1 s in response
+    to an input power problem.'
+- added: 2014-09-16 09:09
+  author: DAH
+  end: 2014-09-15 23:54
+  number: '1106'
+  start: 2014-09-15 23:54
+  text: 'Instrument: UPS Units. The units switched to battery power for ~ 1 s in response
+    to an input power problem.'
+- added: 2014-10-17 16:24
+  author: DAH
+  end: 2014-10-13 13:47
+  number: '1119'
+  start: 2014-09-17 01:56
+  text: 'Instrument: Vaisala WXT510. The data messages for temperature, pressure,
+    and humidity were showing values of 0.0 for most of this period (realistic-looking
+    data appeared sporadically at the beginning and the end of the period). Although
+    attempts were made to clear the problem, e.g. by power-cycling the unit, these
+    did not have the desired effect. Normal functioning evebtually resumed without
+    any further intervention being taken.'
+- added: 2014-09-26 15:35
+  author: DAH
+  end: 2014-09-24 17:30
+  number: '1107'
+  start: 2014-09-19 09:15
+  text: 'Instrument: Broadband. The "fax" line, which carries the MSTRF''s broadband
+    connection, developed a fault. There was no dial tone on the line and a complete
+    loss of broadband. An OpenReach engineer visited the site  during the evening
+    of 2014-09-24 having found the source of the problem elsewhere. '
+- added: 2014-09-26 16:35
+  author: DAH
+  end: 2014-09-25 18:29
+  number: '1108'
+  start: 2014-09-25 07:55
+  text: 'Instrument: MST Radar. The radar was out of action owing to the electricity
+    supply for the whole area being turned off. The latter was to allow essential
+    maintenance work to be carried out by the local supplier. All equipment at the
+    radar site was powered down shortly before the electricity supply was due to be
+    cut and then restarted late in the afternoon.  '
+- added: 2014-09-29 09:42
+  author: DAH
+  end: 2014-09-29 09:34
+  number: '1109'
+  start: 2014-09-25 18:35
+  text: 'Instrument: MST Radar. Two of the transmitters, those for antenna sectors
+    B and D were out of action for most of this period and one more, that for sector
+    E, was out of action for part of it. This resulted in reduced altitude coverage.
+    At around 18:35, TXB blew its HV fuse and TXD developed an analogue error (error
+    code 7). TXE blew its HV fuse at 23:51. DAH restarted TXD on several occasions
+    between 07:00 and 08:00, although it was unstable shut down again each time. TXB
+    and TXB were back in action at 08:51 and TXD at 09:34. '
+- added: 2014-09-30 08:44
+  author: DAH
+  end: 2014-09-29 11:30
+  number: '1110'
+  start: 2014-09-29 10:15
+  text: 'Instrument: MST Radar. The radar appears to have suffered from interference,
+    which led to a reduction in altitude coverage. '
+- added: 2014-10-01 08:35
+  author: DAH
+  end: 2014-09-30 09:43
+  number: '1111'
+  start: 2014-09-30 09:00
+  text: 'Instrument: MST Radar. The radar was powered down durintg this interval to
+    allow LD to switch beam steering unit 94. The latter had intermittently been reporting
+    high VSWR values of between 2.5 and 3.0. '
+- added: 2014-10-21 16:27
+  author: DAH
+  end: 2014-10-07 11:57
+  number: '1120'
+  start: 2014-09-30 10:00
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    fo this period as it would not stay in operation in a stable manner. LD changed
+    the PIN diodes and voltage regulator in the TX/RX power supply before restarting
+    it.'
+- added: 2014-10-08 14:35
+  author: DAH
+  end: 2014-10-08 11:24
+  number: '1112'
+  start: 2014-10-08 11:24
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a a brief (~ 1 s) input power problem.'
+- added: 2014-10-10 09:48
+  author: DAH
+  end: 2014-10-08 17:33
+  number: '1113'
+  start: 2014-10-08 17:33
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    owing to an input power problem. '
+- added: 2014-10-10 10:17
+  author: ZKO
+  end: 2014-10-08 21:58
+  number: '1114'
+  start: 2014-10-08 21:58
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    owing to an input power problem.'
+- added: 2014-10-10 10:18
+  author: DAH
+  end: 2014-10-08 22:29
+  number: '1115'
+  start: 2014-10-08 22:29
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    owing to an input power problem.'
+- added: 2014-10-10 10:20
+  author: DAH
+  end: 2014-10-09 03:32
+  number: '1116'
+  start: 2014-10-09 03:32
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    owing to an input power problem.'
+- added: 2014-10-10 10:21
+  author: DAH
+  end: 2014-10-09 03:44
+  number: '1117'
+  start: 2014-10-09 03:44
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    owing to an input power problem.'
+- added: 2014-10-17 08:33
+  author: DAH
+  end: 2014-10-16 20:02
+  number: '1118'
+  start: 2014-10-16 20:02
+  text: 'Instrument: UPS Units. The units switched briefly (~ 1 s) to battery power
+    in response to an input power problem.'
+- added: 2014-11-13 11:52
+  author: DAH
+  end: 2014-11-01 23:17
+  number: '1123'
+  start: 2014-11-01 23:11
+  text: 'Instrument: MST Radar. The beam steering controller gave a series of unusal
+    error and warning messages indicating a segmentation fault and process failures.
+    This appears to added an extra 40 s to the duration of the 23:11:14 cycle with
+    lengthened gaps betweren the 8th and 9th and between the 11th and 12th dwells.
+    Normal operation appears to have been resumed by the beginning of the following
+    cycle.    '
+- added: 2014-11-14 14:24
+  author: DAH
+  end: 2014-11-04 11:14
+  number: '1125'
+  start: 2014-11-04 03:59
+  text: 'Instrument: MST Radar. The transmitter for antenna sector E was out of action
+    owing to a blown fuse. '
+- added: 2014-11-10 11:17
+  author: DAH
+  end: 2014-11-09 17:53
+  number: '1121'
+  start: 2014-11-09 17:53
+  text: 'Instrument: UPS units. The UPS units switched briefly (~ 1 s) to battery
+    power in response to an input power problem.'
+- added: 2014-11-10 11:24
+  author: DAH
+  end: 2014-11-09 18:23
+  number: '1122'
+  start: 2014-11-09 18:23
+  text: 'Instrument: UPS units. The UPS units switched briefly (~ 1 s) to battery
+    power in response to an input power problem.'
+- added: 2014-11-13 16:29
+  author: DAH
+  end: 2014-11-13 12:42
+  number: '1124'
+  start: 2014-11-13 12:42
+  text: 'Instrument: UPS units. The units switched to battery power briefly (~ 1 s)
+    in response to an input power problem. '
+- added: 2015-01-05 14:46
+  author: DAH
+  end: 2014-11-18 09:53
+  number: '1130'
+  start: 2014-11-15 19:43
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    for this period. It initially showed error code 4 ("analog parameter error at
+    state 1"). It was briefly (2014-11-16 18:43 - 19:05) retsored to normal operation
+    before going down with error code 7 ("analog parameter error at state 4").'
+- added: 2014-11-21 15:36
+  author: DAH
+  end: 2014-11-21 10:52
+  number: '1126'
+  start: 2014-11-21 01:53
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    with error code 7: "Analogue Parameter Error at State 4".'
+- added: 2015-01-05 14:28
+  author: DAH
+  end: 2014-12-23 11:58
+  number: '1129'
+  start: 2014-12-23 08:01
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    owing to a blown fuse.'
+- added: 2015-01-05 14:27
+  author: DAH
+  end: 2014-12-30 12:47
+  number: '1128'
+  start: 2014-12-27 13:28
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    owing to an analogue error.'
+- added: 2015-01-05 12:44
+  author: DAH
+  end: 2014-12-30 12:47
+  number: '1127'
+  start: 2014-12-30 12:26
+  text: 'Instrument: MST Radar. The radar was powered down during this period to allow
+    LD to replace beam steering unit 15, which had been intermittently suffering from
+    a low supply voltage (~ 0.3 V) since 2014-12-27 21:07 UT. '

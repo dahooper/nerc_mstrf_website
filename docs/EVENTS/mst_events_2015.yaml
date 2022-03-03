@@ -1,0 +1,1340 @@
+- added: 2015-01-06 08:41
+  author: DAH
+  end: 2015-01-05 20:00
+  number: '1131'
+  start: 2015-01-05 07:00
+  text: 'Instrument: MST Radar. The radar suffered from varying degrees of interference
+    during this period. This led to a reduction in useful altitude coverage for wind-profiling
+    purposes.'
+- added: 2015-01-08 08:40
+  author: DAH
+  end: 2015-01-07 13:44
+  number: '1132'
+  start: 2015-01-07 13:44
+  text: 'Instrument: UPS units. The units switched to battery power in respose to
+    an input power problem. This occurred briefly (~1 s), twice in quick succession. '
+- added: 2015-01-15 11:09
+  author: DAH
+  end: 2015-01-14 22:20
+  number: '1133'
+  start: 2015-01-14 22:20
+  text: 'Instrument: UPS units. The units switched briefly (~ 1 s) to battery power
+    twice, within a few seconds in response to an input power problem.'
+- added: 2015-01-19 09:01
+  author: DAH
+  end: 2015-01-18 12:22
+  number: '1134'
+  start: 2015-01-18 12:22
+  text: 'Instrument: UPS Units. Three of the six units switched to battery power briefly
+    (~ 1 s) in response to an input power prpblem.'
+- added: 2015-01-26 09:14
+  author: ZKO
+  end: 2015-01-26 09:03
+  number: '1136'
+  start: 2015-01-23 21:30
+  text: 'Instrument: MST Radar. The radar suffered from a raised noise floor intermittently
+    during this period. It was most prolonged during 2015-01-23  21:30 - 22:50 UT,
+    2015-01-24 22:10 - 2015-01-25 00:20 UT, 2015-01-25 08:20 - 09:50, 2015-01-25 11:40
+    - 12:50, 2015-01-25 18:30 - 19:40 UT. This is most evident in the mesospheric
+    observations.'
+- added: 2015-01-26 09:03
+  author: DAH
+  end: 2015-01-24 14:52
+  number: '1135'
+  start: 2015-01-24 14:52
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    in response to an input power problem.'
+- added: 2015-02-02 16:35
+  author: DAH
+  end: 2015-02-02 15:38
+  number: '1137'
+  start: 2015-02-01 13:26
+  text: 'Instrument: MST Radar. Two transmitters were out of action for most of this
+    period owing to blown fuses. The transmitter for antenna sector B was out for
+    the whole period and the one for sector C was out 2015-02-01 19:32 - 2015-02-02
+    14:24 UT.'
+- added: 2015-02-04 11:48
+  author: DAH
+  end: 2015-02-04 10:15
+  number: '1138'
+  start: 2015-02-03 10:40
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    owing to a blown fuse. '
+- added: 2015-02-04 11:50
+  author: DAH
+  end: 2015-02-04 11:48
+  number: '1139'
+  start: 2015-02-04 11:48
+  text: 'Instrument: UPS units. The units switched to battery power briefly (~ 1 s)
+    in response to an input power problem.'
+- added: 2015-03-30 09:39
+  author: DAH
+  end: 2015-03-29 14:43
+  number: '1140'
+  start: 2015-03-29 14:43
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    6 s in response to an input power problem. TX4 is known (since 2015-03-19) to
+    have at least 1 faulty battery unit and shut down its output power during this
+    episode. The unit itself is in working order and resumed its output once mains
+    power was restored. '
+- added: 2015-03-30 11:12
+  author: DAH
+  end: 2015-03-30 09:01
+  number: '1141'
+  start: 2015-03-29 14:44
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D (TX4) was out
+    of action during this period. It had shut down when its UPS unit, which was known
+    to have at least one faulty battery, powered down in response to an input power
+    problem. Although the UPS unit quickly restored its output power, the transmitter
+    remained in an idle state until DAH remotely restarted it on the following (Monday)
+    morning. '
+- added: 2015-03-31 14:19
+  author: DAH
+  end: 2015-03-31 10:56
+  number: '1142'
+  start: 2015-03-31 09:05
+  text: 'Instrument: MST Radar. The radar was powered down twice during this period
+    for approximately 20 minutes on each occasion: 09:05 - 09:24 and 10:37 - 10:56
+    UT. The first time was to allow LD to change the beam steering unit for location
+    11. It had become unresponsive a few days earlier, at 2015-03-29 06:48 UT. LD
+    found that one of the components had burnt out. Since he suspected that this was
+    the result of water ingress, he stopped the radar a second time in order to water-proof
+    the connecting cables of the replacement unit.'
+- added: 2015-04-10 09:32
+  author: DAH
+  end: 2015-04-10 05:10
+  number: '1143'
+  start: 2015-04-10 05:10
+  text: 'Instrument: UPS Units. The units switched to battery power owing to a brief
+    (~ 1 s) input power problem.'
+- added: 2015-04-10 11:21
+  author: DAH
+  end: 2015-04-10 07:27
+  number: '1144'
+  start: 2015-04-10 05:11
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D was out of action
+    during this period. It shut down in response to a brief input power problem (the
+    UPS unit for this transmitter is known to have a faulty battery). DAH was able
+    to restart the transmitter remotely. '
+- added: 2015-04-10 11:29
+  author: DAH
+  end: 2015-04-10 10:19
+  number: '1145'
+  start: 2015-04-10 10:19
+  text: 'Instrument: UPS unit for TX4. A new battery pack was installed in the UPS
+    unit for the transmitter powering antenna sector D. The previous battery back
+    was known to have been faulty since the self-test carried out on 2015-03-19.   '
+- added: 2015-04-16 09:17
+  author: DAH
+  end: 2015-04-14 09:19
+  number: '1146'
+  start: 2015-04-11 13:23
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown HV fuse. '
+- added: 2015-04-16 09:18
+  author: DAH
+  end: 2015-04-15 14:02
+  number: '1147'
+  start: 2015-04-14 16:55
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown HV fuse. '
+- added: 2015-04-21 08:46
+  author: DAH
+  end: 2015-04-21 07:19
+  number: '1148'
+  start: 2015-04-20 15:14
+  text: 'Instrument: Vaisala LD40 Ceilometer. The data acquisition software stopped
+    logging messages from the instrument. DAH remotely restarted the software.'
+- added: 2015-04-28 14:03
+  author: DAH
+  end: 2015-04-22 08:55
+  number: '1149'
+  start: 2015-04-22 02:50
+  text: 'Instrument: MST Radar. The transmitter for antenna section C was out of action
+    with a blown HV fuse.'
+- added: 2015-04-28 14:04
+  author: DAH
+  end: 2015-04-28 09:16
+  number: '1150'
+  start: 2015-04-27 10:30
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown HV fuse.'
+- added: 2015-05-05 10:33
+  author: DAH
+  end: 2015-05-05 09:27
+  number: '1151'
+  start: 2015-05-03 19:09
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown HV fuse. '
+- added: 2015-05-12 09:19
+  author: DAH
+  end: 2015-05-11 08:58
+  number: '1152'
+  start: 2015-05-08 15:26
+  text: 'Instrument: Vaisala LD40 Ceilometer. The data aquisition software unexpectedly
+    stopped acquiring data and had to be restarted.'
+- added: 2015-05-12 11:11
+  author: DAH
+  end: 2015-05-12 09:07
+  number: '1153'
+  start: 2015-05-11 19:14
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D was out of action
+    with a blown HV fuse.'
+- added: 2015-05-14 15:08
+  author: DAH
+  end: 2015-05-14 09:37
+  number: '1154'
+  start: 2015-05-14 06:18
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2015-06-29 10:00
+  author: DAH
+  end: 2015-05-19 18:02
+  number: '1157'
+  start: 2015-05-19 18:01
+  text: 'Instrument: MST Radar. Beam steering unit 28 indicated a low supply voltage
+    for a single dwell.'
+- added: 2015-05-21 08:10
+  author: DAH
+  end: 2015-05-21 07:08
+  number: '1155'
+  start: 2015-05-20 15:37
+  text: 'Instrument: Vaisala LD40 Ceilometer. The data acqusition software stopped
+    recording messages and had to be restarted.'
+- added: 2015-06-15 16:15
+  author: DAH
+  end: 2015-06-13 19:50
+  number: '1156'
+  start: 2015-06-13 18:50
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This appears to have been filtered out by the quality control algorithms and so
+    led to a gap in useful data rather than to contamination. '
+- added: 2015-06-29 10:02
+  author: DAH
+  end: 2015-06-18 09:44
+  number: '1158'
+  start: 2015-06-17 15:33
+  text: 'INstrument: MST Radar. The transmitter for antenna sector C was out of action
+    during this period owing to a blown HV fuse.'
+- added: 2017-09-12 09:43
+  author: DAH
+  end: 2015-06-19 19:10
+  number: '1837'
+  start: 2015-06-19 18:40
+  text: 'Instrument: MST Radar. There is a small region, between altitudes of 8 and
+    9 km, where the wind speed from the v4 processing is unrealistically large. The
+    Cardinal file has not been released to the archive. '
+- added: 2015-06-29 10:10
+  author: DAH
+  end: 2015-06-25 03:14
+  number: '1159'
+  start: 2015-06-25 03:14
+  text: 'Instrument: MST Radar. The beam steering controller reported a system error:
+    "Unknown response from interface controller". However, this did not appear to
+    affect the performance of the radar.'
+- added: 2015-06-29 10:14
+  author: DAH
+  end: 2015-06-26 08:10
+  number: '1160'
+  start: 2015-06-25 15:19
+  text: 'Instrument: Vaisala LD40. The data aquisition software on PC gaius stopped
+    logging the data messages and had to be restarted.'
+- added: 2015-06-29 10:23
+  author: DAH
+  end: 2015-06-26 14:30
+  number: '1161'
+  start: 2015-06-26 11:45
+  text: 'Instrument: MST Radar. The radar suffered from internal interference during
+    some of this period. This resulted in gaps in the useful data rather than in contamination
+    of the wind data. '
+- added: 2017-09-12 10:18
+  author: DAH
+  end: 2015-06-26 14:20
+  number: '1838'
+  start: 2015-06-26 12:40
+  text: 'Instrument: MST Radar. The radar suffered from some sort of interference
+    during this time, which has caused some contamination of the horizontal and vertical
+    winds at the higher altitudes. The v4 Cardinal file has not been released to the
+    archive.'
+- added: 2015-07-21 14:57
+  author: DAH
+  end: 2015-06-30 10:59
+  number: '1162'
+  start: 2015-06-30 09:52
+  text: 'Instrument: MST Radar. The beam steering controller twice reported slightly
+    higher than expected (> 2.5) VSWR values for unit 11: 09:52 - 10:28 UT and 10:32
+    - 10:59 UT. '
+- added: 2015-07-21 15:01
+  author: DAH
+  end: 2015-07-03 10:05
+  number: '1163'
+  start: 2015-07-02 23:30
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 15:04
+  author: DAH
+  end: 2015-07-03 14:53
+  number: '1164'
+  start: 2015-07-03 12:07
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 15:05
+  author: DAH
+  end: 2015-07-07 10:21
+  number: '1165'
+  start: 2015-07-04 16:27
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 15:06
+  author: DAH
+  end: 2015-07-08 09:37
+  number: '1166'
+  start: 2015-07-07 13:10
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 16:14
+  author: DAH
+  end: 2015-07-10 14:41
+  number: '1167'
+  start: 2015-07-10 10:14
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly higher
+    than expected (> 2.5) VSWR values for unit 11 on four occasions: 10:14 - 11:12
+    UT, 11:57 - 12:02 UT, 12:16 - 12:21 UT, and 14:18 - 14:41 UT.'
+- added: 2015-07-21 16:17
+  author: DAH
+  end: 2015-07-14 10:06
+  number: '1168'
+  start: 2015-07-11 23:48
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 16:18
+  author: DAH
+  end: 2015-07-16 09:35
+  number: '1169'
+  start: 2015-07-15 07:36
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-07-21 16:24
+  author: DAH
+  end: 2015-07-18 14:19
+  number: '1170'
+  start: 2015-07-17 12:46
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly higher
+    than expected (> 2.5) VSWR values for unit 11 on 5 occasions: 12:46 - 14:37 UT
+    on 2015-07-17, 11:27 - 11:31 UT on 2015-07-18, 13:24 - 13:27 UT, 13:51 - 13:52
+    UT, and 14:06 - 14:19 UT. '
+- added: 2015-07-21 16:25
+  author: ZKO
+  end: 2015-07-21 10:39
+  number: '1171'
+  start: 2015-07-21 10:38
+  text: 'Instrument: MST Radar. The beam controller briefly (i.e. for one dwell) reported
+    low output power for antenna sector B '
+- added: 2015-08-04 09:36
+  author: DAH
+  end: 2015-07-23 15:04
+  number: '1172'
+  start: 2015-07-23 14:59
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 during this period.'
+- added: 2015-08-04 09:58
+  author: DAH
+  end: 2015-07-25 12:06
+  number: '1173'
+  start: 2015-07-25 11:52
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 twice during this period: 11:52 - 11:55, and 12:03
+    - 12:06 UT.'
+- added: 2015-08-04 10:06
+  author: DAH
+  end: 2015-07-28 09:18
+  number: '1174'
+  start: 2015-07-25 12:46
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    owing to a blown HV fuse. '
+- added: 2015-08-04 10:08
+  author: DAH
+  end: 2015-07-28 15:36
+  number: '1175'
+  start: 2015-07-28 15:33
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 during this period.'
+- added: 2015-08-04 10:10
+  author: DAH
+  end: 2015-07-29 15:10
+  number: '1176'
+  start: 2015-07-29 13:51
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 twice during this period: 13:51 - 13:52, and 15:09
+    - 15:10 UT.'
+- added: 2015-08-04 10:18
+  author: DAH
+  end: 2015-07-30 15:15
+  number: '1177'
+  start: 2015-07-30 13:45
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 four times during this period: 13:45 - 13:50,
+    13:57 - 14:00, 14:25 - 14:26, and 15:07 - 15:15 UT. '
+- added: 2015-08-04 11:49
+  author: DAH
+  end: 2015-08-03 15:50
+  number: '1178'
+  start: 2015-07-30 17:40
+  text: 'Instrument: MST Radar. The transmitters for antenna sectors A and/or B were
+    out of action during this period. This resulted in significantly reduced altitude
+    coverage. The transmitter for antenna sector A had an analogue error owing to
+    the heater voltage dropping slightly below the expected range of 9.8 - 10.7 V.
+    DAH was able to restart the transmitter remotely, but it only remained in action
+    for a short period before shutting down again. This happened on many occasions
+    until LD adjusted the measurement circuit in order to ensure a mid-range reading.
+    During the period 2015-07-30 17:40 - 2015-08-03 15:50 UT, the transmitter was
+    only in action 07:54 - 10:00 and 10:13 - 12:30 UT on 2015-07-31, and 07:22 - 09:13,
+    09:18 - 09:28, 09:31 - 09:33, 09:35 - 09:36, 09:37 - 09:48, 10:18 - 10:55, 10:56
+    - 11:08, 11:09 - 11:10, 11:13 - 11:16, 11:17 - 11:38, 12:38 - 13:35, 13:41 - 13:42,
+    and 13:46 - 14:10 UT on 2015-08-03. The transmitter for antenna sector B was out
+    of action 2015-08-01 09:20 - 2015-08-03 14:43 owing to a blown HV fuse.'
+- added: 2015-08-04 11:54
+  author: DAH
+  end: 2015-07-31 12:21
+  number: '1179'
+  start: 2015-07-31 12:18
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 during this period.'
+- added: 2015-08-04 11:55
+  author: DAH
+  end: 2015-08-03 11:16
+  number: '1180'
+  start: 2015-08-03 11:15
+  text: 'Instrument: MST Radar. The beam steering controller reported slightly elevated
+    (> 2.5) VSWR values for unit 11 during this period.'
+- added: 2015-08-04 12:10
+  author: DAH
+  end: 2015-08-04 11:00
+  number: '1181'
+  start: 2015-08-04 10:37
+  text: 'Instrument: MST Radar. The radar was powered down for a short period in order
+    to allow beam steering unit 11 to be replaced. The existing unit had intermittently
+    been reporting slightly elevated VSWR values in recent weeks.'
+- added: 2015-08-14 15:35
+  author: DAH
+  end: 2015-08-08 02:19
+  number: '1182'
+  start: 2015-08-07 21:02
+  text: 'Instrument: MST Radar. The beam steering unit indicated the the output power
+    from the transmitter for antenna sector A dipped below its minimum expected value
+    on multiple occasions during this period. This does not appear to have a significant
+    effect on altitude coverage.'
+- added: 2015-08-14 15:36
+  author: DAH
+  end: 2015-08-11 09:49
+  number: '1183'
+  start: 2015-08-08 04:49
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown HV fuse.'
+- added: 2015-08-25 09:24
+  author: DAH
+  end: 2015-08-09 02:22
+  number: '1188'
+  start: 2015-08-09 02:22
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for the transmitter for antenna sector C was low for a single dwell. '
+- added: 2015-08-25 09:29
+  author: ZKO
+  end: 2015-08-13 07:05
+  number: '1189'
+  start: 2015-08-12 16:29
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    during this period owing to an analogue error. The final heater voltage had dropped
+    below its minimum expected value. '
+- added: 2015-08-25 10:36
+  author: DAH
+  end: 2015-08-17 16:41
+  number: '1190'
+  start: 2015-08-15 08:31
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2015-08-25 11:54
+  author: DAH
+  end: 2015-08-17 16:40
+  number: '1191'
+  start: 2015-08-17 15:48
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error. The final heater voltage had dropped below the minimum
+    permissible value. '
+- added: 2015-08-25 12:04
+  author: DAH
+  end: 2015-08-18 08:56
+  number: '1192'
+  start: 2015-08-17 18:02
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error. The final heater voltage had dropped below the minimum
+    permissible value. '
+- added: 2015-08-25 12:07
+  author: DAH
+  end: 2015-08-18 08:56
+  number: '1193'
+  start: 2015-08-17 18:04
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown HV fuse.'
+- added: 2015-08-25 12:14
+  author: DAH
+  end: 2015-08-17 21:47
+  number: '1194'
+  start: 2015-08-17 21:47
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for transmitters C and E was below the expected level for 1 dwell. '
+- added: 2015-08-25 12:25
+  author: DAH
+  end: 2015-08-18 16:30
+  number: '1195'
+  start: 2015-08-18 16:29
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the formward
+    power was low for transmiiters A, D, and E across two dwells.'
+- added: 2015-08-21 14:13
+  author: DAH
+  end: 2015-08-20 14:10
+  number: '1184'
+  start: 2015-08-20 14:10
+  text: 'Instrument: UPS Units. All units passed a self test.'
+- added: 2015-08-25 12:31
+  author: DAH
+  end: 2015-08-20 15:08
+  number: '1196'
+  start: 2015-08-20 14:43
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error. '
+- added: 2015-08-25 14:01
+  author: DAH
+  end: 2015-08-21 08:59
+  number: '1197'
+  start: 2015-08-21 08:54
+  text: 'Instrument: MST Radar. The socket connection between the radar control and
+    beam steering computers was broken unexpectedly. This appears to have led to a
+    5 minute gap between two adjacent cycles.'
+- added: 2015-08-25 14:15
+  author: DAH
+  end: 2015-08-21 09:00
+  number: '1198'
+  start: 2015-08-21 08:57
+  text: 'INstrument: MST Radar. The beam steering controller indicated that the forward
+    power for transmitter C was low for a few dwells.'
+- added: 2015-08-24 08:28
+  author: DAH
+  end: 2015-08-21 16:47
+  number: '1185'
+  start: 2015-08-21 16:47
+  text: 'Instrument: UPS units. The units briefly (~ 1 s) switched to battery power
+    in response to an input power problem. '
+- added: 2015-08-25 14:26
+  author: DAH
+  end: 2015-08-23 09:25
+  number: '1199'
+  start: 2015-08-22 15:45
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error. The error was cleared by the loss of mains/UPS power around
+    2015-08-23 06 UT, although the transmitter was not properly back in action until
+    13:45 that afternoon. '
+- added: 2015-08-24 09:22
+  author: DAH
+  end: 2015-08-23 09:10
+  number: '1186'
+  start: 2015-08-23 05:30
+  text: 'Instrument: UPS units. There appears to have been an electricity outage that
+    lasted for over 3 and a half hours. The UPS units became fully discharged after
+    20 - 30 minutes, leading to all equipment and PCs shutting down. PCs claudius,
+    julius, and tiberius all rebooted automatically when the power was restored. This
+    allowed DAH to remotely restart the MST radar and the WXT520 data acquisition.
+    However, PC gaius was still down at the time of writing.'
+- added: 2015-08-24 14:52
+  author: DAH
+  end: 2015-08-24 09:22
+  number: '1187'
+  start: 2015-08-23 05:47
+  text: 'Instrument: MST Radar. The radar was out of action during this period owing
+    to a loss of mains electricity, which lasted for over 3 hours. The radar control
+    PC appears to have shut down at around 05:50 UT, after its UPS unit became fully
+    discharged. After the power and internet connection were resumed (shortly after
+    09 UT), DAH deleted the spectral files for the final, incomplete cycle, which
+    began at 05:47:47 UT. This was in case they crashed the signal processing software.
+    He was able to remotely restart the radar at 12:40 UT, although the beam steering
+    unit does not appear to have been changing the beam pointing direction (DAH had
+    blocked the transfer of data to the Met Office during the restart period). It
+    gave a warning message, "Refusing connection. Beam command socket already connected".
+    Consequently DAH stopped the radar at 13:15 UT before rebooting the beam steering
+    PC, which does not appear to have shut down during the electricity outage. The
+    beam steering unit appeared to operate as expected when DAH restarted the radar
+    at 13:45 UT. However, he did not remove the block from the Met Office''s data
+    feed until around 15:30 UT, when he was confident that everything was back to
+    normal.'
+- added: 2015-08-25 14:38
+  author: DAH
+  end: 2015-08-23 17:13
+  number: '1200'
+  start: 2015-08-23 17:11
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for transmitter A was slightly low during this period.'
+- added: 2015-08-25 14:40
+  author: DAH
+  end: 2015-08-23 21:21
+  number: '1201'
+  start: 2015-08-23 21:20
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for transmitter A was slightly low for this short period.'
+- added: 2015-08-25 14:55
+  author: DAH
+  end: 2015-08-25 07:02
+  number: '1202'
+  start: 2015-08-24 18:42
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error.'
+- added: 2015-08-25 14:57
+  author: DAH
+  end: 2015-08-25 03:26
+  number: '1203'
+  start: 2015-08-25 03:25
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for transmitter B was slightly low during this period.'
+- added: 2015-08-25 14:58
+  author: DAH
+  end: 2015-08-25 10:23
+  number: '1204'
+  start: 2015-08-25 10:12
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error.'
+- added: 2015-08-25 14:58
+  author: DAH
+  end: 2015-08-25 11:33
+  number: '1205'
+  start: 2015-08-25 11:28
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error.'
+- added: 2015-08-25 14:59
+  author: DAH
+  end: 2015-08-25 12:05
+  number: '1206'
+  start: 2015-08-25 11:57
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error.'
+- added: 2015-08-25 15:00
+  author: DAH
+  end: 2015-08-25 13:53
+  number: '1207'
+  start: 2015-08-25 13:43
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    with an analogue error.'
+- added: 2015-09-11 15:10
+  author: DAH
+  end: 2015-08-25 15:12
+  number: '1209'
+  start: 2015-08-25 14:57
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to its heater voltage dropping below the minimum permissible value.'
+- added: 2015-09-11 15:12
+  author: ZKO
+  end: 2015-08-26 07:02
+  number: '1210'
+  start: 2015-08-25 17:08
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to its heater voltage dropping below the minimum permissible value.'
+- added: 2015-09-11 16:22
+  author: DAH
+  end: 2015-08-26 11:47
+  number: '1211'
+  start: 2015-08-26 08:46
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    for most of this period. It auto-shut-down owing to a low heater voltage 08:46
+    - 08:49 and 09:18 - 09:21 UT. It was then shut down 09:36 - 11:47 UT so that LD
+    could change the voltage regulator. The output power appears to have shown some
+    fluctuations later the same day, 16:25 - 16:41 UT, although without the tranmsitter
+    shutting down. '
+- added: 2015-09-11 16:32
+  author: DAH
+  end: 2015-09-03 14:58
+  number: '1212'
+  start: 2015-09-03 14:56
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A reported a drop
+    in output power during this brief period although it did not auto-shut-down.'
+- added: 2015-09-11 16:34
+  author: DAH
+  end: 2015-09-10 15:37
+  number: '1213'
+  start: 2015-09-10 15:20
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to its heater voltage dropping below the minimum permissible value.'
+- added: 2015-09-11 16:35
+  author: DAH
+  end: 2015-09-11 08:12
+  number: '1214'
+  start: 2015-09-10 16:22
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to its heater voltage dropping below the minimum permissible value.'
+- added: 2015-09-11 11:40
+  author: DAH
+  end: 2015-09-11 09:22
+  number: '1208'
+  start: 2015-09-11 08:59
+  text: 'Instrument: MST Radar. The radar was shut down during this short period to
+    allow beam steering unit 68 to be swapped. It had been giving readings that were
+    towards the edge of the permissible range. '
+- added: 2015-09-14 09:16
+  author: DAH
+  end: 2015-09-14 07:04
+  number: '1215'
+  start: 2015-09-13 04:34
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-09-14 15:01
+  author: DAH
+  end: 2015-09-14 10:25
+  number: '1216'
+  start: 2015-09-14 08:35
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-09-14 15:02
+  author: DAH
+  end: 2015-09-14 13:03
+  number: '1217'
+  start: 2015-09-14 11:59
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:06
+  author: DAH
+  end: 2015-09-14 14:16
+  number: '1224'
+  start: 2015-09-14 13:57
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-09-14 16:22
+  author: DAH
+  end: 2015-09-14 15:11
+  number: '1218'
+  start: 2015-09-14 14:54
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:09
+  author: DAH
+  end: 2015-09-15 07:02
+  number: '1225'
+  start: 2015-09-14 15:53
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:10
+  author: DAH
+  end: 2015-09-15 07:56
+  number: '1226'
+  start: 2015-09-15 07:51
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:13
+  author: DAH
+  end: 2015-09-16 09:26
+  number: '1227'
+  start: 2015-09-15 08:12
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:14
+  author: DAH
+  end: 2015-09-18 07:06
+  number: '1228'
+  start: 2015-09-17 17:30
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:17
+  author: DAH
+  end: 2015-09-19 15:23
+  number: '1229'
+  start: 2015-09-19 13:45
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:18
+  author: DAH
+  end: 2015-09-19 18:15
+  number: '1230'
+  start: 2015-09-19 16:19
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:19
+  author: DAH
+  end: 2015-09-19 18:55
+  number: '1231'
+  start: 2015-09-19 18:43
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:20
+  author: DAH
+  end: 2015-09-20 08:38
+  number: '1232'
+  start: 2015-09-19 19:28
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:24
+  author: DAH
+  end: 2015-09-20 11:53
+  number: '1233'
+  start: 2015-09-20 09:07
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:26
+  author: DAH
+  end: 2015-09-21 07:04
+  number: '1234'
+  start: 2015-09-20 12:27
+  text: 'Instrument: MST Radar. The transmitter for antenna section A auto-shut-down
+    owing to a low heater voltage.'
+- added: 2015-10-06 12:30
+  author: DAH
+  end: 2015-09-22 10:08
+  number: '1235'
+  start: 2015-09-21 07:23
+  text: 'Instrument: MST Radar. The transmitter for antenna section A was out of action
+    for most of this period. owing to a low heater voltage. It was restarted on a
+    number of occasions, but did not stay in operation for lon before auto-shutting
+    down. The periods when the transmitter was out of action were (on 2015-09-21)
+    07:23 - 07:26, 07:27 - 07:31, 07:32 - 07:38, 07:40 - 07:47, 07:52 - 08:08, 08:24
+    - 08:28, 08:29 - 09:12, 09:25 - 09:26, 10:27 - 10:26, 10:39 - 10:42, 10:47 - 13:05,
+    13:27 - 13:33, 13:33 - 13:40, and 13:41 - 10:08 the following morning. '
+- added: 2015-10-06 14:57
+  author: DAH
+  end: 2015-09-25 14:39
+  number: '1236'
+  start: 2015-09-24 22:05
+  text: 'Instrument: MST Radar. The transmitter for antenna section A was out of action
+    for most of this period owing to a low heater voltage. It was restarted on a number
+    of occasions, but did not stay in operation for lon before auto-shutting down.
+    The periods when the transmitter was out of action were 22:05 (on 2015-09-24)
+    - 07:47 (on 2015-09-25), 10:34 - 10:50, 11:04 - 11:47, 11:55 - 12:29, and 14:07
+    - 14:39.'
+- added: 2015-10-06 15:04
+  author: DAH
+  end: 2015-09-26 01:53
+  number: '1237'
+  start: 2015-09-26 01:07
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector A was briefly below the expected value on 4 occasions:
+    01:07 - 01:11, 01:19 - 01:22, 01:39 - 01:42, and 01:50 - 01:53 UT. '
+- added: 2015-10-06 15:09
+  author: DAH
+  end: 2015-09-28 21:34
+  number: '1238'
+  start: 2015-09-28 21:33
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector B was briefly below the expected value. '
+- added: 2015-10-06 15:11
+  author: DAH
+  end: 2015-09-29 04:46
+  number: '1239'
+  start: 2015-09-29 04:38
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector A was briefly below the expected value on 2 occasions:
+    04:38 - 04:41, and 04:52 - 04:56 UT.'
+- added: 2015-10-01 10:09
+  author: DAH
+  end: 2015-09-30 14:43
+  number: '1219'
+  start: 2015-09-30 09:07
+  text: 'Instrument: MST Radar, UPS Units, Vaisala LD40, Vaisala WXT520, Sky Camera
+    2. A prolonged loss of power at the radar site led to all data aquisition computers
+    shutting down. An engineer from the local electricity distribution company (Scottish
+    Power) visited the site around the middle of the day and established that the
+    source of the problem was internal and not with the supply. It turned out to be
+    a failure within the local distribution circuits. A local electrician carried
+    out repairs during the afternoon.'
+- added: 2015-10-06 15:13
+  author: DAH
+  end: 2015-10-01 09:47
+  number: '1240'
+  start: 2015-10-01 09:42
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector A was briefly below the expected value during this period.'
+- added: 2015-10-06 15:14
+  author: DAH
+  end: 2015-10-01 12:17
+  number: '1241'
+  start: 2015-10-01 12:12
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector A was briefly below the expected value during this period.'
+- added: 2015-10-06 11:45
+  author: DAH
+  end: 2015-10-01 14:01
+  number: '1222'
+  start: 2015-10-01 14:00
+  text: 'nstrument: MST Radar. The beam steering controller indicated that the forward
+    power for all 5 transmitters was momentarily below expected. The response time
+    for changing beam pointing direction was slightly above normal (2.4 s compared
+    with 1.5 s) at this time. '
+- added: 2015-10-06 15:15
+  author: DAH
+  end: 2015-10-01 19:51
+  number: '1242'
+  start: 2015-10-01 19:46
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for antenna sector A was briefly below the expected value during this period.'
+- added: 2015-10-06 15:21
+  author: DAH
+  end: 2015-10-02 07:33
+  number: '1243'
+  start: 2015-10-01 21:28
+  text: 'Instrument: MST Radar. The beam steering controller indicated that beam steering
+    unit 69 became unresponsive 21:28 - 22:19 and 22:34 - 07:33 (the following morning),
+    and unit 56 became unresponsive 03:01 - 07:21 UT. '
+- added: 2015-10-06 15:30
+  author: DAH
+  end: 2015-10-03 06:26
+  number: '1244'
+  start: 2015-10-02 20:52
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 69
+    did not respond during the whole of this period and that unit 56 did not respond
+    22:26 - 22:27, 22:59 - 23:02, 23:17 - 02:12, and 04:13 - 06:06 UT.'
+- added: 2015-10-06 11:48
+  author: DAH
+  end: 2015-10-05 09:47
+  number: '1223'
+  start: 2015-10-05 09:45
+  text: 'nstrument: MST Radar. The beam steering controller indicated that the forward
+    power for all 5 transmitters was momentarily below expected twice in short succession.
+    The response time for changing beam pointing directions was no different to normal
+    (approximately 1.5 s) at this time. '
+- added: 2015-10-06 11:43
+  author: DAH
+  end: 2015-10-05 10:35
+  number: '1221'
+  start: 2015-10-05 10:34
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the forward
+    power for all 5 transmitters was momentarily below expected. The response time
+    for changing beam pointing direction was slightly above normal (2.2 s compared
+    with 1.5 s) at this time. '
+- added: 2015-10-06 11:35
+  author: DAH
+  end: 2015-10-06 10:02
+  number: '1220'
+  start: 2015-10-06 08:56
+  text: 'Instrument: MST Radar. The radar was powered down for an hour to allow some
+    maintenance to be carried out on the power supply for the beam steering units.'
+- added: 2015-10-08 10:19
+  author: DAH
+  end: 2015-10-07 21:28
+  number: '1245'
+  start: 2015-10-07 21:27
+  text: 'Instrument: MST Radar. The beam steering controller indicated that unit 73
+    briefly experienced a unexpectedly low supply voltage: 4.2 V compared to a nominal
+    24 V.'
+- added: 2017-09-12 13:35
+  author: DAH
+  end: 2015-10-10 21:30
+  number: '1839'
+  start: 2015-10-10 21:00
+  text: 'Instrument: MST Radar. There is a small region of unrealistically fast wind
+    speeds, between approximately 8 and 9 km altitude, during this period. The v4
+    Cardinal file has not been released to the archive. '
+- added: 2015-10-12 10:11
+  author: DAH
+  end: 2015-10-12 00:14
+  number: '1246'
+  start: 2015-10-11 23:46
+  text: 'Instrument: MST Radar. Beam steering unit 73 reported an unexpectedly low
+    supply voltage on 3 occasions during this short period: 23:46, 23:57, and 00:13
+    UT.'
+- added: 2015-10-13 12:04
+  author: DAH
+  end: 2015-10-13 10:28
+  number: '1247'
+  start: 2015-10-12 02:49
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D (i.e. the lockinhg
+    transmitter) was out of action for most of this period owing to the final heater
+    voltage being too low. DAH was able to restart the transmitter remotely and so
+    it was in operation for the following periods on 2015-10-12: 07:01 - 09:09, 09:22
+    - 10:21, 10:27 - 11:22, 11:26 - 11:46, 12:27 - 13:17, 13:32 - 14:46, 15:22 - 17:42
+    UT. It was also in operation 07:00 - 08:26 UT on 2015-10-13.'
+- added: 2015-10-13 12:09
+  author: DAH
+  end: 2015-10-12 07:17
+  number: '1248'
+  start: 2015-10-12 07:16
+  text: 'Instrument: MST Radar. Beam steering unit 73 reported an unexpectedly low
+    supply voltage during this brief period.'
+- added: 2015-10-15 08:58
+  author: DAH
+  end: 2015-10-15 15:26
+  number: '1249'
+  start: 2015-10-14 14:04
+  text: 'Instrument: UPS units. The units conducted self tests. The TX1 and TX5 units
+    reported at least one faulty battery. It appears that the unit for TX5 then shut
+    down and did not restore output power until 15:26 when LD visited the site. The
+    corresponding transmitter for antenna section E was out of action during this
+    time. '
+- added: 2015-10-15 09:03
+  author: DAH
+  end: 2015-10-14 15:33
+  number: '1250'
+  start: 2015-10-14 14:05
+  text: 'Instrument: MST Radar. The transmitter for antenna sector E was out oc action
+    during this period. This was a result of its UPS unit shutting down following
+    a failed battery test.'
+- added: 2015-10-15 12:25
+  author: DAH
+  end: 2015-10-15 10:20
+  number: '1251'
+  start: 2015-10-15 10:00
+  text: 'Instrument: MST Radar. The radar was stopped briefly to allow LD to change
+    beam steering unit 73, which had intermittently being conplaining about a low
+    supply voltage (mostly) and high VSWR (less-frequently) since 2015-10-14 21:41
+    UT.'
+- added: 2015-10-16 15:30
+  author: DAH
+  end: 2015-10-16 11:29
+  number: '1252'
+  start: 2015-10-16 07:28
+  text: 'Instrument: MST Radar. The transmitter for antenna section A was out of action
+    for most of this period. It auto shut down 07:28 - 07:37 and 08:34 - 08:54 UT
+    owing to a low final heater voltage. LD shut it down 10:46 - 11:29 UT in order
+    to carry out maintenance work on it.'
+- added: 2015-10-19 10:17
+  author: DAH
+  end: 2015-10-18 19:18
+  number: '1253'
+  start: 2015-10-18 19:14
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the output
+    power for antenna sector A''s  transmitter was slightly below normal during this
+    period. '
+- added: 2015-10-19 10:18
+  author: DAH
+  end: 2015-10-18 19:53
+  number: '1254'
+  start: 2015-10-18 19:47
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the output
+    power for antenna sector A''s  transmitter was slightly below normal during this
+    period. '
+- added: 2015-10-20 15:39
+  author: DAH
+  end: 2015-10-20 14:26
+  number: '1255'
+  start: 2015-10-20 14:26
+  text: 'Instrument: MST Radar. Beam steering unit 59 breifly (i.e. for one dwell)
+    indicated a low supply voltage. '
+- added: 2016-01-20 09:00
+  author: DAH
+  end: 2015-10-21 00:13
+  number: '1285'
+  start: 2015-10-21 00:13
+  text: 'Instrument: MST Radar. The beam steering controller reported "Unknown response
+    from interface controller O0". It is not known what this means. It does not appear
+    to have affected radar operations.'
+- added: 2015-10-23 13:51
+  author: DAH
+  end: 2015-10-23 09:35
+  number: '1256'
+  start: 2015-10-23 09:33
+  text: 'Instrument: UPS Units. The battery pack for the unit powering transmitter
+    A was replaced, after the old one was found (from a recent self test) to have
+    at least one faulty battery.'
+- added: 2016-01-20 09:02
+  author: DAH
+  end: 2015-10-27 10:14
+  number: '1286'
+  start: 2015-10-26 13:26
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse.'
+- added: 2016-01-20 09:24
+  author: DAH
+  end: 2015-10-30 15:41
+  number: '1289'
+  start: 2015-10-28 03:30
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    for most of this period with an analogue error as a result of an internal voltage
+    drifting out of the extpected range. Although DAH was able to restart the transmitter
+    remotely, it soon shut down again. This was repeated on many occasions. The transmitter
+    was in operation during the following periods: on  2015-10-28, 08:03 - 11:52,
+    12:20 - 15:51 UT; on 2015-10-29, 08:15 - 09:13, 09:47 - 10:43, 13:04 - 14:24,
+    16:24 - 17:35 UT; on 2015-10-30, 07:24 - 08:11, 08:16 - 08:17, 08:39 - 09:07,
+    15:34 - 15:35 UT.'
+- added: 2016-01-20 09:04
+  author: DAH
+  end: 2015-10-28 10:14
+  number: '1287'
+  start: 2015-10-28 10:14
+  text: 'Instrument: MST Radar. The beam steering controller reported "Unknown response
+    from interface controller 90". This does not appear to have affected radar operations.'
+- added: 2015-11-02 11:30
+  author: DAH
+  end: 2015-10-28 14:04
+  number: '1257'
+  start: 2015-10-28 14:04
+  text: 'Instrument: UPS Units. During a routine self test, the unit for the transmitter
+    powering antenna sector C (TX3) reported at least one faulty battery. Shortly
+    afterwards it reported that the battery was not installed properly, before updating
+    that the battery was successfully installed 80 s later. '
+- added: 2015-11-02 11:53
+  author: DAH
+  end: 2015-10-29 00:14
+  number: '1258'
+  start: 2015-10-28 21:57
+  text: 'Instrument: UPS Units. The unit for the transmitter powering antenna sector
+    C (TX3) alternated between reporting the battery not being installed properly
+    and it being installed properly on 71 occasions during this period. The final
+    report was that it was installed properly.'
+- added: 2016-01-20 09:09
+  author: DAH
+  end: 2015-10-29 22:38
+  number: '1288'
+  start: 2015-10-29 22:38
+  text: 'Instrument: MST Radar. The beam steering controller indicated that the output
+    power for the transmitter for antenna sevtor B was low for a single dwell. '
+- added: 2016-01-20 09:44
+  author: DAH
+  end: 2015-11-03 10:02
+  number: '1290'
+  start: 2015-11-01 11:44
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown fuse. '
+- added: 2016-01-20 09:50
+  author: DAH
+  end: 2015-11-03 10:02
+  number: '1291'
+  start: 2015-11-02 20:56
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    with a blown fuse. '
+- added: 2016-01-20 09:54
+  author: DAH
+  end: 2015-11-03 11:35
+  number: '1292'
+  start: 2015-11-03 09:50
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    to alow LD to carry out maintenance work on it.'
+- added: 2016-01-20 09:56
+  author: DAH
+  end: 2015-11-03 16:42
+  number: '1293'
+  start: 2015-11-03 16:11
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was briefly out
+    of action owing to an analogue error.'
+- added: 2016-01-20 10:23
+  author: DAH
+  end: 2015-11-05 12:03
+  number: '1294'
+  start: 2015-11-04 07:01
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D was out of action
+    for most of this period over repeated analogue errors. DAH was able to restart
+    the tranmsitter remotely on a number of occasions, which meant that it was in
+    operation during the following periods: on 2015-11-04, 07:58 - 10:15, 12:16 -
+    14:54, 15:19 - 16:29, 22:05 - 23:38 UT; on 2015-11-05, 07:58 - 08:39, 08:47 -
+    08:55, 09:03 - 09:05, 09:09 - 09:36 UT.'
+- added: 2015-11-09 12:16
+  author: DAH
+  end: 2015-11-09 10:19
+  number: '1259'
+  start: 2015-11-06 20:40
+  text: 'Instrument: MST Radar. The MST radar did not produce any useful data during
+    most of this period. An input power problem at 2015-11-06 20:40 led to the UPS
+    unit for the transmitter powering antenna sector C to shut down. This unit is
+    known (from self-tests) to have a faulty battery pack. The delivery of a replacement
+    pack has been delayed by supplier problems. This UPS unit also powers the phase
+    synchronistaion unit, which must be in operation in order for the transmitters
+    to be able to transmit. However, the receiver continued to acquire (noise) data.
+    DAH spotted this on the following morning and stopped the radar at 08:20 in an
+    attempt to diagnose the problem. He restarted the radar at 10:06 but stopped it
+    again at 10:58, when it became clear that the problem could not be resolved remotely.
+    LD visited the site on the morning of 2015-11-09 and swapped the recently replaced
+    battery pack from the UPS for TXA to the UPS for TXC. Four of the transmitters
+    were back in action at 09:41 and the transmitter for antenna sector A was back
+    in action at 10:19.'
+- added: 2015-11-17 09:26
+  author: DAH
+  end: 2015-11-06 20:40
+  number: '1260'
+  start: 2015-11-06 20:40
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a 2 s input power problem. The unit powering the transmitter for antenna sector
+    C, which was known to have a faulty battery, failed to restart after the problem.
+    Since it is also responsible for powering the phase synchronisation unit, none
+    of the transmitters could operate until the power to this unit was restored. '
+- added: 2015-11-17 09:42
+  author: DAH
+  end: 2015-11-07 08:43
+  number: '1261'
+  start: 2015-11-07 08:40
+  text: 'Instrument: UPS units. The units briefly (~ 1 s) switched to battery, in
+    response to input power problems, on 5 occasions during this 3 minute period.
+    The unit for the beam steering unit encountered battery problems during these
+    events, which led to its output power being briefly disconnected. This led to
+    the beam steering PC tiberius going through a reboot. DAH had stopped and restarted
+    the MST radar briefly before this. However, since no useful data were being collected,
+    owing to the phase synchronisation unit already being out of action, the consequences
+    were insignificant.'
+- added: 2015-11-17 10:29
+  author: DAH
+  end: 2015-11-10 10:08
+  number: '1263'
+  start: 2015-11-09 17:03
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of actopn
+    during this period owing to a blown fuse.'
+- added: 2015-11-17 10:34
+  author: DAH
+  end: 2015-11-10 12:12
+  number: '1264'
+  start: 2015-11-10 11:16
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    during this period to allow maintenance work to be carried out.'
+- added: 2015-11-17 11:11
+  author: DAH
+  end: 2015-11-11 10:34
+  number: '1265'
+  start: 2015-11-11 06:22
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse.'
+- added: 2015-11-17 10:21
+  author: DAH
+  end: 2015-11-11 15:26
+  number: '1262'
+  start: 2015-11-11 14:04
+  text: 'Instrument: UPS units. The units for TXB, TXD, TXE, and for the beam steering
+    unit performed self tests during this period. The unit for the beam steering unit
+    reported a faulty battery. '
+- added: 2015-11-17 11:20
+  author: DAH
+  end: 2015-11-13 09:07
+  number: '1266'
+  start: 2015-11-12 01:35
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period owing to a blown fuse. The transmitter for antenna sector B
+    was briefly out of action at the very end of this period (08:51 - 08:57) woing
+    to LD having switched it off by mistake. '
+- added: 2016-01-20 10:29
+  author: DAH
+  end: 2015-11-17 10:46
+  number: '1295'
+  start: 2015-11-16 02:52
+  text: 'Instrument: MST Radar. The transmitter for antenna sector D was out of action
+    on a number of occasions owing to an analogue error. DAH was able to remotely
+    restart the transmitter, which meant that it was in operation during the following
+    periods on 2015-11-16: 09:40 - 09:42, 10:08 - 10:08, 11:40 - 11:53 UT.'
+- added: 2016-01-20 10:36
+  author: DAH
+  end: 2015-11-16 12:22
+  number: '1296'
+  start: 2015-11-16 12:10
+  text: 'Instrument: MST Radar. There appears to have been a short break in the connection
+    between the radar control and beam steering PCs. '
+- added: 2016-02-18 08:54
+  author: DAH
+  end: 2015-11-17 12:31
+  number: '1302'
+  start: 2015-11-17 10:03
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    for maintenance.'
+- added: 2015-12-15 10:13
+  author: DAH
+  end: 2015-11-17 16:06
+  number: '1274'
+  start: 2015-11-17 15:58
+  text: 'Instrument: MST Radar. During this period the transmitter for antenna section
+    D briefly reported low output power and beam steering unit 47 (which is in antenna
+    section D) briefly reported an elevated value of VSWR.'
+- added: 2015-12-15 10:12
+  author: DAH
+  end: 2015-11-18 09:03
+  number: '1273'
+  start: 2015-11-18 08:50
+  text: 'Instrument: MST Radar. During this period the transmitter for antenna section
+    D briefly reported low output power and beam steering units  47, 58, 64, 65, 66,
+    and 67 (all in antenna section D) briefly reported elevated values of VSWR.'
+- added: 2015-12-15 10:05
+  author: DAH
+  end: 2015-11-18 12:52
+  number: '1272'
+  start: 2015-11-18 12:33
+  text: 'Instrument: MST Radar. During this period the transmitter for antenna section
+    D briefly reported low output power and beam steering units  47, 48, 57, 64, 65,
+    66 (all in antenna section D) briefly reported an elevated value of VSWR.'
+- added: 2015-12-15 10:01
+  author: DAH
+  end: 2015-11-19 06:53
+  number: '1271'
+  start: 2015-11-19 06:53
+  text: 'Instrument: MST Radar. During this period the transmitter for antenna section
+    D briefly reported low output power and beam steering unit  47 (also antenna section
+    D) briefly reported an elevated value of VSWR.'
+- added: 2016-01-07 09:04
+  author: DAH
+  end: 2015-11-23 10:11
+  number: '1276'
+  start: 2015-11-23 09:27
+  text: 'Instrument: UPS units. Two of the UPS units passed a self-test: TX3 at 09:27
+    and TX1 at 10:11.'
+- added: 2016-01-07 09:19
+  author: DAH
+  end: 2015-11-25 15:25
+  number: '1277'
+  start: 2015-11-25 14:03
+  text: 'Instrument: UPS units. Four of the UPS units passed a self-test: TX2 at 14:03,
+    TX4 at 14:05, Beamform at 14:05, and TX5 at 15:25.'
+- added: 2015-12-15 09:53
+  author: DAH
+  end: 2015-12-01 10:50
+  number: '1270'
+  start: 2015-11-28 20:22
+  text: 'Instrument: MST Radar. The transmitter for antenna section B was out of action
+    owing to a blown fuse.'
+- added: 2016-01-07 09:28
+  author: DAH
+  end: 2015-12-07 10:11
+  number: '1280'
+  start: 2015-12-07 09:27
+  text: 'Instrument: UPS units. Two of the UPS units passed a self-test: TX3 at 09:27,
+    and TX1 at 10:11.'
+- added: 2015-12-15 09:51
+  author: DAH
+  end: 2015-12-09 15:48
+  number: '1269'
+  start: 2015-12-08 17:34
+  text: 'Instrument: MST Radar. The transmitter for antenna section B was out of action
+    owing to a blown fuse.  '
+- added: 2015-12-15 09:47
+  author: ZKO
+  end: 2015-12-10 16:17
+  number: '1268'
+  start: 2015-12-08 19:13
+  text: 'Instrument: MST Radar. The transmitter for antenna section C was out of action
+    with a blown fuse.'
+- added: 2016-01-07 09:21
+  author: DAH
+  end: 2015-12-09 15:25
+  number: '1278'
+  start: 2015-12-09 14:03
+  text: 'Instrument: UPS units. Four of the UPS units passed a self-test: TX2 at 14:03,
+    TX4 at 14:04, Beamform at 14:05, and TX5 at 15:25.'
+- added: 2015-12-15 09:41
+  author: DAH
+  end: 2015-12-14 09:39
+  number: '1267'
+  start: 2015-12-13 08:09
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    with a blown fuse. '
+- added: 2016-01-07 09:29
+  author: DAH
+  end: 2015-12-21 10:11
+  number: '1281'
+  start: 2015-12-21 09:26
+  text: 'Instrument: UPS units. Two of the UPS units passed a self-test: TX3 at 09:26,
+    and TX1 at 10:11.'
+- added: 2016-01-05 15:25
+  author: DAH
+  end: 2016-01-05 11:52
+  number: '1275'
+  start: 2015-12-23 14:02
+  text: 'Instrument: UPS unit TX2. This unit failed a self test at the beginning of
+    the priod. LD installed a replacement battery pack at the end of the period. In
+    the mean time, the UPS unit sent 18,592 e-mail messages complianing about the
+    state of its batteries. '
+- added: 2016-01-07 09:25
+  author: DAH
+  end: 2015-12-23 15:24
+  number: '1279'
+  start: 2015-12-23 14:02
+  text: 'Instrument: UPS units. Three of the UPS units passed a self-test: TX4 at
+    14:04, Beamform at 14:04, and TX5 at 15:24. TX2 failed the self test at 14:02.'
+- added: 2016-02-18 09:06
+  author: DAH
+  end: 2015-12-28 01:31
+  number: '1303'
+  start: 2015-12-28 01:30
+  text: 'Instrument: MST Radar. Beam steering unit 95 updated its software.'

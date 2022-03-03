@@ -1,0 +1,114 @@
+- added: 2002-07-30 00:00
+  author: SJP
+  end: 2002-07-30 00:00
+  number: '9'
+  start: 2002-07-30 00:00
+  text: A routine test of the MST Radar relays was conducted.
+- added: 2002-08-27 00:00
+  author: SJP
+  end: 2002-08-27 00:00
+  number: '10'
+  start: 2002-08-27 00:00
+  text: "The hard-drive on the Master-PC, which controls the MST Radar, failed on\
+    \ 27th August. It was replaced almost immediately by the nominally identical Backup-PC\n\
+    \ and normal operations were resumed with only a minor loss of coverage. The working\
+    \ hard-drive on the Backup-PC has been cloned so that the PC can be repaired quickly\
+    \ in the event of another hard-drive failure. Tests have shown \nthat the Backup-PC\
+    \ works with the cloned hard-drive. Although the Master and Backup PCs were supposed\
+    \ to be identical, there are slight differences between\nthem which means that\
+    \ the Master-PC does not function correctly with the cloned hard-drive.\nEfforts\
+    \ to restore the Master-PC to working order are on-going. It is thought that the\
+    \ interface\nand network drivers will need to be reinstalled."
+- added: 2002-10-01 00:00
+  author: ZKO
+  end: 2002-10-02 00:00
+  number: '12'
+  start: 2002-10-01 00:00
+  text: '
+
+    Communications with the radar site were briefly interrupted on 1st October when
+    a hedge trimmer
+
+    accidentally cut through telephone lines approximately 1 km away. Although telephone
+
+    and computer connections were restored later the same day, the Met Office''s ISDN
+    line remained
+
+    inoperative for approximately 24 hours.'
+- added: 2002-10-31 00:00
+  author: ZKO
+  end: 2002-10-31 00:00
+  number: '13'
+  start: 2002-10-31 00:00
+  text: 'On 31st October maintenance work was carried out on the site PC, which logs
+    surface data, in
+
+    order to replace a failed fan unit..'
+- added: 2002-11-04 00:00
+  author: ZKO
+  end: 2002-11-04 00:00
+  number: '14'
+  start: 2002-11-04 00:00
+  text: A routine test and replacement of faulty relays.
+- added: 2002-11-15 00:00
+  author: ZKO
+  end: 2002-12-11 00:00
+  number: '15'
+  start: 2002-11-15 00:01
+  text: 'The Met Office is currently phasing-in a new data acquisition system. During
+    late November
+
+    it was necessary to make changes to the programs which write the MST Radar data
+    to BUFR
+
+    files so that the header and footer codes were acceptable by the new system.'
+- added: 2002-11-18 00:00
+  author: ZKO
+  end: 2002-11-18 00:00
+  number: '16'
+  start: 2002-11-18 00:00
+  text: '
+
+    The new UFAM mobile lidar system arrived at the MST Radar site on 18th November,
+    approximately
+
+    a month later than originally expected. The instrument will be operated at the
+    site
+
+    in-between field campaigns.'
+- added: 2002-12-11 00:00
+  author: ZKO
+  end: 2002-12-11 00:00
+  number: '17'
+  start: 2002-12-11 00:00
+  text: '
+
+    A successful switch-over of BUFR file transmission to the new system was carried
+    out on 11th December.'
+- added: 2002-12-17 00:00
+  author: ZKO
+  end: 2002-12-17 00:00
+  number: '18'
+  start: 2002-12-17 00:00
+  text: '
+
+    The local electricity supplier shut down power to the Capel Dewi area on 17th
+    December so
+
+    that they could carry out scheduled maintenance work on their systems. The radar
+    remained
+
+    out of action for 7 hours. '
+- added: 2002-12-28 00:00
+  author: ZKO
+  end: 2002-12-28 00:00
+  number: '19'
+  start: 2002-12-28 00:00
+  text: '
+
+    A brief power failure in the early morning of Saturday 28th December
+
+    caused the radar system to crash. The problem was not noticed until the following
+    day when
+
+    Dave Wareing rebooted the radar control computer; ZAKO was on holiday at the time.'

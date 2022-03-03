@@ -1,0 +1,264 @@
+- added: 2003-01-12 00:00
+  author: ZKO
+  end: 2003-01-13 09:30
+  number: '20'
+  start: 2003-01-12 16:30
+  text: '
+
+    The transmitter to which the others are phase-locked developed a fault around
+    1630 GMT on
+
+    12th January 2003, a Sunday. The problem wasn''t noticed until first thing the
+    following morning
+
+    when the faulty transmitter was repaired, around 0930 GMT. The data for this period
+    are
+
+    unreliable.'
+- added: 2003-01-13 00:00
+  author: ZKO
+  end: 2003-01-13 00:00
+  number: '21'
+  start: 2003-01-13 00:00
+  text: '
+
+    The radar remained out of action for approximately another 2 hours on the morning
+    of 13th
+
+    January to allow students from the Geography Department, University of Wales Aberystwyth,
+
+    to measure the orientation of the MST Radar antenna array. This is the 3rd time
+    that students
+
+    have practised their surveying skills on the antenna array.'
+- added: 2005-08-01 16:23
+  author: ZKO
+  end: 2003-10-16 00:00
+  number: '27'
+  start: 2003-04-01 00:00
+  text: 'The most significant problems experienced during the last six months have
+    been caused by
+
+    computer worms (MS-Blaster and subsequently Nachi-A) infecting theWindows2000
+    PC which
+
+    controls the climate data logger; the Met Office had similar problems with their
+    PC which collects
+
+    GPS water vapour receiver data at the radar site. It should be noted that the
+    data logger PC
+
+    was running up to date anti-virus software, which was initially unable to remove
+    the worms.'
+- added: 2005-08-01 16:19
+  author: ZKO
+  end: 2003-04-14 00:00
+  number: '26'
+  start: 2003-04-03 00:00
+  text: 'A problem with the wind measuring equipment at Frongoch farm lead to a loss
+    of surface wind
+
+    data between 3rd and 14th April. At first it was thought that the anemometer had
+    developed a
+
+    fault and that it would need to be sent back to Campbell Scientific for repairs.
+    A hand winch
+
+    was purchased to enable the tower to be lowered to ground level for inspection.
+    ZAKO traced
+
+    the source of the problem to corrosion of an electrical connector between the
+    wind measuring
+
+    equipment and the data logging unit. He cleaned and then thoroughly resealed the
+    connector in
+
+    order to avoid a repetition of the problem.'
+- added: 2005-08-01 16:35
+  author: ZKO
+  end: 2003-06-16 00:00
+  number: '29'
+  start: 2003-06-16 00:00
+  text: 'The JANET connection to the radar site suffered a temporary disruption on
+    16th June. The
+
+    problem was found to be caused by a tree rubbing against the telephone cables
+    approximately
+
+    1 km away. The JANET connection was restored later the same day.'
+- added: 2005-08-01 16:08
+  author: ZKO
+  end: 2003-07-09 00:00
+  number: '22'
+  start: 2003-07-09 00:00
+  text: 'The programme of reconditioning the transmitter cooling blower motors has
+    enabled the transmitters
+
+    to be run at higher power than has been possible for some time. An increase of
+    approximately
+
+    20% was introduced on 9th July and there are plans to gradually step this up in
+    the near
+
+    future.'
+- added: 2005-08-01 16:10
+  author: ZKO
+  end: 2003-07-21 09:00
+  number: '23'
+  start: 2003-07-19 06:00
+  text: 'A problem developed on the radar receiver interface board at approximately
+    0600 UT on 19th
+
+    July, i.e. on a Saturday morning. Consequently it was not noticed, and rectied,
+    until the
+
+    Monday morning leading to a loss of approximately 48 hours worth of data. The
+    problem was
+
+    thought to be caused by a static build-up associated with a thunder storm. There
+    was a series of
+
+    brief electricity supply interruptions around the same time which caused damage
+    to pin diodes
+
+    in 3 transmitters.'
+- added: 2005-08-01 16:34
+  author: ZKO
+  end: 2003-07-25 00:00
+  number: '28'
+  start: 2003-07-25 00:00
+  text: 'ZAKO cleaned the tipping bucket raingauge on 25th July in order to remove
+    a build-up of fungus
+
+    which was obstructing the flow of rainwater through a narrow tube. The in-line
+    filters are
+
+    regularly cleaned as recommended by Campbell Scientific.'
+- added: 2005-08-01 16:17
+  author: ZKO
+  end: 2003-07-28 09:00
+  number: '24'
+  start: 2003-07-26 00:00
+  text: 'a short circuit on one of the relay cables
+
+    caused the radar beam steering unit to lock in one direction. The fact that this
+    problem also developed
+
+    on a Saturday morning meant that it was again almost 48 hours before it was rectified.'
+- added: 2005-08-01 16:17
+  author: ZKO
+  end: 2003-08-27 00:00
+  number: '25'
+  start: 2003-08-27 00:00
+  text: 'The radar was down for approximately 10 minutes on 27th August after a minor
+    disruption of
+
+    the mains electricity supply to the site.'
+- added: 2005-08-01 16:52
+  author: ZKO
+  end: 2003-10-20 00:00
+  number: '38'
+  start: 2003-10-20 00:00
+  text: Dr Prabhakaran Nayar, from the University of Kerala, India visited the radar
+    site on 20th October 2003.
+- added: 2005-08-01 16:46
+  author: ZKO
+  end: 2003-10-21 12:40
+  number: '32'
+  start: 2003-10-21 10:30
+  text: 'A relay control unit, located within the antenna array, failed at around
+    1030 UT on 21st October 2003.
+
+    The problem was fixed by 1240 UT on the same day.'
+- added: 2005-08-01 16:38
+  author: ZKO
+  end: 2003-10-30 00:00
+  number: '30'
+  start: 2003-10-30 00:00
+  text: 'On 30th October 2003 changes were made to the standard mode observation specification.
+    The main
+
+    objective was to remove a 10 minute break in observations, which occurred approximately
+    every 10
+
+    hours when the radar control software switched from one schedule to the next.
+    The schedule length
+
+    was also increased to approximately 27 hours in order to simplify the specification
+    for continuous operations.
+
+    The existing radar control and acquisition software is still optimised for making
+    fixed duration
+
+    observations and there are plans to upgrade it in the near future.'
+- added: 2005-08-01 16:49
+  author: ZKO
+  end: 2003-11-06 00:00
+  number: '36'
+  start: 2003-11-06 00:00
+  text: 'MSc students from the Institute of Geography and Earth Sciences, UWA, visited
+    the site on 6th November
+
+    2003. They measured the orientation of the MST radar antenna array as part of
+    a surveying practical.'
+- added: 2005-08-01 16:47
+  author: ZKO
+  end: 2003-11-06 00:00
+  number: '33'
+  start: 2003-11-06 00:00
+  text: 'The side panels of the power distribution box,
+
+    which is also located within the antenna array, were replaced on 6th November
+    2003. The old panels
+
+    had become rotten.'
+- added: 2005-08-01 16:48
+  author: ZKO
+  end: 2003-11-06 00:00
+  number: '34'
+  start: 2003-11-06 00:00
+  text: NERC Site survey.
+- added: 2005-08-01 16:40
+  author: ZKO
+  end: 2003-11-11 13:00
+  number: '31'
+  start: 2003-11-07 13:00
+  text: "The MST radar was operated in a user-specified mode for \napproximately 72\
+    \ hours starting at 1300 UT\non 7th November 2003. The main objective was to collect\
+    \ IQ data, which are not normally recorded."
+- added: 2005-08-01 16:52
+  author: ZKO
+  end: 2003-12-02 00:00
+  number: '37'
+  start: 2003-11-19 00:00
+  text: 'Between 19th November and 2nd December 2003, the UFAM (Universities Facility
+    for Atmospheric
+
+    Measurement) boundary-layer wind-profiler was away from the radar site. It was
+    taken to Southampton
+
+    to test whether it was likely to suffer interference from the proposed Galileo
+    global positioning system. The latter will operate in the same frequency band
+    as many wind-profilers.'
+- added: 2005-08-01 16:48
+  author: ZKO
+  end: 2003-11-20 00:00
+  number: '35'
+  start: 2003-11-20 00:00
+  text: NERC asbestos check.
+- added: 2005-08-01 16:54
+  author: ZKO
+  end: 2003-11-28 00:00
+  number: '40'
+  start: 2003-11-26 00:00
+  text: 'Site manager away visiting the MO''s new VHF wind-profiler at South Uist
+    (Outer Hebrides) from
+
+    26th to 28th November 2003.'
+- added: 2005-08-01 16:53
+  author: ZKO
+  end: 2003-12-12 00:00
+  number: '39'
+  start: 2003-12-12 00:00
+  text: Dr Adrian McDonald, from the University of Canterbury, New Zealand, visited
+    the site on 12th December 2003.

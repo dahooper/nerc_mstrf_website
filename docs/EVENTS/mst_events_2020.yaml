@@ -1,0 +1,2059 @@
+- added: 2020-01-02 10:27
+  author: DAH
+  end: 2020-01-01 03:11
+  number: '2654'
+  start: 2020-01-01 03:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-01-02 10:25
+  author: DAH
+  end: 2020-01-01 14:51
+  number: '2653'
+  start: 2020-01-01 14:49
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-01-06 09:18
+  author: DAH
+  end: 2020-01-03 00:10
+  number: '2666'
+  start: 2020-01-03 00:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-01-06 09:15
+  author: DAH
+  end: 2020-01-03 21:57
+  number: '2665'
+  start: 2020-01-03 21:57
+  text: 'Instrument: UPS units. The unit TX4 carried out a system warmstart.'
+- added: 2020-01-06 09:15
+  author: DAH
+  end: 2020-01-05 03:11
+  number: '2664'
+  start: 2020-01-05 03:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-01-06 09:11
+  author: DAH
+  end: 2020-01-06 03:12
+  number: '2663'
+  start: 2020-01-06 03:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-01-13 11:04
+  author: DAH
+  end: 2020-01-11 08:30
+  number: '2667'
+  start: 2020-01-11 04:00
+  text: 'Instrument: MST Radar. There are two narrow time-altitude regions - particularly
+    between 08:00 and 08:30 UTC at around 16 km, and to a lesser extent between 04:00
+    and 05:00 UTC at around 10 km - for which the wind speed are significantly faster
+    than at adjacent times and altitudes. This suggests that the values might not
+    be realistic. The effect is more pronounced in the v4.0 than in the v3.2 data
+    files.'
+- added: 2020-01-27 10:00
+  author: DAH
+  end: 2020-01-24 13:00
+  number: '2671'
+  start: 2020-01-15 06:00
+  text: 'Instrument: Surface wind sensors at Frongoch. No data were transferred during
+    this period after the 3G modem went offline. LD had to power-cycle it in order
+    to restart the feed. The end time of the restart is estimated. It was at some
+    point around the middle of the day on 2020-01-24.'
+- added: 2020-07-31 15:53
+  author: DAH
+  end: 2020-01-15 14:51
+  number: '2901'
+  start: 2020-01-15 14:48
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-01-16 08:43
+  author: DAH
+  end: 2020-01-15 19:15
+  number: '2668'
+  start: 2020-01-15 18:30
+  text: 'Instrument: MST Radar. There wind speeds between 18:30 and 19:15 UTC and
+    at an altitude of just below 7 km are significantly faster than at adjacent times
+    and altitudes. This suggests that the values might not be realistic.'
+- added: 2020-01-17 14:00
+  author: DAH
+  end: 2020-01-16 08:20
+  number: '2669'
+  start: 2020-01-16 07:40
+  text: 'Instrument: MST Radar. The wind speeds between 07:40 and 08:20 UTC and at
+    an altitude of around 16.5 km are significantly faster than at adjacent times
+    and altitudes. This suggests that the values might not be realistic.'
+- added: 2020-01-20 08:35
+  author: DAH
+  end: 2020-01-17 11:15
+  number: '2670'
+  start: 2020-01-17 04:50
+  text: 'Instrument: MST Radar. No useful wind data were available during this period
+    owing to the fact that the phase-reference unit was not working. Its fuse had
+    blown as the result of the internal fan failing. This meant that although the
+    transmitters were operating, the signals were not in phase.  '
+- added: 2020-02-25 11:26
+  author: DAH
+  end: 2020-01-25 22:18
+  number: '2699'
+  start: 2020-01-25 22:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:28
+  author: DAH
+  end: 2020-01-26 08:19
+  number: '2700'
+  start: 2020-01-26 08:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:31
+  author: DAH
+  end: 2020-01-27 21:19
+  number: '2701'
+  start: 2020-01-27 21:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:33
+  author: ZKO
+  end: 2020-01-29 08:19
+  number: '2702'
+  start: 2020-01-29 08:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:42
+  author: DAH
+  end: 2020-01-29 14:51
+  number: '2703'
+  start: 2020-01-29 14:48
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-02-25 11:45
+  author: DAH
+  end: 2020-01-30 15:19
+  number: '2704'
+  start: 2020-01-30 15:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:47
+  author: DAH
+  end: 2020-01-31 14:21
+  number: '2705'
+  start: 2020-01-31 14:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-07 09:10
+  author: DAH
+  end: 2020-02-05 21:00
+  number: '2672'
+  start: 2020-02-05 02:50
+  text: 'Instrument: MST Radar. The radar receiver experienced a raised noise floor
+    during several short periods between 02:50 and 21:00 UTC. These are apparent as
+    vertical features in the radar signal power, but do not affect the useful height
+    coverage for horizontal winds.'
+- added: 2020-02-19 16:03
+  author: DAH
+  end: 2020-02-05 23:21
+  number: '2694'
+  start: 2020-02-05 23:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-07 09:19
+  author: DAH
+  end: 2020-02-06 23:59
+  number: '2673'
+  start: 2020-02-06 21:50
+  text: 'Instrument: MST Radar. The radar receiver experienced a few instances of
+    a raised noise floor between 21:50 and 23:59 UTC. This led to a noticeable reduction
+    in useful height coverage for horizontal winds after 23:00 UTC.'
+- added: 2020-02-10 08:46
+  author: DAH
+  end: 2020-02-07 01:00
+  number: '2674'
+  start: 2020-02-07 00:00
+  text: 'Instrument: MST Radar. The radar receiver experienced a raised noise floor
+    between 00:00 and 01:00 UTC. This led to a noticeable reduction in useful height
+    coverage for horizontal winds.'
+- added: 2020-02-11 07:53
+  author: DAH
+  end: 2020-02-07 01:00
+  number: '2675'
+  start: 2020-02-07 00:00
+  text: 'Instrument: MST Radar. The radar receiver experienced a raised noise floor
+    between 00:00 and 01:00 UTC. This led to a noticeable reduction in useful height
+    coverage for horizontal winds.'
+- added: 2020-02-11 12:26
+  author: DAH
+  end: 2020-02-08 16:00
+  number: '2676'
+  start: 2020-02-08 15:00
+  text: 'Instrument: MST Radar. The wind speeds between 15:00 and 16:00 UTC and at
+    altitudes of between 15.8 and 17.0 km are significantly faster than at adjacent
+    times and altitudes. This suggests that the values might not be realistic. This
+    effect is more pronounced in the v4 than in the v3 data.'
+- added: 2020-02-19 15:32
+  author: DAH
+  end: 2020-02-11 02:22
+  number: '2693'
+  start: 2020-02-11 02:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-19 15:32
+  author: DAH
+  end: 2020-02-11 09:34
+  number: '2692'
+  start: 2020-02-11 09:34
+  text: 'Instrument: UPS Units. Units TX2, TX4, and TX5 reported switching to battery
+    power for ~ 2 s in response to an input power problem.'
+- added: 2020-02-13 08:30
+  author: DAH
+  end: 2020-02-12 05:30
+  number: '2677'
+  start: 2020-02-12 00:00
+  text: 'Instrument: MST Radar. The radar receiver experienced a slightly raised noise
+    floor between 00:00 and 05:30 UTC. This led to a noticeable reduction in useful
+    altitude coverage for horizontal winds.'
+- added: 2020-02-19 15:28
+  author: DAH
+  end: 2020-02-12 14:51
+  number: '2691'
+  start: 2020-02-12 14:47
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-02-17 10:04
+  author: DAH
+  end: 2020-02-13 14:23
+  number: '2686'
+  start: 2020-02-13 14:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 10:04
+  author: DAH
+  end: 2020-02-13 19:22
+  number: '2685'
+  start: 2020-02-13 19:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 10:03
+  author: DAH
+  end: 2020-02-14 04:23
+  number: '2684'
+  start: 2020-02-14 04:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 10:00
+  author: DAH
+  end: 2020-02-14 14:23
+  number: '2683'
+  start: 2020-02-14 14:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 08:25
+  author: DAH
+  end: 2020-02-16 01:25
+  number: '2678'
+  start: 2020-02-16 01:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 08:28
+  author: DAH
+  end: 2020-02-16 07:58
+  number: '2679'
+  start: 2020-02-16 07:58
+  text: 'Instrument: UPS units. The unit TX2 carried out a system warmstart.'
+- added: 2020-02-17 08:29
+  author: DAH
+  end: 2020-02-16 12:24
+  number: '2680'
+  start: 2020-02-16 12:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-17 08:45
+  author: DAH
+  end: 2020-02-16 13:52
+  number: '2681'
+  start: 2020-02-16 13:52
+  text: 'Instrument: UPS Units. Two of the units (TX3 and TX5) reported being on battery
+    power in response to an input power problem that lasted for 5 s.'
+- added: 2020-02-17 08:59
+  author: DAH
+  end: 2020-02-16 16:58
+  number: '2682'
+  start: 2020-02-16 14:10
+  text: 'Instrument: UPS units. Two of the units - TX5 and Beamform - reported multiple
+    warmstarts during this period: TX5 at 14:14, 14:44, 14:58, 15:06, 15:14, 15:55,
+    16:10, 16:27, 16:43, and 16:58 UTC, and Beamform at 14:10, 14:17, and 14:42 UTC.'
+- added: 2020-02-18 16:26
+  author: DAH
+  end: 2020-02-17 23:59
+  number: '2687'
+  start: 2020-02-17 01:00
+  text: 'Instrument: MST Radar. There is a sudden drop in useful altitude coverage
+    at 01:00 UTC, which coincides with a failure of the broadband router. These problems
+    are thought to have been caused by a thunderstorm in the locality. However, it
+    is not yet clear why the radar altitude coverage was reduced.'
+- added: 2020-02-19 09:02
+  author: DAH
+  end: 2020-02-18 23:59
+  number: '2688'
+  start: 2020-02-18 00:00
+  text: 'Instrument: MST Radar. The altitude coverage is limited throughout the day
+    as the result of reduced signal power that began on 2020-02-17.
+
+    '
+- added: 2020-02-25 09:45
+  author: DAH
+  end: 2020-02-19 15:58
+  number: '2696'
+  start: 2020-02-19 00:00
+  text: 'Instrument: MST Radar. The useful altitude coverage was restricted between
+    00:00 and 15:48 UTC. This is thought to be the result of lightning damage to the
+    receiver, which was substituted with the backup unit at 15:58 UTC. There was a
+    short gap in operations between 15:55 and 15:58 UTC.
+
+    '
+- added: 2020-02-19 13:42
+  author: DAH
+  end: 2020-02-19 07:27
+  number: '2689'
+  start: 2020-02-19 07:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-19 16:14
+  author: DAH
+  end: 2020-02-19 15:58
+  number: '2695'
+  start: 2020-02-19 15:55
+  text: 'Instrument: MST Radar. The radar was stopped during this brief period to
+    allow LD to switch back to the "old" receiver. This was done to test whether lightning
+    damage to the "new" receiver might be the cause of reduced altitude seen since
+    2020-02-17. '
+- added: 2020-02-25 11:22
+  author: DAH
+  end: 2020-02-19 22:28
+  number: '2697'
+  start: 2020-02-19 22:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-25 11:23
+  author: DAH
+  end: 2020-02-20 08:27
+  number: '2698'
+  start: 2020-02-20 08:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-27 14:22
+  author: DAH
+  end: 2020-02-25 18:32
+  number: '2708'
+  start: 2020-02-25 18:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-27 14:21
+  author: DAH
+  end: 2020-02-26 00:32
+  number: '2707'
+  start: 2020-02-26 00:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-02-27 14:14
+  author: DAH
+  end: 2020-02-26 14:51
+  number: '2706'
+  start: 2020-02-26 14:47
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-02-28 09:52
+  author: DAH
+  end: 2020-02-27 22:00
+  number: '2709'
+  start: 2020-02-27 21:20
+  text: 'Instrument: MST Radar. The receiver experienced a slightly elevated noise
+    floor between 21:20 and 22:00 UTC. This led to a mild reduction in useful altitude
+    coverage during this period.
+
+    '
+- added: 2020-03-02 09:37
+  author: DAH
+  end: 2020-02-28 13:00
+  number: '2710'
+  start: 2020-02-28 04:30
+  text: 'Instrument: MST Radar. There receiver appears to have experienced a mildly
+    elevated noise floor throughout much of the day, although it is primarily between
+    04:30 and 07:00 UTC that it can be seen. The slight reduction in useful altitude
+    coverage 10:00 and 13:00 UTC might also be due to this.'
+- added: 2020-03-03 10:30
+  author: DAH
+  end: 2020-03-01 07:34
+  number: '2713'
+  start: 2020-03-01 07:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-03-03 11:51
+  author: ZKO
+  end: 2020-03-01 11:21
+  number: '2714'
+  start: 2020-03-01 11:21
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~ 1 s) input power problem. '
+- added: 2020-03-03 10:28
+  author: DAH
+  end: 2020-03-02 00:33
+  number: '2711'
+  start: 2020-03-02 00:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-03-03 10:29
+  author: DAH
+  end: 2020-03-02 01:33
+  number: '2712'
+  start: 2020-03-02 01:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-03-20 13:19
+  author: DAH
+  end: 2020-03-05 23:59
+  number: '2715'
+  start: 2020-03-05 18:00
+  text: 'Instrument: MST Radar. The receiver experienced a slightly raised noise floor
+    between 18:00 and 23:59 UTC, which led to a slight reduction in useful altitude
+    coverage.'
+- added: 2020-03-20 13:41
+  author: DAH
+  end: 2020-03-06 10:30
+  number: '2716'
+  start: 2020-03-06 00:00
+  text: 'Instrument: MST Radar. The receiver experienced a slightly raised noise floor,
+    primarily between 00:00 and 10:30 UTC, which led to a slight reduction in useful
+    altitude coverage.'
+- added: 2020-03-20 17:09
+  author: DAH
+  end: 2020-03-07 23:59
+  number: '2723'
+  start: 2020-03-07 16:45
+  text: 'Instrument: MST Radar. A loss of mains power at 16:15 UTC led to the radar
+    shutting down. Although it was restarted at 19:15 UTC, the beam steering unit
+    was stuck in a single off-vertical direction. The corresponding wind profile data
+    are consequently invalid. '
+- added: 2020-03-20 17:11
+  author: DAH
+  end: 2020-03-08 08:50
+  number: '2724'
+  start: 2020-03-08 00:00
+  text: 'Instrument: MST Radar. The beam steering unit was was stuck in a single off-vertical
+    direction between 00:00 and 08:50 UTC after a loss of mains power the previous
+    evening. The wind profile data are invalid during this period. The radar was restarted
+    after the beam steering computer was rebooted.'
+- added: 2020-03-20 17:14
+  author: DAH
+  end: 2020-03-10 15:50
+  number: '2725'
+  start: 2020-03-10 08:30
+  text: 'Instrument: MST Radar. The radar was powered down during this period in order
+    to allow electrical work to be carried out in the transmitter room.'
+- added: 2020-07-31 15:42
+  author: DAH
+  end: 2020-03-10 15:30
+  number: '2900'
+  start: 2020-03-10 15:24
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-03-20 13:55
+  author: DAH
+  end: 2020-03-12 06:45
+  number: '2717'
+  start: 2020-03-12 06:45
+  text: 'Instrument: MST Radar. The altitude coverage is noticeably reduced between
+    06:45 and 23:59 UTC. This is the result of a bug in the time-continuity quality
+    control algorithm, which is only triggered when the internet connection is unavailable
+    for more than 24 hours. The break in internet connection originally occurred during
+    the evening of 2020-03-07.'
+- added: 2020-03-20 13:58
+  author: DAH
+  end: 2020-03-13 23:59
+  number: '2718'
+  start: 2020-03-13 06:45
+  text: 'Instrument: MST Radar. The altitude coverage is reduced throughout the day,
+    most noticeably between 06:45 and 23:59 UTC. This is the result of a bug in the
+    time-continuity quality control algorithm, which is only triggered when the internet
+    connection is unavailable for more than 24 hours. The break in internet connection
+    originally occurred during the evening of 2020-03-07.'
+- added: 2020-03-20 13:59
+  author: DAH
+  end: 2020-03-14 23:59
+  number: '2719'
+  start: 2020-03-14 18:30
+  text: 'Instrument: MST Radar. The altitude coverage is reduced throughout the day,
+    most noticeably between 18:30 and 23:59 UTC. This is the result of a bug in the
+    time-continuity quality control algorithm, which is only triggered when the internet
+    connection is unavailable for more than 24 hours. The break in internet connection
+    originally occurred during the evening of 2020-03-07.'
+- added: 2020-03-20 14:01
+  author: DAH
+  end: 2020-03-15 23:59
+  number: '2720'
+  start: 2020-03-15 00:00
+  text: 'Instrument: MST Radar. The altitude coverage is reduced throughout the day.
+    This is the result of a bug in the time-continuity quality control algorithm,
+    which is only triggered when the internet connection is unavailable for more than
+    24 hours. The break in internet connection originally occurred during the evening
+    of 2020-03-07.'
+- added: 2020-03-20 14:04
+  author: DAH
+  end: 2020-03-16 12:00
+  number: '2721'
+  start: 2020-03-16 00:00
+  text: 'Instrument: MST Radar. The altitude coverage is reduced throughout the day,
+    most noticeably prior to 12:00 UTC. This is the result of a bug in the time-continuity
+    quality control algorithm, which is only triggered when the internet connection
+    is unavailable for more than 24 hours. The break in internet connection originally
+    occurred during the evening of 2020-03-07.'
+- added: 2020-03-20 14:10
+  author: DAH
+  end: 2020-03-17 11:15
+  number: '2722'
+  start: 2020-03-17 00:00
+  text: 'Instrument: MST Radar. The altitude coverage is reduced between 00:00 and
+    11:15 UTC. This is the result of a bug in the time-continuity quality control
+    algorithm, which is only triggered when the internet connection is unavailable
+    for more than 24 hours. The break in internet connection originally occurred during
+    the evening of 2020-03-07.'
+- added: 2020-03-27 11:25
+  author: DAH
+  end: 2020-03-20 23:59
+  number: '2726'
+  start: 2020-03-20 15:00
+  text: 'Instrument: MST Radar. The useful altitude coverage is slightly reduced between
+    15:00 and 23:59 UTC as a result of an occasionally raised noise floor. The latter
+    is thought to have been caused by a connection to the receiver feed of equipment
+    that was intended to monitor for a the cause of the raised noise floor.
+
+    '
+- added: 2020-03-27 11:29
+  author: DAH
+  end: 2020-03-21 12:50
+  number: '2727'
+  start: 2020-03-21 00:00
+  text: 'Instrument: MST Radar. The useful altitude coverage is slightly reduced between
+    00:00 and 12:50 UTC as a result of an occasionally raised noise floor. The latter
+    is thought to have been caused by a connection to the receiver feed of equipment
+    that was intended to monitor for a the cause of the raised noise floor. This equipment
+    was removed at 12:50 UTC.'
+- added: 2020-03-27 11:38
+  author: DAH
+  end: 2020-03-24 15:29
+  number: '2729'
+  start: 2020-03-24 15:24
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-03-27 11:35
+  author: DAH
+  end: 2020-03-27 10:32
+  number: '2728'
+  start: 2020-03-27 10:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-03-30 12:50
+  author: DAH
+  end: 2020-03-29 03:00
+  number: '2730'
+  start: 2020-03-29 01:00
+  text: 'Instrument: MST Radar. The data between 01:00 and 03:00 UTC should be ignored.
+    Owing to an understood bug in the processing software, the time stamps are misinterpreted
+    during the change from GMT to BST. This affects all MST Radar data products except
+    the spectral data.
+
+    '
+- added: 2020-04-06 10:47
+  author: DAH
+  end: 2020-04-03 23:30
+  number: '2731'
+  start: 2020-04-03 02:20
+  text: 'Instrument: MST Radar. There are a few instances, at altitudes above 15 km,
+    of wind speeds that are significantly faster than at adjacent times and altitudes
+    and so might not be realistic. The most obvious of these is between 02:20 and
+    03:00 UTC at an altitude of around 18 km. It is less clear if the one between
+    13:00 and 13:40 UTC at an altitude of around 17.5 km is realistic or not.'
+- added: 2020-07-31 15:41
+  author: DAH
+  end: 2020-04-07 15:29
+  number: '2899'
+  start: 2020-04-07 15:24
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-04-20 09:45
+  author: DAH
+  end: 2020-04-19 15:00
+  number: '2732'
+  start: 2020-04-19 12:10
+  text: 'Instrument: MST Radar. The horizontal wind speed between 12:10 and 15:00
+    UTC is unrealistically low and should not be used. This suggests a problem with
+    the beam steering (although the wind directions are consistent with those seen
+    immediately before and after the period). It is likely to have been caused by
+    work on 3 of the transmitters, which had been out of action. Two of these transmitters
+    were brought back into to operation by having their fuses changed, but the third
+    could not be.'
+- added: 2020-07-31 15:39
+  author: DAH
+  end: 2020-04-21 15:29
+  number: '2898'
+  start: 2020-04-21 15:23
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 17:09
+  author: DAH
+  end: 2020-04-28 23:50
+  number: '2807'
+  start: 2020-04-28 23:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-05-01 09:12
+  author: DAH
+  end: 2020-04-30 23:59
+  number: '2733'
+  start: 2020-04-30 00:00
+  text: 'Instrument: MST Radar. The are numerous periods during the day when the noise
+    floor was raised slightly. This can be seen in the signal power but does not have
+    an effect on the coverage or the quality of the wind data.'
+- added: 2020-07-06 17:08
+  author: DAH
+  end: 2020-05-02 04:50
+  number: '2806'
+  start: 2020-05-02 04:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:07
+  author: DAH
+  end: 2020-05-02 22:51
+  number: '2805'
+  start: 2020-05-02 22:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 15:37
+  author: DAH
+  end: 2020-05-05 15:29
+  number: '2897'
+  start: 2020-05-05 15:23
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 17:06
+  author: DAH
+  end: 2020-05-07 17:51
+  number: '2804'
+  start: 2020-05-07 17:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:05
+  author: DAH
+  end: 2020-05-08 21:51
+  number: '2803'
+  start: 2020-05-08 21:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:04
+  author: DAH
+  end: 2020-05-08 22:52
+  number: '2802'
+  start: 2020-05-08 22:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:04
+  author: DAH
+  end: 2020-05-09 13:53
+  number: '2801'
+  start: 2020-05-09 13:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:03
+  author: DAH
+  end: 2020-05-09 15:53
+  number: '2800'
+  start: 2020-05-09 15:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:02
+  author: DAH
+  end: 2020-05-11 13:54
+  number: '2799'
+  start: 2020-05-11 13:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 17:01
+  author: DAH
+  end: 2020-05-11 14:54
+  number: '2798'
+  start: 2020-05-11 14:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-05-13 08:20
+  author: DAH
+  end: 2020-05-12 10:10
+  number: '2734'
+  start: 2020-05-12 10:00
+  text: 'Instrument: MST Radar. The receiver noise floor was raised during a brief
+    period just after 10:00 UTC. This can be seen in the signal power but does not
+    have an effect on the coverage or the quality of the wind data.'
+- added: 2020-07-06 17:00
+  author: DAH
+  end: 2020-05-12 12:54
+  number: '2797'
+  start: 2020-05-12 12:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-05-15 08:50
+  author: DAH
+  end: 2020-05-14 11:10
+  number: '2735'
+  start: 2020-05-14 10:30
+  text: 'Instrument: MST Radar. There was a brief problem with the radar between approximately
+    10:30 and 11:10 UTC. This resulted in a raised noise floor and some clearly unrealistic
+    vertical velocity values at around 11:00 UTC. The horizontal wind data do not
+    appear to have been significantly affected.'
+- added: 2020-07-06 17:00
+  author: DAH
+  end: 2020-05-14 15:55
+  number: '2796'
+  start: 2020-05-14 15:55
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 15:36
+  author: DAH
+  end: 2020-05-19 15:29
+  number: '2896'
+  start: 2020-05-19 15:22
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 16:59
+  author: DAH
+  end: 2020-05-20 18:56
+  number: '2795'
+  start: 2020-05-20 18:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:58
+  author: DAH
+  end: 2020-05-21 00:57
+  number: '2794'
+  start: 2020-05-21 00:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:57
+  author: DAH
+  end: 2020-05-22 04:59
+  number: '2793'
+  start: 2020-05-22 04:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:56
+  author: DAH
+  end: 2020-05-22 17:00
+  number: '2792'
+  start: 2020-05-22 17:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:55
+  author: DAH
+  end: 2020-05-24 00:00
+  number: '2791'
+  start: 2020-05-24 00:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:54
+  author: DAH
+  end: 2020-05-25 14:02
+  number: '2790'
+  start: 2020-05-25 14:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:54
+  author: DAH
+  end: 2020-05-26 16:01
+  number: '2789'
+  start: 2020-05-26 16:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-05-28 09:27
+  author: DAH
+  end: 2020-05-27 09:30
+  number: '2736'
+  start: 2020-05-27 09:20
+  text: 'Instrument: Campbell Scientific Surface Met Sensors. The tipping bucket raingauge
+    recorded a single tip during this period despite the fact that the LD40 shows
+    clear skies. It is possible that this was caused by overnight condensation on
+    the bucket although the fact that this occurred several hours after sunrise, when
+    the temperature had risen significantly, cast doubt on this possibility.'
+- added: 2020-07-06 16:53
+  author: DAH
+  end: 2020-05-27 16:01
+  number: '2788'
+  start: 2020-05-27 16:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:52
+  author: DAH
+  end: 2020-05-27 18:01
+  number: '2787'
+  start: 2020-05-27 18:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:51
+  author: DAH
+  end: 2020-05-28 15:03
+  number: '2786'
+  start: 2020-05-28 15:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-06-01 09:25
+  author: DAH
+  end: 2020-05-29 09:50
+  number: '2737'
+  start: 2020-05-29 09:30
+  text: 'Instrument: MST Radar. The noise floor was slightly raised between approximately
+    09:30 and 09:30 UTC. This appears to have given rise to some vertical vertical
+    velocity values at altitudes above 12 km that are slightly different to those
+    at adjacent times. However, the horizontal wind data do not appear to be significantly
+    affected.'
+- added: 2020-06-01 09:30
+  author: DAH
+  end: 2020-05-30 11:30
+  number: '2738'
+  start: 2020-05-30 11:15
+  text: 'Instrument: MST Radar. Some of the vertical velocities at altitudes above
+    12 km and at times between approximately 11:15 and 11:30 UTC are noticeably different
+    to those at adjacent times. These do not appear to be realistic. The horizontal
+    wind data do not appear to be significantly affected.'
+- added: 2020-07-06 16:50
+  author: DAH
+  end: 2020-05-31 03:04
+  number: '2785'
+  start: 2020-05-31 03:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-06-01 09:38
+  author: DAH
+  end: 2020-05-31 09:25
+  number: '2739'
+  start: 2020-05-31 07:45
+  text: 'Instruments: MST Radar, Vaisala LD40, Vaisala WXT520. For reasons that are
+    not clear, the output of the Uninterruptible Power Supply (UPS) unit for the receiver
+    room appears to have cut out at around 07:45 UTC (none of the UPS units in the
+    transmitter room reported any input power problems). The computers in the receiver
+    room appear to have automatically restarted almost immediately. DAH was able to
+    restart the MST Radar and the WXT520 data acquisition remotely, but had to wait
+    for LD to visit the site in order to restart the LD40 data acquisition.   '
+- added: 2020-06-01 09:51
+  author: DAH
+  end: 2020-05-31 11:30
+  number: '2740'
+  start: 2020-05-31 07:45
+  text: 'Instrument: MST Radar. The horizontal wind speeds between 09:25 and 11:30
+    UTC at altitudes above 9 km are noticeably different to those at adjacent times.
+    These do not appear to be realistic and are assumed to to be caused by some sort
+    of signal contamination. The gap in observations between 07:45 and 09:25 UTC was
+    caused by a loss of power to the data acquisition computer.'
+- added: 2020-07-06 16:50
+  author: DAH
+  end: 2020-06-01 02:04
+  number: '2784'
+  start: 2020-06-01 02:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-06-02 08:51
+  author: DAH
+  end: 2020-06-01 15:30
+  number: '2741'
+  start: 2020-06-01 15:00
+  text: 'Instrument: MST Radar. The noise floor was slightly raised between approximately
+    15:00 and 15:30 UTC. This appears to have given rise to some vertical vertical
+    velocity values at altitudes above 12 km that are slightly different to those
+    at adjacent times. However, the horizontal wind data do not appear to be significantly
+    affected.'
+- added: 2020-07-31 15:34
+  author: DAH
+  end: 2020-06-02 15:28
+  number: '2895'
+  start: 2020-06-02 15:21
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 16:49
+  author: DAH
+  end: 2020-06-06 09:05
+  number: '2783'
+  start: 2020-06-06 09:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:48
+  author: DAH
+  end: 2020-06-07 00:06
+  number: '2782'
+  start: 2020-06-07 00:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:47
+  author: DAH
+  end: 2020-06-07 13:05
+  number: '2781'
+  start: 2020-06-07 13:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:46
+  author: DAH
+  end: 2020-06-08 07:06
+  number: '2780'
+  start: 2020-06-08 07:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:46
+  author: DAH
+  end: 2020-06-08 13:07
+  number: '2779'
+  start: 2020-06-08 13:07
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:45
+  author: DAH
+  end: 2020-06-08 16:07
+  number: '2778'
+  start: 2020-06-08 16:07
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:44
+  author: DAH
+  end: 2020-06-08 19:08
+  number: '2777'
+  start: 2020-06-08 19:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:43
+  author: DAH
+  end: 2020-06-10 20:08
+  number: '2776'
+  start: 2020-06-10 20:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:42
+  author: DAH
+  end: 2020-06-10 21:09
+  number: '2775'
+  start: 2020-06-10 21:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:41
+  author: DAH
+  end: 2020-06-11 02:09
+  number: '2774'
+  start: 2020-06-11 02:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:41
+  author: DAH
+  end: 2020-06-11 13:10
+  number: '2773'
+  start: 2020-06-11 13:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:40
+  author: DAH
+  end: 2020-06-14 01:12
+  number: '2772'
+  start: 2020-06-14 01:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:39
+  author: DAH
+  end: 2020-06-14 10:10
+  number: '2771'
+  start: 2020-06-14 10:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 11:21
+  author: DAH
+  end: 2020-06-16 14:11
+  number: '2881'
+  start: 2020-06-16 14:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 11:19
+  author: DAH
+  end: 2020-06-16 15:28
+  number: '2880'
+  start: 2020-06-16 15:21
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 16:38
+  author: DAH
+  end: 2020-06-17 05:13
+  number: '2770'
+  start: 2020-06-17 05:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:37
+  author: DAH
+  end: 2020-06-17 06:13
+  number: '2769'
+  start: 2020-06-17 06:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:36
+  author: DAH
+  end: 2020-06-17 12:14
+  number: '2768'
+  start: 2020-06-17 12:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:35
+  author: DAH
+  end: 2020-06-18 08:15
+  number: '2767'
+  start: 2020-06-18 08:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:35
+  author: DAH
+  end: 2020-06-18 13:14
+  number: '2766'
+  start: 2020-06-18 13:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:34
+  author: DAH
+  end: 2020-06-19 19:15
+  number: '2765'
+  start: 2020-06-19 19:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:32
+  author: DAH
+  end: 2020-06-19 22:16
+  number: '2764'
+  start: 2020-06-19 22:16
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:32
+  author: DAH
+  end: 2020-06-20 04:17
+  number: '2763'
+  start: 2020-06-20 04:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:31
+  author: DAH
+  end: 2020-06-20 11:17
+  number: '2762'
+  start: 2020-06-20 11:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:30
+  author: DAH
+  end: 2020-06-21 18:17
+  number: '2761'
+  start: 2020-06-21 18:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:29
+  author: DAH
+  end: 2020-06-22 07:18
+  number: '2760'
+  start: 2020-06-22 07:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:28
+  author: DAH
+  end: 2020-06-24 15:19
+  number: '2759'
+  start: 2020-06-24 15:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:17
+  author: DAH
+  end: 2020-06-25 04:20
+  number: '2758'
+  start: 2020-06-25 04:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:16
+  author: DAH
+  end: 2020-06-25 14:19
+  number: '2757'
+  start: 2020-06-25 14:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:15
+  author: DAH
+  end: 2020-06-27 18:20
+  number: '2756'
+  start: 2020-06-27 18:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:14
+  author: DAH
+  end: 2020-06-28 02:21
+  number: '2755'
+  start: 2020-06-28 02:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:13
+  author: DAH
+  end: 2020-06-29 03:22
+  number: '2754'
+  start: 2020-06-29 03:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:12
+  author: DAH
+  end: 2020-06-29 18:24
+  number: '2753'
+  start: 2020-06-29 18:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 11:00
+  author: DAH
+  end: 2020-06-30 15:28
+  number: '2879'
+  start: 2020-06-30 15:20
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-06 16:11
+  author: DAH
+  end: 2020-06-30 16:23
+  number: '2752'
+  start: 2020-06-30 16:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:10
+  author: DAH
+  end: 2020-06-30 19:24
+  number: '2751'
+  start: 2020-06-30 19:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:09
+  author: DAH
+  end: 2020-07-01 02:24
+  number: '2750'
+  start: 2020-07-01 02:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:08
+  author: DAH
+  end: 2020-07-02 04:24
+  number: '2749'
+  start: 2020-07-02 04:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:07
+  author: DAH
+  end: 2020-07-02 06:24
+  number: '2748'
+  start: 2020-07-02 06:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 08:56
+  author: DAH
+  end: 2020-07-03 12:30
+  number: '2742'
+  start: 2020-07-03 10:15
+  text: 'Instrument: MST Radar. The horizontal wind data between 10:15 and 12:30 UTC
+    are contaminated with unwanted signals and should not be used. The source of the
+    contamination is unknown.
+
+    '
+- added: 2020-07-06 16:05
+  author: DAH
+  end: 2020-07-03 20:27
+  number: '2747'
+  start: 2020-07-03 20:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:04
+  author: DAH
+  end: 2020-07-04 07:25
+  number: '2746'
+  start: 2020-07-04 07:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:03
+  author: DAH
+  end: 2020-07-05 17:27
+  number: '2745'
+  start: 2020-07-05 17:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:02
+  author: DAH
+  end: 2020-07-05 20:36
+  number: '2744'
+  start: 2020-07-05 20:36
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-06 16:01
+  author: DAH
+  end: 2020-07-06 10:27
+  number: '2743'
+  start: 2020-07-06 10:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 14:02
+  author: DAH
+  end: 2020-07-08 10:28
+  number: '2846'
+  start: 2020-07-08 10:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 14:03
+  author: DAH
+  end: 2020-07-09 05:29
+  number: '2847'
+  start: 2020-07-09 05:29
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:59
+  author: DAH
+  end: 2020-07-12 10:29
+  number: '2845'
+  start: 2020-07-12 10:29
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-13 09:08
+  author: DAH
+  end: 2020-07-12 19:00
+  number: '2808'
+  start: 2020-07-12 13:00
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes above 14 km
+    between 13:00 and 14:30 UTC and again between 18:00 and 19:00 UTC should be ignored.
+    There is some sort of contaminating signal within these regions.'
+- added: 2020-07-14 08:51
+  author: DAH
+  end: 2020-07-13 12:30
+  number: '2809'
+  start: 2020-07-13 11:00
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes above 13 km
+    between 11:00 and 12:30 UTC should be ignored. There is some sort of contaminating
+    signal within this region.'
+- added: 2020-07-27 13:57
+  author: DAH
+  end: 2020-07-14 10:28
+  number: '2844'
+  start: 2020-07-14 10:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:56
+  author: DAH
+  end: 2020-07-14 15:28
+  number: '2843'
+  start: 2020-07-14 15:20
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-27 13:48
+  author: DAH
+  end: 2020-07-15 08:29
+  number: '2842'
+  start: 2020-07-15 08:29
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:45
+  author: DAH
+  end: 2020-07-15 23:30
+  number: '2841'
+  start: 2020-07-15 23:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:44
+  author: DAH
+  end: 2020-07-16 22:30
+  number: '2840'
+  start: 2020-07-16 22:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:43
+  author: DAH
+  end: 2020-07-17 07:31
+  number: '2839'
+  start: 2020-07-17 07:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:43
+  author: DAH
+  end: 2020-07-17 08:31
+  number: '2838'
+  start: 2020-07-17 08:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:40
+  author: DAH
+  end: 2020-07-18 07:31
+  number: '2837'
+  start: 2020-07-18 07:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:39
+  author: DAH
+  end: 2020-07-18 17:32
+  number: '2836'
+  start: 2020-07-18 17:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:39
+  author: DAH
+  end: 2020-07-19 05:32
+  number: '2835'
+  start: 2020-07-19 05:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:38
+  author: DAH
+  end: 2020-07-19 07:33
+  number: '2834'
+  start: 2020-07-19 07:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:38
+  author: DAH
+  end: 2020-07-19 19:34
+  number: '2833'
+  start: 2020-07-19 19:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:34
+  author: DAH
+  end: 2020-07-21 06:36
+  number: '2831'
+  start: 2020-07-21 06:36
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 13:34
+  author: DAH
+  end: 2020-07-21 16:08
+  number: '2832'
+  start: 2020-07-21 16:08
+  text: 'Instrument: UPS units. The units switched to battery power for ~ 5 s in response
+    to an input power problem.'
+- added: 2020-07-27 11:26
+  author: DAH
+  end: 2020-07-22 01:35
+  number: '2830'
+  start: 2020-07-22 01:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:24
+  author: DAH
+  end: 2020-07-23 21:36
+  number: '2829'
+  start: 2020-07-23 21:36
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:23
+  author: DAH
+  end: 2020-07-24 06:37
+  number: '2828'
+  start: 2020-07-24 06:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:21
+  author: DAH
+  end: 2020-07-24 12:37
+  number: '2827'
+  start: 2020-07-24 12:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:19
+  author: DAH
+  end: 2020-07-24 17:38
+  number: '2826'
+  start: 2020-07-24 17:38
+  text: ' Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:18
+  author: DAH
+  end: 2020-07-25 09:39
+  number: '2825'
+  start: 2020-07-25 09:39
+  text: ' Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:17
+  author: DAH
+  end: 2020-07-26 17:39
+  number: '2824'
+  start: 2020-07-26 17:39
+  text: ' Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 11:16
+  author: DAH
+  end: 2020-07-27 00:40
+  number: '2823'
+  start: 2020-07-27 00:40
+  text: ' Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-27 15:54
+  author: DAH
+  end: 2020-07-27 13:41
+  number: '2848'
+  start: 2020-07-27 13:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-29 09:12
+  author: DAH
+  end: 2020-07-28 13:40
+  number: '2850'
+  start: 2020-07-28 13:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-29 09:12
+  author: DAH
+  end: 2020-07-28 15:28
+  number: '2849'
+  start: 2020-07-28 15:19
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-07-30 09:27
+  author: DAH
+  end: 2020-07-29 19:00
+  number: '2863'
+  start: 2020-07-29 18:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 14 km between
+    18:20 and 19:00 UTC should be ignored. There is "sporadic E" contamination.'
+- added: 2020-07-31 10:41
+  author: DAH
+  end: 2020-07-29 19:40
+  number: '2878'
+  start: 2020-07-29 19:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-07-31 10:40
+  author: DAH
+  end: 2020-07-30 21:42
+  number: '2877'
+  start: 2020-07-30 21:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-03 15:13
+  author: DAH
+  end: 2020-08-01 05:42
+  number: '2914'
+  start: 2020-08-01 05:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-03 15:12
+  author: DAH
+  end: 2020-08-01 14:42
+  number: '2913'
+  start: 2020-08-01 14:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-03 15:11
+  author: DAH
+  end: 2020-08-02 02:43
+  number: '2912'
+  start: 2020-08-02 02:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-03 15:57
+  author: DAH
+  end: 2020-08-03 14:45
+  number: '2915'
+  start: 2020-08-03 14:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-04 13:22
+  author: DAH
+  end: 2020-08-03 19:30
+  number: '2916'
+  start: 2020-08-03 18:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 15 km between
+    18:00 and 19:30 UTC should be ignored. There is "sporadic E" contamination.'
+- added: 2020-08-10 16:43
+  author: DAH
+  end: 2020-08-04 14:45
+  number: '2944'
+  start: 2020-08-04 14:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-10 10:55
+  author: DAH
+  end: 2020-08-07 11:00
+  number: '2935'
+  start: 2020-08-07 10:50
+  text: 'Instrument: Campbell Scientific tipping bucket rain gauge. The gauge recorded
+    a single tip during this period as a result of it being cleaned rather than as
+    a result of rain. This has been blanked from the NASA Ames data file.'
+- added: 2020-08-10 16:41
+  author: DAH
+  end: 2020-08-08 05:46
+  number: '2943'
+  start: 2020-08-08 05:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-11 09:48
+  author: DAH
+  end: 2020-08-10 14:20
+  number: '2945'
+  start: 2020-08-10 13:40
+  text: 'Instrument: MST Radar. The radar experienced a raised noise floor between
+    13:45 and 14:15 UTC, which is more apparent in the m-mode data than the st-mode
+    data. This was during a period of deep convection and intense rainfall, with 10
+    minute mean rates of around 30 mm/hour. The wind data are already flagged as being
+    unreliable, which might be the result of the rapid vertical velocity variations
+    caused by the convection.'
+- added: 2020-08-12 09:50
+  author: DAH
+  end: 2020-08-11 07:46
+  number: '2953'
+  start: 2020-08-11 07:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-12 09:49
+  author: DAH
+  end: 2020-08-11 09:46
+  number: '2952'
+  start: 2020-08-11 09:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-12 09:49
+  author: DAH
+  end: 2020-08-11 15:27
+  number: '2951'
+  start: 2020-08-11 15:19
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-08-12 09:46
+  author: DAH
+  end: 2020-08-11 23:47
+  number: '2950'
+  start: 2020-08-11 23:47
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-12 09:45
+  author: DAH
+  end: 2020-08-12 02:48
+  number: '2949'
+  start: 2020-08-12 02:48
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-18 16:44
+  author: DAH
+  end: 2020-08-14 10:49
+  number: '2971'
+  start: 2020-08-14 10:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-18 16:42
+  author: DAH
+  end: 2020-08-14 17:50
+  number: '2970'
+  start: 2020-08-14 17:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-18 16:41
+  author: DAH
+  end: 2020-08-15 20:49
+  number: '2969'
+  start: 2020-08-15 20:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-17 09:36
+  author: DAH
+  end: 2020-08-16 16:10
+  number: '2958'
+  start: 2020-08-16 14:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 12.5 km and
+    between 14:20 and 16:10 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2020-08-18 16:40
+  author: DAH
+  end: 2020-08-18 13:51
+  number: '2968'
+  start: 2020-08-18 13:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-21 12:54
+  author: DAH
+  end: 2020-08-18 23:52
+  number: '2991'
+  start: 2020-08-18 23:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-21 12:53
+  author: DAH
+  end: 2020-08-20 01:51
+  number: '2990'
+  start: 2020-08-20 01:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-21 12:52
+  author: DAH
+  end: 2020-08-20 09:52
+  number: '2989'
+  start: 2020-08-20 09:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-27 10:09
+  author: DAH
+  end: 2020-08-24 14:53
+  number: '3003'
+  start: 2020-08-24 14:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-27 10:08
+  author: DAH
+  end: 2020-08-25 09:55
+  number: '3002'
+  start: 2020-08-25 09:55
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-26 15:45
+  author: DAH
+  end: 2020-08-25 15:37
+  number: '2992'
+  start: 2020-08-25 15:18
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-08-27 10:07
+  author: DAH
+  end: 2020-08-25 15:53
+  number: '3001'
+  start: 2020-08-25 15:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-27 10:06
+  author: DAH
+  end: 2020-08-25 21:54
+  number: '3000'
+  start: 2020-08-25 21:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-08-27 10:05
+  author: DAH
+  end: 2020-08-26 23:56
+  number: '2999'
+  start: 2020-08-26 23:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:17
+  author: DAH
+  end: 2020-08-28 23:56
+  number: '3020'
+  start: 2020-08-28 23:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:16
+  author: DAH
+  end: 2020-08-29 07:57
+  number: '3019'
+  start: 2020-08-29 07:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:16
+  author: DAH
+  end: 2020-08-30 01:58
+  number: '3018'
+  start: 2020-08-30 01:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:14
+  author: DAH
+  end: 2020-09-01 07:59
+  number: '3017'
+  start: 2020-09-01 07:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:14
+  author: DAH
+  end: 2020-09-02 00:58
+  number: '3016'
+  start: 2020-09-02 00:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:12
+  author: DAH
+  end: 2020-09-02 07:59
+  number: '3015'
+  start: 2020-09-02 07:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:11
+  author: DAH
+  end: 2020-09-03 07:59
+  number: '3014'
+  start: 2020-09-03 07:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:09
+  author: DAH
+  end: 2020-09-04 14:01
+  number: '3013'
+  start: 2020-09-04 14:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:07
+  author: DAH
+  end: 2020-09-06 14:01
+  number: '3012'
+  start: 2020-09-06 14:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:07
+  author: DAH
+  end: 2020-09-06 20:02
+  number: '3011'
+  start: 2020-09-06 20:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:06
+  author: DAH
+  end: 2020-09-07 17:03
+  number: '3010'
+  start: 2020-09-07 17:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-08 17:05
+  author: DAH
+  end: 2020-09-08 15:27
+  number: '3009'
+  start: 2020-09-08 15:18
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-09-29 14:50
+  author: DAH
+  end: 2020-09-10 05:03
+  number: '3036'
+  start: 2020-09-10 05:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:50
+  author: DAH
+  end: 2020-09-10 15:04
+  number: '3035'
+  start: 2020-09-10 15:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-14 11:21
+  author: DAH
+  end: 2020-09-12 13:50
+  number: '3021'
+  start: 2020-09-12 13:10
+  text: 'Instrument: MST Radar. The horizontal wind data at an altitude of around
+    14.5 km between 13:10 and 13:50 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-09-29 14:49
+  author: DAH
+  end: 2020-09-13 10:03
+  number: '3034'
+  start: 2020-09-13 10:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:48
+  author: DAH
+  end: 2020-09-14 04:05
+  number: '3033'
+  start: 2020-09-14 04:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:47
+  author: DAH
+  end: 2020-09-14 10:05
+  number: '3032'
+  start: 2020-09-14 10:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:46
+  author: DAH
+  end: 2020-09-14 11:06
+  number: '3031'
+  start: 2020-09-14 11:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:45
+  author: DAH
+  end: 2020-09-16 16:33
+  number: '3030'
+  start: 2020-09-16 16:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:44
+  author: DAH
+  end: 2020-09-19 14:06
+  number: '3029'
+  start: 2020-09-19 14:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:43
+  author: DAH
+  end: 2020-09-20 22:06
+  number: '3028'
+  start: 2020-09-20 22:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:42
+  author: DAH
+  end: 2020-09-23 14:08
+  number: '3027'
+  start: 2020-09-23 14:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:39
+  author: DAH
+  end: 2020-09-25 05:39
+  number: '3025'
+  start: 2020-09-25 05:39
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~1 s) input power problem.'
+- added: 2020-09-29 14:41
+  author: DAH
+  end: 2020-09-25 08:09
+  number: '3026'
+  start: 2020-09-25 08:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:21
+  author: DAH
+  end: 2020-09-25 13:09
+  number: '3048'
+  start: 2020-09-25 13:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:32
+  author: DAH
+  end: 2020-09-27 09:10
+  number: '3024'
+  start: 2020-09-27 09:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:30
+  author: DAH
+  end: 2020-09-28 04:11
+  number: '3023'
+  start: 2020-09-28 04:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-09-29 14:29
+  author: DAH
+  end: 2020-09-28 22:10
+  number: '3022'
+  start: 2020-09-28 22:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:20
+  author: DAH
+  end: 2020-10-04 06:11
+  number: '3047'
+  start: 2020-10-04 06:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:20
+  author: DAH
+  end: 2020-10-08 15:26
+  number: '3046'
+  start: 2020-10-06 15:17
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-10-19 10:16
+  author: DAH
+  end: 2020-10-10 23:11
+  number: '3045'
+  start: 2020-10-10 23:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:16
+  author: DAH
+  end: 2020-10-11 21:11
+  number: '3044'
+  start: 2020-10-11 21:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:14
+  author: DAH
+  end: 2020-10-13 08:13
+  number: '3043'
+  start: 2020-10-13 08:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:14
+  author: DAH
+  end: 2020-10-13 11:13
+  number: '3042'
+  start: 2020-10-13 11:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:12
+  author: DAH
+  end: 2020-10-14 10:13
+  number: '3041'
+  start: 2020-10-14 10:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:11
+  author: DAH
+  end: 2020-10-14 22:14
+  number: '3040'
+  start: 2020-10-14 22:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:10
+  author: DAH
+  end: 2020-10-16 08:16
+  number: '3039'
+  start: 2020-10-16 08:16
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:09
+  author: DAH
+  end: 2020-10-17 20:16
+  number: '3038'
+  start: 2020-10-17 20:16
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-10-19 10:08
+  author: DAH
+  end: 2020-10-17 21:14
+  number: '3037'
+  start: 2020-10-17 21:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:23
+  author: DAH
+  end: 2020-10-20 15:26
+  number: '3059'
+  start: 2020-10-20 15:16
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-11-02 16:06
+  author: DAH
+  end: 2020-10-21 15:15
+  number: '3058'
+  start: 2020-10-21 15:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:05
+  author: DAH
+  end: 2020-10-24 09:17
+  number: '3057'
+  start: 2020-10-24 09:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:04
+  author: DAH
+  end: 2020-10-24 18:17
+  number: '3056'
+  start: 2020-10-24 18:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:03
+  author: DAH
+  end: 2020-10-24 19:18
+  number: '3055'
+  start: 2020-10-24 19:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:25
+  author: DAH
+  end: 2020-10-25 05:42
+  number: '3060'
+  start: 2020-10-25 05:42
+  text: 'Instrument: UPS units. Units TX2, TX3, TX4, and TX5 switched to battery power
+    in response to a brief (~1 s) rapid change of input.'
+- added: 2020-11-02 16:01
+  author: DAH
+  end: 2020-10-26 00:18
+  number: '3054'
+  start: 2020-10-26 00:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 16:00
+  author: DAH
+  end: 2020-10-27 09:20
+  number: '3053'
+  start: 2020-10-27 09:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 15:58
+  author: DAH
+  end: 2020-10-30 10:19
+  number: '3052'
+  start: 2020-10-30 10:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 15:57
+  author: DAH
+  end: 2020-10-31 08:21
+  number: '3051'
+  start: 2020-10-31 08:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 15:56
+  author: DAH
+  end: 2020-11-01 11:21
+  number: '3050'
+  start: 2020-11-01 11:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-02 15:54
+  author: DAH
+  end: 2020-11-02 14:22
+  number: '3049'
+  start: 2020-11-02 14:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-09 14:01
+  author: DAH
+  end: 2020-11-03 15:26
+  number: '3064'
+  start: 2020-11-03 15:16
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-11-09 13:54
+  author: DAH
+  end: 2020-11-04 01:22
+  number: '3063'
+  start: 2020-11-04 01:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-09 13:53
+  author: DAH
+  end: 2020-11-04 07:23
+  number: '3062'
+  start: 2020-11-04 07:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-09 09:42
+  author: DAH
+  end: 2020-11-07 19:24
+  number: '3061'
+  start: 2020-11-07 19:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:33
+  author: DAH
+  end: 2020-11-11 23:23
+  number: '3071'
+  start: 2020-11-11 23:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:30
+  author: DAH
+  end: 2020-11-12 17:24
+  number: '3070'
+  start: 2020-11-12 17:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:29
+  author: DAH
+  end: 2020-11-14 06:24
+  number: '3069'
+  start: 2020-11-14 06:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:28
+  author: DAH
+  end: 2020-11-17 15:26
+  number: '3068'
+  start: 2020-11-17 15:15
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2020-11-25 11:25
+  author: DAH
+  end: 2020-11-22 06:24
+  number: '3067'
+  start: 2020-11-22 06:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:24
+  author: DAH
+  end: 2020-11-22 21:25
+  number: '3066'
+  start: 2020-11-22 21:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2020-11-25 11:22
+  author: DAH
+  end: 2020-11-25 01:09
+  number: '3065'
+  start: 2020-11-25 01:09
+  text: 'Instrument: UPS units. Units TX2, TX3, TX4, TX5, and Beamform switched to
+    battery power twice in short succession in response to brief (~1 s) input power
+    problems.'
+- added: 2021-01-04 16:20
+  author: DAH
+  end: 2020-12-01 15:26
+  number: '3098'
+  start: 2020-12-01 15:14
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-01-04 16:18
+  author: DAH
+  end: 2020-12-02 02:26
+  number: '3097'
+  start: 2020-12-02 02:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:17
+  author: DAH
+  end: 2020-12-02 18:25
+  number: '3096'
+  start: 2020-12-02 18:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:16
+  author: DAH
+  end: 2020-12-06 11:26
+  number: '3095'
+  start: 2020-12-06 11:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:15
+  author: DAH
+  end: 2020-12-06 16:27
+  number: '3094'
+  start: 2020-12-06 16:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:14
+  author: DAH
+  end: 2020-12-07 02:28
+  number: '3093'
+  start: 2020-12-07 02:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:13
+  author: DAH
+  end: 2020-12-07 12:28
+  number: '3092'
+  start: 2020-12-07 12:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 15:03
+  author: DAH
+  end: 2020-12-09 06:29
+  number: '3091'
+  start: 2020-12-09 06:29
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 15:02
+  author: DAH
+  end: 2020-12-09 21:30
+  number: '3090'
+  start: 2020-12-09 21:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 16:25
+  author: DAH
+  end: 2020-12-10 17:00
+  number: '3099'
+  start: 2020-12-10 17:00
+  text: 'Instrument: UPS units. Unit TX5 switched to battery power briefly (~ 1 s)
+    in response to rapid change of input. None of the other units reported a problem
+    at this time.'
+- added: 2021-01-04 15:00
+  author: DAH
+  end: 2020-12-13 08:30
+  number: '3089'
+  start: 2020-12-13 08:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:59
+  author: DAH
+  end: 2020-12-14 14:30
+  number: '3088'
+  start: 2020-12-14 14:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:57
+  author: DAH
+  end: 2020-12-15 15:26
+  number: '3087'
+  start: 2020-12-15 15:14
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-01-04 14:54
+  author: DAH
+  end: 2020-12-17 07:30
+  number: '3086'
+  start: 2020-12-17 07:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:52
+  author: DAH
+  end: 2020-12-19 06:31
+  number: '3085'
+  start: 2020-12-19 06:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:51
+  author: DAH
+  end: 2020-12-19 14:31
+  number: '3084'
+  start: 2020-12-19 14:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:51
+  author: DAH
+  end: 2020-12-21 08:24
+  number: '3083'
+  start: 2020-12-21 08:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:49
+  author: DAH
+  end: 2020-12-23 21:33
+  number: '3082'
+  start: 2020-12-23 21:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:49
+  author: DAH
+  end: 2020-12-24 02:34
+  number: '3081'
+  start: 2020-12-24 02:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-05 14:32
+  author: DAH
+  end: 2020-12-24 19:20
+  number: '3100'
+  start: 2020-12-24 18:40
+  text: 'Instrument: MST Radar. The horizontal wind data at an altitude of around
+    15.5 km between 18:40 and 19:20 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2021-02-15 11:23
+  author: DAH
+  end: 2020-12-25 12:20
+  number: '3146'
+  start: 2020-12-25 12:10
+  text: 'Instrument: Campbell Scientific Surface Met. The first tip registered by
+    the tipping bucket rain gauge at 12:10 UTC was possibly caused by melting snow
+    or frost. ice or dew. The temperature had dropped to -4 degrees C during the preceding
+    hours. The Vaisala LD40 suggests some precipitation before 12:00 UTC, but not
+    at the time of the tip. The subsequent tips registered by the tipping bucket rain
+    gauge correspond in time to indications of precipitation from the Vaisala LD40.'
+- added: 2021-01-04 14:48
+  author: DAH
+  end: 2020-12-28 08:35
+  number: '3080'
+  start: 2020-12-28 08:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:46
+  author: DAH
+  end: 2020-12-28 18:34
+  number: '3079'
+  start: 2020-12-28 18:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:45
+  author: DAH
+  end: 2020-12-29 14:35
+  number: '3078'
+  start: 2020-12-29 14:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:44
+  author: DAH
+  end: 2020-12-29 15:26
+  number: '3077'
+  start: 2020-12-29 15:13
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-01-04 14:40
+  author: DAH
+  end: 2020-12-30 19:35
+  number: '3076'
+  start: 2020-12-30 19:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 11:18
+  author: DAH
+  end: 2020-12-31 11:40
+  number: '3145'
+  start: 2020-12-31 11:30
+  text: 'Instrument: Campbell Scientific Surface Met. The first tip registered by
+    the tipping bucket rain gauge at 11:30 UTC was possibly caused by melting snow
+    or frost. ice or dew. The temperature had dropped to -4 degrees C during the preceding
+    hours. The subsequent tips registered by the tipping bucket rain gauge correspond
+    in time to indications of precipitation from the Vaisala LD40.'
+- added: 2021-01-04 14:39
+  author: DAH
+  end: 2020-12-31 20:37
+  number: '3075'
+  start: 2020-12-31 20:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'

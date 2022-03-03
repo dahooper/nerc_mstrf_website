@@ -1,0 +1,86 @@
+- added: 2022-01-11 16:14
+  author: DAH
+  end: 2022-01-03 12:00
+  number: '3278'
+  start: 2022-01-03 05:21
+  text: 'Instrument: Broadband modem. The modem lost its internet connection shortly
+    after 05:21 UTC, apparently as the result of a nearby thunderstorm. No other equipment
+    appears to have been affected and the internet connection was restored at around
+    12:00 when the modem was power-cycled by DW, who happened to be on site.'
+- added: 2022-01-07 12:37
+  author: DAH
+  end: 2022-01-06 23:59
+  number: '3276'
+  start: 2022-01-06 19:57
+  text: 'Instrument: MST Radar. All data products after 19:57 UTC should be ignored.
+    A communications error between the radar control and beam steering PCs resulted
+    in the beam being stuck in a single pointing direction (probably number 15, SW6). '
+- added: 2022-01-10 14:08
+  author: DAH
+  end: 2022-01-07 09:36
+  number: '3277'
+  start: 2022-01-07 00:00
+  text: 'Instrument: MST Radar. All data products prior to 09:36 UTC should be ignored.
+    A communications error between the radar control and beam steering PCs resulted
+    in the radar being out of operation overnight. Although the radar was restarted
+    at 08:25 UTC, the beam was stuck in a single pointing direction (the Vertical).
+    Both the radar control and beam steering PCs were rebooted before the radar was
+    restarted at 09:36 UTC. '
+- added: 2022-01-17 09:30
+  author: DAH
+  end: 2022-01-14 11:10
+  number: '3279'
+  start: 2022-01-14 11:00
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 11:00 and 11:10 UTC was probably the
+    result of melting frost.'
+- added: 2022-01-18 09:36
+  author: DAH
+  end: 2022-01-17 11:10
+  number: '3280'
+  start: 2022-01-17 11:00
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 11:00 and 11:10 UTC was probably the
+    result of melting frost.'
+- added: 2022-01-31 10:44
+  author: DAH
+  end: 2022-01-30 10:00
+  number: '3282'
+  start: 2022-01-30 09:50
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 09:50 and 10:00 UTC was possibly the
+    result of melting frost.'
+- added: 2022-01-31 10:39
+  author: DAH
+  end: 2022-01-30 21:20
+  number: '3281'
+  start: 2022-01-30 20:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 20:30 and 21:20 UTC at altitudes of around 17.5 km. The speeds are unrealistically
+    large compared to those at adjacent times and altitudes.'
+- added: 2022-02-02 08:17
+  author: DAH
+  end: 2022-02-01 17:00
+  number: '3283'
+  start: 2022-02-01 16:40
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 16:40 and 17:00 UTC at altitudes of around 2.5 km. The speeds are unrealistically
+    large compared to those at adjacent times and altitudes.'
+- added: 2022-02-14 08:34
+  author: DAH
+  end: 2022-02-11 05:00
+  number: '3284'
+  start: 2022-02-11 04:20
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 04:20 and 05:00 UTC at altitudes of around 17.5 km. The speeds are unrealistically
+    large compared to those at adjacent times and altitudes.'
+- added: 2022-02-24 08:34
+  author: DAH
+  end: 2022-02-23 20:26
+  number: '3285'
+  start: 2022-02-23 17:16
+  text: 'Instrument: MST Radar. All data products between 17:16 and 20:26 UTC should
+    be ignored. A communications error between the radar control and beam steering
+    PCs, which first began at 17:16 UTC, led to the beam pointing direction only changing
+    occasionally. It eventually led to the radar control software locking up. DAH
+    rebooted both PCs and restarted the radar at 20:26 UTC.'

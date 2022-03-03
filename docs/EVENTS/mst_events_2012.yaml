@@ -1,0 +1,1320 @@
+- added: 2012-01-09 08:38
+  author: DAH
+  end: 2012-01-05 01:21
+  number: '703'
+  start: 2012-01-03 08:34
+  text: 'Instrument: Campbell Scientific Surface Wind Sensors. No reliable wind data
+    were recorded for this period. It''s not clear what caused the problem, which
+    coincided with very strong winds in the area. Mean speeds were in excess of 15
+    m/s when the problem began. The minimum wind gust speeds do not appear to be reliable
+    until around 2012-01-05 12:00 UT, i.e. ten and a half hours after the mean wind
+    speeds became reliable.'
+- added: 2012-01-10 11:08
+  author: DAH
+  end: 2012-01-10 11:00
+  number: '704'
+  start: 2012-01-10 10:30
+  text: 'Instrument: MST Radar. The radar was stopped to allow LD to change phasing
+    unit 62 within the antenna array. The readings from this unit, particluarly the
+    high VSWR values, have been abnormal for some time. However, no attempt was made
+    to swap it during the DIAMET/TROSIAD campaign period in late 2011.  '
+- added: 2012-01-20 13:46
+  author: DAH
+  end: 2012-01-20 11:20
+  number: '705'
+  start: 2012-01-19 16:50
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) went down, which caused
+    the noise floor to be raised. This does not appear to have caused any contamination
+    of the wind-profile data although it did result in a noticeable reduction in useful
+    altitude coverage. LD changed the blower motor on TX1 whilst it was powered down.'
+- added: 2012-01-27 08:42
+  author: DAH
+  end: 2012-01-21 22:00
+  number: '714'
+  start: 2012-01-21 00:00
+  text: 'Instrument: MST Radar. The noise floor was raised as a result of one of the
+    transmitters (TX1) going down. Despite this being a Saturday, LD was in the area
+    and so visited the site. He had fixed the transmitter by 15:15 but it went down
+    again at around 17:30 UT. LD spotted this from the quick-look plots and, since
+    he was still in the area, returned to site to restart the radar.'
+- added: 2012-01-23 14:18
+  author: DAH
+  end: 2012-01-25 14:00
+  number: '712'
+  start: 2012-01-25 10:30
+  text: 'Instrument: MST Radar. The noise floor was dramatically raised during the
+    earlier part of this period, i.e. 10:30 - 12:30 UT, which lead to a large reduction
+    in useful altitude coverage. LD made an emergency visit to the site. Unexpectedly,
+    none of the transmitters had gone down. He disconnected the receiver feed for
+    each of the 5 antenna sectors in turn and found that the noise level dropped after
+    he disconnected sector E, which is associated with TX6. LD also found that the
+    auxilliary fan for the pre-processor unit had seized up, although this is not
+    thought to have contributed to the problem. He left the receiver feed for sector
+    E disconnected. '
+- added: 2012-02-07 15:26
+  author: DAH
+  end: 2012-02-06 09:40
+  number: '716'
+  start: 2012-02-05 00:00
+  text: 'Instrument: Broadband Modem. The internet connection went down just after
+    00:00 on 2012-02-05, a Sunday morning. BT tests show that there was a problem
+    with the external line. However, internet connectivity was restored a short while
+    after DPW rebooted the modem on the Monday morning - despite the fact that BT
+    did not send an engineer to investigate until the following day. There was a backlog
+    of files to transfer after the connection was restored.'
+- added: 2012-02-13 08:25
+  author: DAH
+  end: 2012-02-09 09:45
+  number: '717'
+  start: 2012-02-05 00:00
+  text: 'Instrument: MST Radar. A knock-on effect of the internet blockage which began
+    at 2012-02-05 00:00 UT was that the flow of data through the signal processing
+    chain was interrupted. Consequently the time-continuity algorithm was comparing
+    the latest observations with those made over 24 hours previously - it should only
+    compare them with observations made in the previous hour. Owing to the relatively-unchanging
+    wind conditions, this did not initially have a noticeable impact. However, the
+    mid-tropospheric wind coverage began to be significantly reduced by 2012-02-08
+    12:00 UT. DAH first became aware of the problem owing to the fact that the daily
+    radial files were approximately 1/10th the size of usual. The problem was resolved
+    by DAH manually clearing the data flow system. '
+- added: 2012-02-07 15:21
+  author: DAH
+  end: 2012-02-06 15:30
+  number: '715'
+  start: 2012-02-05 00:50
+  text: 'Instrument: MST Radar. One of the transmitters, TX1, went down, which lead
+    to a raised noise floor. This should not have affected the quality of the wind-profile
+    data. LD made an unscheduled visit to the site on the morning of  2012-02-06.
+    However, TX1 went down again shortly afterwards and LD had to return to site later
+    in the day to restart it.'
+- added: 2012-02-13 08:43
+  author: DAH
+  end: 2012-02-09 10:20
+  number: '719'
+  start: 2012-02-08 19:00
+  text: 'Instrument: MST Radar. One of the transmitters, TX1, went down which resulted
+    in a raising of the noise floor. LD made an unscheduled visit to the site to restart
+    the transmitter.'
+- added: 2012-02-13 08:35
+  author: DAH
+  end: 2012-02-10 11:20
+  number: '718'
+  start: 2012-02-10 10:20
+  text: 'Instrument: MST Radar. The radar was powered down to allow LD to switch the
+    position of one of the transmitters, TX1, which has been suffering a high failure
+    rate recently. It was not clear whether it was the transmitter itself or the sector
+    (A) of the antenna which is was powering that was the root cause of the problem.
+    Consequently LD switched its position with the transmitter which was initially
+    powering sector B. '
+- added: 2012-02-13 09:04
+  author: DAH
+  end: 2012-02-13 08:52
+  number: '720'
+  start: 2012-02-13 08:52
+  text: 'Instrument: UPS units. All units indicated a 5 s disruption of the mains
+    electricity.'
+- added: 2012-02-17 08:22
+  author: DAH
+  end: 2012-02-16 20:00
+  number: '721'
+  start: 2012-02-16 14:00
+  text: 'Instrument: Vaisala WXT510. The WXT510''s piezo-electric sensor detected
+    hardly any rain during this 6 hour period period although the tipping bucket raingauge
+    detected it quasi-continuously. The rain rain (~ 1mm/hour) was very low and so
+    it may have been difficult for the WXT510 to detect. Similar instances have occurred
+    in the past.  '
+- added: 2012-02-21 09:35
+  author: DAH
+  end: 2012-02-16 18:10
+  number: '725'
+  start: 2012-02-16 16:30
+  text: 'Instrument: Vaisala LD40. There are a few short gaps in the recorded data
+    for this period. The reason is unknown. '
+- added: 2012-02-21 09:13
+  author: DAH
+  end: 2012-02-17 10:00
+  number: '723'
+  start: 2012-02-17 09:45
+  text: 'Instrument: MST Radar. One of the transmitters, TX1, happened to go down
+    whilst LD was on site. He was able to fix it and restart it within 15 minutes.'
+- added: 2012-02-21 09:38
+  author: DAH
+  end: 2012-02-18 23:59
+  number: '726'
+  start: 2012-02-18 07:00
+  text: 'Instrument: Vaisala LD40. There are a few short gaps in the recorded data
+    for this period - at around 07:00, 14:05, 17:10 and 23:45 UT. The reason for this
+    unknown.'
+- added: 2012-02-21 09:39
+  author: DAH
+  end: 2012-02-19 02:45
+  number: '727'
+  start: 2012-02-19 01:40
+  text: 'Instrument: Vaisala LD40. There are two short gaps in the recorded data for
+    this period. The reason for this is unknown.'
+- added: 2012-02-20 11:38
+  author: DAH
+  end: 2012-02-20 09:45
+  number: '722'
+  start: 2012-02-19 06:20
+  text: 'Instrument: Broadband modem. The internet connection to the site was down
+    for just over 24 hours. It was restored by DPW power-cycling the broadband modem
+    when he arrived on site. Eclipse, the ISP, confirmed that they had carried out
+    an administrative reset on the line at around 2012-02-19 06:20 UT (a Sunday morning).
+    These are carried out automatically on the rare occasions when there is a technical
+    problem - in this case one which affected many of their customers. However, Eclipse
+    could not see any reason for a similar loss of internet at the radar site on 2012-02-05. '
+- added: 2012-02-21 09:24
+  author: DAH
+  end: 2012-02-20 08:45
+  number: '724'
+  start: 2012-02-20 04:20
+  text: 'Instrument: MST Radar. There is an apparent gap in the wind-profile data
+    between altitudes of 5 and 10 km. This is a knock-on effect of the loss of the
+    internet connection on 2012-02-19, which interrupted the data flow. This caused
+    the time-continuity algorithm to compare the latest observations with those made
+    over 24 hours ago. It should only compare them with observations made in the latest
+    hour. The problem was resolved by DAH manually clearing the older files.'
+- added: 2012-02-27 08:16
+  author: DAH
+  end: 2012-02-26 04:50
+  number: '728'
+  start: 2012-02-26 04:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This led to a reduction in useful altitude coverage for the wind-profile data.'
+- added: 2012-02-28 08:35
+  author: DAH
+  end: 2012-02-27 17:30
+  number: '729'
+  start: 2012-02-27 15:15
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    or from a raised noise floor. This resulted in a reduction in useful altitude
+    coverage for wind-profiles.'
+- added: 2012-03-05 08:19
+  author: DAH
+  end: 2012-03-02 10:00
+  number: '730'
+  start: 2012-03-02 06:40
+  text: 'Instrument: MST Radar. The radar suffered from a short period of a raised
+    noise floor. This lead to a reduction in useful altitude coverage for wind-profiling
+    purposes, principally during the earlier part of the period.'
+- added: 2012-03-05 08:24
+  author: DAH
+  end: 2012-03-02 23:50
+  number: '731'
+  start: 2012-03-02 23:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of a raised
+    noise floor. This lead to a reduction in useful altitude coverage for wind-profiles.'
+- added: 2012-03-09 08:13
+  author: DAH
+  end: 2012-03-08 15:38
+  number: '732'
+  start: 2012-03-08 11:55
+  text: 'Instrument: MST Radar. The radar was powered down to allow work to be carried
+    out within the antenna array. The wooden shacks which house the primary power
+    splitters are being replaced. '
+- added: 2012-03-09 08:20
+  author: DAH
+  end: 2012-03-08 14:45
+  number: '733'
+  start: 2012-03-08 12:06
+  text: 'Instrument: Vaisala WXT510. Since the MST radar was powered down, the opportunity
+    was taken to reboot PC augustus, which acquires data from the Vaisala WXT510,
+    as well as the MST radar. This lead to a two and a half hour gap in WXT510 coverage.
+    Since the PC is rarely rebooted, it performs a lengthy disk check on retstart.'
+- added: 2012-03-12 08:31
+  author: DAH
+  end: 2012-03-09 14:20
+  number: '734'
+  start: 2012-03-09 10:00
+  text: 'Instrument: MST Radar. The radar was powered down to allow work to be carried
+    out within the antenna array. The wooden shacks which house the primary power
+    splitters are being replaced.'
+- added: 2012-03-13 08:14
+  author: DAH
+  end: 2012-03-12 10:40
+  number: '735'
+  start: 2012-03-12 08:20
+  text: 'Instrument: MST Radar. The radar suffered from a short period of raised noise
+    floor, which lead to a reduction in useful altitude coverage for wind-profiling
+    purposes.'
+- added: 2012-03-16 08:42
+  author: DAH
+  end: 2012-03-13 09:42
+  number: '737'
+  start: 2012-03-12 19:30
+  text: 'Instrument: MST Radar. The radar suffered intermittently from a raised noise
+    floor, caused by transmitter TX1 going down. '
+- added: 2012-03-16 08:43
+  author: DAH
+  end: 2012-03-13 16:24
+  number: '738'
+  start: 2012-03-13 09:42
+  text: 'Instrument: MST Radar. The radar was powered down to allow the huts housing
+    the primary power splitters to be replaced. '
+- added: 2012-03-30 13:18
+  author: DAH
+  end: 2012-03-14 15:50
+  number: '739'
+  start: 2012-03-14 09:50
+  text: 'Instrument: MST Radar. The radar was powered down to allow the huts housing
+    the primary power splitters to be replaced.'
+- added: 2012-03-30 13:21
+  author: DAH
+  end: 2012-03-15 16:30
+  number: '740'
+  start: 2012-03-15 09:30
+  text: 'Instrument: MST Radar. The radar was powered down to allow the huts housing
+    the primary power splitters to be replaced.'
+- added: 2012-03-16 08:32
+  author: DAH
+  end: 2012-03-15 12:56
+  number: '736'
+  start: 2012-03-15 09:55
+  text: 'Instrument: Vaisala WXT510. A gap in data coverage resulted from the acquisition
+    PC, augustus, needing to be rebooted.'
+- added: 2012-03-30 13:23
+  author: DAH
+  end: 2012-03-16 11:46
+  number: '741'
+  start: 2012-03-16 10:05
+  text: 'Instrument: MST Radar. The radar was powered down to allow the huts housing
+    the primary power splitters to be replaced.'
+- added: 2012-03-30 13:30
+  author: DAH
+  end: 2012-03-17 15:00
+  number: '742'
+  start: 2012-03-16 18:00
+  text: 'Instrument: MST Radar. The noise floor was raised after two of the transmitters,
+    TX3 and TX5, went down. LD came onto site on Saturday 17th and replaced the fuse
+    on TX3, for which he had recently upped the output power level. He was unable
+    to get TX5, which was indicating an HV error, restarted. He disconnected its receiver
+    feed in order to avoid a noise floor issue. '
+- added: 2012-03-30 13:34
+  author: DAH
+  end: 2012-03-17 14:30
+  number: '743'
+  start: 2012-03-16 23:20
+  text: 'Instrument: Broadband modem. The internet connection to the site was lost.
+    It is assumed that the problem originated at the ISP''s end. DAH spotted the problem
+    as he happened to be in the office (a Saturday) making conference preparations.
+    DPW happened to need to go to site and power-cycled the modem, which cleared the
+    problem.'
+- added: 2012-03-30 13:39
+  author: DAH
+  end: 2012-03-18 15:30
+  number: '744'
+  start: 2012-03-17 17:00
+  text: 'Instrument: MST Radar. There were multiple transmitter problems and LD found
+    3 of them out of action when he visited the site on Sunday 18th. He could not
+    get one of them, TX6, restarted. The start date-time of these problems is estimated
+    from the m300 data plot, which indicates a raised noise floor after the given
+    time.'
+- added: 2012-03-30 13:41
+  author: DAH
+  end: 2012-03-23 12:00
+  number: '745'
+  start: 2012-03-23 12:00
+  text: 'Instrument: MST Radar. LD managed to get TX6 restarted after he discovered
+    the cause of the problem connected with the 6 kV power supply. He changed the
+    bridge rectifier and got the transmitter back into operation.  '
+- added: 2012-03-30 13:43
+  author: DAH
+  end: 2012-03-27 15:00
+  number: '746'
+  start: 2012-03-27 08:50
+  text: 'Instrument: MST Radar. The radar was powered down to allow a ATRAD engineer
+    to inspect the beam steering components and to add some new modules to the couplers. '
+- added: 2012-03-30 13:45
+  author: DAH
+  end: 2012-03-28 15:10
+  number: '747'
+  start: 2012-03-28 09:55
+  text: 'Instrument: MST Radar. The radar was powered down during two periods, 09:55
+    - 13:10 and 14:00 - 15:10, to allow beam steering components to be tested.'
+- added: 2012-04-02 10:03
+  author: DAH
+  end: 2012-03-30 15:51
+  number: '748'
+  start: 2012-03-30 13:51
+  text: 'Instrument: Broadband Modem. The modem lost its internet connection for over
+    2 hours. LD spotted this from IMAPS and visited the site in order to power-cycle
+    the unit.'
+- added: 2012-04-13 15:01
+  author: DAH
+  end: 2012-04-11 08:45
+  number: '749'
+  start: 2012-04-02 19:30
+  text: 'Instrument: MST Radar. At least one of the radar transmitters was down during
+    this period, when LD was away on leave, though two of them (for antenna sectors
+    A and C) were found to be down on 2012-04-11. The noise floor was raised for much
+    of this period which caused a reduction in useful altitude coverage.'
+- added: 2012-04-13 15:11
+  author: DAH
+  end: 2012-04-11 08:44
+  number: '750'
+  start: 2012-04-11 07:55
+  text: 'Instrument: MST Radar. The radar was stopped to allow an engineer from ATRAD
+    to update the beam steerng software. In principle the radar could have been restarted
+    after only 20 minutes or so. However, since LD was on site, he took the opportunity
+    to fix the transmitters for antenna sectors A and C before the radar was restarted.  '
+- added: 2012-04-13 15:12
+  author: DAH
+  end: 2012-04-11 12:07
+  number: '751'
+  start: 2012-04-11 11:45
+  text: 'Instrument: MST Radar. The radar was again stopped for a short period to
+    allow an ATRAD engineer to update the beam steering software.'
+- added: 2012-04-17 09:25
+  author: DAH
+  end: 2012-04-16 22:20
+  number: '752'
+  start: 2012-04-16 19:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of raised noise
+    floor. This was most intense during the period 21:00 - 22:20 UT, when the useful
+    altitude coverage for wind-profiling was noticeably reduced. '
+- added: 2012-04-19 08:26
+  author: DAH
+  end: 2012-04-17 14:08
+  number: '753'
+  start: 2012-04-17 12:52
+  text: 'Instrument: MST Radar. One of the transmitters went down, which lead to a
+    raising of the noise floor a reduction in useful altitude coverage. Owing to changes
+    ATRAD had made to the beam steering controller software, this was the first time
+    that the unit sent automatic emails to warn DAH about both the transmitter going
+    down and coming back up. LD made a un-scheduled visit to the site in order to
+    restart the transmitter.'
+- added: 2012-04-20 08:09
+  author: DAH
+  end: 2012-04-19 13:12
+  number: '754'
+  start: 2012-04-19 03:25
+  text: 'Instrument: MST Radar. One of the transmitters, for antenna sector A, went
+    down, leading to an increase in the noise floor - and a reduction in useful height
+    coverage. LD made an unscheduled visit to the site in order to restart it.  '
+- added: 2012-04-27 08:12
+  author: DAH
+  end: 2012-04-26 10:59
+  number: '755'
+  start: 2012-04-26 10:14
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A went down, which
+    lead to a raised noise floor and reduced useful altitude coverage. LD was on site
+    at the time and restarted the transmitter.'
+- added: 2012-04-30 08:15
+  author: DAH
+  end: 2012-04-29 17:05
+  number: '756'
+  start: 2012-04-27 18:02
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A went down, causing
+    a raised noise floor and a reduction is useful altitude coverage. '
+- added: 2012-04-30 08:35
+  author: DAH
+  end: 2012-04-28 11:57
+  number: '757'
+  start: 2012-04-28 11:57
+  text: 'Instrument: UPS units. All units indicated an approximately 1 s long irregularity
+    in the incoming mains exlectricity. This required them to briefly switch to battery
+    power.'
+- added: 2012-05-01 08:08
+  author: DAH
+  end: 2012-04-30 14:16
+  number: '758'
+  start: 2012-04-30 01:53
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A went down, which
+    caused a raised noise floor and a reduction in useful altitude coverage. '
+- added: 2012-05-10 08:24
+  author: DAH
+  end: 2012-05-08 08:26
+  number: '759'
+  start: 2012-05-07 09:33
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    causing a raised noise floor and a reduction in useful altitude coverage. LD restarted
+    it during a scheduled visit to the site.'
+- added: 2012-05-15 09:44
+  author: DAH
+  end: 2012-05-15 09:38
+  number: '760'
+  start: 2012-05-11 21:15
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down
+    on a Friday evening, leading to a raised noise floor and a reduction in useful
+    altitude coverage. LD made an unscheduled visit to the site on the Monday morning,
+    2012-05-13, and restarted the transmitter at 08:25 UT. However, it was down again
+    by 09:30 UT. LD returned to the site in the afternoon and restarted the transmitter
+    at 15:55 UT.'
+- added: 2012-05-18 08:12
+  author: DAH
+  end: 2012-05-17 01:30
+  number: '761'
+  start: 2012-05-15 09:00
+  text: 'Instrument: MST Radar. The radar was stopped for a few minutes after 2012-05-15
+    09:00 UT. This was part of an ongoing investigation into the cause of frequent
+    problems with the transmitter which powers antenna sector A. LD swapped the cables
+    connecting the transmitter to the phase lock unit with those for another transmitter.
+    At first it was thought that this lead to just a slight reduction in received
+    signal power. However, the "Secondary Radial Chain Exists" diagnostic data indicate
+    that this introduced unwanted signals into the spectra. The problem stopped only
+    when the transmitter went down, which lead to a raising of the noise floor.  '
+- added: 2012-05-18 08:15
+  author: DAH
+  end: 2012-05-17 08:53
+  number: '762'
+  start: 2012-05-17 01:30
+  text: 'Instrument: MST Radar. The transmitter supplying antenna sector A went down,
+    leading to a riased noise floor and reduced usfeul altitude coverage. The radar
+    was stopped at 08:42 UT to allow LD to revert the phase lock unit cabling to its
+    original configuration. '
+- added: 2012-05-21 08:22
+  author: DAH
+  end: 2012-05-18 10:46
+  number: '763'
+  start: 2012-05-18 04:28
+  text: 'Instrument: MST Radar. The transmitter supplying antenna sector A was down
+    during this period, which lead to a raised noise level and reduced altitude coverage.
+    The transmitter was first restarted at 10:37 UT, but was down again almost immediately. '
+- added: 2012-05-21 08:27
+  author: DAH
+  end: 2012-05-18 23:59
+  number: '764'
+  start: 2012-05-18 18:00
+  text: 'Instrument: Tipping bucket rainguage. The Vaisala WXT510 detected a moderate
+    and prolonged rain event during this period although the tipping bucket rainguage
+    detected nothing.'
+- added: 2012-05-28 09:53
+  author: DAH
+  end: 2012-05-21 08:30
+  number: '766'
+  start: 2012-05-19 06:28
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B went out of action
+    after it blew its fuse. This lead to a raised noise floor and a reduction in useful
+    altitude cover. LD made an unscheduled visit to the site to restart the transmitter.'
+- added: 2012-05-21 08:37
+  author: DAH
+  end: 2012-05-19 08:09
+  number: '765'
+  start: 2012-05-19 08:09
+  text: 'Instrument: UPS units. All units indicated a brief (no more than 1 or 2 s)
+    irregulariry in the incoming voltage.'
+- added: 2012-05-28 10:04
+  author: DAH
+  end: 2012-05-22 09:35
+  number: '770'
+  start: 2012-05-22 09:25
+  text: 'Instrument: Tipping Bucket Rainguage. LD cleaned out the tipping bucket rainguage
+    with bleach. It had been blocked with a grey crust of what looked like lime scale.
+    The instrument had failed to detect a rain event on 2012-05-18. '
+- added: 2012-05-28 09:55
+  author: DAH
+  end: 2012-05-22 16:58
+  number: '767'
+  start: 2012-05-22 13:39
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B went out of action
+    after it blew its fuse. This lead to a raised noise floor and a reduction in useful
+    altitude cover. LD made an unscheduled visit to the site to restart the transmitter.'
+- added: 2012-05-28 09:57
+  author: DAH
+  end: 2012-05-23 08:50
+  number: '768'
+  start: 2012-05-22 23:44
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B went out of action
+    after it blew its fuse. This lead to a raised noise floor and a reduction in useful
+    altitude cover. LD made an unscheduled visit to the site to restart the transmitter.'
+- added: 2012-05-28 09:59
+  author: DAH
+  end: 2012-05-24 13:16
+  number: '769'
+  start: 2012-05-24 08:57
+  text: 'Instrument: MST Radar. The radar was powered down to allow a final coat of
+    weather-proofing to be applied to the new primary power splitter huts within the
+    antenna array.'
+- added: 2012-06-06 09:10
+  author: DAH
+  end: 2012-07-02 09:00
+  number: '772'
+  start: 2012-05-25 10:00
+  text: 'Instrument: Frongoch surface wind sensors. A problem with the telephone line
+    at the Frongoch end has meant it has not been possible to download data since
+    2012-05-25. (Continued on 2012-07-02). It turns out that there was a problem with
+    the telephone line and a new pole had to be fitted somewhere along its length
+    (presumably near Frongoch). Although the line was nominally working on 2012-06-29,
+    a data connection could not be established until 2012-07-02. '
+- added: 2012-06-06 09:18
+  author: DAH
+  end: 2012-06-01 10:20
+  number: '773'
+  start: 2012-06-01 01:10
+  text: 'Instrument: Vaisala WXT510 surface met sensors. The piezo-electric rain sensor
+    failed to detect mild precipitation events during this period. From the sky-camera
+    images, it looks likely that the gentleness of the rain was the reason that it
+    was not detected. '
+- added: 2012-06-06 09:22
+  author: DAH
+  end: 2012-06-03 00:30
+  number: '774'
+  start: 2012-06-02 19:30
+  text: 'Instrument: Vaisala WXT510 surface met sensors. During this period, both
+    the tipping bucket rainguage and the WXT510 managed to detect a rain event. This
+    suggests that the failure of the WXT510 to detect rain events on 2012-06-01 was
+    related to the nature of the rain (gentle) rather than to an instrument problem.'
+- added: 2012-06-06 09:24
+  author: DAH
+  end: 2012-06-03 10:10
+  number: '775'
+  start: 2012-06-03 06:00
+  text: 'Instrument: Vaisala WXT510 surface met sensors. Again, the piezo-electric
+    rain sensor of the WXT510 failed to detect a mild rain event that was seen by
+    the tipping bucket rainguage. This is attributed to the gentleness of the rain
+    rather than an instrument problem.'
+- added: 2012-06-06 09:07
+  author: DAH
+  end: 2012-06-05 09:41
+  number: '771'
+  start: 2012-06-04 20:20
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    causing a raised noise floor and reduced altitude coverage. LD made an unscheduled
+    visit to the site to restart the transmitter.'
+- added: 2012-06-08 08:15
+  author: DAH
+  end: 2012-06-07 11:34
+  number: '777'
+  start: 2012-06-06 17:55
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    causing a raised noise floor and a reduction in useful altitude cover.'
+- added: 2012-06-11 08:10
+  author: DAH
+  end: 2012-06-08 17:02
+  number: '778'
+  start: 2012-06-08 10:30
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    (10:30 - 12:30 UT), which reducd useful altitude cover. Then the transmitter powering
+    antenna sector A went down at 12:45 UT. This lead to a raised noise floor and
+    a reduction in altitude cover. LD made an unscheduled visit to the site to restart
+    the transmitter.'
+- added: 2012-06-12 08:27
+  author: DAH
+  end: 2012-06-11 15:19
+  number: '779'
+  start: 2012-06-11 15:19
+  text: 'Instrument: UPS units. The units indicated a brief (i.e. ~ 1 s) irregularity
+    in the incoming mains electricity supply.  '
+- added: 2012-06-15 08:10
+  author: DAH
+  end: 2012-06-14 15:30
+  number: '780'
+  start: 2012-06-14 14:30
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This lead to a reduction in useful height cover.'
+- added: 2012-06-18 08:07
+  author: DAH
+  end: 2012-06-18 05:31
+  number: '781'
+  start: 2012-06-18 05:31
+  text: 'Instrument: UPS units. The units indicated a brief (~ 1s) input power problem.'
+- added: 2012-06-22 14:58
+  author: DAH
+  end: 2012-06-22 11:37
+  number: '782'
+  start: 2012-06-22 11:21
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    choke. This lead to a bried period when the noise floor was raised. LD was on
+    site at the time and fixed it.'
+- added: 2012-06-28 08:20
+  author: DAH
+  end: 2012-06-26 09:50
+  number: '784'
+  start: 2012-06-26 08:10
+  text: 'Instrument: Tipping bucket raingauge. This instrument failed to detect an
+    intense rainfall event, which was seen by the WXT510 piezo-electric sensor. '
+- added: 2012-06-29 11:04
+  author: DAH
+  end: 2012-06-29 10:00
+  number: '786'
+  start: 2012-06-26 08:10
+  text: 'Instrument: Tipping bucket raingauge. LD cleaned out the tpping bucket, which
+    had become clogged with grass seeds. It had been unable to detect two rain events
+    on 2012-06-26 and on 2012-06-28.'
+- added: 2012-06-26 11:24
+  author: DAH
+  end: 2012-06-26 10:14
+  number: '783'
+  start: 2012-06-26 09:55
+  text: 'Instrument: MST Radar. The radar was powered down briefly so that LD could
+    change the phasing unit for quad 28. This had been showing status "ready, but
+    low power" for about a weak. Although the status had actually returned to normal
+    on the morning when it was wapped, LD decided to bring it in for investigation
+    in any case.'
+- added: 2012-06-29 08:06
+  author: DAH
+  end: 2012-06-28 10:10
+  number: '785'
+  start: 2012-06-28 09:20
+  text: 'Instrument: Tipping bucket raingauge. This instrument failed to detect a
+    moderately-intense rainfall event, which was seen by the WXT510 piezo-electric
+    sensor.'
+- added: 2012-07-02 11:48
+  author: DAH
+  end: 2012-07-02 09:01
+  number: '787'
+  start: 2012-06-29 16:39
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A tripped
+    out of action. This lead to a raised noise level and a reduction in useful altitude
+    cover.  '
+- added: 2012-07-05 09:07
+  author: DAH
+  end: 2012-07-04 10:10
+  number: '788'
+  start: 2012-07-03 15:21
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went out
+    of action. This lead to a raised noise floor and a reduction in useful altitude
+    cover. LD made an unscheduled visit to the site to restart the transmitter at
+    2012-07-03 17:16 UT. However, it went down again just half an hour later at 17:45
+    UT. LD suspects that this was because he hadn''t given it time to warm up properly.'
+- added: 2012-07-06 11:44
+  author: DAH
+  end: 2012-07-06 08:38
+  number: '789'
+  start: 2012-07-06 08:25
+  text: 'Instrument: UPS units. There were two brief (i.e. ~ 1 s) problems with the
+    input electricity supply - at 08:35 and at 08:38 UT.'
+- added: 2012-07-09 08:18
+  author: DAH
+  end: 2012-07-08 23:00
+  number: '790'
+  start: 2012-07-08 17:50
+  text: 'Instrument: Vaisala WXT510 rain sensor. The piezo-electric rain sensor failed
+    to detect a weak rain event, which was seen by the tipping bucket raingauge.'
+- added: 2012-07-11 09:54
+  author: DAH
+  end: 2012-07-11 08:43
+  number: '791'
+  start: 2012-07-10 18:47
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse, leading to a raised noise floor and a reduction in useful altitude cover.
+    LD  made an unscheduled visit to the site in order to restart it. '
+- added: 2012-07-16 08:10
+  author: DAH
+  end: 2012-07-13 10:29
+  number: '793'
+  start: 2012-07-12 22:31
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went out
+    of action. This lead to a raised noise floor and a reduction in useful altitude
+    cover. DPW restarted the transmitter.'
+- added: 2012-07-14 14:25
+  author: DAH
+  end: 2012-07-14 12:28
+  number: '792'
+  start: 2012-07-13 15:31
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    leading to a raised noise flloor and a reduction in useful altitude cover. LD
+    made an unscheduled visit to the site to restart it.'
+- added: 2012-07-19 15:05
+  author: DAH
+  end: 2012-07-19 13:47
+  number: '794'
+  start: 2012-07-18 22:31
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse. This lead to a raised noise floor and a reduction in useful altitude cover.
+    LD made an unscheduled visit to the site in order to restart the transmitter.'
+- added: 2012-07-23 08:08
+  author: DAH
+  end: 2012-07-20 08:24
+  number: '795'
+  start: 2012-07-19 17:47
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A automatically
+    shut down. This lead to a raised noise floor and a reduction in useful altitude
+    cover.'
+- added: 2012-07-24 16:14
+  author: DAH
+  end: 2012-07-24 10:33
+  number: '796'
+  start: 2012-07-24 10:33
+  text: 'Instrument: UPS units. The units indicated a brief (< 1 s) irregularity of
+    the incoming mains electricity supply. '
+- added: 2012-07-25 10:15
+  author: DAH
+  end: 2012-07-25 09:00
+  number: '797'
+  start: 2012-07-25 09:00
+  text: 'Instrument: UPS units. The units indicated a brief (~ 1 s) irregularity of
+    the incoming electricity supply. '
+- added: 2012-07-31 12:16
+  author: DAH
+  end: 2012-07-30 19:00
+  number: '801'
+  start: 2012-07-27 17:00
+  text: 'Instrument: Broadband modem. A problem with a BADC computer, which started
+    at around 2012-07-27 17:00 UT, prevented data from being transferred from the
+    mst radar site until around 2012-07-30 08:00. It took the rest of that day, i.e.
+    until around 2012-07-30 19:00 UT, until the backlog of file transfers was completed.
+    During this period, the broadband connection was very slow owing to the large
+    volume of continuous traffic.'
+- added: 2012-07-30 10:15
+  author: DAH
+  end: 2012-07-29 11:34
+  number: '798'
+  start: 2012-07-29 05:50
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    which lead to an increase in noise level and to a reduction in useful altitude
+    cover. LD made an unscheduled visit to the site in order to restart the transmitter. '
+- added: 2012-07-30 10:26
+  author: DAH
+  end: 2012-07-30 09:02
+  number: '799'
+  start: 2012-07-30 07:58
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    which lead to an increase in noise level and to a reduction in useful altitude
+    cover. LD made an unscheduled visit to the site in order to restart the transmitter. '
+- added: 2012-07-31 12:12
+  author: DAH
+  end: 2012-07-31 08:48
+  number: '800'
+  start: 2012-07-30 14:48
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went out
+    of action, which lead to an increase in noise level and a reduction in altitude
+    cover. LD made an unscheduled visit to the site and restarted the transmitter
+    at around 2012-07-30 15:40 UT. However, it went down again by 2012-07-30 17:00
+    and remained out of action until 2012-07-31 08:48.'
+- added: 2017-09-20 16:33
+  author: DAH
+  end: 2017-08-02 18:00
+  number: '1885'
+  start: 2012-08-02 16:50
+  text: 'Instrument: MST Radar. The v4 wind data show some mild contamination from
+    interference at altitudes above 17 km.'
+- added: 2012-08-07 10:12
+  author: DAH
+  end: 2012-08-05 18:08
+  number: '803'
+  start: 2012-08-04 05:56
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    leading to a raised noise floor and a reduction in useful altitude cover. LD made
+    an unscheduled visit to the site to restart the transmitter at 2012-08-05 17:50
+    UT, but it went down again just 7 minutes later. It was restarted 10 minutes after
+    that, i.e. at 18:08 UT.'
+- added: 2012-08-06 13:56
+  author: DAH
+  end: 2012-08-06 10:51
+  number: '802'
+  start: 2012-08-06 09:43
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    leading to a raised noise floor and a reduction in useful altitude cover. DPW
+    restarted the transmitter.'
+- added: 2012-08-07 10:14
+  author: DAH
+  end: 2012-08-07 08:53
+  number: '804'
+  start: 2012-08-07 08:50
+  text: 'Instrument: MST Radar. LD deliberately switched the transmitter powering
+    antenna sector A through its different states so that DAH could test the ability
+    of the txstatus software to read these. '
+- added: 2012-08-10 10:29
+  author: DAH
+  end: 2012-08-10 08:51
+  number: '805'
+  start: 2012-08-09 23:18
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector E went down
+    (this ususally affects sector A) which lead to a raised noise floor and a reduction
+    in altitude cover. '
+- added: 2012-08-13 09:34
+  author: DAH
+  end: 2012-08-13 08:29
+  number: '806'
+  start: 2012-08-10 17:09
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    which lead to a raised noise floor and a reduction in altitude cover. LD made
+    an unscheduled visit to the site to restart the transmitter.'
+- added: 2012-08-14 10:15
+  author: DAH
+  end: 2012-08-13 16:05
+  number: '807'
+  start: 2012-08-13 11:43
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    which lead to a raised noise floor and a reduction in cover. LD made an unscheduled
+    visit to site to restart the transmitter.'
+- added: 2012-08-17 08:05
+  author: DAH
+  end: 2012-08-16 11:28
+  number: '808'
+  start: 2012-08-16 09:28
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A went down,
+    which lead to a raised noise floor and reduced altitude cover. DPW restarted the
+    transmitter.'
+- added: 2012-08-17 14:18
+  author: DAH
+  end: 2012-08-17 11:18
+  number: '809'
+  start: 2012-08-17 11:09
+  text: 'Instrument MST Radar. The transmitter powering antenna sector A was switched
+    through diffrent states during this period. This was in order to test new software,
+    which can both read the status of the transmitters and switch their states. The
+    tests were successful. '
+- added: 2012-08-22 08:26
+  author: DAH
+  end: 2012-08-21 13:10
+  number: '810'
+  start: 2012-08-18 00:00
+  text: 'Instrument: Tipping Bucket Raingauge. There are significant differences between
+    the patterns of rainfall measured by the tipping bucket rainguage and the Vaisala
+    WXT510 over this period. Less rain was  recorded by the tipping bucket rainguage
+    and it is likely that it has become (at least partially) blocked. The two instruments
+    measured similar patterns of rainfall on 2012-08-17.'
+- added: 2012-08-22 08:39
+  author: DAH
+  end: 2012-08-21 10:21
+  number: '811'
+  start: 2012-08-18 20:56
+  text: 'Instrument: MST Radar. The fuse blew on the transmitter powering sector B.
+    This lead to an increase in the noise level and a reduction in altitude cover.
+    LD made an unscheduled visit to the site on 2012-08-19 (a Sunday) to replace the
+    fuse. Although the transmitter was restarted at 12:54 UT, the fuse blew again
+    at 13:08. LD restarted it at 13:23, but the fuse blew again at 14:08. The transmitter
+    remained out of action until LD made his next scheduled visit to the site on 2012-08-21.'
+- added: 2012-08-22 08:59
+  author: DAH
+  end: 2012-08-21 08:46
+  number: '812'
+  start: 2012-08-20 23:26
+  text: 'Instrument. MST Radar. The transmitter powering antenna sector A shut down
+    at a time when the transmitter for sector B was already out of action. This lead
+    to a larger than usual reduction in altitude cover. For the first time, DAH was
+    successfully able to restart the transmitter (for sector A) using software that
+    he has been developing.  '
+- added: 2012-08-23 11:21
+  author: DAH
+  end: 2012-08-22 15:51
+  number: '813'
+  start: 2012-08-22 09:37
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    which lead to a raised noise floor and reduced altitude cover. On this occassion,
+    DAH was unable to restart the transmitter remotely. It turns out that this was
+    a result of (erroneous) changes he had made to the computer code since he had
+    first demonstrated its usefulness.  '
+- added: 2012-08-23 11:23
+  author: DAH
+  end: 2012-08-23 10:13
+  number: '814'
+  start: 2012-08-22 20:17
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    which lead to a raised noise floor and reduced altitude cover. DAH was successfully
+    able to restart the transmitter remotely after he had made suitable changes to
+    the necessary computer code.'
+- added: 2012-08-23 15:01
+  author: DAH
+  end: 2012-08-23 13:46
+  number: '815'
+  start: 2012-08-23 12:58
+  text: 'INstrument: MST Radar. The transmitter powering antenna sector A went down.
+    DAH was able to restart the transmitter, although he was unsuccessful on his first
+    attempt. '
+- added: 2012-08-24 08:38
+  author: DAH
+  end: 2012-08-23 16:15
+  number: '816'
+  start: 2012-08-23 16:00
+  text: 'Instrumet: Tipping Bucket Raingauge. LD cleaned out the instrument, which
+    had become blocked with seeds.'
+- added: 2012-08-28 11:49
+  author: DAH
+  end: 2012-08-28 09:25
+  number: '820'
+  start: 2012-08-23 21:44
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A blew its
+    fuse. This appears to have lead to only intermittent reductions in useful altitude
+    cover.'
+- added: 2012-08-24 09:39
+  author: DAH
+  end: 2012-08-24 08:34
+  number: '817'
+  start: 2012-08-23 23:23
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    leading to a raised noise level and reduced altitude cover. DAH restarted the
+    transmitter remotely, although it took him several attempts. '
+- added: 2012-08-28 08:48
+  author: DAH
+  end: 2012-08-25 07:57
+  number: '819'
+  start: 2012-08-25 07:57
+  text: 'INstrument: UPS units. The units indicated a brief (~ 1 s) irregularity of
+    the mains electricity supply. '
+- added: 2012-08-28 08:36
+  author: DAH
+  end: 2012-08-25 14:52
+  number: '818'
+  start: 2012-08-25 10:31
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down,
+    which lead to a raised noise level and a reduction in altitude cover. DAH restarted
+    the transmitter remotely. '
+- added: 2012-09-05 08:49
+  author: DAH
+  end: 2012-08-31 19:40
+  number: '823'
+  start: 2012-08-31 17:00
+  text: 'Instrument: Vaisala WXT510 precipitation sensor. This sensor failed to detect
+    rain, which was see by the tipping bucket raingauge. Images from the sky-camera
+    suggest that the rain was falling very lightly and so might not ahave generated
+    a sufficient piezo-electric signal.  '
+- added: 2012-09-04 08:07
+  author: DAH
+  end: 2012-09-01 18:51
+  number: '821'
+  start: 2012-09-01 17:47
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with a error code 6. This lead to a raised noise floor and a reduction in cover.
+    DAH restarted the transmitter remotely.'
+- added: 2012-09-05 09:03
+  author: DAH
+  end: 2012-09-04 10:00
+  number: '824'
+  start: 2012-09-01 22:00
+  text: 'Instrument: Tipping Bucket Raingauge. The inlet became partially blocked
+    with dead insects, which LD cleared at 2012-09-04 10:00 UT. The blockage appears
+    to have slowed down the rate at which water could enter the mechanism and so made
+    the rain appear to be more persistent than it really was. Images from the sky-camera
+    suggest that the first period of rain, which began at 2012-09-01 22:00 UT, ended
+    by 2012-09-02 13:00 UT. The skies became largely clear by 16:00 UT of that day
+    and remained so until at least 20:00 UT, after which it was too dark to see. The
+    follwoing morning, i.e. 2012-09-03 began with clear skies. which persisted until
+    at least 12:00 UT. Although it became cloudy in the afternoon, it does not appear
+    to have rained. It appears to have rained very mildly during the morning of 2012-09-04.
+    This ceased before 10:00 UT. The WXT510 recorded almost negligible amounts of
+    rain during this entire period, probably because the rain was too light to be
+    effectively detected.'
+- added: 2012-09-05 08:30
+  author: DAH
+  end: 2012-09-05 07:24
+  number: '822'
+  start: 2012-09-05 00:10
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 4. This lead to a raised noise level and a reduction in altitude
+    cover. DAH restarted the transmitter remotely.'
+- added: 2012-09-05 14:37
+  author: DAH
+  end: 2012-09-05 13:20
+  number: '825'
+  start: 2012-09-05 12:57
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 4. DAH restarted the transmitter remotely.'
+- added: 2012-09-10 08:22
+  author: DAH
+  end: 2012-09-08 15:48
+  number: '827'
+  start: 2012-09-08 15:48
+  text: 'Instrument: UPS units. All units indicated a relatively long, i.e. 13 s,
+    input power problem.'
+- added: 2012-09-10 08:07
+  author: DAH
+  end: 2012-09-09 08:40
+  number: '826'
+  start: 2012-09-09 06:28
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 4. This leadf to a raised noise level and a reduction in altitude
+    cover. DAH was able to restart the transmitter remotely, although it took him
+    several attempts before the transmitter was able to stably remain with the main
+    power switched on. '
+- added: 2012-09-13 09:50
+  author: DAH
+  end: 2012-09-11 17:47
+  number: '831'
+  start: 2012-09-10 00:00
+  text: 'Instrument: Vaisala WXT510. Owing to tests being carried out with a replacement
+    radar control and data acquisition PC, there is a gap in the recorded WXT510 data.
+    In fact, data were recorded until 15:37 UT on 2012-09-10. However, owing to a
+    software problem with handling data gaps, it has not been possible to create the
+    netCDF files at the present time. It proved possible to record WXT510 to the new
+    PC (julius) using a 9-way D-type to USB converter. '
+- added: 2012-09-13 08:45
+  author: DAH
+  end: 2012-09-10 16:55
+  number: '828'
+  start: 2012-09-10 16:07
+  text: 'Instrument: MST Radar. The radar was briefly out of action to allow "julius",
+    a replacement for the current radar-control and data acquisition PC "augustus",
+    to be put into place. Julius was left running overnight without any problems. '
+- added: 2013-03-04 10:14
+  author: DAH
+  end: 2013-02-04 08:28
+  number: '867'
+  start: 2012-09-10 16:07
+  text: 'Instrument: Cambell Scientific Surface Met Sensors, Cambell Scientific Surface
+    Wind Sensors, Vaisala LD40 Laser Ceilometer. The time stamps for the data collected
+    by these 3 sets of instruments drifted to 311.7 s (approximately 5 minutes) behind
+    the actual time over this 5 month period. The problem was caused by the switch
+    from PC "augustus" to PC "julius" (on 2012-09-10) for controlling the MST radar.
+    PC "gaius", which collects data from the affected instruments, had been synchronising
+    its clock to that of PC "augustus". Consequenly it began a slow drift. The problem
+    was only noticed because DAH had been trying to determine the cause of loss of
+    Surface Wind data, which are collected by "gaius". '
+- added: 2012-09-13 09:29
+  author: DAH
+  end: 2012-09-11 13:51
+  number: '830'
+  start: 2012-09-11 01:34
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse and remained out of action until LD was on site later in the day. '
+- added: 2012-09-13 09:27
+  author: DAH
+  end: 2012-09-11 17:48
+  number: '829'
+  start: 2012-09-11 08:30
+  text: 'Instrument: MST Radar. The radar was stopped for several periods during the
+    day (08:30 - 09:58, 11:21 - 13:51, 15:40 - 16:12, 16:54 - 17:48 UT) to allow repairs
+    to be carried out on antenna dipoles. The new PC "julius" had been used to control
+    the radar during the day, but "augustus" was put back into operation a the end.'
+- added: 2012-09-13 09:54
+  author: DAH
+  end: 2012-09-12 17:27
+  number: '832'
+  start: 2012-09-12 17:27
+  text: 'Instrument: UPS units. The units indicated a brief, i.e. ~ 1 s, input power
+    problem.'
+- added: 2012-09-14 08:52
+  author: DAH
+  end: 2012-09-13 18:58
+  number: '833'
+  start: 2012-09-13 17:13
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with error code 4. This lead to an increased noise level and a reduction in altitude
+    cover. DAH was eventually able to restart the transmitter remotely, although the
+    error code 4 state was recurred several times after he switched the main power
+    on.  '
+- added: 2012-09-14 14:25
+  author: DAH
+  end: 2012-09-14 10:49
+  number: '834'
+  start: 2012-09-13 21:41
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector A shut down
+    with an error code 4. This lead to an increased noise level and a reduction in
+    altitude cover. DAH restarted the transmitter remotely at 07:38 UT on 2012-09-14,
+    but it shut down again at 07:54 UT with the same error code. LD arrived on site
+    shortly afterwards and took over from DAH in restarting the transmitter. Although
+    it was up at 08:04 UT, it shut again a minute later. After several unsuccessful
+    attempts to restart the transmitter by the usual method, LD set about investigating
+    the transmitter. Based on advice from DPW, he tweaked the heater voltage measurement
+    circuitry (effectively modifying the scaling factor; the actual voltage of 15
+    V registers as close to 10 V) to bring the values within the permissible range.
+    At the time of writing (2012-09-14 13:24 UT) the transmitter is still up, although
+    the beam steering unit has reported several instances of the forward power being
+    slightly below the expected value.'
+- added: 2017-09-20 15:33
+  author: DAH
+  end: 2012-09-16 07:15
+  number: '1882'
+  start: 2012-09-16 06:30
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 9.5 km.'
+- added: 2017-09-20 16:15
+  author: DAH
+  end: 2012-09-23 16:15
+  number: '1883'
+  start: 2012-09-23 15:30
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 12.5 km.'
+- added: 2017-09-20 16:22
+  author: DAH
+  end: 2012-09-24 08:00
+  number: '1884'
+  start: 2012-09-24 05:00
+  text: 'Instrument: MST Radar. The v4 wind speeds at the lowest range gates (where
+    they are not blanked by the reliability flagging) are significantly larger than
+    at adjacent times and altitudes. This appears to be the result of contamination
+    of the clear air signals by hydrometeor returns. '
+- added: 2012-10-17 08:49
+  author: DAH
+  end: 2012-10-09 15:19
+  number: '837'
+  start: 2012-10-06 02:25
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B was out
+    of action for most of this period after it blew a fuse on 2012-10-06, a Saturday.
+    This led to a raised noise floor and a slight reduction in altitude cover. LD
+    fixed the fuse at 09:59 UT on the following Monday morning (2012-10-08). However,
+    it blew again at 10:07 UT. LD spent the rest of the day trying to diagnose the
+    problem and restarted the transmitter at 15:35 UT. However, the fuse blew again
+    at 16:49 UT. LD spent much of the next day (2012-10-09) continuing to investigate
+    the problem. The transmitter was restarted at 15:19 UT. '
+- added: 2012-10-09 11:15
+  author: DAH
+  end: 2012-10-08 08:30
+  number: '835'
+  start: 2012-10-06 13:00
+  text: 'Instrument: Broadband Modem. The internet connection was lost on 2012-10-06,
+    a Saturday, and was restored on the following Monday morning (2012-10-08), when
+    LD power-cycled the modem. '
+- added: 2012-10-09 11:23
+  author: DAH
+  end: 2012-10-08 05:00
+  number: '836'
+  start: 2012-10-07 11:30
+  text: 'Instrument: MST Radar. There is a reduction in mid-altitude ST cover during
+    this period. It appears to have resulted from the loss of internet connection
+    on 2012-10-06, which is known to lead to processing problems after more than 24
+    hours of data have accumulated. DAH manually cleared the offending files around
+    2012-10-08 08:30 UT, once the internet connection to the site was re-established. '
+- added: 2012-10-17 08:53
+  author: DAH
+  end: 2012-10-08 15:17
+  number: '838'
+  start: 2012-10-08 10:26
+  text: 'Instrument: Beam Steering Controller. The controller sent several messages
+    during this period to alert that phasing unit 91 (which is in antenna sector A)
+    was first not responding and then responding again. The last message, at 15:17
+    UT, indicated the phasing unit was responding again.'
+- added: 2012-10-17 09:04
+  author: DAH
+  end: 2012-10-16 15:00
+  number: '839'
+  start: 2012-10-16 02:03
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse. This led to a raised noise floor and a slight reduction ion wind-profile
+    cover. The whole radar was powered down at 08:12 UT, to allow work to be carried
+    out within the antenna array. LD fixed the fuse whilst this was being done and
+    all transmitters were in operation when the radar was restarted at 15:00 UT. '
+- added: 2012-10-17 14:10
+  author: DAH
+  end: 2012-10-16 15:00
+  number: '840'
+  start: 2012-10-16 08:12
+  text: 'Instrument: MST Radar. The radar was powered down to allow work to be carried
+    out on the primary power splitter huts within the antenna array. The new huts
+    were installed in March 2012 but, owing to the unusually wet conditions, have
+    suffered from persistently standing in puddles of water over the past 6 months.
+    The work was aimed at preventing further water damage.  '
+- added: 2012-10-23 09:15
+  author: DAH
+  end: 2012-10-18 15:52
+  number: '841'
+  start: 2012-10-18 13:55
+  text: 'Instrument: MST Radar. The radar was briefly out of action twice during this
+    period: 13:55 - 14:29 UT, and 15:32 - 15:52 UT. The first period allowed DAH and
+    AD to switch over from the old radar control PC "Augustus" to the new one, "Julius".
+    Owing to the fact that NTP had not initially been configured on Julius, its clock
+    was running 73 s behind the actual time. This was corrected during the second
+    period of downtime.    '
+- added: 2012-10-23 10:24
+  author: DAH
+  end: 2012-10-18 15:30
+  number: '842'
+  start: 2012-10-18 14:50
+  text: 'Instrument: LD40 Laser Ceilometer. There are some short gaps in the data
+    during this period as a result of the acquisition PC being rebooted.'
+- added: 2012-10-24 08:28
+  author: DAH
+  end: 2012-10-23 11:52
+  number: '843'
+  start: 2012-10-23 09:58
+  text: 'Instrument: MST Radar. The radar was powered down to allow work to be carried
+    out on the primary power splitter huts within the antenna array.'
+- added: 2012-10-30 11:27
+  author: DAH
+  end: 2012-10-25 10:35
+  number: '844'
+  start: 2012-10-24 18:44
+  text: 'Instrument: MST Radar. The transmitter powering atenna sector B blew its
+    fuse. LD made an unscheduled visit to the site in order to restart the transmitter.'
+- added: 2012-10-30 11:41
+  author: DAH
+  end: 2012-10-26 12:01
+  number: '846'
+  start: 2012-10-26 01:49
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse. LD restarted it during a scheduled visit.'
+- added: 2012-10-30 11:29
+  author: DAH
+  end: 2012-10-29 16:59
+  number: '845'
+  start: 2012-10-28 11:53
+  text: 'Instrument: MST Radar. The transmitter powering antenna sector B blew its
+    fuse. LD made an unscheduled visit to the site in order to restart it.'
+- added: 2017-09-20 15:05
+  author: DAH
+  end: 2012-10-29 21:20
+  number: '1881'
+  start: 2012-10-29 20:30
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 9 km.'
+- added: 2012-11-02 14:47
+  author: DAH
+  end: 2012-11-01 14:17
+  number: '848'
+  start: 2012-11-01 05:24
+  text: 'Instrument: MST Radar. The transmitter power antenna sector B blew its fuse.
+    LD made an unscheduled visit to the site in order to restart it.'
+- added: 2012-11-01 08:08
+  author: DAH
+  end: 2012-11-01 07:24
+  number: '847'
+  start: 2012-11-01 07:24
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    1 s in response to an input power problem.'
+- added: 2012-11-05 09:24
+  author: DAH
+  end: 2012-11-04 05:38
+  number: '849'
+  start: 2012-11-04 05:38
+  text: 'Instrument: UPS units. Three of the units indicated a brief (~ 1 s) input
+    power problem.'
+- added: 2017-09-20 14:40
+  author: DAH
+  end: 2012-11-05 20:30
+  number: '1879'
+  start: 2012-11-05 19:40
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 11 km.'
+- added: 2012-11-06 16:33
+  author: DAH
+  end: 2012-11-06 16:01
+  number: '850'
+  start: 2012-11-06 13:52
+  text: 'Instrument: MST Radar. The radar was powered down in order to allow Aberystwyth
+    University MSc students to carry out a surveying practical on the antenna array.'
+- added: 2017-09-20 14:44
+  author: DAH
+  end: 2012-11-10 09:15
+  number: '1880'
+  start: 2012-11-10 08:30
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 9.5 km.'
+- added: 2012-11-20 11:55
+  author: DAH
+  end: 2012-11-20 11:37
+  number: '851'
+  start: 2012-11-20 11:18
+  text: 'Instrument: MST Radar. The beam controller had been sending large numbers
+    of reports of high VSWR values on phasing unit 30 since 04:30 UT. LD suspects
+    that this was caused by moisture getting into the power splitter unit, which had
+    previously fallen over owing to corrosion of its support pole. The radar was stopped
+    between 11:18 and 11:30 UT so LD can switch over the phasing units. It appears
+    that the beam steering unit was not fully powered up when operations restarted.
+    DAH tried to remove the spectral files for this first cycle, although it appears
+    that the first two (for 11:30:26 and 11:30:50 UT) got through to the processing
+    chain. This does not appear to have crashed the software. It is likely that the
+    collected data default to vertical beam observations.'
+- added: 2017-09-20 14:04
+  author: DAH
+  end: 2012-12-02 16:30
+  number: '1876'
+  start: 2012-12-02 07:00
+  text: 'Instrument: MST Radar. The v4 data show two vertically-narrow regions of
+    unrealistically-large win speeds - one ataround 07:00 UT  and 10 km and the second
+    at around 16:00 UT and 11 km.'
+- added: 2017-09-20 14:13
+  author: DAH
+  end: 2012-12-08 18:45
+  number: '1877'
+  start: 2012-12-08 17:45
+  text: 'Instrument: MST Radar. The v4 data show unrealistically-large wind speeds
+    within a narrow time/altitude region at around 19 km. '
+- added: 2017-09-20 14:25
+  author: DAH
+  end: 2012-12-14 05:40
+  number: '1878'
+  start: 2012-12-14 04:50
+  text: 'Instrument: MST Radar. The v4 data show a vertically-narrow region of unrealistically-large
+    wind speeds at around 9.5 km.'
+- added: 2013-01-03 09:33
+  author: DAH
+  end: 2012-12-17 09:41
+  number: '852'
+  start: 2012-12-16 17:52
+  text: 'Instrument: Broadband Modem. The internet connection was lost, which led
+    to a file transfer blockage. LD solved the problem by power-cycling the modem
+    the following day. Some data products files for 2012-12-16 were incomplete as
+    a result of this blockage.  '

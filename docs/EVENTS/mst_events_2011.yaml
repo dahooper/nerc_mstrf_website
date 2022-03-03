@@ -1,0 +1,816 @@
+- added: 2011-01-11 08:10
+  author: DAH
+  end: 2011-01-11 03:57
+  number: '623'
+  start: 2011-01-11 03:57
+  text: 'Instrument: UPS units. All UPS indicated a brief fluctuation in input mains
+    voltage. This did not affect the operation of any other equipment. '
+- added: 2011-01-13 08:33
+  author: DAH
+  end: 2011-01-11 17:00
+  number: '625'
+  start: 2011-01-11 14:00
+  text: 'Instrument: Internet connection. The internet connection for the site appears
+    to have been down for approximately 3 hours. This should not have lead to any
+    problems other than delaying the delivery of files. '
+- added: 2011-01-13 08:30
+  author: DAH
+  end: 2011-01-12 15:59
+  number: '624'
+  start: 2011-01-12 15:59
+  text: 'Instrument: UPS units. There appears to have been a brief fluctuation in
+    incoming mains electricity, although only 2 UPS units (for TX2 and TX4) indicated
+    this. No other equipment should have been affected by this.'
+- added: 2020-08-28 09:16
+  author: DAH
+  end: 2011-01-13 16:00
+  number: '3004'
+  start: 2011-01-13 02:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 16
+    km between times of 02:00 and 03:40 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and so are assumed to be invalid. The wind speeds
+    at altitudes of around 14 km between times of 15:10 and 16:00 UTC also look suspect. '
+- added: 2020-08-28 09:19
+  author: DAH
+  end: 2011-01-14 20:00
+  number: '3005'
+  start: 2011-01-14 19:20
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 16.5
+    km between times of 19:20 and 20:00 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2011-01-21 08:43
+  author: ZKO
+  end: 2011-01-19 12:45
+  number: '627'
+  start: 2011-01-19 11:13
+  text: 'Instrument: Vaisala WXT510 Met and Wind Sensors. There is a 90 minute gap
+    in data acquisition. The cause for this is unclear. '
+- added: 2011-01-19 15:53
+  author: DAH
+  end: 2011-01-19 14:16
+  number: '626'
+  start: 2011-01-19 14:16
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in incoming
+    mains electricity. This should not have affected any of the other equipment.'
+- added: 2011-01-21 08:47
+  author: DAH
+  end: 2011-01-20 12:32
+  number: '628'
+  start: 2011-01-20 11:44
+  text: 'Instrument: Vaisala WXT510 Met and Wind Sensors. There is a 45 minute gap
+    during which data acquisition was not continuous. Within this gap data are available
+    between 11:56 and 12:00, and between 12:07 and 12:09 UT. The cause for this is
+    unclear. '
+- added: 2011-01-26 11:55
+  author: DAH
+  end: 2011-01-26 11:29
+  number: '629'
+  start: 2011-01-26 11:29
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in incoming
+    mains electricity. This should not have affected any of the other equipment.'
+- added: 2011-02-07 08:27
+  author: DAH
+  end: 2011-02-05 01:24
+  number: '630'
+  start: 2011-02-05 01:24
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in incoming
+    mains electricity. This should not have affected any of the other equipment.'
+- added: 2011-02-07 08:27
+  author: DAH
+  end: 2011-02-05 09:47
+  number: '631'
+  start: 2011-02-05 09:47
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in incoming
+    mains electricity. This should not have affected any of the other equipment.'
+- added: 2011-07-04 11:19
+  author: DAH
+  end: 2011-02-28 11:03
+  number: '676'
+  start: 2011-02-09 09:44
+  text: 'Instrument: MST Radar. The radar was operated using a long cycle of 24 dwells,
+    which lasted 9 minutes and 50 seconds and encompassed 16 of the 17 available beam
+    pointing directions (all except beam 12 - NE12.0). This was for the purpose of
+    establishing a benchmark dataset, against which the performance of the renovated
+    radar could be compared.  '
+- added: 2011-02-16 08:23
+  author: DAH
+  end: 2011-02-15 17:13
+  number: '632'
+  start: 2011-02-15 09:22
+  text: 'Instrument: MST Radar. The radar was powered down whilst voltage optimisation
+    equipment was installed on the site''s electricity supply.'
+- added: 2011-03-18 10:32
+  author: ZKO
+  end: 2011-02-16 08:02
+  number: '638'
+  start: 2011-02-15 09:37
+  text: 'Instrument: Vaisala WXT510 surface met and wind sensors. The instrument had
+    to be powered down for several hours on 2011-02-15 whilst a voltage optimisation
+    unit was installed on the radar site''s power supply. However, DAH initially forgot
+    to restart the data acquisition program and didn''t spot this until first thing
+    the following morning.'
+- added: 2011-02-16 08:50
+  author: DAH
+  end: 2011-02-15 12:12
+  number: '633'
+  start: 2011-02-15 09:38
+  text: 'Instrument: Sky-Camera. No images were recorded whilst the acquisition computer
+    "claudius" was powered down owing to voltage optimisation equipment being  installed
+    on the site''s electricity supply.'
+- added: 2011-02-16 11:52
+  author: DAH
+  end: 2011-02-15 15:17
+  number: '634'
+  start: 2011-02-15 09:48
+  text: 'Instrument: UPS units. The mains electricity supply to the site bungalow
+    was interrupted for several hours in order to allow voltage optimisation equipment
+    to be installed. The end time corresponds to when the power was permanently restored.
+    Power appears to have been sporadically available since around 12:00.   '
+- added: 2011-03-18 09:52
+  author: DAH
+  end: 2011-02-15 14:59
+  number: '637'
+  start: 2011-02-15 09:52
+  text: 'Instrument: Vaisala LD40 Ceilometer. No data were recorded whilst the acquisition
+    computer "gaius" was powered down owing to voltage optimisation equipment being
+    installed on the site''s electricity supply.'
+- added: 2020-08-28 11:52
+  author: DAH
+  end: 2011-02-21 18:20
+  number: '3006'
+  start: 2011-02-21 17:10
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 14.5
+    km between times of 17:10 and 18:20 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-28 11:55
+  author: DAH
+  end: 2011-02-26 04:20
+  number: '3007'
+  start: 2011-02-26 03:40
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 18
+    km between times of 03:40 and 04:20 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-28 11:59
+  author: DAH
+  end: 2011-02-27 17:30
+  number: '3008'
+  start: 2011-02-27 14:30
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 11.5
+    km between times of 14:30 and 15:00 UTC and between times of 16:50 and 17:30 UTC
+    should be ignored. The speeds are significantly faster than at adjacent times
+    and altitudes and so are assumed to be invalid.'
+- added: 2011-03-05 09:54
+  author: DAH
+  end: 2011-03-05 09:27
+  number: '635'
+  start: 2011-03-05 04:19
+  text: 'Instrument: Vaisala LD40 Laser Ceilometer. The injstrument malfunctioned
+    during this period, possibly as a result of cold night time temperatures. The
+    error flag indicates "Test laser failure. Error. No more measurements possible".
+    The instrument began to operate normally again without intervention.'
+- added: 2011-05-05 08:33
+  author: DAH
+  end: 2011-05-03 07:20
+  number: '646'
+  start: 2011-03-07 15:00
+  text: 'Instrument: MST Radar. The radar was operated using a long cycle of 27 dwells,
+    which took 11 minutes 40 seconds to complete and encompassed all 17 available
+    beam pointing directions. This was for the purposes of evaluating the performance
+    of the renovated radar.   '
+- added: 2011-03-12 16:59
+  author: DAH
+  end: 2011-03-12 14:56
+  number: '636'
+  start: 2011-03-12 13:11
+  text: 'Instrument: UPS units. The power within the site bunglow was briefly (i.e.
+    for up to a few minutes) interrupted on a few occasions in order to allow a Periodic
+    Test And Inspection survey to be carried out. Since the UPS units are able to
+    power equipment for approximately 20 - 30 minutes in the event of a loss of supply,
+    this had no effect on operations. The supply was interrupted at around 13:11,
+    13:20, 13:28, and 14:52. No more interruptions were made after 14:56. '
+- added: 2011-03-18 11:18
+  author: DAH
+  end: 2011-03-14 10:36
+  number: '639'
+  start: 2011-03-12 14:52
+  text: 'Instrument: Vaisala WXT510 met and wind sensors. It''s not exactly clear
+    why this instrument stopped producing data (the problem was not spotted for almost
+    48 hours). However, it may have been a result of the serial port connector being
+    slightly loose. After the connection was made firm, it was necessary to power-cycle
+    the instrument before the flow of data was resumed. '
+- added: 2011-03-18 11:22
+  author: DAH
+  end: 2011-03-17 08:13
+  number: '640'
+  start: 2011-03-16 13:06
+  text: 'Instrument: Vaisala WXT510 met and wind sensors. The initial break in data
+    was a result of the acquisition PC, "augustus", being rebooted in connection with
+    an MST radar problem. DAH forgot to restart the data acquisition program and did
+    not spot the problem until first thing the following morning. '
+- added: 2011-04-11 08:40
+  author: DAH
+  end: 2011-04-07 17:00
+  number: '641'
+  start: 2011-04-07 08:05
+  text: 'Instrument: MST Radar. The radar was powered down to allow voltage optimisation
+    work to be carried out on the site''s electricity supply. Although the radar was
+    restarted at 14:43, the data were not consistently flagged as being reliable until
+    17:00.  '
+- added: 2011-04-11 08:54
+  author: DAH
+  end: 2011-04-07 14:11
+  number: '644'
+  start: 2011-04-07 08:05
+  text: 'Instrument: Vaisala LD40 Ceilometer. No data were captured whilst the power
+    was down in the site bungalow.'
+- added: 2011-04-11 08:56
+  author: DAH
+  end: 2011-04-07 14:12
+  number: '645'
+  start: 2011-04-07 08:16
+  text: 'Instrument: Vaisala WXT510 surface met and wind sensors. No data were captured
+    whilst the power was down in the site bungalow.'
+- added: 2011-04-11 08:46
+  author: DAH
+  end: 2011-04-07 14:34
+  number: '643'
+  start: 2011-04-07 08:20
+  text: 'Instrument: Sky-Camera. No images were captured whilst the electricity supply
+    to the site bungalow was down.'
+- added: 2011-04-11 08:44
+  author: DAH
+  end: 2011-04-07 14:30
+  number: '642'
+  start: 2011-04-07 08:45
+  text: 'Instrument: UPS units. The electricity supply for the whole site bungalow
+    was powered down so that the voltage optimisation unit could be transferred from
+    the bungalow to the wooden shed - this allowed it to optimise the voltage for
+    both feeds to the site bungalow, not just for the TX room.  '
+- added: 2011-05-09 15:07
+  author: DAH
+  end: 2011-05-09 08:30
+  number: '647'
+  start: 2011-05-06 23:20
+  text: 'Instrument: Broadband Modem/Router. The internet connection to the NERC network
+    appears to have been lost some time shortly after 2011-05-06 23:20, a Friday night.
+    DAH did not spot this until first thing on the following Monday monring (2011-05-09).
+    DPW power-cycled the router as soon as he arrived on site and this solved the
+    problem. He also power-cycled the lightning-detector PC, which had been beeping
+    irritatingly - possibly because it could not see the the outside internet. Although
+    all of the instruments continued to operate over the weekend, the flow of MST
+    radar data became disrupted and it appears that the time-continuity quality-control
+    algorithm may have flagged many good data as bad as a result. The data for weekend
+    will be reprocessed offline in order to ensure that any such problems are avoided. '
+- added: 2011-05-13 08:05
+  author: DAH
+  end: 2011-05-13 06:56
+  number: '648'
+  start: 2011-05-13 06:56
+  text: 'Instrument: UPS units. The units indicate a brief disruption in the electricity
+    supply. This did not affect any of the equipment. '
+- added: 2011-05-23 08:11
+  author: DAH
+  end: 2011-05-21 15:00
+  number: '649'
+  start: 2011-05-21 11:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered from interference
+    (on at least one of the 6 degree beams), which caused some mild contamination
+    of the wind-profile data for a short part of this time.'
+- added: 2011-05-27 16:21
+  author: DAH
+  end: 2011-05-24 10:00
+  number: '650'
+  start: 2011-05-22 02:20
+  text: 'Instrument: MST Radar. The radar was running with TX1 out of operation owing
+    to a blown choke. It is not known when the problem began, but it was spotted at
+    around 2011-05-22 02:20 UT when a member of ATRAD, the company which installed
+    the new beam steering components, logged on to the controller and noticed abnormally
+    low power levels in the A sector of the antenna array. '
+- added: 2011-06-01 08:12
+  author: DAH
+  end: 2011-06-01 07:03
+  number: '651'
+  start: 2011-06-01 07:03
+  text: 'Instrument: UPS units. Some, but not all, of the UPS units (i.e. those for
+    TX1, TX2, TX3, and for the beam steering unit) complained of a brief input power
+    problem.'
+- added: 2011-06-06 08:33
+  author: DAH
+  end: 2011-06-03 20:30
+  number: '653'
+  start: 2011-06-03 16:30
+  text: 'Instrument: MST Radar. The radar experienced two short-lived episodes of
+    interference - one at around 16:30 UT and the second at around 20:30 UT. Neither
+    appears to have caused contamination of either the vertical or horizontal winds.'
+- added: 2011-06-06 08:15
+  author: DAH
+  end: 2011-06-04 19:00
+  number: '652'
+  start: 2011-06-04 15:30
+  text: 'Instrument: MST Radar. The radar appears to have experienced 2 short-lived
+    and minor episodes of interference - one centred at around 16:00 UT and the second
+    at around 18:30 UT. The first one appears to have some minor contamination of
+    the vertical velocities at altitudes of above 15 km, although the horizontal winds
+    do not appear to have been affected.'
+- added: 2011-06-09 12:12
+  author: DAH
+  end: 2011-06-07 23:59
+  number: '655'
+  start: 2011-06-07 00:00
+  text: 'Instrument: MST Radar. Owing to the problem with the broadband modem, there
+    was a blockage of the regular data flow. This lead to the MST radar Cartesian
+    and radial files for 2011-06-07 initially containing no data after approximately
+    21 UT. The complete files were generated, and deposited at the BADC, during the
+    morning of 2011-06-09. '
+- added: 2011-06-09 08:37
+  author: DAH
+  end: 2011-06-08 14:00
+  number: '654'
+  start: 2011-06-07 22:20
+  text: 'Instrument: Broadband modem. The modem appears to have lost its internet
+    connection, which stopped data transfers taking place. Normal service was resumed
+    after DPW rebooted the modem.  '
+- added: 2011-06-13 08:08
+  author: DAH
+  end: 2011-06-10 13:30
+  number: '656'
+  start: 2011-06-10 13:00
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference.
+    This did not cause any contamination of the wind profile data, although it did
+    lead to a gap in the data.'
+- added: 2011-06-13 08:10
+  author: DAH
+  end: 2011-06-10 18:30
+  number: '657'
+  start: 2011-06-10 17:00
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference,
+    which affected the data above 12 km. Although this was mostly filtered out by
+    the quality control procedures (leading to a data gap), some contamination of
+    the horizontal wind data is still evident in the v4 Cardinal data.'
+- added: 2011-06-13 08:18
+  author: DAH
+  end: 2011-06-11 19:45
+  number: '658'
+  start: 2011-06-11 17:30
+  text: 'Instrument: MST Radar. The radar experienced two short periods of interference
+    - one at around 17:45 UT and the second at around 19:30 UT. Neither caused any
+    contamination of the wind-profile data or lead to any gaps in the data.  '
+- added: 2011-06-14 08:03
+  author: DAH
+  end: 2011-06-13 17:00
+  number: '659'
+  start: 2011-06-13 16:30
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference.
+    This did not cause any contamination of the wind profile data.'
+- added: 2011-06-15 08:12
+  author: DAH
+  end: 2011-06-14 08:45
+  number: '660'
+  start: 2011-06-14 08:10
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2011-06-15 08:12
+  author: ZKO
+  end: 2011-06-14 14:30
+  number: '661'
+  start: 2011-06-14 14:00
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2011-06-15 08:13
+  author: DAH
+  end: 2011-06-14 22:45
+  number: '662'
+  start: 2011-06-14 22:30
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2011-06-23 08:42
+  author: DAH
+  end: 2011-06-15 14:15
+  number: '667'
+  start: 2011-06-15 13:30
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference,
+    which did not cause any contamination of the wind-profile data.'
+- added: 2011-06-16 12:04
+  author: DAH
+  end: 2011-06-16 11:00
+  number: '663'
+  start: 2011-06-16 01:00
+  text: 'Instrument: Broadband Connection. The broadband connection to the site went
+    down in the early hours of the morning. DPW tried power-cycling the modem, but
+    this did not clear the problem. However, he discovered that he could only get
+    a dialling tone on the (fax) line if he missed out the final section of the extension
+    cable. As a preliminary measure, he switched over the MSTRF modem to the (phone)
+    line normally used for the University of Manchester network. This allowed the
+    backlog of data to be cleared before the MSTRF modem was switched back to its
+    original position (albeit avoiding the final section of extension cable). Everything
+    appears to be working as normal again.'
+- added: 2011-06-17 08:05
+  author: DAH
+  end: 2011-06-16 20:00
+  number: '664'
+  start: 2011-06-16 18:15
+  text: 'Instrument: MST Radar. The radar experienced two short periods of interference.
+    These do not appear to have caused any contamination of the wind-profile data.'
+- added: 2011-06-21 09:31
+  author: DAH
+  end: 2011-06-18 13:40
+  number: '665'
+  start: 2011-06-17 21:20
+  text: 'Instrument: Broadband modem. The modem lost its internet connection late
+    on 2011-06-17, a Friday evening. This stopped data transfers taking place. DPW
+    noticed this from home, when looking at the supplementary website and came into
+    site on the following day (a Saturday) to power cycle the modem. '
+- added: 2011-06-23 08:34
+  author: DAH
+  end: 2011-06-19 17:00
+  number: '666'
+  start: 2011-06-19 17:00
+  text: 'Instrument: Broadband modem. DAH installed a new modem to replace the one
+    which has been in operation since late March 2011 and which has gone off-line
+    3 times since then. The new modem is expected to be more robust. '
+- added: 2011-06-23 08:49
+  author: DAH
+  end: 2011-06-22 15:30
+  number: '668'
+  start: 2011-06-22 15:00
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference,
+    which did not cause any contamination of the wind-profile data.'
+- added: 2011-06-24 09:10
+  author: DAH
+  end: 2011-06-24 08:09
+  number: '669'
+  start: 2011-06-24 08:09
+  text: 'Instrument: MST Radar. The radar observation format was changed slightly
+    so that mesospheric observations are now made using 3 beam pointing directions
+    (NE6.0, Vert, and SE6.0) instead of just 1 (Vert). The additional dwells replace
+    2 st-mode Vert beam dwells and so the total cycle length remains unchanged. This
+    format will be used for the rest of the summer season (i.e. June and July) when
+    mesospheric echoes are expected to occur commonly. '
+- added: 2011-06-27 08:31
+  author: DAH
+  end: 2011-06-26 21:30
+  number: '670'
+  start: 2011-06-26 15:45
+  text: 'Instrument: MST Radar. The radar experienced intermittent interference during
+    this period. This does not appear to have caused any contamination of the wind-profile
+    data.'
+- added: 2011-06-28 14:50
+  author: DAH
+  end: 2011-06-27 20:00
+  number: '671'
+  start: 2011-06-27 07:30
+  text: 'Instrument: MST Radar. The radar experienced 5 brief instances of interference
+    - at around 07:40, 14:30, 15:30, 19:15, and 20:50 UT. None of these appears to
+    have caused any contamination of the wind-profile data. '
+- added: 2011-06-28 14:53
+  author: DAH
+  end: 2011-06-28 09:38
+  number: '672'
+  start: 2011-06-28 04:33
+  text: 'Instrument: MST Radar. For some reason, communications between the radar
+    control PC and the beam steering control PC became broken, which stopped from
+    the beam direction changing from the Vertical. This resulted in the horizontal
+    wind speed appearing (incorrectly) to be close to 0.0 m/s. DAH spotted this as
+    soon as he reached the office and blocked the feed of data to the Met Office and
+    interrupted the observation cycle shortly after 07 UT. He was able to localise
+    the problem by examining the logs for both units. The beam steering controller
+    PC was rebooted for good measure and LD changed phasing unit 77, which was flagged
+    up as being faulty. However, the error message persisted with the replacement
+    unit until LD investigated the wiring to the unit. This cleared the problem without
+    LD having discovered any obvious problem, suggested that a sub-optimal connection
+    was to blame. Incidentally, ATRAD happened to be monitoring the beam steering
+    controller unit at the time and sent an alert by e-mail.     '
+- added: 2011-06-29 08:29
+  author: DAH
+  end: 2011-06-28 19:30
+  number: '673'
+  start: 2011-06-28 17:50
+  text: 'Instrument: MST Radar. The radar experienced interference during this period
+    although it does not appear to have caused any contamination of the wind-profile
+    data.'
+- added: 2011-06-30 08:09
+  author: DAH
+  end: 2011-06-29 15:30
+  number: '674'
+  start: 2011-06-29 14:40
+  text: 'Instrument: MST Radar. The radar experienced interference during this period
+    although it does not appear to have caused any contamination of the wind-profile
+    data.'
+- added: 2011-07-04 08:07
+  author: DAH
+  end: 2011-07-02 14:50
+  number: '675'
+  start: 2011-07-02 14:30
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This does not appear to have caused any contamination of the wind-profile data.'
+- added: 2011-07-07 08:28
+  author: DAH
+  end: 2011-07-05 05:10
+  number: '677'
+  start: 2011-07-05 04:30
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.  '
+- added: 2011-07-08 08:21
+  author: DAH
+  end: 2011-07-07 19:30
+  number: '678'
+  start: 2011-07-07 19:00
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2011-07-11 09:14
+  author: DAH
+  end: 2011-07-08 13:00
+  number: '679'
+  start: 2011-07-08 12:00
+  text: 'Instrument: MST Radar. The radar appears to have experienced interference
+    on at least one of the 6 degree beams. This has caused some contamination of the
+    wind-profile data. '
+- added: 2011-07-11 09:17
+  author: DAH
+  end: 2011-07-09 11:30
+  number: '680'
+  start: 2011-07-09 11:00
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data. '
+- added: 2011-07-11 09:18
+  author: DAH
+  end: 2011-07-09 23:40
+  number: '681'
+  start: 2011-07-09 23:20
+  text: 'Instrument: MST Radar. The radar experienced a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2011-07-13 08:34
+  author: ZKO
+  end: 2011-07-12 15:00
+  number: '682'
+  start: 2011-07-12 08:30
+  text: 'Instrument: MST Radar. LD discovered that TX1 had blown a fuse and so had
+    not been operating for some time - probably for most of the previous day and possibly
+    for even longer. When LD replaced the fuse, it blew immediately. However, he could
+    not find any obvious reason for this. TX1 was back in operation by 15:00 UT.'
+- added: 2011-07-15 08:20
+  author: DAH
+  end: 2011-07-14 13:00
+  number: '683'
+  start: 2011-07-14 11:00
+  text: 'Instrument: MST Radar. The radar was powered down in order to allow weed
+    spraying to be carried out within the antenna array.'
+- added: 2012-01-23 12:10
+  author: DAH
+  end: 2011-07-19 11:00
+  number: '709'
+  start: 2011-07-16 15:00
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) blew a component whilst
+    LD was investigating the recurrent problems which it has been experiencing. LD
+    could not fix the transmitter until some replacement parts had been ordered.'
+- added: 2011-07-18 10:09
+  author: DAH
+  end: 2011-07-17 00:30
+  number: '684'
+  start: 2011-07-16 18:30
+  text: 'Instrument: MST Radar. The radar malfunctioned owing to communication problems
+    between the radar control PC and the beam steering control PC. Ironically, this
+    appears to have been the result of an ATRAD engineer investigating previous instances
+    of such problems. Unreliable wind-profile data were created for the earlier part
+    (18:30 - 22:50 UT) of this period. '
+- added: 2012-01-23 14:42
+  author: DAH
+  end: 2011-08-11 23:59
+  number: '713'
+  start: 2011-07-17 00:00
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) was out of action on
+    several occasions during this period owing to a recuurrent problem of the fuse
+    blowing. Some of these occasions may already be logged individually. This period
+    was marked out as a whole for an analysis of electricity consumption at the site.'
+- added: 2011-08-01 13:52
+  author: DAH
+  end: 2011-08-01 12:02
+  number: '685'
+  start: 2011-08-01 12:02
+  text: 'Instrument: UPS units. The UPS units all indicated a brief disruption in
+    the incoming mains: "On battery power in response to an input power problem".'
+- added: 2012-01-23 11:42
+  author: DAH
+  end: 2011-08-06 12:00
+  number: '707'
+  start: 2011-08-06 00:00
+  text: 'Instrument: MST Radar. LD happened to be on site (a Saturday) and spotted
+    that one of the transmitters (TX1) was down after having blown its fuse. He changed
+    the fuse and restarted it.'
+- added: 2012-01-23 12:23
+  author: DAH
+  end: 2011-08-16 11:00
+  number: '710'
+  start: 2011-08-16 10:00
+  text: 'Instrument: MST Radar. DAH discovered that the old "txtstatus" programme,
+    which can be used to interogate the status of each of the transmitters, was unable
+    to establish a connection to any of the units. LD found that the RS-232 interface
+    cables had been left unconnected - possibly since the time that electrical wire
+    testing was carried out in December 2010 but likely from the time of the rnovation
+    work in March 2011. This program is not used operationally - hence the failure
+    to spot the problem. '
+- added: 2011-08-22 08:19
+  author: DAH
+  end: 2011-08-22 14:30
+  number: '686'
+  start: 2011-08-20 00:30
+  text: 'Instrument: Vaisala WXT510 met sensors. This instrument failed to detect
+    4 rain events - at around 00:30, 04:00, 09:00 and 13:45 UT - which were detected
+    by the tipping bucket raingauge. Nevertheless, it did detect the heavt rain event
+    at around 22:50 UT.'
+- added: 2011-09-23 11:51
+  author: DAH
+  end: 2011-09-23 08:30
+  number: '687'
+  start: 2011-09-22 15:00
+  text: 'Instrument: MST Radar. LD replaced the fuse on one of the transmitters, TX1,
+    which had been down for an unknown period of time. Based on the quick-look plots,
+    it is possible that it went down at around 15:00 UT on the previous day. It is
+    possible that TX1 being out of action was the cause of the persistent coincident
+    contamination of the m-mode observations.'
+- added: 2011-09-30 09:49
+  author: DAH
+  end: 2011-09-27 09:00
+  number: '688'
+  start: 2011-09-26 00:00
+  text: 'Instrument: MST Radar. One of the transmitters, TX1, was found to be down
+    on the morning of 2011-09-26. It is not known at what time it stopped transmitting,
+    although it had been in operation on 2011-09-25. LD fixed the blown fuse and returned
+    it to operation on 2011-09-27. '
+- added: 2011-09-30 09:52
+  author: DAH
+  end: 2011-09-28 09:00
+  number: '689'
+  start: 2011-09-27 13:30
+  text: 'Instrument: MST Radar. One of the transmitters, TX1, stopped working after
+    it blew its fuse. Coincident contamination of the m-mode observations appears
+    to have been related to this issue. The st-mode observations have noticeably reduced
+    height coverage during this time.'
+- added: 2011-10-21 08:34
+  author: DAH
+  end: 2011-10-15 18:00
+  number: '690'
+  start: 2011-10-13 06:00
+  text: 'Instrument: Campbell Scientific wind sensors. No data were captured for this
+    period. The cause of the problem is not known. However, it began when there was
+    a problem with the broadband on the phone line use for the dial-up connection
+    to Frongoch. Consequently it might have been the result of a bad line connection.  '
+- added: 2017-09-22 12:01
+  author: DAH
+  end: 2011-10-15 19:00
+  number: '1886'
+  start: 2011-10-15 18:20
+  text: 'Instrument: MST Radar. The v4 wind speed within a narrow altitude band at
+    around 9.0 km is unrealistically enhanced compared to that at adjacent times and
+    altitudes.'
+- added: 2011-10-21 08:37
+  author: DAH
+  end: 2011-10-16 13:00
+  number: '691'
+  start: 2011-10-16 04:45
+  text: 'Instrument: Campbell Scientific wind sensors. There was again a period of
+    missing data. The cause of the problem is not known.'
+- added: 2017-09-22 12:05
+  author: DAH
+  end: 2011-10-21 17:50
+  number: '1887'
+  start: 2011-10-21 17:00
+  text: 'Instrument: MST Radar. The v4 wind speed within a narrow altitude band at
+    around 9.5 km is unrealistically enhanced compared to that at adjacent times and
+    altitudes.'
+- added: 2017-09-22 12:10
+  author: DAH
+  end: 2011-10-22 15:10
+  number: '1888'
+  start: 2011-10-22 14:20
+  text: 'Instrument: MST Radar. The v4 wind speed within a narrow altitude band at
+    around 11.0 km is unrealistically enhanced compared to that at adjacent times
+    and altitudes.'
+- added: 2011-11-01 08:19
+  author: DAH
+  end: 2011-10-31 09:15
+  number: '692'
+  start: 2011-10-30 10:45
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) blew both of its fuses.
+    In addition to causing the radar to operate on reduced power, this also caused
+    the noise floor to be raised. The reason for the latter is unknown although it
+    has been seen in association with a number of similar problems with TX1 over the
+    past couple of months. LD made an emergency visit to the site to fix TX1.'
+- added: 2011-11-03 10:02
+  author: DAH
+  end: 2011-11-01 11:45
+  number: '693'
+  start: 2011-11-01 11:30
+  text: 'Instrument: MST Radar. In order to investigate the frequent problems which
+    transmitter TX1 has been causing recently, LD isolated Quad number 3. One of the
+    Yagis was marked with red tape, which suggested that there may have been a problem
+    with it. LD replaced the antenna with a dummy load. However, this did not appear
+    to make any difference.'
+- added: 2012-01-23 11:49
+  author: DAH
+  end: 2011-11-04 11:40
+  number: '708'
+  start: 2011-11-04 11:30
+  text: 'Instrument: MST Radar. LD carried out a short test on transmitter TX1 to
+    see if he could isolate the problem which has been causing it to frequently stop
+    working in recent months. He first disconnected its RF feed, which did not affect
+    the noise level.  He then reconnected the RF feed but removed the RX feed, which
+    reduced the noise level noticeably.'
+- added: 2011-11-08 14:33
+  author: DAH
+  end: 2011-11-08 11:50
+  number: '694'
+  start: 2011-11-08 11:20
+  text: 'Instrument: MST Radar. LD took transmitter TX1 offline so that he could carry
+    out some network measurements on antennas in quad 3. A first analysis suggests
+    that there are problems with 2 antennas within this quad. Further work will be
+    required. The noise floor was raised during this period, but the wind-profile
+    data were otherwise unaffected.'
+- added: 2011-11-14 08:15
+  author: DAH
+  end: 2011-11-11 11:00
+  number: '695'
+  start: 2011-11-11 10:15
+  text: 'Instrument: MST Radar. The radar was stopped to allow LD to carry out tests
+    on a few individual Yagis within the antenna array. This was motivated by the
+    problems caused by transmitter TX1 in recent months. '
+- added: 2011-11-14 08:22
+  author: DAH
+  end: 2011-11-12 03:13
+  number: '696'
+  start: 2011-11-12 03:13
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in the incoming
+    electricity.'
+- added: 2011-11-15 13:42
+  author: DAH
+  end: 2011-11-15 11:30
+  number: '697'
+  start: 2011-11-15 11:00
+  text: 'Instrument: MST Radar. The radar was powered down to allow LD to carry out
+    tests on some of the Yagis within the antenna array.'
+- added: 2012-01-23 12:35
+  author: DAH
+  end: 2011-11-15 16:30
+  number: '711'
+  start: 2011-11-15 14:00
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) went down shortly after
+    LD had been on site. He made a special visit later in the day to fix it.'
+- added: 2012-06-06 11:34
+  author: DAH
+  end: 2011-11-16 12:15
+  number: '776'
+  start: 2011-11-16 01:15
+  text: 'Instrument: MST Radar. The radar went off line as a result of an ATRAD engineer
+    trying to fix the error-logging system on the beam steering controller PC. This
+    inadvertently caused a recursive loop in the system, which stopped it from doing
+    its primary job. The radar was restarted when LD was on site.'
+- added: 2011-11-25 14:02
+  author: DAH
+  end: 2011-11-22 15:30
+  number: '698'
+  start: 2011-11-22 10:30
+  text: 'Instrument: MST Radar. One of the transmitters (TX1) was out of action for
+    the whole of this period whilst LD carried out maintenance work on it. A second
+    transmitter, which feeds one of the outer rings of the antenna array, was also
+    taken out of action 13:00 - 15:30, to allow Aberystwyth University students to
+    carry out a surveying practical on the array. The altitude coverage is notably
+    reduced during this second period, although the quality of the data should not
+    have been seriously affected.'
+- added: 2011-12-01 08:21
+  author: DAH
+  end: 2011-11-29 14:00
+  number: '699'
+  start: 2011-11-29 10:00
+  text: 'Instrument: MST Radar. The noise floor was raised during this period, which
+    suggests that one of the transmitters may have been out of operation. This resulted
+    in slightly reduced altitude coverage, although the quality of the data should
+    be unaffected.'
+- added: 2011-12-21 08:13
+  author: DAH
+  end: 2011-12-21 04:21
+  number: '700'
+  start: 2011-12-21 04:21
+  text: 'Instrument: UPS units. Four of the units inidicated that they were on battery
+    power for approximately 10 s in response to a mains input problem.'
+- added: 2011-12-21 10:13
+  author: DAH
+  end: 2011-12-21 10:02
+  number: '701'
+  start: 2011-12-21 10:02
+  text: 'Instrument: UPS units. The units inidicated that they were on battery power
+    for approximately 20 s in response to a mains input problem.'
+- added: 2012-01-03 08:25
+  author: DAH
+  end: 2011-12-22 19:46
+  number: '702'
+  start: 2011-12-22 19:46
+  text: 'Instrument: UPS units. All units inidicated that there was a disruption in
+    the mains electricity supply which lasted for approximately 12 s.'
+- added: 2017-09-22 13:43
+  author: DAH
+  end: 2011-12-26 14:40
+  number: '1889'
+  start: 2011-12-26 13:50
+  text: 'Instrument: MST Radar. The v4 wind speed within a narrow altitude band at
+    around 9.5 km is unrealistically enhanced compared to that at adjacent times and
+    altitudes.'

@@ -1,0 +1,948 @@
+- added: 2008-02-05 08:19
+  author: DAH
+  end: 2008-01-30 16:15
+  number: '306'
+  start: 2008-01-30 11:10
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to carry
+    out an inspection of the antenna relays.'
+- added: 2008-02-05 08:21
+  author: ZKO
+  end: 2008-02-04 16:15
+  number: '307'
+  start: 2008-02-04 11:45
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to replace
+    some of the antenna relays.'
+- added: 2008-02-06 08:27
+  author: DAH
+  end: 2008-02-05 15:00
+  number: '308'
+  start: 2008-02-05 09:10
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to replace
+    some of the antenna relays.'
+- added: 2008-02-07 07:58
+  author: DAH
+  end: 2008-02-06 12:15
+  number: '309'
+  start: 2008-02-06 09:30
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to replace
+    some of the antenna relays.'
+- added: 2008-03-10 09:56
+  author: DAH
+  end: 2008-02-07 12:50
+  number: '312'
+  start: 2008-02-07 11:00
+  text: 'Instrument: MST Radar. There was a gap in observations to allow DAH to implement
+    hacks to compensate for the problem with altitudes being out by almost 1 km.  '
+- added: 2008-03-10 09:26
+  author: DAH
+  end: 2008-02-11 09:45
+  number: '310'
+  start: 2008-02-10 05:56
+  text: 'Instrument: signal processing PC "Claudius" and Sky-camera. The hard drive
+    on Claudius became filled early on 2008-02-10, a Sunday, which prevented new data
+    being acquired. This lead to a gap in sky-camera images. No MST radar observations
+    were lost, although they could not be processed until DAH cleared some disc space
+    the following day.   '
+- added: 2008-03-10 10:02
+  author: DAH
+  end: 2008-02-12 16:00
+  number: '313'
+  start: 2008-02-12 08:30
+  text: 'Instrument: MST Radar. The radar operated unstably. This caused the signal
+    processing to blank most of the wind-profile data. '
+- added: 2008-03-10 10:04
+  author: DAH
+  end: 2008-02-14 04:00
+  number: '314'
+  start: 2008-02-14 00:00
+  text: 'Instrument: MST Radar. The radar operated unstably causing the signal processing
+    to blank most of the wind-profile data.'
+- added: 2008-03-10 10:06
+  author: DAH
+  end: 2008-02-17 03:00
+  number: '315'
+  start: 2008-02-17 02:00
+  text: 'Instrument: MST Radar. The radar operated unstably for a short period. The
+    signal processing blanked the wind-profile data during this time. '
+- added: 2008-03-10 11:23
+  author: DAH
+  end: 2008-02-19 16:50
+  number: '316'
+  start: 2008-02-19 15:30
+  text: 'Instrument: MST Radar. The radar appears to have suffered a loss of transmitter
+    power, which gave rise to reduced altitude coverage.'
+- added: 2008-03-10 11:24
+  author: DAH
+  end: 2008-02-20 11:10
+  number: '317'
+  start: 2008-02-19 22:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered a loss of transmitter
+    power, which gave rise to reduced altitude coverage.'
+- added: 2008-03-10 11:47
+  author: DAH
+  end: 2008-02-29 22:00
+  number: '318'
+  start: 2008-02-29 09:50
+  text: 'Instrument: Surface-wind sensors. It was not possible to establish a dial
+    up connection to Frongoch from some time on 2008-02-29 (probably in the afternoon)
+    until approximately 10:15 on 2008-03-03. It turns out that BT disconnected the
+    line as part of the transfer of billing from Aberystwyth University to RAL. When
+    the line was re-established, it was possible to download all but 12 hours of the
+    data backlog.'
+- added: 2008-03-10 12:26
+  author: DAH
+  end: 2008-03-08 13:10
+  number: '319'
+  start: 2008-03-05 08:10
+  text: 'Instrument: MST Radar. When the billing for the MSTRF telephone lines was
+    transferred from Aberystwyth University to RAL, the broadband connection was broken
+    on the morning of 2008-03-05 and not re-established until around 10 UT on 2008-03-07.
+    Although this did not stop the radar from running, or the observations from being
+    processed, it did cause a data blockage. This caused the time-continuity flagging
+    to compare the most recent observations with all previous observations made since
+    2008-03-05. This means that most of the wind-profile data are blanked out. This
+    problem should be removed when the observations are reprocessed off-line. DAH
+    cleared the blockage around 13:10 on 2008-03-08.'
+- added: 2008-04-01 11:49
+  author: DAH
+  end: 2008-03-31 17:24
+  number: '320'
+  start: 2008-03-31 11:00
+  text: 'Instrument: MST Radar, Ceilometer, Sky-camera. There was a power cut at the
+    MST Radar site between approximately 11:00 and 15:30 UT. DPW informed DAH of the
+    problem shortly after the power was lost, allowing DAH to stop the MST radar (which
+    is powered through UPS units) in a controlled way. DAH later restarted the radar
+    from home. The aquisition of ceilometer and sky-camera data was interrupted when
+    the UPS units became discharged and was resumed automatically when the power returned.
+    All PCs appear to have restarted automatically. '
+- added: 2008-04-07 14:02
+  author: DAH
+  end: 2008-04-04 02:30
+  number: '321'
+  start: 2008-04-04 00:50
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference.
+    This does not appear to have contaminated the wind-profile data. '
+- added: 2008-04-07 14:03
+  author: DAH
+  end: 2008-04-04 19:00
+  number: '322'
+  start: 2008-04-04 15:30
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference.
+    This does not appear to have contaminated the wind-profile data. '
+- added: 2008-04-07 14:04
+  author: DAH
+  end: 2008-04-05 19:10
+  number: '323'
+  start: 2008-04-05 13:30
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference.
+    This does not appear to have contaminated the wind-profile data. '
+- added: 2008-04-15 10:32
+  author: DAH
+  end: 2008-04-15 08:18
+  number: '324'
+  start: 2008-04-14 20:30
+  text: 'Instrument: MST Radar. The beam steering unit became stuck in an off-vertical
+    pointing direction, apparently as a result of a short circuit in relay box 39.
+    This caused all Cartesian data products to be corrupted for this period.'
+- added: 2008-04-28 13:42
+  author: DAH
+  end: 2008-04-23 10:40
+  number: '326'
+  start: 2008-04-23 06:00
+  text: 'Instrument: MST Radar. The radar suffered from interference. This was largely
+    eliminated by the signal processing, though some contamination is evident in the
+    wind-profile data at around 08 - 09 UT.'
+- added: 2008-04-28 08:42
+  author: DAH
+  end: 2008-04-23 12:15
+  number: '325'
+  start: 2008-04-23 11:45
+  text: 'Instrument: Tipping bucket raingauge. ZAKO dismantled and cleaned the bucket
+    to remove a partial blockage. The apparent rain spike around 12:00 UT was caused
+    by him pouring water into the mechanism to test it. It is not clear when the raingauge
+    was last working reliably. '
+- added: 2008-04-28 13:48
+  author: ZKO
+  end: 2008-04-24 19:00
+  number: '327'
+  start: 2008-04-24 03:30
+  text: 'Instrument: MST Radar. The radar suffered from interference in three separate
+    periods: 03:30 - 07:00, 11:30 - 13:00, and 17:30 - 19:00. None of these appears
+    to have caused any contamination of the wind-profile data. '
+- added: 2008-04-28 13:51
+  author: DAH
+  end: 2008-04-25 08:00
+  number: '328'
+  start: 2008-04-25 03:20
+  text: 'Instrument: MST radar. The radar suffered from interference, although this
+    appears to have caused contamination of the wind-profile data only for the limited
+    period 04:00 - 06:00 UT. '
+- added: 2008-04-28 13:52
+  author: ZKO
+  end: 2008-04-25 23:59
+  number: '329'
+  start: 2008-04-25 18:30
+  text: 'Instrument: MST radar. The radar suffered from interference for several hours,
+    although this appears to have caused contamination of the wind-profile data only
+    for the limited period 23:30 - 23:59 UT. '
+- added: 2008-04-28 13:58
+  author: DAH
+  end: 2008-04-26 01:00
+  number: '330'
+  start: 2008-04-26 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference, although this
+    did not cause any contamination of the wind-profile data. '
+- added: 2008-04-28 14:00
+  author: DAH
+  end: 2008-04-27 13:30
+  number: '331'
+  start: 2008-04-27 11:30
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference,
+    although this appears to have caused only minor contamination of the wind-profile
+    data.'
+- added: 2008-04-28 14:01
+  author: DAH
+  end: 2008-04-27 20:30
+  number: '332'
+  start: 2008-04-27 19:30
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference,
+    although this appears to have caused only minor contamination of the wind-profile
+    data.'
+- added: 2008-05-07 08:10
+  author: DAH
+  end: 2008-04-28 19:00
+  number: '333'
+  start: 2008-04-28 13:50
+  text: 'Instrument: MST Radar. The radar suffered a period of interference, although
+    this appears to have been successfully blanked by the signal processing. '
+- added: 2008-05-07 08:12
+  author: DAH
+  end: 2008-04-29 18:00
+  number: '334'
+  start: 2008-04-29 10:50
+  text: 'Instrument: MST Radar. The radar suffered from two short periods of interference,
+    one around 11:00 UT and the second around 17:30. In both cases the signal processing
+    was successful in avoiding contamination of the wind-profile data.'
+- added: 2008-05-07 08:14
+  author: DAH
+  end: 2008-05-01 11:10
+  number: '335'
+  start: 2008-05-01 10:30
+  text: 'Instrument: MST radar. The radar suffered from a short period of interference.
+    However, the signal processing prevented the wind-profile data from being contaminated.'
+- added: 2008-05-07 08:19
+  author: DAH
+  end: 2008-05-02 08:20
+  number: '336'
+  start: 2008-05-02 00:00
+  text: 'Instrument: MST Radar. The radar suffered from two periods of interference
+    - the first 00:00 - 01:40 UT and the second 07:20 - 08:20 UT. In both cases the
+    signal processing prevented the wind-profile data from being contaminated.'
+- added: 2008-05-07 08:22
+  author: DAH
+  end: 2008-05-05 09:40
+  number: '337'
+  start: 2008-05-05 00:00
+  text: 'Instrument: MST Radar. The radar suffered from two periods of interference,
+    the first 00:00 - 01:30 UT and the second 09:00 - 09:40 UT. In both cases the
+    signal processing was successful in preventing contamination of the wind-profile
+    data.'
+- added: 2020-07-20 16:33
+  author: DAH
+  end: 2008-05-08 06:45
+  number: '2810'
+  start: 2008-05-08 06:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes of around
+    9 km between 06:00 and 06:45 UTC should be ignored. They are much stronger than
+    those seen at adjacent times and altitudes and so do not appear to be realistic.'
+- added: 2020-07-20 16:44
+  author: DAH
+  end: 2008-05-27 19:10
+  number: '2811'
+  start: 2008-05-27 18:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes above 15 km
+    between 18:00 and 19:10 UTC should be ignored. There appears to be contamination
+    from an unwanted signal. Although the wind speeds are consistent with those at
+    lower altitudes, the contamination is revealed by near-zero aspect sensitivity.'
+- added: 2008-06-10 12:27
+  author: DAH
+  end: 2008-06-10 10:55
+  number: '338'
+  start: 2008-06-10 08:42
+  text: 'Instrument: WXT510 met sensors. The unit ceased to record any precipitation
+    after 2008-04-15, despite the fact that it is known to have rained since then.
+    The unit was powered down for 2 hours, during which time ZAKO washed the bird-crap
+    off the piezo-electric precipitation sensor. Although it seems more likely that
+    the problem was caused within the electronics, it is conceivable that a crust
+    on top of the sensor might reduce its sensitivity to rain.  '
+- added: 2020-07-23 10:14
+  author: DAH
+  end: 2008-06-27 09:30
+  number: '2812'
+  start: 2008-06-27 08:45
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of just above 15
+    between 08:45 and 09:30 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and so are assumed to be invalid.'
+- added: 2020-07-23 10:20
+  author: DAH
+  end: 2008-06-28 10:30
+  number: '2813'
+  start: 2008-06-28 10:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of around 18.5 between
+    10:00 and 10:30 UTC should be ignored. The speeds are significantly faster than
+    at adjacent times and so are assumed to be invalid.
+
+    '
+- added: 2020-07-23 12:03
+  author: DAH
+  end: 2008-07-02 10:00
+  number: '2814'
+  start: 2008-07-02 08:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13.5 km between
+    08:30 and 10:00 UTC should be ignored. There is "sporadic E" contamination.'
+- added: 2008-07-04 16:09
+  author: DAH
+  end: 2008-07-04 14:00
+  number: '339'
+  start: 2008-07-04 11:00
+  text: 'Instrument: All. An unexpected power cut occurred at around 10:45 UT. ZAKO,
+    who was on site, informed DAH, who was able to shut down the radar and the computers
+    cleanly at around 11:00 UT. The power returned at around 12:00 UT. However, DAH
+    was not able to restart all data acquisition programs until around 14:00 UT.'
+- added: 2020-07-23 12:07
+  author: DAH
+  end: 2008-07-06 13:00
+  number: '2815'
+  start: 2008-07-06 11:15
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 10 km between
+    11:15 and 13:00 UTC should be ignored. There is "sporadic E" contamination.'
+- added: 2020-07-23 12:13
+  author: DAH
+  end: 2008-07-07 22:00
+  number: '2816'
+  start: 2008-07-07 21:15
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of around 11.5 km
+    between 21:15 and 22:00 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and so are assumed to be invalid.'
+- added: 2008-07-24 11:50
+  author: DAH
+  end: 2008-07-18 15:20
+  number: '340'
+  start: 2008-07-11 16:00
+  text: 'Instrument: Tipping bucket raingauge. There was a heavy downpour at around
+    2008-07-18 15:05. However, the tipping bucket raingauge did not record anything.
+    ZAKO dismantled and cleaned the unit and returned it to serive at around 2008-07-18
+    15:20 UT. The last time that there was a clear indication of rain was shortly
+    before 2008-07-11 16:00. '
+- added: 2020-07-23 12:18
+  author: DAH
+  end: 2008-07-14 02:50
+  number: '2817'
+  start: 2008-07-14 02:50
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of around 11.5 km
+    between 02:50 and 03:50 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and so are assumed to be invalid.'
+- added: 2008-08-04 08:28
+  author: DAH
+  end: 2008-07-30 10:00
+  number: '344'
+  start: 2008-07-20 21:00
+  text: 'Instrument: Tipping bucket raingauge. The raingauge did not record any rain
+    (except for one tip at 2008-07-29 15:30) during this period although it is thought
+    to have rained. Rain drops are certainly visible in sky-camera images around 2008-07-29
+    16:00, although the duration of the event may have been too short to accumulate
+    enough rain for a tip. ZAKO inspected the instrument on 2008-07-30 and found that
+    a large black snail had taken residence in the saddle of the tipping mechanism.
+    He removed this and poured 2 litres of water through the system at around 09:00
+    UT.'
+- added: 2008-07-24 14:20
+  author: DAH
+  end: 2008-07-23 18:13
+  number: '341'
+  start: 2008-07-23 17:08
+  text: 'Instrument: All. There appears to have been a mains power failure at the
+    site at 17:08 UT. The data acquisition PCs continued to run for approximately
+    20 minutes before the UPS became discharged. Although all machines came back up
+    cleanly, the MST radar data acquisition and the WXT510 data logging programs did
+    not restart automatically. DAH started them manually the next day.'
+- added: 2008-07-24 14:28
+  author: DAH
+  end: 2008-07-24 11:18
+  number: '342'
+  start: 2008-07-23 17:31
+  text: 'Instrument: MST Radar. An approximately 1 hour long power failure (starting
+    at 2008-07-23 17:08) caused all instruments to shut down. Although the MST radar
+    control and data acquisition PC (Augustus) came back up cleanly after the power
+    was restored, radar and WXT510 programs did not start automatically. DAH spotted
+    the fact that the radar was not running first thing on the mornming of the 2008-07-24.
+    However, since it was not first clear that there had been a power cut, he tried
+    rebooting Augustsus. This took a long time as the PC performed a full disk check.
+    Consequently there was a delay in restarting the MST Radar and WXT510 until 11:18
+    UT.'
+- added: 2008-07-30 08:17
+  author: DAH
+  end: 2008-07-29 18:49
+  number: '343'
+  start: 2008-07-29 15:19
+  text: 'Instrument: MST Radar. The radar was powered down owing to persistent thunderstorms
+    in the Aberystwyth area. Although direct hits are rare, lightning can indirectly
+    damage the radar through mains fluctuations and induced currents. The radar was
+    restarted in the evening after the storms had passed.'
+- added: 2008-08-07 11:02
+  author: DAH
+  end: 2008-08-07 10:58
+  number: '345'
+  start: 2008-08-06 00:00
+  text: 'Instrument: Tipping bucket raingauge. The raingauge did not record any rain
+    during 2008-08-06 despite the fact that the was a mixture of light and heavy rain
+    during the afternoon. DAH dismantled and cleaned the collecting unit and inflow
+    pipe between 09 and 10 UT on 2008-08-07. The inflow pipe appeared to have been
+    blocked by grass cuttings. DAH poured a cup of water into the collecting bowl
+    at around 09:55 UT and could hear the tips of the bucket. However, the collecting
+    bowl has become detatched from the base of the unit and since the two must be
+    aligned for correct operation, the unit will beed to be glued together at a later
+    date. '
+- added: 2020-07-23 16:44
+  author: DAH
+  end: 2008-08-06 12:00
+  number: '2819'
+  start: 2008-08-06 10:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13 km between
+    10:30 and 12:00 UTC should be ignored. They are contaminated by "sporadic E" type
+    interference.'
+- added: 2008-08-07 11:40
+  author: DAH
+  end: 2008-08-07 09:05
+  number: '346'
+  start: 2008-08-07 09:05
+  text: 'Instrument: Laser ceilometer. DAH reset the internal clock at 09:05 UT. It
+    had been running approximately 45 s slow. '
+- added: 2008-08-11 09:00
+  author: DAH
+  end: 2008-08-07 15:30
+  number: '347'
+  start: 2008-08-07 14:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered from interference,
+    although this did not contaminate the wind profiles. '
+- added: 2020-07-23 16:39
+  author: DAH
+  end: 2008-08-07 15:45
+  number: '2818'
+  start: 2008-08-07 14:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13 km between
+    14:30 and 15:45 UTC should be ignored. The signals are contaminated by "sporadic
+    E" type interference.'
+- added: 2008-08-11 09:03
+  author: DAH
+  end: 2008-08-08 11:30
+  number: '348'
+  start: 2008-08-08 10:30
+  text: 'Instrument: MST Radar. The radar appears to have suffered from interference.
+    This caused only a minor contamination of the wind profiles at altitudes above
+    13 km. '
+- added: 2008-08-26 15:29
+  author: DAH
+  end: 2008-08-14 11:00
+  number: '349'
+  start: 2008-08-14 10:00
+  text: 'Instrument: Tipping bucket raingauge. The instrument has continued to fail
+    to register rain, despite recent attempts to fix it. The measurements between
+    10 and 11 UT were caused by the unit being dismantled - not by actual rain.'
+- added: 2008-08-26 15:33
+  author: DAH
+  end: 2008-08-18 10:30
+  number: '350'
+  start: 2008-08-18 10:00
+  text: 'Instrument: Tipping bucket raingauge. ZAKO replaced the raingauge after re-gluing
+    parts of the broken unit back together. The measurements between 10:00 and 10:30
+    UT were caused by him pouring water into the unti in order to test it. It now
+    appears to be working correctly and measurements made later in the day correspond
+    to actual rain fall. ZAKO has raised the base of the unit by 20 cm. It has gradually
+    sunk into the ground over the past few years. '
+- added: 2008-09-04 08:07
+  author: DAH
+  end: 2008-09-03 10:13
+  number: '351'
+  start: 2008-09-03 08:18
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to carry
+    out some work within the antenna array.'
+- added: 2008-09-09 08:09
+  author: DAH
+  end: 2008-09-08 10:15
+  number: '352'
+  start: 2008-09-08 08:20
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to carry
+    out some work within the antenna array.'
+- added: 2008-09-11 08:06
+  author: DAH
+  end: 2008-09-10 09:40
+  number: '353'
+  start: 2008-09-10 09:00
+  text: 'Instrument: Campbell Scientific tipping bucket raingauge. The raingauge had
+    not recorded any rain since 2008-09-04, although the Vaisala WXT510 had done.
+    ZAKO removed grass seeds, which had accumulated in the inlet and poured 1/2 litre
+    of water in as a test (consequently the data from 09:00 - 09:40 UT should be ignored).
+    This resulted in 46 tips, which compares well with the 92 tips produced by a litre
+    of water in an earlier test.'
+- added: 2008-10-10 08:26
+  author: DAH
+  end: 2008-10-09 11:15
+  number: '354'
+  start: 2008-09-25 10:00
+  text: 'Instrument: Wind sensors (Frongoch). No surface wind data were downloaded
+    from Frongoch after 2008-09-25 10:00. DAH spotted this after he returned from
+    leave on 2008-10-06. He contacted the Institute of Mathematics and Physics at
+    Aberystwyth University as they also have equipment at Frongoch. They had  noticed
+    a loss in communications with the hut at around the same time. A member of staff
+    visited the site and traced the cause of the problem to a blown fuse. This was
+    fixed on 2008-10-07. However, DAH did not, at first, realise that the loss of
+    power had caused the wind data logging unit to lose its acqusition program. He
+    uploaded this, and normal logging was resumed, on 2008-10-09.  '
+- added: 2020-07-24 10:16
+  author: DAH
+  end: 2008-10-05 08:30
+  number: '2820'
+  start: 2008-10-05 07:50
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of around 9.5 km
+    between 07:50 and 08:30 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and so are assumed to be invalid.'
+- added: 2020-07-24 10:42
+  author: DAH
+  end: 2008-10-26 04:00
+  number: '2821'
+  start: 2008-10-26 03:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes below 3 km between
+    03:00 and 04:00 UTC should be ignored. The speeds are significantly faster than
+    at adjacent times and so are assumed to be invalid.'
+- added: 2008-10-29 10:03
+  author: DAH
+  end: 2008-10-28 11:25
+  number: '355'
+  start: 2008-10-28 11:15
+  text: 'Instrument: UPS units. There was a thunderstorm in the general Aberystwyth
+    area which caused the mains power to fail for approximately 2 minutes around 11:20.
+    However, the UPS units and all equipment stayed up without a problem.  '
+- added: 2008-10-30 08:02
+  author: DAH
+  end: 2008-10-29 15:20
+  number: '356'
+  start: 2008-10-29 13:55
+  text: 'Instrument: Sky-camera. There was a gap in image capture for just over an
+    hour during a reboot of the acquisition PC. If the computer has not been rebooted
+    for several months, there is a lengthy disk checking process on the next start-up. '
+- added: 2008-10-30 16:37
+  author: DAH
+  end: 2008-10-30 16:18
+  number: '357'
+  start: 2008-10-30 13:50
+  text: 'Instrument: MST Radar. The radar was powered down in order to permit a scheduled
+    inspection of the antenna array. '
+- added: 2008-11-07 14:25
+  author: DAH
+  end: 2008-11-07 15:10
+  number: '358'
+  start: 2008-11-07 03:30
+  text: 'Instrument: MST Radar. The beam steering unit became stuck in an off-vertical
+    beam-pointing direction during the early hours of the morning. This resulted in
+    a failure of the signal processing to be able to generate reliable wind-profile
+    data. DAH spotted the problem at 08 UT and stopped the radar. ZAKO checked all
+    of the components within the unit but was initially unable to find the source
+    of the problem. There appeared to be an earth mismatch between the PC control
+    output and the beam-steering unit itself. This led ZAKO to remove a legacy PDP-11
+    interface unit from the control system which solved the problem.'
+- added: 2008-11-11 09:56
+  author: DAH
+  end: 2008-11-10 17:30
+  number: '359'
+  start: 2008-11-07 08:36
+  text: 'Instrument: WXT510. DAH rebooted the PC which controls the MST radar and
+    which acquires data from the WXT510 on the morning of 2008-11-07 (a Friday). This
+    was to take advantage of the fact that the radar had been powered down following
+    the discovery of a problem. If the PC is left for a long time (i.e. several months)
+    between restarts, it takes several tens of minutes to perform a disk check on
+    reboot. This can be a problem after an unscheduled restart, e.g. following a power
+    outage. However, DAH forgot to restart the program which records data from the
+    WXT510. He did not spot this problem until the following Monday (2008-11-10).'
+- added: 2020-07-24 13:31
+  author: DAH
+  end: 2008-11-10 19:50
+  number: '2822'
+  start: 2008-11-10 19:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes of around 15.5 km
+    between 19:20 and 19:50 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and so are assumed to be invalid.'
+- added: 2008-11-18 08:17
+  author: ZKO
+  end: 2008-11-17 12:00
+  number: '360'
+  start: 2008-11-13 16:00
+  text: 'Instrument: WXT510 rain sensor. No rain was measured between 2008-11-13 16:00  and
+    2008-11-17 12:00 UT, despite the fact that the tipping bucket rain gauge recorded
+    heavy rain on 2008-11-14, persistent rain on 2008-11-15, and mild rain on 2008-11-16.
+    The instrument was power cycled around 2008-11-17 12:00 UT and recorded rain later
+    in the afternoon.'
+- added: 2008-11-21 08:24
+  author: DAH
+  end: 2008-11-20 13:39
+  number: '361'
+  start: 2008-11-20 13:15
+  text: 'Instrument: Electricity, MST Radar, Sky-Camera, WXT510. Manweb visited the
+    site in order to install a new monitoring device on the electricity supply. This
+    required the power to be cut for a short period of time. DAH powered down the
+    radar control and signal processing PCs which resulted in short losses of sky-camera
+    and WXT510 data in addition to the fact that the MST radar was shut down.'
+- added: 2008-11-26 08:24
+  author: DAH
+  end: 2008-11-24 10:00
+  number: '362'
+  start: 2008-11-23 06:00
+  text: 'Instrument: MST Radar. One of the transmitters (TX2) drifted out of tune
+    at some time around 06:00 UT on 2008-11-23, a Sunday. This was apparent from the
+    wind data becoming flagged as being unreliable at the lowest few range gates.
+    ZAKO fixed the problem by 10:00 the following day. '
+- added: 2008-11-26 10:19
+  author: DAH
+  end: 2008-11-25 15:30
+  number: '363'
+  start: 2008-11-25 10:00
+  text: 'Instrument: Tipping Bucket Raingauge. The instrument recorded rain (mediumly
+    heavy for a while) when the WXT510 showed nothing and the sky-camera images reveal
+    almost completely clear skies. The reason for this erroneous reading is unknown. '
+- added: 2008-12-01 10:34
+  author: DAH
+  end: 2008-11-28 00:30
+  number: '364'
+  start: 2008-11-28 00:30
+  text: 'Instrument: MST Radar. The radar suffered from interference on two occasions
+    - the first between 00:30 and 03:30 UT and the second between 09:45 and 11:00
+    UT. Neither instance appears to have caused any contamination of the wind-profile
+    data.'
+- added: 2008-12-01 11:24
+  author: DAH
+  end: 2008-11-29 23:59
+  number: '365'
+  start: 2008-11-29 03:00
+  text: 'Instrument: MST Radar. There was a problem with the data from the lowest
+    few range gates, principally between 03:00 and 11:30 UT, with some evidence of
+    a repeat of the problem (albeit to a much lesser extent) after 15:00. This appears
+    to be a repeat of the problem which first occurred on 2008-11-23.  The quality
+    control routines mostly blanked these portions and so there should be little (if
+    any) contamination of the wind-profile data. '
+- added: 2008-12-01 11:29
+  author: DAH
+  end: 2008-11-30 23:59
+  number: '366'
+  start: 2008-11-30 03:00
+  text: 'Instrument: MST Radar. There was a repeat of the problem first seen on 2008-11-23
+    which affects the data at the lowest 5 range gates. The problem appeared between
+    03:00 and 11:30 UT and then again between 18:45 and 23:59. There is evidence of
+    contamination of the vertical velocities during these periods although the horizontal
+    wind components are less affected. The problem has continued into 2008-12-01.
+
+
+    '
+- added: 2008-12-02 08:15
+  author: DAH
+  end: 2008-12-01 12:30
+  number: '367'
+  start: 2008-12-01 00:00
+  text: 'Instrument: MST Radar. The receiver signals continued to be contaminated
+    at the lowest 5 range gates. This is only apparent in the vertical velocities,
+    which were mostly flagged as being reliable, whereas the quality control was more
+    effective at blanking the horizontal wind components. The problem disappeared
+    without any changes being made to the radar. '
+- added: 2020-07-29 09:24
+  author: DAH
+  end: 2008-12-01 12:45
+  number: '2851'
+  start: 2008-12-01 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 12:45 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident. '
+- added: 2008-12-02 16:17
+  author: DAH
+  end: 2008-12-02 15:29
+  number: '368'
+  start: 2008-12-02 13:30
+  text: 'Instrument: MST Radar. The radar was powered down for 2 hours to allow students
+    from Aberystwyth University to carry out a surveying practical on the antenna
+    array.'
+- added: 2008-12-05 09:33
+  author: DAH
+  end: 2008-12-04 23:59
+  number: '369'
+  start: 2008-12-04 10:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered from interference,
+    primarily between 10:00 and 15:00 UT and then again between 21:00 and 23:59 UT.
+    This lead to only a very small amount of contamination of the wind-profile data
+    between 21:30 and 22:30 at a few altitude gates above 18 km. It also lead to a
+    reduction in useful altitude coverage at around 11:00 UT.'
+- added: 2020-07-29 09:27
+  author: DAH
+  end: 2008-12-04 23:59
+  number: '2852'
+  start: 2008-12-04 21:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 12 km and
+    between 21:20 and 23:59 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2008-12-08 08:35
+  author: DAH
+  end: 2008-12-05 02:40
+  number: '370'
+  start: 2008-12-05 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference, although this
+    was mostly filtered out by the automatic quality control algorithms. It caused
+    only minor contamination of the wind-profile data at the highest range gates.   '
+- added: 2020-07-29 09:30
+  author: DAH
+  end: 2008-12-05 10:40
+  number: '2853'
+  start: 2008-12-05 00:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 14.5 km during
+    the periods between 00:30 and 02:30 UTC and between 09:50 and 10:40 should be
+    ignored. The signals are contaminated by "sporadic E" type interference.'
+- added: 2008-12-08 08:35
+  author: DAH
+  end: 2008-12-05 11:00
+  number: '371'
+  start: 2008-12-05 09:20
+  text: 'Instrument: MST Radar. The radar suffered from interference, although this
+    was mostly filtered out by the automatic quality control algorithms. It caused
+    only minor contamination of the wind-profile data at the highest range gates.'
+- added: 2020-07-29 09:33
+  author: DAH
+  end: 2008-12-07 12:00
+  number: '2854'
+  start: 2008-12-07 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 12:00 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident. '
+- added: 2008-12-08 08:39
+  author: DAH
+  end: 2008-12-07 12:00
+  number: '372'
+  start: 2008-12-07 02:00
+  text: 'Instrument: MST Radar. Spectra at the lowest range gates were affected by
+    a form of contamination which has been seen on several occasions during the past
+    3 weeks. Mostly this was dealt with by the automatic quality control although
+    sporadic contamination of the wind-profile data is evident. '
+- added: 2008-12-09 09:39
+  author: DAH
+  end: 2008-12-08 09:20
+  number: '373'
+  start: 2008-12-08 07:50
+  text: 'Instrument: MST Radar. The radar suffered from interference. Although this
+    does not appear to have resulted in contamination of the wind-profile data, it
+    did lead to a reduction in useful altitude cover.'
+- added: 2020-07-29 09:36
+  author: DAH
+  end: 2008-12-08 20:00
+  number: '2855'
+  start: 2008-12-08 08:10
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 15 km during
+    the periods between 08:10 and 09:10 UTC and between 19:15 and 20:00 UTC should
+    be ignored. The signals are contaminated by "sporadic E" type interference.'
+- added: 2008-12-09 09:39
+  author: DAH
+  end: 2008-12-08 20:40
+  number: '374'
+  start: 2008-12-08 18:50
+  text: 'Instrument: MST Radar. The radar suffered from interference. Although this
+    does not appear to have resulted in contamination of the wind-profile data, it
+    did lead to a reduction in useful altitude cover.'
+- added: 2008-12-10 08:25
+  author: DAH
+  end: 2008-12-09 12:10
+  number: '375'
+  start: 2008-12-09 11:20
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This does not appear to have contaminated the wind-profile data but did lead to
+    a brief loss of coverage.'
+- added: 2008-12-11 08:10
+  author: DAH
+  end: 2008-12-10 13:47
+  number: '376'
+  start: 2008-12-10 10:10
+  text: 'Instrument: MST Radar, Ceilometer, WXT510. All computers and instruments
+    were powered down to allow work to be carried out on the mains electricity supply
+    to the site.'
+- added: 2008-12-11 08:11
+  author: DAH
+  end: 2008-12-10 15:10
+  number: '377'
+  start: 2008-12-10 14:30
+  text: 'Instrument: MST radar. The radar suffered a short period of interference.
+    This does not appear to have contaminated the wind-profile data.'
+- added: 2008-12-12 10:13
+  author: DAH
+  end: 2008-12-11 12:10
+  number: '379'
+  start: 2008-12-10 20:10
+  text: 'Instrument: Laser Ceilometer. There is a gap in the recorded data for no
+    apparent reason. Although all instruments were powered down during the middle
+    of the day on 2008-12-10, the ceilometer resumed normal operations when the power
+    was restored. It wasn''t until 6 hours later that the generation/acquisition of
+    data ceased. The problem was resolved as mysteriously as it had begun, i.e. without
+    any intervention.  '
+- added: 2020-07-29 09:55
+  author: DAH
+  end: 2008-12-11 11:00
+  number: '2856'
+  start: 2008-12-11 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 11:00 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident. '
+- added: 2008-12-12 10:07
+  author: DAH
+  end: 2008-12-11 11:30
+  number: '378'
+  start: 2008-12-11 01:30
+  text: 'Instrument: MST Radar. The radar suffered from contamination of the Doppler
+    spectra at the lowest range gates. Although the vertical velocities were affected
+    by this, the automatic quality control prevented the horizontal wind data from
+    being contaminated. ZAKO was on site towards the end of the event but was unable
+    to identify the source of the problem, which disappeared by itself. '
+- added: 2008-12-18 08:19
+  author: DAH
+  end: 2008-12-12 13:00
+  number: '380'
+  start: 2008-12-12 11:15
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.  This
+    does not appear to have caused any contamination of the wind-profile data.'
+- added: 2008-12-18 08:20
+  author: DAH
+  end: 2008-12-13 21:15
+  number: '381'
+  start: 2008-12-13 19:55
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.  This
+    does not appear to have caused any contamination of the wind-profile data.'
+- added: 2008-12-18 08:23
+  author: DAH
+  end: 2008-12-15 09:00
+  number: '382'
+  start: 2008-12-15 01:40
+  text: 'Instrument: MST Radar. The radar suffered from contamination of the Doppler
+    spectra at the lowest range gates. However, this does not appear to have caused
+    any contamination of the wind-profile data.'
+- added: 2008-12-18 08:25
+  author: DAH
+  end: 2008-12-16 07:20
+  number: '383'
+  start: 2008-12-16 05:50
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This does not appear to have caused any contamination of the wind-profile data.'
+- added: 2008-12-18 08:25
+  author: DAH
+  end: 2008-12-17 07:00
+  number: '384'
+  start: 2008-12-17 06:15
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This does not appear to have caused any contamination of the wind-profile data.'
+- added: 2008-12-18 08:26
+  author: DAH
+  end: 2008-12-17 13:30
+  number: '385'
+  start: 2008-12-17 11:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This does not appear to have caused any contamination of the wind-profile data.'
+- added: 2008-12-22 08:20
+  author: DAH
+  end: 2008-12-19 10:20
+  number: '386'
+  start: 2008-12-19 07:20
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This does not appear to have caused any contamination of the wind-profile data.'
+- added: 2009-01-06 09:00
+  author: DAH
+  end: 2008-12-26 04:30
+  number: '388'
+  start: 2008-12-26 00:00
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference although
+    this appears to have caused only a mild contamination of the wind-profile data
+    for a short period around 03:40 UT. This is only visible at the higher range gates.'
+- added: 2020-07-29 10:00
+  author: DAH
+  end: 2008-12-26 04:10
+  number: '2857'
+  start: 2008-12-26 03:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 14 km and
+    between 03:00 and 04:10 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2009-01-06 09:04
+  author: DAH
+  end: 2008-12-27 11:00
+  number: '389'
+  start: 2008-12-26 18:50
+  text: 'Instrument: MST Radar. The radar suffered from instabilities at the lowest
+    range gates, although the number of range gates affeceted varies during the period.
+    This does not appear to have caused contamination of the wind-profile data. '
+- added: 2020-07-29 10:03
+  author: DAH
+  end: 2008-12-27 11:00
+  number: '2858'
+  start: 2008-12-27 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 11:00 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident. '
+- added: 2020-07-29 10:50
+  author: DAH
+  end: 2008-12-28 17:20
+  number: '2859'
+  start: 2008-12-28 16:40
+  text: 'Instrument: MST Radar. The horizontal wind data at an altitude of around
+    9.5 km between 16:40 and 17:20 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2009-01-06 14:47
+  author: DAH
+  end: 2009-01-01 14:46
+  number: '390'
+  start: 2008-12-29 00:00
+  text: null
+- added: 2009-01-06 14:50
+  author: DAH
+  end: 2009-01-01 08:40
+  number: '391'
+  start: 2008-12-29 00:00
+  text: 'Instrument: MST Radar. The radar suffered from a long period of the spectra
+    at the lowest range gates being contaminated. This does not appear to have contaminated
+    the horizontal components of the wind-profile data, but the vertical velocity
+    components are cleary contaminated at the lowest few range gates.'
+- added: 2020-07-29 10:52
+  author: DAH
+  end: 2008-12-29 23:59
+  number: '2860'
+  start: 2008-12-29 03:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    03:00 and 23:59 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident.'
+- added: 2020-07-29 10:53
+  author: DAH
+  end: 2008-12-30 23:59
+  number: '2861'
+  start: 2008-12-30 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 23:59 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident.'
+- added: 2008-12-31 12:54
+  author: DAH
+  end: 2008-12-31 12:40
+  number: '387'
+  start: 2008-12-30 19:40
+  text: 'Instrument: MST Radar. A hard-drive overflow on the signal processing machine
+    caused an interruption in the data flow. DAH freed up some disk space, which allowed
+    the backlog of observations to be processed as normal.'
+- added: 2020-07-29 10:54
+  author: DAH
+  end: 2008-12-31 23:59
+  number: '2862'
+  start: 2008-12-31 00:00
+  text: 'Instrument: MST Radar. All data products at altitudes below 3 km and between
+    00:00 and 23:59 UTC should be ignored. The receiver signal was contaminated. Although
+    the automatic quality control procedures have marked much of this region as unreliable,
+    some contamination is still evident.'

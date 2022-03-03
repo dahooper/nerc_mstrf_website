@@ -1,0 +1,1320 @@
+- added: 2010-01-04 11:46
+  author: DAH
+  end: 2010-01-02 07:00
+  number: '502'
+  start: 2010-01-01 22:22
+  text: 'Instrument: Campbell Scientific Surface Wind Sensors (Frongoch). There is
+    an (as-yet) inexplicable gap in the data recorded by the logger. '
+- added: 2010-01-04 10:36
+  author: DAH
+  end: 2010-01-03 17:10
+  number: '501'
+  start: 2010-01-03 06:00
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This appears to have contaminated the wind-profile data for only a very short
+    time at around 16:00 - 16:30 UT. '
+- added: 2020-08-11 10:32
+  author: DAH
+  end: 2010-01-03 16:50
+  number: '2946'
+  start: 2010-01-03 15:40
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 7 km and between
+    15:40 and 16:50 UTC should be ignored. The signals are contaminated by "sporadic
+    E" type interference.'
+- added: 2010-01-04 09:56
+  author: DAH
+  end: 2010-01-04 21:42
+  number: '493'
+  start: 2010-01-03 20:48
+  text: "Instrument: Vaisala LD40 Laser Ceilometer. The instrument ceased to make\
+    \ observations. The error code changed from \"00000000\" to \"00050004\", which\
+    \ (according to the Vasiala handbook) suggests: \"Test laser failure. Error. No\
+    \ more measurements possible.\" The problem cleared by itself just over 24 hours\
+    \ later.  \n\nThe advice given by the Vasiala helpdesk is as follows:  According\
+    \ to the manual (M210256, revision D), the error descrpition reads for the fault\
+    \ 00050004 (error code 52):\n\n\"Check test laser: The test laser must be regulated\
+    \ to a constant output signal: Utlpm = 3.25 V. If the test laser output cannot\
+    \ be adjusted to the correct value by the software but the value is still within\
+    \ valid tolerance limits, the lower luminous intensity is compensated by way of\
+    \ calculation. If the software cannot adjust the test laser within the valid tolerance\
+    \ limits, a failure message is generated.\"\n\nThe solution to the error code,\
+    \ however, states:\n\n\"Replace the receiver module and/or the Main Board PCB\
+    \ 1540 and/or the test laser.\nRefer to section Receiver Module Replacement on\
+    \ page 110.\"\n\nSo there might be fault in the receiver or Main board instead\
+    \ of the test laser, or in the worst case scenario, fault at multiple modules.\
+    \ \n\nIf you have spare parts on location, you could try changing one or another\
+    \ of the mentioned modules to see if the error goes away. Changing the receiver\
+    \ module is described in the manual. Changing the test laser is not but it's easy\
+    \ since the part is connected only with two screws and a coax cable. \nChanging\
+    \ the mother board should be the last choice due its complexity and lack of instructions\
+    \ in the manual (it's prefarbly done at our service center)."
+- added: 2010-01-05 08:10
+  author: DAH
+  end: 2010-01-05 01:40
+  number: '503'
+  start: 2010-01-04 18:40
+  text: 'Instrument: MST Radar. The radar suffered from interference. This appears
+    to have caused some minor contamination of the wind-profile data, although over
+    limited time and altitude regions. '
+- added: 2020-08-11 10:35
+  author: DAH
+  end: 2010-01-04 23:00
+  number: '2947'
+  start: 2010-01-04 20:50
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 14 km and
+    between 20:50 and 23:00 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-01-08 08:27
+  author: DAH
+  end: 2010-01-07 01:30
+  number: '504'
+  start: 2010-01-06 19:10
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference,
+    which does not appear to have contaminated the wind-profile data. '
+- added: 2010-01-08 08:34
+  author: DAH
+  end: 2010-01-08 16:00
+  number: '505'
+  start: 2010-01-08 00:29
+  text: 'Instrument: Vaisala LD40 Laser Ceilometer. The instrument has suffered from
+    a repeat failure of the test laser, which first occured on 2010-01-03. Although
+    the instrument started working again after the 13:23 message, the time of the
+    next logged message suddenly jumped to 03:05 UT. All subsequent data have a time
+    stamp which is in error by - 10 hours 19 minutes. DAH corrected this problem in
+    software and re-created all BADC files starting from 20101-01-08 on 2010-01-29. '
+- added: 2010-01-11 10:14
+  author: DAH
+  end: 2010-01-08 13:20
+  number: '506'
+  start: 2010-01-08 11:40
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    which did not contaminate the wind-profile data.'
+- added: 2010-01-11 10:15
+  author: DAH
+  end: 2010-01-08 19:00
+  number: '507'
+  start: 2010-01-08 17:45
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    which did not contaminate the wind-profile data.'
+- added: 2010-01-11 10:16
+  author: DAH
+  end: 2010-01-08 23:00
+  number: '508'
+  start: 2010-01-08 21:50
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    which did not contaminate the wind-profile data.'
+- added: 2010-01-11 10:19
+  author: DAH
+  end: 2010-01-09 19:00
+  number: '509'
+  start: 2010-01-09 00:00
+  text: 'Instrument: MST Radar. The radar suffered from a few short periods of interference
+    during this interval. None caused contamination of the wind-profile data.'
+- added: 2010-01-11 10:21
+  author: DAH
+  end: 2010-01-10 19:00
+  number: '510'
+  start: 2010-01-10 00:00
+  text: 'Instrument: MST Radar. The radar suffered from a few short periods of interference
+    during this interval. None caused contamination of the wind-profile data.'
+- added: 2010-01-14 08:40
+  author: DAH
+  end: 2010-01-12 12:30
+  number: '511'
+  start: 2010-01-12 10:30
+  text: 'Instrument: MST Radar. LD powered down TX5 to allow him to install a new  output
+    valve. This resulted in the peak power increasing from around 5 kW to in excess
+    of 8 kW even on the lowest power setting. '
+- added: 2010-01-18 08:21
+  author: DAH
+  end: 2010-01-15 11:00
+  number: '512'
+  start: 2010-01-15 10:00
+  text: 'Instrument: MST Radar. LD removed TX6 from service in order to investigate
+    its output power level. '
+- added: 2020-08-11 15:17
+  author: DAH
+  end: 2010-01-27 03:10
+  number: '2948'
+  start: 2010-01-27 02:30
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 18.5
+    km between 02:30 and 03:10 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-01-28 10:06
+  author: DAH
+  end: 2010-01-27 16:30
+  number: '513'
+  start: 2010-01-27 13:30
+  text: 'Instrument: Vaisala WXT510. The instrument failed to record precipitation
+    during this period, despite the fact that the Campbell Scientific sensors and
+    the sky-camera indicate that it was raining. The last occasion on which both sensors
+    simultaneously detected rain was on 2010-01-24. [It appears that the rain on 2010-01-27
+    was more like a fine mist, which fell very slowly. This would account for it not
+    being detected by the WXT510].'
+- added: 2010-02-02 08:13
+  author: DAH
+  end: 2010-02-01 15:00
+  number: '514'
+  start: 2010-02-01 12:30
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2020-08-12 10:45
+  author: DAH
+  end: 2010-02-01 21:30
+  number: '2954'
+  start: 2010-02-01 19:30
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 15 km
+    between 19:30 and 21:30 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and altitudes and so might not be valid.'
+- added: 2010-02-02 16:20
+  author: DAH
+  end: 2010-02-02 12:00
+  number: '515'
+  start: 2010-02-02 10:00
+  text: 'Instrument: MST Radar. LD powered down TX5 so that he could install an attachment
+    mechanism for a new type of extractor fan. '
+- added: 2010-02-03 08:08
+  author: DAH
+  end: 2010-02-02 20:00
+  number: '516'
+  start: 2010-02-02 17:00
+  text: 'Instrument: MST Radar. The radar suffered from a few brief instances of interference
+    during this period. This did not contaminate the wind profile data. '
+- added: 2020-08-12 10:50
+  author: DAH
+  end: 2010-02-05 21:00
+  number: '2955'
+  start: 2010-02-05 20:10
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 14.5
+    km between 20:10 and 21:00 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-12 15:21
+  author: DAH
+  end: 2010-02-08 09:20
+  number: '2956'
+  start: 2010-02-08 07:50
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 7 km
+    between 07:50 and 09:20 UTC should be ignored. The speeds are significantly slower
+    than at adjacent times and altitudes and so might not be valid.'
+- added: 2010-02-10 08:05
+  author: DAH
+  end: 2010-02-09 12:30
+  number: '517'
+  start: 2010-02-09 10:00
+  text: 'Instrument: MST Radar. LD powered down TX6 so that he could change the extractor
+    fan. '
+- added: 2010-02-11 08:08
+  author: DAH
+  end: 2010-02-10 09:10
+  number: '518'
+  start: 2010-02-10 05:50
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-02-12 08:05
+  author: DAH
+  end: 2010-02-11 09:30
+  number: '519'
+  start: 2010-02-11 03:50
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-02-12 16:28
+  author: DAH
+  end: 2010-02-12 12:15
+  number: '520'
+  start: 2010-02-12 10:30
+  text: 'Instrument: MST Radar. LD powered down TX5 to allow him to undertake some
+    work on it.'
+- added: 2010-03-15 10:29
+  author: DAH
+  end: 2010-02-14 09:10
+  number: '523'
+  start: 2010-02-14 09:00
+  text: 'Instrument: MST Radar. The radar suffered from a very brief period of interference.
+    This did not contaminate the wind-profile data.'
+- added: 2020-08-12 15:24
+  author: DAH
+  end: 2010-02-14 12:40
+  number: '2957'
+  start: 2010-02-14 11:50
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 9 km
+    between 11:50 and 12:40 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-03-15 11:18
+  author: DAH
+  end: 2010-02-26 17:30
+  number: '524'
+  start: 2010-02-26 14:30
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    The wind-profile data were not contaminated.  '
+- added: 2020-08-17 15:52
+  author: DAH
+  end: 2010-03-01 22:50
+  number: '2959'
+  start: 2010-03-01 22:10
+  text: 'Instrument: MST Radar. The horizontal wind data at an altitude of around
+    11 km between 22:10 and 22:50 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-03-15 11:33
+  author: DAH
+  end: 2010-03-02 10:00
+  number: '525'
+  start: 2010-03-02 03:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference.
+    This did not cause any contamination of the wind profile data. '
+- added: 2010-03-03 17:02
+  author: DAH
+  end: 2010-03-05 12:09
+  number: '521'
+  start: 2010-03-02 09:17
+  text: 'Instrument: MST radar. The radar was powered down for most of the week in
+    order to allow a detailed survey of the system to be undertaken. During this period,
+    it was operated 2010-03-04 17:12 - 2010-03-05 09:51. '
+- added: 2010-03-15 11:36
+  author: DAH
+  end: 2010-03-05 09:30
+  number: '526'
+  start: 2010-03-05 03:30
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-03-15 11:38
+  author: DAH
+  end: 2010-03-07 08:00
+  number: '527'
+  start: 2010-03-07 05:30
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-03-15 11:43
+  author: DAH
+  end: 2010-03-08 09:30
+  number: '528'
+  start: 2010-03-08 06:30
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This did not contaminate the wind-profile data. '
+- added: 2010-03-15 08:17
+  author: DAH
+  end: 2010-03-13 08:45
+  number: '522'
+  start: 2010-03-13 05:00
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This did not cause any contamination of the wind-profile data. '
+- added: 2010-03-16 08:04
+  author: DAH
+  end: 2010-03-15 10:50
+  number: '529'
+  start: 2010-03-15 03:00
+  text: 'Instrument: MST Radar. The radar suffered from non-continuous interference
+    during this period. The wind-profile data were not contaminated.'
+- added: 2010-03-18 09:28
+  author: DAH
+  end: 2010-03-16 11:15
+  number: '530'
+  start: 2010-03-15 21:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. This did not cause any contamination of the wind-profile data.
+    On 2010-03-16 LD fitted a fan to aid air circulation around the radar control
+    and data acquisition boards. It is thought that interference may be associated
+    with high temperatures in these units.'
+- added: 2010-03-22 08:48
+  author: DAH
+  end: 2010-03-21 09:20
+  number: '531'
+  start: 2010-03-20 19:40
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. This did not cause any contamination of the wind-profile data. '
+- added: 2010-03-29 14:57
+  author: ZKO
+  end: 2010-03-23 08:55
+  number: '533'
+  start: 2010-03-22 21:10
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. This does not appear to have contaminated the wind-profile
+    data. '
+- added: 2010-03-29 14:54
+  author: DAH
+  end: 2010-03-23 12:30
+  number: '532'
+  start: 2010-03-23 10:30
+  text: 'Instrument: MST Radar. LD powered down TX6 and then TX1 (one at a time) during
+    this period to allow him to carry out maintenance work.'
+- added: 2010-03-29 15:04
+  author: DAH
+  end: 2010-03-23 12:00
+  number: '536'
+  start: 2010-03-23 11:59
+  text: 'Instrument: MST Radar. LD installed a replacement battery pack on the UPS
+    for TX5. This had been complaining for some time about one of the batteries being
+    non-functional.  '
+- added: 2010-03-29 14:59
+  author: DAH
+  end: 2010-03-24 02:20
+  number: '534'
+  start: 2010-03-23 13:50
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. This does not appear to have contaminated the wind-profile
+    data. '
+- added: 2010-03-29 15:02
+  author: DAH
+  end: 2010-03-24 11:30
+  number: '535'
+  start: 2010-03-24 11:29
+  text: 'Instrument: MST Radar. LD powered up one of the TXs, which had auto-powered
+    down at some indeterminate point during the previous 24 hours. '
+- added: 2010-03-29 16:25
+  author: DAH
+  end: 2010-03-24 17:00
+  number: '540'
+  start: 2010-03-24 16:30
+  text: 'Instrument: Tipping bucket raingauge. LD cleaned out the inlet with bleach
+    in order to remove a build-up of bio-gunge. The last recorded rain event, which
+    was rather weak, was on 2010-03-12. It is not thought to have rained since then.
+    A reasonable accumulation of rain was recorded on the day after cleaning, i.e.
+    2010-03-25.'
+- added: 2010-03-29 15:09
+  author: DAH
+  end: 2010-03-26 11:00
+  number: '537'
+  start: 2010-03-26 10:00
+  text: 'Instrument: MST Radar. LD powered down TX5 in order to carry out maintenance
+    work on it.'
+- added: 2010-03-29 15:18
+  author: DAH
+  end: 2010-03-27 21:00
+  number: '538'
+  start: 2010-03-27 20:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period.'
+- added: 2010-03-29 15:35
+  author: DAH
+  end: 2010-03-28 02:00
+  number: '539'
+  start: 2010-03-28 01:00
+  text: 'Instrument: MST Radar. The quick-look plots appear to suggest that no observations
+    were made during this period. However, spectral files are available. This is apparently
+    a problem caused by the change from GMT to BST although it is not clear exactly
+    where in the processing chain it occurs. There is a high degree of confidence
+    that the time stamps of individual observations are recorded correctly (in UT)
+    and so should not affect observations made on days to either side. It is noted
+    that the same problem was seen when the clocks changed last year on 2009-03-29.   '
+- added: 2020-08-17 16:02
+  author: DAH
+  end: 2010-03-28 03:00
+  number: '2960'
+  start: 2010-03-28 01:00
+  text: 'Instrument: MST Radar. All data products (except the spectral data) between
+    01:00 and 03:00 UTC should be ignored. Owing to an understood bug in the processing
+    software, the time stamps are misinterpreted during the change from GMT to BST.'
+- added: 2010-03-30 09:07
+  author: DAH
+  end: 2010-03-28 10:45
+  number: '541'
+  start: 2010-03-28 03:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. The wind-profile data do not appear to have been contaminated. '
+- added: 2010-03-30 09:08
+  author: DAH
+  end: 2010-03-29 06:00
+  number: '542'
+  start: 2010-03-28 19:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    during this period. This does not appear to have contaminated the wind-profile
+    data. '
+- added: 2010-03-31 09:46
+  author: DAH
+  end: 2010-03-30 12:50
+  number: '543'
+  start: 2010-03-30 12:30
+  text: 'Instrument: MST Radar. The radar suffered from an isolated incidence of interference.
+    This did not contaminate the wind-profile data.'
+- added: 2010-04-06 08:44
+  author: DAH
+  end: 2010-04-02 23:59
+  number: '544'
+  start: 2010-04-02 21:50
+  text: 'Instrument: MST Radar. The radar suffered from some minor, non-continuous
+    interference during this period. This did not contaminate the wind-profile data.'
+- added: 2010-04-12 15:31
+  author: DAH
+  end: 2010-04-14 16:26
+  number: '545'
+  start: 2010-04-10 08:53
+  text: 'Instrument: Vaisala WXT510. Sporadic data messages produced by this instrument
+    became corrupted starting at 2010-04-10 08:53 UT. DAH power-cycled the instrument
+    at 2010-04-14 16:26 UT, although no corrupted data messages had been seen since
+    around 13:00 of that day. At the time of updating this log entry, no corrupted
+    messages have been seen for over 24 hours. BADC files for the affected period
+    will need to be re-created in order to remove the obviously-incorrect measurements. '
+- added: 2020-08-18 08:58
+  author: DAH
+  end: 2010-04-11 14:50
+  number: '2961'
+  start: 2010-04-11 14:10
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 4 km
+    between 14:10 and 14:50 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-18 09:02
+  author: DAH
+  end: 2010-04-19 10:50
+  number: '2962'
+  start: 2010-04-19 10:20
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes around 14.5
+    km between 10:20 and 10:50 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-04-26 08:23
+  author: DAH
+  end: 2010-04-25 13:00
+  number: '546'
+  start: 2010-04-25 01:00
+  text: 'Instrument: Vaisala WXT510. The instrument did not record any rain during
+    this period, although the Campbell Scientific tipping bucket rain-gauge recorded
+    events at around 01:30, 08:50, 11:50 and 12:50 UT. It is possible that the rain
+    was too light to be detected by the piezo-electric sensor.'
+- added: 2010-05-04 08:35
+  author: DAH
+  end: 2010-05-02 00:40
+  number: '547'
+  start: 2010-05-01 14:10
+  text: 'Instrument: Vaisala WXT510. This instrument did not detect a (non-continuous)
+    rain event during this period, although it was detected by the tipping bucket
+    rain gauge. '
+- added: 2010-05-06 08:08
+  author: DAH
+  end: 2010-05-05 15:50
+  number: '548'
+  start: 2010-05-05 06:00
+  text: 'Instrument: Vaisala WXT510. The piezo-electric sensor failed to record the
+    very light rain which fell during this period and which was recorded by the tipping
+    bucket rain gauge. '
+- added: 2020-08-18 14:44
+  author: DAH
+  end: 2010-05-08 11:20
+  number: '2963'
+  start: 2010-05-08 10:40
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes between 9.5
+    and 10.5 km and between times of 10:40 and 11:20 UTC are significantly faster
+    than at adjacent times and altitudes. It is not clear whether or not they are
+    valid.'
+- added: 2010-05-17 08:19
+  author: DAH
+  end: 2010-05-14 13:40
+  number: '550'
+  start: 2010-05-14 00:20
+  text: 'Instrument: Vaisala WXT510. This instrument failed to detect a (non-continuous)
+    mild rain event which was recorded by the tipping bucket rain gauge.'
+- added: 2010-05-17 08:16
+  author: DAH
+  end: 2010-05-16 05:10
+  number: '549'
+  start: 2010-05-16 00:30
+  text: 'Instrument: Vaisala WXT510. This instrument failed to detect a mild rain
+    event, which was detected by the tipping bucket rain gauge.'
+- added: 2010-05-19 08:19
+  author: DAH
+  end: 2010-05-18 10:30
+  number: '551'
+  start: 2010-05-18 09:10
+  text: 'Instrument: MST Radar. The radar was powered down to allow LD to carry out
+    work on the locking transmitter.'
+- added: 2010-06-03 10:02
+  author: DAH
+  end: 2010-05-28 16:00
+  number: '552'
+  start: 2010-05-20 00:00
+  text: 'Instrument: MST radar, Vasiala LD40, Vaisala WXT510, Campbell Scientific
+    surface met sensors, Campbell Scientific surface wind sensors. A software update
+    on the BADC computer used for generaing quick-look plots ("fair") caused the quick-look
+    plotting facilities to stop working on 2010-05-20. The plotting tasks were transferred
+    to another machine, although this required modifications to be made to the scripts
+    so that they could be used with the latest version (4.4) of the gnuplot software.
+    The modified scripts were not fully functional until 2010-05-28.  '
+- added: 2010-06-03 10:16
+  author: DAH
+  end: 2010-05-25 10:18
+  number: '553'
+  start: 2010-05-25 09:00
+  text: 'Instrument: MST Radar. LD took the transmitters out of operation so that
+    he could increase their output power settings from level 2 to level 3 (out of
+    5). This was successful for all transmitters except the one driving the central
+    part of the antenna array, which did not operate stably at this setting. Its output
+    power setting was reset to level 2 before operations resumed.   '
+- added: 2020-08-18 14:50
+  author: DAH
+  end: 2010-05-25 23:59
+  number: '2964'
+  start: 2010-05-25 21:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13 km and
+    between 21:00 and 23:59 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-06-03 10:20
+  author: DAH
+  end: 2010-05-25 23:30
+  number: '554'
+  start: 2010-05-25 21:50
+  text: 'Instrument: MST Radar. The radar suffered a short period of interference.
+    This appears of to have mildly contaminated the wind-profile data, although for
+    only less than 10 minutes at around 22:00 UT. '
+- added: 2010-06-03 11:25
+  author: DAH
+  end: 2010-05-27 18:15
+  number: '555'
+  start: 2010-05-27 17:55
+  text: 'Instrument: MST Radar. The radar suffered from a very brief period of interference.
+    This does not appear to have caused any contamination of the wind-profile data. '
+- added: 2020-08-18 14:52
+  author: DAH
+  end: 2010-05-27 23:30
+  number: '2965'
+  start: 2010-05-27 21:10
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 15 km and
+    between 21:10 and 23:30 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-06-03 11:31
+  author: DAH
+  end: 2010-05-27 22:30
+  number: '556'
+  start: 2010-05-27 21:30
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This appears to have caused some slight contamination of the wind-profile data
+    for a small proportion of the period.'
+- added: 2010-06-03 11:37
+  author: DAH
+  end: 2010-05-28 14:30
+  number: '557'
+  start: 2010-05-28 10:00
+  text: 'Instrument: MST Radar. The radar suffered from two narrowly-separated periods
+    of interference. Neither appears to have caused any contamination of the wind-profile
+    data. '
+- added: 2020-08-18 14:55
+  author: DAH
+  end: 2010-05-28 14:00
+  number: '2966'
+  start: 2010-05-28 12:50
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 12 km and
+    between 20:50 and 23:00 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference. There might also be some contamination 10:20 and
+    12:00 UTC, although this is less clear. '
+- added: 2020-08-18 14:57
+  author: DAH
+  end: 2010-05-31 14:00
+  number: '2967'
+  start: 2010-05-31 10:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 8 km and between
+    10:20 and 14:00 UTC should be ignored. The signals are contaminated by "sporadic
+    E" type interference.'
+- added: 2010-06-03 11:41
+  author: DAH
+  end: 2010-05-31 14:00
+  number: '558'
+  start: 2010-05-31 10:30
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference.
+    This appears to have caused only very mild contamination of the wind-profile data.'
+- added: 2020-08-19 10:17
+  author: DAH
+  end: 2010-06-01 16:00
+  number: '2972'
+  start: 2010-06-01 11:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions, which are contaminated by "sporadic E" type interference:
+    between 11:30 and 13:00 UTC at altitudes above 16 km, and between 14:30 and 16:00
+    UTC at altitudes above 10 km. '
+- added: 2010-06-03 11:45
+  author: DAH
+  end: 2010-06-01 15:45
+  number: '559'
+  start: 2010-06-01 14:45
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This caused some contamination of the wind-profile data.'
+- added: 2010-06-04 08:41
+  author: DAH
+  end: 2010-06-03 20:00
+  number: '560'
+  start: 2010-06-03 14:55
+  text: 'Instrument: MST Radar. The radar suffered from three brief periods of interference:
+    at around 15:00, 17:10 and 19:45 UT. None of these appears to have caused contamination
+    of the wind-profile data.'
+- added: 2010-06-10 09:36
+  author: DAH
+  end: 2010-06-05 12:45
+  number: '562'
+  start: 2010-06-05 11:50
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-06-06 15:33
+  author: DAH
+  end: 2010-06-06 09:08
+  number: '561'
+  start: 2010-06-06 09:07
+  text: 'Instrument: UPS units. The UPS units indicated a short-lived fluctuation
+    in mains power. This does not appear to have had any further effects.'
+- added: 2020-08-19 10:20
+  author: DAH
+  end: 2010-06-07 10:30
+  number: '2973'
+  start: 2010-06-07 09:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 8 km and between
+    09:00 and 10:30 UTC should be ignored. The signals are contaminated by "sporadic
+    E" type interference.'
+- added: 2010-06-10 09:41
+  author: DAH
+  end: 2010-06-07 10:30
+  number: '563'
+  start: 2010-06-07 09:30
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This caused some contamination of the wind-profile data.'
+- added: 2010-06-10 09:43
+  author: DAH
+  end: 2010-06-07 16:30
+  number: '564'
+  start: 2010-06-07 13:00
+  text: 'Instrument: MST Radar. The radar was powered down to allow a survey of the
+    antenna array to be conducted.'
+- added: 2010-06-10 09:45
+  author: DAH
+  end: 2010-06-08 18:00
+  number: '565'
+  start: 2010-06-08 08:30
+  text: 'Instrument: MST Radar. The radar was powered down to allow a survey of the
+    antenna array to be conducted.'
+- added: 2010-06-11 08:24
+  author: DAH
+  end: 2010-06-08 12:51
+  number: '568'
+  start: 2010-06-08 10:37
+  text: 'Instrument: Vaisala WXT510. There is a gap in data capture owing to the acquisition
+    PC, "augustus", being rebooted.'
+- added: 2010-06-11 08:20
+  author: DAH
+  end: 2010-06-08 12:14
+  number: '567'
+  start: 2010-06-08 10:40
+  text: 'Instrument: Sky-Camera. There is a gap in image capture owing to the acquisition
+    PC, "claudius", being rebooted. '
+- added: 2010-06-10 09:48
+  author: DAH
+  end: 2010-06-09 13:00
+  number: '566'
+  start: 2010-06-09 08:00
+  text: 'Instrument: MST Radar. The radar was powered down to allow a survey of the
+    antenna array to be conducted.'
+- added: 2010-06-14 08:30
+  author: DAH
+  end: 2010-06-11 10:30
+  number: '569'
+  start: 2010-06-11 10:30
+  text: 'Instrument: MST Radar. LD fixed a blown choke on TX1. It is not known for
+    how long the TX had not been transmitting.'
+- added: 2010-06-14 08:32
+  author: DAH
+  end: 2010-06-12 21:45
+  number: '570'
+  start: 2010-06-12 20:00
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference,
+    which does not appear to have contaminated the wind-profile data.'
+- added: 2020-08-19 10:23
+  author: DAH
+  end: 2010-06-12 21:40
+  number: '2974'
+  start: 2010-06-12 20:10
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 12 km and
+    between 20:10 and 21:40 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2020-08-19 10:28
+  author: DAH
+  end: 2010-06-13 20:50
+  number: '2975'
+  start: 2010-06-13 20:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 10
+    km between times of 20:00 and 20:50 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-19 10:37
+  author: DAH
+  end: 2010-06-21 20:10
+  number: '2976'
+  start: 2010-06-21 14:40
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions, which are contaminated by "sporadic E" type interference:
+    between 14:40 and 16:10 UTC at altitudes above 14 km, and between 18:40 and 20:10
+    UTC at altitudes above 14 km.'
+- added: 2010-06-22 08:10
+  author: DAH
+  end: 2010-06-21 15:55
+  number: '571'
+  start: 2010-06-21 14:45
+  text: 'Instrument: MST Radar. The radar appears to have suffered from a brief period
+    of interference. This did not cause any contamination of the wind profile data
+    although it did result in a data gap down to low altitudes. '
+- added: 2010-06-24 08:19
+  author: DAH
+  end: 2010-06-22 19:35
+  number: '572'
+  start: 2010-06-22 19:15
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This did not cause any contamination of the wind profile data.'
+- added: 2010-06-25 08:41
+  author: DAH
+  end: 2010-06-24 13:45
+  number: '573'
+  start: 2010-06-24 13:00
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference,
+    which did not cause contamination of the wind-profile data.'
+- added: 2020-08-19 10:43
+  author: DAH
+  end: 2010-06-24 14:00
+  number: '2977'
+  start: 2010-06-24 13:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes of around
+    10.5 and 15.5 km between 13:00 and 14:00 UTC are significantly faster than at
+    adjacent times and altitudes. They are assumed to be invalid.'
+- added: 2010-06-25 08:42
+  author: DAH
+  end: 2010-06-24 19:10
+  number: '574'
+  start: 2010-06-24 18:50
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference,
+    which did not cause contamination of the wind-profile data.'
+- added: 2010-06-29 08:22
+  author: DAH
+  end: 2010-06-26 20:30
+  number: '575'
+  start: 2010-06-26 16:50
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference which
+    did not cause any contamination of the wind-profile data.'
+- added: 2010-07-08 16:24
+  author: DAH
+  end: 2010-06-29 09:00
+  number: '581'
+  start: 2010-06-29 09:00
+  text: 'Instrument: Campbell Scientific tipping bucket rain gauge. LD cleaned out
+    the instrument, which had become blocked with gunge. '
+- added: 2010-07-06 08:20
+  author: DAH
+  end: 2010-07-01 21:00
+  number: '578'
+  start: 2010-07-01 06:30
+  text: 'Instrument: Vaisala WXT510. The instrument did not record any rain during
+    this period although some light rain was recorded (non-continuously) by the tipping
+    bucket rain gauge. However, since the WXT510 began to record the heavy rain after
+    21:00, it is thought that the earlier rain was too light to register. '
+- added: 2020-08-20 08:29
+  author: DAH
+  end: 2010-07-03 11:50
+  number: '2978'
+  start: 2010-07-03 10:40
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 15 km and
+    between 10:40 and 11:50 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-07-06 08:26
+  author: DAH
+  end: 2010-07-03 18:42
+  number: '579'
+  start: 2010-07-03 18:41
+  text: 'Instrument: UPS. The UPS units indicate a brief disruption in the mains electricity
+    supply. '
+- added: 2010-07-06 08:14
+  author: DAH
+  end: 2010-07-05 12:40
+  number: '576'
+  start: 2010-07-05 12:00
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference,
+    which did not cause any contamination of the wind profile data. '
+- added: 2020-08-20 08:32
+  author: DAH
+  end: 2010-07-05 13:00
+  number: '2979'
+  start: 2010-07-05 12:10
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes above 14 km
+    between times of 12:10 and 13:00 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and so are assumed to be invalid.'
+- added: 2010-07-06 08:18
+  author: DAH
+  end: 2010-07-06 10:00
+  number: '577'
+  start: 2010-07-06 09:30
+  text: 'Instrument: MST Radar. The radar was powered down in order to allow LD to
+    change the locking transmitter from TX3 to TX4. The latter proved to be unstable
+    and so locking was shortly switched to TX5'
+- added: 2020-08-20 08:35
+  author: DAH
+  end: 2010-07-06 19:30
+  number: '2980'
+  start: 2010-07-06 16:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 10 km and
+    between 16:30 and 19:30 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-07-08 10:31
+  author: DAH
+  end: 2010-07-06 19:30
+  number: '580'
+  start: 2010-07-06 17:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered from a brief period
+    of interference, This caused some contamination of the wind profile data, although
+    for only a short section of this period. '
+- added: 2010-07-15 15:30
+  author: DAH
+  end: 2010-07-07 11:00
+  number: '584'
+  start: 2010-07-07 11:00
+  text: 'Instrument: MST Radar. LD restarted TX3, which had blown a fuse. It''s not
+    known for how long the transmitter had been out of action.'
+- added: 2010-07-14 08:10
+  author: DAH
+  end: 2010-07-13 20:10
+  number: '582'
+  start: 2010-07-13 19:40
+  text: 'Instrument: Vaisala WXT510. The piezo electric sensor failed to detect what
+    looks like an itense rain event at around 20:00. The sky-camera images suggest
+    that the rain was of the "suspended wetness" variety.'
+- added: 2010-07-15 10:05
+  author: DAH
+  end: 2010-07-14 23:50
+  number: '583'
+  start: 2010-07-14 05:50
+  text: 'Instrument: Vaisala WXT510. The piezo electric sensor failed to record a
+    number of separate rain events during the course of the day which were detected
+    by the tipping bucket rain gauge. Although sky-camera images suggest that the
+    rain rate was quite light for some of these events, the rain rates towards the
+    end of the day look sufficiently heavy that they should have been detected. '
+- added: 2010-07-19 08:14
+  author: DAH
+  end: 2010-07-18 18:30
+  number: '585'
+  start: 2010-07-18 17:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2020-08-20 08:39
+  author: DAH
+  end: 2010-07-18 18:40
+  number: '2981'
+  start: 2010-07-18 17:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13 km and
+    between 20:10 and 21:40 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-07-22 08:54
+  author: DAH
+  end: 2010-07-20 22:30
+  number: '586'
+  start: 2010-07-20 00:00
+  text: Instrument WXT510. The piezo-electric sensor failed to detect any precipitation
+    during this day, although the tipping bucket rain gauge did. Although there has
+    been some doubt recently as to whether the sensor is capable of detecting light
+    rain, the tipping bucket rain gauge data show 10 minute mean rates peaking at
+    over 10 mm/hour in two events of heavy rain - 10:00 - 13:30 UT and 14:50 - 20:10.
+    These should definitely have been detected by the WXT510. The cause of the problem
+    is unknown.
+- added: 2010-07-22 08:57
+  author: ZKO
+  end: 2010-07-21 20:30
+  number: '587'
+  start: 2010-07-21 04:00
+  text: 'Instrument: Vaisala WXT510. The piezo-electric sensor failed to the detect
+    the intermittent rain that was seen by the tipping bucket rain gauge. '
+- added: 2010-07-29 08:59
+  author: DAH
+  end: 2010-07-27 08:49
+  number: '588'
+  start: 2010-07-27 08:30
+  text: 'Instrument: Vaisala WXT510. The instrument was power cycled (which resulted
+    in a gap in data acquisition for 20 minutes) in an attempt to clear the problem
+    which prevented it from detecting precipitation. This has previously helped.  '
+- added: 2010-08-03 08:49
+  author: DAH
+  end: 2010-08-02 14:00
+  number: '589'
+  start: 2010-08-02 08:00
+  text: 'Instrument: Electricity + MST Radar, Vaisala WXT510, Sky-Camera. The electricity
+    supply was down for this period as part of scheduled maintenance work, by Scottish
+    Power, on the local distribution network. All pieces of equipment were brought
+    down in a controlled manner before 08:00 UT and then restarted after the supply
+    was resumed. Only the Campbell Scientific data-loggers continued to operate during
+    this period.  '
+- added: 2010-08-03 09:05
+  author: DAH
+  end: 2010-08-03 08:00
+  number: '590'
+  start: 2010-08-02 14:50
+  text: 'Instrument: Vaisala LD40 laser ceilometer. The instrument''s internal clock,
+    which is used to generate date-time stamps for data messages, was (passively)
+    reset when the electricity suplly was resumed. DAH added a correction for this
+    in soft ware by 2010-08-03 08:00 UT.'
+- added: 2010-08-06 08:37
+  author: DAH
+  end: 2010-08-03 10:15
+  number: '592'
+  start: 2010-08-03 10:05
+  text: 'Instrument: MST Radar. The radar suffered from a very short period of interference.
+    This did not cause any contamination of the wind-profile data.'
+- added: 2010-08-06 08:35
+  author: DAH
+  end: 2010-08-03 11:00
+  number: '591'
+  start: 2010-08-03 11:00
+  text: 'Instrument: MST Radar. LD repaired the choke on transmitter TX1. It had first
+    blown when the radar was restarted, following by the mains electricity becoming
+    available on 2010-08-02. It blew once more before4 stable operations were resumed.   '
+- added: 2010-08-10 13:49
+  author: DAH
+  end: 2010-08-10 10:10
+  number: '593'
+  start: 2010-08-08 16:30
+  text: 'Instrument: MST Radar. The choke blew on transmitter TX5 - on a Sunday afternoon
+    - which lead to a reduction in useful radar altitude coverage. LD repaired the
+    choke the next time he was on site.'
+- added: 2020-08-20 16:50
+  author: DAH
+  end: 2010-08-14 17:50
+  number: '2982'
+  start: 2010-08-14 17:10
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 11
+    km between times of 17:10 and 17:50 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-08-18 08:19
+  author: DAH
+  end: 2010-08-17 07:00
+  number: '594'
+  start: 2010-08-17 00:30
+  text: 'Instrument: WXT510. Although the instrument was generating rain messages
+    during this prolonged period of moderate rain, most showed zero rain rates. Consequently
+    the instrument recorded very little accumulation of rain. '
+- added: 2010-08-23 08:28
+  author: DAH
+  end: 2010-08-20 09:00
+  number: '597'
+  start: 2010-08-20 00:30
+  text: 'Instrument: Vaisala WXT510. The instrument failed to detect significant rain
+    accumulations in three short episodes during this period, the first of which (00:30
+    - 02:20 UT) had peak rain rates in excess of 5 mm/hour as measured by the tipping
+    bucket rain gauge.'
+- added: 2010-08-20 11:25
+  author: DAH
+  end: 2010-08-20 09:40
+  number: '595'
+  start: 2010-08-20 09:40
+  text: 'Instrument: UPS units. There was a brief (~ 1s) disruption of the incoming
+    mains electricity. '
+- added: 2010-08-23 08:18
+  author: DAH
+  end: 2010-08-22 19:46
+  number: '596'
+  start: 2010-08-22 19:46
+  text: 'Instrument: UPS units. All  units indicated a brief (< 1 minute) disruption
+    to the incoming mains electricity.'
+- added: 2020-08-20 16:55
+  author: DAH
+  end: 2010-08-28 15:20
+  number: '2983'
+  start: 2010-08-28 13:20
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 12 km and
+    between 13:20 and 15:20 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-09-01 08:22
+  author: DAH
+  end: 2010-08-28 15:10
+  number: '598'
+  start: 2010-08-28 14:50
+  text: 'Instrument: MST Radar. The radar suffered from a brief period of interference.
+    This did not cause any contamination of the wind profile data. '
+- added: 2010-09-07 09:01
+  author: DAH
+  end: 2010-09-06 17:30
+  number: '599'
+  start: 2010-09-06 12:30
+  text: 'Instrument: MST Radar. At least one of the 6-degree beams appears to have
+    been contaminated with ground clutter, at an altitude of around 6.5 km, although
+    this did not affect the wind-profile data. This is of interest rather than concern
+    as ground clutter is commonly-occurring, but is typically filtered out by the
+    signal processing on a beam by beam basis. Evidence for the contamination is manifest
+    in large values of the horizontal wind complementary beam variability factor and
+    corresponding gaps in the wind-profile data.   '
+- added: 2010-09-08 08:07
+  author: DAH
+  end: 2010-09-08 05:45
+  number: '600'
+  start: 2010-09-08 05:45
+  text: 'Instruments: UPS units. There was a brief disruption in the incoming mains. '
+- added: 2020-08-21 09:57
+  author: DAH
+  end: 2010-09-12 18:20
+  number: '2984'
+  start: 2010-09-12 17:40
+  text: 'Instrument: MST Radar. The horizontal wind data at an altitude of around
+    8.5 km between 17:40 and 18:20 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2020-08-21 10:04
+  author: DAH
+  end: 2010-09-17 23:50
+  number: '2985'
+  start: 2010-09-17 23:10
+  text: 'Instrument: MST Radar. All data products should be ignored between 23:10
+    and 23:50 UTC at all altitudes. The beam steering unit was stuck in an off-vertical
+    beam pointing direction, invalidating the usual interpretation of the radial data.'
+- added: 2010-09-20 09:33
+  author: DAH
+  end: 2010-09-17 23:55
+  number: '601'
+  start: 2010-09-17 23:25
+  text: 'Instrument: MST Radar. The beam steering unit appears to have malfunctioned,
+    sticking in a single off-vertical beam pointing direction. The wind-profile data
+    for this period are consequently invalid. The problem recurred the following day,
+    2010-09-18. '
+- added: 2010-09-20 09:36
+  author: DAH
+  end: 2010-09-20 11:15
+  number: '602'
+  start: 2010-09-18 17:00
+  text: "Instrument: MST Radar. The beam steering unit malfunctioned again for the\
+    \ second time in 24 hours. It was apparently stuck in a single off-vertical direction\
+    \ and so the wind-profile data are invalid. The problem started on a Saturday\
+    \ night and so was not spotted until first thing on the following Monday morning\
+    \ (2010-09-20), when DAH blocked the Met Office's data feed. LD was able to be\
+    \ on site, in an emergency capacity, the same morning and fixed the problem. He\
+    \ thought that loose circuit board connections in the beam steering unit were\
+    \ to blame. \n"
+- added: 2020-08-21 10:25
+  author: DAH
+  end: 2010-09-18 23:59
+  number: '2986'
+  start: 2010-09-18 17:00
+  text: 'Instrument: MST Radar. All data products should be ignored between 17:00
+    and 23:59 UTC at all altitudes. The beam steering unit was stuck in an off-vertical
+    beam pointing direction, invalidating the usual interpretation of the radial data.'
+- added: 2020-08-21 10:27
+  author: DAH
+  end: 2010-09-20 11:10
+  number: '2987'
+  start: 2010-09-20 00:00
+  text: 'Instrument: MST Radar. All data products should be ignored between 00:00
+    and 11:10 UTC at all altitudes. The beam steering unit was stuck in an off-vertical
+    beam pointing direction, invalidating the usual interpretation of the radial data.'
+- added: 2010-09-29 08:17
+  author: DAH
+  end: 2010-09-28 11:00
+  number: '603'
+  start: 2010-09-28 09:00
+  text: 'Instrument: MST Radar. LD powered down one of the transmitters (TX6) so that
+    he could replace the blower motor with a spare unit. The original motor, which
+    has been in operation for approximately 18 months, was beginning to make a lot
+    of noise and will probably need to have its bearings replaced.  '
+- added: 2010-09-30 15:50
+  author: DAH
+  end: 2010-09-30 13:31
+  number: '604'
+  start: 2010-09-30 10:50
+  text: 'Instrument: MST Radar. The beam steering unit developed a fault which caused
+    it to stick in an off-vertical direction. LD happened to spot this from the quick-look
+    plot and was able to visit the site shortly afterwards. LD was able to determine,
+    from watching the patterns on the beam steering unit display, that the problem
+    was related to Quad 8 - probably a result of the control cable for the Phasing
+    Unit being in a very poor condition. LD disconnected the control cable from the
+    beam steering unit and normal operations were resumed. '
+- added: 2020-08-21 11:48
+  author: DAH
+  end: 2010-09-30 13:30
+  number: '2988'
+  start: 2010-09-30 10:50
+  text: 'Instrument: MST Radar. All data products should be ignored between 10:50
+    and 13:30 UTC at all altitudes. The beam steering unit was stuck in an off-vertical
+    beam pointing direction, invalidating the usual interpretation of the radial data.'
+- added: 2010-11-02 11:50
+  author: DAH
+  end: 2010-11-02 09:15
+  number: '605'
+  start: 2010-11-02 09:15
+  text: 'Instrument: UPS units. All units indicated a brief dip in the incoming mains
+    voltage. This did not cause any disruptions for the other equipment.'
+- added: 2010-11-02 13:52
+  author: DAH
+  end: 2010-11-02 12:29
+  number: '606'
+  start: 2010-11-02 12:29
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in the incoming
+    mains voltage. This did not cause any disruptions for the other equipment.'
+- added: 2010-11-02 13:53
+  author: DAH
+  end: 2010-11-02 13:15
+  number: '607'
+  start: 2010-11-02 13:15
+  text: 'Instrument: UPS units. All units indicated a brief irregularity in the incoming
+    mains voltage. This did not cause any disruptions for the other equipment.'
+- added: 2010-11-11 08:37
+  author: DAH
+  end: 2010-11-10 10:30
+  number: '608'
+  start: 2010-11-09 09:30
+  text: 'Instrument: Telephone/broadband connections. All communications with the
+    site were lost for just over 24 hours. The cause of the problem is not known.
+    All instruments appear to have continued working correctly during this period. '
+- added: 2010-11-11 08:43
+  author: DAH
+  end: 2010-11-10 19:00
+  number: '609'
+  start: 2010-11-10 07:00
+  text: 'Instrument: MST Radar. The altitude coverage during this period appears to
+    be quite low, as if the radar had lost power or transmitter lock. However, this
+    turned out to be caused by a failure of the signal processing system to clear
+    intermediate files for the previous day, i.e. 2010-11-09. This meant that the
+    time-continuity quality control algorithm was comparing current data with data
+    which was more than 24 hours old. The reason that the problem had not shown up
+    earlier was probably that the winds did not vary significantly during the preceding
+    hours. It is possible that this problem was an indirect result of the loss of
+    broadband connection. '
+- added: 2020-08-26 15:53
+  author: DAH
+  end: 2010-11-10 19:00
+  number: '2993'
+  start: 2010-11-10 08:30
+  text: 'Instrument: MST Radar. The altitude coverage in the uppermost troposphere
+    is reduced between 08:30 and 19:00 UTC. This was caused by a known data processing
+    problem that occurs when there is an extended break in the external internet connection.    '
+- added: 2020-08-26 15:56
+  author: DAH
+  end: 2010-11-15 19:30
+  number: '2994'
+  start: 2010-11-15 18:30
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes of around 8.5
+    km and 9.0 km between 18:30 and 19:30 UTC should be ignored. The speeds are significantly
+    faster than at adjacent times and altitudes and so are assumed to be invalid.'
+- added: 2010-11-16 16:00
+  author: DAH
+  end: 2010-11-16 15:30
+  number: '610'
+  start: 2010-11-16 13:58
+  text: 'Instrument: MST Radar. The radar was taken out of action for 90 minutes to
+    allow Aberystwyth University students to carry out a surveying practical on the
+    antenna array. The choke blew on one of the transmitters (TX4) when the system
+    was restarted but was soon fixed.'
+- added: 2020-08-26 16:00
+  author: DAH
+  end: 2010-11-23 07:20
+  number: '2995'
+  start: 2010-11-23 05:30
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 13 km and
+    between 05:30 and 07:20 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2010-11-29 09:27
+  author: DAH
+  end: 2010-11-28 09:30
+  number: '611'
+  start: 2010-11-28 07:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered from intermittent
+    interference, which did not cause any contamination of the wind-profile data.
+    This was probably a result of the extremely cold overnight temperatures down to
+    -10 C. '
+- added: 2010-12-06 09:00
+  author: DAH
+  end: 2010-11-29 11:15
+  number: '612'
+  start: 2010-11-29 08:45
+  text: 'Instrument: MST Radar. The radar suffered from 2 brief instances of  interference
+    - just before 09:00 UT and just after 11:00 UT - which did not cause any contamination
+    of the wind-profile data. This was probably a result of the extremely cold overnight
+    temperatures.'
+- added: 2010-12-06 11:40
+  author: DAH
+  end: 2010-11-29 17:00
+  number: '617'
+  start: 2010-11-29 13:40
+  text: 'Instrument: Vaisala LD40 Laser Ceilometer. There is a gap in the recorded
+    data. The cause of this remains unknown. '
+- added: 2010-12-06 09:22
+  author: DAH
+  end: 2010-12-01 11:44
+  number: '613'
+  start: 2010-12-01 09:43
+  text: 'Instrument: MST Radar. The radar was powered down so that safety testing
+    could be carried out on the electricity supply cables.'
+- added: 2010-12-06 09:40
+  author: DAH
+  end: 2010-12-06 09:36
+  number: '615'
+  start: 2010-12-01 09:52
+  text: 'Instrument: Vaisala WXT510. There is a gap of 5 days in the recorded data.
+    This was a result of the acquisition software not being manually restarted after
+    "augustus" was rebooted following electrical cable safety tests being conducted
+    on 2010-12-01.   '
+- added: 2010-12-06 11:54
+  author: DAH
+  end: 2010-12-01 10:58
+  number: '619'
+  start: 2010-12-01 10:00
+  text: 'Instrument: Sky-Camera. There is a gap of almost an hour in the recorded
+    images for the period when the electricity supply cables were undergoing safety
+    testing.'
+- added: 2010-12-06 11:41
+  author: DAH
+  end: 2010-12-01 15:00
+  number: '618'
+  start: 2010-12-01 14:10
+  text: 'Instrument: Vaisala LD40 Laser Ceilometer. There is a gap in the recorded
+    data. The cause of this remains unknown.'
+- added: 2012-01-23 11:36
+  author: DAH
+  end: 2010-12-03 12:00
+  number: '706'
+  start: 2010-12-03 00:00
+  text: 'Instrument: MST Radar. LD restarted one of the transmitters (TX3) which had
+    not been in operation. He changed the choke, although the problem was not caused
+    by the existing one having blown (as was expected). '
+- added: 2010-12-06 09:28
+  author: DAH
+  end: 2010-12-03 08:00
+  number: '614'
+  start: 2010-12-03 04:15
+  text: 'Instrument: MST Radar. The radar suffered from a prolonged period of interference
+    although this did not cause any contamination of the wind-profile data. The interference
+    was probably a result of low temperatures.'
+- added: 2010-12-06 11:38
+  author: DAH
+  end: 2010-12-07 07:30
+  number: '616'
+  start: 2010-12-07 03:10
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference,
+    which did not cause any contamination of the wind-profile data. '
+- added: 2010-12-09 08:48
+  author: DAH
+  end: 2010-12-08 09:30
+  number: '620'
+  start: 2010-12-08 05:00
+  text: 'Instrument: MST Radar. The radar suffered from a period of interference,
+    which may have caused some slight contamination of the wind-profile data.'
+- added: 2020-08-27 08:57
+  author: DAH
+  end: 2010-12-08 23:59
+  number: '2996'
+  start: 2010-12-08 07:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within 2 time-altitude
+    regions, which are contaminated by "sporadic E" type interference: between 07:30
+    and 09:10 UTC at altitudes above 13 km, and between 23:30 and 23:59 UTC at altitudes
+    above 13 km. '
+- added: 2010-12-10 08:09
+  author: DAH
+  end: 2010-12-09 11:30
+  number: '621'
+  start: 2010-12-08 22:00
+  text: 'Instrument: MST Radar. The radar suffered from a prolonged episode of interference.
+    Although this primarily resulted in reduced altitude coverage for useful data,
+    some contamination of the wind-profile data is evident, particular 2010-12-09
+    01:00 - 02:00 UT.'
+- added: 2020-08-27 09:12
+  author: DAH
+  end: 2010-12-09 11:20
+  number: '2997'
+  start: 2010-12-09 00:00
+  text: 'Instrument: MST Radar. Horizontal wind data at altitudes above 7.5 km and
+    between 00:00 and 11:20 UTC should be ignored. The signals are contaminated by
+    "sporadic E" type interference.'
+- added: 2011-01-04 12:23
+  author: DAH
+  end: 2010-12-21 15:00
+  number: '622'
+  start: 2010-12-20 12:30
+  text: 'Instrument: Vaisala LD40 laser ceilometer. The instrument failed to operate
+    during this period, probably as a result of the very cold air temperatures. The
+    error code ("00050004") indicates "Test laser failure. Error. No more measurements
+    possible". This problem last occured during the very cold weather of January 2010.'
+- added: 2020-08-27 09:28
+  author: DAH
+  end: 2010-12-25 18:40
+  number: '2998'
+  start: 2010-12-25 18:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds at altitudes around 9 km
+    between 18:00 and 18:40 UTC should be ignored. The speeds are significantly faster
+    than at adjacent times and altitudes and so are assumed to be invalid.'

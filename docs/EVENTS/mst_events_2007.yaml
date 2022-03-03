@@ -1,0 +1,582 @@
+- added: 2007-05-16 12:30
+  author: DAH
+  end: 2007-01-01 16:00
+  number: '273'
+  start: 2007-01-01 16:00
+  text: 'Atmospheric. ZAKO reported hearing thunder at around 16 UT. '
+- added: 2007-01-09 09:35
+  author: DAH
+  end: 2007-01-08 09:10
+  number: '224'
+  start: 2007-01-08 09:05
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2007-01-25 09:00
+  author: DAH
+  end: 2007-01-17 18:00
+  number: '225'
+  start: 2007-01-17 09:50
+  text: 'Instrument: MST Radar. The usual collection of data was suspended twice -
+    from 09:50 to 10:50 and from 16:30 to 18:00 - to allow DAH to carry out tests
+    with the new radar control and data acquisition system.'
+- added: 2007-01-25 09:02
+  author: DAH
+  end: 2007-01-18 16:10
+  number: '226'
+  start: 2007-01-18 14:10
+  text: 'Instrument: MST Radar. The usual collection of data was suspended to allow
+    DAH to carry out tests with the new radar control and data acquisition system.'
+- added: 2007-01-25 09:25
+  author: DAH
+  end: 2007-01-18 17:00
+  number: '228'
+  start: 2007-01-18 16:00
+  text: 'Instrument: Ceilometer. The normal acquisition of data was disrupted to allow
+    DAH to investigate the possibility of recording backscatter profiles (in addition
+    to the cloud base altitudes). '
+- added: 2007-01-25 09:26
+  author: DAH
+  end: 2007-01-19 10:50
+  number: '229'
+  start: 2007-01-19 09:30
+  text: 'Instrument: Ceilometer. The normal acquisition of data was disrupted to allow
+    DAH to investigate the possibility of recording backscatter profiles (in addition
+    to the cloud base altitudes). '
+- added: 2007-01-25 09:06
+  author: DAH
+  end: 2007-01-25 08:35
+  number: '227'
+  start: 2007-01-24 10:00
+  text: 'Instrument: Ceilometer. The normal recording of data from the ceilometer
+    was disrupted by the download of Frongoch surface wind data by the data acquisition
+    PC. Recording was restarted by DAH as soon as the problem was spotted. '
+- added: 2007-05-16 12:34
+  author: DAH
+  end: 2007-01-25 11:15
+  number: '274'
+  start: 2007-01-25 11:00
+  text: 'Instrument: MST Radar. There was a short gap it observations to allow ZAKO
+    to reboot the radar control and data acquisition PC.'
+- added: 2007-05-16 12:36
+  author: DAH
+  end: 2007-01-30 12:00
+  number: '275'
+  start: 2007-01-30 11:00
+  text: 'Instrument: MST Radar. TX4 was briefly out of action to allow ZAKO to change
+    the driver valve.'
+- added: 2007-03-26 09:03
+  author: DAH
+  end: 2007-02-28 23:59
+  number: '237'
+  start: 2007-02-01 00:00
+  text: 'Instrument: MST Radar. Met Office quality control statistics for February
+    2007 show a slight, but noticeable, reduction in wind-profile data quality at
+    all altitudes. The reduction is not sufficient to cause concern from the Met Office''s
+    point of view. It is possible that the statistics reflect the fact that the winds
+    were highly variable over the course of the month. However, they could reflect
+    the change over to the new data acquisition system at the beginning of the month.
+    This situation will be monitored closely.   '
+- added: 2007-03-26 08:47
+  author: DAH
+  end: 2007-03-23 12:00
+  number: '235'
+  start: 2007-02-01 16:00
+  text: 'Instrument: Relative Humidity sensor. The sensor malfunctioned owing to corrosion
+    on one of the pins. ZAKO removed the sensor at around 09:00 UT on 2007-03-23,
+    cleaned it and replaced it at around 12:00 UT. The readings between 09:00 and
+    12:00 UT should consequently be ignored.'
+- added: 2007-02-05 09:51
+  author: DAH
+  end: 2007-02-02 10:15
+  number: '231'
+  start: 2007-02-02 10:00
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    which resulted in a short gap in observations. ZAKO took the opportunity to switch
+    the power feed for one of the transmitters to a UPS unit. '
+- added: 2007-02-05 10:20
+  author: DAH
+  end: 2007-02-05 09:40
+  number: '232'
+  start: 2007-02-03 10:00
+  text: 'Instrument: Laser Ceilometer. The data logging PC stopped recording data
+    from the laser ceilometer at the time of the download of surface wind data from
+    Frongoch (via dial-up modem). This occurred on a Saturday morning and was not
+    spotted until DAH checked for file availability shortly after 08:00 on 2007-02-05,
+    the following Monday. He restarted the recording of data although the error messages
+    indicated a test laser failure. No data were being recorded. The problem persisted
+    after ZAKO switched the instrument off and then back on again. However, the instrument
+    appears to be functioning correctly after ZAKO pressed the internal Reset button.'
+- added: 2007-02-07 12:26
+  author: DAH
+  end: 2007-02-06 13:44
+  number: '233'
+  start: 2007-02-06 13:23
+  text: 'Instrument: MST Radar. There was a gap in observations to allow ZAKO to switch
+    over from the old to the new radar control and data acquisition system. Initially
+    the v3 data stream to the Met Office was blocked to allow DAH to check that all
+    systems were integrated correctly. However, the automatic feed was re-enabled
+    around 16:00 once it was clear that all was well. The main result of this switch
+    over is that the production of v0 and v2 files has been discontinued. Only v3
+    processing software was adapted to operate on the netCDF spectral files created
+    by the new acqusition system. Users should note that the signal powers in the
+    v3 radial and Cartesian files have jumped by an offset of approximately 70 dB
+    as a result of the way in which spectral data are now stored.   '
+- added: 2007-03-06 14:04
+  author: DAH
+  end: 2007-02-14 13:01
+  number: '234'
+  start: 2007-02-06 13:44
+  text: 'Instrument: MST Radar. The new data acquisition system was recording invalid
+    data for the M-mode, i.e. covering the approximate altitude range 56 - 94 km.
+    The reason for this is that the hardware pre-processing unit ignores observations
+    between range gates 192 and 385, inclusive. A hint of this was found in the source
+    code for the original acquisition system. However, it was only by chance that
+    DAH found a document which stated this explicitly. Appropriate changes were made
+    to the new acquisition program on 2007-02-14. Note that the ST mode data (i.e.
+    covering the approximate altitude range 2 - 20 km) are not affected by this issue.'
+- added: 2008-03-10 09:35
+  author: DAH
+  end: 2008-02-07 12:48
+  number: '311'
+  start: 2007-02-06 13:44
+  text: 'Instrument: MST Radar. Owing to a bug in the new MST radar control and data
+    acquisition system, which began operations on 2007-02-06 13:44 UT, there has been
+    an error of approximately 1 km in the reported ranges and altitudes of data products.
+    The quality of the data appears to be otherwise unaffected. A compensation for
+    this error was introduced to the signal processing software, starting at 2008-02-07
+    12:48 UT. A fix for the radar control and data acquisition software will need
+    to be applied in the near future. '
+- added: 2007-03-26 08:53
+  author: DAH
+  end: 2007-03-21 12:48
+  number: '236'
+  start: 2007-03-21 10:00
+  text: 'Instrument: Laser Ceilometer. The recording of ceilometer data was interrupted
+    by the download of surface wind data from Frongoch. ZAKO spotted the problem and
+    restarted the data acquisition program. This is the first time that this problem
+    has occurred for over a month. Previously it was happening approximately once
+    every 10 days.  '
+- added: 2007-04-02 09:06
+  author: DAH
+  end: 2007-04-02 07:33
+  number: '238'
+  start: 2007-04-02 07:32
+  text: 'Instrument: MST Radar. The data weighting window used in the derivation of
+    radar return Doppler spectra was switched from the Hanning to the Rectangular.
+    This was because of a slight (but noticeable) reduction in wind-profile data quality
+    statistics (supplied by the Met Office) for the month of February, when the new
+    data acquisition system (which was using the Hanning window) began operations.
+    Observations using the Rectangular window will continue until at least mid-May
+    when Met Office data quality statistics for April are made available.  '
+- added: 2007-04-03 08:46
+  author: DAH
+  end: 2007-04-03 07:42
+  number: '239'
+  start: 2007-04-02 07:32
+  text: 'Instrumnet: MST Radar. Owing to a typing error in setting up the new MST
+    radar schedule, one of the dwells (for the SE6 beam - number 13) was missed from
+    the observation cycle. This is likely to have had only a minor effect on data
+    quality since it would only have prevented complemntary beam checking to be applied.     '
+- added: 2007-04-10 12:28
+  author: DAH
+  end: 2007-04-10 11:00
+  number: '240'
+  start: 2007-04-05 05:30
+  text: 'Instrument: MST Radar. The altitude coverage of wind-profiles provided by
+    the radar reduced significantly at around 05:30 UT on 2007-04-05 (a Thursday).
+    This was not immediately apparent as a problem since variations in altitude coverage
+    are commonly associated with changes in atmospheric structure. However, the altitude
+    coverage was reduced to a very low level on 2007-04-06. Since this was Good Friday,
+    the problem was not spotted by DAH until the following Tuesday, 2007-04-10 (Monday
+    having also been a Bank Holiday), by which time the problem was less sever. The
+    source of the problem was not immediately apparent. The radar return spectra suggested
+    that reliable profiles (with good radial continuity) should be obtainable over
+    a much greater altitude range. This prompted DAH to check the status of the dynamic
+    signal processing. It turns out that dwells were not being archived once they
+    had been finished with. The backlog stretched back to 2007/04/03 06 UT. This could
+    have caused the time-continuity checks for the most recent data to have been performed
+    against an inappropriate (out of date) reference. The prevalence of high pressure
+    conditions over the past several days meant that the wind conditions had not changed
+    sufficiently for the time continuity tests to have failed completely. DAH cleared
+    the blockage at around 10:43 UT on 2007-04-10.  '
+- added: 2007-04-11 08:19
+  author: DAH
+  end: 2007-04-11 08:16
+  number: '241'
+  start: 2007-04-10 10:00
+  text: 'Instrument: Laser Ceilometer. Data recording stopped when the data acquisition
+    PC initiated a dial-up connection to download wind data from Frongoch. DAH restarted
+    the recording of ceilometer data as soon as the problem was spotted the following
+    morning.'
+- added: 2007-04-25 10:10
+  author: DAH
+  end: 2007-04-13 23:59
+  number: '246'
+  start: 2007-04-13 23:00
+  text: 'Instrument: MST Radar. The radar experienced interference, although this
+    did not contaminate the wind data.'
+- added: 2007-04-25 10:13
+  author: DAH
+  end: 2007-04-14 23:59
+  number: '247'
+  start: 2007-04-14 00:00
+  text: 'Instrument: MST Radar. The radar experienced interference between 00:00 and
+    02:00 UT and between 23:00 and 23:59 UT. This did not contaminate the wind data
+    in either case.'
+- added: 2007-04-19 08:12
+  author: DAH
+  end: 2007-04-15 23:59
+  number: '242'
+  start: 2007-04-15 00:00
+  text: 'Instrument: MST Radar. The radar experienced a number of periods of interference
+    - notably between 00:00 and 02:00 UT and between 12:00 and 22:00 UT. Although
+    this did not lead to contamination of the wind data, it did lead to a number of
+    data gaps at around 01:00, 12:00, 14:00, 15:00, 16:00 and 21:00 UT.'
+- added: 2007-04-19 08:15
+  author: DAH
+  end: 2007-04-16 18:10
+  number: '243'
+  start: 2007-04-16 14:50
+  text: 'Instrument: MST Radar. The radar experienced a number of periods of interference
+    during this 3 hours interval. The v3 signal processing was largely effective at
+    blanking its effects.'
+- added: 2007-04-19 08:17
+  author: DAH
+  end: 2007-04-18 19:30
+  number: '244'
+  start: 2007-04-18 14:30
+  text: 'Instrument: MST Radar. The radar experienced interference which mostly had
+    no effect on the wind data. There were two short periods - one at around 15:00
+    UT and the second at around 19:00 UT - when blanking of vertical beam data resulted.'
+- added: 2007-04-25 10:53
+  author: DAH
+  end: 2007-04-19 19:00
+  number: '248'
+  start: 2007-04-19 15:40
+  text: 'Instrument: MST Radar. The radar experienced interference although this had
+    not impact on the wind profile data.'
+- added: 2007-04-24 08:19
+  author: DAH
+  end: 2007-04-23 23:59
+  number: '245'
+  start: 2007-04-23 21:00
+  text: 'Instrument: Humidity Sensor. The sensor, which has experienced problems caused
+    by corrosion in the recent past, has once again stopped supplying data. NOTE:
+    this sensor is now beyond repair and will not be replaced directly. A new surface
+    met station will be installed instead. Any apparent readings of RH after this
+    date (2007-04-23) are caused by floating voltages at the data logger input.'
+- added: 2008-01-17 14:52
+  author: DAH
+  end: 2007-12-12 10:40
+  number: '304'
+  start: 2007-04-23 21:00
+  text: 'Instrument: Relative Humidity probe. This suffered from corrosion and had
+    stopped working on a number of occasions. It was removed after 2007-04-23. A new
+    probe was installed on 2007-12-12. '
+- added: 2007-05-14 16:33
+  author: DAH
+  end: 2007-05-09 13:00
+  number: '250'
+  start: 2007-05-09 00:00
+  text: 'Instrument: MST Radar. ZAKO spotted that the choke on TX1 had burnt out and
+    that the extractor fan had seized on TX4, causing the latter to overheat and consequently
+    to switch off. He replaced the faulty components and returned all TXs to operational
+    status by 13:00 UT.  '
+- added: 2007-05-14 16:16
+  author: DAH
+  end: 2007-05-14 10:00
+  number: '249'
+  start: 2007-05-14 09:00
+  text: 'Instrument: MST Radar. ZAKO briefly powered down TX2 so that he could attach
+    it to a new UPS unit. However, the TX tripped within a few seconds each time that
+    it was connected to the UPS. ZAKO eventually just reconnected the TX to its mains
+    supply and it functioned normally.'
+- added: 2007-05-16 09:50
+  author: DAH
+  end: 2007-05-15 23:10
+  number: '251'
+  start: 2007-05-15 16:20
+  text: 'Instrument: MST Radar. The radar experienced two periods of interference:
+    the first between 16:20 and 20:20 UT and the second between 21:30 and 23:10 UT.
+    Although the reliability flagging was largely effective at blanking the wind-profile
+    data for this period, some contaminated data were sent to the Met Office. '
+- added: 2007-05-17 15:35
+  author: DAH
+  end: 2007-05-16 15:02
+  number: '277'
+  start: 2007-05-16 14:05
+  text: 'Instrument: MST Radar. The radar was powered down to allow ZAKO to clear
+    up the cabling associated with TX3. This is in anticipation of powering TX3 from
+    a UPS unit which will be mounted directly underneath it. '
+- added: 2007-05-21 09:59
+  author: DAH
+  end: 2007-05-18 13:20
+  number: '278'
+  start: 2007-05-17 11:00
+  text: "Instrument: MST Radar. The radar experienced a prolonged period of interference.\
+    \ The v3 signal processing was doing a reasonable job of blanking the horizontal\
+    \ winds for this period although the vertical velocities appear to be contaminated.\
+    \ ZAKO and DAH blocked the transmission of data to the BADC and to the Met Office\
+    \ between 11:30 and 13:30 UT on 2007-05-18 whilst they undertook a series of tests\
+    \ to establish the cause of the problem. Switching receivers had no effect and\
+    \ the problem persisted when the the radar was operated with only one tranmsmitter\
+    \ at a time - except in the case of TX5, which was being used to phase-lock all\
+    \ 5 transitters. Consequently ZAKO switched phase-locking to TX2 and restarted\
+    \ the radar with all transmitters operating (and using the original receiver).\
+    \ This solved the problem. It is noted that this is a different type of interefence\
+    \ (denoted type-2) to the one which was commonly observed during 2006 (type-1).\
+    \ The latter is thought to be caused by an internal oscillation in the receive\
+    \ side of the radar system brought about by high temperatures. V3 processing contains\
+    \ a special algorithm to detect and to avoid type-1 interference, which is consequently\
+    \ much less of a problem even though it is much more commonly occurring. \n\n\n\
+    ssing software to give he Met Office to block the sending of wind-profile "
+- added: 2007-05-17 15:29
+  author: DAH
+  end: 2007-05-17 14:19
+  number: '276'
+  start: 2007-05-17 14:19
+  text: 'Instrument: MST Radar. A change has been made to the one of the criteria
+    for producing wind-profile data for 30-minute average Met Office messages. For
+    each range gate there must now be a minimum of 3 (rather than just 1) single-cycle
+    data points flagged as being reliable. This is an attempt to decrease the possibility
+    of interference contamination contributing to Met Office messages, as happened
+    on 2007-05-15.  '
+- added: 2007-05-31 08:17
+  author: DAH
+  end: 2007-06-02 23:00
+  number: '279'
+  start: 2007-05-29 10:00
+  text: 'Instrument: Wind Sensors. A problem with the phone line to Frongoch prevented
+    the data logging PC establishing a connection to the wind sensor data logger after
+    the download on 2007-05-29. On 2007-06-05, BT engineers established that there
+    was a fault on the line 2 miles from Fronch and it was possible to establish a
+    connection to the data logger that afternoon. Owing to the fact that the data
+    logger can hold less than 3 days'' worth of data before it starts to overwrite
+    the oldest data, it was only possible to download the data as far back as 2007-06-02
+    23:00.'
+- added: 2007-06-25 09:14
+  author: DAH
+  end: 2007-06-24 12:00
+  number: '280'
+  start: 2007-06-24 07:50
+  text: 'Instrument: MST Radar. The radar experienced two short periods of interference.
+    The v3 signal processing was largely effective at blanking the data although some
+    contamination remained in the 30 minute messages sent to the Met Office.'
+- added: 2007-07-06 09:05
+  author: DAH
+  end: 2007-07-17 10:00
+  number: '281'
+  start: 2007-06-24 10:00
+  text: 'Instrument: Rain Gauge. No rain was recorded since 2007-06-24 10 UT although
+    sky camera images for the first week of July 2007 suggest that it has rained at
+    site. ZAKO investigated the unit on 2007-07-17 and found that ants had made a
+    nest under the bucket. The tipping mechanism was covered in fine soil. ZAKO cleaned
+    the unit and it was returned to working order at 10 UT. '
+- added: 2007-07-11 14:17
+  author: DAH
+  end: 2007-08-03 12:00
+  number: '282'
+  start: 2007-07-03 04:26
+  text: 'Instrument: Laser Ceilometer. The date field in the cloud base messages output
+    by the ceilometer has contained the number "0" rather than appropriate month since
+    04:26 on 2007-07-03. DAH stopped and then restarted the acquisition program on
+    2007-07-11 but this did not resolve the problem. ZAKO power-cycled the instrument
+    on 2007-07-20 and this similarly had no effect. DAH implemented a fix for this
+    in the software which produces the NASA-Ames files, but this ceased to work at
+    the beginning of August (when the month field started to show "1"). DAH introduced
+    an updated software fix on 2007-08-03. '
+- added: 2007-07-19 08:42
+  author: DAH
+  end: 2007-07-18 11:45
+  number: '283'
+  start: 2007-07-18 09:00
+  text: 'Instrument: MST Radar. ZAKO disconnected TX4 for which the induction on the
+    driver valve had burnt out. The radar appears to have operated in an unstable
+    fashion during this period, although much of the wind-profile data was blanked
+    by the signal processing. It is not clear when the problem occurred with the transmitter.
+    It will have contributed to the fact that altitude coverage has been reduced of
+    late. Coverage increased noticeably when TX4 was returned to operation.  '
+- added: 2007-09-11 13:07
+  author: DAH
+  end: 2007-09-11 12:22
+  number: '285'
+  start: 2007-08-28 00:00
+  text: 'Instrument: Surface-met sensors. The data logging PC was unable to establish
+    a connection with the surface met sensor logger for almost 2 weeks. The problem
+    was apparently caused by water leaking into the logging box, which is located
+    outside. Although this does not appear to have damaged the logging unit itself,
+    it did affect the communications port. No data appear to have been lost during
+    this period, although they have been delayed in appearing on the BADC.'
+- added: 2007-09-11 12:22
+  author: DAH
+  end: 2007-09-11 11:06
+  number: '284'
+  start: 2007-09-10 11:08
+  text: 'Instrument: Sky-Camera. There is an approximately 24 hour gap in observations
+    resulting from the power lead to the camera accidentally being disconnected.  '
+- added: 2007-09-14 16:03
+  author: DAH
+  end: 2007-09-12 14:55
+  number: '287'
+  start: 2007-09-12 14:55
+  text: 'Instrument: Ceilometer. DAH resynchronised the time of the ceilometer''s
+    internal clock, which had been running approximately 2 minutes and 10 s behind
+    UT.  '
+- added: 2007-09-14 15:58
+  author: DAH
+  end: 2007-09-12 16:19
+  number: '286'
+  start: 2007-09-12 16:15
+  text: 'Instrument: Sky-Camera. There are a few missing images during the time when
+    DAH was updating the Axis firmware from version 4.30 to 4.40. Unexpectedly this
+    upgrade caused the colour bias of the image to change from a yellow-grey to a
+    bluey-grey under overcast conditions. However, it did appear to improve the distinction
+    between overlapping clouds.  '
+- added: 2007-09-20 09:47
+  author: DAH
+  end: 2007-10-03 09:53
+  number: '288'
+  start: 2007-09-18 02:00
+  text: 'Instrument: Surface-met sensors. The problem connecting to the surface met
+    sensor data logger, which first occurred on 2007-08-28, again prevented the download
+    of surface met data. The logger and communications were sent back to Campbell
+    Scientific for repairs. They have now been re-installed, though any data prior
+    ot 09:53 UT on 2007-10-03 should be ignored. '
+- added: 2007-10-04 08:20
+  author: DAH
+  end: 2007-10-03 09:53
+  number: '289'
+  start: 2007-10-03 09:46
+  text: 'Instrument: Surface wind sensors. The clock on the data logging PC was found
+    to have been running slow. Although the PC had been set up to synchronise its
+    clock using Network Time Protocol, this had not been happening and so the clock
+    was approximately 7 minutes behind actual time (its clock showed 09:46 when it
+    was resynchronised at 09:53 UT on 2007-10-03). This will have affected both the
+    surface met and surface wind data loggers, which synchronise their clocks to that
+    of the PC. Note that the surface met sensor data logger was only re-installed,
+    after being sent away for repairs, on 2007-10-03.'
+- added: 2007-10-10 18:15
+  author: DAH
+  end: 2007-10-08 19:33
+  number: '290'
+  start: 2007-10-08 15:13
+  text: 'Instrument: MST Radar. The radar was out of action to allow tests to be conducted
+    for the Phase-II data acquisition system. A small problem associated with the
+    restarting of the current data acquisition system resulted in subsequent observations
+    not being processed until a data blockage was removed on the morning of 2007-10-09.
+    No data were lost by this. '
+- added: 2007-10-10 18:18
+  author: DAH
+  end: 2007-10-09 14:32
+  number: '291'
+  start: 2007-10-09 09:20
+  text: 'Instrument: MST Radar. The radar was out of action to allow tests to be conducted
+    for the Phase-II data acquisition system.'
+- added: 2007-10-10 18:20
+  author: DAH
+  end: 2007-10-10 14:58
+  number: '292'
+  start: 2007-10-10 14:33
+  text: 'Instrument: MST Radar. The radar was out of action to allow tests to be conducted
+    for the Phase-II data acquisition system. The radar was restarted using an updated
+    version (0.3) of the current data acquisition system.'
+- added: 2007-10-19 08:52
+  author: DAH
+  end: 2007-10-17 23:00
+  number: '293'
+  start: 2007-10-17 00:00
+  text: 'Instrument: MST Radar. The radar appears to have suffered two short periods
+    of intereference: one around 01:20 UT, the second around 09:00 UT - and possibly
+    a third around 21:10 UT. None of these contaminated the wind data. '
+- added: 2007-10-19 08:54
+  author: DAH
+  end: 2007-10-18 21:00
+  number: '294'
+  start: 2007-10-18 10:30
+  text: 'Instrument: MST Radar. The radar suffered from two short periods of interference:
+    one at around 11:00 UT and the second at around 20:30 UT. Neither caused contamination
+    of the winds. '
+- added: 2007-10-25 14:10
+  author: DAH
+  end: 2007-10-19 22:00
+  number: '295'
+  start: 2007-10-19 10:00
+  text: 'Instrument: MST Radar. The radar suffered from two short periods of interference:
+    one at around 10:30 UT and the second at around 21:45 UT. Neither caused contamination
+    of the winds. '
+- added: 2007-10-25 14:11
+  author: DAH
+  end: 2007-10-20 12:10
+  number: '296'
+  start: 2007-10-20 11:00
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    between 11:00 and 12:10 UT. This did not cause contamination of the winds. '
+- added: 2007-10-25 14:13
+  author: DAH
+  end: 2007-10-21 05:15
+  number: '297'
+  start: 2007-10-21 04:45
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    at around 05:00 UT. This did not cause contamination of the winds. '
+- added: 2007-10-25 14:15
+  author: DAH
+  end: 2007-10-22 09:00
+  number: '298'
+  start: 2007-10-22 00:00
+  text: 'Instrument: MST Radar. The radar suffered from two short periods of interference:
+    one at around 00:15 UT and the second at around 08:30 UT. Neither caused contamination
+    of the winds. '
+- added: 2007-10-25 14:16
+  author: DAH
+  end: 2007-10-23 21:15
+  number: '299'
+  start: 2007-10-23 20:30
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    at around 05:00 UT. This did not cause contamination of the winds.'
+- added: 2007-10-25 14:17
+  author: DAH
+  end: 2007-10-24 12:30
+  number: '300'
+  start: 2007-10-24 11:30
+  text: 'Instrument: MST Radar. The radar suffered from a short period of interference
+    at around 12:00 UT. This did not cause contamination of the winds.'
+- added: 2007-10-30 12:21
+  author: DAH
+  end: 2007-10-31 09:26
+  number: '301'
+  start: 2007-10-29 12:56
+  text: 'Instrument: MST Radar. The radar was not collecting any useful data although
+    it was still nominally running. This follows ZAKO having removed unnecessary T-connectors
+    from the back of the receiver. The "TX-Phase" cable was "on" but not "locked-in".   '
+- added: 2007-11-01 10:33
+  author: DAH
+  end: 2007-11-01 10:25
+  number: '302'
+  start: 2007-10-31 21:45
+  text: 'Instrument: MST Radar. The radar began to malfunction overnight during several
+    distinct periods. The spectra show that this is not caused by interference. Spectral
+    features appear smeared out in range as though the range resolution has been reduced.
+    DPW checked the goodness of a number of cable connections and power cycled the
+    receiver units before observations were re-started.'
+- added: 2008-01-18 12:25
+  author: DAH
+  end: 2007-11-27 15:50
+  number: '305'
+  start: 2007-11-27 13:50
+  text: 'Instrument: MST Radar. The radar was powered down for 2 hours to allow MSc
+    students from the University of Aberystwyth to carry out a surveying practical
+    on the antenna array.'
+- added: 2007-11-29 09:53
+  author: DAH
+  end: 2007-11-29 12:15
+  number: '303'
+  start: 2007-11-29 00:00
+  text: 'Instrument: MST Radar. The radar developed an instability overnight, which
+    was apparent in the scope trace on either the I or the Q channel output of the
+    receiver. It''s not clear which - but only one channel was affected. This was
+    causing contamination of the wind profile data. DAH blocked data being sent to
+    the Met Office at around 08 UT, but the radar continued to run until about 11:30
+    when DPW assisted him (remotely) to switch the receiver units off and then on
+    again. This failed to solve the problem of the first few attempts. However, DPW
+    eventually disconnected and then re-connected various wires from the receiver.
+    The problem was gone when the radar was restarted at around 12:15. '

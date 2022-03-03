@@ -1,0 +1,1127 @@
+- added: 2007-05-16 09:56
+  author: DAH
+  end: 2006-04-03 12:15
+  number: '252'
+  start: 2006-04-03 12:10
+  text: 'Instrument: MST Radar. There was a short break in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2007-05-16 09:57
+  author: DAH
+  end: 2006-04-13 09:50
+  number: '253'
+  start: 2006-04-13 09:45
+  text: 'Instrument: MST Radar. There was a short break in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2007-05-16 09:59
+  author: DAH
+  end: 2006-04-20 09:10
+  number: '254'
+  start: 2006-04-20 08:55
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2007-05-16 10:01
+  author: DAH
+  end: 2006-05-01 10:10
+  number: '255'
+  start: 2006-05-01 10:05
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2007-05-16 10:02
+  author: DAH
+  end: 2006-05-11 19:00
+  number: '256'
+  start: 2006-05-11 18:55
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2006-09-06 10:14
+  author: DAH
+  end: 2006-05-27 11:40
+  number: '175'
+  start: 2006-05-26 21:40
+  text: 'Instrument: Relative Humidity sensor. The relative humidity readings during
+    this period show large and unrealistic fluctuations. Some of the readings exceed
+    100%. At around 2006/05/27 11:40, the readings suddenly drop close to 0% and have
+    remained so ever since (noted on 2006/09/06). This suggests that the probe may
+    have failed. '
+- added: 2007-05-16 10:07
+  author: DAH
+  end: 2006-06-06 08:10
+  number: '257'
+  start: 2006-06-05 18:10
+  text: 'Instrument: MST Radar. An unexpected power-cut, after ZAKO left the site
+    in the evening, caused the radar to stop operating. The radar was restarted the
+    following morning when ZAKO returned to site.'
+- added: 2007-05-16 10:07
+  author: DAH
+  end: 2006-06-16 14:05
+  number: '258'
+  start: 2006-06-16 14:00
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2019-05-09 15:12
+  author: DAH
+  end: 2006-06-23 19:15
+  number: '2407'
+  start: 2006-06-23 17:45
+  text: 'Instrument: MST Radar. Horizontal wind data between times of 17:45 and 19:15
+    UTC and between altitudes of 12.5 and 21.0 km should be ignored. The signal has
+    been contaminated by interference.'
+- added: 2019-05-09 15:22
+  author: DAH
+  end: 2006-06-26 19:00
+  number: '2408'
+  start: 2006-06-26 17:00
+  text: 'Instrument: MST Radar. The horizontal winds between times of 17:00 and 19:00
+    UTC and between altitudes of 12.5 and 21.0 km should be ignored. The signal has
+    been contaminated by interference.'
+- added: 2007-05-16 10:11
+  author: DAH
+  end: 2006-06-27 08:20
+  number: '259'
+  start: 2006-06-27 05:10
+  text: 'Instrument: MST Radar. The radar stopped operating owing to problems with
+    the control and data acquisition PC, which appears to have crashed around 06:10
+    UT. The PC was restarted when ZAKO arrived on site.'
+- added: 2007-05-16 10:12
+  author: DAH
+  end: 2006-06-28 14:10
+  number: '260'
+  start: 2006-06-28 13:10
+  text: 'Instrument: MST Radar. The radar and all computers were powered down to allow
+    DAH and ZAKO to re-arrange equipment.'
+- added: 2007-05-16 10:19
+  author: DAH
+  end: 2006-07-03 07:10
+  number: '261'
+  start: 2006-07-02 20:45
+  text: 'Instrument: MST Radar. The radar was powered down because of thunderstorms
+    in the Capel Dewi area. It was restarted the following morning. '
+- added: 2019-05-09 16:02
+  author: DAH
+  end: 2006-07-03 08:00
+  number: '2410'
+  start: 2006-07-03 06:45
+  text: 'Instrument: MST Radar. Horizontal wind data between times of 06:45 and 08:00
+    UTC and between altitudes of 12.5 and 21.0 km should be ignored. The signal has
+    been contaminated by interference.'
+- added: 2007-05-16 10:21
+  author: DAH
+  end: 2006-07-04 18:20
+  number: '262'
+  start: 2006-07-04 17:10
+  text: 'Instrument: MST Radar. The radar stopped function owing to a thunderstorm
+    in the Capel Dewi area.'
+- added: 2007-05-16 10:23
+  author: DAH
+  end: 2006-07-05 19:10
+  number: '263'
+  start: 2006-07-05 15:40
+  text: 'Instrument: MST Radar. The radar was shut down because of thunderstorms in
+    the Capel Dewi area.'
+- added: 2019-05-09 16:01
+  author: DAH
+  end: 2006-07-06 15:00
+  number: '2409'
+  start: 2006-07-06 15:00
+  text: 'Instrument: MST Radar. Horizontal wind data between times of 15:00 and 16:45
+    UTC and between altitudes of 14.5 and 21.0 km should be ignored. The signal has
+    been contaminated by interference.'
+- added: 2019-05-09 16:13
+  author: DAH
+  end: 2006-07-07 13:45
+  number: '2411'
+  start: 2006-07-07 07:15
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 07:15 and 08:45 UTC and between altitudes
+    of 13.5 and 21.0 km, and between times of 12:15 and 13:45 UTC and between altitudes
+    of 13.0 and 21.0 km. The signal has been contaminated by interference. '
+- added: 2019-05-09 16:19
+  author: DAH
+  end: 2006-07-08 14:45
+  number: '2412'
+  start: 2006-07-08 13:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 13:00 and 14:45 UTC and between altitudes of 13.0 and 21.0 km should be ignored.
+    The signal has been contaminated by interference.'
+- added: 2019-05-09 16:21
+  author: DAH
+  end: 2006-07-09 15:45
+  number: '2413'
+  start: 2006-07-09 14:45
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 14:45 and 15:45 UTC and between altitudes of 17.0 and 21.0 km should be ignored.
+    The signal has been contaminated by interference.'
+- added: 2019-05-09 16:26
+  author: DAH
+  end: 2006-07-10 14:10
+  number: '2414'
+  start: 2006-07-10 12:50
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 12:50 and 15:10 UTC and between altitudes of 2.0 and 21.0 km. The signal has
+    been contaminated by interference.
+
+    '
+- added: 2019-05-09 16:31
+  author: DAH
+  end: 2006-07-13 15:15
+  number: '2415'
+  start: 2006-07-13 12:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 12:30 and 15:15 UTC and between altitudes of 7.0 and 21.0 km. The signal has
+    been contaminated by interference.'
+- added: 2007-05-16 10:27
+  author: DAH
+  end: 2006-07-14 14:05
+  number: '264'
+  start: 2006-07-14 14:00
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2019-05-09 16:35
+  author: DAH
+  end: 2006-07-17 16:31
+  number: '2416'
+  start: 2006-07-17 11:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 11:30 and 13:00 UTC and between altitudes
+    of 9.0 and 21.0 km, and between times of 15:30 and 18:00 UTC and between altitudes
+    of 9.0 and 21.0 km. The signal has been contaminated by interference.'
+- added: 2019-05-09 16:39
+  author: DAH
+  end: 2006-07-19 12:15
+  number: '2417'
+  start: 2006-07-19 11:15
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 11:15 and 12:15 UTC and between altitudes of 7.0 and 21.0 km. The signal has
+    been contaminated by interference.'
+- added: 2019-05-10 08:40
+  author: DAH
+  end: 2006-07-20 14:30
+  number: '2418'
+  start: 2006-07-20 14:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 14:00 and 16:00 UTC and between altitudes
+    of 10.0 and 21.0 km, and between times of 16:30 and 18:00 UTC and between altitudes
+    of 10.0 and 21.0 km. The signal has been contaminated by interference.'
+- added: 2019-05-10 08:49
+  author: DAH
+  end: 2006-07-23 18:00
+  number: '2419'
+  start: 2006-07-23 17:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 17:00 and 16:00 UTC and between altitudes of 17.0 and 21.0 km. The signal has
+    been contaminated by interference.'
+- added: 2007-05-16 10:29
+  author: DAH
+  end: 2006-07-24 07:55
+  number: '265'
+  start: 2006-07-24 07:45
+  text: 'Instrument: MST Radar. There was a short gap in observations to allow the
+    radar control and data acquisition PC to be rebooted.'
+- added: 2006-07-31 09:39
+  author: DAH
+  end: 2006-07-24 07:50
+  number: '149'
+  start: 2006-07-24 07:50
+  text: 'Instrument: MST Radar. ZAKO rebooted the radar control and data acquisition
+    PC. '
+- added: 2006-08-01 15:38
+  author: DAH
+  end: 2006-07-31 11:00
+  number: '152'
+  start: 2006-07-26 00:00
+  text: 'Instrument: MST radar. The transmitter which first went down on 2006/07/26,
+    and which was fixed by ZAKO on 2006/07/28, continued to cause trouble until 2006/07/31.
+    ZAKO reported that the EHT monitor chip and level detector were feeding incorrect
+    info to the transmitter. He solved the problem by adjausting preset VR11 on IC4
+    on the interface board.'
+- added: 2006-07-27 08:43
+  author: DAH
+  end: 2006-07-26 18:00
+  number: '148'
+  start: 2006-07-26 11:00
+  text: 'Instrument: MST Radar. The radar suffered from radio frequency interference
+    from 11:00 - 14:00 UT and then again from 17:30 - 18:00 UT. '
+- added: 2019-05-10 08:55
+  author: ZKO
+  end: 2006-07-26 18:00
+  number: '2420'
+  start: 2006-07-26 11:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 11:00 and 14:00 UTC and between altitudes
+    of 12.0 and 21.0 km, and between times of 17:00 and 18:00 UTC and between altitudes
+    of 12.0 and 21.0 km. The signal has been contaminated by interference.'
+- added: 2006-07-26 16:01
+  author: DAH
+  end: 2006-07-26 15:57
+  number: '147'
+  start: 2006-07-26 15:57
+  text: 'Instrument: MST Radar.
+
+    Dave Wareing reported that one of the transmitters has been down since late this
+    morning (ZAKO is away from site). Since this is not the phase-locking transmitter,
+    the radar has continued to operate normally. The transmitter will not be fixed
+    until at least 28/07/2006 when ZAKO returns to site. '
+- added: 2006-07-31 09:43
+  author: DAH
+  end: 2006-07-28 11:00
+  number: '150'
+  start: 2006-07-28 10:00
+  text: 'Instrument: MST Radar. Quick-look plots show that the data acquisition was
+    disrupted three times (for approximately 10 minutes each). The probable cause
+    was mains power disruption in the Capel Dewi area - the radar return signal power
+    is at the noise level during each event. The v2 signal processing has apparently
+    filtered out the meaningless data. The PCs kept running from the UPS during these
+    events. '
+- added: 2006-07-31 09:46
+  author: DAH
+  end: 2006-07-28 18:00
+  number: '151'
+  start: 2006-07-28 18:00
+  text: 'Instrument: MST Radar. ZAKO returned from leave and restarted the transmitter
+    which had been down since 2006/07/26. This problem had not had a significant effect
+    on data acquisition.'
+- added: 2019-05-10 10:13
+  author: DAH
+  end: 2006-08-01 14:00
+  number: '2421'
+  start: 2006-08-01 09:15
+  text: Horizontal wind data should be ignored between times of 09:15 and 12:15 UTC
+    and between altitudes of 6.5 and 21.0 km. The signal has been contaminated by
+    interference. Moreover, the beam broadening corrected vertical beam spectral width
+    data should be ignored between times of 10:30 and 14:00 UTC at all altitudes.
+- added: 2006-08-02 08:24
+  author: DAH
+  end: 2006-08-01 15:00
+  number: '153'
+  start: 2006-08-01 09:30
+  text: 'Instrument: MST Radar. The radar experienced three instances of interference
+    - from 09:30 - 10:30 UT, from 11:00 - 12:00 UT, and from 13:00 - 15:00 UT. In
+    the second two instances the interference was particularly intense and was apparent
+    across the entire ST-mode observed altitude range. Although this caused serious
+    contamination, in the second two instances it was filtered out by the complementary
+    beam checking of v2 processing, and was avoided altogether for v3 processing. '
+- added: 2006-08-02 09:33
+  author: DAH
+  end: 2006-08-01 15:40
+  number: '154'
+  start: 2006-08-01 15:30
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    around 15:30 UT.'
+- added: 2006-08-04 08:30
+  author: DAH
+  end: 2006-08-02 18:30
+  number: '155'
+  start: 2006-08-02 00:00
+  text: 'Instrument: MST Radar. Mild interference occurred between 00:00 and 02:30
+    UT and then again between 17:00 and 18:30 UT.  '
+- added: 2019-05-10 10:19
+  author: DAH
+  end: 2006-08-02 18:00
+  number: '2422'
+  start: 2006-08-02 17:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 17:00 and 18:00 UTC and between altitudes of 10.0 and 21.0 km. The signal has
+    been contaminated by interference. Although the horizontal wind does not look
+    overly affected, the contamination is clear in the aspect sensitivity parameter
+    within this time-altitude region.'
+- added: 2006-08-04 08:32
+  author: DAH
+  end: 2006-08-03 16:00
+  number: '156'
+  start: 2006-08-03 04:00
+  text: 'Instrument: MST Radar. Mild interference occurred between 04:00 and 06:00
+    UT and then again between 15:00 and 16:00 UT.'
+- added: 2006-08-07 08:54
+  author: DAH
+  end: 2006-08-05 21:10
+  number: '157'
+  start: 2006-08-05 17:20
+  text: 'Instrument: MST Radar. Interference was experienced, primarily from 17:20
+    - 21:10 UT and apparently confined to vertical beam observations. It was most
+    obvious at the lower range gates of the ST mode. It appears to have resulted in
+    missing data for the v2 processing, rather than contamination. A more minor incident
+    occurred around 11:10 UT. '
+- added: 2019-05-10 10:26
+  author: DAH
+  end: 2006-08-05 20:00
+  number: '2423'
+  start: 2006-08-05 18:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 18:30 and 20:00 UTC and between altitudes of 1.6 and 10.0 km. The signal has
+    been contaminated by interference. '
+- added: 2006-08-07 08:57
+  author: DAH
+  end: 2006-08-06 09:10
+  number: '158'
+  start: 2006-08-06 02:00
+  text: 'Instrument: MST Radar. Interference was experienced in a similar pattern
+    to that of the revious day (2006/08/05). '
+- added: 2019-05-10 10:30
+  author: DAH
+  end: 2006-08-06 08:45
+  number: '2424'
+  start: 2006-08-06 04:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 04:00 and 08:45 UTC and between altitudes of 1.6 and 21.0 km. The signal has
+    been contaminated by interference.'
+- added: 2006-08-08 08:43
+  author: DAH
+  end: 2006-08-07 23:59
+  number: '159'
+  start: 2006-08-07 06:00
+  text: 'Instrument: MST Radar. The radar was again contaminated by the new type of
+    interference encountered only over the past few days. Rather than manifesting
+    itself most strongly where the atmospheric signal is weakest, it is most prevalent
+    in the altitude range 5 - 15 km. It appears to be caused by a secondary signal
+    component, which is sufficiently close to the desired signal but with a slightly
+    more positive Doppler velocity, for both to be identified (by v2 processing) as
+    belonging to a single signal. The most obvious manifeststation is the persistent
+    upward vertical velocities. v2 processing is able to filter out some of the contamination.
+    v0 is clearly badly affected. v3 appears to be able to cope quite well.  '
+- added: 2019-05-10 10:33
+  author: DAH
+  end: 2006-08-07 23:59
+  number: '2425'
+  start: 2006-08-07 06:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be treated with caution
+    between times of 06:00 and 23:59 UTC and between altitudes of 1.6 and 21.0 km.
+    The signal has been contaminated by interference. The vertical velocity also looks
+    unrealistic throughout most of this region.
+
+    '
+- added: 2006-08-09 09:21
+  author: DAH
+  end: 2006-08-08 00:40
+  number: '160'
+  start: 2006-08-08 00:00
+  text: 'Instrument: MST Radar. The new (type-2) interference continued over from
+    the previous day until around 00:40 UT. '
+- added: 2019-05-10 10:36
+  author: DAH
+  end: 2006-08-08 00:45
+  number: '2426'
+  start: 2006-08-08 00:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be treated with caution
+    between times of 00:00 and 00:45 UTC and between altitudes of 1.6 and 21.0 km.
+    The signal has been contaminated by interference. The vertical velocity also looks
+    unrealistic throughout some of this region.'
+- added: 2006-08-09 09:21
+  author: DAH
+  end: 2006-08-08 09:45
+  number: '161'
+  start: 2006-08-08 09:30
+  text: 'Instrument: MST Radar. ZAKO briefly shut down the radar to allow him to re-arrange
+    some equipment in an attempt to track down (or at least to eliminate) the source
+    of the sporadic interference. The problem is known to have become more common
+    since equipment was moved into a new rack. He switched off the oscilloscope and
+    removed a number a scope leads which were attached to the receiver and various
+    parts of the pre-processing units. '
+- added: 2006-08-10 09:46
+  author: DAH
+  end: 2006-08-10 08:00
+  number: '162'
+  start: 2006-08-10 00:00
+  text: "Instrument: Ceilometer. The PC which logs data from the ceilometer stopped\
+    \ functioning at around midnight after performing an automatic Windows update.\
+    \ The PC needs to be re-booted before normal operations can resume. This was done\
+    \ when ZAKO arrived on site. This is a known issue (discussed at the last Experimenters'\
+    \ meeting) and DAH will switch to manual updates when he next visits the site\
+    \ in ten days time. Although the usual download of data from the surface met sensor\
+    \ logger was affected by this problem, the missing data will be captured when\
+    \ the next scheduled download is carried out.  \n"
+- added: 2006-08-15 09:26
+  author: DAH
+  end: 2006-08-10 15:40
+  number: '163'
+  start: 2006-08-10 15:30
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    resulting in a small loss of coverage. '
+- added: 2019-05-10 10:41
+  author: DAH
+  end: 2006-08-13 11:10
+  number: '2427'
+  start: 2006-08-13 10:20
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 10:20 and 11:10 UTC and between altitudes of 10.5 and 11.5 km.'
+- added: 2006-08-15 09:30
+  author: DAH
+  end: 2006-08-14 08:00
+  number: '164'
+  start: 2006-08-14 00:00
+  text: 'Instrument: Ceilometer. The data logging PC stopped acquiring data at 00:00
+    UT and did not resume operations until ZAKO logged back in at 08:00 UT. Typically
+    this problem occurs when an automatic Windows update has taken place. However,
+    on this occasion the other Windows PCs did not show any indications that an update
+    had taken place.   '
+- added: 2006-08-17 12:35
+  author: DAH
+  end: 2006-08-16 11:00
+  number: '165'
+  start: 2006-08-16 10:00
+  text: 'Instrument: MST Radar. The Met Office switched over from v0 to v3 data for
+    operational assimilation. The v3 data stream under test status was shut down after
+    the 09:30 UT message and restarted in operational status for the 11:00 UT message.
+    The last v0 message in operational status was for 09:59 UT. No more v0 messages
+    were sent for the rest of the day. '
+- added: 2006-08-17 12:37
+  author: DAH
+  end: 2006-08-17 10:03
+  number: '166'
+  start: 2006-08-17 10:03
+  text: 'Instrument: MST Radar. DAH restarted the v0 data stream to the Met Office,
+    now in test status, in time for the 10:03 UT message. This required changes to
+    be made to the v0 BUFR encoding program so that data were only sent to the CWINDE
+    hub and not distributed to other users.'
+- added: 2007-05-16 11:48
+  author: DAH
+  end: 2006-08-18 08:40
+  number: '266'
+  start: 2006-08-18 08:40
+  text: Atmospheric. A thunderstorm passed over the radar site. The radar was not
+    powered down and so there was no loss of observations.
+- added: 2006-08-22 09:23
+  author: DAH
+  end: 2006-08-21 17:45
+  number: '167'
+  start: 2006-08-21 16:00
+  text: 'Instrument: MST Radar. Instrument: Ceilometer. The radar was down for nearly
+    2 hours, and no ceilometer data were collected, to allow equipment to be re-organised
+    in the computer rack.'
+- added: 2006-08-23 09:19
+  author: DAH
+  end: 2006-08-22 12:40
+  number: '169'
+  start: 2006-08-22 10:55
+  text: 'Instrument: Ceilometer. The time stamps for ceilometer data are taken from
+    the internal clock. This was changed manually at 10:55 UT as it was running approximately
+    5 minutes slow. During this procedure, the units in which altitudes are recorded
+    was accidentally changed from metres to feet. The units are stored in the data
+    messages and so this does not affect the usefulness of the data. The units were
+    reset to metres at 12:40 UT.    '
+- added: 2006-08-23 09:10
+  author: DAH
+  end: 2006-08-24 09:00
+  number: '168'
+  start: 2006-08-22 15:25
+  text: 'Instrument: MST Radar. The regular supply of data was halted for almost 48
+    hours whilst a new radar control and data acquisition system was being tested.   '
+- added: 2006-09-04 11:11
+  author: DAH
+  end: 2006-09-01 13:25
+  number: '170'
+  start: 2006-09-01 13:20
+  text: 'Instrument: MST Radar. Observations were interrupted for approximately 5
+    minutes to allow the radar control and data acquistion computer to be re-booted.'
+- added: 2006-09-06 10:01
+  author: DAH
+  end: 2006-09-04 10:00
+  number: '172'
+  start: 2006-09-04 08:00
+  text: 'Instrument: MST Radar. The power output from TX1 was found to be very low.
+    ZAKO made gradual adjustments, starting at 08 UT, to bring the power back up to
+    a normal level. This was completed by 10 UT. '
+- added: 2006-09-05 08:32
+  author: DAH
+  end: 2006-09-04 17:40
+  number: '171'
+  start: 2006-09-04 13:20
+  text: 'Instrument: MST Radar. The radar experienced interference - the first time
+    since ZAKO re-arranged equipment in the rack on 2006/08/08. The interference is
+    more apparent in the M-mode data than in the ST-mode data. It affected both v0
+    and v2 processing. It is not yet clear whether it affected v3 processing.'
+- added: 2019-05-10 11:54
+  author: DAH
+  end: 2006-09-04 16:50
+  number: '2428'
+  start: 2006-09-04 15:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 15:30 and 16:50 UTC and between altitudes of 10.0 and 11.5 km. This reg
+
+    ion appears to be contaminated with interference.'
+- added: 2006-09-06 10:06
+  author: DAH
+  end: 2006-09-05 12:00
+  number: '174'
+  start: 2006-09-05 05:00
+  text: 'Instrument: MST Radar. A problem associated with the blower motor of TX2
+    caused the insulation on some wires to melt and for the transmitter to stop working
+    (possibly at around 05 UT). ZAKO returned the transmitter to working order at
+    12 UT. '
+- added: 2006-09-06 10:03
+  author: DAH
+  end: 2006-09-05 12:00
+  number: '173'
+  start: 2006-09-05 11:30
+  text: 'Instrument: MST Radar. The radar appears to have experienced mild interference.
+    However, this is only apparent in the M-mode data.'
+- added: 2006-09-08 08:58
+  author: DAH
+  end: 2006-09-06 09:15
+  number: '177'
+  start: 2006-09-06 09:15
+  text: 'Instrument: Humidity Sensor. ZAKO removed the sensor - which had stopped
+    working on 2006/05/26 - cleaned it and then replaced it to see if corrosion on
+    the contacts was causing the problem. Although a change can be seen in the readings
+    at this time, it is from around 1.0% to around 0.5% - an unrealistic value. '
+- added: 2006-09-07 09:51
+  author: DAH
+  end: 2006-09-06 14:20
+  number: '176'
+  start: 2006-09-06 14:15
+  text: 'Instrument: MST Radar. ZAKO rebooted the radar control and data acquisition
+    PC leading to a short gap in observations.'
+- added: 2006-09-12 08:40
+  author: DAH
+  end: 2006-09-09 05:30
+  number: '178'
+  start: 2006-09-09 05:00
+  text: 'Instrument: MST Radar. There were two brief periods of missing observations.
+    These appear to have been caused by mains power fluctuations. At the same time
+    the UPS logged instances of the voltage first being too low and then being too
+    high. '
+- added: 2006-09-19 15:11
+  author: DAH
+  end: 2006-09-19 11:00
+  number: '182'
+  start: 2006-09-11 15:30
+  text: 'Instrument: Wind Sensors. There have been problems connecting to the data
+    logger (via a dial-up modem) at Frongoch farm since 2006/09/12. The problem appears
+    to have been at the Capel Dewi end as a successful connection was established
+    after some general fiddling-with-wires on 2006/09/14. This problem caused the
+    data from approximately 15:30 - 18:30 UT on 2006/09/11 to be lost. Although it
+    was thought that the connection issue was solved, no data were downloaded from
+    Frongoch over the weekend. The problem was spotted on 2006/09/19 and again, after
+    some fiddling-with-wires, a connection was established. This time the data from
+    2006/09/14 10:07 - 2006/09/16 19:43 were lost. '
+- added: 2006-09-19 12:21
+  author: DAH
+  end: 2006-09-15 14:45
+  number: '179'
+  start: 2006-09-15 14:40
+  text: 'Instrument: MST Radar. ZAKO rebooted the radar control and data acquisition
+    PC resulting in a short period of no observations being made.  '
+- added: 2006-09-19 12:26
+  author: ZKO
+  end: 2006-09-17 22:30
+  number: '180'
+  start: 2006-09-17 21:20
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference.
+    This is only known to have contaminated v2 data. It is likely that both v0 and
+    v3 data were unaffected.  '
+- added: 2006-09-19 12:37
+  author: DAH
+  end: 2006-09-18 19:20
+  number: '181'
+  start: 2006-09-18 17:30
+  text: 'Instrument: MST Radar. The radar again experienced a short period of interference.
+    ZAKO was still on site and so at around 18:30 UT he switched all TXs to state
+    1 (i.e. non-transmitting) and removed the antenna connection cables. Interference
+    was still detected by the RX. The TXs were switched back into an operational state
+    at around 18:40 UT and the interference persisted for a short while longer. The
+    interference appears to have only contaminated v2 data - not v0 or v3 data. '
+- added: 2006-09-21 14:35
+  author: DAH
+  end: 2006-09-19 09:00
+  number: '183'
+  start: 2006-09-19 08:00
+  text: 'Instrument: MST Radar. The radar experienced a mild case of interference.
+    This does not appear to have contaminated either the v0 or v3 data streams and
+    the corresponding data were automatically blanked by the v2 processing scheme.
+    ZAKO spotted the problem and experimented by leaving the transmitters running
+    but disconnecting the antenna feed to the receiver between approximately 08:50
+    and 08:52 UT. No interference was observed during this time but it re-appeared
+    as soon as ZAKO reconnected the antenna feed. The interference disappeared by
+    iteself shortly thereafter.'
+- added: 2006-09-22 09:53
+  author: DAH
+  end: 2006-09-21 20:00
+  number: '184'
+  start: 2006-09-21 10:00
+  text: 'Instrument: MST Radar. The radar appears to have experienced three instances
+    of very mild interference - between 10:00 and 11:00 UT, around 13:30 UT, and between
+    16:50 and 17:50 UT. This does not appear to have contaminated the data from any
+    of the processing schemes. Ground clutter between 12:50 and 20:00 UT gave rise
+    to missing data below 3 km for the v2 processing scheme.'
+- added: 2006-09-22 10:17
+  author: DAH
+  end: 2006-09-21 11:00
+  number: '186'
+  start: 2006-09-21 11:00
+  text: 'Instrument: Wind Sensors. DAH synchronised the clock on the Frongoch data
+    logger, which had been running approximately 1 minute late. '
+- added: 2007-01-30 09:31
+  author: DAH
+  end: 2006-09-21 21:00
+  number: '230'
+  start: 2006-09-21 13:00
+  text: 'Instrument: Relative Humidity sensor. ZAKO once again cleaned the contacts
+    of the relative humidity sensor and replaced it at 13 UT (addressing the problem
+    of clearly incorrect data readings which started on 2006-05-26). The readings
+    rose from near 1% to over 130% (and fluctuating)but settled down to more realistic
+    values at 21 UT.'
+- added: 2006-09-26 08:34
+  author: DAH
+  end: 2006-09-22 19:43
+  number: '189'
+  start: 2006-09-22 10:03
+  text: 'Instrument: Wind Sensors. Despite the fact that it was thought the dial-up
+    connection to Frongoch had been fixed on Friday 22nd, no wind data were collected
+    automatically over the weekend. Data were downloaded manually on the morning of
+    Monday 25th. Nine hours of wind data were lost (the memory in the data logger
+    can only hold less than three days'' worth of data). '
+- added: 2006-09-22 10:10
+  author: DAH
+  end: 2006-09-22 10:07
+  number: '185'
+  start: 2006-09-22 10:07
+  text: 'Instrument: Wind sensors. The dial-up modem used to connect to the Frongoch
+    data logger continued to give problems (which began on 2006/09/11). This meant
+    that data had to be downloaded at sporadic times although no further data were
+    lost. ZAKO switched over to a new modem on 2006/09/22 and this appears to have
+    solved the problem.   '
+- added: 2019-05-10 12:25
+  author: DAH
+  end: 2006-09-23 23:59
+  number: '2430'
+  start: 2006-09-23 23:30
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 23:30 and 23:59 UTC and between altitudes of 13.5 and 21.0 km. The speeds are
+    unrealistically large compared to those at adjacent times.'
+- added: 2019-05-10 12:24
+  author: DAH
+  end: 2006-09-24 00:30
+  number: '2429'
+  start: 2006-09-24 00:00
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 00:00 and 00:30 UTC and between altitudes of 13.5 and 21.0 km. The speeds are
+    unrealistically large compared to those at adjacent times.'
+- added: 2006-09-25 09:38
+  author: DAH
+  end: 2006-09-24 04:00
+  number: '187'
+  start: 2006-09-24 02:00
+  text: 'Instrument: MST Radar. The radar experienced some interference which led
+    to mild contamination of v2 data.'
+- added: 2006-09-26 08:23
+  author: DAH
+  end: 2006-09-25 23:59
+  number: '188'
+  start: 2006-09-25 19:30
+  text: 'Instrument: MST Radar. The radar experienced an extended period of interference.
+    The contaminated data were mostly filtered out by the v2 processing. V1 and v3
+    data appear to have suffered only minor contamination. Shorter gaps in the v2
+    data, around 08 UT and 13 UT, were probably also related to interference.'
+- added: 2019-05-10 12:31
+  author: DAH
+  end: 2006-09-25 23:30
+  number: '2431'
+  start: 2006-09-25 19:50
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 19:50 and 20:50 UTC and between altitudes
+    of 13.5 and 15.0 km, and between times of 22:30 and 23:30 UTC and between altitudes
+    of 13.5 and 16.5 km  The speeds are unrealistically large compared to those at
+    adjacent times.'
+- added: 2006-09-27 08:33
+  author: DAH
+  end: 2006-09-26 08:30
+  number: '190'
+  start: 2006-09-26 08:20
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted,
+    leading to a short gap in observations.'
+- added: 2006-09-27 08:39
+  author: DAH
+  end: 2006-09-26 14:20
+  number: '191'
+  start: 2006-09-26 13:40
+  text: 'Instrument: MST Radar. The radar experienced two brief periods of interference
+    - from 01:50 - 02:40 and from 13:40 - 14:20. These do not appear to have contaminated
+    v0 or v3 data. There is a low degree of contamination of v2 data for the first
+    occurrence, but the affected data were filtered out by the reliability flagging
+    for the second occurrence. '
+- added: 2006-09-28 08:31
+  author: DAH
+  end: 2006-09-27 23:59
+  number: '192'
+  start: 2006-09-27 21:40
+  text: 'Instrument: MST Radar. The radar suffered interference between 21:40 and
+    23:59 UT and previously for a shorter time between 10:30 and 11:20 UT. This was
+    mostly filtered out by the v2 processing. The v3 data were contaminated above
+    15 km. The v0 data appear to be free of contamination.'
+- added: 2019-05-10 12:36
+  author: DAH
+  end: 2006-09-27 23:40
+  number: '2432'
+  start: 2006-09-27 21:50
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 21:50 and 23:40 UTC and between altitudes of 5.0 and 19.0 km. The speeds are
+    unrealistically large compared to those at adjacent times. The contamination appears
+    to be the result of interference.'
+- added: 2006-09-29 08:22
+  author: DAH
+  end: 2006-09-28 21:20
+  number: '193'
+  start: 2006-09-28 19:00
+  text: 'Instrument: MST Radar. The radar experienced interference. This was mostly
+    filtered out by the v2 processing and only caused minor contamination of the v0
+    and v3 data.'
+- added: 2019-05-10 12:40
+  author: DAH
+  end: 2006-09-28 20:30
+  number: '2433'
+  start: 2006-09-28 19:20
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 19:20 and 20:30 UTC and between altitudes of 8.0 and 18.0 km. The speeds are
+    unrealistically large compared to those at adjacent times. The contamination appears
+    to be the result of interference.'
+- added: 2007-05-16 11:57
+  author: DAH
+  end: 2006-09-29 09:30
+  number: '267'
+  start: 2006-09-29 09:30
+  text: Atmospheric. There was a brief period of heavy rain.
+- added: 2006-10-05 08:45
+  author: DAH
+  end: 2006-09-29 17:38
+  number: '198'
+  start: 2006-09-29 11:01
+  text: 'Instrument: Wind Sensors. The problems connecting via dial-up modem to Frongoch
+    persisted even after a new modem was installed. Connections have been difficult
+    to establish and each day it has been necessary to download the data manually,
+    ususally after several unsuccessful attempts. This resulted is the loss of six
+    and a half hours data from 2006-09-29 (a Friday) since the logger is only able
+    to store less than three days worth of data and these were not downloaded until
+    the Monday morning (2006-10-02). It has been established that there are faults
+    on the site telephone and fax lines (the latter of which is used to connect to
+    Frongoch) and it is now thought that this has been causing the problems connecting
+    to Frongoch.  '
+- added: 2006-10-02 09:00
+  author: DAH
+  end: 2006-09-30 19:30
+  number: '194'
+  start: 2006-09-30 18:30
+  text: 'Instrument: MST Radar. The radar experienced mild interference. It was filtered
+    out from the v2 data and was unlikely to have had a significant effect on the
+    v0 and v3 data.'
+- added: 2006-10-02 09:05
+  author: DAH
+  end: 2006-10-01 17:00
+  number: '195'
+  start: 2006-10-01 09:40
+  text: 'Instrument: MST Radar. The radar experienced three short periods of interference
+    - between 09:40 and 11:00 UT, between 14:00 and 14:30 UT, and between 16:00 and
+    17:00 UT. This does not appear to have caused significant contamination for any
+    of the data streams.'
+- added: 2006-10-05 08:29
+  author: DAH
+  end: 2006-10-02 18:00
+  number: '196'
+  start: 2006-10-02 09:50
+  text: 'Instrument: MST Radar. The radar experienced four short periods of mild interference
+    - around 10:00 UT, around 11:20 UT, around 14:50 UT and around 17:20 UT. This
+    does not appear to have caused significant contamination for any of the data streams.'
+- added: 2006-10-05 08:34
+  author: DAH
+  end: 2006-10-04 23:59
+  number: '197'
+  start: 2006-10-04 01:30
+  text: 'Instrument: MST Radar. The radar experienced 5 relatively mild periods of
+    interference - around 02:00 UT, around 05:00 UT, around 09:20 UT, around 12:00
+    UT and around 17:00 UT - and then one longer period from 21:00 - 23:59 UT. All
+    resulted in gaps in the v2 data and only mild contamination of the v0 and v3 data. '
+- added: 2019-05-10 14:42
+  author: DAH
+  end: 2006-10-04 05:45
+  number: '2434'
+  start: 2006-10-04 04:15
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 04:15 and 05:45 UTC and between altitudes of 7.5 and 21.0 km. The speeds are
+    unrealistically large compared to those at adjacent times. The contamination appears
+    to be the result of interference. There is already a gap in the data at around
+    21:00 UTC, which appears to be where the signal processing has correctly blanked
+    another region of contamination.'
+- added: 2006-10-09 09:21
+  author: DAH
+  end: 2006-10-05 07:20
+  number: '199'
+  start: 2006-10-05 06:00
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference.
+    The v2 data show mild contamination.  '
+- added: 2006-10-09 09:23
+  author: DAH
+  end: 2006-10-06 11:35
+  number: '200'
+  start: 2006-10-06 11:25
+  text: 'Instrument: MST Radar. The radar control and data acqusition PC was rebooted
+    leading to a short gap in observations.'
+- added: 2006-10-09 09:24
+  author: DAH
+  end: 2006-10-06 23:00
+  number: '201'
+  start: 2006-10-06 21:50
+  text: 'Instrument: MST Radar. The radar experienced a short period of interference.
+    V2 data show only mild contamination. '
+- added: 2006-10-09 09:29
+  author: DAH
+  end: 2006-10-07 15:00
+  number: '202'
+  start: 2006-10-07 07:00
+  text: 'Instrument: MST Radar. The radar experienced three short periods of interference
+    - around 07:30 UT, around 11:30 UT and around 14:30 UT. None of these appears
+    to have caused contamination of the data.'
+- added: 2019-05-10 15:20
+  author: DAH
+  end: 2006-10-08 14:50
+  number: '2435'
+  start: 2006-10-08 12:50
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-latitude regions: between times of 12:50 and 13:40 UTC and between altitudes
+    of 7.0 and 21.0 km, and between times of 14:10 and 14:50 UTC and between altitudes
+    of 7.0 and 21.0 km. Although the speeds do not look so different from those at
+    adjacent times and altitudes, the aspect sensitivity data indicate the presence
+    of contamination.'
+- added: 2006-10-09 09:31
+  author: DAH
+  end: 2006-10-08 15:00
+  number: '203'
+  start: 2006-10-08 13:00
+  text: 'Instrument: MST Radar. The radar experienced a period of interference. This
+    appears to have caused mild contamination of the v0 and v2 data. '
+- added: 2006-10-17 08:36
+  author: DAH
+  end: 2006-10-09 14:30
+  number: '204'
+  start: 2006-10-09 00:00
+  text: 'Instrument: MST Radar. The radar experienced two periods of mild interference
+    - between 00:00 and 01:00 UT and between 13:00 and 14:30 UT. This appears to have
+    caused only minor contamination of v2 data.'
+- added: 2019-05-10 15:25
+  author: DAH
+  end: 2006-10-09 14:30
+  number: '2436'
+  start: 2006-10-09 00:10
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-latitude regions: between times of 00:10 and 01:00 UTC and between altitudes
+    of 8.5 and 21.0 km, and between times of 13:30 and 14:30 UTC and between altitudes
+    of 14.0 and 21.0 km. The sudden increase in altitude coverage during these periods
+    is the result of interference.
+
+    '
+- added: 2007-05-16 12:02
+  author: DAH
+  end: 2006-10-11 06:00
+  number: '268'
+  start: 2006-10-11 00:00
+  text: Atmospheric. ZAKO reported that a thunderstorm passed over (at an unspecified
+    time) during the early hours of the morning.
+- added: 2006-10-17 08:37
+  author: DAH
+  end: 2006-10-16 09:10
+  number: '205'
+  start: 2006-10-16 09:00
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    at 09:00 UT leading to a short gap in observations. '
+- added: 2006-10-17 12:05
+  author: DAH
+  end: 2006-10-16 09:10
+  number: '206'
+  start: 2006-10-16 09:00
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    at 09:00 UT leading to a short gap in observations. '
+- added: 2006-10-19 08:13
+  author: DAH
+  end: 2006-10-19 07:08
+  number: '207'
+  start: 2006-10-18 10:01
+  text: 'Instrument: Ceilometer. Data from the instrument stopped being logged at
+    10:01 UT on 2006-10-18. This problem was not spotted until the following morning
+    when DAH restarted the acquisition program.'
+- added: 2006-10-23 08:43
+  author: DAH
+  end: 2006-10-21 12:00
+  number: '208'
+  start: 2006-10-20 17:30
+  text: 'Instrument: MST Radar. The radar suffered a prolonged period of interference.
+    It is speculated that this was a result of the door to the computer room being
+    left shut overnight without the air conditioning being switched on. ZAKO was on
+    site on 21st (a Saturday) and noticed that the computer room very hot.'
+- added: 2019-05-10 15:32
+  author: DAH
+  end: 2006-10-20 22:50
+  number: '2437'
+  start: 2006-10-20 18:20
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored within two
+    time-altitude regions: between times of 18:20 and 20:00 UTC and between altitudes
+    of 7.5 and 21.0 km, and between times of 22:10 and 22:50 UTC and between altitudes
+    of 12.5 and 14.5 km. The sudden increase in altitude coverage during the first
+    period is the result of interference.'
+- added: 2019-05-10 16:13
+  author: DAH
+  end: 2006-10-21 09:30
+  number: '2438'
+  start: 2006-10-21 01:50
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 01:50 and 06:00 UTC and between altitudes of 7.5 and 21.0 km. This is part
+    of a longer episode of interference, which carries on until at least 09:30 UTC,
+    although the signal processing appears to have been effective at avoiding the
+    contamination during later times.'
+- added: 2007-05-16 12:12
+  author: DAH
+  end: 2006-10-21 18:00
+  number: '269'
+  start: 2006-10-21 14:50
+  text: 'Instrument: MST Radar. ZAKO visited the site (a Sunday) and noticed that
+    TX5 was down at 1225 UT. He restarted it but it was down again at 1430 UT. ZAKO
+    shut down all transmitters at 1450 UT to allow him to carry out further repairs.
+    Observations were resumed at 1800 UT.'
+- added: 2006-10-27 08:33
+  author: DAH
+  end: 2006-10-23 14:30
+  number: '209'
+  start: 2006-10-23 13:30
+  text: 'Instrument: MST Radar. The radar experienced a short period of mild interference.
+    It appears to have caused only minor contamination of v2 data.'
+- added: 2006-10-27 08:35
+  author: DAH
+  end: 2006-10-26 08:40
+  number: '210'
+  start: 2006-10-26 08:30
+  text: 'Instrument: MST Radar. ZAKO rebooted the radar control and data acquisition
+    PC leading to a small gap in observations.'
+- added: 2019-05-10 16:18
+  author: DAH
+  end: 2006-10-27 12:00
+  number: '2439'
+  start: 2006-10-27 10:45
+  text: 'Instrument: MST Radar. Horizontal wind data should be ignored between times
+    of 10:45 and 12:00 UTC and between altitudes of 15.0 and 21.0 km. Some of the
+    speeds are unrealistically faster than those at adjacent times and altitudes.'
+- added: 2006-11-06 09:59
+  author: DAH
+  end: 2006-11-05 16:54
+  number: '211'
+  start: 2006-11-04 10:00
+  text: 'Instrument: Ceilometer. Logging of data from the laser ceilometer stopped
+    at 10 UT on 2006-11-04, a Saturday. It is likely that this was caused by the acquisition
+    computer connecting to the Frongoch data logger (via a dial-up modem) to download
+    surface wind data. Similar problems have occasionally occured in the past. ZAKO
+    was on site on 2006-11-05, a Sunday, and restarted the ceilometer logging program
+    at 16:54 UT.'
+- added: 2006-11-08 08:23
+  author: DAH
+  end: 2006-11-06 09:20
+  number: '212'
+  start: 2006-11-06 09:15
+  text: 'Instrument: MST Radar. ZAKO rebooted the radar control and data acquisition
+    PC leading to a short gap in observations.'
+- added: 2006-11-10 08:18
+  author: DAH
+  end: 2006-11-10 08:15
+  number: '213'
+  start: 2006-11-09 10:00
+  text: 'Instrument: Ceilometer. The data acquisition PC stopped logging ceilometer
+    data at 2006-11-09 10:00 UT, probably when the dial-up connection was being made
+    to Fronmgoch to retrieve surface wind data. This was not spotted until 08:15 the
+    following morning, when logging was resumed.'
+- added: 2006-11-15 08:19
+  author: DAH
+  end: 2006-11-14 16:15
+  number: '214'
+  start: 2006-11-14 13:40
+  text: 'Instrument: MST Radar. The radar was powered down to allow students from
+    the University of Wales Aberystwyth to carry out a surveying exercise on the antenna
+    array. '
+- added: 2006-11-21 09:22
+  author: DAH
+  end: 2006-11-21 09:19
+  number: '215'
+  start: 2006-11-20 10:00
+  text: 'Instrument: Laser Ceilometer. Data from the ceilometer stopped being acquired
+    by the data logging PC. This is thought to have been caused by the same PC connecting
+    to the Frongoch data logger via dial-up modem. The data acquisition program was
+    restarted as soon as this was spotted - approximately 23 hours later.'
+- added: 2006-11-24 09:34
+  author: DAH
+  end: 2006-11-23 16:30
+  number: '216'
+  start: 2006-11-23 16:20
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2006-11-27 08:29
+  author: DAH
+  end: 2006-11-27 08:26
+  number: '217'
+  start: 2006-11-25 10:00
+  text: 'Instrument: Laser Ceilometer. Data acquisition stopped at 10 UT on 2006-11-25
+    (a Saturday). This was not spotted until the following Monday morning (2006-11-27)
+    leading to a loss of almost 48 hours of data.'
+- added: 2007-05-16 12:24
+  author: DAH
+  end: 2006-11-26 03:20
+  number: '270'
+  start: 2006-11-26 03:10
+  text: 'Instrument: MST Radar. There was a brief gap in observations. There is no
+    record, from the PC UPS, that the mains power was disrupted around this time although
+    the radar was apparently not transmitting.'
+- added: 2006-11-29 10:21
+  author: DAH
+  end: 2006-11-28 01:30
+  number: '218'
+  start: 2006-11-28 01:00
+  text: 'Atmospheric. A suspected tornado struck Bow Street, approximately 3 km to
+    the north of the radar site, at around 01:15 UT. This caused isolated but severe
+    damage to buildings. Although there is evidence (in the MST radar data) of convection
+    around this time, there is nothing obvious to suggest that it is out of the ordinary.
+    Frongoch surface wind data do show an increase in speed from around 6 m/s to 10
+    m/s around this time, but the higher speeds persist for at least an hour. The
+    event appears to have been coincident with a surface cold front as the wind direction
+    (in meteorological convention) changes from around 170 degrees to around 240 degrees
+    at this time. '
+- added: 2006-12-05 08:18
+  author: DAH
+  end: 2006-12-04 11:45
+  number: '219'
+  start: 2006-12-04 11:40
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2007-05-16 12:26
+  author: DAH
+  end: 2006-12-07 09:00
+  number: '271'
+  start: 2006-12-07 09:00
+  text: Atmospheric. ZAKO reported hearing thunder at around 09 UT.
+- added: 2007-01-04 11:54
+  author: DAH
+  end: 2006-12-13 09:35
+  number: '220'
+  start: 2006-12-13 09:25
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2007-01-04 11:56
+  author: DAH
+  end: 2006-12-20 10:05
+  number: '221'
+  start: 2006-12-20 10:00
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2007-01-04 12:06
+  author: DAH
+  end: 2006-12-27 09:00
+  number: '223'
+  start: 2006-12-22 10:00
+  text: 'Instrument: Laser Ceilometer. Data from the ceilometer stopped being acquired
+    on 2006-12-22 at 10:00 UT, probably caused by the download of Frongoch surface
+    wind data to the same PC. Since this occured over the Christmas period, the problem
+    was not spotted (and the data acquisition was not re-started) until 2006-12-27.'
+- added: 2007-01-04 12:00
+  author: DAH
+  end: 2006-12-29 09:55
+  number: '222'
+  start: 2006-12-29 09:50
+  text: 'Instrument: MST Radar. The radar control and data acquisition PC was rebooted
+    leading to a small gap in observations.'
+- added: 2007-05-16 12:29
+  author: DAH
+  end: 2006-12-31 13:00
+  number: '272'
+  start: 2006-12-31 13:00
+  text: Atmospheric. ZAKO reported hearing thunder at around 13 UT.

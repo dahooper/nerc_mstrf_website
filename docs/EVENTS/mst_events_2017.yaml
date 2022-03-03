@@ -1,0 +1,2357 @@
+- added: 2017-01-03 09:45
+  author: DAH
+  end: 2017-01-01 22:49
+  number: '1596'
+  start: 2017-01-01 22:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-03 09:46
+  author: DAH
+  end: 2017-01-03 03:49
+  number: '1597'
+  start: 2017-01-03 03:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-03 14:39
+  author: DAH
+  end: 2017-01-03 12:34
+  number: '1598'
+  start: 2017-01-03 11:35
+  text: 'Instrument: MST Radar. The radar was stopped to allow LD to investigate the
+    power divider supplying beam steering units 81, 82, 91, and 92, which had been
+    intermittently unresponsive since 2016-12-14. However, he could not find any obvious
+    cause for the problem.'
+- added: 2017-01-03 16:08
+  author: DAH
+  end: 2017-01-03 15:36
+  number: '1599'
+  start: 2017-01-03 15:24
+  text: 'Instrument: UPS units. The units all passed self tests during this period.'
+- added: 2017-02-07 10:31
+  author: DAH
+  end: 2017-01-10 14:48
+  number: '1627'
+  start: 2017-01-06 10:23
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    owing to a blown fuse. It was briefly back in action between 11:29 and 14:00 UT
+    on 2017-01-06 and between 10:39 and 11:18 UT on 2017-01-10. '
+- added: 2017-01-09 15:20
+  author: DAH
+  end: 2017-01-07 21:51
+  number: '1600'
+  start: 2017-01-07 21:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-09 16:41
+  author: DAH
+  end: 2017-01-08 14:52
+  number: '1601'
+  start: 2017-01-08 14:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-11 09:25
+  author: ZKO
+  end: 2017-01-09 17:52
+  number: '1604'
+  start: 2017-01-09 17:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-10 09:16
+  author: DAH
+  end: 2017-01-10 14:47
+  number: '1628'
+  start: 2017-01-10 14:47
+  text: 'Instrument: MST Radar. Beam steering unit 28 reported a slightly elevated
+    VSWR value for a single dwell. '
+- added: 2017-01-11 09:23
+  author: DAH
+  end: 2017-01-10 21:52
+  number: '1602'
+  start: 2017-01-10 21:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-11 09:24
+  author: DAH
+  end: 2017-01-11 00:52
+  number: '1603'
+  start: 2017-01-11 00:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-13 12:19
+  author: DAH
+  end: 2017-01-12 22:38
+  number: '1605'
+  start: 2017-01-12 22:38
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    1 s in response to an input power problem.  '
+- added: 2017-01-18 09:39
+  author: DAH
+  end: 2017-01-15 19:54
+  number: '1611'
+  start: 2017-01-15 19:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-18 10:09
+  author: DAH
+  end: 2017-01-17 11:55
+  number: '1612'
+  start: 2017-01-17 11:34
+  text: 'Instrument: MST Radar. The radar was stopped briefly to allow LD to inspect
+    the final power splitter for beam steering units 81, 82, 91, and 92, which have
+    not been responding properly. LD established that the dc power was getting through
+    and suspects that the fault lies with the rf signal. Further investigations will
+    be necessary.'
+- added: 2017-02-07 10:19
+  author: DAH
+  end: 2017-01-17 11:55
+  number: '1625'
+  start: 2017-01-17 11:34
+  text: 'Instrument: MST Radar. The connection between the radar scheduling PC (julius)
+    and the beam steering PC (tiberius) was broken for some reason. There appears
+    to have been at least one failed attempt to reconnect before normal operations
+    resumed 20 minutes later.'
+- added: 2017-01-18 09:34
+  author: DAH
+  end: 2017-01-17 15:36
+  number: '1608'
+  start: 2017-01-17 15:23
+  text: 'Instrument: UPS units. The units all passed self tests during this period.'
+- added: 2017-01-18 09:38
+  author: DAH
+  end: 2017-01-17 19:52
+  number: '1609'
+  start: 2017-01-17 19:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-18 09:39
+  author: DAH
+  end: 2017-01-17 19:52
+  number: '1610'
+  start: 2017-01-17 19:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-18 08:59
+  author: DAH
+  end: 2017-01-17 23:55
+  number: '1607'
+  start: 2017-01-17 23:55
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-18 08:53
+  author: DAH
+  end: 2017-01-18 04:56
+  number: '1606'
+  start: 2017-01-18 04:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-07 09:21
+  author: DAH
+  end: 2017-01-19 03:13
+  number: '1622'
+  start: 2017-01-19 01:36
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    D alternated between being slightly below expected and expected on 7 occasions
+    during this period. Each one was of brief duration. '
+- added: 2017-02-07 10:05
+  author: DAH
+  end: 2017-01-20 10:31
+  number: '1623'
+  start: 2017-01-20 02:05
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    D alternated between being slightly below expected and expected on a large number
+    of occasions during this period. Each one was of brief duration. '
+- added: 2017-01-23 09:35
+  author: DAH
+  end: 2017-01-20 17:50
+  number: '1613'
+  start: 2017-01-20 17:50
+  text: 'Instrument: UPS Units. The units switched to battery power for ~ 1 s in response
+    to an input power problem.'
+- added: 2017-02-07 10:07
+  author: DAH
+  end: 2017-01-22 19:04
+  number: '1624'
+  start: 2017-01-22 11:15
+  text: 'nstrument: MST Radar. The output power of the transmitter for antenna sector
+    D alternated between being slightly below expected and expected on 4 occasions
+    during this period: at 11:15, 16:13, 16:17, and 19:04 UT. '
+- added: 2017-01-31 16:25
+  author: DAH
+  end: 2017-01-26 02:56
+  number: '1615'
+  start: 2017-01-26 02:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-31 16:25
+  author: DAH
+  end: 2017-01-26 07:57
+  number: '1616'
+  start: 2017-01-26 07:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-31 16:26
+  author: DAH
+  end: 2017-01-26 22:58
+  number: '1617'
+  start: 2017-01-26 22:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-01-31 16:28
+  author: DAH
+  end: 2017-01-27 08:59
+  number: '1618'
+  start: 2017-01-27 08:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-07 08:59
+  author: DAH
+  end: 2017-01-29 08:25
+  number: '1621'
+  start: 2017-01-29 06:25
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    B was below the xpected value for 1 dwell.'
+- added: 2017-01-31 16:21
+  author: DAH
+  end: 2017-01-31 15:36
+  number: '1614'
+  start: 2017-01-31 15:23
+  text: 'Instrument: UPS units. The units all passed self tests during this period. '
+- added: 2017-01-31 16:32
+  author: DAH
+  end: 2017-01-31 16:28
+  number: '1619'
+  start: 2017-01-31 16:28
+  text: 'Instrument: UPS Units. Only two of the units (TX5 and Beamform) switched
+    to battery power briefly (~ 1 s) as a result of an input power problem. '
+- added: 2017-02-10 12:25
+  author: DAH
+  end: 2017-02-02 11:58
+  number: '1631'
+  start: 2017-02-02 11:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-07 08:53
+  author: DAH
+  end: 2017-02-04 06:09
+  number: '1620'
+  start: 2017-02-04 06:09
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna secor
+    C was briefly (i.e. for one dwell) below the expected value. '
+- added: 2017-03-02 09:39
+  author: DAH
+  end: 2017-02-09 10:37
+  number: '1639'
+  start: 2017-02-08 21:14
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    during this period.'
+- added: 2017-02-10 12:23
+  author: DAH
+  end: 2017-02-09 03:01
+  number: '1629'
+  start: 2017-02-09 03:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-10 12:23
+  author: DAH
+  end: 2017-02-10 21:00
+  number: '1630'
+  start: 2017-02-09 21:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-15 09:39
+  author: DAH
+  end: 2017-02-14 07:59
+  number: '1633'
+  start: 2017-02-14 07:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-15 09:41
+  author: DAH
+  end: 2017-02-14 10:00
+  number: '1634'
+  start: 2017-02-14 10:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-15 09:38
+  author: DAH
+  end: 2017-02-14 15:36
+  number: '1632'
+  start: 2017-02-14 15:22
+  text: 'Instrument: UPS units. The units all passed self tests during this period.'
+- added: 2017-02-15 09:41
+  author: DAH
+  end: 2017-02-14 17:01
+  number: '1635'
+  start: 2017-02-14 17:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-15 09:42
+  author: DAH
+  end: 2017-02-15 02:01
+  number: '1636'
+  start: 2017-02-15 02:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-02-07 10:21
+  author: ZKO
+  end: 2017-02-17 03:43
+  number: '1626'
+  start: 2017-02-17 03:43
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    B was briefly (i.e. for 1 dwell) below expected. '
+- added: 2017-03-02 09:49
+  author: DAH
+  end: 2017-02-20 15:02
+  number: '1650'
+  start: 2017-02-20 15:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:48
+  author: DAH
+  end: 2017-02-20 16:03
+  number: '1648'
+  start: 2017-02-20 16:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:48
+  author: DAH
+  end: 2017-02-20 18:03
+  number: '1647'
+  start: 2017-02-20 18:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:47
+  author: DAH
+  end: 2017-02-20 23:04
+  number: '1646'
+  start: 2017-02-20 23:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:47
+  author: DAH
+  end: 2017-02-22 06:06
+  number: '1645'
+  start: 2017-02-22 06:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:36
+  author: DAH
+  end: 2017-02-28 08:05
+  number: '1638'
+  start: 2017-02-22 08:05
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    C was briefly (< 1 minute) below expected. '
+- added: 2017-03-02 09:48
+  author: DAH
+  end: 2017-02-28 08:05
+  number: '1649'
+  start: 2017-02-22 08:05
+  text: 'Instrument: MST Radar. The output power of the transmitter for antenna sector
+    C was briefly (< 1 minute) below expected. '
+- added: 2017-03-02 09:46
+  author: DAH
+  end: 2017-02-23 05:07
+  number: '1644'
+  start: 2017-02-23 05:07
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:45
+  author: DAH
+  end: 2017-02-24 15:09
+  number: '1643'
+  start: 2017-02-24 15:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:45
+  author: DAH
+  end: 2017-02-24 20:10
+  number: '1642'
+  start: 2017-02-24 20:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-02 09:28
+  author: DAH
+  end: 2017-02-28 10:28
+  number: '1637'
+  start: 2017-02-27 07:03
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    owing to an "Analogue Parameter Error at State 1". '
+- added: 2017-03-02 09:41
+  author: DAH
+  end: 2017-02-28 15:36
+  number: '1640'
+  start: 2017-02-28 15:22
+  text: 'Instrument: UPS units. The units all passed self tests during this period.'
+- added: 2017-03-02 09:44
+  author: DAH
+  end: 2017-03-02 09:11
+  number: '1641'
+  start: 2017-03-02 09:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-08 09:05
+  author: DAH
+  end: 2017-03-07 17:32
+  number: '1651'
+  start: 2017-03-07 09:00
+  text: 'Instrument: MST Radar, LD40, WXT520, Sky-Camera-2. Work was carried out on
+    the site''s electrical switch gear during the course of the day. This meant that
+    all equipment had to be powered down for the duration of this work. '
+- added: 2017-03-09 14:00
+  author: DAH
+  end: 2017-03-07 16:19
+  number: '1653'
+  start: 2017-03-07 16:19
+  text: 'Instrument: UPS Units. The units all passed self tests as soon as the power
+    supply for the whole site was resumed. It had been off to allow work to be carried
+    out on the distribution system.  '
+- added: 2017-03-17 09:24
+  author: DAH
+  end: 2017-03-07 18:26
+  number: '1655'
+  start: 2017-03-07 18:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-08 17:19
+  author: DAH
+  end: 2017-03-08 16:49
+  number: '1652'
+  start: 2017-03-08 08:57
+  text: 'Instrument: MST Radar, LD40, WXT520, Sky-Camera-2. Testing was carried out
+    on the site''s electrical systems during the course of the day. This meant that
+    all equipment had to be powered down for the duration of this work.'
+- added: 2017-03-09 16:39
+  author: DAH
+  end: 2017-03-08 15:14
+  number: '1654'
+  start: 2017-03-08 15:14
+  text: 'Instrument: UPS Units. The units all passed self tests as soon as the power
+    supply for the whole site was resumed. It had been off to allow work to be carried
+    out on the distribution system.  '
+- added: 2017-03-17 09:27
+  author: DAH
+  end: 2017-03-09 14:17
+  number: '1656'
+  start: 2017-03-09 14:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-17 09:28
+  author: DAH
+  end: 2017-03-14 06:17
+  number: '1657'
+  start: 2017-03-14 06:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-17 09:32
+  author: DAH
+  end: 2017-03-14 07:17
+  number: '1658'
+  start: 2017-03-14 07:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-20 09:41
+  author: DAH
+  end: 2017-03-19 09:18
+  number: '1659'
+  start: 2017-03-19 09:18
+  text: 'Instrument: UPS units. The unit TX3 (rather than TX5) carried out a system
+    warmstart.'
+- added: 2017-03-20 09:43
+  author: DAH
+  end: 2017-03-19 10:19
+  number: '1660'
+  start: 2017-03-19 10:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-11 15:17
+  author: DAH
+  end: 2017-03-19 15:30
+  number: '1836'
+  start: 2017-03-19 14:30
+  text: 'Instrument: MST Radar. The horizontal wind speeds at around 16 km appear
+    to be unrealisticalkly evelvated during this period. Consequently the v4 Cardinal
+    file has not been delivered to the archive.'
+- added: 2017-03-20 09:44
+  author: DAH
+  end: 2017-03-19 17:18
+  number: '1661'
+  start: 2017-03-19 17:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-22 15:00
+  author: DAH
+  end: 2017-03-22 06:20
+  number: '1662'
+  start: 2017-03-22 06:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-22 16:16
+  author: DAH
+  end: 2017-03-22 15:14
+  number: '1663'
+  start: 2017-03-22 15:13
+  text: 'Instrument: UPS units. The units all passed self tests during this period.'
+- added: 2017-03-27 09:37
+  author: DAH
+  end: 2017-03-26 17:21
+  number: '1664'
+  start: 2017-03-26 17:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-03-27 09:37
+  author: DAH
+  end: 2017-03-26 23:22
+  number: '1665'
+  start: 2017-03-26 23:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-03 09:42
+  author: DAH
+  end: 2017-03-31 02:22
+  number: '1666'
+  start: 2017-03-31 02:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-03 09:43
+  author: DAH
+  end: 2017-03-31 07:22
+  number: '1667'
+  start: 2017-03-31 07:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-03 09:43
+  author: DAH
+  end: 2017-04-01 00:24
+  number: '1668'
+  start: 2017-04-01 00:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-03 09:55
+  author: DAH
+  end: 2017-04-01 03:24
+  number: '1669'
+  start: 2017-04-01 03:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-03 09:56
+  author: DAH
+  end: 2017-04-02 12:24
+  number: '1670'
+  start: 2017-04-02 12:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-07 16:27
+  author: DAH
+  end: 2017-04-04 09:53
+  number: '1672'
+  start: 2017-04-03 16:36
+  text: 'Instrument: UPS Units. The unit TX1 for transmitter A repeatedly alternated
+    between reporting an inverter fault and a cleared fault during this period. '
+- added: 2017-04-10 16:26
+  author: DAH
+  end: 2017-04-03 23:26
+  number: '1679'
+  start: 2017-04-03 23:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-10 09:23
+  author: DAH
+  end: 2017-04-04 09:57
+  number: '1675'
+  start: 2017-04-04 08:40
+  text: 'Instrumement: UPS units. Units TX1 and TX2 passed self tests during this
+    period.'
+- added: 2017-04-10 09:33
+  author: DAH
+  end: 2017-04-05 15:14
+  number: '1677'
+  start: 2017-04-05 15:13
+  text: 'Instrumemnt: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period. '
+- added: 2017-04-10 09:25
+  author: DAH
+  end: 2017-04-05 15:14
+  number: '1676'
+  start: 2017-04-05 15:14
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.  '
+- added: 2017-04-07 16:34
+  author: DAH
+  end: 2017-04-06 13:30
+  number: '1674'
+  start: 2017-04-06 13:27
+  text: 'INstrument: MST Radar. The output power from the transmitter for antenna
+    sector D was briefly below the expected level twice during this period.  '
+- added: 2017-04-10 14:39
+  author: DAH
+  end: 2017-04-06 14:26
+  number: '1678'
+  start: 2017-04-06 14:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-07 12:23
+  author: DAH
+  end: 2017-04-07 10:38
+  number: '1671'
+  start: 2017-04-07 10:23
+  text: 'Instrument: MST Radar. The radar was stopped briefly so that beam steering
+    unit 28 could be swapped. The unit had been alternating between reporting slightly
+    elevated VSWR values and normal values between 04:37 and 10:39 UT on 2017-04-05.'
+- added: 2017-04-07 16:29
+  author: DAH
+  end: 2017-04-07 11:50
+  number: '1673'
+  start: 2017-04-07 11:20
+  text: 'Instrument: MST Radar. The radar was stopped again briefly so that LD could
+    investigate the antennas associated with beam steering unit 28. The VSWR figures
+    became worse after the unit had been changed a short while earlier. LD replaced
+    the feed for one of the antennas, which was giving slightly off readings, with
+    a dummy load. '
+- added: 2017-04-11 14:53
+  author: DAH
+  end: 2017-04-11 06:25
+  number: '1680'
+  start: 2017-04-11 06:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-11 16:40
+  author: DAH
+  end: 2017-04-11 13:26
+  number: '1681'
+  start: 2017-04-11 13:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-18 10:01
+  author: DAH
+  end: 2017-04-14 02:28
+  number: '1683'
+  start: 2017-04-14 02:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-18 10:13
+  author: DAH
+  end: 2017-04-14 10:28
+  number: '1684'
+  start: 2017-04-14 10:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-18 09:57
+  author: DAH
+  end: 2017-04-14 22:00
+  number: '1682'
+  start: 2017-04-14 18:30
+  text: 'Instrument: MST Radar. The radar experienced interference on at least two
+    occasions during this period. This appears to have caused localised contamination
+    of the wind profiles at altitudes above 15 km. '
+- added: 2017-04-18 10:13
+  author: DAH
+  end: 2017-04-15 05:30
+  number: '1685'
+  start: 2017-04-15 05:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-18 15:02
+  author: DAH
+  end: 2017-04-18 09:41
+  number: '1686'
+  start: 2017-04-17 02:35
+  text: 'Instrument: MST Radar. The transmitter for antenna section B was out of action
+    owing to a blown fuse. '
+- added: 2017-04-18 15:04
+  author: DAH
+  end: 2017-04-18 09:55
+  number: '1688'
+  start: 2017-04-18 09:55
+  text: 'Instrument: UPS units. The unit TX2 passed a self test.'
+- added: 2017-04-18 15:03
+  author: DAH
+  end: 2017-04-18 13:30
+  number: '1687'
+  start: 2017-04-18 13:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-19 16:28
+  author: DAH
+  end: 2017-04-18 23:29
+  number: '1690'
+  start: 2017-04-18 23:29
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-19 16:27
+  author: DAH
+  end: 2017-04-19 15:14
+  number: '1689'
+  start: 2017-04-19 15:13
+  text: 'Instrumemnt: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-04-21 08:26
+  author: DAH
+  end: 2017-04-21 07:00
+  number: '1691'
+  start: 2017-04-20 15:20
+  text: 'Instrument: Vaisala LD40 Ceilometer. The data acquisition software stopped
+    logging data as a result of a problem with another piece of (Windows) software
+    on the same computer, Gaius. '
+- added: 2017-05-03 09:01
+  author: DAH
+  end: 2017-04-21 07:30
+  number: '1696'
+  start: 2017-04-21 07:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-04-28 14:34
+  author: DAH
+  end: 2017-04-22 14:40
+  number: '1692'
+  start: 2017-04-22 14:20
+  text: 'Instrument: MST Radar. The radar appears to have experience a short period
+    of interference, as revealed by the secondary (vertical beam) signals being linked
+    by radial chains. The wind data were not affected. '
+- added: 2017-04-28 14:43
+  author: ZKO
+  end: 2017-04-23 05:30
+  number: '1693'
+  start: 2017-04-23 04:45
+  text: 'Instrument: MST Radar. The wind speeds derived from the v3 Cartesian files
+    are significantly above the background levels at altitudes above 15 km during
+    this period. This appears to be the result of contamination. '
+- added: 2017-05-03 09:04
+  author: DAH
+  end: 2017-04-27 19:30
+  number: '1697'
+  start: 2017-04-27 19:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-03 09:05
+  author: DAH
+  end: 2017-04-28 22:31
+  number: '1698'
+  start: 2017-04-28 22:31
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-03 09:13
+  author: DAH
+  end: 2017-04-29 11:32
+  number: '1699'
+  start: 2017-04-29 11:32
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-03 09:14
+  author: DAH
+  end: 2017-04-29 14:33
+  number: '1700'
+  start: 2017-04-29 14:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-02 09:25
+  author: DAH
+  end: 2017-04-30 22:21
+  number: '1694'
+  start: 2017-04-30 22:04
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    input power power. This appears to have persisted for 15 minutes. For some reason,
+    the UPS units sent multiple notifications of the initial problem. '
+- added: 2017-05-02 10:07
+  author: DAH
+  end: 2017-05-02 09:25
+  number: '1695'
+  start: 2017-04-30 22:16
+  text: 'Instrument: MST Radar. The beam steering PC (tiberius) failed to respond
+    between 22:16:27 and 22:21:19 UTC. This appears to be in some way connected with
+    an input power problem experience by the UPS units  between 22:04 and 22:21 UTC.  However,
+    the beam steering control PC (tiberius) appears to have remained in operation
+    during this period. The problem caused a delay of 291 s between the 3rd and 4th
+    dwells of the observation cycle that began at 22:15:09 UTC. '
+- added: 2017-06-09 15:07
+  author: DAH
+  end: 2017-05-02 09:54
+  number: '1733'
+  start: 2017-05-02 09:54
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-06-09 15:11
+  author: DAH
+  end: 2017-05-03 15:14
+  number: '1734'
+  start: 2017-05-03 15:13
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-05-08 16:09
+  author: DAH
+  end: 2017-05-05 02:33
+  number: '1702'
+  start: 2017-05-05 02:33
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-08 15:36
+  author: DAH
+  end: 2017-05-08 09:25
+  number: '1701'
+  start: 2017-05-05 03:58
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to a blown fuse. '
+- added: 2017-05-08 16:10
+  author: DAH
+  end: 2017-05-05 10:34
+  number: '1703'
+  start: 2017-05-05 10:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-08 16:12
+  author: DAH
+  end: 2017-05-05 10:34
+  number: '1704'
+  start: 2017-05-05 10:34
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-12 10:12
+  author: DAH
+  end: 2017-05-09 18:36
+  number: '1705'
+  start: 2017-05-09 18:36
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-12 10:12
+  author: DAH
+  end: 2017-05-10 08:35
+  number: '1706'
+  start: 2017-05-10 08:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-12 10:13
+  author: DAH
+  end: 2017-05-10 09:35
+  number: '1707'
+  start: 2017-05-10 09:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-15 09:08
+  author: DAH
+  end: 2017-05-12 09:16
+  number: '1708'
+  start: 2017-05-10 23:17
+  text: 'Instrument: MST Radar. The transmitter for antenna sector A was out of action
+    owing to a blown fuse. '
+- added: 2017-05-15 15:17
+  author: DAH
+  end: 2017-05-14 16:08
+  number: '1710'
+  start: 2017-05-14 16:07
+  text: 'Instrument: MST Radar. The output power from the transmitter for antenna
+    sector B was briefly (for 1 dwell) below expected. '
+- added: 2017-05-15 09:14
+  author: DAH
+  end: 2017-05-15 05:35
+  number: '1709'
+  start: 2017-05-15 05:35
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-09 15:04
+  author: DAH
+  end: 2017-05-16 09:54
+  number: '1732'
+  start: 2017-05-16 09:54
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-06-09 15:03
+  author: DAH
+  end: 2017-05-17 15:14
+  number: '1731'
+  start: 2017-05-17 15:13
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-05-19 08:40
+  author: ZKO
+  end: 2017-05-18 06:37
+  number: '1711'
+  start: 2017-05-18 06:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-19 08:41
+  author: DAH
+  end: 2017-05-18 21:38
+  number: '1712'
+  start: 2017-05-18 21:38
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-23 16:33
+  author: DAH
+  end: 2017-05-22 12:37
+  number: '1714'
+  start: 2017-05-22 12:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-05-23 16:32
+  author: DAH
+  end: 2017-05-23 06:38
+  number: '1713'
+  start: 2017-05-23 06:38
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-09 14:54
+  author: DAH
+  end: 2017-05-24 08:38
+  number: '1730'
+  start: 2017-05-24 08:38
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-07 09:19
+  author: DAH
+  end: 2017-05-24 18:38
+  number: '1720'
+  start: 2017-05-24 18:38
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-09 14:40
+  author: DAH
+  end: 2017-05-26 17:39
+  number: '1727'
+  start: 2017-05-26 17:39
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-09 14:42
+  author: DAH
+  end: 2017-05-26 19:40
+  number: '1728'
+  start: 2017-05-26 19:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-09 16:30
+  author: DAH
+  end: 2017-05-27 14:11
+  number: '1739'
+  start: 2017-05-26 22:45
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    owing to a blown fuse.'
+- added: 2017-06-09 14:49
+  author: DAH
+  end: 2017-05-27 04:43
+  number: '1729'
+  start: 2017-05-27 04:43
+  text: 'Instrumement: UPS units. Three of the units - TX3, TX5, and Beamform - briefly
+    (~ 1 s) switched to battery power in response to an input power problem.'
+- added: 2017-06-07 11:15
+  author: DAH
+  end: 2017-05-27 13:48
+  number: '1726'
+  start: 2017-05-27 05:21
+  text: 'Instrument: Broadband. The internet connection was lost, apparently as the
+    result of thunderstorm activity in the area. The connection was restored as a
+    result of LD changing the phone/internet filter.   '
+- added: 2017-06-07 09:15
+  author: DAH
+  end: 2017-05-27 10:49
+  number: '1719'
+  start: 2017-05-27 10:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-07 09:01
+  author: DAH
+  end: 2017-05-28 15:41
+  number: '1718'
+  start: 2017-05-28 15:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-07 11:07
+  author: DAH
+  end: 2017-05-30 09:53
+  number: '1725'
+  start: 2017-05-30 09:53
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-06-07 08:57
+  author: DAH
+  end: 2017-05-30 22:42
+  number: '1717'
+  start: 2017-05-30 22:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-07 11:04
+  author: DAH
+  end: 2017-05-31 15:15
+  number: '1724'
+  start: 2017-05-31 15:12
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-06-07 08:50
+  author: DAH
+  end: 2017-06-03 17:43
+  number: '1716'
+  start: 2017-06-03 17:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-07 08:50
+  author: DAH
+  end: 2017-06-03 22:43
+  number: '1715'
+  start: 2017-06-03 22:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 14:20
+  author: DAH
+  end: 2017-06-09 11:00
+  number: '1753'
+  start: 2017-06-05 21:40
+  text: 'Instrument: Campbell Scientific. Although the tipping bucket rangauge detected
+    rain throughout much of 2017-06-05, the last  measurement was made at 21:40 UTC.
+    The WXT520 measurements suggest that 6.9 mm more rain fell between then and 24:00
+    UTC. LD cleaned out the raingauge a few days later and found a build up of algae,
+    a slug on the tipping mechanism, and an ants'' nest. '
+- added: 2017-06-07 10:21
+  author: DAH
+  end: 2017-06-06 00:03
+  number: '1722'
+  start: 2017-06-06 00:03
+  text: 'Instrument: UPS Units. The units TX2, TX3, TX4, TX5, and Beamform briefly
+    (~ 1 s) switched to battery power in response to an input power problem on 2 occasions
+    in quick succession.'
+- added: 2017-06-07 10:55
+  author: DAH
+  end: 2017-06-06 05:40
+  number: '1723'
+  start: 2017-06-06 05:38
+  text: 'Instrument: UPS Units. The units TX2, TX3, TX4, TX5, and Beamform switched
+    to battery power twice in response to input power problems: at 05:38:53 for 6
+    s and at 05:40:36 for 5 s.  '
+- added: 2017-06-07 09:30
+  author: DAH
+  end: 2017-06-07 00:45
+  number: '1721'
+  start: 2017-06-07 00:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 09:29
+  author: DAH
+  end: 2017-06-12 01:46
+  number: '1748'
+  start: 2017-06-12 01:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 09:55
+  author: DAH
+  end: 2017-06-12 01:46
+  number: '1749'
+  start: 2017-06-12 01:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-14 14:57
+  author: DAH
+  end: 2017-06-13 09:45
+  number: '1740'
+  start: 2017-06-12 07:20
+  text: 'Instrument: MST Radar. The transmitter for antenna sector C was out of action
+    owing to an "analogue error at state 4". '
+- added: 2017-09-14 10:21
+  author: DAH
+  end: 2017-06-12 16:40
+  number: '1851'
+  start: 2017-06-12 15:50
+  text: 'Instrument: MST Radar. The wind speeds between 9 and 12 km during this period
+    are somewhat lower than at adjacent altitudes and times suggesting that the radar
+    might be suffering from interference. However, there are no distinct signatures
+    in the other radar parameters. '
+- added: 2017-06-14 15:13
+  author: DAH
+  end: 2017-06-13 09:52
+  number: '1743'
+  start: 2017-06-13 09:52
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-06-14 15:11
+  author: DAH
+  end: 2017-06-13 21:46
+  number: '1742'
+  start: 2017-06-13 21:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-14 15:10
+  author: DAH
+  end: 2017-06-14 04:47
+  number: '1741'
+  start: 2017-06-14 04:47
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-19 09:09
+  author: DAH
+  end: 2017-06-16 10:45
+  number: '1747'
+  start: 2017-06-14 13:03
+  text: 'Instrument: MST Radar. The transmitter for anetnna sector C was out of action
+    owing to an analgue error. This appears to have been the result of the final heater
+    voltage drifting below the minimum permitted value. DAH remotely restarted the
+    transmitter a few times shortly after the problem first occurred. However, on
+    each occaision, the transmitter did not remain in action for more than a minute
+    or two. '
+- added: 2017-09-14 10:25
+  author: DAH
+  end: 2017-06-14 18:10
+  number: '1852'
+  start: 2017-06-14 14:30
+  text: 'Instrument: MST Radar. The beam broadening corrected spectral widths look
+    unrealistically large during this period, suggesting some sort of interference.
+    However, none of the other radar parameters looks unusual and so the v4 Cardinal
+    file has been allowed into the archive. '
+- added: 2017-06-15 10:07
+  author: DAH
+  end: 2017-06-14 15:15
+  number: '1744'
+  start: 2017-06-14 15:12
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-06-15 10:08
+  author: DAH
+  end: 2017-06-15 03:47
+  number: '1745'
+  start: 2017-06-15 03:47
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-16 09:08
+  author: DAH
+  end: 2017-06-16 02:48
+  number: '1746'
+  start: 2017-06-16 02:48
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 09:56
+  author: DAH
+  end: 2017-06-16 09:49
+  number: '1750'
+  start: 2017-06-16 09:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 09:56
+  author: DAH
+  end: 2017-06-18 19:50
+  number: '1751'
+  start: 2017-06-18 19:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-21 09:59
+  author: DAH
+  end: 2017-06-20 11:51
+  number: '1752'
+  start: 2017-06-20 11:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-23 15:06
+  author: DAH
+  end: 2017-06-21 17:51
+  number: '1756'
+  start: 2017-06-21 17:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-23 09:34
+  author: DAH
+  end: 2017-06-22 17:50
+  number: '1755'
+  start: 2017-06-22 17:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-23 09:33
+  author: DAH
+  end: 2017-06-23 06:51
+  number: '1754'
+  start: 2017-06-23 06:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-27 12:16
+  author: DAH
+  end: 2017-06-24 01:52
+  number: '1758'
+  start: 2017-06-24 01:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-28 15:08
+  author: DAH
+  end: 2017-06-27 23:59
+  number: '1760'
+  start: 2017-06-27 00:00
+  text: 'Instrument: Campbell Scientific surface met sensors. The tipping bucket raingauge
+    detected no rain during the course of this day, whereas as the WXT520 measured
+    an accumulation of 2.5 mm. The tipping bucket raingauge appears to not be working.'
+- added: 2017-06-27 12:15
+  author: DAH
+  end: 2017-06-27 07:53
+  number: '1757'
+  start: 2017-06-27 07:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-27 12:17
+  author: DAH
+  end: 2017-06-27 09:52
+  number: '1759'
+  start: 2017-06-27 09:52
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-06-30 12:16
+  author: DAH
+  end: 2017-06-28 23:59
+  number: '1764'
+  start: 2017-06-28 00:00
+  text: 'Instrument: Campbell Scientific surface met sensors. The tipping bucket raingauge
+    detected no rain during the course of this day, whereas as the WXT520 measured
+    an accumulation of 2.11 mm spread across the course of the day.'
+- added: 2017-06-28 15:10
+  author: DAH
+  end: 2017-06-28 02:54
+  number: '1762'
+  start: 2017-06-28 02:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-06-28 15:09
+  author: DAH
+  end: 2017-06-28 04:54
+  number: '1761'
+  start: 2017-06-28 04:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-03 10:12
+  author: DAH
+  end: 2017-06-28 15:15
+  number: '1767'
+  start: 2017-06-28 15:12
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-06-30 12:14
+  author: DAH
+  end: 2017-06-29 23:59
+  number: '1763'
+  start: 2017-06-29 00:00
+  text: 'Instrument: Campbell Scientific surface met sensors. The tipping bucket raingauge
+    detected no rain during the course of this day, whereas as the WXT520 measured
+    a small accumulation of 0.12 mm after 22:36 UTC.'
+- added: 2017-07-03 09:34
+  author: DAH
+  end: 2017-07-02 01:55
+  number: '1766'
+  start: 2017-07-02 01:55
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-03 09:32
+  author: DAH
+  end: 2017-07-02 17:56
+  number: '1765'
+  start: 2017-07-02 17:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-05 10:16
+  author: DAH
+  end: 2017-07-03 05:05
+  number: '1768'
+  start: 2017-07-03 01:02
+  text: 'Instrument: Campbell Scientific surface met sensors. The tipping bucket raingauge
+    detected no rain during the course of this day, whereas as the WXT520 measured
+    a small accumulation of 0.31 mm after between 01:02 and 05:05 UTC.'
+- added: 2017-07-10 15:06
+  author: DAH
+  end: 2017-07-03 15:56
+  number: '1772'
+  start: 2017-07-03 15:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-06 09:14
+  author: DAH
+  end: 2017-07-05 20:57
+  number: '1769'
+  start: 2017-07-05 20:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-14 08:48
+  author: DAH
+  end: 2017-07-06 20:30
+  number: '1775'
+  start: 2017-07-06 19:30
+  text: 'Instrument: MST Radar. The radar experience interference during this period,
+    but it was confined to the secondary signals and so does not appear to have affected
+    the wind data. '
+- added: 2017-07-10 16:24
+  author: DAH
+  end: 2017-07-09 01:50
+  number: '1774'
+  start: 2017-07-07 02:00
+  text: 'Instrument: Campbell Sci. Surface Met. Sensors. For some reason, raw data
+    were not downloaded from the logger at 02:00 UT on 2017-07-08. Nevertheless, the
+    missing data were automatically included in the data transfer during the following
+    morning.  '
+- added: 2017-07-10 15:05
+  author: DAH
+  end: 2017-07-08 12:58
+  number: '1771'
+  start: 2017-07-08 12:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-14 08:58
+  author: DAH
+  end: 2017-07-08 20:00
+  number: '1776'
+  start: 2017-07-08 19:00
+  text: 'Instrument: MST Radar. The radar experienced interference during this period,
+    but it was confined to the secondary signals and so does not appear to have affected
+    the wind data.'
+- added: 2017-07-10 15:03
+  author: DAH
+  end: 2017-07-10 01:58
+  number: '1770'
+  start: 2017-07-10 01:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-10 15:10
+  author: DAH
+  end: 2017-07-10 02:16
+  number: '1773'
+  start: 2017-07-10 02:16
+  text: 'Instrument: UPS Units. The units TX2, TX3, TX4, TX5, and Beamform switched
+    briefly (~ 1 s) to battery power in response to an input power problem.'
+- added: 2017-08-10 11:43
+  author: DAH
+  end: 2017-07-10 16:57
+  number: '1801'
+  start: 2017-07-10 16:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:39
+  author: DAH
+  end: 2017-07-11 09:51
+  number: '1800'
+  start: 2017-07-11 09:51
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2019-05-08 14:49
+  author: DAH
+  end: 2017-07-12 11:56
+  number: '2404'
+  start: 2017-07-12 11:56
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (~ 1 s)
+    twice within a few seconds in response to input power problems.'
+- added: 2017-08-10 11:35
+  author: DAH
+  end: 2017-07-12 15:15
+  number: '1797'
+  start: 2017-07-12 15:11
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-07-19 12:00
+  author: DAH
+  end: 2017-07-15 03:57
+  number: '1783'
+  start: 2017-07-15 03:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-19 11:36
+  author: DAH
+  end: 2017-07-15 22:58
+  number: '1782'
+  start: 2017-07-15 22:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-19 11:35
+  author: DAH
+  end: 2017-07-16 20:00
+  number: '1781'
+  start: 2017-07-16 20:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-07-18 11:28
+  author: DAH
+  end: 2017-07-18 10:24
+  number: '1777'
+  start: 2017-07-18 09:15
+  text: 'Instrument: MST Radar. The radar was powered down to allow LD to put a dummy
+    load in place of one of the power dividers, which was allowing the rf signal through
+    but no dc.'
+- added: 2017-07-19 11:34
+  author: DAH
+  end: 2017-07-18 13:34
+  number: '1779'
+  start: 2017-07-18 13:12
+  text: 'Instrument: MST Radar. The radar was stopped during this period in order
+    to allow LD to complete some work on the antenna array that he had begun earlier
+    in the day. '
+- added: 2017-07-19 11:35
+  author: DAH
+  end: 2017-07-18 20:58
+  number: '1780'
+  start: 2017-07-18 20:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.Instrument:
+    UPS units.'
+- added: 2017-07-19 12:03
+  author: DAH
+  end: 2017-07-18 22:33
+  number: '1784'
+  start: 2017-07-18 21:23
+  text: 'Instrument: Campbell Sci. Surface Met Sensors. The tipping bucket rain gauge
+    recorded no rain during the course of the day, although the Vaisala WXT520 recorded
+    an accumulation of 1.07 mm between 21:23 and 22:33 UTC.'
+- added: 2017-07-19 09:54
+  author: DAH
+  end: 2017-07-18 23:17
+  number: '1778'
+  start: 2017-07-18 23:05
+  text: 'Instrument: UPS Units. The units switched twice - at 23:05 and at 23:17 UTC
+    - to battery power in response to short-lived (~ 1 s)  input power problems. '
+- added: 2017-07-21 16:24
+  author: DAH
+  end: 2017-07-19 23:59
+  number: '1785'
+  start: 2017-07-19 00:00
+  text: 'Instrument: Campbell Sci Surface Met sensors. The tipping bucket raingauge
+    recorded no rain, although the Vaisala WXT520 measured an integration of 0.90
+    mm over the course of the day. This was principally 09:03 - 09:29 (0.10 mm), 12:51
+    - 13:05 (0.07 mm), 14:17 - 14:55 (0.06 mm), and 20:03 - 20:36 (0.66 mm). '
+- added: 2017-08-10 11:30
+  author: DAH
+  end: 2017-07-23 09:00
+  number: '1794'
+  start: 2017-07-23 09:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:28
+  author: DAH
+  end: 2017-07-24 13:00
+  number: '1793'
+  start: 2017-07-24 13:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:27
+  author: DAH
+  end: 2017-07-25 07:01
+  number: '1792'
+  start: 2017-07-25 07:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:38
+  author: DAH
+  end: 2017-07-25 09:51
+  number: '1799'
+  start: 2017-07-25 09:51
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-08-10 11:34
+  author: DAH
+  end: 2017-07-26 15:15
+  number: '1796'
+  start: 2017-07-26 15:11
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-09-01 13:42
+  author: DAH
+  end: 2017-07-29 03:43
+  number: '1831'
+  start: 2017-07-29 03:42
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell. '
+- added: 2017-08-10 11:26
+  author: DAH
+  end: 2017-07-29 04:02
+  number: '1791'
+  start: 2017-07-29 04:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:25
+  author: DAH
+  end: 2017-07-31 22:02
+  number: '1790'
+  start: 2017-07-31 22:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:25
+  author: DAH
+  end: 2017-08-02 02:03
+  number: '1789'
+  start: 2017-08-02 02:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:24
+  author: DAH
+  end: 2017-08-02 11:04
+  number: '1788'
+  start: 2017-08-02 11:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:42
+  author: DAH
+  end: 2017-08-02 15:13
+  number: '1830'
+  start: 2017-08-02 15:13
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell. '
+- added: 2017-08-10 11:37
+  author: DAH
+  end: 2017-08-08 09:50
+  number: '1798'
+  start: 2017-08-08 09:50
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-08-10 11:23
+  author: DAH
+  end: 2017-08-08 20:04
+  number: '1787'
+  start: 2017-08-08 20:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-10 11:33
+  author: DAH
+  end: 2017-08-09 15:15
+  number: '1795'
+  start: 2017-08-09 15:11
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-09-01 13:40
+  author: DAH
+  end: 2017-08-09 19:10
+  number: '1829'
+  start: 2017-08-09 19:09
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-01 13:51
+  author: DAH
+  end: 2017-08-10 05:34
+  number: '1833'
+  start: 2017-08-10 01:28
+  text: 'Instrument: MST Radar. The beam steering controller was briefly unable to
+    connect to unit 69 on 3 occasions during this period: 01:28 - 01:42, 02:22 - 02:37,
+    and 03:07 - 05:44 UTC.'
+- added: 2017-08-10 11:22
+  author: DAH
+  end: 2017-08-10 06:06
+  number: '1786'
+  start: 2017-08-10 06:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-14 09:36
+  author: DAH
+  end: 2017-08-10 23:05
+  number: '1806'
+  start: 2017-08-10 23:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-14 09:35
+  author: DAH
+  end: 2017-08-11 17:06
+  number: '1805'
+  start: 2017-08-11 17:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-14 09:34
+  author: DAH
+  end: 2017-08-12 04:05
+  number: '1804'
+  start: 2017-08-12 04:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-14 09:34
+  author: DAH
+  end: 2017-08-12 06:06
+  number: '1803'
+  start: 2017-08-12 06:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:53
+  author: DAH
+  end: 2017-08-13 04:42
+  number: '1834'
+  start: 2017-08-13 04:42
+  text: 'Instrument: MST Radar. The beam steering controller was briefly unable to
+    connect to unit 69 on 2 occasions during this period: 04:42 - 04:43 and 04:58
+    - 05:47 UTC. '
+- added: 2017-08-14 09:33
+  author: DAH
+  end: 2017-08-13 15:08
+  number: '1802'
+  start: 2017-08-13 15:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-15 14:34
+  author: DAH
+  end: 2017-08-14 20:07
+  number: '1807'
+  start: 2017-08-14 20:07
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-15 14:34
+  author: DAH
+  end: 2017-08-15 03:08
+  number: '1808'
+  start: 2017-08-15 03:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-15 14:41
+  author: DAH
+  end: 2017-08-15 07:09
+  number: '1809'
+  start: 2017-08-15 07:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:37
+  author: DAH
+  end: 2017-08-15 19:35
+  number: '1827'
+  start: 2017-08-15 19:34
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.  '
+- added: 2017-08-21 11:21
+  author: DAH
+  end: 2017-08-17 15:10
+  number: '1810'
+  start: 2017-08-17 15:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-21 11:22
+  author: DAH
+  end: 2017-08-18 03:11
+  number: '1811'
+  start: 2017-08-18 03:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-21 11:23
+  author: DAH
+  end: 2017-08-18 17:12
+  number: '1812'
+  start: 2017-08-18 17:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-21 11:23
+  author: DAH
+  end: 2017-08-19 06:11
+  number: '1813'
+  start: 2017-08-19 06:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:39
+  author: DAH
+  end: 2017-08-19 14:39
+  number: '1828'
+  start: 2017-08-19 14:39
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell. '
+- added: 2017-08-21 11:24
+  author: DAH
+  end: 2017-08-19 19:12
+  number: '1814'
+  start: 2017-08-19 19:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-21 11:25
+  author: DAH
+  end: 2017-08-20 04:13
+  number: '1815'
+  start: 2017-08-20 04:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-23 15:23
+  author: DAH
+  end: 2017-08-21 16:15
+  number: '1817'
+  start: 2017-08-21 16:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-23 15:33
+  author: DAH
+  end: 2017-08-22 09:50
+  number: '1818'
+  start: 2017-08-22 09:50
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-08-23 09:07
+  author: DAH
+  end: 2017-08-22 10:26
+  number: '1816'
+  start: 2017-08-22 10:08
+  text: 'Instrument: MST Radar. The radar was stopped during this period to allow
+    LD to change over beam steering unit 100 for a spare unit that he wanted to test.'
+- added: 2017-08-25 14:12
+  author: DAH
+  end: 2017-08-23 15:15
+  number: '1822'
+  start: 2017-08-23 15:11
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-08-25 14:09
+  author: DAH
+  end: 2017-08-24 08:14
+  number: '1821'
+  start: 2017-08-24 08:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-25 14:09
+  author: DAH
+  end: 2017-08-24 10:15
+  number: '1820'
+  start: 2017-08-24 10:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-25 14:08
+  author: DAH
+  end: 2017-08-25 05:16
+  number: '1819'
+  start: 2017-08-25 05:16
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-08-30 10:07
+  author: DAH
+  end: 2017-08-25 20:15
+  number: '1823'
+  start: 2017-08-25 20:15
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:34
+  author: DAH
+  end: 2017-08-29 10:19
+  number: '1826'
+  start: 2017-08-26 01:41
+  text: 'Instrument: MST Radar. The transmitter for antenna section B was out of action
+    owing to a blown fuse. '
+- added: 2017-09-01 13:45
+  author: DAH
+  end: 2017-08-31 18:53
+  number: '1832'
+  start: 2017-08-31 18:53
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell. '
+- added: 2017-09-01 13:31
+  author: DAH
+  end: 2017-09-01 09:17
+  number: '1824'
+  start: 2017-09-01 09:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-01 13:32
+  author: DAH
+  end: 2017-09-01 11:17
+  number: '1825'
+  start: 2017-09-01 11:06
+  text: 'Instrument: MST Radar. The radar was stopped briefly to allow LD to swap
+    beam steering unit 100 for testing purposes. '
+- added: 2017-09-13 14:38
+  author: DAH
+  end: 2017-09-02 05:19
+  number: '1850'
+  start: 2017-09-02 05:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-04 10:33
+  author: DAH
+  end: 2017-09-03 13:14
+  number: '1835'
+  start: 2017-09-03 13:13
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-14 14:32
+  author: DAH
+  end: 2017-09-05 04:52
+  number: '1858'
+  start: 2017-09-05 04:51
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-13 14:37
+  author: DAH
+  end: 2017-09-05 05:19
+  number: '1849'
+  start: 2017-09-05 05:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-14 14:30
+  author: DAH
+  end: 2017-09-05 07:15
+  number: '1857'
+  start: 2017-09-05 07:14
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-13 14:36
+  author: DAH
+  end: 2017-09-05 09:49
+  number: '1847'
+  start: 2017-09-05 09:49
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-09-13 14:37
+  author: DAH
+  end: 2017-09-05 09:49
+  number: '1848'
+  start: 2017-09-05 09:49
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-09-13 14:12
+  author: DAH
+  end: 2017-09-06 15:16
+  number: '1846'
+  start: 2017-09-06 15:10
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-09-14 14:29
+  author: DAH
+  end: 2017-09-12 16:36
+  number: '1856'
+  start: 2017-09-12 16:35
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-14 12:21
+  author: DAH
+  end: 2017-09-14 08:23
+  number: '1853'
+  start: 2017-09-14 08:23
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    1 s in response to an input power problem.  '
+- added: 2017-09-14 14:28
+  author: DAH
+  end: 2017-09-14 08:23
+  number: '1855'
+  start: 2017-09-14 08:23
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    1 s in response to an input power problem.  '
+- added: 2017-09-14 14:28
+  author: DAH
+  end: 2017-09-14 12:21
+  number: '1854'
+  start: 2017-09-14 12:21
+  text: 'Instrument: MST Radar. The beam controller indicated that the output power
+    from antenna sector E was slightly below expected for one dwell.'
+- added: 2017-09-18 16:37
+  author: DAH
+  end: 2017-09-14 14:20
+  number: '1871'
+  start: 2017-09-14 14:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-18 16:36
+  author: DAH
+  end: 2017-09-15 18:20
+  number: '1870'
+  start: 2017-09-15 18:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-18 16:36
+  author: DAH
+  end: 2017-09-16 00:20
+  number: '1869'
+  start: 2017-09-16 00:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-18 16:35
+  author: DAH
+  end: 2017-09-17 01:20
+  number: '1868'
+  start: 2017-09-17 01:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-18 16:34
+  author: DAH
+  end: 2017-09-18 09:22
+  number: '1867'
+  start: 2017-09-18 09:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-19 11:40
+  author: DAH
+  end: 2017-09-19 10:32
+  number: '1872'
+  start: 2017-09-19 10:20
+  text: 'Instrument: MST Radar. The radar was stopped briefly so that LD could replace
+    the beam steering unit in position 100. This is part of a programme to test all
+    the spare beam steering units.'
+- added: 2017-09-20 09:50
+  author: DAH
+  end: 2017-09-19 22:22
+  number: '1875'
+  start: 2017-09-19 22:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-26 10:06
+  author: DAH
+  end: 2017-09-22 09:54
+  number: '1890'
+  start: 2017-09-20 00:53
+  text: 'Instrument: MST Radar. The transmitter for antenna sector B was out of action
+    owing to a blown fuse. '
+- added: 2017-09-28 09:58
+  author: DAH
+  end: 2017-09-20 15:16
+  number: '1897'
+  start: 2017-09-20 15:10
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-09-28 09:52
+  author: DAH
+  end: 2017-09-21 13:07
+  number: '1896'
+  start: 2017-09-21 02:57
+  text: 'Instrument: Campbell Sci Surface Met sensors. The tipping bucket raingauge
+    recorded no rain during this period when the Vaisala WXT520 measured 4.98 mm.'
+- added: 2017-09-28 14:14
+  author: DAH
+  end: 2017-09-21 12:22
+  number: '1898'
+  start: 2017-09-21 12:22
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-28 09:51
+  author: DAH
+  end: 2017-09-22 19:45
+  number: '1895'
+  start: 2017-09-22 09:01
+  text: 'Instrument: Campbell Sci Surface Met sensors. The tipping bucket raingauge
+    recorded no rain during this period when the Vaisala WXT520 measured 0.32 mm.'
+- added: 2017-09-28 09:50
+  author: DAH
+  end: 2017-09-24 18:54
+  number: '1894'
+  start: 2017-09-24 00:53
+  text: 'Instrument: Campbell Sci Surface Met sensors. The tipping bucket raingauge
+    recorded no rain during this period when the Vaisala WXT520 measured 0.55 mm.'
+- added: 2017-09-26 10:07
+  author: DAH
+  end: 2017-09-25 11:23
+  number: '1892'
+  start: 2017-09-25 11:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-26 10:07
+  author: DAH
+  end: 2017-09-25 22:24
+  number: '1891'
+  start: 2017-09-25 22:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-09-28 09:11
+  author: DAH
+  end: 2017-09-27 23:58
+  number: '1893'
+  start: 2017-09-27 10:26
+  text: 'Instrument: Campbell Sci Surface Met sensors. The tipping bucket raingauge
+    recorded no rain during this period when the Vaisala WXT520 measured 7.91 mm.'
+- added: 2017-10-02 09:40
+  author: DAH
+  end: 2017-09-29 11:00
+  number: '1899'
+  start: 2017-09-29 09:00
+  text: 'Instrument: Campbell Sci Surface Met sensors. LD poured water into the tipping
+    bucket raingauge on two occasions in order to check whether or not it was functioning
+    correctly. The precipitation data have therefore been blanked for the periods
+    09:00 - 09:20 and 10:40 - 11:00 UTC. In recent days the sensor had failed to to
+    register rain detected by the Vaisala WXT520 on several occasions, even after
+    LD had cleaned a blockage of the filter gauze on the morning of 2017-09-22.   '
+- added: 2017-10-02 10:07
+  author: DAH
+  end: 2017-09-29 15:25
+  number: '1902'
+  start: 2017-09-29 15:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-02 10:06
+  author: DAH
+  end: 2017-09-29 23:26
+  number: '1901'
+  start: 2017-09-29 23:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-02 10:06
+  author: DAH
+  end: 2017-09-30 16:27
+  number: '1900'
+  start: 2017-09-30 16:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-06 14:11
+  author: DAH
+  end: 2017-10-03 09:48
+  number: '1903'
+  start: 2017-10-03 09:48
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-10-06 14:20
+  author: DAH
+  end: 2017-10-04 15:16
+  number: '1904'
+  start: 2017-10-04 15:10
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-10-06 14:22
+  author: DAH
+  end: 2017-10-05 17:27
+  number: '1905'
+  start: 2017-10-05 17:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-16 10:43
+  author: DAH
+  end: 2017-10-06 16:27
+  number: '1911'
+  start: 2017-10-06 16:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-09 09:24
+  author: DAH
+  end: 2017-10-08 12:27
+  number: '1906'
+  start: 2017-10-08 12:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-09 09:25
+  author: DAH
+  end: 2017-10-09 06:28
+  number: '1907'
+  start: 2017-10-09 06:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-16 10:42
+  author: DAH
+  end: 2017-10-13 11:28
+  number: '1910'
+  start: 2017-10-13 11:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-10-16 10:35
+  author: DAH
+  end: 2017-10-15 15:15
+  number: '1908'
+  start: 2017-10-15 14:30
+  text: 'Instrument: MST Radar. During this period, the v3 Cartesian data show narrow
+    altitude region at around 8.5 km of unrealistically fast wind speeds.  '
+- added: 2017-10-16 10:41
+  author: DAH
+  end: 2017-10-16 08:27
+  number: '1909'
+  start: 2017-10-16 08:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-07 14:02
+  author: DAH
+  end: 2017-10-17 09:48
+  number: '1922'
+  start: 2017-10-17 09:48
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-11-06 12:22
+  author: DAH
+  end: 2017-10-17 23:30
+  number: '1919'
+  start: 2017-10-17 23:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-07 14:01
+  author: ZKO
+  end: 2017-10-18 15:16
+  number: '1921'
+  start: 2017-10-18 15:09
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-11-09 09:58
+  author: DAH
+  end: 2017-10-20 02:45
+  number: '1926'
+  start: 2017-10-20 00:05
+  text: 'Instrument: UPS Units. The units switched to battery power for approximately
+    5 s each on 10 occasions during this period - 00:05:01, 00:05:47, 00:07:09, 00:08:10,
+    00:09:11, 00:10:01, 00:11:22, 00:16:16, 00:17:38, and 02:44:35 UTC - in response
+    to input power problems. A final switch to battery power at 02:45:12 UTC must
+    have lasted for at least 20 minutes, since the UPS units became discharged. This
+    caused operations of the MST Radar, the LD40 ceilometer, and the WXT520 weather
+    sensors to cease. '
+- added: 2017-11-09 13:59
+  author: DAH
+  end: 2017-10-20 16:53
+  number: '1927'
+  start: 2017-10-20 02:44
+  text: 'Instrument: MST Radar. Radar operations stopped as a result of a power outage
+    at 02:45 UTC, which caused the UPS units to become discharged. LD restarted the
+    radar at 10:33 UTC. However, owing to a connection issue to the beam steering
+    PC (tiberius), the beam remained in a vertically pointing direction. Consequently
+    the horizontal wind data are invalid until 16:53 UTC when tiberius was rebooted. '
+- added: 2017-11-06 12:22
+  author: DAH
+  end: 2017-10-20 16:39
+  number: '1918'
+  start: 2017-10-20 16:39
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-06 12:20
+  author: DAH
+  end: 2017-10-23 06:41
+  number: '1917'
+  start: 2017-10-23 06:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-06 12:19
+  author: DAH
+  end: 2017-10-24 20:41
+  number: '1916'
+  start: 2017-10-24 20:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-06 12:18
+  author: DAH
+  end: 2017-10-26 08:41
+  number: '1915'
+  start: 2017-10-26 08:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-06 12:17
+  author: DAH
+  end: 2017-10-26 17:40
+  number: '1914'
+  start: 2017-10-26 17:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-07 14:06
+  author: DAH
+  end: 2017-10-31 09:47
+  number: '1923'
+  start: 2017-10-31 09:47
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-11-06 12:16
+  author: DAH
+  end: 2017-11-01 03:40
+  number: '1913'
+  start: 2017-11-01 03:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-07 13:57
+  author: DAH
+  end: 2017-11-01 15:16
+  number: '1920'
+  start: 2017-11-01 15:09
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2018-02-12 10:10
+  author: DAH
+  end: 2017-11-01 21:58
+  number: '2023'
+  start: 2017-11-01 21:58
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2017-11-06 12:13
+  author: DAH
+  end: 2017-11-02 06:42
+  number: '1912'
+  start: 2017-11-02 06:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-02-12 10:08
+  author: DAH
+  end: 2017-11-04 18:59
+  number: '2022'
+  start: 2017-11-04 18:59
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-02-20 15:09
+  author: DAH
+  end: 2017-11-07 11:08
+  number: '2038'
+  start: 2017-11-05 09:41
+  text: 'Instrument: MST Radar. Transmitter TXB was out of action during this period
+    owing to a blown fuse. It was briefly back in operation 2017-11-05 12:52 - 12:54
+    UTC.'
+- added: 2018-02-12 10:06
+  author: DAH
+  end: 2017-11-05 12:52
+  number: '2021'
+  start: 2017-11-05 12:52
+  text: 'Instrument: MST Radar. The output power from TXD was slightly below expected
+    for a single dwell.'
+- added: 2017-11-09 09:08
+  author: DAH
+  end: 2017-11-08 17:42
+  number: '1924'
+  start: 2017-11-08 17:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-09 09:28
+  author: ZKO
+  end: 2017-11-08 23:41
+  number: '1925'
+  start: 2017-11-08 23:41
+  text: 'Instrument: UPS Units. The units switched briefly (~ 1 s) to battery power
+    in response to an input power problem.'
+- added: 2018-01-18 10:32
+  author: DAH
+  end: 2018-01-16 12:12
+  number: '1983'
+  start: 2017-11-08 23:42
+  text: 'Instrument: Campbell Scientific Surface Wind Sensors. Wind direction readings
+    are unavailable during this period. It was not clear whether the wind vane or
+    the connecting cable (which is over 15 years old) was the cause of the problem,
+    so both were replaced (as was the cable for the anemometer). The delay in installing
+    the replacement sensor and cables was caused by a mixture of weather conditions
+    and LD being able to find someone who was able to help him winch down the measurement
+    tower.  '
+- added: 2018-02-12 10:04
+  author: DAH
+  end: 2017-11-09 23:01
+  number: '2020'
+  start: 2017-11-09 23:01
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-02-12 10:04
+  author: DAH
+  end: 2017-11-10 10:59
+  number: '2019'
+  start: 2017-11-10 10:59
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-02-12 10:02
+  author: DAH
+  end: 2017-11-11 15:36
+  number: '2018'
+  start: 2017-11-11 15:36
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-02-20 15:07
+  author: DAH
+  end: 2017-11-14 10:50
+  number: '2037'
+  start: 2017-11-12 06:33
+  text: 'Instrument: MST Radar. Transmitter TXB was out of action during this period
+    owing to a blown fuse.'
+- added: 2017-11-17 11:44
+  author: DAH
+  end: 2017-11-14 09:46
+  number: '1930'
+  start: 2017-11-14 09:46
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2018-02-12 10:02
+  author: DAH
+  end: 2017-11-15 11:57
+  number: '2017'
+  start: 2017-11-15 11:57
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2017-11-17 11:44
+  author: DAH
+  end: 2017-11-15 15:16
+  number: '1929'
+  start: 2017-11-15 15:09
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-11-17 11:34
+  author: DAH
+  end: 2017-11-17 07:45
+  number: '1928'
+  start: 2017-11-17 07:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 14:08
+  author: DAH
+  end: 2017-11-19 09:43
+  number: '1943'
+  start: 2017-11-19 09:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 14:08
+  author: DAH
+  end: 2017-11-20 22:46
+  number: '1942'
+  start: 2017-11-20 22:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 14:01
+  author: DAH
+  end: 2017-11-24 14:44
+  number: '1941'
+  start: 2017-11-24 14:44
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 12:29
+  author: DAH
+  end: 2017-11-25 03:45
+  number: '1940'
+  start: 2017-11-25 03:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-11-27 16:23
+  author: DAH
+  end: 2017-11-26 08:10
+  number: '1931'
+  start: 2017-11-26 07:10
+  text: 'Instrument: MST Radar. The wind speeds above 17 km during this period look
+    unrealistically slow compared to those at adjacent times. This appears to be the
+    result of some sort of contamination. '
+- added: 2018-02-12 10:00
+  author: DAH
+  end: 2017-11-27 23:38
+  number: '2016'
+  start: 2017-11-27 23:38
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2017-11-30 16:35
+  author: DAH
+  end: 2017-11-28 23:59
+  number: '1932'
+  start: 2017-11-28 00:00
+  text: 'Instrument: MST Radar. Large modulations of the horizontal wind speed on
+    this day, primarily at altitudes above 15 km, are clearly related to the mountain
+    wave activity. Although it is not entirely clear if these modulations are real,
+    a few values at around 06:45 and 23:45 UTC are sufficiently above the surrounding
+    values as to appear invalid.  '
+- added: 2017-12-05 12:28
+  author: DAH
+  end: 2017-11-28 08:46
+  number: '1939'
+  start: 2017-11-28 08:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 14:17
+  author: DAH
+  end: 2017-11-28 09:46
+  number: '1944'
+  start: 2017-11-28 09:46
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-11-30 16:37
+  author: DAH
+  end: 2017-11-29 23:59
+  number: '1933'
+  start: 2017-11-29 00:00
+  text: 'Instrument: MST Radar. Large modulations of the horizontal wind speed on
+    this day, primarily at altitudes above 10 km, are clearly related to the mountain
+    wave activity. Although it is not entirely clear if these modulations are real,
+    a few values at around 11:00 UTC are sufficiently above the surrounding values
+    as to appear invalid. '
+- added: 2017-12-05 12:25
+  author: DAH
+  end: 2017-11-29 08:45
+  number: '1938'
+  start: 2017-11-29 08:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 14:25
+  author: DAH
+  end: 2017-11-29 15:16
+  number: '1945'
+  start: 2017-11-29 15:08
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-12-05 12:18
+  author: DAH
+  end: 2017-11-30 16:02
+  number: '1934'
+  start: 2017-11-30 16:02
+  text: 'Instrument: UPS Units. The units switched briefly (~ 2 s) to battery power
+    in response to an input power problem.'
+- added: 2017-12-05 12:20
+  author: DAH
+  end: 2017-12-01 08:46
+  number: '1935'
+  start: 2017-12-01 08:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 12:20
+  author: DAH
+  end: 2017-12-02 06:47
+  number: '1936'
+  start: 2017-12-02 06:47
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-05 12:22
+  author: DAH
+  end: 2017-12-02 23:48
+  number: '1937'
+  start: 2017-12-02 23:48
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-11 15:36
+  author: ZKO
+  end: 2017-12-06 05:49
+  number: '1949'
+  start: 2017-12-06 05:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-02-20 15:06
+  author: DAH
+  end: 2017-12-11 10:03
+  number: '2036'
+  start: 2017-12-07 15:11
+  text: 'Instrument: MST Radar. Transmitter TXB was out of action during this period
+    owing to a blown fuse.'
+- added: 2017-12-11 10:03
+  author: DAH
+  end: 2017-12-08 15:00
+  number: '1946'
+  start: 2017-12-08 03:00
+  text: 'Instrument: MST Radar. The horizontal wind speeds within a few limited time-altitude
+    regions above 15 km are significantly larger than those at adjacent times and
+    altitudes - in particular at around 10:10 UTC and 18 km. This appears to be the
+    result of mountain wave activity but does not look realistic. '
+- added: 2017-12-11 14:29
+  author: DAH
+  end: 2017-12-08 17:48
+  number: '1947'
+  start: 2017-12-08 17:48
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-11 14:31
+  author: DAH
+  end: 2017-12-09 10:49
+  number: '1948'
+  start: 2017-12-09 10:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-12 15:18
+  author: DAH
+  end: 2017-12-12 09:45
+  number: '1950'
+  start: 2017-12-12 09:45
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2017-12-14 10:02
+  author: DAH
+  end: 2017-12-13 15:16
+  number: '1951'
+  start: 2017-12-13 15:08
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2017-12-14 10:05
+  author: DAH
+  end: 2017-12-14 01:49
+  number: '1952'
+  start: 2017-12-14 01:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-14 10:06
+  author: DAH
+  end: 2017-12-14 08:50
+  number: '1954'
+  start: 2017-12-14 08:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2017-12-14 10:06
+  author: DAH
+  end: 2017-12-14 10:05
+  number: '1953'
+  start: 2017-12-14 10:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:35
+  author: DAH
+  end: 2017-12-15 00:51
+  number: '1965'
+  start: 2017-12-15 00:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 16:20
+  author: DAH
+  end: 2017-12-15 06:30
+  number: '1966'
+  start: 2017-12-15 05:30
+  text: 'Instrument: MST Radar. The horizontal wind speed at an altitude of around
+    16.5 km is significantly larger than at adjacent times and altitudes. '
+- added: 2018-01-02 10:34
+  author: DAH
+  end: 2017-12-16 03:50
+  number: '1964'
+  start: 2017-12-16 03:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:30
+  author: DAH
+  end: 2017-12-18 14:52
+  number: '1963'
+  start: 2017-12-18 14:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:29
+  author: DAH
+  end: 2017-12-18 18:52
+  number: '1962'
+  start: 2017-12-18 18:52
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:29
+  author: DAH
+  end: 2017-12-22 04:53
+  number: '1961'
+  start: 2017-12-22 04:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:28
+  author: DAH
+  end: 2017-12-22 06:53
+  number: '1960'
+  start: 2017-12-22 06:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-02 10:24
+  author: DAH
+  end: 2017-12-25 10:53
+  number: '1959'
+  start: 2017-12-25 10:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-02-12 09:59
+  author: DAH
+  end: 2017-12-25 12:24
+  number: '2015'
+  start: 2017-12-25 12:24
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-01-03 08:49
+  author: DAH
+  end: 2017-12-25 20:07
+  number: '1967'
+  start: 2017-12-25 20:07
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a brief {~ 1 s) input power problem.'
+- added: 2018-01-03 08:51
+  author: DAH
+  end: 2017-12-26 09:45
+  number: '1968'
+  start: 2017-12-26 09:45
+  text: 'Instrument: UPS Units. The unit TX2 passed a self test at this time.'
+- added: 2018-01-02 10:21
+  author: DAH
+  end: 2017-12-26 12:55
+  number: '1958'
+  start: 2017-12-26 12:55
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-01-03 09:00
+  author: DAH
+  end: 2017-12-27 07:40
+  number: '1969'
+  start: 2017-12-27 07:40
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a brief (~ 1 s) input power problem. '
+- added: 2018-01-03 09:06
+  author: DAH
+  end: 2017-12-27 15:17
+  number: '1970'
+  start: 2017-12-27 15:08
+  text: 'Instrument: UPS Units. Units TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2018-02-12 09:59
+  author: DAH
+  end: 2017-12-28 10:37
+  number: '2014'
+  start: 2017-12-28 10:37
+  text: 'Instrument: MST Radar. The output power from TXE was slightly below expected
+    for a single dwell.'
+- added: 2018-01-03 09:12
+  author: DAH
+  end: 2017-12-29 06:44
+  number: '1971'
+  start: 2017-12-29 06:44
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a brief (~ 1 s) input power problem.'
+- added: 2018-01-02 10:19
+  author: DAH
+  end: 2017-12-30 05:56
+  number: '1957'
+  start: 2017-12-30 05:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2018-02-12 09:57
+  author: DAH
+  end: 2017-12-31 00:26
+  number: '2013'
+  start: 2017-12-31 00:26
+  text: 'Instrument: MST Radar. The output power from TXB was slightly below expected
+    for a single dwell.'
+- added: 2018-01-03 09:29
+  author: DAH
+  end: 2017-12-31 05:12
+  number: '1972'
+  start: 2017-12-31 05:12
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a brief (~ 1 s) and then (a few seconds later) by a longer (18 s) input power
+    problem.'
+- added: 2018-01-04 07:49
+  author: DAH
+  end: 2017-12-31 05:12
+  number: '1973'
+  start: 2017-12-31 05:12
+  text: 'Instrument: UPS Units. The units switched to battery power in response to
+    a brief (~ 1 s) and then (a few seconds later) by a longer (18 s) input power
+    problem.'

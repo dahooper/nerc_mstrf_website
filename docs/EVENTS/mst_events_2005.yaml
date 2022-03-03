@@ -1,0 +1,662 @@
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-04 09:00
+  number: '93'
+  start: 2005-01-03 20:00
+  text: '
+
+    A non-locking transmitter went down during the night of 3rd/4th
+
+    January 2005. This was fixed by 09 UT on 4th January. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-11 00:00
+  number: '94'
+  start: 2005-01-06 00:00
+  text: '
+
+    The timber next
+
+    to the smaller of the two site sheds was collected for disposal on 6th
+
+    and 11th January. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-12 00:00
+  number: '95'
+  start: 2005-01-12 00:00
+  text: '
+
+    The new Anritsu cable testing unit arrived at the
+
+    site on 12th January.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-15 19:30
+  number: '96'
+  start: 2005-01-14 12:00
+  text: '
+
+    TX1, the locking transmitter, failed at around
+
+    1200 UT on Friday 14th January. The problem was not spotted until the
+
+    following evening (Saturday 15th). All transmitters were locked and
+
+    working again by 1930 UT on 15th.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-23 10:00
+  number: '97'
+  start: 2005-01-22 08:00
+  text: '
+
+    A problem with the radar control PC
+
+    caused observations to stop at around 08 UT on 22nd January (a
+
+    Saturday). The problem was spotted by DAH first thing on the following
+
+    Monday morning and normal operations resumed at around 10 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-26 00:00
+  number: '98'
+  start: 2005-01-26 00:00
+  text: '
+
+    Some
+
+    work was carried out in the field on 26th January. This did not
+
+    require the radar to be shut down. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-01-27 09:45
+  number: '99'
+  start: 2005-01-27 07:30
+  text: '
+
+    A control cable to relay unit 21
+
+    developed a short circuit at around 0730 UT on 27th January. This
+
+    caused the radar to malfunction until the cable was by-passed at
+
+    around 0945 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-15 00:00
+  number: '100'
+  start: 2005-02-07 00:00
+  text: '
+
+    TX2 was repaired on 15th February. It had been out of action since 7th
+
+    February, when Dave Wareing received a burn from it whilst ZAKO was on
+
+    leave. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-15 00:00
+  number: '101'
+  start: 2005-02-15 00:00
+  text: '
+
+    15th February. The PC controlling the MO''s GPS water vapour receiver also required
+
+    reboot. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-16 00:00
+  number: '102'
+  start: 2005-02-16 00:00
+  text: '
+
+    DAH and ZAKO attempted to remove worm infections from the
+
+    Logger PC on 16th February. It appears that these infections were
+
+    preventing the Sophos anti-virus software from updating. However, the
+
+    infections proved hard to remove and so further action was delayed
+
+    until the PC could be returned to RAL for a more thorough
+
+    investigation. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-22 00:00
+  number: '103'
+  start: 2005-02-22 00:00
+  text: '
+
+    Katie Abbott, from NERC, visited the site on 22nd
+
+    February in order to carry out a site survey.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-24 00:00
+  number: '104'
+  start: 2005-02-23 00:00
+  text: '
+
+    Field work was carried
+
+    out on 23rd and 24th February. This did not require the radar to be
+
+    powered down. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-02-28 00:00
+  number: '105'
+  start: 2005-02-28 00:00
+  text: '
+
+    UofWA fire officer visited the site on 28th February in
+
+    order to carry out checks on the fire extinguishers. No problems were
+
+    found. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-01 12:45
+  number: '106'
+  start: 2005-03-01 11:45
+  text: '
+
+    One of the non-locking transmitters was out of action between 11:45
+
+    and 12:45 UT on 1st March to allow work be carried out on it. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-03 00:00
+  number: '107'
+  start: 2005-03-02 00:00
+  text: '
+
+    Work on
+
+    the relays was carried out on 2nd and 3rd March. This did not require
+
+    any down time. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-04 11:45
+  number: '108'
+  start: 2005-03-04 08:50
+  text: '
+
+    The extractor fan seized on one of the transmitters at
+
+    08:50 UT on 4th March. It was switched off between 10:45 and 11:45 UT
+
+    to allow a replacement be fitted. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-09 18:15
+  number: '109'
+  start: 2005-03-09 12:45
+  text: '
+
+    The MST radar was down 12:45 - 18:15
+
+    UT on 9th March to allow work to
+
+    be carried out on the field relays. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-10 15:45
+  number: '110'
+  start: 2005-03-10 13:00
+  text: '
+
+    The MST radar was down 13:00 - 15:45 UT on 10th March to allow work to
+
+    be carried out on the field relays. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-11 00:00
+  number: '111'
+  start: 2005-03-11 00:00
+  text: '
+
+    The surface met data logging unit,
+
+    tipping bucket rain gauge and (faulty) humidity sensor were sent back
+
+    to Campbell Scientific for recalibration and repairs on 11th
+
+    March. The fact that the pressure sensor could not be found gave the
+
+    first indication that it may have been stolen. At first it was thought
+
+    that it had simply developed a fault. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-14 15:30
+  number: '112'
+  start: 2005-03-14 15:30
+  text: '
+
+    The MST radar was down 11:30 -
+
+    15:30 on 14th March to allow the replacement of some relays. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-16 00:00
+  number: '113'
+  start: 2005-03-16 00:00
+  text: '
+
+    The RAL
+
+    cloud radar arrived at the MST site, direct from its recent field
+
+    campaign in Mauritius, on 16th March. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-17 15:30
+  number: '114'
+  start: 2005-03-17 11:30
+  text: '
+
+    The MST radar was down for two
+
+    brief periods, around 11:30 UT and around 15:30 UT, on 17th March to
+
+    allow work to be carried out on the relays. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-18 16:00
+  number: '115'
+  start: 2005-03-18 09:00
+  text: '
+
+    There were a number of
+
+    mains fluctuations during 18th March which caused problems for the
+
+    MST radar: at around 09 UT, between 12:30 and
+
+    14:30 UT, and at around 15:20 UT. The radar was shut down again, just
+
+    after 16 UT, to allow repairs be carried out in the field. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-31 00:00
+  number: '117'
+  start: 2005-03-31 00:00
+  text: '
+
+    31st March - The surface met data logger, and sensors,
+
+    arrived back from Campbell Scientific. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-03-31 09:15
+  number: '116'
+  start: 2005-03-31 08:30
+  text: '
+
+    One of the
+
+    MST radar transmitters went down at around 08:30 UT on 31st March, but
+
+    was repaired by 09:15 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-05 00:00
+  number: '118'
+  start: 2005-04-05 00:00
+  text: '
+
+    The data logger and met sensors (apart from the replacement pressure
+
+    sensor) were reinstalled on 5th April. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-07 00:00
+  number: '119'
+  start: 2005-04-06 00:00
+  text: '
+
+    A new MST radar observation
+
+    format was introduced on 6th April to allow a single vertical beam
+
+    mesospheric observation to be made during each ST-mode cycle. At first
+
+    an 8 mus pulse, with no pulse coding, was used. However, for some
+
+    reason this caused the radar to operate in an unstable manner and so 2
+
+    mus coding was introduced on 7th. This solved the problem. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-13 00:00
+  number: '120'
+  start: 2005-04-13 00:00
+  text: '
+
+    DAH
+
+    installed "Nero", the new WindowsXP data logging PC, on 13th
+
+    April. The old PC was taken back to RAL for disinfection.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-14 00:00
+  number: '121'
+  start: 2005-04-14 00:00
+  text: '
+
+    The cut
+
+    wires from the stolen original pressure sensor were discovered whilst
+
+    DAH and ZAKO were replacing the new pressure sensor in the data
+
+    logging box on 14th April. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-14 00:00
+  number: '122'
+  start: 2005-04-14 00:00
+  text: '
+
+    Peter Huggard and Tim Nightingale, from
+
+    RAL, arrived on site on the afternoon of 14th April to set up the
+
+    cloud radar. The instrument was in operation by the end of the
+
+    day. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-16 12:45
+  number: '123'
+  start: 2005-04-16 11:00
+  text: '
+
+    The blower motor on one of the MST radar transmitters had
+
+    disintegrated at some time on 16th April (a Saturday). This was
+
+    discovered at 11:00 UT on 16th and the blower motor was replaced
+
+    by 12:45 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-18 14:30
+  number: '124'
+  start: 2005-04-18 14:30
+  text: '
+
+    The tipping bucket raingauge was cleaned out at 14:30 UT
+
+    on 18th April. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-05-04 08:00
+  number: '126'
+  start: 2005-04-22 00:00
+  text: '
+
+    On 4th May ZAKO returned from holiday and by 08 UT the two MST radar
+
+    transmitters which had been down since the 22nd April power
+
+    disruptions were restarted. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-04-25 08:00
+  number: '125'
+  start: 2005-04-22 14:00
+  text: '
+
+    Mains interruptions caused the MST radar to stop
+
+    working at around 14:00 UT on Friday 22nd April, whilst ZAKO was away
+
+    on holiday. The problem was not spotted until first thing on Monday
+
+    25th April by DAH. Since the radar had come back up cleanly, DAH was
+
+    able to restart data acquisition remotely at just after 08 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-05-10 00:00
+  number: '127'
+  start: 2005-05-05 00:00
+  text: '
+
+    On 5th May ZAKO discovered that the new
+
+    pressure sensor had been stolen. This was reported to the Police
+
+    who came out immediately. Dave Wareing discovered a hole in the
+
+    security fence (on the stretch running parallel to the road) on 9th
+
+    May. The Police re-visited the site on 10th May.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-05-12 00:00
+  number: '128'
+  start: 2005-05-12 00:00
+  text: '
+
+    The grass was cut on
+
+    12th May. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-05-20 19:00
+  number: '129'
+  start: 2005-05-20 12:00
+  text: '
+
+    A mains disruption at around 12 UT on 20th May caused an
+
+    exceptional amount of damage. Two of the transmitters were out of
+
+    action and a chip blew on the antenna control board.  The system was
+
+    restored to working order and normal operations resumed at 19
+
+    UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-05-22 08:00
+  number: '130'
+  start: 2005-05-22 00:00
+  text: '
+
+    Failure of the UPS unit which powered the radar acquisition
+
+    systems at around 00 UT on Sunday 22nd May caused the radar to be out
+
+    of action until just after 08 UT on the following morning. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-01 00:00
+  number: '131'
+  start: 2005-06-01 00:00
+  text: '
+
+    One of the MST radar transmitters (a non-locking one) went down
+
+    overnight on 1st June and was restarted in the morning. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-06 00:00
+  number: '132'
+  start: 2005-06-01 00:00
+  text: '
+
+    The UFAM
+
+    boundary-layer wind-profiler was taken from the MST site on 1st June
+
+    to be used in the CSIP campaign. The mobile lidar was taken on 6th
+
+    June. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-08 16:45
+  number: '133'
+  start: 2005-06-08 12:30
+  text: '
+
+    The cloud radar was switched off at around 12:30 UT on 8th June
+
+    because the temperature of the antenna unit rose too high. It was
+
+    switched back on around 16:45 UT. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-14 00:00
+  number: '134'
+  start: 2005-06-10 00:00
+  text: '
+
+    ZAKO carried out work in the field on
+
+    10th and 14th June. There was no need to power down the MST radar. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-16 00:00
+  number: '135'
+  start: 2005-06-16 00:00
+  text: '
+
+    PC
+
+    Pat Jalloal, a Community Safety Officer from Dyfed-Powys Police,
+
+    visited the site on 16th June. He gave recommendations on how to
+
+    improve site security.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-17 00:00
+  number: '136'
+  start: 2005-06-17 00:00
+  text: '
+
+    The cloud radar was stopped on 17th June and
+
+    moved from where it had been in operation (immediately to the north of the
+
+    bungalow). This was to allow the ground to be excavated for the new
+
+    instrument platform. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-18 00:00
+  number: '137'
+  start: 2005-06-18 00:00
+  text: '
+
+    A digger was on site on Saturday 18th. It also
+
+    excavated the ground where one of the old sheds had been. This area
+
+    will have a car port built on it. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-20 08:00
+  number: '138'
+  start: 2005-06-19 19:00
+  text: '
+
+    A failure of a UPS unit at around 19
+
+    UT on Sunday 19th June caused MST radar data to stop being
+
+    acquired. The problem was fixed at around 08 UT the following
+
+    morning. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-23 00:00
+  number: '139'
+  start: 2005-06-23 00:00
+  text: '
+
+    ZAKO carried out work on the MST antennas on 23rd June. This did not
+
+    require the radar to be powered down.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-06-29 07:30
+  number: '140'
+  start: 2005-06-28 17:15
+  text: "\n The MST radar was shut down at\naround 17:15 UT on 28th June because of\
+    \ thunderstorms in the area. The\nthunderstorms caused extensive damage to equipment\
+    \ at the UofWA. The\nradar was switched back on at 07:30 UT the following morning."
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-01 00:00
+  number: '141'
+  start: 2005-07-01 00:00
+  text: '
+
+    The concrete for the new instrument platform was poured and levelled on
+
+    1st July. The concreting for the car port will be done at a later
+
+    date. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-04 15:45
+  number: '142'
+  start: 2005-07-04 15:45
+  text: '
+
+    The cloud radar was placed on the new instrument platform and
+
+    restarted around 15:45 UT on 4th July. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-05 00:00
+  number: '143'
+  start: 2005-07-05 00:00
+  text: '
+
+    The grass was cut on 5th
+
+    July. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-08 10:15
+  number: '144'
+  start: 2005-07-08 09:00
+  text: '
+
+    The MST radar was stopped between 09:00 and 10:15 UT on 8th July
+
+    to allow ZAKO to carry out work on the relays.'
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-09 00:00
+  number: '145'
+  start: 2005-07-09 00:00
+  text: '
+
+    Weed spraying was
+
+    carried out on 9th July. '
+- added: 2005-08-02 13:45
+  author: ZKO
+  end: 2005-07-15 00:00
+  number: '146'
+  start: 2005-07-15 00:00
+  text: '
+
+    The cloud radar was shut down at 11 UT
+
+    because the temperature of the antenna unit was rising too high. It
+
+    was switched back on on 15th July. '

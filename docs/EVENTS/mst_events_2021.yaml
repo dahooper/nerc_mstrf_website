@@ -1,0 +1,1218 @@
+- added: 2021-01-04 14:38
+  author: DAH
+  end: 2021-01-01 03:37
+  number: '3074'
+  start: 2021-01-01 03:37
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-04 14:36
+  author: DAH
+  end: 2021-01-01 10:38
+  number: '3073'
+  start: 2021-01-01 10:38
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 11:13
+  author: DAH
+  end: 2021-01-01 11:30
+  number: '3144'
+  start: 2021-01-01 11:20
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 11:20 UTC was possibly caused by melting snow
+    or frost. The temperature had dropped to -4 degrees C during the preceding hours.
+    Although the Vaisala LD40 suggests some precipitation during the preceding hours,
+    there is no suggestion of any at 11:20 UTC. '
+- added: 2021-01-04 14:36
+  author: DAH
+  end: 2021-01-01 20:39
+  number: '3072'
+  start: 2021-01-01 20:39
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 11:05
+  author: DAH
+  end: 2021-01-03 14:10
+  number: '3143'
+  start: 2021-01-03 14:00
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 14:00 UTC was possibly caused by melting frost.
+    The temperature had dropped below 0 degrees C in the preceding hours and the LD40
+    does not suggest any precipitation at this time.'
+- added: 2021-01-05 17:02
+  author: DAH
+  end: 2021-01-05 02:39
+  number: '3101'
+  start: 2021-01-05 02:39
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-11 16:44
+  author: DAH
+  end: 2021-01-07 08:40
+  number: '3104'
+  start: 2021-01-07 08:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 11:02
+  author: DAH
+  end: 2021-01-07 12:50
+  number: '3142'
+  start: 2021-01-07 12:40
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 12:50 UTC was probably caused by melting frost.
+    The temperature had dipped to -5 degrees C during the preceding hours. Although
+    the Vaisala LD40 indicates some cloud at 12:40 UTC, it suggests no precipitation
+    at this time.'
+- added: 2021-01-11 16:43
+  author: DAH
+  end: 2021-01-08 17:40
+  number: '3103'
+  start: 2021-01-08 17:40
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 10:59
+  author: DAH
+  end: 2021-01-09 12:10
+  number: '3141'
+  start: 2021-01-09 12:00
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 12:00 UTC was probably caused by melting frost.
+    The temperature had dipped to -5 degrees C at around 07:30 UTC and the Vaisala
+    LD40 indicates clear skies. '
+- added: 2021-02-15 10:43
+  author: DAH
+  end: 2021-01-10 08:00
+  number: '3140'
+  start: 2021-01-10 07:50
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 07:50 UTC was possibly caused by melting snow
+    or ice. The temperature had dropped to around -4 degrees C during the early morning
+    and the LD40 suggests that there was some precipitation between 04:30 and 06:00
+    UTC, but nothing thereafter. '
+- added: 2021-01-11 16:42
+  author: DAH
+  end: 2021-01-10 20:41
+  number: '3102'
+  start: 2021-01-10 20:41
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-25 10:29
+  author: DAH
+  end: 2021-01-12 15:26
+  number: '3113'
+  start: 2021-01-12 15:13
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-01-25 11:20
+  author: DAH
+  end: 2021-01-13 04:42
+  number: '3114'
+  start: 2021-01-13 04:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-25 10:20
+  author: DAH
+  end: 2021-01-17 18:42
+  number: '3112'
+  start: 2021-01-17 18:42
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-25 10:19
+  author: DAH
+  end: 2021-01-18 20:43
+  number: '3111'
+  start: 2021-01-18 20:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-21 09:06
+  author: DAH
+  end: 2021-01-20 23:59
+  number: '3105'
+  start: 2021-01-20 21:45
+  text: 'Instrument: MST Radar. The radar started to suffer from interference at around
+    21:45 UTC. This does not appear to have contaminated any of the data products,
+    but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-01-22 09:00
+  author: DAH
+  end: 2021-01-21 23:59
+  number: '3106'
+  start: 2021-01-21 02:30
+  text: 'Instrument: MST Radar. The radar suffered from interference for most of the
+    day, starting at around 02:30 UTC. This does not appear to have contaminated any
+    of the data products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-01-25 09:32
+  author: DAH
+  end: 2021-01-22 23:59
+  number: '3107'
+  start: 2021-01-22 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference to varying degrees
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-01-25 09:32
+  author: DAH
+  end: 2021-01-23 23:59
+  number: '3108'
+  start: 2021-01-23 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference to varying degrees
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-15 10:37
+  author: DAH
+  end: 2021-01-23 09:20
+  number: '3139'
+  start: 2021-01-23 09:10
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge at 09:10 UTC was possibly caused by melting ice
+    or dew. The temperature had dropped marginally below 0 degrees C during the early
+    morning and the Vaisala LD40 did not show any indication of precipitation at 09:10
+    UTC.  '
+- added: 2021-01-25 10:17
+  author: DAH
+  end: 2021-01-23 09:43
+  number: '3110'
+  start: 2021-01-23 09:43
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-01-25 09:33
+  author: DAH
+  end: 2021-01-24 23:59
+  number: '3109'
+  start: 2021-01-24 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference to varying degrees
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-01-26 09:27
+  author: DAH
+  end: 2021-01-25 23:59
+  number: '3115'
+  start: 2021-01-25 00:00
+  text: 'Instrument: MST Radar. The radar suffered from interference for most of the
+    day, but most notably between 18:30 and 22:30 UTC. This does not appear to have
+    contaminated any of the data products, but it did lead to a reduction in useful
+    altitude coverage.'
+- added: 2021-01-27 09:21
+  author: DAH
+  end: 2021-01-26 23:59
+  number: '3116'
+  start: 2021-01-26 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-10 16:21
+  author: DAH
+  end: 2021-01-26 15:26
+  number: '3132'
+  start: 2021-01-26 15:12
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-01-28 16:12
+  author: DAH
+  end: 2021-01-27 23:59
+  number: '3117'
+  start: 2021-01-27 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-10 16:23
+  author: DAH
+  end: 2021-01-27 12:44
+  number: '3133'
+  start: 2021-01-27 12:44
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-10 16:17
+  author: DAH
+  end: 2021-01-31 01:45
+  number: '3131'
+  start: 2021-01-31 01:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-01 10:28
+  author: DAH
+  end: 2021-01-31 07:00
+  number: '3118'
+  start: 2021-01-31 05:00
+  text: 'Instrument: MST Radar. The radar suffered from interference between 05:00
+    and 07:00 UTC. This does not appear to have contaminated any of the data products,
+    but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-10 16:15
+  author: DAH
+  end: 2021-02-01 10:45
+  number: '3130'
+  start: 2021-02-01 10:45
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-10 16:13
+  author: DAH
+  end: 2021-02-01 18:46
+  number: '3129'
+  start: 2021-02-01 18:46
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-04 08:59
+  author: DAH
+  end: 2021-02-03 23:59
+  number: '3119'
+  start: 2021-02-03 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day, but most persistently 03:00 - 07:30 UTC. This does not appear
+    to have contaminated any of the data products, but it did lead to a reduction
+    in useful altitude coverage.'
+- added: 2021-02-05 09:06
+  author: DAH
+  end: 2021-02-04 23:59
+  number: '3120'
+  start: 2021-02-04 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage. This was
+    most noticeable between 12:30 and 13:00 UTC.'
+- added: 2021-02-08 09:05
+  author: DAH
+  end: 2021-02-05 23:59
+  number: '3121'
+  start: 2021-02-05 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-10 16:12
+  author: DAH
+  end: 2021-02-05 01:48
+  number: '3128'
+  start: 2021-02-05 01:48
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-08 09:07
+  author: DAH
+  end: 2021-02-06 23:59
+  number: '3122'
+  start: 2021-02-06 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage, most noticeably
+    at around 20:00 UTC'
+- added: 2021-02-08 09:08
+  author: DAH
+  end: 2021-02-07 23:59
+  number: '3123'
+  start: 2021-02-07 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage, most notably
+    between 00:00 and 06:40 UTC. '
+- added: 2021-02-10 16:10
+  author: DAH
+  end: 2021-02-07 14:49
+  number: '3127'
+  start: 2021-02-07 14:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-09 09:27
+  author: DAH
+  end: 2021-02-08 23:59
+  number: '3124'
+  start: 2021-02-08 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-10 14:21
+  author: DAH
+  end: 2021-02-09 23:59
+  number: '3125'
+  start: 2021-02-09 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day, most noticeably between 09:00 and 15:00 UTC. This does not
+    appear to have contaminated any of the data products, but it did lead to a reduction
+    in useful altitude coverage.'
+- added: 2021-02-15 10:21
+  author: DAH
+  end: 2021-02-09 15:40
+  number: '3138'
+  start: 2021-02-09 06:00
+  text: 'Instrument: Campbell Scientific Surface Met. The tipping bucket rain gauge
+    recorded no accumulation during this period, when the temperature only rose marginally
+    above 0 degrees C. The Vasiala LD40 suggests that there was intermittent precipitation
+    during this period. It''s not clear whether the accumulation was too little to
+    cause a tip or whether it fell as snow.'
+- added: 2021-02-10 16:09
+  author: DAH
+  end: 2021-02-09 15:26
+  number: '3126'
+  start: 2021-02-09 15:12
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-02-11 11:49
+  author: DAH
+  end: 2021-02-10 23:59
+  number: '3134'
+  start: 2021-02-10 00:00
+  text: 'Instrument: MST Radar. The radar suffered from intermittent interference
+    throughout the day. This does not appear to have contaminated any of the data
+    products, but it did lead to a reduction in useful altitude coverage.'
+- added: 2021-02-12 09:14
+  author: DAH
+  end: 2021-02-11 17:00
+  number: '3135'
+  start: 2021-02-11 14:20
+  text: 'Instrument: MST Radar. The radar suffered from strong interference between
+    14:20 and 17:00 UTC. This did not contaminate any of the data products, but it
+    did lead to a large reduction in useful altitude coverage.'
+- added: 2021-03-11 13:52
+  author: DAH
+  end: 2021-02-12 02:49
+  number: '3168'
+  start: 2021-02-12 02:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:51
+  author: DAH
+  end: 2021-02-12 19:50
+  number: '3167'
+  start: 2021-02-12 19:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:50
+  author: DAH
+  end: 2021-02-13 01:49
+  number: '3166'
+  start: 2021-02-13 01:49
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-15 10:13
+  author: DAH
+  end: 2021-02-13 15:50
+  number: '3137'
+  start: 2021-02-13 09:40
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The water measured
+    by the tipping bucket rain gauge between 14:20 and 15:50 UTC is likely to be the
+    result of melting snow/ice. The Vaisala LD40 and Vaisala WXT520 indicate precipitation
+    between 09:40 and 14:22 UTC, but nothing thereafter. The temperature only rose
+    above 0 degrees C at around 12:30 UTC.'
+- added: 2021-02-15 09:38
+  author: DAH
+  end: 2021-02-13 14:40
+  number: '3136'
+  start: 2021-02-13 14:00
+  text: 'Instrument: MST Radar. The radar suffered from strong interference between
+    14:00 and 14:40 UTC. This did not contaminate any of the data products, but it
+    did lead to a large reduction in useful altitude coverage.'
+- added: 2021-03-11 13:49
+  author: DAH
+  end: 2021-02-15 16:51
+  number: '3165'
+  start: 2021-02-15 16:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:49
+  author: DAH
+  end: 2021-02-16 21:50
+  number: '3164'
+  start: 2021-02-16 21:50
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:47
+  author: DAH
+  end: 2021-02-18 15:51
+  number: '3163'
+  start: 2021-02-18 15:51
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-02-22 09:27
+  author: DAH
+  end: 2021-02-20 07:40
+  number: '3147'
+  start: 2021-02-20 05:10
+  text: 'Instrument: MST Radar. The radar suffered from strong interference between
+    05:10 and 07:40 UTC. This did not contaminate any of the data products, but it
+    did lead to a large reduction in useful altitude coverage.'
+- added: 2021-03-11 13:46
+  author: DAH
+  end: 2021-02-22 01:53
+  number: '3162'
+  start: 2021-02-22 01:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:46
+  author: DAH
+  end: 2021-02-23 05:53
+  number: '3161'
+  start: 2021-02-23 05:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:45
+  author: DAH
+  end: 2021-02-23 15:26
+  number: '3160'
+  start: 2021-02-23 15:11
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-03-01 09:33
+  author: DAH
+  end: 2021-02-26 14:20
+  number: '3148'
+  start: 2021-02-26 13:30
+  text: 'Instrument: MST Radar. The radar suffered from interference 13:30 - 14:20
+    UTC. This did not contaminate the wind data, but lead to a reduction in useful
+    altitude coverage. '
+- added: 2021-03-01 09:41
+  author: DAH
+  end: 2021-02-27 08:50
+  number: '3151'
+  start: 2021-02-27 08:40
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 08:40 and 08:50 UTC was probably the
+    result of melting of melting frost. '
+- added: 2021-03-11 13:42
+  author: DAH
+  end: 2021-02-27 09:54
+  number: '3159'
+  start: 2021-02-27 09:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-01 09:36
+  author: DAH
+  end: 2021-02-27 13:45
+  number: '3149'
+  start: 2021-02-27 13:45
+  text: 'Instrument: MST Radar. The radar suffered briefly from interference at around
+    13:45 UTC. This did not affect the st-mode data products. '
+- added: 2021-03-01 09:38
+  author: DAH
+  end: 2021-02-28 21:00
+  number: '3150'
+  start: 2021-02-28 20:30
+  text: 'Instrument: MST Radar. The radar suffered from interference 20:30 - 21:00
+    UTC. This did not contaminate the st-mode data products. '
+- added: 2021-03-02 09:14
+  author: DAH
+  end: 2021-03-01 08:40
+  number: '3152'
+  start: 2021-03-01 08:30
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 08:40 and 08:50 UTC was probably the
+    result of melting of melting frost or dew accumulation. The Vaisala LD40 indicates
+    clear skies throughout the day. '
+- added: 2021-03-11 13:41
+  author: DAH
+  end: 2021-03-02 06:54
+  number: '3158'
+  start: 2021-03-02 06:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:40
+  author: DAH
+  end: 2021-03-06 17:53
+  number: '3157'
+  start: 2021-03-06 17:53
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-08 08:52
+  author: DAH
+  end: 2021-03-07 21:30
+  number: '3153'
+  start: 2021-03-07 18:30
+  text: 'Instrument: MST Radar. Horizontal and vertical wind data at altitudes above
+    12.0 km and between 18:30 and 21:30 UTC should be ignored. The signals are contaminated
+    by "sporadic E" type interference.'
+- added: 2021-03-11 13:39
+  author: DAH
+  end: 2021-03-09 15:27
+  number: '3156'
+  start: 2021-03-09 15:11
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-03-11 13:36
+  author: DAH
+  end: 2021-03-10 15:54
+  number: '3155'
+  start: 2021-03-10 15:54
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-11 13:34
+  author: DAH
+  end: 2021-03-11 00:37
+  number: '3154'
+  start: 2021-03-11 00:37
+  text: 'Instrument: UPS Units. The UPS units briefly (~ 1 s) switched to battery
+    power in response to an input power problem.'
+- added: 2021-04-06 16:31
+  author: DAH
+  end: 2021-03-15 03:56
+  number: '3188'
+  start: 2021-03-15 03:56
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:24
+  author: DAH
+  end: 2021-03-16 19:57
+  number: '3185'
+  start: 2021-03-16 19:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:24
+  author: DAH
+  end: 2021-03-18 06:57
+  number: '3184'
+  start: 2021-03-18 06:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-19 08:59
+  author: DAH
+  end: 2021-03-18 07:40
+  number: '3169'
+  start: 2021-03-18 07:00
+  text: 'Instrument: MST Radar. The horizontal wind components between 07:00 and 07:40
+    UTC at around 17 km should be ignored. The speed is unrealistically fast.  '
+- added: 2021-03-22 09:13
+  author: DAH
+  end: 2021-03-19 06:50
+  number: '3170'
+  start: 2021-03-19 06:10
+  text: 'Instrument: MST Radar. The horizontal wind components between 06:10 and 06:50
+    UTC at around 10.5 km should be ignored. The speed is much faster than at adjacent
+    altitudes and so looks unrealistic.  '
+- added: 2021-04-06 16:22
+  author: DAH
+  end: 2021-03-19 16:36
+  number: '3183'
+  start: 2021-03-19 16:36
+  text: 'Instrument: UPS units. The unit Beamform carried out a system warmstart.'
+- added: 2021-04-06 16:21
+  author: DAH
+  end: 2021-03-19 17:57
+  number: '3182'
+  start: 2021-03-19 17:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:20
+  author: DAH
+  end: 2021-03-21 11:57
+  number: '3181'
+  start: 2021-03-21 11:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:19
+  author: DAH
+  end: 2021-03-22 21:57
+  number: '3180'
+  start: 2021-03-22 21:57
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:27
+  author: DAH
+  end: 2021-03-23 15:27
+  number: '3186'
+  start: 2021-03-23 15:10
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-04-06 16:17
+  author: DAH
+  end: 2021-03-24 18:58
+  number: '3179'
+  start: 2021-03-24 18:58
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-03-29 09:59
+  author: DAH
+  end: 2021-03-28 06:45
+  number: '3171'
+  start: 2021-03-28 01:00
+  text: 'Instrument: MST Radar. All data between 01:00 and 06:45 UTC should be ignored.
+    DAH had made a small change to the processing code to deal with a known bug that
+    is encountered during the period 01:00 - 03:00 UTC on the day when the clocks
+    change from GMT to BST. The change did not have the desired effect and DAH removed
+    it at around 2021-03-28 08:00 UTC.'
+- added: 2021-04-01 08:57
+  author: DAH
+  end: 2021-03-31 23:59
+  number: '3172'
+  start: 2021-03-31 12:00
+  text: 'Instrument: MST Radar. The radar suffered from a time-varying raised noise
+    floor between 12:00 and 23:59 UTC. This caused a reduction in useful altitude
+    coverage, but did not contaminate the data products. '
+- added: 2021-04-06 09:48
+  author: DAH
+  end: 2021-04-01 23:59
+  number: '3173'
+  start: 2021-04-01 00:00
+  text: 'Instrument: MST Radar. The radar experienced a time-varying raised noise
+    floor throughout the day. Although this did not contaminate any of the data products,
+    it did lead to a reduction in useful altitude coverage, mostly notably between
+    00:00 and 10:00 UTC.'
+- added: 2021-04-06 09:50
+  author: DAH
+  end: 2021-04-02 23:59
+  number: '3174'
+  start: 2021-04-02 00:00
+  text: 'Instrument: MST Radar. The radar experienced a time-varying raised noise
+    floor throughout the day. Although this did not contaminate any of the data products,
+    it did lead to a reduction in useful altitude coverage, mostly notably between
+    06:00 and 07:30 UTC and between 17:30 and 20:30 UTC.'
+- added: 2021-04-06 16:16
+  author: DAH
+  end: 2021-04-02 19:59
+  number: '3178'
+  start: 2021-04-02 19:59
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:15
+  author: DAH
+  end: 2021-04-03 17:00
+  number: '3177'
+  start: 2021-04-03 17:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:14
+  author: DAH
+  end: 2021-04-06 02:01
+  number: '3176'
+  start: 2021-04-06 02:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:13
+  author: DAH
+  end: 2021-04-06 09:00
+  number: '3175'
+  start: 2021-04-06 09:00
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-06 16:30
+  author: DAH
+  end: 2021-04-06 15:27
+  number: '3187'
+  start: 2021-04-06 15:10
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-04-21 16:04
+  author: DAH
+  end: 2021-04-11 08:20
+  number: '3202'
+  start: 2021-04-11 08:10
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 08:10 and 08:20 UTC was probably the
+    result of melting of melting frost or dew accumulation. The Vaisala LD40 indicates
+    clear skies at this time.  '
+- added: 2021-04-21 15:59
+  author: DAH
+  end: 2021-04-11 16:01
+  number: '3200'
+  start: 2021-04-11 16:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:58
+  author: DAH
+  end: 2021-04-12 07:02
+  number: '3199'
+  start: 2021-04-12 07:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:57
+  author: DAH
+  end: 2021-04-15 01:01
+  number: '3198'
+  start: 2021-04-15 01:01
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:56
+  author: DAH
+  end: 2021-04-17 05:02
+  number: '3197'
+  start: 2021-04-17 05:02
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 16:02
+  author: DAH
+  end: 2021-04-17 08:40
+  number: '3201'
+  start: 2021-04-17 08:30
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 08:30 and 08:40 UTC was probably the
+    result of melting of melting frost or dew accumulation. The Vaisala LD40 indicates
+    clear skies throughout the day. '
+- added: 2021-04-21 15:55
+  author: DAH
+  end: 2021-04-17 15:03
+  number: '3196'
+  start: 2021-04-17 15:03
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:54
+  author: DAH
+  end: 2021-04-19 10:06
+  number: '3195'
+  start: 2021-04-19 10:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:53
+  author: DAH
+  end: 2021-04-19 16:04
+  number: '3193'
+  start: 2021-04-19 16:04
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 10:13
+  author: DAH
+  end: 2021-04-20 23:59
+  number: '3189'
+  start: 2021-04-20 00:00
+  text: 'Instrument: MST Radar. The radar experienced a time-varying raised noise
+    floor throughout the day. Although this did not contaminate any of the data products,
+    it did lead to a reduction in useful altitude coverage.'
+- added: 2021-04-21 15:53
+  author: DAH
+  end: 2021-04-20 00:05
+  number: '3194'
+  start: 2021-04-20 00:05
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:49
+  author: DAH
+  end: 2021-04-20 12:06
+  number: '3191'
+  start: 2021-04-20 12:06
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-04-21 15:52
+  author: DAH
+  end: 2021-04-20 15:27
+  number: '3192'
+  start: 2021-04-20 15:09
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-04-21 15:48
+  author: DAH
+  end: 2021-04-21 00:07
+  number: '3190'
+  start: 2021-04-21 00:07
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:21
+  author: DAH
+  end: 2021-04-23 01:08
+  number: '3220'
+  start: 2021-04-23 01:08
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:20
+  author: DAH
+  end: 2021-04-23 14:09
+  number: '3219'
+  start: 2021-04-23 14:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:20
+  author: DAH
+  end: 2021-04-23 23:09
+  number: '3218'
+  start: 2021-04-23 23:09
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:19
+  author: DAH
+  end: 2021-04-24 18:11
+  number: '3217'
+  start: 2021-04-24 18:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:18
+  author: DAH
+  end: 2021-04-25 09:10
+  number: '3216'
+  start: 2021-04-25 09:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:17
+  author: DAH
+  end: 2021-04-25 11:10
+  number: '3215'
+  start: 2021-04-25 11:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:17
+  author: DAH
+  end: 2021-04-26 22:10
+  number: '3214'
+  start: 2021-04-26 22:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:15
+  author: DAH
+  end: 2021-04-26 23:11
+  number: '3213'
+  start: 2021-04-26 23:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:15
+  author: DAH
+  end: 2021-04-27 17:12
+  number: '3212'
+  start: 2021-04-27 17:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:12
+  author: DAH
+  end: 2021-04-28 04:46
+  number: '3210'
+  start: 2021-04-28 04:46
+  text: 'Instrument: UPS Units. The UPS units briefly (~ 1 s) switched to battery
+    power in response to an input power problem.'
+- added: 2021-05-10 15:14
+  author: DAH
+  end: 2021-04-28 09:11
+  number: '3211'
+  start: 2021-04-28 09:11
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 15:12
+  author: DAH
+  end: 2021-04-28 10:20
+  number: '3209'
+  start: 2021-04-28 10:20
+  text: 'Instrument: UPS Units. The UPS units briefly (~ 1 s) switched to battery
+    power in response to an input power problem.'
+- added: 2021-05-10 14:56
+  author: DAH
+  end: 2021-04-29 10:52
+  number: '3208'
+  start: 2021-04-29 10:52
+  text: 'Instrument: UPS Units. The UPS units briefly (~ 1 s) switched to battery
+    power in response to an input power problem.'
+- added: 2021-05-10 14:51
+  author: DAH
+  end: 2021-05-03 17:12
+  number: '3206'
+  start: 2021-05-03 17:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-05 08:25
+  author: DAH
+  end: 2021-05-04 14:00
+  number: '3203'
+  start: 2021-05-04 12:20
+  text: 'Instrument: MST Radar. The radar experienced a raised noise floor between
+    12:20 and 14:00 UTC. This did not contaminate the data products, but it did lead
+    to a reduction in useful altitude coverage. '
+- added: 2021-05-10 14:54
+  author: DAH
+  end: 2021-05-04 15:27
+  number: '3207'
+  start: 2021-05-04 15:16
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-05-10 14:50
+  author: DAH
+  end: 2021-05-07 18:13
+  number: '3205'
+  start: 2021-05-07 18:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-10 14:50
+  author: DAH
+  end: 2021-05-09 08:13
+  number: '3204'
+  start: 2021-05-09 08:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:59
+  author: DAH
+  end: 2021-05-11 00:13
+  number: '3245'
+  start: 2021-05-11 00:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-12 10:49
+  author: DAH
+  end: 2021-05-11 23:10
+  number: '3221'
+  start: 2021-05-11 19:00
+  text: 'Instrument: MST Radar. The radar experienced a raised noise floor between
+    19:00 and 23:10 UTC. This did not contaminate the data products, but it did lead
+    to a reduction in useful altitude coverage for the st-mode. It is most apparent
+    in the m-mode observations. '
+- added: 2021-05-13 08:58
+  author: DAH
+  end: 2021-05-12 15:30
+  number: '3222'
+  start: 2021-05-12 13:00
+  text: 'Instrument: MST Radar. The radar experienced a raised noise floor between
+    13:00 and 15:30 UTC. This did not contaminate the data products, but it did lead
+    to a reduction in useful altitude coverage for the st-mode. It is most apparent
+    in the m-mode observations.'
+- added: 2021-06-11 11:57
+  author: DAH
+  end: 2021-05-14 14:12
+  number: '3244'
+  start: 2021-05-14 14:12
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:57
+  author: DAH
+  end: 2021-05-14 23:13
+  number: '3243'
+  start: 2021-05-14 23:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:56
+  author: DAH
+  end: 2021-05-15 04:13
+  number: '3242'
+  start: 2021-05-15 04:13
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:54
+  author: DAH
+  end: 2021-05-18 15:27
+  number: '3240'
+  start: 2021-05-18 15:08
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-06-11 11:56
+  author: DAH
+  end: 2021-05-19 04:14
+  number: '3241'
+  start: 2021-05-19 04:14
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-05-20 09:43
+  author: DAH
+  end: 2021-05-20 16:00
+  number: '3223'
+  start: 2021-05-19 14:50
+  text: 'Instrument: MST Radar. The st-mode data products between 14:50 and 16:00
+    UTC and at altitudes above 13 km should be ignored as they appear to be contaminated
+    by interference. This is mostly apparent from the low aspect sensitivity within
+    this region.  '
+- added: 2021-06-11 11:52
+  author: DAH
+  end: 2021-05-21 13:16
+  number: '3239'
+  start: 2021-05-21 13:16
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:51
+  author: DAH
+  end: 2021-05-22 05:17
+  number: '3238'
+  start: 2021-05-22 05:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:51
+  author: DAH
+  end: 2021-05-23 12:17
+  number: '3237'
+  start: 2021-05-23 12:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:50
+  author: DAH
+  end: 2021-05-25 05:17
+  number: '3236'
+  start: 2021-05-25 05:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:49
+  author: DAH
+  end: 2021-05-27 20:17
+  number: '3235'
+  start: 2021-05-27 20:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:48
+  author: DAH
+  end: 2021-05-28 10:18
+  number: '3234'
+  start: 2021-05-28 10:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:47
+  author: DAH
+  end: 2021-05-29 09:17
+  number: '3232'
+  start: 2021-05-29 09:17
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:47
+  author: DAH
+  end: 2021-05-31 16:18
+  number: '3231'
+  start: 2021-05-31 16:18
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:46
+  author: DAH
+  end: 2021-06-01 15:27
+  number: '3230'
+  start: 2021-06-01 15:07
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-06-04 08:30
+  author: DAH
+  end: 2021-06-03 20:50
+  number: '3224'
+  start: 2021-06-03 19:40
+  text: 'Instrument: MST Radar. The data products at altitudes above 15 km and between
+    19:40 and 20:50 UTC should not be used. The radar suffered from interference.
+    Although this was mostly blanked by the automatic quality control algorithms,
+    some contamination remains.'
+- added: 2021-06-07 09:16
+  author: DAH
+  end: 2021-06-04 12:30
+  number: '3225'
+  start: 2021-06-04 09:50
+  text: 'Instrument: MST Radar. The data products at altitudes above 12 km and between
+    09:50 and 12:30 UTC should not be used since they are contaminated by interference.
+    This also affected the SE6.0 beam m-mode observations.'
+- added: 2021-06-11 11:32
+  author: DAH
+  end: 2021-06-04 13:10
+  number: '3229'
+  start: 2021-06-04 13:10
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:26
+  author: DAH
+  end: 2021-06-07 05:19
+  number: '3228'
+  start: 2021-06-07 05:19
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 11:25
+  author: DAH
+  end: 2021-06-07 17:20
+  number: '3227'
+  start: 2021-06-07 17:20
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-11 09:22
+  author: DAH
+  end: 2021-06-10 19:10
+  number: '3226'
+  start: 2021-06-10 18:10
+  text: 'Instrument: MST Radar. The data products at altitudes above 14 km and between
+    18:10 and 19:10 UTC should not be used since they are mildly contaminated by interference.'
+- added: 2021-06-11 11:48
+  author: DAH
+  end: 2021-06-11 11:47
+  number: '3233'
+  start: 2021-06-11 11:47
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 12:56
+  author: DAH
+  end: 2021-06-12 02:21
+  number: '3255'
+  start: 2021-06-12 02:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 12:56
+  author: DAH
+  end: 2021-06-12 22:23
+  number: '3254'
+  start: 2021-06-12 22:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 12:55
+  author: DAH
+  end: 2021-06-15 01:21
+  number: '3253'
+  start: 2021-06-15 01:21
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 12:54
+  author: DAH
+  end: 2021-06-15 15:27
+  number: '3252'
+  start: 2021-06-15 15:07
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-06-22 09:55
+  author: DAH
+  end: 2021-06-17 16:23
+  number: '3251'
+  start: 2021-06-17 16:23
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 09:54
+  author: DAH
+  end: 2021-06-17 20:10
+  number: '3250'
+  start: 2021-06-17 20:10
+  text: 'Instrument: UPS Units. The UPS units briefly (~ 1 s) switched to battery
+    power in response to an input power problem.'
+- added: 2021-06-22 09:50
+  author: DAH
+  end: 2021-06-18 03:56
+  number: '3249'
+  start: 2021-06-18 03:56
+  text: 'Instrument: UPS Units. The UPS units switched to battery power for 22 s in
+    response to an input power problem.'
+- added: 2021-06-22 09:43
+  author: DAH
+  end: 2021-06-19 19:24
+  number: '3248'
+  start: 2021-06-19 19:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 09:43
+  author: DAH
+  end: 2021-06-20 14:25
+  number: '3247'
+  start: 2021-06-20 14:25
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-06-22 09:42
+  author: DAH
+  end: 2021-06-21 12:24
+  number: '3246'
+  start: 2021-06-21 12:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:07
+  author: DAH
+  end: 2021-06-26 07:24
+  number: '3264'
+  start: 2021-06-26 07:24
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:06
+  author: DAH
+  end: 2021-06-26 23:26
+  number: '3263'
+  start: 2021-06-26 23:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:04
+  author: DAH
+  end: 2021-06-29 15:28
+  number: '3260'
+  start: 2021-06-29 15:06
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-07-12 12:05
+  author: DAH
+  end: 2021-06-30 03:26
+  number: '3261'
+  start: 2021-06-30 03:26
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:05
+  author: DAH
+  end: 2021-06-30 20:27
+  number: '3262'
+  start: 2021-06-30 20:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:01
+  author: DAH
+  end: 2021-07-02 04:27
+  number: '3259'
+  start: 2021-07-02 04:27
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 12:01
+  author: DAH
+  end: 2021-07-02 23:28
+  number: '3258'
+  start: 2021-07-02 23:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 11:59
+  author: DAH
+  end: 2021-07-03 03:28
+  number: '3257'
+  start: 2021-07-03 03:28
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-12 11:58
+  author: DAH
+  end: 2021-07-04 00:30
+  number: '3256'
+  start: 2021-07-04 00:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-13 12:02
+  author: DAH
+  end: 2021-07-13 10:56
+  number: '3265'
+  start: 2021-07-13 09:56
+  text: 'Instrument: MST Radar. The radar was powered down so that beam steering unit
+    64 could be replaced. It had occasionally been reporting a low supply voltage. '
+- added: 2021-07-20 09:52
+  author: DAH
+  end: 2021-07-13 15:28
+  number: '3269'
+  start: 2021-07-13 15:06
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self
+    tests during this period.'
+- added: 2021-07-20 09:49
+  author: DAH
+  end: 2021-07-17 02:30
+  number: '3268'
+  start: 2021-07-17 02:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-20 09:48
+  author: DAH
+  end: 2021-07-17 12:30
+  number: '3267'
+  start: 2021-07-17 12:30
+  text: 'Instrument: UPS units. The unit TX5 carried out a system warmstart.'
+- added: 2021-07-20 09:47
+  author: DAH
+  end: 2021-07-18 03:44
+  number: '3266'
+  start: 2021-07-18 03:44
+  text: 'Instrument: UPS units. The units switched to battery power in response to
+    a brief (~1 s) input power problem.'
+- added: 2021-09-09 09:58
+  author: DAH
+  end: 2021-08-27 05:10
+  number: '3270'
+  start: 2021-08-27 05:00
+  text: 'Instrument: Campbell Scientific Surface Met. The tip registered by the tipping
+    bucket rain gauge at 05:00 UTC was probably caused by an accumulation of dew since
+    the Vaisala LD40 shows clear skies at this time. '
+- added: 2021-10-14 15:58
+  author: DAH
+  end: 2021-09-17 16:30
+  number: '3272'
+  start: 2021-09-17 00:00
+  text: 'Instrument: MST Radar. Data products are not currently available for the
+    period 00:00 - 16:30 UTC. This is the result of a failure of the data processing
+    PC at around 2021-09-17 16:30 UTC. Nevertheless, the raw data were collected for
+    this period. '
+- added: 2021-10-14 15:50
+  author: DAH
+  end: 2021-09-27 07:00
+  number: '3271'
+  start: 2021-09-27 04:50
+  text: 'Instrument: MST Radar. The radar receiver experienced a raised noise floor
+    during the interval 04:50 - 07:00 UTC. Although this did not lead to contamination
+    of the data products, it did result in a reduction in useful altitude coverage. '
+- added: 2021-11-23 08:28
+  author: DAH
+  end: 2021-11-22 10:50
+  number: '3273'
+  start: 2021-11-22 10:40
+  text: 'Instrument: Campbell Scientific Surface Met. The single tip registered by
+    the tipping bucket rain gauge between 10:40 and 10:50 UTC was probably the result
+    of melting frost.'
+- added: 2021-12-20 10:02
+  author: DAH
+  end: 2021-12-19 06:20
+  number: '3275'
+  start: 2021-12-19 04:40
+  text: 'Instrument: MST Radar. The radar appears to have suffered from mild interference
+    between approximately 04:40 and 06:20 UTC. The st-mode data products should be
+    treated with caution for the altitude ranges 4.5 - 9.0 km and above 14 km. '
+- added: 2021-12-20 09:56
+  author: DAH
+  end: 2021-12-19 11:10
+  number: '3274'
+  start: 2021-12-19 11:00
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 11:00 and 11:10 UTC was probably the
+    result of melting of melting frost. '
