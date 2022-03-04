@@ -1,7 +1,8 @@
 
-# Events
-
-[Duck Duck Go](https://duckduckgo.com).[Duck Duck Go](https://duckduckgo.com).
+---
+title: Events
+layout: default
+---
 
  - [2002](mst_events_2002.yaml)
  - [2003](mst_events_2003.yaml)
