@@ -84,3 +84,9 @@
     PCs, which first began at 17:16 UTC, led to the beam pointing direction only changing
     occasionally. It eventually led to the radar control software locking up. DAH
     rebooted both PCs and restarted the radar at 20:26 UTC.'
+- added: 2022-03-04 16:18
+  author: SJP
+  end: 2022-03-04 16:18
+  number: '3286'
+  start: 2022-03-04 16:18
+  text: 'New test event - to show I can edit it in the web interface.'    
