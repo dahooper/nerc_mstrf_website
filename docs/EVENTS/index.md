@@ -3,7 +3,7 @@ title: Events
 layout: default
 ---
 
- - [2002](mst_events_2002.yaml)
+ - [2002](https://github.com/dahooper/nerc_mstrf_website/blob/main/docs/EVENTS/mst_events_2002.yaml)
  - [2003](mst_events_2003.yaml)
  - [2004](mst_events_2004.yaml)
  - [2005](mst_events_2005.yaml)
