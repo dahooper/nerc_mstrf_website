@@ -90,3 +90,19 @@
   number: '3286'
   start: 2022-03-04 16:18
   text: 'New test event - to show I can edit it in the web interface.'    
+- added: 2022-04-21 07:22
+  author: DAH
+  end: 2022-04-20 21:20
+  number: '3287'
+  start: 2022-04-20 20:40
+  text: 'Instrument: MST Radar. The horizontal wind data products at around 9.7 km should
+    be ignored during the period 20:40 - 21:20 UTC. The wind speeds are much larger than
+    at adjacent times and altitudes and so do not look realistic.'
+- added: 2022-04-21 07:29
+  author: DAH
+  end: 2022-04-20 07:10
+  number: '3288'
+  start: 2022-04-20 07:00
+  text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
+    for the tipping bucket rain gauge between 07:00 and 07:10 UTC was possibly the
+    result of dew accumulation.'
