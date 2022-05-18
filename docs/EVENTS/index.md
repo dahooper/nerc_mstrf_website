@@ -3,8 +3,8 @@ title: Events
 layout: default
 ---
 <p>Note that following one of these links will download the file containing 
-   instrument performance details for a calendar year.</p><br><br>
- - [2002](https://github.com/dahooper/nerc_mstrf_website/blob/main/docs/EVENTS/mst_events_2002.yaml)
+   instrument performance details for a calendar year.</p>
+ - <a href="mst_events_2002.yaml">2002</a>
  - <a href="mst_events_2003.yaml">2003</a>
  - <a href="mst_events_2004.yaml">2004</a>
  - <a href="mst_events_2005.yaml">2005</a>
