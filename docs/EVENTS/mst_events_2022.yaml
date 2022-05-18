@@ -106,3 +106,23 @@
   text: 'Instrument: Campbell Scientific Surface Met Instruments. The single tip registered
     for the tipping bucket rain gauge between 07:00 and 07:10 UTC was possibly the
     result of dew accumulation.'
+- added: 2022-05-18 08:35
+  author: DAH
+  start: 2022-05-17 12:55
+  end: 2022-05-17 13:13
+  text: 'Instrument: MST Radar. The radar was stopped for 20 minutes to allow radio
+    frequency spectral measurements to be carried out at the site.'
+- added: 2022-05-18 08:40
+  author: DAH
+  start: 2022-04-29 10:26
+  end: 2022-04-29 10:50
+  text: 'Instrument: MST Radar. The radar was stopped to allow LD to change beam steering
+    unit 64, which had been reporting a relay problem. This unit has been changed before,
+    which means that it is not clear whether the unit iteself or the connection is the
+    source of the problem.'
+- added: 2022-05-18 08:42
+  author: DAH
+  start: 2022-05-17 14:57
+  end: 2022-05-17 15:36
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
