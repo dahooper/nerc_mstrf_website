@@ -23,4 +23,4 @@ layout: default
  - [2019](mst_events_2019.yaml)
  - [2020](mst_events_2020.yaml)
  - [2021](mst_events_2021.yaml)
- - [2022](mst_events_2022.yaml)
+ - [2022](mst.nerc.ac.uk/EVENTS/mst_events_2022.yaml)
