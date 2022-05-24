@@ -126,3 +126,19 @@
   end: 2022-05-17 15:36
   text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
     during this period.'
+- added: 2022-05-24 06:54
+  author: DAH
+  start: 2022-05-22 05:30
+  end: 2022-05-22 23:59
+  text: 'Instrument: MST Radar. The radar experienced a mildly raised noise floor,
+    principally between 05:30 and 11:40 UTC and between 22:30 and 23:59 UTC. This did
+    not lead to any contamination of the data products, but it did lead to a slight
+    reduction in useful altitude coverage.'
+- added: 2022-05-24 07:08
+  author: DAH
+  start: 2022-05-23 00:00
+  end: 2022-05-23 16:50
+  text: 'Instrument: MST Radar. The radar experienced a mildly raised noise floor, principally
+    between 00:00 and 09:40 UTC and between 16:10 and 16:50 UTC. This did not lead to any
+    contamination of the data products, but it did lead to a slight reduction in useful
+    altitude coverage.'
