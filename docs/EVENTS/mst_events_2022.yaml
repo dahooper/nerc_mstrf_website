@@ -142,3 +142,10 @@
     between 00:00 and 09:40 UTC and between 16:10 and 16:50 UTC. This did not lead to any
     contamination of the data products, but it did lead to a slight reduction in useful
     altitude coverage.'
+-added: 2022-05-25 07:48
+  author: DAH
+  start: 2022-05-24 03:50
+  end: 2022-05-24 04:50
+  text: 'Instrument: MST Radar. The radar experienced a mildly raised noise floor between
+    03:50 and 04:50 UTC. This did not lead to any contamination of the data products, but it
+    did lead to a slight reduction in useful altitude coverage.'
