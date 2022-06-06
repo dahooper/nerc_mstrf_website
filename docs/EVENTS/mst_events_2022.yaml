@@ -142,10 +142,23 @@
     between 00:00 and 09:40 UTC and between 16:10 and 16:50 UTC. This did not lead to any
     contamination of the data products, but it did lead to a slight reduction in useful
     altitude coverage.'
--added: 2022-05-25 07:48
+- added: 2022-05-25 07:48
   author: DAH
   start: 2022-05-24 03:50
   end: 2022-05-24 04:50
   text: 'Instrument: MST Radar. The radar experienced a mildly raised noise floor between
     03:50 and 04:50 UTC. This did not lead to any contamination of the data products, but it
     did lead to a slight reduction in useful altitude coverage.'
+- added: 2022-06-06 09:01
+  author: DAH
+  start: 2022-05-31 14:57
+  end: 2022-05-31 15:37
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2022-06-06 09:03
+  author: DAH
+  start: 2022-06-04 15:10
+  end: 2022-06-04 15:50
+  text: 'Instrument: MST Radar. The horizontal wind data products above 14 km and and times
+    between 15:10 and 15:50 UTC should be ignored. The speeds are much faster than at adjacent
+    times and altitudes, suggesting that they might not valid.'
