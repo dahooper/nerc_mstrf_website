@@ -162,3 +162,19 @@
   text: 'Instrument: MST Radar. The horizontal wind data products above 14 km and and times
     between 15:10 and 15:50 UTC should be ignored. The speeds are much faster than at adjacent
     times and altitudes, suggesting that they might not valid.'
+- added: 2022-06-17 14:22
+  author: DAH
+  start: 2022-06-06 12:00
+  end: 2022-06-06 15:00
+  text: 'Instrument: MST Radar. The radar suffered from interference between 12:00 and 15:00 UTC.
+    This principally led to contamination of the st-mode Vertical beam data products between
+    12:00 and 12:30 UTC at altitudes above 6 km. Some contamination of the horizontal winds
+    is also evident between 12:30 and 13:30 UTC at altitudes above 11 km and between 14:15
+    and 15:00 UTC at altitudes above 14 km. There is also evidence of contamination in the
+    m-mode observations made by the NE6.0 and SE6.0 beams.'
+- added: 2022-06-17 14:25
+  author: DAH
+  start: 2022-06-14 14:57
+  end: 2022-06-14 15:37
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
