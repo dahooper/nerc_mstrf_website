@@ -214,3 +214,9 @@
   end: 2022-06-24 21:19
   text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
     problem.'
+- added: 2022-08-02 08:14
+  author: DAH
+  start: 2022-08-01 20:50
+  end: 2022-08-01 20:50
+  text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
+    problem.'
