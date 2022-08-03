@@ -200,23 +200,30 @@
   author: DAH
   start: 2022-08-01 07:38
   end: 2022-08-01 07:38
-  text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
-    problem.'
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
 - added: 2022-08-01 09:18
   author: DAH
   start: 2022-06-26 10:06
   end: 2022-06-26 10:06
-  text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
-    problem.'
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
 - added: 2022-08-01 09:25
   author: DAH
   start: 2022-06-24 21:19
   end: 2022-06-24 21:19
-  text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
-    problem.'
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
 - added: 2022-08-02 08:14
   author: DAH
   start: 2022-08-01 20:50
   end: 2022-08-01 20:50
-  text: 'The UPS units switched briefly (~ 1 s) to battery power in response to an input power
-    problem.'
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
+- added: 2022-08-03 07:25
+  author: DAH
+  start: 2022-08-02 12:00
+  end: 2022-08-02 14:50
+  text: 'Instrument: MST Radar. The radar suffered from two periods of interference between
+    12:00 and 14:50 UTC, apparently through observations made by one of the off-vertical beams.
+    This led to some contamination of the horizontal wind data at altitudes above 10 km.'
