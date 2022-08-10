@@ -227,3 +227,16 @@
   text: 'Instrument: MST Radar. The radar suffered from two periods of interference between
     12:00 and 14:50 UTC, apparently through observations made by one of the off-vertical beams.
     This led to some contamination of the horizontal wind data at altitudes above 10 km.'
+- added: 2022-08-10 09:49
+  author: DAH
+  start: 2022-08-09 14:57
+  end: 2022-9-09 15:32
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2022-08-10 09:53
+  author: DAH
+  start: 2022-08-03 02:30
+  end: 2022-08-03 03:20
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes of around 17.5 km and
+    between 02:30 and 03:20 UTC should not be used. The speeds are much faster than at adjacent
+    times and altitudes suggesting that they are not realistic.'
