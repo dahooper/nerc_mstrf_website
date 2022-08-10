@@ -240,3 +240,12 @@
   text: 'Instrument: MST Radar. The horizontal wind data at altitudes of around 17.5 km and
     between 02:30 and 03:20 UTC should not be used. The speeds are much faster than at adjacent
     times and altitudes suggesting that they are not realistic.'
+- added: 2022-08-10 09:55
+  author: DAH
+  start: 2022-08-05 10:53
+  end: 2022-08-05 10:53
+  text: 'Instrument: Vaisala LD40, Campbell Scientific surface met. The data acqusition PC "gaius"
+    had developed a problem and so was rebooted shortly after 10:53 UTC. However, the PC did not
+    reboot properly, which means that no Vaisala LD40 data are currently being collected. The Campbell
+    Scientific surface met data logger can hold approximately 8 days'' worth of data before overwriting
+    begins. The data acqusition PC will be replaced as soon as possible.'
