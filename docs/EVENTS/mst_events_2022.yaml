@@ -249,3 +249,15 @@
     reboot properly, which means that no Vaisala LD40 data are currently being collected. The Campbell
     Scientific surface met data logger can hold approximately 8 days'' worth of data before overwriting
     begins. The data acqusition PC will be replaced as soon as possible.'
+- added: 2022-08-31 08:52
+  author: DAH
+  start: 2022-08-23 14:51
+  end: 2022-08-23 15:32
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2022-08-31 08:56
+  author: DAH
+  start: 2022-08-14 16:44
+  end: 2022-08-14 16:44
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
