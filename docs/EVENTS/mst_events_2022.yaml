@@ -261,3 +261,9 @@
   end: 2022-08-14 16:44
   text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
     response to an input power problem.'
+- added: 2022-09-07 12:38
+  author: DAH
+  start: 2022-09-06 14:57
+  end: 2022-09-06 15:40
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
