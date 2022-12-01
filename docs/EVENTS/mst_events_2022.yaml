@@ -291,3 +291,29 @@
   end: 2022-11-01 15:42
   text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
     during this period.'
+- added: 2022-12-01 09:26
+  author: DAH
+  start: 2022-11-29 10:40
+  end: 2022-11-29 10:50
+  text: 'Instrument: Campbell Sci. surface met sensors. The single tip registered by the
+    tipping bucket raingauge between 10:40 and 10:50 UTC is not thought to represent rain.
+    The laser ceilometer observations do not suggest any precipitation at this time. However,
+    the single tip registered between 01:50 and 02:00 is consistent with rain.'
+- added: 2022-12-01 16:02
+  author: DAH
+  start: 2022-11-23 21:45
+  end: 2022-11-23 21:45
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
+- added: 2022-12-01 16:06
+  author: DAH
+  start: 2022-11-20 07:34
+  end: 2022-11-20 07:34
+  text: 'Instrument: UPS Units. The UPS units switched briefly (~ 1 s) to battery power in
+    response to an input power problem.'
+- added: 2022-12-01 16:16
+  author: DAH
+  start: 2022-11-29 14:47
+  end: 2022-11-29 15:33
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
