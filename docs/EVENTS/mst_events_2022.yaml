@@ -333,3 +333,66 @@
     tipping bucket raingauge between 10:20 and 10:30 UTC is not thought to represent rain,
     but was probably caused by the melting of frost. The laser ceilometer observations
     do not suggest any precipitation at this time.'
+- added: 2023-01-11 08:53
+  author: DAH
+  start: 2022-11-15 14:57
+  end: 2022-11-15 15:42
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
+- added: 2023-01-11 09:00
+  author: DAH
+  start: 2022-12-13 14:57
+  end: 2022-12-13 15:42
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and Beamform passed self tests
+    during this period. Unit TX5 indicated that at least one battery was faulty.'
+- added: 2023-01-11 09:04
+  author: DAH
+  start: 2022-12-27 14:57
+  end: 2022-12-27 15:20
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and Beamform passed self tests
+    during this period. Unit TX5 indicated that at least one battery was faulty.'
+- added: 2023-01-11 09:20
+  author: DAH
+  start: 2022-12-30 12:00
+  end: 2022-12-30 12:00
+  text: 'Instrument: UPS Units. New batteries were installed for unit TX5, which had been
+    giving notifications about a faulty battery since 2022-12-13.'
+- added: 2023-01-11 09:31
+  author: DAH
+  start: 2022-12-07 10:20
+  end: 2022-12-07 10:30
+  text: 'Instrument: Campbell Sci. surface met sensors. The single tip of the tipping
+    bucket rain gauge between 10:20 and 10:30 UTC appears to the result of frost that
+    has melted.'
+- added: 2023-01-11 09:35
+  author: DAH
+  start: 2022-12-10 12:00
+  end: 2022-12-10 15:00
+  text: 'Instrument: Campbell Sci. surface met sensors. The timing of the precipitation
+    detected by the tipping bucket rain gauge between 12:00 and 15:00 UTC should be
+    treated with caution. Observations made by the LD40 laser ceilometer do not
+    suggest that precipitation was falling during most of this period. Since the
+    temperature was only just above 0 °C, it is possible that the gauge was detecting
+    a slow melt of snow that had fallen earlier. Precipitation detected after 15:00 UTC
+    is consistent precipitation apparent in the LD40 observations.'
+- added: 2023-01-11 09:47
+  author: DAH
+  start: 2022-12-11 11:40
+  end: 2022-12-11 11:50
+  text: 'Instrument: Campbell Sci. surface met sensors. The single tip of the tipping
+    bucket rain gauge between 11:40 and 11:50 UTC appears to the result of frost that
+    has melted.'
+- added: 2023-01-11 09:53
+  author: DAH
+  start: 2022-12-14 12:30
+  end: 2022-12-14 12:40
+  text: 'Instrument: Campbell Sci. surface met sensors. The single tip of the tipping
+    bucket rain gauge between 12:30 and 12:40 UTC appears to the result of frost that
+    has melted.'
+- added: 2023-01-11 09:56
+  author: DAH
+  start: 2022-12-19 04:43
+  end: 2022-12-19 07:25
+  text: 'Instrument: LD40 laser ceilometer. Data acquisition was interupted at 04:43
+    UTC as a result of unrelated software crashing on the Windows data acquisition
+    PC. DAH restarted the data acquisition remotely as soon as he spotted the problem.'
