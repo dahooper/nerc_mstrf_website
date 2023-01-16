@@ -10,3 +10,18 @@
   end: 2023-01-10 16:24
   text: 'Instrument: UPS Units. The units switched to battery power for approximately
     20 s in response to an input power problem.'
+- added: 2023-01-16 15:43
+  author: DAH
+  start: 2023-01-15 18:30
+  end: 2023-01-15 19:40
+  text: 'Instrument: UPS Units. There appears to have been a total loss of mains electricity
+    at the site, starting at some point around 18:30 UTC and ending at around 19:40 UTC. This
+    had knock-on effects for the data collection for all instruments, which was not
+    restarted until the following morning.'
+- added: 2023-01-16 15:52
+  start: 2023-01-15 18:35
+  end: 2023-01-16 08:30
+  text: 'Instrument: MST Radar, LD40 laser ceilometer, WXT520 weather transmitter,
+    Sky-Camera. Data acquisition for these instruments was interrupted by a loss of mains power.
+    Although the mains supply was resumed at 2023-01-15 19:40 UTC, the problem was not spotted
+    until the following morning, when DAH restarted the data acquisition remotely.
