@@ -19,9 +19,17 @@
     had knock-on effects for the data collection for all instruments, which was not
     restarted until the following morning.'
 - added: 2023-01-16 15:52
+  author: DAH
   start: 2023-01-15 18:35
   end: 2023-01-16 08:30
   text: 'Instrument: MST Radar, LD40 laser ceilometer, WXT520 weather transmitter,
     Sky-Camera. Data acquisition for these instruments was interrupted by a loss of mains power.
     Although the mains supply was resumed at 2023-01-15 19:40 UTC, the problem was not spotted
     until the following morning, when DAH restarted the data acquisition remotely.
+- added: 2023-01-18 08:32
+  author: DAH
+  start: 2023-01-17 12:30
+  end: 2023-01-17 12:40
+  text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
+    rain gauge, which occurred between 12:30 and 12:40 UTC, appears to have been the result
+    of melted frost accumulation.' 
