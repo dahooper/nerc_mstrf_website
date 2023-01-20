@@ -32,4 +32,26 @@
   end: 2023-01-17 12:40
   text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
     rain gauge, which occurred between 12:30 and 12:40 UTC, appears to have been the result
-    of melted frost accumulation.' 
+    of melted frost accumulation.'
+- added: 2023-01-20 08:47
+  author: DAH
+  start: 2023-01-19 22:50
+  end: 2023-01-19 23:50
+  text: 'Instrument: MST Radar. The horizontal wind data at altitudes of around 19 km and
+    between times of 22:50 and 23:50 UTC should be ignored. These data points occur
+    several km above any others that have been flagged as being reliable during this
+    day and so are likley to be the result of some sort of contamination.'
+- added: 2023-01-20 08:49
+  author: DAH
+  start: 2023-01-19 02:40
+  end: 2023-01-19 16:50
+  text: 'Instrument: Campbell Scientific surface met. The timing of the precipitation
+    detected by the tipping bucket rain gauge should be treated with caution. Although
+    the LD40 and WXT520 indicated a precipitation event just before 03:00 UTC and another
+    one around 04:30 UTC, which should have given a sufficient accumulation to be 
+    detected by the tipping bucket, its first tip occured at 05:30 UTC when the other
+    two instruments suggest that there was no precipitation. Similarly, the timing of
+    the succession of tips between 10:00 and 16:50 UTC do not correspond well with 
+    timing of precipitation detected by the other two instruments. Temperatures had
+    been around 0 degrees C during the morning and so it is possible that the inlet
+    for the rain gauge was partially blocked.'
