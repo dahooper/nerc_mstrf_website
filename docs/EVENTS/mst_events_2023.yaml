@@ -55,3 +55,16 @@
     timing of precipitation detected by the other two instruments. Temperatures had
     been around 0 degrees C during the morning and so it is possible that the inlet
     for the rain gauge was partially blocked.'
+- added: 2023-01-27 08:20
+  author: DAH
+  start: 2023-01-26 10:10
+  end: 2023-01-26 10:20
+  text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
+    rain gauge, which occurred between 10:10 and 10:20 UTC, appears to have been the result
+    of either melted frost or dew accumulation.'
+- added: 2023-01-27 08:25
+  author: DAH
+  start: 2023-01-24 12:48
+  end: 2023-01-24 15:04
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
+    during this period.'
