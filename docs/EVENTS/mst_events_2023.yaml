@@ -68,3 +68,10 @@
   end: 2023-01-24 15:04
   text: 'Instrument: UPS Units. Units TX2, TX3, TX4, TX5, and Beamform passed self tests
     during this period.'
+- added: 2023-01-30 08:49
+  author: DAH
+  start: 2023-01-29 22:00
+  end: 2023-01-29 23:50
+  text: 'Instrument: MST Radar. The horizontal wind data between 22:00 and 23:50 UTC should
+    be ignored for the altitude ranges 8.0 - 9.5 km and above 14.5 km. The signals for at least
+    one of the off-vertical beams appear to have been contaminated from an unwanted source.'
