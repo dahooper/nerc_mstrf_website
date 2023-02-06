@@ -95,3 +95,17 @@
   start: 2023-01-29 19:39
   end: 2023-01-29 19:39
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-02-06 08:50
+  author: DAH
+  start: 2023-02-02 10:40
+  end: 2023-02-02 14:00
+  text: 'Instrument: MST Radar. The horizontal wind data should be ignored between 10:40 and
+    14:00 UTC at altitudes above 14 km. These show mild contamination by signals from an unwanted
+    source.'
+- added: 2023-02-06 09:02
+  author: DAH
+  start: 2023-02-03 04:30
+  end: 2023-02-03 10:00
+  text: 'Instrument: MST Radar. The horizontal wind data should be ignored within two time-altitude
+    regions: between 04:30 and 07:20 UTC at altitudes above 8 km, and between 08:50 and 10:00 UTC at
+    altitudes above 8 km. These show contamination by signals from an unwanted source.'
