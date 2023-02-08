@@ -116,3 +116,9 @@
   text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
     rain gauge, which occurred between 10:10 and 10:20 UTC, appears to have been the result
     of melted frost.'
+- added: 2023-02-08 08:28
+  author: DAH
+  start: 2023-02-07 08:30
+  end: 2023-02-07 10:00
+  text: 'The horizontal wind data should be ignored for the time-altitude region between 08:30 and
+    10:00 UTC and above 15.0 km. The signals have been contaminated from an unwanted source.'
