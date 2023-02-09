@@ -122,3 +122,9 @@
   end: 2023-02-07 10:00
   text: 'The horizontal wind data should be ignored for the time-altitude region between 08:30 and
     10:00 UTC and above 15.0 km. The signals have been contaminated from an unwanted source.'
+- added: 2023-02-09 09:40
+  author: DAH
+  start: 2023-02-07 12:48
+  end: 2023-02-07 15:04
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5, and passed self tests during
+    this period.'
