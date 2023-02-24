@@ -126,8 +126,7 @@
   author: DAH
   start: 2023-02-07 12:48
   end: 2023-02-07 15:04
-  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5, and passed self tests during
-    this period.'
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
 - added: 2023-02-13 10:29
   author: DAH
   start: 2023-02-12 19:39
@@ -147,3 +146,8 @@
   text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
     rain gauge, which occurred between 08:50 and 09:00 UTC, appears to have been the result
     of melted frost.'
+- added: 2023-02-24 15:19
+  author: DAH
+  start: 2023-02-21 12:48
+  end: 2023-02-21 15:03
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
