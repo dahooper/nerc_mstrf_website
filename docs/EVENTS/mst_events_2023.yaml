@@ -140,3 +140,10 @@
   text: 'Instrument: MST Radar. The horizontal wind data should be ignored for the time-altitude
     region between 00:30 and 02:00 UTC and above 8.0 km. The signals have been contaminated from
     an unwanted source.'
+- added: 2023-02-24 08:45
+  author: DAH
+  start: 2023-02-23 08:50
+  end: 2023-02-23 09:00
+  text: 'Instrument: Campbell Scientific surface met. The single tip of the tipping bucket
+    rain gauge, which occurred between 08:50 and 09:00 UTC, appears to have been the result
+    of melted frost.'
