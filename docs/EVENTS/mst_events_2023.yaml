@@ -184,3 +184,8 @@
   text: 'Instrument: Vaisala LD40. A crash of software running on the data acquisition computer led to a
     break in data from the LD40 being logged. The computer was rebooted and the LD40 data acquisition 
     software was restarted remotely.'
+- added: 2023-03-09 09:31
+  author: DAH
+  start: 2023-03-07 12:49
+  end: 2023-03-07 15:03
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
