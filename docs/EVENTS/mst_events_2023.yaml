@@ -202,3 +202,8 @@
     between 07:50 and 08:00 UTC appears to be the result of melting frost. The Vaisala LD40 and Vaisala
     WXT520 indicate that the first rain was detected at around 09:30 UTC, after which it persisted
     (albeit at a low rate) for the rest of the day.'
+- added: 2023-03-22 09:12
+  author: DAH
+  start: 2023-03-21 12:49
+  end: 2023-03-21 15:03
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
