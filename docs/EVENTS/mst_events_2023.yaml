@@ -212,3 +212,16 @@
   start: 2023-03-26 19:38
   end: 2023-03-26 19:38
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-04-11 08:34
+  author: DAH
+  start: 2023-04-04 14:42
+  end: 2023-04-04 15:02
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period. Unit TX5
+    indicated that at least one faulty battery exists.'
+- added: 2023-04-11 08:36
+  author: DAH
+  start: 2023-04-09 19:38
+  end: 2023-04-09 19:38
+  text: 'Instrument: UPS Units. Unit Beamform failed a self test at this time. It indicated that at least
+    one faulty battery exists.'
+- 
