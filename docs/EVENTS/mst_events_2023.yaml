@@ -224,4 +224,11 @@
   end: 2023-04-09 19:38
   text: 'Instrument: UPS Units. Unit Beamform failed a self test at this time. It indicated that at least
     one faulty battery exists.'
-- 
+- added: 2023-04-11 15:15
+  author: DAH
+  start: 2023-04-11 11:35
+  end: 2023-04-11 11:43
+  text: 'Instrument: UPS Units. LD repaced the batteries in the Beamform unit. He cannot remember when they
+    were last replaced. The unit continued to show a fault status until LD manually ran a self test, which
+    cleared the problem. The batteries for the TX5 unit had been replaced relatively recently and so LD
+    ran a self test without replacing them again. This cleared the apparent fault.' 
