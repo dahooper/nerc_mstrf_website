@@ -238,3 +238,8 @@
   end: 2023-04-16 16:58
   text: 'Instrument: UPS Units. The units briefly switched to battery power, i.e. for about 1 s, twice in short
     succession in response to an input power problem.' 
+- added: 2023-04-20 08:03
+  author: DAH
+  start: 2023-04-18 12:49
+  end: 2023-03-21 15:02
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
