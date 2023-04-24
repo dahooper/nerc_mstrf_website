@@ -243,3 +243,8 @@
   start: 2023-04-18 12:49
   end: 2023-03-21 15:02
   text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
+- added: 2023-04-24 13:07
+  author: DAH
+  start: 2023-04-23 19:38
+  end: 2023-04-23 19:38
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
