@@ -241,10 +241,21 @@
 - added: 2023-04-20 08:03
   author: DAH
   start: 2023-04-18 12:49
-  end: 2023-03-21 15:02
+  end: 2023-04-18 15:02
   text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
 - added: 2023-04-24 13:07
   author: DAH
   start: 2023-04-23 19:38
   end: 2023-04-23 19:38
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-05-03 07:30
+  author: DAH
+  start: 2023-05-02 12:49
+  end: 2023-05-02 15:02
+  text: 'Instrument: UPS Units. Units TX2, TX3, TX4, and TX5 passed self tests during this period.'
+- added: 2023-05-03 07:32
+  author: DAH
+  start: 2023-05-02 10:36
+  end: 2023-05-02 10:53
+  text: 'Instrument: MST Radar. The radar was stopped to allow beam steering unit 94 to be replaced. It
+    had been indicating a fault, which was probably the result of a failed relay.'
