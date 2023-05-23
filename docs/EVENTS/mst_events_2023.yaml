@@ -259,3 +259,14 @@
   end: 2023-05-02 10:53
   text: 'Instrument: MST Radar. The radar was stopped to allow beam steering unit 94 to be replaced. It
     had been indicating a fault, which was probably the result of a failed relay.'
+- added: 2023-05-23 08:22
+  author: DAH
+  start: 2023-05-16 14:41
+  end: 2023-04-18 15:02
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period. Unit TX5
+    reported that at least one faulty battery existed.'
+- added: 2023-05-23 08:25
+  author: DAH
+  start: 2023-05-21 19:37
+  end: 2023-05-21 19:37
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
