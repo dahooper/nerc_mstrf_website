@@ -262,7 +262,7 @@
 - added: 2023-05-23 08:22
   author: DAH
   start: 2023-05-16 14:41
-  end: 2023-04-18 15:02
+  end: 2023-05-16 15:02
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period. Unit TX5
     reported that at least one faulty battery existed.'
 - added: 2023-05-23 08:25
@@ -270,3 +270,19 @@
   start: 2023-05-21 19:37
   end: 2023-05-21 19:37
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-06-01 15:03
+  author: DAH
+  start: 2023-05-31 16:00
+  end: 2023-05-31 18:00
+  text: 'Instrument: MST Radar. The horizontal wind data should be ignored for the time-altitude
+    region between 16:00 and 17:00 UTC and above 8.0 km. The signals appear to have been
+    contaminated from an unwanted source.'
+- added: 2023-06-01 15:06
+  author: DAH
+  start: 2023-05-30 14:40
+  end: 2023-05-30 15:01
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period. Unit TX5
+    reported that at least one faulty battery existed. It has also been reporting repeatedly (both before
+    and after the self test) that the battery is not installed properly. It alternates this message with
+    one reporting that the battery is now installed. These messages have sometimes been sent as frequently
+    as once per minute.'
