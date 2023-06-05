@@ -286,3 +286,20 @@
     and after the self test) that the battery is not installed properly. It alternates this message with
     one reporting that the battery is now installed. These messages have sometimes been sent as frequently
     as once per minute.'
+- added: 2023-06-05 09:00
+  author: DAH
+  start: 2023-06-01 15:40
+  end: 2023-06-01 15:40
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 1 s) in response to an
+    input power problem.'
+- added: 2023-06-05 09:05
+  author: DAH
+  start: 2023-06-04 14:05
+  end: 2023-06-04 14:05
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 1 s) in response to an
+    input power problem.'
+- added: 2023-06-05 09:09
+  author: DAH
+  start: 2023-06-04 19:36
+  end: 2023-06-04 19:36
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
