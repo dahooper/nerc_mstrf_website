@@ -303,3 +303,17 @@
   start: 2023-06-04 19:36
   end: 2023-06-04 19:36
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-06-09 15:01
+  author: DAH
+  start: 2023-06-05 15:49
+  end: 2023-06-05 15:49
+  text: 'Instrument: UPS Units. One of the batteries was replaced for unit TX5, which had been intermittently
+    reporting problems for some time. This appears to have cleared the problem.'
+- added: 2023-06-09 15:04
+  author: DAH
+  start: 2023-06-06 09:38
+  end: 2023-06-06 09:38
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time. The test was triggered manually 
+    in order to check that the unit was working properly after one of its batteries had been replaced on 
+    the previous day.'
+    that 
