@@ -316,4 +316,9 @@
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time. The test was triggered manually 
     in order to check that the unit was working properly after one of its batteries had been replaced on 
     the previous day.'
-    that 
+- added: 2023-06-13 08:47
+  author: DAH
+  start: 2023-06-12 17:18
+  end: 2023-06-12 17:18
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 1 s) in response to an
+    input power problem. This coincided with a deep convection event that was seen my the MST Radar.'
