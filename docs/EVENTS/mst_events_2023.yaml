@@ -322,3 +322,8 @@
   end: 2023-06-12 17:18
   text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 1 s) in response to an
     input power problem. This coincided with a deep convection event that was seen my the MST Radar.'
+- added: 2023-06-14 08:36
+  author: DAH
+  start: 2023-06-15 14:39
+  end: 2023-06-15 15:01
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
