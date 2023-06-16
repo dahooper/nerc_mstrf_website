@@ -327,3 +327,9 @@
   start: 2023-06-15 14:39
   end: 2023-06-15 15:01
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-06-16 07:49
+  author: DAH
+  start: 2023-06-15 06:12
+  end: 2023-06-15 06:12
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 2 s) in response to an
+    input power problem.'
