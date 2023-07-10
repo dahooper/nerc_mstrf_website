@@ -381,4 +381,39 @@
   start: 2023-07-03 16:23
   end: 2023-07-03 16:23
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
-  
+- added: 2023-07-10 14:02
+  author: DAH
+  start: 2023-07-03 08:35
+  end: 2023-07-03 13:51
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-10 14:05
+  author: DAH
+  start: 2023-07-04 08:05
+  end: 2023-07-04 14:25
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-10 14:07
+  author: DAH
+  start: 2023-07-05 11:42
+  end: 2023-07-05 12:26
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-10 14:08
+  author: DAH
+  start: 2023-07-06 07:58
+  end: 2023-07-06 13:58
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-10 14:09
+  author: DAH
+  start: 2023-07-07 07:56
+  end: 2023-07-07 14:42
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-10 14:11
+  author: DAH
+  start: 2023-07-10 07:36
+  end: 2023-07-10 15:05
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
