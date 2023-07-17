@@ -417,3 +417,43 @@
   end: 2023-07-10 15:05
   text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
     out within the antenna array.'
+- added: 2023-07-17 10:37
+  author: DAH
+  start: 2023-07-11 14:38
+  end: 2023-07-11 15:00
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-07-17 10:41
+  author: DAH
+  start: 2023-07-16 19:36
+  end: 2023-07-16 19:36
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-07-17 10:45
+  author: DAH
+  start: 2023-07-17 04:37
+  end: 2023-07-17 04:37
+  text: 'Instrument: UPS Units. The units switched to battery power briefly (for ~ 1 s) in response to an
+    input power problem.'
+- added: 2023-07-17 10:55
+  author: DAH
+  start: 2023-07-11 07:50
+  end: 2023-07-11 14:18
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-17 10:57
+  author: DAH
+  start: 2023-07-12 07:08
+  end: 2023-07-12 23:59
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-17 10:59
+  author: DAH
+  start: 2023-07-13 00:00
+  end: 2023-07-13 23:59
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
+- added: 2023-07-17 11:00
+  author: DAH
+  start: 2023-07-14 00:00
+  end: 2023-07-14 15:59
+  text: 'Instrument: MST Radar. The radar was stopped to allow maintenance work to be carried
+    out within the antenna array.'
