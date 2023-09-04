@@ -503,3 +503,27 @@
   start: 2023-08-22 14:36
   end: 2023-08-08 14:59
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-09-04 13:46
+  author: DAH
+  start: 2023-08-27 19:36
+  end: 2023-08-27 19:36
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-09-04 13:48
+  author: DAH
+  start: 2023-08-28 16:23
+  end: 2023-08-28 16:23
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2023-09-04 13:51
+  author: DAH
+  start: 2023-08-31 07:37
+  end: 2023-08-31 23:59
+  text: 'Instrument: MST Radar. The radar was powered down to allow snagging work to
+    be underaken on the housings for the primary power splitters. The radar was not
+    restarted until the following day.'
+- added: 2023-09-04 14:19
+  author: DAH
+  start: 2023-09-01 00:00
+  end: 2023-09-01 17:00
+  text: 'Instrument: MST Radar. The radar was powered down to allow snagging work to
+    be underaken on the housings for the primary power splitters. It had been left
+    out of action overnight since the previous day.'
