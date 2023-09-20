@@ -554,3 +554,13 @@
   start: 2023-09-11 16:41
   end: 2023-09-11 16:41
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2023-09-06 07:57
+  author: DAH
+  start: 2023-09-05 14:36
+  end: 2023-09-05 14:59
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-09-20 08:27
+  author: DAH
+  start: 2023-09-19 14:36
+  end: 2023-09-05 14:59
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.' 
