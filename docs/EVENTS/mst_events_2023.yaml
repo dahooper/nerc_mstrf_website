@@ -563,4 +563,21 @@
   author: DAH
   start: 2023-09-19 14:36
   end: 2023-09-05 14:59
-  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.' 
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-10-02 15:17
+  author: DAH
+  start: 2023-09-24 19:36
+  end: 2023-09-24 19:36
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-10-02 15:19
+  author: DAH
+  start: 2023-09-25 16:36
+  end: 2023-09-25 16:36
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2023-10-02 15:24
+  author: DAH
+  start: 2023-09-30 21:22
+  end: 2023-10-01 06:54
+  text: 'Instrument: LD40. No data were collected for over 9 hours owing to 
+    the data acquisition PC encountering a problem that caused all software to
+    stop running.'
