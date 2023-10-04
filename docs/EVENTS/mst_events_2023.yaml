@@ -562,7 +562,7 @@
 - added: 2023-09-20 08:27
   author: DAH
   start: 2023-09-19 14:36
-  end: 2023-09-05 14:59
+  end: 2023-09-19 14:59
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
 - added: 2023-10-02 15:17
   author: DAH
@@ -581,3 +581,8 @@
   text: 'Instrument: LD40. No data were collected for over 9 hours owing to 
     the data acquisition PC encountering a problem that caused all software to
     stop running.'
+- added: 2023-10-04 08:23
+  author: DAH
+  start: 2023-10-03 14:35
+  end: 2023-10-03 14:59
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
