@@ -639,3 +639,14 @@
   text: 'Instrument: MST radar. All data products should be ignored for the
     time-altitude regions 03:30 - 06:00 UTC above 12 km and 07:30 - 08:30 UTC
     above 16 km. They have been contaminated by interference.'
+- added: 2023-11-16 10:59
+  author: DAH
+  start: 2023-11-14 14:40
+  end: 2023-11-14 14:58
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-11-16 11:01
+  author: DAH
+  start: 2023-11-11 03:20
+  end: 2023-11-11 04:30
+  text: 'All data products should be ignored for the time-altitude region 03:20 - 04:30 UTC and
+    above 13 km. They have been contaminated by interference.'
