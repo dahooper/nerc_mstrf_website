@@ -650,3 +650,8 @@
   end: 2023-11-11 04:30
   text: 'All data products should be ignored for the time-altitude region 03:20 - 04:30 UTC and
     above 13 km. They have been contaminated by interference.'
+- added: 2023-11-20 10:06
+  author: DAH
+  start: 2023-11-19 19:35
+  end: 2023-11-19 19:35
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
