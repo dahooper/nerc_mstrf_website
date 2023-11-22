@@ -655,3 +655,20 @@
   start: 2023-11-19 19:35
   end: 2023-11-19 19:35
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2023-11-22 10:02
+  author: DAH
+  start: 2023-11-20 16:40
+  end: 2023-11-20 17:20
+  text: 'Instrument: The horizontal wind data should be ignored for the time-altitude region
+    16:40 - 17:20 UTC and 11.5 - 13:5 km. The speeds are considerably faster than at adjacent
+    times and altitudes, which makes them look unrealistic. This is probably the result of
+    the large amplitude mountain wave activity.'
+- added: 2023-11-22 10:05
+  author: DAH
+  start: 2023-11-19 08:02
+  end: 2023-11-22 09:27
+  text: 'Instrument: Vaisala WXT520. The raw data log for this instruments began to contain
+    occasional corrupted characters from 2023-11-19 08:02. These became more frequent until
+    2023-11-19 08:02 UTC, after which no more raw data were logged. At first, this was thought
+    to be the result of a failure of the instrument. However, stopping and then restarting
+    the acquisition software at 2023-11-22 09:27 UTC appears to have cleared the problem.' 
