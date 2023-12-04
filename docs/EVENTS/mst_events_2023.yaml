@@ -688,3 +688,23 @@
   start: 2023-11-14 14:33
   end: 2023-11-14 14:58
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2023-12-04 09:13
+  author: DAH
+  start: 2023-12-02 03:15
+  end: 2023-12-02 04:15
+  text: 'Instrument: MST Radar. The horizontal wind data should be ignored for the time-altitude
+    region 03:15 - 04:15 UTC and above 16 km. The signals appear to be the result of interference.'
+- added: 2023-12-04 09:15
+  author: DAH
+  start: 2023-11-30 11:10
+  end: 2023-11-30 11:20
+  text: 'Instrument: Campbell Scientific surface met sensors. The single tip registered for
+    the tipping backet rain gauge 11:10 - 11:20 UTC should be treated with caution since it
+    might represent melted frost accumulation. The laser ceilometer does not show any clouds
+    overhead at this time.'
+- added: 2023-12-04 09:26
+  author: DAH
+  start: 2023-12-03 19:35
+  end: 2023-12-03 19:35
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+  
