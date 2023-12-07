@@ -707,4 +707,15 @@
   start: 2023-12-03 19:35
   end: 2023-12-03 19:35
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
-  
+- added: 2023-12-07 10:54
+  author: DAH
+  start: 2023-12-04 02:00
+  end: 2023-12-04 12:40
+  text: 'Instrument: MST Radar. All data products should be ignored within two time-altitude regions:
+    02:00 - 03:00 UTC above 15 km, and 11:30 - 12:40 UTC above 10 km. The signals have been
+    contaminated with interference.'  
+- added: 2023-12-07 10:56
+  author: DAH
+  start: 2023-12-04 16:25
+  end: 2023-12-04 16:25
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
