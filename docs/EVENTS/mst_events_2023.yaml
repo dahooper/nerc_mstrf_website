@@ -719,3 +719,30 @@
   start: 2023-12-04 16:25
   end: 2023-12-04 16:25
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2024-01-02 09:48
+  author: DAH
+  start: 2023-12-07 16:50
+  end: 2023-12-07 17:40
+  text: 'Instrument: MST Radar. The horizontal wind data should be ignored within the time-altitude region
+    16:50 - 17:40 UTC above 18 km. The data do not look realistic and are probably the result of
+    interference.'
+- added: 2024-01-02 14:42
+  author: DAH
+  start: 2023-12-17 19:35
+  end: 2023-12-17 19:35
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2024-01-02 14:44
+  author: DAH
+  start: 2023-12-18 16:25
+  end: 2023-12-18 16:25
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2024-01-02 14:59
+  author: DAH
+  start: 2023-12-12 14:33
+  end: 2023-12-12 14:57
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2024-01-02 15:01
+  author: DAH
+  start: 2023-12-26 14:32
+  end: 2023-12-26 14:57
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
