@@ -3,3 +3,11 @@
   start: 2024-01-01 16:25
   end: 2024-01-01 16:25
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2024-01-03 11:46
+  author: DAH
+  start: 2024-01-02 14:30
+  end: 2024-01-02 23:59
+  text: 'Instrument: MST Radar. A raised noise floor caused the useful altitude coverage
+    to be reduced between approximately 14:30 and 23:59 UTC. The effect was particularly
+    severe between 19:00 and 23:59 UTC. This did not affect the quality of the data at
+    the lower altitudes.'
