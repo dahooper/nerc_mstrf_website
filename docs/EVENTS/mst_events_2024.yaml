@@ -32,3 +32,21 @@
   text: 'Instrument: MST Radar. A sporadically raised noise floor caused the useful
     altitude coverage to be reduced between approximately 04:30 and 22:00 UTC. This
     did not affect the quality of the data at the lower altitudes.'
+- added: 2024-01-08 14:28
+  author: DAH
+  start: 2024-01-08 00:50
+  end: 2024-01-06 17:40
+  text: 'Instrument: MST Radar. All data products should be ignored within the following 3
+    time-altitude regions: 00:50 - 01:40 UTC above 17.5 km, 03:00 - 07:40 UTC above 11.5 km,
+    and 16:20 - 17:40 UTC above 17.0 km. These regions have been contaminated with interference.'
+- added: 2024-01-11 08:30
+  author: DAH
+  start: 2024-01-10 02:50
+  end: 2024-01-10 04:10
+  text: 'Instrument: MST Radar. All data products should be ignored within the time-altitude
+    region 02:50 - 04:10 UTC above 15.5 km, which has been contaminated with interference.'
+- added: 2024-01-11 08:33
+  author: DAH
+  start: 2024-01-09 14:31
+  end: 2024-01-09 14:57
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
