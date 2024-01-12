@@ -50,3 +50,9 @@
   start: 2024-01-09 14:31
   end: 2024-01-09 14:57
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2024-01-12 09:42
+  author: DAH
+  start: 2024-01-11 01:20
+  end: 2024-01-11 02:50
+  text: 'Instrument: MST Radar. All data products should be ignored within the time-altitude
+    region 01:20 - 02:50 UTC above 14.0 km, which has been contaminated with interference.' 
