@@ -72,3 +72,20 @@
   start: 2024-01-14 19:34
   end: 2024-01-14 19:34
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2024-01-29 09:23
+  author: DAH
+  start: 2024-01-23 14:31
+  end: 2024-01-23 14:57
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests during this period.'
+- added: 2024-01-29 09:25
+  author: DAH
+  start: 2024-01-28 19:34
+  end: 2024-01-28 19:34
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2024-01-12 09:26
+  author: DAH
+  start: 2024-01-26 08:30
+  end: 2024-01-26 09:30
+  text: 'Instrument: MST Radar. The horizontal wind data products within the time-altitude
+    region 08:30 - 09:30 UTC and above 18.0 km should be ignored. The wind speed is
+    significantly faster than at lower altitudes and so does not appear to be realistic.'
