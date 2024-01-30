@@ -89,3 +89,8 @@
   text: 'Instrument: MST Radar. The horizontal wind data products within the time-altitude
     region 08:30 - 09:30 UTC and above 18.0 km should be ignored. The wind speed is
     significantly faster than at lower altitudes and so does not appear to be realistic.'
+- added: 2024-01-30 09:00
+  author: DAH
+  start: 2024-01-29 16:25
+  end: 2024-01-29 16:25
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
