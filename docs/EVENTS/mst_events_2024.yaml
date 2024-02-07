@@ -94,3 +94,9 @@
   start: 2024-01-29 16:25
   end: 2024-01-29 16:25
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2024-02-07 15:38
+  author: DAH
+  start: 2024-02-06 14:56
+  end: 2024-02-06 14:56
+  text: 'Instrument: UPS Units. Unit TX2 failed a self test at this time and reported that
+    at least one faulty battery exists.'
