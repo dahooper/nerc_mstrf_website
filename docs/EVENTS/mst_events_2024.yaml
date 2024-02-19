@@ -110,3 +110,35 @@
   start: 2024-02-11 19:41
   end: 2024-02-11 19:41
   text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
+- added: 2024-02-19 10:15
+  author: DAH
+  start: 2024-01-07 11:40
+  end: 2024-01-07 14:50
+  text: 'Instrument: Campbell Scientific surface met. The 4 tips registered by the tipping
+    bucket rain gauge betweem 11:40 and 14:50 UTC are possibly the result of melting frost.
+    Observations made by the LD40 do not suggest any precipitation at this time.'
+- added: 2024-02-19 10:19
+  author: DAH
+  start: 2024-01-09 12:00
+  end: 2024-01-09 12:10
+  text: 'Instrument: Campbell Scientific surface met. The single tip registered by the
+    tipping bucket rain gauage between 12:00 and 12:10 UTC is possibly the result of dew
+    accumulation. Observations made by the LD40 do not suggest any precipitation at this time.'
+- added: 2024-02-19 10:27
+  author: DAH
+  start: 2024-01-16 11:20
+  end: 2024-01-16 12:10
+  text: 'Instrument: Campbell Scientific surface met. The 2 tips registered by the tipping
+    bucket rain gauge betweem 11:20 and 12:10 UTC are possibly the result of melting frost
+    or due accumulation. Observations made by the LD40 do not suggest any precipitation at
+    this time.'
+- added: 2024-02-19 10:38
+  author: DAH
+  start: 2024-02-13 09:30
+  end: 2024-02-13 13:00
+  text: 'Instrument: MST Radar, Campbell Scientific surface met, Vaisala LD40, Sky Camera.
+    Data acquisition was paused for all instruments to allow electrical testing to be
+    carried out within the site bungalow. The MST Radar was the last of the instruments
+    to be brought back into operation at 15:00 UTC.'
+    
+    
