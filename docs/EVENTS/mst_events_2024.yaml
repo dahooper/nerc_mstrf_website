@@ -140,5 +140,13 @@
     Data acquisition was paused for all instruments to allow electrical testing to be
     carried out within the site bungalow. The MST Radar was the last of the instruments
     to be brought back into operation at 15:00 UTC.'
-    
-    
+- added: 2024-02-22 09:06
+  author: DAH
+  start: 2024-02-20 14:30
+  end: 2024-02-20 14:56
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests at this time.'    
+- added: 2024-02-22 09:18
+  author: DAH
+  start: 2024-02-12 16:25
+  end: 2024-02-12 16:25
+  text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
