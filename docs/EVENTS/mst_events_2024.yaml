@@ -158,3 +158,8 @@
     08:30 and 23:59 UTC as a result of a raised noise floor. This is suspected to have been
     caused by the antenna array being waterlogged. This issue does not affect the quality of
     the data at the lowest altitudes.'
+- added: 2024-02-26 08:57
+  author: DAH
+  start: 2024-02-25 19:33
+  end: 2024-02-25 19:33
+  text: 'Instrument: UPS Units. Unit Beamform passed a self test at this time.'
