@@ -168,3 +168,43 @@
   start: 2024-02-26 16:26
   end: 2024-02-26 16:26
   text: 'Instrument: UPS Units. Unit TX5 passed a self test at this time.'
+- added: 2024-02-28 09:23
+  author: DAH
+  start: 2024-02-23 00:00
+  end: 2024-02-23 15:00
+  text: 'Instrument: MST Radar. The useful altitude coverage was noticeably reduced between
+    00:00 and 15:00 UTC. This was the result of a raised noise floor, which is suspected to
+    have been caused by the antenna array being waterlogged. This issue does not affect the
+    quality of the data at the lowest altitudes.'
+- added: 2024-02-28 09:25
+  author: DAH
+  start: 2024-02-24 13:00
+  end: 2024-02-24 23:59
+  text: 'Instrument: MST Radar. The useful altitude coverage was noticeably reduced between
+    13:00 and 23:59 UTC. This was the result of a raised noise floor, which is suspected to
+    have been caused by the antenna array being waterlogged. This issue does not affect the
+    quality of the data at the lowest altitudes.'
+- added: 2024-02-28 09:26
+  author: DAH
+  start: 2024-02-25 00:00
+  end: 2024-02-25 23:59
+  text: 'Instrument: MST Radar. The useful altitude coverage was reduced throughout most of
+    the day. This was the result of a raised noise floor, which is suspected to have been
+    caused by the antenna array being waterlogged. This issue does not affect the quality
+    of the data at the lowest altitudes.'
+- added: 2024-02-28 09:28
+  author: DAH
+  start: 2024-02-26 00:00
+  end: 2024-02-26 23:59
+  text: 'Instrument: MST Radar. The useful altitude coverage was reduced intermittently
+    throughout the day. This was the result of a raised noise floor, which is suspected to
+    have been caused by the antenna array being waterlogged. This issue does not affect
+    the quality of the data at the lowest altitudes.'
+- added: 2024-02-28 09:29
+  author: DAH
+  start: 2024-02-25 05:30
+  end: 2024-02-25 05:40
+  text: 'Instrument: Campbell Scientific surface met. The single tip registered by the
+    tipping bucket rain gauge betweem 11:40 and 14:50 UTC is probably the result of
+    melting frost or dew accumulation. Observations made by the LD40 do not suggest
+    any precipitation at this time.'
