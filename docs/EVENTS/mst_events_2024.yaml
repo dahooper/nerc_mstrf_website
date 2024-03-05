@@ -208,3 +208,8 @@
     tipping bucket rain gauge betweem 11:40 and 14:50 UTC is probably the result of
     melting frost or dew accumulation. Observations made by the LD40 do not suggest
     any precipitation at this time.'
+- added: 2024-03-05 15:49
+  author: DAH
+  start: 2024-03-05 14:29
+  end: 2024-03-05 14:56
+  text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests at this time.'
