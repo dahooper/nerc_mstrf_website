@@ -213,3 +213,9 @@
   start: 2024-03-05 14:29
   end: 2024-03-05 14:56
   text: 'Instrument: UPS Units. Units TX2, TX3, and TX4 passed self tests at this time.'
+- added: 2024-03-06 09:53
+  author: DAH
+  start: 2024-03-06 05:06
+  end: 2024-03-06 06:06
+  text: 'Instrument: UPS Units. Three of the units (TX3, TX5, and Beamform) switched to
+    battery power for approximately 1 s in response to an input power problem.'
